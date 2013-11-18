@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+  <blocks>
+    <block type="text" id="Abr">
+		<location x="382" y="14" />
+		<text color="#FFFFFF" size="24" font="Resources/dax-blackcaps.ttf" />
+		<border color="#000000" size="3" />
+	</block>
+    <block type="text" id="Name">
+		<location x="39" y="84" />
+		<text color="#FFFFFF" size="28" font="Resources/dax-blackcaps.ttf" />
+		<border color="#000000" size="2" />
+		<wordwrap height="35" width="370" shrinktofit="True" />
+	</block>
+	<block type="text" id="Subtype">
+		<location x="250" y="22" />
+		<text color="#FFFFFF" size="16" font="Resources/dax-blackcaps.ttf" />
+		<border color="#000000" size="1" />
+	</block>
+	<block type="text" id="Cardtype">
+		<location x="314" y="160" />
+		<text color="#000000" size="12" font="Resources/dax-blackcaps.ttf" />
+		<wordwrap height="16" width="74" align="center" />
+	</block>
+	<block type="text" id="Traits">
+		<location x="26" y="126" />
+		<text color="#000000" size="16" font="Resources/dax-blackcaps.ttf" />
+	</block>
+	<block type="text" id="Deck">
+		<location x="126" y="126" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+	</block>
+	<block type="text" id="StatBlock">
+		<location x="26" y="126" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+	</block>
+	<block type="text" id="HighText">
+		<location x="32" y="230" />
+		<text color="#000000" size="14" font="Resources/dax.ttf" />
+		<wordwrap height="320" width="370" />
+	</block>
+	<block type="text" id="Text">
+		<location x="32" y="360" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="200" width="370" />
+	</block>
+	<block type="text" id="AtLocation">
+		<location x="32" y="300" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="80" width="370" />
+	</block>
+	<block type="text" id="WhenClosing">
+		<location x="32" y="400" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="80" width="370" />
+	</block>
+	<block type="text" id="WhenClosed">
+		<location x="32" y="500" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="80" width="370" />
+	</block>
+	<block type="text" id="Flavour">
+		<location x="32" y="370" />
+		<text color="#000000" size="10" font="Resources/dax-italic.ttf" />
+		<wordwrap height="200" width="370" valign="far"/>
+	</block>
+	<block type="text" id="Flavour2">
+		<location x="32" y="336" />
+		<text color="#000000" size="10" font="Resources/dax-italic.ttf" />
+		<wordwrap height="170" width="370" valign="far"/>
+	</block>
+	<block type="text" id="Recharge">
+		<location x="32" y="530" />
+		<text color="#000000" size="14" font="Resources/dax.ttf" />
+		<wordwrap height="50" width="370"/>
+	</block>
+	<block type="text" id="CheckTypeL">
+		<location x="32" y="218" />
+		<text color="#000000" size="11" font="Resources/dax-blackcaps.ttf" />
+		<wordwrap height="80" width="106" align="center" />
+	</block>
+	<block type="text" id="CheckValueL">
+		<location x="60" y="278" />
+		<text color="#000000" size="30" font="Resources/dax.ttf" />
+		<border color="#FFFFFF" size="4" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="CheckTypeM">
+		<location x="160" y="218" />
+		<text color="#000000" size="11" font="Resources/dax-blackcaps.ttf" />
+		<wordwrap height="80" width="106" align="center" />
+	</block>
+	<block type="text" id="CheckValueM">
+		<location x="188" y="278" />
+		<text color="#000000" size="30" font="Resources/dax.ttf" />
+		<border color="#FFFFFF" size="4" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="CheckJoinM">
+		<location x="188" y="198" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<border color="#000000" size="1" />
+		<wordwrap height="16" width="50" align="center" />
+	</block>
+	<block type="text" id="CheckTypeR">
+		<location x="288" y="218" />
+		<text color="#000000" size="11" font="Resources/dax-blackcaps.ttf" />
+		<wordwrap height="80" width="106" align="center" />
+	</block>
+	<block type="text" id="CheckValueR">
+		<location x="316" y="278" />
+		<text color="#000000" size="30" font="Resources/dax.ttf" />
+		<border color="#FFFFFF" size="4" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="CheckJoinR">
+		<location x="316" y="198" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<border color="#000000" size="1" />
+		<wordwrap height="16" width="50" align="center" />
+	</block>
+  </blocks>
+  <template src="Proxy/Villain.jpg">
+	<matches>
+	  <match name="Subtype" value="Villain" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Cardtype">
+	   <property name="Subtype2" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeL">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueL">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="CheckJoinM">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr9" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr7" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr8" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Henchman.jpg">
+	<matches>
+	  <match name="Subtype" value="Henchman" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Cardtype">
+	   <property name="Subtype2" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Monster.jpg">
+	<matches>
+	  <match name="Subtype" value="Monster" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Cardtype">
+	   <property name="Subtype2" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Barrier.jpg">
+	<matches>
+	  <match name="Subtype" value="Barrier" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Ally.jpg">
+	<matches>
+	  <match name="Subtype" value="Ally" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template> 
+  <template src="Proxy/Weapon.jpg">
+	<matches>
+	  <match name="Subtype" value="Weapon" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template> 
+  <template src="Proxy/Item.jpg">
+	<matches>
+	  <match name="Subtype" value="Item" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <!--
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour2">
+	   <property name="Flavour" />
+	  </link>
+	  <link block="Recharge">
+	   <property name="Recharge" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Item.jpg">
+	<matches>
+	  <match name="Subtype" value="Loot" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour2">
+	   <property name="Flavour" />
+	  </link>
+	  <link block="Recharge">
+	   <property name="Recharge" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Blessing.jpg">
+	<matches>
+	  <match name="Subtype" value="Blessing" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour2">
+	   <property name="Flavour" />
+	  </link>
+	  <link block="Recharge">
+	   <property name="Recharge" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Spell.jpg">
+	<matches>
+	  <match name="Subtype" value="Spell" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour2">
+	   <property name="Flavour" />
+	  </link>
+	  <link block="Recharge">
+	   <property name="Recharge" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/Armor.jpg">
+	<matches>
+	  <match name="Subtype" value="Armor" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="CheckTypeM">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="CheckValueM">
+	   <property name="Attr3" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="CheckJoinR">
+	   <property name="Attr6" />
+	  </link>
+	  <link block="CheckTypeR">
+	   <property name="Attr4" />
+	  </link>
+	  <link block="CheckValueR">
+	   <property name="Attr5" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/LocationFront.jpg">
+	<matches>
+	  <match name="Type" value="Location" />
+	  <match name="Subtype2" value="Front" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Type" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="StatBlock">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="AtLocation">
+	   <property name="Attr2"/>
+	  </link>
+	  <link block="WhenClosing">
+	   <property name="Attr3"/>
+	  </link>
+	  <link block="WhenClosed">
+	   <property name="Attr4"/>
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/LocationBack.jpg">
+	<matches>
+	  <match name="Type" value="Location" />
+	  <match name="Subtype2" value="Back" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Type" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <!--
+	  <link block="Text">
+	   <property name="Flavour" />
+	   <property name="Attr1" format="&#10;When Closed&#10;{}" />
+	  </link>
+	  -->
+	 </textblocks>
+  </template>
+  <template src="Proxy/AdventureFront.jpg">
+	<matches>
+	  <match name="Type" value="Story" />
+	  <match name="Subtype" value="Adventure Path" />
+	  <match name="Subtype2" value="Front" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="Text">
+	   <property name="Flavour" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/AdventureBack.jpg">
+	<matches>
+	  <match name="Type" value="Story" />
+	  <match name="Subtype" value="Adventure Path" />
+	  <match name="Subtype2" value="Back" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="HighText">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Recharge">
+	   <property name="Attr2" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/AdventureFront.jpg">
+	<matches>
+	  <match name="Type" value="Story" />
+	  <match name="Subtype" value="Adventure" />
+	  <match name="Subtype2" value="Front" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="Text">
+	   <property name="Flavour" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/AdventureBack.jpg">
+	<matches>
+	  <match name="Type" value="Story" />
+	  <match name="Subtype" value="Adventure" />
+	  <match name="Subtype2" value="Back" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="HighText">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Recharge">
+	   <property name="Attr2" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/ScenarioFront.jpg" default="False">
+	<matches>
+	  <match name="Type" value="Story" />
+	  <match name="Subtype" value="Scenario" />
+	  <match name="Subtype2" value="Front" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="StatBlock">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/ScenarioBack.jpg" default="False">
+	<matches>
+	  <match name="Type" value="Story" />
+	  <match name="Subtype" value="Scenario" />
+	  <match name="Subtype2" value="Back" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="StatBlock" separator="&#10;">
+	   <property name="Attr2" format="Villain: {}" />
+	   <property name="Attr3" format="Henchmen: {}" />
+	  </link>
+	  <link block="HighText">
+	   <property name="Attr1" />
+	  </link>
+	  <link block="Recharge">
+	   <property name="Attr4" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/Character.jpg">
+	<matches>
+	  <match name="Type" value="Feat" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="Traits">
+	   <property name="Subtype" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/Character.jpg">
+	<matches>
+	  <match name="Type" value="Character" />
+	  <match name="Subtype2" value="Front" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="Traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="Deck">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr3" format="Favoured Card: {}" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	 </textblocks>
+  </template>
+  <template src="Proxy/Character.jpg" default="True">
+	<matches>
+	  <match name="Type" value="Character" />
+	  <match name="Subtype2" value="Back" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <link block="StatBlock">
+	   <property name="Attr2" />
+	  </link>
+	  <link block="Text" separator="&#10;">
+	   <property name="Attr3" format="Hand Size: {}" />
+	   <property name="Attr4" format="Proficiencies: {}" />
+	   <property name="Attr1" format="Powers:&#10;{}" />
+	  </link>
+	  <link block="Flavour">
+	   <property name="Flavour" />
+	  </link>
+	 </textblocks>
+  </template>
+</templates>

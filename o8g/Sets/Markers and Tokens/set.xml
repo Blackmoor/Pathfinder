@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Markers and Tokens" id="b455b8fd-bb25-4562-86b4-393c776e02bb" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.0" version="1.0.0.1">
+  <markers>
+    <marker id="72fdca01-ff61-4dd2-a6b8-43f567f90ff7" name="d4" />
+    <marker id="1f1a643b-2aea-48b2-91c8-96f0dffaad48" name="d6" />
+    <marker id="4165d32c-7b07-4040-8e57-860a95a0dc69" name="d8" />
+    <marker id="3b7cbb3a-4f52-4445-a4a5-65d5dfd9fa23" name="d10" />
+    <marker id="53d1f6b4-03f6-4b8b-8065-d0759309e00d" name="d12" />
+	<marker id="1b08a785-f745-4c93-b0f1-cdd64c89d95d" name="+" />
+	<marker id="b442c012-023f-42d1-9d28-e85168a4401a" name="-" />
+	<marker id="9aef0beb-22e6-49d8-a8a0-4069d50f528e" name="Cards" />
+  </markers>
+  <cards>
+   <card id="841f9b4d-489e-4afe-bae9-82a4d0128283" name="Custom">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+	<property name="Subtype2" value="Front" />
+   <alternate name="Custom" type="B">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr2" value="Strength: &#10;Dexterity: &#10;Constitution: &#10;Intelligence: &#10;Wisdom: &#10;Charisma: " />
+   </alternate>
+   </card>
+   <card id="c2414567-7d8f-4657-8c49-ea63886561b6" name="Alahazra">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="ff9b07a9-1a79-42a3-b325-e1f81d6f72f7" name="Alian">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="8fd8ad5d-f765-4671-947b-3abedc2feec0" name="Amiri">
+    <property name="Abr" value="C" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="dd02ff63-fb25-469c-badb-a426e00ee8ee" name="Balazar">
+    <property name="Abr" value="C" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="fb812675-d929-4dac-9fdb-03148c328d77" name="Damiel">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="ef589ee9-f97e-411f-92f5-e43b96adb256" name="Ezren">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="0537be81-971f-4f36-90a6-78c510cc179e" name="Feiya">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="b6cffe82-e805-4b47-ae24-20279095e075" name="Harsk">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="1b3bf580-2d48-4720-8be0-6d3f4f78db0e" name="Hayato">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="67cfd8ee-df23-455b-8d6f-a6d86e67b02f" name="Imrijka">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="5e3e72cf-d81b-4c4a-99cd-42ac702cf73d" name="Kyra">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="fe244b04-4884-4ed5-8c21-603222a9dc37" name="Lem">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="b287972f-428e-4495-9390-9ef911a18a11" name="Lini">
+    <property name="Abr" value="C" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="ad79890a-1f76-4bbe-babc-e1ad2af80718" name="Lirianne">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="4632c480-525b-4e9d-a8ab-ff249979aad2" name="Merisiel">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="13af4439-859c-48be-ac3a-2f84254b1d71" name="Reiko">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="876aa1ca-ba20-4b25-82df-a7216069a3be" name="Sajan">
+    <property name="Abr" value="C" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="0aae02bf-54ff-4fe2-b5fc-b07b0aec378b" name="Seelah">
+    <property name="Abr" value="C" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="e5a37887-3ccb-440a-bc79-b123676c2290" name="Seltyiel">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="d57dd44c-ca61-4ba6-a8d2-7ca1439a8b77" name="Seoni">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   <card id="c1e43f04-d52d-46a0-b676-8f0bbf3a5079" name="Valeros">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+  </cards>
+</set>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Character" shared="False" />
+  <section name="Weapons" shared="False" />
+  <section name="Spells" shared="False" />
+  <section name="Armours" shared="False" />
+  <section name="Items" shared="False" />
+  <section name="Allies" shared="False" />
+  <section name="Blessings" shared="False" />
+  <section name="Feats" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True">
+    <card qty="1" id="105c00b1-6f05-49f0-9fef-94f256930559">Grindylow</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="796b4fdf-3251-46c8-bdd8-6cff6d07c4c0">Dance with Squealy Nord</card>
+  </section>
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True">
+    <card qty="1" id="f2c48d59-07f0-4d98-9b5e-c3bc84ea9558">Horsechopper +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="b6c26b73-1882-446d-acb5-6f8f61221d9b">Fire Sneeze</card>
+  </section>
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True">
+    <card qty="1" id="b73bcd93-2376-4463-a22d-dcba2927d01e">Poog of Zarongel</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="1" id="f2aa27e7-a000-48b8-b981-4f100006e58f">Blessing of Zarongel</card>
+  </section>
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

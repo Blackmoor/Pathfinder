@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Character" shared="False">
+    <card qty="1" id="841f9b4d-489e-4afe-bae9-82a4d0128283">Custom</card>
+    <card qty="1" id="c2414567-7d8f-4657-8c49-ea63886561b6">Alahazra</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="20f687e1-3921-47f2-8f15-fa7bb6d92ece">Light Crossbow</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="75419742-cdbc-4e65-89a2-725a835201fc">Cure</card>
+    <card qty="1" id="7416392f-a4e2-4213-acbf-b5019d93514b">Sanctuary</card>
+    <card qty="1" id="7815f608-3589-44c5-862a-4c5c63569c08">Guidance</card>
+    <card qty="1" id="0b65c9b2-d654-4dd4-983d-770c0a0c9fa2">Detect Magic</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="312c869c-220f-4ad8-9036-4d74d8b20791">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="ba8d502f-dac4-4103-a481-2d84b96cf0c3">Holy Water</card>
+    <card qty="1" id="25025be6-9505-407f-b053-337dc98c685d">Potion of Hiding</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="f4da068c-aa16-4fbf-a94f-7b88e1f13c4a">Guide</card>
+    <card qty="1" id="56729519-50fd-49d9-bcbe-98fdce7c61d5">Guard</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="5" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False">
+    <card qty="1" id="96af776a-b1e0-468d-95be-4b6cd500cbae">Strength d6</card>
+    <card qty="1" id="583feb7b-c356-4c5e-99cb-006e75635bed">Dexterity d8</card>
+    <card qty="1" id="1be1ce71-0abe-4da3-bd85-3ee0946515ea">Constitution d6</card>
+    <card qty="1" id="2cff2072-7c3f-4b13-b219-06da014becc1">Intelligence d4</card>
+    <card qty="1" id="bdfa3778-308d-421a-9cbe-796706d0cf2c">Wisdom d8</card>
+    <card qty="1" id="fa44cb0f-c46a-48cd-8274-1216e54fed20">Charisma d10</card>
+    <card qty="1" id="e0009c85-879d-4775-97cd-97a70585c753">Hand Size 5</card>
+    <card qty="1" id="98f59bc7-7f2b-4adc-98be-5974db8e541b">Spell</card>
+  </section>
+  <notes><![CDATA[Describe your skills and powers here]]></notes>
+</deck>

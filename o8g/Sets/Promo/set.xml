@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promo" id="b37bbdfc-5106-4b17-a077-259f3405cda1" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.0.0.0">
+  <cards>
+   <card id="796b4fdf-3251-46c8-bdd8-6cff6d07c4c0" name="Dance with Squealy Nord">
+    <property name="Abr" value="P" />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Subtype2" value="Barrier" />
+    <property name="Traits" value="Obstacle&#10;Animal&#10;Elite" />
+    <property name="Flavour" value="&quot;Piggy, piggy, piggy, pig!&#10;Hard to ride when they get big!&#10;So catch yourself a piggy pup,&#10;And ride him till the sun comes up!&quot;&#10; - Goblin lullaby" />
+    <property name="Attr1" value="If defeated, draw 1d4 random items from the box, choose 1 and add to your hand, then banish the rest.&#10;&#10;If undefeated, you are dealt 1 Combat damage; choose another character at your location to draw a card." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="9" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="18" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="105c00b1-6f05-49f0-9fef-94f256930559" name="Grindylow">
+    <property name="Abr" value="P" />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Aberration&#10;Goblin&#10;Aquatic&#10;Veteran" />
+    <property name="Flavour" value="&quot;Yummy squid! Salty! Tough!&#10;Tasy 'cause they fight so rough.&#10;But if squid have goblin grin,&#10;Run like hell, he ain't you kin!&quot;&#10;- Goblin beachcombing song" />
+    <property name="Attr1" value="The Grindylow may not be evaded.&#10;&#10;The difficulty to defeat the Grindylow is increased by the adventure deck number of the current scenario, if any." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="12" />
+   </card>
+   <card id="b73bcd93-2376-4463-a22d-dcba2927d01e" name="Poog of Zarongel">
+    <property name="Abr" value="P" />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Goblin&#10;Cleric" />
+    <property name="Flavour" value="&quot;Poog say Zarongel is the best,&#10;He help burn things and heal the rest.&#10;Zarongel's favor makes Poog blessed,&#10;And Poog also stab you with knife if you make fun of how he isn't good at riding animals.&quot;    -Poog's song" />
+    <property name="Attr1" value="Recharge this card to add 3 with the Fire trait to a combat check.&#10;&#10;Bury this card to recharge 1d4 random cards from your discard pile.&#10;&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Divine" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="f2aa27e7-a000-48b8-b981-4f100006e58f" name="Blessing of Zarongel">
+    <property name="Abr" value="P" />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Zarongel" />
+    <property name="Flavour" value="&quot;Every beastie has a taste,&#10;Whether raw or stewed to paste!&#10;If a beastie bites your hide,&#10;Climb up top and take a ride!&quot;   -Goblin hunting song." />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check with the Fire trait, or to a check to defeat or acquire a card with the Animal trait.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="6" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+    <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
+   </card>
+   <card id="b6c26b73-1882-446d-acb5-6f8f61221d9b" name="Fire Sneeze">
+    <property name="Abr" value="P" />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Fire" />
+    <property name="Flavour" value="&quot;Peppered oil, up the nose,&#10;In with all the snot it goes.&#10;When you see a horse's knees,&#10;Roast them right with burning sneeze!&quot;&#10;Goblin wizarding song" />
+    <property name="Attr1" value="For your combat check, discard this card to roll your Arcane or Divine die + 1d12 with the Fire trait.&#10;Discard this card to add 1d4 with the Fire trait to a combat check using a weapon.&#10;If you do not have either the Arcane or Divine skill, banish this card.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="f2c48d59-07f0-4d98-9b5e-c3bc84ea9558" name="Horsechopper +1">
+    <property name="Abr" value="P" />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Melee&#10;Slashing&#10;2-Handed&#10;Magic" />
+    <property name="Flavour" value="&quot;Trip the horse, watch him drop,&#10;As he whinnies, chop, chop, chop!&#10;Don't stop there, 'cause horse is big;&#10;When it croaks, dance goblin jig!&quot;&#10; - Goblin festival song" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+1. If you aren’t proficient with weapons, the difficulty of this check is increased by 4.&#10;If you fail a combat check using this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="9" />
+   </card>
+  </cards>
+</set>

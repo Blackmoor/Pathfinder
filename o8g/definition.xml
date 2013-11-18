@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		name="Pathfinder - Adventure Card Game"
+		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
+		octgnVersion="3.1.97.227"
+		version="1.0.5.13"
+		markersize="10"
+		tags="Pathfinder"
+		description="The Pathfinder Adventure Card Game is an expandable game, with the first set containing nearly 500 cards. The Rise of the Runelords - Base Set supports 1 to 4 players; a 110-card Character Add-On Deck expands the possible number of players to 5 or 6 and adds more character options for any number of players. The game will be expanded with bimonthly 110-card adventure decks."
+		setsurl="http://octgn.gamersjudgement.com/wordpress/pathfinder/"
+		gameurl="http://octgn.gamersjudgement.com/wordpress/pathfinder/"
+		authors="Memetix"
+		iconurl="http://cf.geekdo-images.com/images/pic1775517_t.jpg"
+		usetwosidedtable="False">
+  <scripts>
+    <script src="scripts/actions.py" />
+	<script src="scripts/cardPile.py" />
+	<script src="scripts/random.py" />
+	<script src="scripts/deck.py" />
+  </scripts>
+  <events>
+    <event name="OnLoadDeck" action="deckLoaded"/>
+	<event name="OnTurn" action="startOfTurn"/>
+	<event name="OnMoveCard" action="checkAvatar"/>
+	<event name="OnMoveCard" action="cardPile"/>
+  </events>
+  <sounds>
+    <sound name="dice" src="Resources/shakerolldice.wav"/>
+  </sounds>
+  <fonts>
+    <font src="Resources/dax.ttf" size="12" target="context" />
+	<font src="Resources/dax.ttf" size="12" target="chat" />
+	<font src="Resources/dax.ttf" size="12" target="deckeditor" />
+  </fonts>
+  <proxygen definitionsrc="Proxy/proxy.xml"/>
+  <documents>
+  </documents>
+  <card back="Resources/card.jpg" front="Resources/card.jpg" width="63" height="88" cornerRadius="3">
+    <property name="Type" type="String" hidden="False" ignoreText="False" textKind="Enum" /> <!-- Character, Role, Story, Location, Bane, Boon -->
+    <property name="Subtype" type="String" hidden="False" ignoreText="False" textKind="Enum" /> <!-- Path, Adventure, Scenario, Monster, Villain, Henchmen, Barrier, Weapon, Spell, Armour, Loot, Item, Ally, Blessing -->
+	<property name="Subtype2" type="String" hidden="False" ignoreText="False" textKind="Enum" /> <!-- Front, Back, Monster, Barrier -->
+	<property name="Abr" type="String" hidden="False" ignoreText="False" textKind="Enum" />
+	<property name="Traits" type="String" hidden="False" ignoreText="False" textKind="Tokens" />
+	<property name="Attr1" type="String" hidden="True" ignoreText="True" />
+	<property name="Attr2" type="String" hidden="True" ignoreText="True" />
+    <property name="Attr3" type="String" hidden="True" ignoreText="True" />
+    <property name="Attr4" type="String" hidden="True" ignoreText="True" />
+	<property name="Attr5" type="String" hidden="True" ignoreText="True" />
+    <property name="Attr6" type="String" hidden="True" ignoreText="True" />
+	<property name="Attr7" type="String" hidden="True" ignoreText="True" />
+	<property name="Attr8" type="String" hidden="True" ignoreText="True" />
+    <property name="Attr9" type="String" hidden="True" ignoreText="True" />
+	<property name="Flavour" type="String" hidden="True" ignoreText="False" />
+	<property name="Recharge" type="String" hidden="True" ignoreText="False" />
+  </card>
+  <table name="Table" visibility="undefined" ordered="False" width="700" height="300" background="Resources/background.jpg" backgroundStyle="uniformToFill">
+    <groupaction menu="Pick Scenario" default="False" shortcut="ctrl+P" execute="pickScenario" />
+	<groupaction menu="Reveal Random Card" default="False" execute="randomCard" />	
+	<groupaction menu="Reveal Random Cards" default="False" execute="randomCards" />
+	<groupaction menu="Hidden Random Card" default="False" execute="randomHiddenCard" />
+	<groupaction menu="Save Deck" default="False" execute="saveDeck" />	
+	<groupaction menu="Save Box" default="False" execute="saveBox" />	
+	<cardaction menu="Acquire" default="False" shortcut="ctrl+A" execute="acquireCard" />
+    <cardaction menu="Banish" default="False" shortcut="Del" execute="banishCard" />
+	<cardaction menu="Remove from Play" default="False" execute="removeCard" />
+	<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipCard" />
+	<cardactions menu="Pile" >
+	  <cardaction menu="Shuffle" default="False" shortcut="ctrl+S" execute="shufflePile" />
+	  <cardaction menu="Peek at Top" default = "False" execute="peekTop" />
+	  <cardaction menu="Peek at Bottom" default = "False" execute="peekBottom" />
+	</cardactions>
+	<cardactions menu="Location">
+	  <cardaction menu="Explore" default="False" shortcut="ctrl+E" execute="exploreLocation" />
+	  <cardaction menu="Temporary Close" default="False" shortcut="ctrl+T" execute="closeTemporarily" />
+	  <cardaction menu="Permanent Close" default="False" shortcut="ctrl+C" execute="closePermanently" />
+	</cardactions>
+	<cardaction menu="Hide Villain" default="False" shortcut="ctrl+H" execute="hideVillain" />
+	<cardactions menu="Add Dice">
+	  <cardaction menu="d12" shortcut="F12" execute="d12Add" />
+	  <cardaction menu="d10" shortcut="F10" execute="d10Add" />
+	  <cardaction menu="d8" shortcut="F8" execute="d8Add" />
+	  <cardaction menu="d6" shortcut="F6" execute="d6Add" />
+	  <cardaction menu="d4" shortcut="F4" execute="d4Add" />
+	  <cardaction menu="+3" shortcut="F3" execute="plusThree" />
+	  <cardaction menu="+2" shortcut="F2" execute="plusTwo" />
+	  <cardaction menu="+1" shortcut="F1" execute="plusOne" />
+	</cardactions>
+	<cardactions menu="Remove Dice">
+	  <cardaction menu="d12" shortcut="shift+F12" execute="d12Sub" />
+	  <cardaction menu="d10" shortcut="shift+F10" execute="d10Sub" />
+	  <cardaction menu="d8" shortcut="shift+F8" execute="d8Sub" />
+	  <cardaction menu="d6" shortcut="shift+F6" execute="d6Sub" />
+	  <cardaction menu="d4" shortcut="shift+F4" execute="d4Sub" />
+	  <cardaction menu="+3" shortcut="shift+F3" execute="minusThree" />
+	  <cardaction menu="+2" shortcut="shift+F2" execute="minusTwo" />
+	  <cardaction menu="+1" shortcut="shift+F1" execute="minusOne" />
+	</cardactions>
+	<cardaction menu="Default Action" default="True" execute="defaultAction" />
+  </table>
+  <player summary="Hand {#Hand} Deck {#Deck}">
+    <hand name="Hand" visibility="all" ordered="False" width="63" height="88" icon="Resources/hand.png">
+	  <groupaction menu="Draw Up" default="False" execute="drawUp" />
+      <cardaction menu="Reveal" default="True" execute="revealCard" />
+	  <cardaction menu="Display" default="False" shortcut="ctrl+D" execute="displayCard" />
+      <cardaction menu="Discard" default="False" shortcut="Del" execute="discardCard" />
+	  <cardaction menu="Recharge" default="False" shortcut="ctrl+R" execute="rechargeCard" />
+	  <cardaction menu="Bury" default="False" shortcut="ctrl+B" execute="buryCard" />
+	  <cardaction menu="Banish" default="False" shortcut="Shift+Del" execute="banishCard" />
+    </hand>
+    <group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="Resources/player.png" collapsed="False">
+	  <groupaction menu="Shuffle" default="False" execute="shuffleDeck" />
+    </group>
+    <group name="Discarded" visibility="all" ordered="True" width="63" height="88" icon="Resources/discard.png" collapsed="False">
+      <groupaction menu="Recharge Random Card" default="True" shortcut="ctrl+R" execute="rechargeRandom" />
+    </group>
+	<group name="Buried" visibility="all" ordered="True" width="63" height="88" icon="Resources/dead.png" collapsed="False">
+    </group>
+  </player>
+  <shared>
+    <group name="Blessing Deck" visibility="none" ordered="True" width="63" height="88" icon="Resources/blessing.png" collapsed="False" />
+	<group name="Blessing Discard" visibility="all" ordered="True" width="63" height="88" icon="Resources/discard.png" collapsed="False">
+	  <groupaction menu="Return Random Blessing" default="False" execute="returnToBlessingDeck" />
+	</group>
+	<group name="Location1" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Location2" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Location3" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Location4" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Location5" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Location6" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Location7" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Location8" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False" />
+	<group name="Villain" visibility="all" ordered="True" width="63" height="88" icon="Resources/box.png" collapsed="True" />
+	<group name="Henchman" visibility="all" ordered="True" width="63" height="88" icon="Resources/box.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Monster" visibility="all" ordered="True" width="63" height="88" icon="Resources/monster.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Barrier" visibility="all" ordered="True" width="63" height="88" icon="Resources/barrier.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Armor" visibility="all" ordered="True" width="63" height="88" icon="Resources/armor.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Weapon" visibility="all" ordered="True" width="63" height="88" icon="Resources/weapon.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Spell" visibility="all" ordered="True" width="63" height="88" icon="Resources/spell.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Item" visibility="all" ordered="True" width="63" height="88" icon="Resources/item.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Ally" visibility="all" ordered="True" width="63" height="88" icon="Resources/box.png" collapsed="False" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Loot" visibility="all" ordered="True" width="63" height="88" icon="Resources/loot.png" collapsed="True" />
+	<group name="Blessing" visibility="all" ordered="True" width="63" height="88" icon="Resources/blessing.png" collapsed="True" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Story" visibility="all" ordered="False" width="63" height="88" icon="Resources/box.png" collapsed="True" />
+	<group name="Location" visibility="all" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True" />
+	<group name="InUse" visibility="none" ordered="True" width="63" height="88" icon="Resources/dead.png" collapsed="True" />
+	<group name="Internal" visibility="all" ordered="True" width="63" height="88" icon="Resources/discard.png" collapsed="True" >
+	  <groupaction menu="Toggle Debug" default="False" execute="toggleDebug" />
+	</group>
+  </shared>
+  <deck>
+    <section name="Character" group="Hand" />
+    <section name="Weapon" group="Discarded" />
+    <section name="Spell" group="Discarded" />
+    <section name="Armor" group="Discarded" />
+	<section name="Item" group="Discarded" />
+	<section name="Ally" group="Discarded" />
+	<section name="Blessing" group="Discarded" />
+	<section name="Feat" group="Buried" />
+  </deck>
+  <sharedDeck>
+    <section name="Story" group="Story" />
+	<section name="Henchman" group="Henchman" />
+	<section name="Monster" group="Monster" />
+	<section name="Barrier" group="Barrier" />
+	<section name="Armor" group="Armor" />
+	<section name="Weapon" group="Weapon" />
+	<section name="Spell" group="Spell" />
+	<section name="Item" group="Item" />
+	<section name="Ally" group="Ally" />
+	<section name="Blessing" group="Blessing" />
+	<section name="Loot" group="Loot" />
+	<section name="Location" group="Location" />
+	<section name="Villain" group="Villain" />
+  </sharedDeck>
+</game>

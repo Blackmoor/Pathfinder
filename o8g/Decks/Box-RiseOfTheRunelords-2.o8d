@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Henchman" shared="True">
+    <card qty="6" id="af5be048-78d7-4720-8bef-5083e1c2cd6d">Charmed Faceless Stalker</card>
+    <card qty="6" id="afd29992-c74c-400d-a567-512d3978ba20">Ghoul Scarecrow</card>
+    <card qty="7" id="72f7ab8a-71ce-4d5b-82a9-3eee47bca8c8">Haunt</card>
+    <card qty="7" id="adc74804-ee41-48d2-91a2-62c1544dc384">Skinsaw Cultist</card>
+    <card qty="5" id="cc06ef42-4421-49ca-9a93-9efa3c7d5b2b">Zombie Minion</card>
+    <card qty="1" id="2844618f-ed35-4355-95c3-543ebe11f00c">Dr. Habe</card>
+    <card qty="1" id="b3560b5b-8166-4f54-b634-95759bd8df5b">Grayst Sevilla</card>
+    <card qty="1" id="94aa7ff4-932c-4c28-aea2-0866e81d7db2">Pidget Tergelson</card>
+    <card qty="1" id="3c64d77b-1ab0-45c5-81c7-2494603242a2">Scarecrow Golem</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="a29f572d-2386-4966-a057-334d0f092886">Impaler of Thorns</card>
+    <card qty="1" id="9b2e1180-27d5-4262-bf89-98c258014fb5">Medusa Mask</card>
+    <card qty="1" id="154d1e94-2539-4886-a3e8-0880878135bd">Sihedron Medallion</card>
+    <card qty="1" id="b473f20d-26bd-4ec4-b359-17c99d40dc8f">Snakeskin Tunic</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="f62492cb-aa2f-4aaa-a481-aacbae823656">Caizarlu Zerren</card>
+    <card qty="1" id="bc795894-88d5-43db-a548-acac6fd1a89e">Iesha Foxglove</card>
+    <card qty="1" id="57c16e82-9e80-4d31-ab02-f2f1223cd521">Justice Ironbriar</card>
+    <card qty="1" id="552c3adf-e5c9-4ac6-8285-08503e4db4a3">Rogors Craesby</card>
+    <card qty="1" id="8d31fde0-201e-4186-80e7-167d6d95ec5a">The Skinsaw Man</card>
+    <card qty="1" id="86624981-8e93-4b6f-b619-16c7d2186909">Xanesha</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="bb85d569-3832-4464-a1b6-2b57131dba99">Arrow Catching Studded Leather</card>
+    <card qty="1" id="80f7b1cb-50ae-442e-81db-48cf2bcc0cff">Deathbane Shield</card>
+    <card qty="1" id="eca8ce01-db9e-49cf-8487-25435dbd564f">Hide Armor of Fire Resistance</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="701891b5-b483-439a-9b98-178403094113">Scythe +1</card>
+    <card qty="1" id="506245e1-73ae-432c-b05c-4eee2ac23140">Sickle +1</card>
+    <card qty="1" id="ec148676-eb36-48ee-9242-bf7b2fdae9e5">War Razor +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="393323a6-1710-4a4e-931c-eddd0e70743c">Consecration</card>
+    <card qty="1" id="7c0d6c96-b2b8-4dbb-a34a-58c555a2576d">Haste</card>
+    <card qty="1" id="918d6114-a758-4c52-8207-641701242e91">Lightning Bolt</card>
+    <card qty="1" id="8550f92d-750c-490d-bcdb-c87715ca4200">Toxic Cloud</card>
+    <card qty="1" id="e89ae5e6-3421-45f2-9a6e-7ca1ac5db4cc">Web</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="c2248d60-7176-442b-a44e-4d877276e33b">Chime of Unlocking</card>
+    <card qty="1" id="aef282b9-cc9d-41b5-acff-ae36722cb11a">Cloak of Elvenkind</card>
+    <card qty="1" id="e9910266-fa6a-4731-aa39-027fe8c658bd">Ring of Protection</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="656b387f-22d4-4a09-b0b3-f586a2e346f1">Brodert Quink</card>
+    <card qty="1" id="64705ae9-23ac-4b56-a436-0fd70c28baf7">Maester Grump</card>
+    <card qty="1" id="54eb4470-b8ba-4348-8050-8a892d0de0a4">Merchant</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="8f62357b-b692-4c83-9e6a-ac183d5eb2d8">Blessing of Abadar</card>
+  </section>
+  <section name="Story" shared="True">
+    <card qty="1" id="375eaabd-04ca-4cd1-8bd9-17580a9f4824">This Skinsaw Murders</card>
+    <card qty="1" id="b1721e4e-3912-4993-8486-3308cd5f7c26">Angel in the Tower</card>
+    <card qty="1" id="425aaa70-2822-4ceb-b340-b47824675801">Crow Bait</card>
+    <card qty="1" id="f5958f50-2c69-42ea-bc33-c00e9bddf357">Foul Misgivings</card>
+    <card qty="1" id="06e03e4e-ac40-4b4a-83be-89957fe32050">The Cult Exposed</card>
+    <card qty="1" id="319b34f2-0d56-4df7-ac99-2107619f368f">Undead Uprising</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="1e60ce9a-81a5-49d7-bed8-4c2e3328e6fa">Foxglove Manor</card>
+    <card qty="1" id="ae8806f8-ca85-472b-a081-932b652f1b58">Habe's Sanitorium</card>
+    <card qty="1" id="50691e53-6c84-4d12-bc73-35e1c8ecc28d">Mill</card>
+    <card qty="1" id="beba802a-0bcc-4e36-afb5-b2ca867aa75e">Shadow Clock</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Monster" shared="True">
+    <card qty="2" id="a4ff8fea-615d-44f8-870c-2a45068fea9b">Carrionstorm</card>
+    <card qty="2" id="9bfc0020-d0b3-4aee-82c1-13097a4f59d5">Diseased Rats</card>
+    <card qty="2" id="6db0e631-126b-4e31-bde1-abedd6ddb793">Faceless Stalker</card>
+    <card qty="3" id="1871c008-6c44-40d7-baee-b017b62177e4">Ghoul</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="a3fda8c8-6350-4e44-aff0-43c51b0eed52">Falling Bell</card>
+    <card qty="1" id="7c79f660-bac6-4f90-8e4b-3b041996d3ae">Locked Stone Door</card>
+    <card qty="3" id="3e814001-c2e9-4a3f-b206-d5657f24cade">Skinsaw Ritual</card>
+    <card qty="2" id="3ecc9285-26f1-4743-bbb5-06f7e12687e8">Zombie Horde</card>
+    <card qty="1" id="3d2eb30b-4789-4e27-a10c-e22f7dbdf044">Zombie Nest</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

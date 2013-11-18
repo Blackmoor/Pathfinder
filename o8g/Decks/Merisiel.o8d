@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Character" shared="False">
+    <card qty="1" id="bec82ff2-b72b-439c-ad3c-998bf1c8a339">Merisiel</card>
+    <card qty="1" id="4632c480-525b-4e9d-a8ab-ff249979aad2">Merisiel</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="e9d4bfbe-8038-4a4d-9d74-324730b7b8b2">Dagger</card>
+    <card qty="1" id="2916cc22-9796-429c-b0f1-ca00527d6d4b">Dart</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="312c869c-220f-4ad8-9036-4d74d8b20791">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="d36556a5-181f-4aa3-95bc-9b1790bb753a">Caltrops</card>
+    <card qty="1" id="4c9debdc-f4df-4911-b851-3051ebd72e23">Crowbar</card>
+    <card qty="1" id="c1b5c3cb-b91a-4fd5-8bae-591c0e07eb93">Potion of Glibness</card>
+    <card qty="1" id="8e56174d-1d86-47d0-bc9f-43fd422a3834">Potion of Vision</card>
+    <card qty="2" id="5ac1fe86-2d16-47bd-a97c-88f402e09f06">Thieve's Tools</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="468025e3-6a6b-4ae7-a84f-6c00d3df0257">Burglar</card>
+    <card qty="1" id="56729519-50fd-49d9-bcbe-98fdce7c61d5">Guard</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+  </section>
+</deck>

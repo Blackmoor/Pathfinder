@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Character" shared="False">
+    <card qty="1" id="a235a0c4-b734-427c-b7cb-17e29c8cae83">Kyra</card>
+    <card qty="1" id="5e3e72cf-d81b-4c4a-99cd-42ac702cf73d">Kyra</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="6e6d558e-9cc5-4139-b5cc-7dae4332c61a">Mace</card>
+    <card qty="1" id="dacdc5d5-32fa-4a8d-8fce-aa1ffd5dc5bd">Quarterstaff</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="75419742-cdbc-4e65-89a2-725a835201fc">Cure</card>
+    <card qty="1" id="7815f608-3589-44c5-862a-4c5c63569c08">Guidance</card>
+    <card qty="1" id="a304a4c9-8c35-4e8a-8baa-df6350ce9e77">Mending</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="179a095a-b1f9-45c2-b323-57f29723c2af">Chain Mail</card>
+    <card qty="1" id="ab1d7d2a-4693-47ae-9baa-e2c7a97b5625">Wooden Shield</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="ba8d502f-dac4-4103-a481-2d84b96cf0c3">Holy Water</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="56729519-50fd-49d9-bcbe-98fdce7c61d5">Guard</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="6" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+  </section>
+</deck>
