@@ -31,21 +31,23 @@
     <card qty="1" id="eca8ce01-db9e-49cf-8487-25435dbd564f">Hide Armor of Fire Resistance</card>
   </section>
   <section name="Weapon" shared="True">
-    <card qty="1" id="701891b5-b483-439a-9b98-178403094113">Scythe +1</card>
+    <card qty="2" id="be015892-caad-4c61-a5b6-e93e4000d0a2">Heavy Pick +1</card>
+    <card qty="1" id="f97a7aff-a670-4820-89d6-1f95795ee733">Light Crossbow +1</card>
+    <card qty="2" id="701891b5-b483-439a-9b98-178403094113">Scythe +1</card>
     <card qty="1" id="506245e1-73ae-432c-b05c-4eee2ac23140">Sickle +1</card>
-    <card qty="1" id="ec148676-eb36-48ee-9242-bf7b2fdae9e5">War Razor +1</card>
+    <card qty="2" id="ec148676-eb36-48ee-9242-bf7b2fdae9e5">War Razor +1</card>
   </section>
   <section name="Spell" shared="True">
-    <card qty="1" id="393323a6-1710-4a4e-931c-eddd0e70743c">Consecration</card>
-    <card qty="1" id="7c0d6c96-b2b8-4dbb-a34a-58c555a2576d">Haste</card>
-    <card qty="1" id="918d6114-a758-4c52-8207-641701242e91">Lightning Bolt</card>
-    <card qty="1" id="8550f92d-750c-490d-bcdb-c87715ca4200">Toxic Cloud</card>
-    <card qty="1" id="e89ae5e6-3421-45f2-9a6e-7ca1ac5db4cc">Web</card>
+    <card qty="2" id="393323a6-1710-4a4e-931c-eddd0e70743c">Consecration</card>
+    <card qty="2" id="7c0d6c96-b2b8-4dbb-a34a-58c555a2576d">Haste</card>
+    <card qty="2" id="918d6114-a758-4c52-8207-641701242e91">Lightning Bolt</card>
+    <card qty="2" id="8550f92d-750c-490d-bcdb-c87715ca4200">Toxic Cloud</card>
+    <card qty="2" id="e89ae5e6-3421-45f2-9a6e-7ca1ac5db4cc">Web</card>
   </section>
   <section name="Item" shared="True">
-    <card qty="1" id="c2248d60-7176-442b-a44e-4d877276e33b">Chime of Unlocking</card>
-    <card qty="1" id="aef282b9-cc9d-41b5-acff-ae36722cb11a">Cloak of Elvenkind</card>
-    <card qty="1" id="e9910266-fa6a-4731-aa39-027fe8c658bd">Ring of Protection</card>
+    <card qty="2" id="c2248d60-7176-442b-a44e-4d877276e33b">Chime of Unlocking</card>
+    <card qty="2" id="aef282b9-cc9d-41b5-acff-ae36722cb11a">Cloak of Elvenkind</card>
+    <card qty="2" id="e9910266-fa6a-4731-aa39-027fe8c658bd">Ring of Protection</card>
   </section>
   <section name="Ally" shared="True">
     <card qty="1" id="656b387f-22d4-4a09-b0b3-f586a2e346f1">Brodert Quink</card>
@@ -56,7 +58,7 @@
     <card qty="5" id="8f62357b-b692-4c83-9e6a-ac183d5eb2d8">Blessing of Abadar</card>
   </section>
   <section name="Story" shared="True">
-    <card qty="1" id="375eaabd-04ca-4cd1-8bd9-17580a9f4824">This Skinsaw Murders</card>
+    <card qty="1" id="375eaabd-04ca-4cd1-8bd9-17580a9f4824">The Skinsaw Murders</card>
     <card qty="1" id="b1721e4e-3912-4993-8486-3308cd5f7c26">Angel in the Tower</card>
     <card qty="1" id="425aaa70-2822-4ceb-b340-b47824675801">Crow Bait</card>
     <card qty="1" id="f5958f50-2c69-42ea-bc33-c00e9bddf357">Foul Misgivings</card>
@@ -69,14 +71,6 @@
     <card qty="1" id="50691e53-6c84-4d12-bc73-35e1c8ecc28d">Mill</card>
     <card qty="1" id="beba802a-0bcc-4e36-afb5-b2ca867aa75e">Shadow Clock</card>
   </section>
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
   <section name="Monster" shared="True">
     <card qty="2" id="a4ff8fea-615d-44f8-870c-2a45068fea9b">Carrionstorm</card>
     <card qty="2" id="9bfc0020-d0b3-4aee-82c1-13097a4f59d5">Diseased Rats</card>
@@ -90,5 +84,13 @@
     <card qty="2" id="3ecc9285-26f1-4743-bbb5-06f7e12687e8">Zombie Horde</card>
     <card qty="1" id="3d2eb30b-4789-4e27-a10c-e22f7dbdf044">Zombie Nest</card>
   </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
   <notes><![CDATA[]]></notes>
 </deck>

@@ -1,167 +1,220 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.1.0.0">
   <cards>
    <card id="9161cc3d-94d0-4399-88ae-3ae61e39a79c" name="Goblin Raid">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="87c9f50c-20d5-46c1-b0c0-2c9719df9807" name="Monster in the Closet">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="c650d6b7-05b0-4624-a99f-47f327c2bc17" name="Pit of Malfeshnekor">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="da754d2c-6969-488f-b9a3-ba7cb1322f90" name="Shopkeeper's Daughter">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="447f7189-c3a5-4433-95e5-9137e580d017" name="Slashing Blade">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="71940a21-9ffa-475a-9b0e-40f3d4b55313" name="Bruthazmus">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Bugbear&#10;Ranger&#10;Goblin" />
+    <property name="Attr1" value="Encounter Bruthazmus twice. Bruthazmus is defeated or undefeated based solely on the results of the second encounter.&#10;If defeated, you may immedately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="b66ff82b-b883-4598-b57a-2362557b7be0" name="Goblin Raider">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Goblin" />
+    <property name="Attr1" value="If undefeated, bury 1 item or weapon of your choice from your discard pile.&#10;If defeated, you may immediately attempt to close your location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="22f23eff-25c2-47a5-9215-8d0d3b44031b" name="Koruvus">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Goblin&#10;Mutant" />
+    <property name="Attr1" value="If undefeated, after the encounter, Korvus deals 1d4 Acid damage to each character at this location.&#10;If defeated, you may immediately attempt to close your location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="ae70afbd-4f91-469a-98a8-ca14cea5b9af" name="Lyrie Akenja">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Wizard" />
+    <property name="Attr1" value="Before the encounter, Lyrie Akenja deals 1d4-1 Fire damage to you.&#10;If defeated, you may immediately attempt to close your location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="e08b72e6-33c3-481d-8114-8c2bfbb4b8e8" name="Orik Vancaskerkin">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Fighter" />
+    <property name="Attr1" value="If defeated, succeed at a Charisma 5 check to search this location deck and choose a boon to add to your hand, then shuffle the location deck.&#10;If defeated, you may immediately attempt to close your location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="10" />
    </card>
    <card id="0aad5534-68b6-4f18-b108-64a325a95e19" name="Tangletooth">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Animal&#10;Cougar" />
+    <property name="Attr1" value="Each character at this location encounters Tangletooth. If any character does not defeat Tangletooth, she is undefeated.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="6be101cb-83b5-4d6a-aa45-6d3270c90957" name="Tsuto Kaikitsu">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Half-Elf&#10;Rogue&#10;Monk" />
+    <property name="Attr1" value="The difficulty of checks to defeat Tsuto with the Attack or Ranged traits is increased by 2.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="10" />
    </card>
    <card id="0650fe9d-a57b-489e-ae4a-498809631752" name="Wrathful Sinspawn">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Aberration" />
+    <property name="Attr1" value="Before the encounter, Succeed at a Wisdom 6 check or the difficulty of your checks is increased by 1 for the rest of the turn.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="f023d332-d741-4bde-bcfd-3e8a8389ff50" name="Attic Whisperer">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="3844666e-8d59-4947-adec-8e937ac6891a" name="Giant Hermit Crab">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="14222cb6-c5e1-4183-8cc1-c7c901e18cb0" name="Goblin Cutpurse">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="49066149-9aeb-411d-a7a0-454feb20c1dd" name="Goblin Dog">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="e0c414d5-9219-4eb6-b2d4-342692df30d2" name="Goblin Pyro">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="450f1c2d-d0e5-4fd5-928f-e5e5b36f0181" name="Goblin Snake">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="74c24cf9-71df-4bd9-a5b6-051c413ddb16" name="Goblin Warchanter">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="ab5a07c2-4fe0-4f5f-a1d9-70e25791a18e" name="Tickwood Boar">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="39d7abb9-0637-4b9b-8b83-55c0cf6f802f" name="Yeth Hound">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="a8133420-aa43-488d-ae53-097072b82546" name="Erylium">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Outsider&#10;Sorcerer" />
+    <property name="Flavour" value="&quot;Oooh, a trespasser! Impress me with your groveling, and maybe I'll let you leave with one of your eyes.&quot; --Erylium" />
+    <property name="Attr1" value="Before the encounter, choose a character at your location and encounter a Wrathful Sinspawn henchman.&#10;If undefeated, succeed at a Wisdom or Divine 8 check or move to a random other location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="14" />
+    <property name="Attr4" value="Arcane" />
+    <property name="Attr5" value="10" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="ce878fc5-7aa3-4078-b4de-cb2382cf7ecd" name="Gogmurt">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Goblin&#10;Druid" />
+    <property name="Flavour" value="&quot;Get 'em Tangletooth! Chomp 'em faces 'til they all outta faces to chomp!&quot; --Gogmurt, to his firepelt cougar Tangletooth" />
+    <property name="Attr1" value="Before the encounter, Gogmurt deals 1d4-1 Fire damage to you.&#10;You may not play allies with the Animal Trait.&#10;All damage from Gogmurt is Fire damage." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="10" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="12" />
+    <property name="Attr6" value="THEN" />
    </card>
    <card id="ae60ab9e-0856-45d1-84af-65fc1521a716" name="Nualia">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Outsider&#10;Fighter&#10;Cleric" />
+    <property name="Flavour" value="&quot;Get your filthy eyes off of me! A simpleton like you will never understand the beauty of the Mother of Monsters!&quot; --Nualia" />
+    <property name="Attr1" value="Before the encounter, Nualia deals 1d4 Force damage to each character at this location.&#10;For each blessing played in a check against Nualia, the difficulty of the check is increased by 2." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="12" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="14" />
+    <property name="Attr6" value="THEN" />
    </card>
    <card id="ac29afbc-092b-4e33-8487-ee3fae36c816" name="Ripnugget and Stickfoot">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Goblin&#10;Fighter&#10;and&#10;Animal" />
+    <property name="Flavour" value="&quot;Got big crown, got big knives,&#10;Got big gems for goblin wives!&#10;Me big chief, him big gecko,&#10;Nugget make your face a wreck-o!&quot; --Chief Ripnugget's goblin song" />
+    <property name="Attr1" value="Before the encounter, succeed at a Stealth 9 check or the difficulty to defeat Ripnugget is increased by 2." />
+    <property name="Attr2" value="(Stickfoot) Combat" />
+    <property name="Attr3" value="9" />
+    <property name="Attr4" value="(Ripnugget) Combat" />
+    <property name="Attr5" value="10" />
+    <property name="Attr6" value="THEN" />
    </card>
    <card id="0afb6174-3ba5-4f52-9ecd-05d225f4444e" name="The Sandpoint Devil">
     <property name="Abr" value="1" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Outsider" />
+    <property name="Flavour" value="&quot;After what we heard up on the roof--the clomping and snorting and that terrible, terrible tearing--I ain't ashamed to say I kept right here between the sheets and didn't even thing about coming out till morning. We lost three cows and my favorite porker that night.&#10;&#10;&quot;I still feel like we got off easy.&quot; -- Account of Missy Rundell, Sandpoint Farmer" />
+    <property name="Attr1" value="After the encounter, banish The Sandpoint Devil." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="20" />
     <property name="Attr4" value="Combat" />
@@ -252,6 +305,10 @@
     <property name="Abr" value="1" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic&#10;Sihedron" />
+    <property name="Attr1" value="Discard this card to reduce damage dealt to you by 4." />
+    <property name="Recharge" value="Succeed at an Arcane or Divine 9 check to recharge this card instead of discarding it." />
    </card>
    <card id="fdea7274-9050-4738-b3ef-469fed526f80" name="Enfeeble">
     <property name="Abr" value="1" />

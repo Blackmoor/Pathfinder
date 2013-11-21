@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Skinsaw Murders" id="bcee5a76-cb0a-4496-8629-96c4e39ed322" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.0.0.0">
-  <cards>  
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Skinsaw Murders" id="bcee5a76-cb0a-4496-8629-96c4e39ed322" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.1.0.0">
+  <cards> 
    <card id="a3fda8c8-6350-4e44-aff0-43c51b0eed52" name="Falling Bell">
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Obstacle&#10;Elite" />
    </card>
    <card id="7c79f660-bac6-4f90-8e4b-3b041996d3ae" name="Locked Stone Door">
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Lock&#10;Veteran" />
    </card>
    <card id="3e814001-c2e9-4a3f-b206-d5657f24cade" name="Skinsaw Ritual">
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Skirmish&#10;Cultist&#10;Elite" />
    </card>
    <card id="3ecc9285-26f1-4743-bbb5-06f7e12687e8" name="Zombie Horde">
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Skirmish&#10;Undead&#10;Zombie&#10;Elite" />
    </card>
    <card id="3d2eb30b-4789-4e27-a10c-e22f7dbdf044" name="Zombie Nest">
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Skirmish&#10;Undead&#10;Zombie&#10;Basic" />
    </card>
    <card id="af5be048-78d7-4720-8bef-5083e1c2cd6d" name="Charmed Faceless Stalker">
@@ -128,7 +123,6 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Undead&#10;Swarm&#10;Elite" />
     <property name="Attr1" value="The Carrionstorm is immune to the Mental and Poison traits.&#10;If undefeated, return the Carrionstorm to the top of this location deck." />
     <property name="Attr2" value="Combat" />
@@ -141,7 +135,6 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Animal&#10;Swarm&#10;Elite" />
     <property name="Attr1" value="If undefeated, the Diseased Rats deal no damage; instead, succeed at a Constitution or Fortitude 8 check or discard the top card of your deck." />
     <property name="Attr2" value="Combat" />
@@ -154,7 +147,6 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Aberration" />
     <property name="Attr1" value="Before the encounter, succeed at a Wisdom 7 check or the difficulty to defeat the Faceless Stalker is increased by 2.&#10;If undefeated, the Faceless Stalker deals no damage; instead, bury the top card of your deck." />
     <property name="Attr2" value="Combat" />
@@ -164,7 +156,6 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Undead&#10;Ghoul&#10;Elite" />
     <property name="Attr1" value="The Ghoul is immune to the Mental and Poison traits.&#10;If undefeated, reset your hand and end your turn." />
     <property name="Attr2" value="Combat" />
@@ -242,8 +233,8 @@
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Lamia" />
     <property name="Flavour" value="&quot;I trust your little band of murderers is doing well, gathering the greedy souls for our Lord's rise?&quot;-- Note found in the Shadow Clock." />
-    <property name="Attr1" value="If you fail a comat check, you may not play weapons or spells for the rest of the turn." />
-    <property name="Attr2" value="Wisdon" />
+    <property name="Attr1" value="If you fail a combat check, you may not play weapons or spells for the rest of the turn." />
+    <property name="Attr2" value="Wisdom" />
     <property name="Attr3" value="10" />
     <property name="Attr4" value="Combat" />
     <property name="Attr5" value="14" />
@@ -269,9 +260,9 @@
     <property name="Attr1" value="Banish this card to examine your location deck until you find a bane; shuffle the deck and put that card on top.&#10;&#10;Discard this card to explore your location" />
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="7" />
-    <property name="Attr4" value="OR" />
-    <property name="Attr5" value="Wisdom&#10;Divine" />
-    <property name="Attr6" value="8" />
+    <property name="Attr4" value="Wisdom&#10;Divine" />
+	<property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="54eb4470-b8ba-4348-8050-8a892d0de0a4" name="Merchant">
     <property name="Abr" value="2" />
@@ -286,16 +277,19 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Magic" />
    </card>
    <card id="80f7b1cb-50ae-442e-81db-48cf2bcc0cff" name="Deathbane Shield">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Shield&#10;Magic&#10;Offhand" />
    </card>
    <card id="eca8ce01-db9e-49cf-8487-25435dbd564f" name="Hide Armor of Fire Resistance">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Magic" />
    </card>
    <card id="8f62357b-b692-4c83-9e6a-ac183d5eb2d8" name="Blessing of Abadar">
     <property name="Abr" value="2" />
@@ -314,16 +308,19 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
    </card>
    <card id="aef282b9-cc9d-41b5-acff-ae36722cb11a" name="Cloak of Elvenkind">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Clothing&#10;Magic" />
    </card>
    <card id="e9910266-fa6a-4731-aa39-027fe8c658bd" name="Ring of Protection">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic" />
    </card>
    <card id="a29f572d-2386-4966-a057-334d0f092886" name="Impaler of Thorns">
     <property name="Abr" value="2" />
@@ -363,26 +360,43 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine" />
    </card>
    <card id="7c0d6c96-b2b8-4dbb-a34a-58c555a2576d" name="Haste">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane" />
    </card>
    <card id="918d6114-a758-4c52-8207-641701242e91" name="Lightning Bolt">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Electricity&#10;Attack" />
    </card>
    <card id="8550f92d-750c-490d-bcdb-c87715ca4200" name="Toxic Cloud">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Poison" />
    </card>
    <card id="e89ae5e6-3421-45f2-9a6e-7ca1ac5db4cc" name="Web">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Elite" />
+   </card>
+   <card id="be015892-caad-4c61-a5b6-e93e4000d0a2" name="Heavy Pick +1">
+    <property name="Abr" value="2" />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Pick&#10;Melee&#10;Piercing&#10;Magic" />
+   </card>
+   <card id="f97a7aff-a670-4820-89d6-1f95795ee733" name="Light Crossbow +1">
+    <property name="Abr" value="2" />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;Magic" />
    </card>
    <card id="701891b5-b483-439a-9b98-178403094113" name="Scythe +1">
     <property name="Abr" value="2" />
@@ -397,11 +411,13 @@
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Knife&#10;Melee&#10;Slashing&#10;Finesse&#10;Magic" />
    </card>
    <card id="ec148676-eb36-48ee-9242-bf7b2fdae9e5" name="War Razor +1">
     <property name="Abr" value="2" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Knife&#10;Melee&#10;Slashing&#10;Finesse&#10;Magic" />
    </card>
    <card id="1e60ce9a-81a5-49d7-bed8-4c2e3328e6fa" name="Foxglove Manor">
     <property name="Abr" value="2" />

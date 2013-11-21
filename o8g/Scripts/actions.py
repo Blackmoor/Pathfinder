@@ -14,8 +14,8 @@ LocationY = StoryY + 200
 showDebug = False #Can be changed to turn on debug
 
 #HACK
-#Overrider the update() function with a call to rnd() until the OCTGN bug is fixed
-def update():
+#This function replaces update() which is not quite working as expected in the current release of OCTGN
+def sync():
 	i = rnd(0,1)
 	
 #------------------------------------------------------------
@@ -34,13 +34,20 @@ def toggleDebug(group, x=0, y=0):
 	else:
 		notify("{} turns off debug".format(me))
 
-def shuffle(pile, sync=False):
+def shuffle(pile, synchronise=False):
 	mute()
 	if pile is None or len(pile) == 0: return
 	pile.shuffle()
-	if sync:
-		update()
-	notify("{} shuffles {}".format(me, pile.name))
+	if synchronise:
+		sync()
+	notify("{} shuffles '{}'".format(me, pile.name))
+
+def cardType(card):
+	if card.Subtype2 is not None and len(card.Subtype2) > 0 and card.Subtype2 != 'Front' and card.Subtype2 != 'Back':
+		return card.Subtype2
+	elif card.Subtype is not None:
+		return card.Subtype
+	return None
 	
 #Return the default x coordinate of the players hero
 #We Leave space for 4 piles (Adventure Path, Adventure, Scenario, Blessings) then place the characters
@@ -122,7 +129,7 @@ def returnToBox(card):
 	
 	dest = comesFrom(card)		
 	if dest is None: # Don't know where to put it
-		notify("{} Fails to find place for {} in the box".format(me, card))
+		notify("{} Fails to find place for '{}' in the box".format(me, card))
 		if locked: # We moved it, so return it to where it started
 			if group == table:
 				card.moveToTable(x, y)
@@ -154,6 +161,8 @@ def inUse(card):
 			found = findCardByName(shared.piles[card.Subtype], card.name)
 		if found is not None:
 			found.moveTo(shared.piles['InUse'])
+		else:
+			notify("{} is using '{}' which is not in the box".format(me, card))
 
 def rollDice(card): #Roll the dice based on the number of tokens
 	mute()
@@ -186,7 +195,7 @@ def rollDice(card): #Roll the dice based on the number of tokens
 	return False
 
 def findCardByName(group, name):
-	debug("Looking for {} in {}".format(name, group.name))
+	debug("Looking for '{}' in '{}'".format(name, group.name))
 	for card in group:
 		if card.name == name:
 			return card
@@ -254,7 +263,7 @@ def minusOne(card, x=0, y=0):
 
 # Find the pile under this card
 def overPile(card):
-	debug("Checking to see if {} is over a pile".format(card))
+	debug("Checking to see if '{}' is over a pile".format(card))
 	piles = [ c for c in table if c.pile() is not None ]
 	x, y = card.position
 	return cardHere(x, y, True, piles)
@@ -272,12 +281,12 @@ def closeLocation(card, perm):
 		visible = shared.piles['Internal']
 		if not lockPile(visible): return
 		
-		debug("Cleaning up pile {}".format(pile.name))
+		debug("Cleaning up pile '{}'".format(pile.name))
 		for c in pile:
 			c.moveTo(visible)
 
 		for c in visible:
-			debug("Unexplored ... {}".format(c))
+			debug("Unexplored ... '{}'".format(c))
 			if c.Subtype == 'Villain':
 				c.moveTo(pile)
 			else:
@@ -286,13 +295,13 @@ def closeLocation(card, perm):
 		unlockPile(visible)
 		
 		if len(pile) > 0: # Villain was left in the pile
-			exploreLocation(card)
-			notify("You find the Villain while attempting to close this location")
+			notify("You find a Villain while attempting to close this location")
+			card.orientation = Rot90
 			return False
-		else:
-			flipCard(card)
-			notify("{} Permanently closes {}".format(me, card))
-			return True
+			
+		flipCard(card)
+		notify("{} Permanently closes '{}'".format(me, card))
+		return True
 	else:
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
@@ -365,10 +374,10 @@ def unlockPile(pile):
 	if pile is None: return False
 	who, count = lockInfo(pile)
 	if who is None:
-		debug("{} tries to unlock pile {} - not locked".format(me, pile.name))
+		debug("{} tries to unlock pile '{}' - not locked".format(me, pile.name))
 		return False
 	if who != me.name:
-		debug("{} tries to unlock pile {} - locked by {}".format(me, pile.name, info[0]))
+		debug("{} tries to unlock pile '{}' - locked by {}".format(me, pile.name, info[0]))
 		return False
 	if count <= 1:
 		setGlobalVariable(pile.name, None)
@@ -377,7 +386,7 @@ def unlockPile(pile):
 	return True
 	
 #---------------------------------------------------------------------------
-# Event Callouts
+# Call outs
 #---------------------------------------------------------------------------
 
 def deckLoaded(player, groups):
@@ -416,9 +425,8 @@ def startOfTurn(player, turn):
 			counts[shared.piles[name].controller] += 1
 		else:
 			counts[shared.piles[name].controller] = 1
-		if shared.piles[name].controller == me: # Hand over control to the new player
-			if player != me:
-				shared.piles[name].setController(player)
+		if shared.piles[name].controller == me and player != me: # Hand over control to the new player
+			shared.piles[name].setController(player)
 	
 	lastPlayer = None
 	for p in counts:
@@ -434,7 +442,7 @@ def startOfTurn(player, turn):
 		if card.Subtype == 'Blessing':
 			blessing = card
 		if card.controller == me and player != me:
-			card.setController(player)			
+			card.setController(player)
 		
 	#Advance the Blessing deck if we are the new player
 	if player == me:
@@ -620,7 +628,7 @@ def exploreLocation(card, x=0, y=0):
 	if card.type != 'Location':
 		whisper("This is not a location ....")
 		return
-	notify("{} explores {}".format(me, card))
+	notify("{} explores '{}'".format(me, card))
 	pile = card.pile()
 	if pile is None:
 		whisper("Nothing to see here")
@@ -638,10 +646,18 @@ def defaultAction(card, x = 0, y = 0):
 		return
 	if card.pile() is not None:
 		if card.Type == 'Location': # Explore location
-			debug("About to explore {}".format(card))
-			exploreLocation(card)
+			if len(card.pile()) > 0:
+				exploreLocation(card)
+			else:
+				closePermanently(card)
 		elif card.Subtype == 'Blessing': # Reveal the next blessing
 			advanceBlessingDeck(card)
+	elif card.Subtype == 'Villain':
+		hideVillain(card)
+	elif card.Type == 'Bane': # Assume it is undefeated and shuffle back into location
+		shuffleCard(card)
+	elif card.type == 'Boon': # Assume it is acquired
+		acquireCard(card)
 	else:
 		flipCard(card, x, y)
                                 
@@ -672,53 +688,53 @@ def subToken(card, tokenType):
 
 def revealCard(card, x=0, y=0):
 	mute()
-	notify("{} reveals {}".format(me, card))
+	notify("{} reveals '{}'".format(me, card))
 	
 def rechargeCard(card, x=0, y=0):
 	mute()
-	notify("{} recharges {}".format(me, card))
-	update()
+	notify("{} recharges '{}'".format(me, card))
+	sync()
 	card.moveToBottom(me.deck)
 	
 def displayCard(card, x=0, y=0):
 	mute()
-	notify("{} displays {}".format(me, card))
+	notify("{} displays '{}'".format(me, card))
 
 def acquireCard(card, x=0, y=0):
 	mute()
 	card.moveTo(me.hand)
-	notify("{} acquires {}".format(me, card))
+	notify("{} acquires '{}'".format(me, card))
 	
 def banishCard(card, x=0, y=0): #Move to correct pile in box (shared)
 	mute()
-	notify("{} banishes {}".format(me, card))
+	notify("{} banishes '{}'".format(me, card))
 	returnToBox(card)
 		
 def buryCard(card, x=0, y=0): #Move to bury pile
 	mute()
-	notify("{} buries {}".format(me, card))
+	notify("{} buries '{}'".format(me, card))
 	card.moveTo(me.Buried)
 	
 def discardCard(card, x=0, y=0): #Move to discard pile
 	mute()
-	notify("{} discards {}".format(me, card))
+	notify("{} discards '{}'".format(me, card))
 	card.moveTo(me.Discarded)
 	
 def removeCard(card, x=0, y=0):
 	mute()
-	notify("{} removes {} from play".format(me, card))
-	update()
+	notify("{} removes '{}' from play".format(me, card))
+	sync()
 	card.delete()
 
-def shufflePile(card, x=0, y=0):
+def shuffleCard(card, x=0, y=0):
 	mute()
 	pile = card.pile()
 	if pile is None: # This is a normal card - if it is over a pile we shuffle it into the pile
 		c = overPile(card)
 		if c is None: return
 		pile = c.pile()
-		notify("{} moves {} into {}".format(me, card, pile.name))
-		update()
+		notify("{} moves '{}' into '{}' deck".format(me, card, pile.name))
+		sync()
 		card.moveTo(pile)
 	shuffle(pile)
 	
@@ -726,8 +742,8 @@ def peekTop(card, x=0, y=0):
 	mute()
 	pile = card.pile()
 	if pile is None: return
-	notify("{} looks at the top card of the {} pile".format(me, card))
-	update()
+	notify("{} looks at the top card of the '{}' deck".format(me, card))
+	sync()
 	src = pile.top()
 	#Move the top card to a pile will full visibility
 	if lockPile(shared.piles['Internal']):
@@ -740,13 +756,13 @@ def peekBottom(card, x=0, y=0):
 	mute()
 	pile = card.pile()
 	if pile is None: return
-	notify("{} looks at the bottom card of the {} pile".format(me, card))
-	update()
+	notify("{} looks at the bottom card of the '{}' deck".format(me, card))
+	sync()
 	src = pile.bottom()
 	#Move the top card to a pile will full visibility
 	if lockPile(shared.piles['Internal']):
 		src.moveTo(shared.piles['Internal'])
-		whisper("{} looks at {}".format(me, src))
+		whisper("{} looks at '{}'".format(me, src))
 		src.moveToBottom(pile)
 		unlockPile(shared.piles['Internal'])
 	
@@ -760,20 +776,26 @@ def closePermanently(card, x=0, y=0):
 
 def closeTemporarily(card, x=0, y=0):
 	closeLocation(card, False)
-
+	
 def hideVillain(villain, x=0, y=0):
 	mute()
 	if villain.Subtype != 'Villain':
 		notify("This is not a Villain ...")
 		return
+	
+	defeated = confirm("Did you defeat the villain?")
+	if defeated is None:
+		return
 		
+	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
 	location = overPile(villain) #Determine the location of the Villain (based on the if it is over a pile on the table)
-	if location is None or location.Type != 'Location': # Not sure which location to close
-		if not confirm("Did you close the location?"):
-			whisper("Close the location manually, then hide the villain")
-			return
-	elif isOpen(location): # Ensure location is closed
-		closePermanently(location)
+	if defeated: # We get to close the location
+		if location is None or location.Type != 'Location': # Not sure which location to close
+			if not confirm("Did you close the location?"):
+				whisper("Close the location manually, then hide the villain")
+				return
+		elif isOpen(location): # Ensure location is closed
+			closePermanently(location)
 			
 	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
@@ -786,17 +808,25 @@ def hideVillain(villain, x=0, y=0):
 	debug("Villain has {} open locations".format(len(open)))	
 	villain.moveTo(hidden)
 	#Add a Blessing for each other open location
-	for card in shared.piles['Blessing'].top(len(open) - 1):
-		card.moveTo(hidden)
+	for i in range(len(open)-1):
+		card = blessing.random()
+		if card is not None:
+			card.moveTo(hidden)
 
 	for loc in open:
-		card = hidden.random()
 		pile = loc.pile()
-		card.moveTo(pile)
+		card = hidden.random()
+		if card is not None:			
+			card.moveTo(pile)
 		shuffle(pile)
+	
+	# Re-open temporarily closed locations
+	for card in table:
+		if card.Type == 'Location' and card.orientation != Rot0:
+			card.orientation = Rot0
 	update()	
 	unlockPile(hidden)
-
+	
 #---------------------------------------------------------------------------
 # Pile Group Actions
 #---------------------------------------------------------------------------
@@ -805,8 +835,8 @@ def rechargeRandom(group, x=0, y=0): # Discarded pile
 	mute()
 	if len(group) == 0: return
 	card = group.random()
-	notify("{} recharges {}".format(me, card))
-	update()
+	notify("{} recharges '{}'".format(me, card))
+	sync()
 	card.moveToBottom(me.deck)
 	
 def returnToBlessingDeck(group, x=0, y=0): # Blessing Discard
@@ -821,6 +851,11 @@ def returnToBlessingDeck(group, x=0, y=0): # Blessing Discard
 def revealRandom(group, x=0, y=0): # Most shared piles use this
 	if len(group) == 0: return
 	group.random().moveToTable(x, y)
+	
+def shufflePile(group, x=0, y=0): # Location piles use this
+	mute()
+	if len(group) == 0: return
+	shuffle(group)
 	
 #---------------------------------------------------------------------------
 # Hand Group Actions
@@ -846,8 +881,17 @@ def drawUp(group): # group == me.hand
 # Deck Group Actions
 #---------------------------------------------------------------------------
 def shuffleDeck(group, x=0, y=0): # me.deck
+	mute()
 	shuffle(group, True)
 
+def drawCard(group, x=0, y=0): # me.deck
+	mute()
+	card = group.top()
+	if card is None:
+		return
+	notify("{} draws '{}'".format(me, card))
+	card.moveTo(me.hand)
+	
 #---------------------------------------------------------------------------
 # Game logic and set up
 #---------------------------------------------------------------------------
@@ -875,7 +919,7 @@ def playerSetup():
 					debug("Hand Size = {}".format(handSize))
 				notify("{} places {} on the table".format(me, card))
 		else:
-			whisper("Unexpected card loaded into hand {}".format(card))
+			whisper("Unexpected card '{}' loaded into hand".format(card))
 	
 	#Process feats - these override default values extracted from basic character sheet
 	debug("Processing feats ....")
@@ -891,19 +935,21 @@ def playerSetup():
 		#Make a list of card types in the deck
 		choices = []
 		for card in me.Discarded:
-			if card.Subtype not in choices:
-				choices.append(card.Subtype)
+			type = cardType(card)		
+			if type is not None and type not in choices:
+				choices.append(type)
 		#Prompt user to select favoured card type
 		choice = None
-		while choice == None or choice == 0:
-			choice = askChoice("Favoured Card Type", choices)
-		favoured = choices[choice-1]
+		if len(choices) > 0:
+			while choice == None or choice == 0:
+				choice = askChoice("Favoured Card Type", choices)
+			favoured = choices[choice-1]
 	
 	storeHandSize(handSize)
 	storeFavoured(favoured)
 	debug("HandSize {}, Favoured type {}".format(handSize, favoured))
 	whisper("Drag avatar to your starting location once the scenario is set up")
-
+	
 #Set up the scenario
 #Move each location to the table and create its deck
 #Create the Blessing deck and reveal the top card
@@ -914,13 +960,13 @@ def scenarioSetup(card):
 				
 	locations = card.Attr1.splitlines()
 	for i in range(len(players)+2):
-		debug("Processing Location {}".format(locations[i]))
+		debug("Processing Location '{}'".format(locations[i]))
 		pileName = "Location{}".format(i+1)
 		setGlobalVariable(locations[i], pileName)
 		location = findCardByName(shared.piles['Location'], locations[i])
 		if location is not None:
 			locPile = shared.piles[pileName]
-			debug("Moving {} to table ...".format(location))
+			debug("Moving '{}' to table ...".format(location))
 			location.moveToTable(LocationX(i+1), LocationY)
 			#Create deck based on location distribution
 			deck = location.Attr1.splitlines()
@@ -940,12 +986,12 @@ def scenarioSetup(card):
 	if len(card.Attr2) > 0 and card.Attr2 != 'None':
 		villain = findCardByName(shared.piles['Villain'], card.Attr2)
 		if villain is None:
-			whisper("Setup error: failed to find {}".format(card.Attr2))
+			whisper("Setup error: failed to find '{}'".format(card.Attr2))
 		else:
-			debug("Moving {} to hidden pile".format(villain))
+			debug("Moving '{}' to hidden pile".format(villain))
 			villain.moveTo(hidden)
 	henchmen = card.Attr3.splitlines()
-	debug("Hide Henchmen {}".format(card.Attr3))
+	debug("Hide Henchmen '{}'".format(card.Attr3))
 	index = 0
 	while len(hidden) < len(players) + 2:
 		if henchmen[index] in shared.piles: # A card type has been supplied
@@ -955,7 +1001,7 @@ def scenarioSetup(card):
 			if man is None and henchmen[index][-1] == 's': # The last henchman entry might be pluralised - remove the trailing "s"
 				man = findCardByName(shared.piles['Henchman'], henchmen[index][:-1])
 		if man is None:
-			whisper("Setup error: failed to find {}".format(henchmen[index]))
+			whisper("Setup error: failed to find '{}'".format(henchmen[index]))
 		else:
 			man.moveTo(hidden)
 		if index < len(henchmen) - 1: #Repeat the last named entry if there are not enough named unique henchmen
@@ -978,7 +1024,7 @@ def scenarioSetup(card):
 		src.random().moveTo(dst)		
 	
 	unlockPile(hidden)
-	notify("{} Starts the scenario {}".format(me, card.name))
+	notify("{} starts the scenario '{}'".format(me, card.name))
 
 def advanceBlessingDeck(card=None):
 	#Replace the given blessing with the top card from the blessing deck
@@ -997,11 +1043,19 @@ def advanceBlessingDeck(card=None):
 		gameOver()
 		notify("You have failed to complete the scenario in time")		
 	else:
-		blessing = pile.top()
-		blessing.moveToTable(x, y)
-		blessing.link(pile)
+		if pile.controller != me:# There is a possibility that we haven't been passed control of the blessing pile yet
+			remoteCall(pile.controller, "nextBlessing", [x, y])
+		else:
+			nextBlessing(x, y)
 		notify("{} advances the Blessing Deck".format(me))
-		
+
+def nextBlessing(x, y):
+	mute()
+	pile = shared.piles['Blessing Deck']
+	blessing = pile.top()
+	blessing.moveToTable(x, y)
+	blessing.link(pile)
+			
 def gameOver():
 	clearupGame()
 	for p in players:
@@ -1020,5 +1074,5 @@ def displayHand(who):
 	#Now order the cards - in turn move cards of the given type to the hand
 	for type in ["Token","Weapon","Spell","Item","Armor","Ally","Blessing"]:
 		for c in me.Discarded:
-			if c.Subtype == type:
+			if cardType(c) == type:
 				c.moveTo(me.hand)

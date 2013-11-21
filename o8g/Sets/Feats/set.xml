@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Feats" id="33cae22c-0c82-4e9e-b465-2422ab40d45c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Feats" id="33cae22c-0c82-4e9e-b465-2422ab40d45c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.1.0.0">
   <cards>
    <card id="15b0bacb-a962-435e-af0c-932b1ed37812" name="Strength d4">
     <property name="Abr" value="O" />
@@ -176,7 +176,7 @@
     <property name="Type" value="Feat" />
     <property name="Subtype" value="Skill" />
    </card>
-   <card id="b2fd7b71-f1ed-471b-9fd2-6a7ca0271380" name="Wisdom +4">
+   <card id="b2fd7b71-f1ed-471b-9fd2-6a7ca0271380" name="Intelligence +4">
     <property name="Abr" value="O" />
     <property name="Type" value="Feat" />
     <property name="Subtype" value="Skill" />

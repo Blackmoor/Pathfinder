@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
-  <section name="Character" shared="False" />
-  <section name="Weapons" shared="False" />
-  <section name="Spells" shared="False" />
-  <section name="Armours" shared="False" />
-  <section name="Items" shared="False" />
-  <section name="Allies" shared="False" />
-  <section name="Blessings" shared="False" />
-  <section name="Feats" shared="False" />
   <section name="Story" shared="True">
     <card qty="1" id="134dd6cc-b6d3-4d60-b68d-6f9909e6ac6a">Burnt Offerings</card>
     <card qty="1" id="da60c33c-8d95-4ea3-9001-732073638258">Approach to Thistletop</card>
@@ -15,6 +7,7 @@
     <card qty="1" id="96d6b7eb-bb39-48a7-ab35-f624dfd8cef8">Local Heroes</card>
     <card qty="1" id="50cb1b70-bb25-4da5-9b7a-459197016732">Thistletop Delve</card>
     <card qty="1" id="a14b46a3-924a-4bcb-b28d-934e426251ee">Trouble in Sandpoint</card>
+    <card qty="1" id="29567d57-9cc5-4cc5-8d72-9770d0ea5f34">Rise of the Runelords</card>
   </section>
   <section name="Henchman" shared="True">
     <card qty="1" id="71940a21-9ffa-475a-9b0e-40f3d4b55313">Bruthazmus</card>
@@ -44,7 +37,6 @@
     <card qty="1" id="da754d2c-6969-488f-b9a3-ba7cb1322f90">Shopkeeper's Daughter</card>
     <card qty="2" id="447f7189-c3a5-4433-95e5-9137e580d017">Slashing Blade</card>
   </section>
-  <section name="Armor" shared="True" />
   <section name="Weapon" shared="True">
     <card qty="1" id="3fbdd615-f495-486f-aae9-28bd8c01d2eb">Bastard Sword +1</card>
     <card qty="2" id="db27344a-66f1-4851-8d0c-5f7a2cb77288">Dagger +1</card>
@@ -101,5 +93,14 @@
     <card qty="1" id="ac29afbc-092b-4e33-8487-ee3fae36c816">Ripnugget and Stickfoot</card>
     <card qty="1" id="0afb6174-3ba5-4f52-9ecd-05d225f4444e">The Sandpoint Devil</card>
   </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Armor" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

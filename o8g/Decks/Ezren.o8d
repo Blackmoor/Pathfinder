@@ -13,10 +13,9 @@
     <card qty="1" id="cdd4bb92-ef6a-40a4-b539-3969d67a742b">Force Missile</card>
     <card qty="1" id="c108c625-6c18-4539-b572-262ef990a462">Invisibility</card>
     <card qty="1" id="fd960f75-1938-4386-b2c0-16c8d2af9aeb">Levitate</card>
-    <card qty="2" id="be6072cb-209e-4e14-bd10-93d303cc9c2d">Lightning Touch</card>
     <card qty="1" id="07a2e012-f699-49a0-9e0e-2816b7693826">Sleep</card>
+    <card qty="2" id="39cc532a-cdaa-44be-8991-ae9f189933ec">Lightning Touch</card>
   </section>
-  <section name="Armor" shared="False" />
   <section name="Item" shared="False">
     <card qty="1" id="50883d35-8770-4004-8b21-3f41c32313d0">Blast Stone</card>
     <card qty="1" id="67006c3c-e958-4bb4-8073-e802b1a03628">Bracers of Protection</card>
@@ -27,5 +26,21 @@
     <card qty="1" id="f38030fb-1942-4c00-9bd5-1f54d17d2894">Sage</card>
     <card qty="1" id="7acdff6c-debc-46e7-89b4-87125bbade89">Standard Bearer</card>
   </section>
+  <section name="Armor" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

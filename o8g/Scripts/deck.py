@@ -6,8 +6,11 @@
 def getSection(sections, card):
 	if card.Type is not None and card.Type in sections:
 		return card.Type
-	elif card.Subtype is not None and card.Subtype in sections:
-		return card.Subtype
+	elif card.Subtype is not None:
+		if card.Subtype in sections:
+			return card.Subtype
+		if card.Subtype == 'Loot' and card.Subtype2 in sections:
+			return card.Subtype2
 	return None
 
 #Save the player deck - it is named after the character 	
@@ -24,9 +27,12 @@ def saveDeck(group, x=0, y=0): #me.hand or table
 	#Add in the character sheet card (from the table)
 	character = None
 	for card in table:
-		if card.owner == me and card.Type == 'Character':
-			character = card
-			sections["Character"][(character.name, character.model)] = 1
+		if card.owner == me:
+			if card.Type == 'Character':
+				character = card
+				sections["Character"][(card.name, card.model)] = 1
+			if card.Type == 'Feat':
+				sections["Feat"][(card.name, card.model)] = 1
 			
 	if character is None: #It may be in the hand
 		for card in me.hand:

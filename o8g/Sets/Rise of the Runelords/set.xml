@@ -1,53 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.1.0.0">
   <cards>
    <card id="0edac356-1fba-42b6-bed1-9f43828c1041" name="Ambush">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="c9591566-1934-484d-9bf4-36a611f4d9d7" name="Battered Chest">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="29772c04-34f7-447e-a165-30202e0f702a" name="Collapsed Ceiling">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="6bafdee4-5eca-49a9-99aa-a34715d8a01b" name="Explosive Runes">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="f607e876-140d-45f5-b455-f62c363ae1e8" name="Large Chest">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="27618509-8dc6-45c4-97ca-36f53264ec97" name="Locked Passage">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="ca2c10e4-d3bd-4108-b077-24c0b5afce0f" name="Mystic Inscription">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="43cd4752-3bcb-4b17-ae71-f4fbb78af6d9" name="Pit Trap">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Trap" />
     <property name="Attr1" value="If defeated, you may immediately explore again.&#10;If undefeated, each character at this location is dealt 1d4 Combat damage." />
     <property name="Attr2" value="Wisdom&#10;Perception" />
@@ -60,27 +52,23 @@
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
    </card>
    <card id="b2e16a32-d0c2-4a1a-9890-964e2b94b6d8" name="Trapped Locker">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="9a7a0cfd-d7cb-4d16-824d-137deec5fa30" name="Trapped Passageway">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="161c7407-05e1-4592-9305-6b1ec6a07ecb" name="Treasure Map">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
-    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Basic&#10;Cache" />
     <property name="Attr1" value="If defeated, examine the top card of the location deck. If it is a boon, you may add it to your hand. &#10;If undefeated, you may banish this barrier." />
     <property name="Attr2" value="Intelligence&#10;Knowledge&#10;Wisdom&#10;Survival" />
@@ -111,12 +99,15 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Barrier" />
+    <property name="Traits" value="Trap&#10;Poison" />
+    <property name="Attr1" value="If undefeated, discard the top card of your deck. Then, each character at this location must succeed at a Constitution or Fortitude 7 check or be dealt 1d4-1 Poison damage.&#10;If defeated, you may immediately attempt to close your location." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="5" />
    </card>
    <card id="d96c735c-7d17-42aa-97d0-09fa269a829f" name="Bugbear">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Goblin&#10;Warrior&#10;Elite" />
     <property name="Attr1" value="If undefeated, bury 1 item or weapon of your choice from your discard pile." />
     <property name="Attr2" value="Combat" />
@@ -126,13 +117,15 @@
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Aquatic&#10;Bunyip&#10;Elite" />
+    <property name="Attr1" value="Before the encounter, succeed at a Wisdom 9 check or the difficulty of your checks is increased by 1 for the rest of the turn.&#10;Damage dealt by the Bunyip may not be reduced." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="68934034-58d8-4065-a288-b13a56f0e9e2" name="Cultist">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Human&#10;Cultist&#10;Basic" />
     <property name="Attr1" value="If undefeated, shuffle the top card of the blessings deck into this location deck." />
     <property name="Attr2" value="Combat" />
@@ -142,56 +135,58 @@
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Sorcerer&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat the Enchanter is increased by the adventure deck number of the current scenario, if any.&#10;Before the encounter, the Enchanter deals 1 Force damage to you.&#10;After the encounter, the Enchanter deals 1 Fire damage to you." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="15dda99a-44c5-4512-8348-c809f114c0e8" name="Ghost">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Undead&#10;Incorporeal&#10;Ghost&#10;Elite" />
+    <property name="Attr1" value="The Ghost is immune to the Mental and Poison traits.&#10;If your check to defeat does not have the Magic trait, the Ghost is undefeated." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="12" />
+    <property name="Attr4" value="Wisdom&#10;Divine" />
+    <property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="e4b45187-65f0-493f-a652-94da45dfaca7" name="Ghoul">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="3894ff7a-d501-4ebb-ae0d-74dd7cab73fb" name="Giant Gecko">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="583fa765-579d-4b27-bcb8-d7bec553dca9" name="Goblin Commando">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="bddbbdc3-7477-476c-9ca3-e0ccbe2d6db4" name="Goblin Warrior">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="9ccce484-c50a-4c83-9660-32c107790390" name="Hell Hound">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="880a8294-3af2-4940-bea9-84cda1946e40" name="Hill Giant">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="c7a3fc22-a675-4ab3-9435-2ae5a0a75010" name="Mercenary">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Human&#10;Warrior&#10;Veteran" />
     <property name="Attr1" value="The difficulty to defeat the Mercenary is increased by the adventure deck number of the current scenario, if any." />
     <property name="Attr2" value="Combat" />
@@ -201,94 +196,79 @@
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="313183b1-9986-4563-a634-4b9a05e2ba74" name="Plague Zombie">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="c57d34db-fdd2-4cf1-a794-a62469fc6dc6" name="Rat Swarm">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="6b7afee4-dbb9-4b39-a15e-a534ad2cb384" name="Scout">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="dbf2bd58-d9aa-45b1-8937-b3ece3346672" name="Shadow">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="78c39502-9107-4acf-b20f-6d9b271785fc" name="Siren">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="02382841-3e3e-4e80-9f8a-d44b4ce3649b" name="Skeleton">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="7792d20d-c021-441c-9fac-18695f94e415" name="Sneak">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="2e7bdc0c-cec9-4008-b53d-dbcf8709a2a3" name="Spectre">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="bccafdc3-816c-4d52-b202-0ec3f5dd0dd1" name="Traitor">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="be282cda-a0e1-4863-8db4-36fb43ace9ed" name="Warlord">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="1ef146ba-6151-4de5-a5e4-58ea9b538bd6" name="Werewolf">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="bc9f7597-8375-45cf-ba9f-1f4189e4721f" name="Xulgath">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="b82d90a5-7038-46d3-9354-2929bd174752" name="Zombie">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="be25b649-6d5f-416f-b857-00fe932cdd2a" name="Zombie Giant">
     <property name="Abr" value="B" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Subtype2" value="Monster" />
    </card>
    <card id="953e01fe-3e7e-4fc3-b88e-d3307c9f4d0f" name="Black Fang">
     <property name="Abr" value="B" />
@@ -296,7 +276,7 @@
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Dragon" />
-    <property name="Flavour" value="Tell the locals to leave me be or I’ll start tearing heads off their children instead of their livestock." />
+    <property name="Flavour" value="&quot;Tell the locals to leave me be or I’ll start tearing heads off their children instead of their livestock.&quot; -- Black Fang" />
     <property name="Attr1" value="Before the encounter, each character at this locations must succeed at a Constitution or Fortitude 7 check or be dealt 1d4-1 Acid damage." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="12" />
@@ -306,6 +286,10 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Rogue" />
+    <property name="Flavour" value="&quot;Jubrayl Vhiski. Wanted on charges of blackmail, conspiracy, crimes against decency, grave robbing, smuggling, thievery, varied mayhem and murder.&quot; --Wanted poster in Magnimar" />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="10" />
    </card>
    <card id="50ce68e9-bdef-4532-ad3d-38749d56d999" name="Pillbug Podicker">
     <property name="Abr" value="B" />
@@ -313,7 +297,7 @@
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Human&#10;Alchemist" />
-    <property name="Flavour" value="Have any happy pillbugs turned up lately?" />
+    <property name="Flavour" value="&quot;Have any happy pillbugs turned up lately?&quot; --Customer at Pillbug's Pantry, requesting poison" />
     <property name="Attr1" value="All damage dealt by Pillbug is Poison damage that may not be reduced" />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="11" />
@@ -953,24 +937,6 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
-   <card id="41d4311b-9aa7-4887-aafb-432185bf5500" name="Ezren">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Male&#10;Human&#10;Wizard" />
-    <property name="Flavour" value="After learning that the father whose name he’d spent most of his adult life trying to clear was indeed guilty, Ezren abandoned his former life and became a wizard. Finding no masters willing to take on an apprentice of his age, he devoted himself to unlocking the mysteries of magic alone. His studies soon revealed a true aptitude for the arcane arts, and he now seeks to explore the world he neglected for so long." />
-    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 8  [ ] 9  [ ] 10  [ ] 11&#10;Armor: -  [ ] 1&#10;Item:3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: -" />
-    <property name="Attr3" value="Spell" />
-   <alternate name="Ezren" type="B">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Male&#10;Human&#10;Wizard" />
-    <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it’s a spell, you may put it in your hand.&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2) to your check to recharge a card." />
-    <property name="Attr2" value="Strength: d6&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
-    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
-   </alternate>
-   </card>
    <card id="c9655d7a-9be4-4d80-b1e0-cae6a77f1657" name="Ezren (Evoker)">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
@@ -1009,25 +975,6 @@
     <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it’s a spell, you may put it in your hand ([ ] or recharge it).&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2)([ ] 3)([ ] 4) to your check to recharge a card.&#10;[ ] If you play a spell to evade a monster, you may put the monster on the bottom of the deck.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell ([ ] or ally).&#10;[ ] At the start of your turn, you may discard a card to draw a card." />
     <property name="Attr2" value="Strength: d6&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9" />
-   </alternate>
-   </card>
-   <card id="e1719d19-1acc-41b6-b6a8-a7559d61071f" name="Harsk">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
-    <property name="Flavour" value="Harsk has always been an unusual sort of dwarf, preferring open skies to cramped underground halls, the flexibility of a crossbow to the sturdiness of an axe, and tea to ale—it keeps his senses sharp. A gruff and driven dwarf, he left his home to fulfill a vow of justice to avenge his brother’s death at the hands of raiding giants. He has since learned much of the world, its lands, its beasts, and its vast array of people and places worth protecting." />
-    <property name="Attr2" value="Weapon: 5  [ ] 6&#10;Spell: -  [ ] 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 1   [ ] 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6" />
-    <property name="Attr3" value="Weapon" />
-   <alternate name="Harsk" type="B">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
-    <property name="Attr1" value="At the end of your turn, you may examine the top card ([ ] or bottom card) of your location deck.&#10;You may recharge a card to add 1d4 ([ ] +1) ([ ] +2) to a combat check at another location." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged+3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception+2, Survival+2&#10;Charisma: d4  [ ] +1" />
-    <property name="Attr3" value="5  [ ] 6" />
-    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="ed2db87f-75a0-4fde-96af-016ff59efd88" name="Harsk (Sniper)">
@@ -1072,22 +1019,24 @@
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
-   <card id="a235a0c4-b734-427c-b7cb-17e29c8cae83" name="Kyra">
+   <card id="79132ead-25cd-4635-b049-43dcfddcd0a8" name="Kyra (Exorcist)">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Human&#10;Cleric" />
-    <property name="Flavour" value="Kyra and her family grew up near a small temple to Sarenrae, the goddess of healing, honesty, redemption, and the sun. When bandits attacked Kyra’s village, Sarenrae’s priestesses defended the innocent, driving off the raiders at the cost of their lives and their sanctuary. Standing in the burned ruin of the temple, young Kyra swore her life and sword arm to the goddess, promising mercy to the deserving and a quick death to those who spread darkness." />
+    <property name="Flavour" value="These clerics are foes of the undead and unholy, and no unquiet spirit or hungry fiend can stand against their divine wrath.&#10;&#10;Kyra and her family grew up near a small temple to Sarenrae, the goddess of healing, honesty, redemption, and the sun. When bandits attacked Kyra’s village, Sarenrae’s priestesses defended the innocent, driving off the raiders at the cost of their lives and their sanctuary. Standing in the burned ruin of the temple, young Kyra swore her life and sword arm to the goddess, promising mercy to the deserving and a quick death to those who spread darkness." />
     <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 1  [ ] 2&#10;Ally: 1  [ ] 2&#10;Blessing: 6  [ ] 7  [ ] 8" />
     <property name="Attr3" value="Blessing" />
-   <alternate name="Kyra" type="B">
+   <alternate name="Kyra (Exorcist)" type="B">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Cleric" />
-    <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) random cards from his discard pile into his deck, then discard the card you revealed.&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead trait." />
+    <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) random cards from his discard pile into his deck, then discard the card you revealed.&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead ([ ] or Outsider) trait.&#10;[ ] Add 2 to your check to acquire an armor ([ ] or weapon).&#10;[ ] When you play Blessing of Sarenrae, you may recharge it ([ ] or place it on top of your deck) instead of discarding it.&#10;[ ] If you defeat a bane with the Undead ([ ] or Outsider) trait, you may shuffle 1 random card from your discard pile into your deck." />
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
-    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons" />
    </alternate>
    </card>
@@ -1112,43 +1061,24 @@
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons" />
    </alternate>
    </card>
-   <card id="79132ead-25cd-4635-b049-43dcfddcd0a8" name="Kyra (Exorcist)">
+   <card id="59182689-0e8c-4abe-8037-3cc4934f9455" name="Lem (Charlatan)">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Female&#10;Human&#10;Cleric" />
-    <property name="Flavour" value="These clerics are foes of the undead and unholy, and no unquiet spirit or hungry fiend can stand against their divine wrath.&#10;&#10;Kyra and her family grew up near a small temple to Sarenrae, the goddess of healing, honesty, redemption, and the sun. When bandits attacked Kyra’s village, Sarenrae’s priestesses defended the innocent, driving off the raiders at the cost of their lives and their sanctuary. Standing in the burned ruin of the temple, young Kyra swore her life and sword arm to the goddess, promising mercy to the deserving and a quick death to those who spread darkness." />
-    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 1  [ ] 2&#10;Ally: 1  [ ] 2&#10;Blessing: 6  [ ] 7  [ ] 8" />
-    <property name="Attr3" value="Blessing" />
-   <alternate name="Kyra (Exorcist)" type="B">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Role" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Female&#10;Human&#10;Cleric" />
-    <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) random cards from his discard pile into his deck, then discard the card you revealed.&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead ([ ] or Outsider) trait.&#10;[ ] Add 2 to your check to acquire an armor ([ ] or weapon).&#10;[ ] When you play Blessing of Sarenrae, you may recharge it ([ ] or place it on top of your deck) instead of discarding it.&#10;[ ] If you defeat a bane with the Undead ([ ] or Outsider) trait, you may shuffle 1 random card from your discard pile into your deck." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
-    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
-    <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons" />
-   </alternate>
-   </card>
-   <card id="462be7f7-5262-40b5-a8af-5c9f2feaffd7" name="Lem">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
-    <property name="Flavour" value="Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and—when need be—his quick blade." />
+    <property name="Flavour" value="Through guile and magic, these charming deceivers play on the hopes and desires of their marks as cannily as on any instrument.&#10;&#10;Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and—when need be—his quick blade." />
     <property name="Attr2" value="Weapon: 1  [ ] 2  [ ] 3&#10;Spell: 4  [ ] 5  [ ] 6&#10;Armor: -  [ ] 1&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 5  [ ] 6" />
     <property name="Attr3" value="Your choice" />
-   <alternate name="Lem" type="B">
+   <alternate name="Lem (Charlatan)" type="B">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
-    <property name="Attr1" value="Once per check, you may recharge a card to add 1d4 ([ ]+1) ([ ]+2) to a check attempted by another character at your location.&#10;At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile." />
+    <property name="Attr1" value="Once per check, you may recharge a card to add 1d4 ([ ]+1) ([ ]+2)([ ]+3) to a check attempted by another character at your location.&#10;At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile.&#10;[ ] Add 2 to your check to acquire an ally ([ ] or defeat a henchman)([ ] or villain).&#10;[ ] You automatically succeed at your check to recharge a card with the Mental trait.&#10;[ ] When you play Blessing of Shelyn, add d12 instead of the normal die." />
     <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+1, Divine+1, Diplomacy+3" />
-    <property name="Attr3" value="6" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
@@ -1171,46 +1101,6 @@
     <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+1, Divine+1, Diplomacy+3" />
     <property name="Attr3" value="6  [ ] 7" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
-   </alternate>
-   </card>
-   <card id="59182689-0e8c-4abe-8037-3cc4934f9455" name="Lem (Charlatan)">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Role" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
-    <property name="Flavour" value="Through guile and magic, these charming deceivers play on the hopes and desires of their marks as cannily as on any instrument.&#10;&#10;Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and—when need be—his quick blade." />
-    <property name="Attr2" value="Weapon: 1  [ ] 2  [ ] 3&#10;Spell: 4  [ ] 5  [ ] 6&#10;Armor: -  [ ] 1&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 5  [ ] 6" />
-    <property name="Attr3" value="Your choice" />
-   <alternate name="Lem (Charlatan)" type="B">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Role" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
-    <property name="Attr1" value="Once per check, you may recharge a card to add 1d4 ([ ]+1) ([ ]+2)([ ]+3) to a check attempted by another character at your location.&#10;At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile.&#10;[ ] Add 2 to your check to acquire an ally ([ ] or defeat a henchman)([ ] or villain).&#10;[ ] You automatically succeed at your check to recharge a card with the Mental trait.&#10;[ ] When you play Blessing of Shelyn, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+1, Divine+1, Diplomacy+3" />
-    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
-    <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
-   </alternate>
-   </card>
-   <card id="bec82ff2-b72b-439c-ad3c-998bf1c8a339" name="Merisiel">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
-    <property name="Flavour" value="Orphaned at a young age and raised by humans in the slums, the elf Merisiel saw many friends grow old and die in the decades it took her to become an adult. Unfettered by responsibilities, she now travels where her curiosity takes her, wandering the world with those she calls friends at the time. Merisiel believes in experiencing life to the fullest—you never know when you’ll meet an unexpected end—and that there are few problems a dagger can’t solve." />
-    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 6  [ ] 7  [ ] 8  [ ] 9&#10;Ally: 2  [ ] 3&#10;Blessing: 4  [ ] 5  [ ] 6" />
-    <property name="Attr3" value="Item" />
-   <alternate name="Merisiel" type="B">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
-    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ]+1)([ ]+2) to your combat check, or discard it to add an additional 1d6." />
-    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2, Disable+2, Stealth+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
-    <property name="Attr3" value="5  [ ] 6" />
-    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="d8da9030-696e-489e-a7cf-708bf515168a" name="Merisiel (Acrobat)">
@@ -1255,24 +1145,6 @@
     <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
-   <card id="083b2669-d940-44eb-a5a1-a79cdd35dc44" name="Seoni">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
-    <property name="Flavour" value="Born into a clan of nomadic wanderers, Seoni wears dozens of runic tattoos that tell the ancient stories of her people and aid her in drawing upon their arcane powers. Quick thinking and with a plan for every situation, she proudly exhibits the marks of her people and endlessly seeks new understanding of her magical abilities. She travels the world, dispelling myths that her people are nothing more than liars and thieves by righting injustices wherever she finds them." />
-    <property name="Attr2" value="Weapon: -  [ ] 1&#10;Spell: 3  [ ] 4  [ ] 5  [ ] 6&#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 4  [ ] 5&#10;Blessing: 5  [ ] 6  [ ] 7" />
-    <property name="Attr3" value="Spell" />
-   <alternate name="Seoni" type="B">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
-    <property name="Attr1" value="For your combat check, you may discard a card to roll your Arcane die + 1d6 ([ ]+1)([ ]+2) with the Attack, Fire, and Magic traits. This counts as playing a spell.&#10;You automatically succeed at your check to recharge a spell ([ ] or item) with the Arcane trait." />
-    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy+2, Arcane+2" />
-    <property name="Attr3" value="6  [ ] 7" />
-   </alternate>
-   </card>
    <card id="a0f9e3c6-ed74-4999-a16b-b7f5fed79bde" name="Seoni (Abyssal Sorcerer)">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
@@ -1311,25 +1183,6 @@
     <property name="Attr1" value="For your combat check, you may discard a card to roll your Arcane die + 1d6 ([ ]+1)([ ]+2)([ ]+3)([ ]+4) with with the Fire ([ ] or Acid) trait and the Attack and Magic traits. This counts as playing a spell.&#10;You automatically succeed at your check to recharge a spell ([ ] or item) with the Arcane trait.&#10;[ ] If you would fail a check by 1, you may bury a card to succeed.&#10;[ ] Reduce Fire ([ ] and Electricity) damage dealt to you by 1 ([ ] 2).&#10;[ ] When you play Blessing of Pharasma, add d12 instead of the normal die." />
     <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy+2, Arcane+2" />
     <property name="Attr3" value="6  [ ] 7" />
-   </alternate>
-   </card>
-   <card id="6e690cea-cfb4-4e63-b1ea-ed7eb60f3bef" name="Valeros">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
-    <property name="Flavour" value="Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer’s daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there’s nothing better than “an evening of hard drinking and soft company.”" />
-    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 3  [ ] 4" />
-    <property name="Attr3" value="Weapon" />
-   <alternate name="Valeros" type="B">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
-    <property name="Attr1" value="Add 1d4 ([ ]+1) ([ ]+2) to another character’s combat check at your location.&#10;When you play a weapon, you may recharge it instead of discarding it." />
-    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy+2" />
-    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
-    <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="b89d0652-188f-4db8-81a0-e8fc13a2af99" name="Valeros (Guardian)">
@@ -1374,6 +1227,137 @@
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
+   <card id="41d4311b-9aa7-4887-aafb-432185bf5500" name="Ezren">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Human&#10;Wizard" />
+    <property name="Flavour" value="After learning that the father whose name he’d spent most of his adult life trying to clear was indeed guilty, Ezren abandoned his former life and became a wizard. Finding no masters willing to take on an apprentice of his age, he devoted himself to unlocking the mysteries of magic alone. His studies soon revealed a true aptitude for the arcane arts, and he now seeks to explore the world he neglected for so long." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 8  [ ] 9  [ ] 10  [ ] 11&#10;Armor: -  [ ] 1&#10;Item:3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: -" />
+    <property name="Attr3" value="Spell" />
+   <alternate name="Ezren" type="B">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Human&#10;Wizard" />
+    <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it’s a spell, you may put it in your hand.&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2) to your check to recharge a card." />
+    <property name="Attr2" value="Strength: d6&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
+   </alternate>
+   </card>
+   <card id="e1719d19-1acc-41b6-b6a8-a7559d61071f" name="Harsk">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
+    <property name="Flavour" value="Harsk has always been an unusual sort of dwarf, preferring open skies to cramped underground halls, the flexibility of a crossbow to the sturdiness of an axe, and tea to ale—it keeps his senses sharp. A gruff and driven dwarf, he left his home to fulfill a vow of justice to avenge his brother’s death at the hands of raiding giants. He has since learned much of the world, its lands, its beasts, and its vast array of people and places worth protecting." />
+    <property name="Attr2" value="Weapon: 5  [ ] 6&#10;Spell: -  [ ] 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 1   [ ] 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Harsk" type="B">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
+    <property name="Attr1" value="At the end of your turn, you may examine the top card ([ ] or bottom card) of your location deck.&#10;You may recharge a card to add 1d4 ([ ] +1) ([ ] +2) to a combat check at another location." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged+3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception+2, Survival+2&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="a235a0c4-b734-427c-b7cb-17e29c8cae83" name="Kyra">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Human&#10;Cleric" />
+    <property name="Flavour" value="Kyra and her family grew up near a small temple to Sarenrae, the goddess of healing, honesty, redemption, and the sun. When bandits attacked Kyra’s village, Sarenrae’s priestesses defended the innocent, driving off the raiders at the cost of their lives and their sanctuary. Standing in the burned ruin of the temple, young Kyra swore her life and sword arm to the goddess, promising mercy to the deserving and a quick death to those who spread darkness." />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 1  [ ] 2&#10;Ally: 1  [ ] 2&#10;Blessing: 6  [ ] 7  [ ] 8" />
+    <property name="Attr3" value="Blessing" />
+   <alternate name="Kyra" type="B">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Human&#10;Cleric" />
+    <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) random cards from his discard pile into his deck, then discard the card you revealed.&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead trait." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="462be7f7-5262-40b5-a8af-5c9f2feaffd7" name="Lem">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
+    <property name="Flavour" value="Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and—when need be—his quick blade." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2  [ ] 3&#10;Spell: 4  [ ] 5  [ ] 6&#10;Armor: -  [ ] 1&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 5  [ ] 6" />
+    <property name="Attr3" value="Your choice" />
+   <alternate name="Lem" type="B">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
+    <property name="Attr1" value="Once per check, you may recharge a card to add 1d4 ([ ]+1) ([ ]+2) to a check attempted by another character at your location.&#10;At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+1, Divine+1, Diplomacy+3" />
+    <property name="Attr3" value="6" />
+    <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="bec82ff2-b72b-439c-ad3c-998bf1c8a339" name="Merisiel">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Flavour" value="Orphaned at a young age and raised by humans in the slums, the elf Merisiel saw many friends grow old and die in the decades it took her to become an adult. Unfettered by responsibilities, she now travels where her curiosity takes her, wandering the world with those she calls friends at the time. Merisiel believes in experiencing life to the fullest—you never know when you’ll meet an unexpected end—and that there are few problems a dagger can’t solve." />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 6  [ ] 7  [ ] 8  [ ] 9&#10;Ally: 2  [ ] 3&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Merisiel" type="B">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ]+1)([ ]+2) to your combat check, or discard it to add an additional 1d6." />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2, Disable+2, Stealth+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="083b2669-d940-44eb-a5a1-a79cdd35dc44" name="Seoni">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
+    <property name="Flavour" value="Born into a clan of nomadic wanderers, Seoni wears dozens of runic tattoos that tell the ancient stories of her people and aid her in drawing upon their arcane powers. Quick thinking and with a plan for every situation, she proudly exhibits the marks of her people and endlessly seeks new understanding of her magical abilities. She travels the world, dispelling myths that her people are nothing more than liars and thieves by righting injustices wherever she finds them." />
+    <property name="Attr2" value="Weapon: -  [ ] 1&#10;Spell: 3  [ ] 4  [ ] 5  [ ] 6&#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 4  [ ] 5&#10;Blessing: 5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Spell" />
+   <alternate name="Seoni" type="B">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
+    <property name="Attr1" value="For your combat check, you may discard a card to roll your Arcane die + 1d6 ([ ]+1)([ ]+2) with the Attack, Fire, and Magic traits. This counts as playing a spell.&#10;You automatically succeed at your check to recharge a spell ([ ] or item) with the Arcane trait." />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy+2, Arcane+2" />
+    <property name="Attr3" value="6  [ ] 7" />
+   </alternate>
+   </card>
+   <card id="6e690cea-cfb4-4e63-b1ea-ed7eb60f3bef" name="Valeros">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
+    <property name="Flavour" value="Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer’s daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there’s nothing better than “an evening of hard drinking and soft company.”" />
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 3  [ ] 4" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Valeros" type="B">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
+    <property name="Attr1" value="Add 1d4 ([ ]+1) ([ ]+2) to another character’s combat check at your location.&#10;When you play a weapon, you may recharge it instead of discarding it." />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy+2" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
    <card id="08df7d0f-1193-43d3-9e2f-4054482584f3" name="Academy">
     <property name="Abr" value="B" />
     <property name="Type" value="Location" />
@@ -1409,8 +1393,8 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 2&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 0" />
-    <property name="Attr2" value="If you fail a combat check, shuffle a random monster from the box into the location deck." />
-    <property name="Attr3" value="Summon and defeat a bandit henchman." />
+    <property name="Attr2" value="If you fail a combat check, shuffle random monster from the box into the location deck." />
+    <property name="Attr3" value="Summon and defeat a bandit henchmen." />
     <property name="Attr4" value="No effect." />
    <alternate name="City Gate" type="B">
     <property name="Abr" value="B" />
@@ -1749,7 +1733,7 @@
    </alternate>
    </card>
    <card id="29567d57-9cc5-4cc5-8d72-9770d0ea5f34" name="Rise of the Runelords">
-    <property name="Abr" value="1" />
+    <property name="Abr" value="B" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure Path" />
     <property name="Subtype2" value="Front" />

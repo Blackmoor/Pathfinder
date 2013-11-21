@@ -46,7 +46,7 @@ def updatePile(self):
 def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):	
 	mute()
 	piles = [ c for c in table if isPile(c) ]
-	
+
 	# Most of the time we only care if we are the player moving the card
 	if player == me:
 		if toGroup == table and not isScriptMove and (card.Type == 'Boon' or card.Type == 'Bane' or card.Type == '?'):	
@@ -55,13 +55,12 @@ def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y
 			for c in piles:
 				pile = getPile(c)
 				px, py = c.position
-				#Check to see if centre of the moved card (x+width/2, y+height/2) is over the top 2/3 or bottom 1/3 of the pile card
-				if x + c.width()/2 >= px and x < px + c.width()/2:
-					if y + c.height()/2 >= py and y < py + c.height()/6:
+				if x + c.width()/2 > px and x < px + c.width()/2: # middle of card is over the pile in the x axis
+					if y + c.height() >= py and y <= py: # some of the card overlaps the upper half of the pile
 						card.moveTo(pile)
 						notify("{} moves {} to the top of the {} pile".format(player, card, c))
 						break
-					elif y >= py + c.height()/6 and y < py + c.height()/2:
+					elif y > py and y <= py + c.height(): # some of the card overlaps the bottom half of the pile
 						card.moveToBottom(pile)
 						notify("{} moves {} to the bottom of the {} pile".format(player, card, c))
 						break
