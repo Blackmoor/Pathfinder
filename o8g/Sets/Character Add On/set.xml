@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Character Add-On Deck" id="dcbbc244-a974-42d1-a143-972fa5123362" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Character Add-On Deck" id="dcbbc244-a974-42d1-a143-972fa5123362" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.7.13" version="1.2.0.0">
   <cards>
    <card id="ab560b19-7219-467a-b497-9fecd022e33f" name="Battered Chest">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="b58a5e72-6626-4023-9d94-e0bcb7a3641b" name="Explosive Runes">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="95aade9e-5ac4-438f-810b-e3ef98ed02f0" name="Large Chest">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="85d2130f-a11d-4813-b9f0-e7b73c62a46c" name="Mystic Inscription">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="09b5f7cd-8859-44f8-9272-0ccf089d50c1" name="Secret Stash">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="86500409-56d6-46aa-9489-f767519ec103" name="Skeleton Horde">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="5180830e-27a4-4c4d-8182-2eb5e79cceab" name="Ancient Skeleton">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -43,6 +50,7 @@
    </card>
    <card id="9148965b-bf11-4168-9f10-c0e483c11b6f" name="Bandit">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -53,6 +61,7 @@
    </card>
    <card id="97d8f297-1640-41ca-b9ac-c56052cca03b" name="Poison Trap">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Barrier" />
@@ -63,6 +72,7 @@
    </card>
    <card id="769413e9-f11e-4f99-aec1-1a1dd5a329c4" name="Bugbear">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Goblin&#10;Warrior&#10;Elite" />
@@ -72,6 +82,7 @@
    </card>
    <card id="8df9f5ef-87a0-4f72-954c-10a0caa51d94" name="Cultist">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Human&#10;Cultist&#10;Basic" />
@@ -81,79 +92,94 @@
    </card>
    <card id="29b77d1e-8bd5-4db7-bf24-ce91ba180c71" name="Enchanter">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="4ac8e648-57ee-4d05-acb7-ed32d9c5a4ac" name="Ogre">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="450ed7d6-0c02-4240-8a5e-533dcd6cffbd" name="Plague Zombie">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="a048e42a-4a54-4a72-9ed6-5796a7e01bfe" name="Satyr">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="4716d3c3-fdd1-409d-84d4-7ecde8cf0f44" name="Shadow">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="e1a72629-48fb-4aab-bc3a-b742405f0bb9" name="Siren">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="6d35ec6e-f64c-4004-8aee-322b6904f870" name="Sneak">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="4a6044cf-a877-458b-8558-b7e0e54779ed" name="Spectre">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="c2484a04-9116-4d74-b79c-9cf64968c00a" name="Traitor">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="16d6aaf0-c5f5-4c4a-90d6-b74505645a10" name="Werewolf">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="2e38b669-71f9-4d26-bee5-475ea053b0bc" name="Zombie Giant">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="f3e1ff96-6874-4915-9159-40f42f0b7a1a" name="Acolyte">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="d10bd393-b9a8-443d-b17a-7bfd35c6057b" name="Burglar">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="2dc07046-33eb-4826-9eab-4bf20dd24ab7" name="Crow">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="f68e9a93-8070-4023-805b-8d55b2229ef0" name="Dog">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Animal&#10;Basic" />
@@ -163,33 +189,39 @@
    </card>
    <card id="2ec30f86-87c4-48dc-92a6-2c7428bd3a52" name="Saber-Toothed Tiger">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="0d9320e4-5188-4601-a21f-77b8c73f9dac" name="Snake">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="a3051026-420d-4bf2-a682-e3e83455f68d" name="Soldier">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="4cbc9084-9e70-4b44-ba81-e16307db6a1b" name="Troubadour">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="c60f5449-1d16-4ebc-9e6b-25b167e5efaf" name="Chain Mail">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="eaac8f3b-8857-4ac3-948f-ae6ec6f16b4d" name="Half-Plate">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Heavy Armor&#10;Elite" />
@@ -199,32 +231,38 @@
    </card>
    <card id="9fd5d8f0-983f-401b-a9ba-0f3cfa1cc541" name="Leather Armor">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="dba9caac-68a4-4f95-a249-d5fb7ed62169" name="Magic Chain Mail">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
    </card>
    <card id="60c983c2-8a36-4bc5-9a88-f4dfd3dcaf64" name="Magic Half-Plate">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
    </card>
    <card id="1079008c-a45d-4540-b72c-d962527662ec" name="Magic Leather Armor">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
    </card>
    <card id="7ff7fbca-ef9a-4ce3-8757-ed18b24b66de" name="Magic Shield">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
    </card>
    <card id="0324bc0b-64d6-4643-b7bf-528178a940c9" name="Wooden Shield">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Shield&#10;Offhand&#10;Basic" />
@@ -234,11 +272,13 @@
    </card>
    <card id="527854c0-d3e2-4581-a9e5-0e5c791af194" name="Blessing of Calistria">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="5e408ca1-0dbc-46e3-b239-6cae0dd0bc9e" name="Blessing of Desna">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Desna" />
@@ -249,41 +289,49 @@
    </card>
    <card id="a382fe1e-cc21-4bf8-9532-44588870e7a6" name="Blessing of Erastil">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="c9e730bc-cb9f-4d61-8df4-3d4346a8efc7" name="Blessing of Gorum">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="ed12ac4f-8758-404a-b31c-d8db06bec681" name="Blessing of Iomedae">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="687b3cc8-1c68-4c2b-9169-82b7c05cf1fb" name="Blessing of Irori">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="87db3f33-7a77-4d68-813e-34c1bb368f6a" name="Blessing of Pharasma">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="181369f9-3034-4924-a09b-df5a362a7bb1" name="Blessing of Sarenrae">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="e3bb692c-4242-46d9-8190-9de144656b6e" name="Blessing of Shelyn">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="858babfc-6813-4228-b5d5-8c7b08e03674" name="Blessing of the Gods">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Basic" />
@@ -293,144 +341,170 @@
    </card>
    <card id="5a178d98-93ed-4395-b875-f92596b07955" name="Blessing of Torag">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="ab65e46b-f22c-4604-9e39-cfade600df32" name="Amulet of Mighty Fists">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="01f63a98-26a9-45c1-a60f-5d079fa5dfec" name="Crown of Charisma">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="47ddf05f-929d-49ba-8dfa-0a46259b0235" name="Eyes of the Eagle">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="47f3d070-c9d4-488c-9e83-17bc436286c8" name="Masterwork Tools">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="e9428303-fd89-4e04-a246-4ad9c38ea595" name="Mattock">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="e0eef3e9-3774-4eba-bc4b-464efc4243f4" name="Potion of Fortitude">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="3732b10e-eb06-4993-b31d-8a84c2607128" name="Potion of Glibness">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="4b7c199d-284b-466c-bfd2-f8ab2b40c5df" name="Potion of Healing">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="25025be6-9505-407f-b053-337dc98c685d" name="Potion of Hiding">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="8e56174d-1d86-47d0-bc9f-43fd422a3834" name="Potion of Vision">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="3030c9df-fc73-42de-b701-187041ad4a35" name="Sage's journal">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="97df7617-50d2-404b-a97f-d4e2607cc5a6" name="Spyglass">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="bc18c255-c298-4485-a5a9-1f6849558a70" name="Acid Arrow">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="8e9a2793-c53a-46b7-b1d3-97a7386096a0" name="Aid">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="c9652371-8158-40b9-aced-fd231dcbe7e9" name="Augury">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="51fb7b2e-c2f9-422e-83a7-acba06b12f5d" name="Cure">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="77ffdfa8-0ab8-41de-aba4-b2db48c38a5e" name="Detect Evil">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="416eae8b-472b-4bc8-8f71-40d5f9a9c22c" name="Find Traps">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="10ccc7d0-5079-44f4-954a-38ebad7f5244" name="Inflict">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="be6072cb-209e-4e14-bd10-93d303cc9c2d" name="Lightning Touch">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="bfdf6864-5581-4b48-9d5c-a71182b211a2" name="Mending">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="b0e1c65e-f3e4-4ef9-8274-c46749cd0f00" name="Sanctuary">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="5adeb9c8-e3e4-4c00-b158-c167a1ba090b" name="Strength">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="90ed9335-73ff-4e0a-b207-6b47b2f0b80e" name="Allying Dart +1">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="de0ac57c-f861-478d-aadf-053a86031597" name="Dagger">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Knife&#10;Panged&#10;Piercing&#10;Basic" />
@@ -440,42 +514,50 @@
    </card>
    <card id="7d6bd318-d30f-44bc-8ef4-5e432c15eb4a" name="Deathbane Light Crossbow +1">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="cb00231a-bcdc-4bf7-bcfb-b583398c31b1" name="Glaive">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="1bb2fea8-c84f-47a3-84c0-8ba330c6758b" name="Greatsword">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="a6158088-d2ee-4bc4-b444-a1f9da8d0c23" name="Icy Longspear +1">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="a6843932-5d07-4ddc-bcb3-0ae4847e4b3c" name="Light Crossbow">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="3eb650cb-780e-45a2-835c-ca714c3714b8" name="Longbow">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="c5ffcdb4-8748-4379-8cc1-9b3681a31917" name="Scimitar">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="70f48d89-506e-4400-b7e6-1b11d563db13" name="Short Sword">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Basic" />
@@ -485,17 +567,20 @@
    </card>
    <card id="0e29baf8-5d82-415c-8378-21cbe5e98d68" name="Shortbow">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Basic" />
    </card>
    <card id="5345c770-f68c-4921-b654-ba9d4fcdcb91" name="Warhammer">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="ef1e6700-c6c2-46fc-ad69-6665086d828c" name="Amiri (Berserker)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -505,6 +590,7 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Amiri (Berserker)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -517,6 +603,7 @@
    </card>
    <card id="4bbf3b1e-28a8-4d46-86ec-7b91833b75f8" name="Amiri (Juggernaut)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -526,6 +613,7 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Amiri (Juggernaut)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -538,6 +626,7 @@
    </card>
    <card id="2fdcacde-fbac-484c-9463-be7838ee478a" name="Lini (Shapeshifter)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -547,6 +636,7 @@
     <property name="Attr3" value="Ally" />
    <alternate name="Lini (Shapeshifter)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -559,6 +649,7 @@
    </card>
    <card id="51684557-7d58-427b-a011-8878a56da49c" name="Lini (Wild Warden)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -568,6 +659,7 @@
     <property name="Attr3" value="Ally" />
    <alternate name="Lini (Wild Warden)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -580,6 +672,7 @@
    </card>
    <card id="d4ada5ec-206f-4b61-942f-0f078eaa9f5e" name="Sajan (Drunken Master)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -589,6 +682,7 @@
     <property name="Attr3" value="Item" />
    <alternate name="Sajan (Drunken Master)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -600,6 +694,7 @@
    </card>
    <card id="e25cdddc-f044-4ef3-a05e-8cdbf3053057" name="Sajan (Zen Archer)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -609,6 +704,7 @@
     <property name="Attr3" value="Item" />
    <alternate name="Sajan (Zen Archer)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -620,6 +716,7 @@
    </card>
    <card id="d379fb1b-52da-403a-b1a5-22a3b8325289" name="Seelah (Crusader)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -629,6 +726,7 @@
     <property name="Attr3" value="Armor" />
    <alternate name="Seelah (Crusader)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -641,6 +739,7 @@
    </card>
    <card id="6d50ed2e-b1bd-4114-83b8-8a0997048f5d" name="Seelah (Hospitaler)">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -650,6 +749,7 @@
     <property name="Attr3" value="Armor" />
    <alternate name="Seelah (Hospitaler)" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
@@ -662,6 +762,7 @@
    </card>
    <card id="f24e8e24-d3e6-4099-b732-f984d4e0d3e4" name="Amiri">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Human&#10;Barbarian" />
@@ -670,6 +771,7 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Amiri" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Barbarian" />
@@ -681,6 +783,7 @@
    </card>
    <card id="5fa1844b-6b8c-4066-8758-c1954b797a58" name="Lini">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
@@ -689,6 +792,7 @@
     <property name="Attr3" value="Ally" />
    <alternate name="Lini" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
@@ -700,6 +804,7 @@
    </card>
    <card id="d0c63ffc-2123-48ec-8c82-79f52730318a" name="Sajan">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
@@ -708,6 +813,7 @@
     <property name="Attr3" value="Item" />
    <alternate name="Sajan" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
@@ -718,6 +824,7 @@
    </card>
    <card id="38b5c3c2-424f-486d-9e8f-1bab780d66e7" name="Seelah">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Human&#10;Paladin" />
@@ -726,6 +833,7 @@
     <property name="Attr3" value="Armor" />
    <alternate name="Seelah" type="B">
     <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Paladin" />

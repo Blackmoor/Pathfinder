@@ -52,11 +52,11 @@ def cardType(card):
 #Return the default x coordinate of the players hero
 #We Leave space for 4 piles (Adventure Path, Adventure, Scenario, Blessings) then place the characters
 def PlayerX(player):
-	room = int(BoardWidth / (len(players) + 4))
+	room = int(BoardWidth / (len(getPlayers()) + 4))
 	return  room*(player+4) - room/2 - 32 - BoardWidth/2
 
 def LocationX(i):
-	room = int(BoardWidth / (len(players)+2))	#2 more locations than players
+	room = int(BoardWidth / (len(getPlayers())+2))	#2 more locations than players
 	return room*i - room/2 - 32 - BoardWidth/2
 	
 def num(s):
@@ -512,7 +512,7 @@ def checkAvatar(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x
 		if len(shared.piles['Blessing Deck']) == 30:
 			#Check to see who the active player is
 			active = None
-			for p in players:
+			for p in getPlayers():
 				if p.isActivePlayer:
 					active = p
 					break
@@ -741,17 +741,32 @@ def shuffleCard(card, x=0, y=0):
 def peekTop(card, x=0, y=0):
 	mute()
 	pile = card.pile()
-	if pile is None: return
+	if pile is None or len(pile) == 0: return
 	notify("{} looks at the top card of the '{}' deck".format(me, card))
 	sync()
 	src = pile.top()
-	#Move the top card to a pile will full visibility
+	#Move the top card to a pile with full visibility
 	if lockPile(shared.piles['Internal']):
 		src.moveTo(shared.piles['Internal'])
-		whisper("{} looks at {}".format(me, src))
+		whisper("{} looks at '{}'".format(me, src))
 		src.moveTo(pile)
 		unlockPile(shared.piles['Internal'])
 
+def peekTop2(card, x=0, y=0):
+	mute()
+	pile = card.pile()
+	if pile is None: return
+	notify("{} looks at the top 2 cards of the '{}' deck".format(me, card))
+	sync()
+	if lockPile(shared.piles['Internal']):
+		for i in range(2):
+			#Move the card to a pile with full visibility
+			src = pile[i]
+			src.moveTo(shared.piles['Internal'])
+			whisper("{} looks at '{}'".format(me, src))
+			src.moveTo(pile, i)
+		unlockPile(shared.piles['Internal'])
+		
 def peekBottom(card, x=0, y=0):
 	mute()
 	pile = card.pile()
@@ -759,12 +774,36 @@ def peekBottom(card, x=0, y=0):
 	notify("{} looks at the bottom card of the '{}' deck".format(me, card))
 	sync()
 	src = pile.bottom()
-	#Move the top card to a pile will full visibility
+	#Move the top card to a pile with full visibility
 	if lockPile(shared.piles['Internal']):
 		src.moveTo(shared.piles['Internal'])
 		whisper("{} looks at '{}'".format(me, src))
 		src.moveToBottom(pile)
 		unlockPile(shared.piles['Internal'])
+
+def pileMoveTB(card, x=0, y=0):
+	mute()
+	#Move the top card to the bottom
+	pile = card.pile()
+	if pile is None or len(pile) == 0: return
+	notify("{} moves the top card of the '{}' pile to the bottom".format(me, card))
+	c = pile.top()
+	c.moveToBottom(pile)
+
+def pileMoveBT(card, x=0, y=0):
+	mute()
+	#Move the bottom card to the top
+	pile = card.pile()
+	if pile is None or len(pile) == 0: return
+	notify("{} moves the bottom card of the '{}' pile to the top".format(me, card))
+	pile.bottom().moveTo(pile)
+	
+def pileSwap12(card, x=0, y=0):
+	mute()
+	pile = card.pile()
+	if pile is None or len(pile) < 2: return
+	notify("{} swaps to the top 2 cards of the '{}' pile".format(me, card))
+	pile[1].moveTo(pile)
 	
 def closePermanently(card, x=0, y=0):
 	closeLocation(card, True)
@@ -910,7 +949,7 @@ def playerSetup():
 			if card.Subtype != 'Token': # Extract information about the hand size and favoured card type
 				if len(card.Attr3) > 0:
 					favoured = card.Attr3
-					debug("Favoured = {}".format(favoured))				
+					debug("Favoured = {}".format(favoured))	
 				card.moveToTable(PlayerX(id), StoryY)
 				update()
 				flipCard(card)
@@ -959,7 +998,7 @@ def scenarioSetup(card):
 	if not lockPile(hidden): return
 				
 	locations = card.Attr1.splitlines()
-	for i in range(len(players)+2):
+	for i in range(len(getPlayers())+2):
 		debug("Processing Location '{}'".format(locations[i]))
 		pileName = "Location{}".format(i+1)
 		setGlobalVariable(locations[i], pileName)
@@ -993,7 +1032,7 @@ def scenarioSetup(card):
 	henchmen = card.Attr3.splitlines()
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	index = 0
-	while len(hidden) < len(players) + 2:
+	while len(hidden) < len(getPlayers()) + 2:
 		if henchmen[index] in shared.piles: # A card type has been supplied
 			man = shared.piles[henchmen[index]].random()
 		else:
@@ -1002,6 +1041,8 @@ def scenarioSetup(card):
 				man = findCardByName(shared.piles['Henchman'], henchmen[index][:-1])
 		if man is None:
 			whisper("Setup error: failed to find '{}'".format(henchmen[index]))
+			if index == len(henchmen) - 1: # Stop a possible infinite loop if the final bandit is not loaded
+				break;
 		else:
 			man.moveTo(hidden)
 		if index < len(henchmen) - 1: #Repeat the last named entry if there are not enough named unique henchmen
@@ -1058,7 +1099,7 @@ def nextBlessing(x, y):
 			
 def gameOver():
 	clearupGame()
-	for p in players:
+	for p in getPlayers():
 		remoteCall(p, "displayHand", [me])	
 		
 #Move all my cards back into my hand ordered by type

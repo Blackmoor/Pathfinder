@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Skinsaw Murders" id="bcee5a76-cb0a-4496-8629-96c4e39ed322" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Skinsaw Murders" id="bcee5a76-cb0a-4496-8629-96c4e39ed322" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.7.13" version="1.2.0.0">
   <cards> 
    <card id="a3fda8c8-6350-4e44-aff0-43c51b0eed52" name="Falling Bell">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
     <property name="Traits" value="Obstacle&#10;Elite" />
    </card>
    <card id="7c79f660-bac6-4f90-8e4b-3b041996d3ae" name="Locked Stone Door">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
     <property name="Traits" value="Lock&#10;Veteran" />
    </card>
    <card id="3e814001-c2e9-4a3f-b206-d5657f24cade" name="Skinsaw Ritual">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
     <property name="Traits" value="Skirmish&#10;Cultist&#10;Elite" />
    </card>
    <card id="3ecc9285-26f1-4743-bbb5-06f7e12687e8" name="Zombie Horde">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
     <property name="Traits" value="Skirmish&#10;Undead&#10;Zombie&#10;Elite" />
    </card>
    <card id="3d2eb30b-4789-4e27-a10c-e22f7dbdf044" name="Zombie Nest">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
     <property name="Traits" value="Skirmish&#10;Undead&#10;Zombie&#10;Basic" />
    </card>
    <card id="af5be048-78d7-4720-8bef-5083e1c2cd6d" name="Charmed Faceless Stalker">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -43,6 +49,7 @@
    </card>
    <card id="2844618f-ed35-4355-95c3-543ebe11f00c" name="Dr. Habe">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -52,6 +59,7 @@
    </card>
    <card id="afd29992-c74c-400d-a567-512d3978ba20" name="Ghoul Scarecrow">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -62,6 +70,7 @@
    </card>
    <card id="b3560b5b-8166-4f54-b634-95759bd8df5b" name="Grayst Sevilla">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -72,6 +81,7 @@
    </card>
    <card id="72f7ab8a-71ce-4d5b-82a9-3eee47bca8c8" name="Haunt">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -81,6 +91,7 @@
    </card>
    <card id="94aa7ff4-932c-4c28-aea2-0866e81d7db2" name="Pidget Tergelson">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -91,6 +102,7 @@
    </card>
    <card id="3c64d77b-1ab0-45c5-81c7-2494603242a2" name="Scarecrow Golem">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -101,6 +113,7 @@
    </card>
    <card id="adc74804-ee41-48d2-91a2-62c1544dc384" name="Skinsaw Cultist">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -111,6 +124,7 @@
    </card>
    <card id="cc06ef42-4421-49ca-9a93-9efa3c7d5b2b" name="Zombie Minion">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -121,6 +135,7 @@
    </card>
    <card id="a4ff8fea-615d-44f8-870c-2a45068fea9b" name="Carrionstorm">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Undead&#10;Swarm&#10;Elite" />
@@ -133,6 +148,7 @@
    </card>
    <card id="9bfc0020-d0b3-4aee-82c1-13097a4f59d5" name="Diseased Rats">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Animal&#10;Swarm&#10;Elite" />
@@ -145,6 +161,7 @@
    </card>
    <card id="6db0e631-126b-4e31-bde1-abedd6ddb793" name="Faceless Stalker">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Aberration" />
@@ -154,6 +171,7 @@
    </card>
    <card id="1871c008-6c44-40d7-baee-b017b62177e4" name="Ghoul">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Undead&#10;Ghoul&#10;Elite" />
@@ -163,6 +181,7 @@
    </card>
    <card id="f62492cb-aa2f-4aaa-a481-aacbae823656" name="Caizarlu Zerren">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -176,6 +195,7 @@
    </card>
    <card id="bc795894-88d5-43db-a548-acac6fd1a89e" name="Iesha Foxglove">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -186,6 +206,7 @@
    </card>
    <card id="57c16e82-9e80-4d31-ab02-f2f1223cd521" name="Justice Ironbriar">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -200,6 +221,7 @@
    </card>
    <card id="552c3adf-e5c9-4ac6-8285-08503e4db4a3" name="Rogors Craesby">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -214,6 +236,7 @@
    </card>
    <card id="8d31fde0-201e-4186-80e7-167d6d95ec5a" name="The Skinsaw Man">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -228,6 +251,7 @@
    </card>
    <card id="86624981-8e93-4b6f-b619-16c7d2186909" name="Xanesha">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -245,6 +269,7 @@
    </card>
    <card id="656b387f-22d4-4a09-b0b3-f586a2e346f1" name="Brodert Quink">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Human&#10;Sage" />
@@ -254,6 +279,7 @@
    </card>
    <card id="64705ae9-23ac-4b56-a436-0fd70c28baf7" name="Maester Grump">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Human" />
@@ -261,11 +287,11 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="7" />
     <property name="Attr4" value="Wisdom&#10;Divine" />
-	<property name="Attr5" value="8" />
-    <property name="Attr6" value="OR" />
+    <property name="Attr5" value="8" />
    </card>
    <card id="54eb4470-b8ba-4348-8050-8a892d0de0a4" name="Merchant">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Human&#10;Hireling" />
@@ -275,24 +301,28 @@
    </card>
    <card id="bb85d569-3832-4464-a1b6-2b57131dba99" name="Arrow Catching Studded Leather">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Light Armor&#10;Magic" />
    </card>
    <card id="80f7b1cb-50ae-442e-81db-48cf2bcc0cff" name="Deathbane Shield">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Shield&#10;Magic&#10;Offhand" />
    </card>
    <card id="eca8ce01-db9e-49cf-8487-25435dbd564f" name="Hide Armor of Fire Resistance">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Light Armor&#10;Magic" />
    </card>
    <card id="8f62357b-b692-4c83-9e6a-ac183d5eb2d8" name="Blessing of Abadar">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Abadar" />
@@ -306,24 +336,28 @@
    </card>
    <card id="c2248d60-7176-442b-a44e-4d877276e33b" name="Chime of Unlocking">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Object&#10;Magic" />
    </card>
    <card id="aef282b9-cc9d-41b5-acff-ae36722cb11a" name="Cloak of Elvenkind">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Clothing&#10;Magic" />
    </card>
    <card id="e9910266-fa6a-4731-aa39-027fe8c658bd" name="Ring of Protection">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Accessory&#10;Magic" />
    </card>
    <card id="a29f572d-2386-4966-a057-334d0f092886" name="Impaler of Thorns">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Weapon" />
@@ -332,6 +366,7 @@
    </card>
    <card id="9b2e1180-27d5-4262-bf89-98c258014fb5" name="Medusa Mask">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Item" />
@@ -341,6 +376,7 @@
    </card>
    <card id="154d1e94-2539-4886-a3e8-0880878135bd" name="Sihedron Medallion">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Item" />
@@ -350,6 +386,7 @@
    </card>
    <card id="b473f20d-26bd-4ec4-b359-17c99d40dc8f" name="Snakeskin Tunic">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Armor" />
@@ -358,48 +395,56 @@
    </card>
    <card id="393323a6-1710-4a4e-931c-eddd0e70743c" name="Consecration">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Divine" />
    </card>
    <card id="7c0d6c96-b2b8-4dbb-a34a-58c555a2576d" name="Haste">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane" />
    </card>
    <card id="918d6114-a758-4c52-8207-641701242e91" name="Lightning Bolt">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Electricity&#10;Attack" />
    </card>
    <card id="8550f92d-750c-490d-bcdb-c87715ca4200" name="Toxic Cloud">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Poison" />
    </card>
    <card id="e89ae5e6-3421-45f2-9a6e-7ca1ac5db4cc" name="Web">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Elite" />
    </card>
    <card id="be015892-caad-4c61-a5b6-e93e4000d0a2" name="Heavy Pick +1">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Pick&#10;Melee&#10;Piercing&#10;Magic" />
    </card>
    <card id="f97a7aff-a670-4820-89d6-1f95795ee733" name="Light Crossbow +1">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;Magic" />
    </card>
    <card id="701891b5-b483-439a-9b98-178403094113" name="Scythe +1">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Scythe&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic" />
@@ -409,18 +454,21 @@
    </card>
    <card id="506245e1-73ae-432c-b05c-4eee2ac23140" name="Sickle +1">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Knife&#10;Melee&#10;Slashing&#10;Finesse&#10;Magic" />
    </card>
    <card id="ec148676-eb36-48ee-9242-bf7b2fdae9e5" name="War Razor +1">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Knife&#10;Melee&#10;Slashing&#10;Finesse&#10;Magic" />
    </card>
    <card id="1e60ce9a-81a5-49d7-bed8-4c2e3328e6fa" name="Foxglove Manor">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 1&#10;Spell 2&#10;Armor 0&#10;Item 2&#10;Ally 0&#10;Blessing 1" />
@@ -429,6 +477,7 @@
     <property name="Attr4" value="No effect." />
    <alternate name="Foxglove Manor" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Reveal Aldern Foxglove to banish all Haunts in front of characters." />
@@ -437,6 +486,7 @@
    </card>
    <card id="ae8806f8-ca85-472b-a081-932b652f1b58" name="Habe's Sanitorium">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 3&#10;Barrier 0&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 0" />
@@ -445,6 +495,7 @@
     <property name="Attr4" value="On closing, you may shuffle 1d4-1 random cards from your discard pile into your deck." />
    <alternate name="Habe's Sanitorium" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="At the start of your turn, attempt a Wisdom 6 check. If you succeed, draw a random card from your discard pile; if you fail, discard the top card of your deck." />
@@ -453,6 +504,7 @@
    </card>
    <card id="50691e53-6c84-4d12-bc73-35e1c8ecc28d" name="Mill">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 1&#10;Spell 0&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 1" />
@@ -461,6 +513,7 @@
     <property name="Attr4" value="No effect." />
    <alternate name="Mill" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="This rustic sawmill is powered by a continually creaking and grinding waterwheel, a contraptioncapable of powering a massive saw. Even at rest the blade looks lethal, capable of easily splitting even the thickest tree trunk. Amid the scraps of wood, well-worn tools, and heaps of sawdust, a splash of crimson stains the floor, evidence of a brutal crime that occurred in the recent past." />
@@ -468,6 +521,7 @@
    </card>
    <card id="beba802a-0bcc-4e36-afb5-b2ca867aa75e" name="Shadow Clock">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 3&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0" />
@@ -476,6 +530,7 @@
     <property name="Attr4" value="No effect." />
    <alternate name="Shadow Clock" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="A crumbling stone angel rises atop this dying structure of weathered shingles, loose bricks and untrustworthy scaffolding. Taller than any nearby building, the tower sways ever so slightly despite the lack of even the slightest breeze. Just below its ominous winged guardian, the decrepit clock tower's face is frozen, defiantly proclaiming it to be three o'clock." />
@@ -483,12 +538,14 @@
    </card>
    <card id="375eaabd-04ca-4cd1-8bd9-17580a9f4824" name="The Skinsaw Murders">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure" />
     <property name="Subtype2" value="Front" />
     <property name="Flavour" value="The dead stalk the streets of Sandpoint! The bloody trail leads to packs of ravenous undead and the haunted halls of Foxglove Manor. Behind this bloody spree is the Skinsaw Man, a ghoulish murder backed by the merciless Skinsaw Cult--the same sinister allies who backed Mualia. Pursuing the fiends to the city of Magnimar reveals the dark goals of these evil-minded fanatics and their mysterious leader, an &quot;angel&quot; hidden amid the dizzying heights of the towering Shadow Clock." />
    <alternate name="The Skinsaw Murders" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure" />
     <property name="Subtype2" value="Back" />
@@ -498,6 +555,7 @@
    </card>
    <card id="b1721e4e-3912-4993-8486-3308cd5f7c26" name="Angel in the Tower">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
@@ -505,6 +563,7 @@
     <property name="Attr1" value="Shadow Clock&#10;Temple&#10;Shrine to Lamashtu&#10;City Gate&#10;Throne Room&#10;Mill&#10;Waterfront&#10;Desecrated Vault" />
    <alternate name="Angel in the Tower" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -516,6 +575,7 @@
    </card>
    <card id="425aaa70-2822-4ceb-b340-b47824675801" name="Crow Bait">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
@@ -523,6 +583,7 @@
     <property name="Attr1" value="Farmhouse&#10;Wooden Bridge&#10;Guard Tower&#10;Woods&#10;Desecrated Vault&#10;General Store&#10;Apothecary&#10;Village House" />
    <alternate name="Crow Bait" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -534,6 +595,7 @@
    </card>
    <card id="f5958f50-2c69-42ea-bc33-c00e9bddf357" name="Foul Misgivings">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
@@ -541,6 +603,7 @@
     <property name="Attr1" value="Foxglove Manor&#10;Farmhouse&#10;Warrens&#10;Academy&#10;Prison&#10;Deeper Dungeons&#10;Treacherous Cave&#10;Desecrated Vault" />
    <alternate name="Foul Misgivings" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -552,6 +615,7 @@
    </card>
    <card id="06e03e4e-ac40-4b4a-83be-89957fe32050" name="The Cult Exposed">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
@@ -559,6 +623,7 @@
     <property name="Attr1" value="Mill&#10;City Gate&#10;Academy&#10;Temple&#10;Waterfront&#10;Shrine to Lamashtu&#10;Guard Tower&#10;Apothecary" />
    <alternate name="The Cult Exposed" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -570,6 +635,7 @@
    </card>
    <card id="319b34f2-0d56-4df7-ac99-2107619f368f" name="Undead Uprising">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
@@ -577,6 +643,7 @@
     <property name="Attr1" value="Habe's Sanitorium&#10;Mill&#10;Village House&#10;General Store&#10;The Old Light&#10;Desecrated Vault&#10;Thassilonian Dungeon&#10;Prison" />
    <alternate name="Undead Uprising" type="B">
     <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />

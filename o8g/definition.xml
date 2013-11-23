@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.97.227"
-		version="1.0.7.1"
+		version="1.0.8.0"
 		markersize="10"
 		tags="Pathfinder"
 		description="In the Pathfinder Adventure Card Game, your party of adventurers races against time on a quest to defeat a dangerous villain. Each player has a deck of cards representing her character. In most scenarios, your characters explore a variety of locations as you try to hunt down the villain. You need to clean out or protect these locations so that you can corner the villain and defeat him before time runs out. As you play more games, you will complete scenarios, improve your deck, customize your character, and take on more and more powerful challenges."
@@ -42,6 +42,7 @@
 	<property name="Subtype2" type="String" hidden="False" ignoreText="False" textKind="Enum" /> <!-- Front, Back, Monster, Barrier -->
 	<property name="Abr" type="String" hidden="False" ignoreText="False" textKind="Enum" />
 	<property name="Traits" type="String" hidden="False" ignoreText="False" textKind="Tokens" />
+	<property name="Copyright" type="String" hidden="True" ignoreText="True" />
 	<property name="Attr1" type="String" hidden="True" ignoreText="True" />
 	<property name="Attr2" type="String" hidden="True" ignoreText="True" />
     <property name="Attr3" type="String" hidden="True" ignoreText="True" />
@@ -68,7 +69,11 @@
 	<cardactions menu="Pile" >
 	  <cardaction menu="Shuffle" default="False" shortcut="ctrl+S" execute="shuffleCard" />
 	  <cardaction menu="Peek at Top" default = "False" shortcut="ctrl+P" execute="peekTop" />
+	  <cardaction menu="Peek at Top 2" default = "False" shortcut="ctrl+2" execute="peekTop2" />
 	  <cardaction menu="Peek at Bottom" default = "False" shortcut="ctrl+B" execute="peekBottom" />
+	  <cardaction menu="Move top to bottom" default = "False" execute="pileMoveTB" />
+	  <cardaction menu="Move bottom to top" default = "False" execute="pileMoveBT" />
+	  <cardaction menu="Swap top 2" default = "False" execute="pileSwap12" />
 	</cardactions>
 	<cardactions menu="Location">
 	  <cardaction menu="Explore" default="False" shortcut="ctrl+E" execute="exploreLocation" />

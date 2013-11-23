@@ -137,44 +137,46 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeL">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueL">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="CheckJoinM">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr9" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr7" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr8" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour">
-	   <property name="Flavour" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeL">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueL">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="CheckJoinM">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr9" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr7" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr8" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Henchman.jpg">
@@ -194,35 +196,37 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour">
-	   <property name="Flavour" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Monster.jpg">
@@ -242,35 +246,37 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour">
-	   <property name="Flavour" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Barrier.jpg">
@@ -287,35 +293,37 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour">
-	   <property name="Flavour" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Ally.jpg">
@@ -332,35 +340,37 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour">
-	   <property name="Flavour" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template> 
   <template src="Proxy/Weapon.jpg">
@@ -377,35 +387,37 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour">
-	   <property name="Flavour" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template> 
   <template src="Proxy/Item.jpg">
@@ -425,35 +437,37 @@
 	  <link block="Traits">
 	   <property name="Traits" />
 	  </link>
-	  <!--
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour2">
-	   <property name="Flavour" />
-	  </link>
-	  <link block="Recharge">
-	   <property name="Recharge" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour2">
+		   <property name="Flavour" />
+		  </link>
+		  <link block="Recharge">
+		   <property name="Recharge" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Item.jpg">
@@ -470,38 +484,40 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour2">
-	   <property name="Flavour" />
-	  </link>
-	  <link block="Recharge">
-	   <property name="Recharge" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour2">
+		   <property name="Flavour" />
+		  </link>
+		  <link block="Recharge">
+		   <property name="Recharge" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Blessing.jpg">
@@ -518,38 +534,40 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour2">
-	   <property name="Flavour" />
-	  </link>
-	  <link block="Recharge">
-	   <property name="Recharge" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour2">
+		   <property name="Flavour" />
+		  </link>
+		  <link block="Recharge">
+		   <property name="Recharge" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Spell.jpg">
@@ -566,38 +584,40 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour2">
-	   <property name="Flavour" />
-	  </link>
-	  <link block="Recharge">
-	   <property name="Recharge" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour2">
+		   <property name="Flavour" />
+		  </link>
+		  <link block="Recharge">
+		   <property name="Recharge" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/Armor.jpg">
@@ -614,35 +634,37 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="CheckTypeM">
-	   <property name="Attr2" />
-	  </link>
-	  <link block="CheckValueM">
-	   <property name="Attr3" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="CheckJoinR">
-	   <property name="Attr6" />
-	  </link>
-	  <link block="CheckTypeR">
-	   <property name="Attr4" />
-	  </link>
-	  <link block="CheckValueR">
-	   <property name="Attr5" />
-	  </link>
-	  <link block="Text">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="Flavour">
-	   <property name="Flavour" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/LocationFront.jpg">
@@ -660,20 +682,22 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="StatBlock">
-	   <property name="Attr1" />
-	  </link>
-	  <link block="AtLocation">
-	   <property name="Attr2"/>
-	  </link>
-	  <link block="WhenClosing">
-	   <property name="Attr3"/>
-	  </link>
-	  <link block="WhenClosed">
-	   <property name="Attr4"/>
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="StatBlock">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="AtLocation">
+		   <property name="Attr2"/>
+		  </link>
+		  <link block="WhenClosing">
+		   <property name="Attr3"/>
+		  </link>
+		  <link block="WhenClosed">
+		   <property name="Attr4"/>
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/LocationBack.jpg">
@@ -691,12 +715,14 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <!--
-	  <link block="Text">
-	   <property name="Flavour" />
-	   <property name="Attr1" format="&#10;When Closed&#10;{}" />
-	  </link>
-	  -->
+	  <conditional>
+		<if property="Copyright" value="No">
+		  <link block="Text">
+		   <property name="Flavour" />
+		   <property name="Attr1" format="&#10;When Closed&#10;{}" />
+		  </link>
+		</if>
+	  </conditional>
 	 </textblocks>
   </template>
   <template src="Proxy/AdventureFront.jpg">

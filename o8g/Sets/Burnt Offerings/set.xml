@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.1" version="1.1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.7.13" version="1.2.0.0">
   <cards>
    <card id="9161cc3d-94d0-4399-88ae-3ae61e39a79c" name="Goblin Raid">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="87c9f50c-20d5-46c1-b0c0-2c9719df9807" name="Monster in the Closet">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="c650d6b7-05b0-4624-a99f-47f327c2bc17" name="Pit of Malfeshnekor">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="da754d2c-6969-488f-b9a3-ba7cb1322f90" name="Shopkeeper's Daughter">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="447f7189-c3a5-4433-95e5-9137e580d017" name="Slashing Blade">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
    </card>
    <card id="71940a21-9ffa-475a-9b0e-40f3d4b55313" name="Bruthazmus">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -38,6 +44,7 @@
    </card>
    <card id="b66ff82b-b883-4598-b57a-2362557b7be0" name="Goblin Raider">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -48,6 +55,7 @@
    </card>
    <card id="22f23eff-25c2-47a5-9215-8d0d3b44031b" name="Koruvus">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -58,6 +66,7 @@
    </card>
    <card id="ae70afbd-4f91-469a-98a8-ca14cea5b9af" name="Lyrie Akenja">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -68,6 +77,7 @@
    </card>
    <card id="e08b72e6-33c3-481d-8114-8c2bfbb4b8e8" name="Orik Vancaskerkin">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -78,6 +88,7 @@
    </card>
    <card id="0aad5534-68b6-4f18-b108-64a325a95e19" name="Tangletooth">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -88,6 +99,7 @@
    </card>
    <card id="6be101cb-83b5-4d6a-aa45-6d3270c90957" name="Tsuto Kaikitsu">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -98,6 +110,7 @@
    </card>
    <card id="0650fe9d-a57b-489e-ae4a-498809631752" name="Wrathful Sinspawn">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -108,51 +121,61 @@
    </card>
    <card id="f023d332-d741-4bde-bcfd-3e8a8389ff50" name="Attic Whisperer">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="3844666e-8d59-4947-adec-8e937ac6891a" name="Giant Hermit Crab">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="14222cb6-c5e1-4183-8cc1-c7c901e18cb0" name="Goblin Cutpurse">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="49066149-9aeb-411d-a7a0-454feb20c1dd" name="Goblin Dog">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="e0c414d5-9219-4eb6-b2d4-342692df30d2" name="Goblin Pyro">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="450f1c2d-d0e5-4fd5-928f-e5e5b36f0181" name="Goblin Snake">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="74c24cf9-71df-4bd9-a5b6-051c413ddb16" name="Goblin Warchanter">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="ab5a07c2-4fe0-4f5f-a1d9-70e25791a18e" name="Tickwood Boar">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="39d7abb9-0637-4b9b-8b83-55c0cf6f802f" name="Yeth Hound">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
    </card>
    <card id="a8133420-aa43-488d-ae53-097072b82546" name="Erylium">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -167,6 +190,7 @@
    </card>
    <card id="ce878fc5-7aa3-4078-b4de-cb2382cf7ecd" name="Gogmurt">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -181,6 +205,7 @@
    </card>
    <card id="ae60ab9e-0856-45d1-84af-65fc1521a716" name="Nualia">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -195,6 +220,7 @@
    </card>
    <card id="ac29afbc-092b-4e33-8487-ee3fae36c816" name="Ripnugget and Stickfoot">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -209,6 +235,7 @@
    </card>
    <card id="0afb6174-3ba5-4f52-9ecd-05d225f4444e" name="The Sandpoint Devil">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -223,86 +250,103 @@
    </card>
    <card id="b9639dfb-fe21-4c88-b3b8-5fb007b58d0b" name="Aldern Foxglove">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="840c80f8-0bb8-44d3-a426-c3cec2d848b5" name="Ameik Kaijitsu">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="9d9a5b19-8f58-46e6-8858-0bce3e760bd7" name="Cyrdak Drokkus">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="09ce2557-7fae-4e8d-add9-0a4116a7d345" name="Grizzled Mercenary">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="5695d847-70de-4bfb-a027-2f1fcb2051ab" name="Ilsoari Gandethus">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="d710ec7f-aa64-4eb4-a0a5-6681fccb7be4" name="Toad">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="9866fa1b-3588-4735-8519-f11cc6604dc3" name="Ven Vinder">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
    </card>
    <card id="f85d8124-fc9d-4eef-883e-3005cb8744df" name="Elven Breastplate">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
    </card>
    <card id="a3a81065-ed44-45f8-8d98-d6b179304d0e" name="Elven Chain Shirt">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
    </card>
    <card id="5aa2b45b-eb0e-4a9b-9c7c-e6fcb52f4875" name="Shield of Fire Resistance">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
    </card>
    <card id="76a26ea3-ab46-43a0-8f7d-13857f0e2e82" name="Blessing of Lamashtu">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
    </card>
    <card id="c7e48913-6709-42df-8560-6b0bbd7ba653" name="Potion of Gracefulness">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="341ace1e-9183-4640-88ad-8ed15098b4a5" name="Potion of Ruggedness">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="e856088b-1cb8-4290-b0c1-51c35b595322" name="Staff of Minor Healing">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="c2871f12-4d04-4da2-99a0-43c676586603" name="Wand of Force Missile">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="503e87e1-213b-4fb3-b576-3c415cfec9e1" name="Wand of Shield">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
    </card>
    <card id="9246a66c-4a98-4fcd-87dd-81daddb3439a" name="Sihedron  Medallion">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Item" />
@@ -312,61 +356,73 @@
    </card>
    <card id="fdea7274-9050-4738-b3ef-469fed526f80" name="Enfeeble">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="659f1f14-80c6-4ae8-8021-489f3ce12f34" name="Fiery Weapon">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="eb0cb247-20a9-4f2a-b2f4-309fc39d8832" name="Frost Ray">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="d5f74302-1839-468c-90b8-12cb1b230d55" name="Scorching Ray">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="09c87b7e-a396-405b-a40f-9a666fade242" name="Speed">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
    </card>
    <card id="3fbdd615-f495-486f-aae9-28bd8c01d2eb" name="Bastard Sword +1">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="db27344a-66f1-4851-8d0c-5f7a2cb77288" name="Dagger +1">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="aca4db7b-04a9-42a4-b4da-436e681cb510" name="Dogslicer">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="8590f3ee-fe9a-40eb-aefc-4ba75a089743" name="Dogslicer +1">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="ea0b61af-124d-492f-b754-51f48c047c13" name="Longbow +1">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="cc48f2f2-970d-4c6e-ba56-6898685b3618" name="Short Sword +1">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
    </card>
    <card id="6e41db4f-9734-4858-ad84-e885fcf74a7c" name="Catacombs of Wrath">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 6&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 0&#10;Blessing 0" />
@@ -375,6 +431,7 @@
     <property name="Attr4" value="On closing, you may shuffle an item from your discard pile into your deck." />
    <alternate name="Catacombs of Wrath" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="A sink hole freshly opened in streets reveals the cracked masonry of some ancient but still intact structure hidden just beneath the town. The new opening into the mysterious ruins exposes darkened chambers, jagged runes suggested of demonic hordes, and the crimson glow of something old – but still very much alive – pulsing in the depths" />
@@ -382,6 +439,7 @@
    </card>
    <card id="ae67dbb5-0069-411d-9b1a-d8c113cbab36" name="Glassworks">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 0&#10;Item 1&#10;Ally 2&#10;Blessing 0" />
@@ -390,6 +448,7 @@
     <property name="Attr4" value="No effect." />
    <alternate name="Glassworks" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="The glasswork stands at the edge of Sandpoint. Here, artisans use sand and flame to create every sort of glassware, from common windows to elaborate, colored pieces of art. Curtains have been drawn across the buildings numerous windows, and it is curiously silent, although plumes of dark smoke still issue from its many numerous chimneys." />
@@ -397,6 +456,7 @@
    </card>
    <card id="99082528-31cf-4387-b006-45d7eb1955f2" name="Goblin Fortress">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 0" />
@@ -405,6 +465,7 @@
     <property name="Attr4" value="On closing, add 1d4 random [X] Weapons to this location without looking at them, then automatically acquire the top card." />
    <alternate name="Goblin Fortress" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Crashes, discordant singing, and manic laughter ringing from the crude walls of this goblin holdfast, a fortress of branches, scrap metal, and garbage as elaborate as it is ramshackle. The bodies of unfortunate travelers, the paint smeared skins of livestock, and a half eaten remains of seagulls serve as warnings of the inhabitants by woodwinds and demented sense of humor." />
@@ -412,6 +473,7 @@
    </card>
    <card id="9dc8ceab-047b-42fa-9d20-373f853651fa" name="Junk Beach">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 1&#10;Spell 0&#10;Armor 1&#10;Item 3&#10;Ally 0&#10;Blessing 0" />
@@ -420,6 +482,7 @@
     <property name="Attr4" value="On closing, add 1d6 random items to this location without looking at them, then automatically acquire the top card." />
    <alternate name="Junk Beach" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="The stark expansive coast is littered with the debris of shipwrecks and trash dumped from the clips above. The tide constantly drags scraps into the water, but some of the junk heaps will take decades to erode. Amid piles of cast-off barrels, rotten food, wagon parts, and other scrap run the trails of scavengers; some obviously prowl on four legs, and others on two." />
@@ -427,6 +490,7 @@
    </card>
    <card id="d583c203-1126-4563-a4f5-9a33b80e497d" name="Nettlemaze">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 6&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 0&#10;Blessing 0" />
@@ -435,6 +499,7 @@
     <property name="Attr4" value="On closing, you may shuffle an item from you discard pile into you deck." />
    <alternate name="Nettlemaze" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Dense hedges of words and creeping vines knot into a twisting labyrinth of crawling natural walls. Too dense to push through, the mazes passages bear the evidence of past explorers, such as flaps of torn cloth and bloodstained needles. The thicket doesn’t sound empty though, as small things giggle and darts just beyond this wall or that, visible only in glimpses through the brush." />
@@ -442,6 +507,7 @@
    </card>
    <card id="bda50362-42c0-4e27-95aa-0aff53e6d1f9" name="Swallowtail Festival">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 2&#10;Blessing 2" />
@@ -450,6 +516,7 @@
     <property name="Attr4" value="No effect." />
    <alternate name="Swallowtail Festival" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Sandpoint’s town square is crowded with people. Locals and visitors alike celebrate amid good music and food. But tiny forms slip through the shadows and begin singing an obnoxious song…" />
@@ -457,6 +524,7 @@
    </card>
    <card id="1d22a9b7-835e-42c4-bb48-5bbe175f9ac8" name="The Rusty Dragon">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 0&#10;Item 1&#10;Ally 3&#10;Blessing 0" />
@@ -465,6 +533,7 @@
     <property name="Attr4" value="On closing, you may recharge an ally from your discard pile" />
    <alternate name="The Rusty Dragon" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Laughter, music, and light fill the cozy common room of Sandpoint’s most renowned inn. Travelers and locals enjoy warm food and quaff god ale, all the while swapping stories of adventure and the open road. Behind the bar, the Rusty Dragon’s owner, Ameiko Kaijitsu, greets each newcomer as a friend with a wave, a wink or a genial welcome." />
@@ -472,11 +541,13 @@
    </card>
    <card id="134dd6cc-b6d3-4d60-b68d-6f9909e6ac6a" name="Burnt Offerings">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure" />
     <property name="Subtype2" value="Front" />
    <alternate name="Burnt Offerings" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure" />
     <property name="Subtype2" value="Back" />
@@ -486,12 +557,14 @@
    </card>
    <card id="da60c33c-8d95-4ea3-9001-732073638258" name="Approach to Thistletop">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Woods&#10;Treacherous Cave&#10;Goblin Fortress&#10;Nettlemaze&#10;Waterfront&#10;Guard Tower&#10;Prison&#10;Garrison" />
    <alternate name="Approach to Thistletop" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -502,12 +575,14 @@
    </card>
    <card id="fcfb5061-a689-4990-bb35-66e8134b6504" name="Attack on Sandpoint">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Town Square&#10;Swallowtail Festival&#10;City Gate&#10;Sandpoint Cathedral&#10;The Rusty Dragon&#10;The Old Light&#10;Wooden Bridge&#10;Desecrated Vault" />
    <alternate name="Attack on Sandpoint" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -518,12 +593,14 @@
    </card>
    <card id="96d6b7eb-bb39-48a7-ab35-f624dfd8cef8" name="Local Heroes">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="General Store&#10;Woods&#10;Waterfront&#10;Academy&#10;The Rusty Dragon&#10;Sandpoint Cathedral&#10;City Gate&#10;Garrison" />
    <alternate name="Local Heroes" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -534,12 +611,14 @@
    </card>
    <card id="50cb1b70-bb25-4da5-9b7a-459197016732" name="Thistletop Delve">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Throne Room&#10;Thassilonian Dungeon&#10;Warrens&#10;Goblin Fortress&#10;Temple&#10;Deeper Dungeons&#10;Garrison&#10;Desecrated Vault" />
    <alternate name="Thistletop Delve" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
@@ -550,12 +629,14 @@
    </card>
    <card id="a14b46a3-924a-4bcb-b28d-934e426251ee" name="Trouble in Sandpoint">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Glassworks&#10;Catacombs of Wrath&#10;Shrine to Lamashtu&#10;Village House&#10;The Old Light&#10;Junk Beach&#10;Waterfront&#10;Apothecary" />
    <alternate name="Trouble in Sandpoint" type="B">
     <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes" />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
