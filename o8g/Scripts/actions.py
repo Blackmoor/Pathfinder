@@ -435,18 +435,16 @@ def startOfTurn(player, turn):
 	if lastPlayer == me:
 		drawUp(me.hand)
 	
-	#Pass control of the "piles" on the table
+	#Pass control of the cards on the table - skip the current blessing as this causes timing issues
 	blessing = None
-	piles = [ c for c in table if c.pile() is not None ]
-	for card in piles:
-		if card.Subtype == 'Blessing':
-			blessing = card
-		if card.controller == me and player != me:
+	handover = [ c for c in table if c.Type != 'Character' ]
+	for card in handover:
+		if card.controller == me and player != me and (card.pile() is None or card.pile() != shared.piles['Blessing Deck']):
 			card.setController(player)
-		
+	
 	#Advance the Blessing deck if we are the new player
 	if player == me:
-		advanceBlessingDeck(blessing)
+		advanceBlessingDeck()
 		#Highlight my avatar
 		for c in table:
 			if c.Type == 'Character' and c.Subtype == 'Token':
@@ -455,10 +453,44 @@ def startOfTurn(player, turn):
 					c.highlight = "#82FA58" # Green
 				else:
 					c.highlight = None
+					
+def deleteCard(card):
+	mute()
+	card.link(None)
+	debug("{} Trying to delete {} owned by {}".format(me, card, card.controller))
+	card.delete()
+	
 #
-#Card Move Event - we only care if we have just moved our avatar from hand to the table
+#Card Move Event
+# We only care if we have just moved our avatar from hand to the table
+# or if the blessing discard pile changes
 #
-def checkAvatar(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):
+def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):	
+	if me.isActivePlayer: # The active player is allowed to update the blessing discard pile card
+		bd = shared.piles['Blessing Discard']
+		x = PlayerX(0)
+		y = StoryY
+		deleted = False
+		if fromGroup == bd or toGroup == bd: # The blessing discard pile changed - we must update the current blessing card
+			for c in table:
+				if c.pile() == shared.piles['Blessing Deck'] and ((len(bd) > 0 and c.model != bd.top().model) or len(bd) == 0):
+					x, y = c.position
+					if c.controller != me:
+						remoteCall(c.controller, "deleteCard", [c])
+					else:
+						deleteCard(c)
+					deleted = True
+					
+		found = False
+		if not deleted: # check to see if the blessing card is on the table
+			for c in table:
+				if c.pile() == shared.piles['Blessing Deck']:
+					found = True
+					break
+		# Create a copy of the top card
+		if len(bd) > 0 and not found:
+			table.create(bd.top().model, x, y).link(shared.piles['Blessing Deck'])
+
 	if player != me:
 		return
 		
@@ -650,8 +682,8 @@ def defaultAction(card, x = 0, y = 0):
 				exploreLocation(card)
 			else:
 				closePermanently(card)
-		elif card.Subtype == 'Blessing': # Reveal the next blessing
-			advanceBlessingDeck(card)
+		elif card.pile() == shared.piles['Blessing Deck']: # Reveal the next blessing
+			advanceBlessingDeck()
 	elif card.Subtype == 'Villain':
 		hideVillain(card)
 	elif card.Type == 'Bane': # Assume it is undefeated and shuffle back into location
@@ -707,6 +739,10 @@ def acquireCard(card, x=0, y=0):
 	
 def banishCard(card, x=0, y=0): #Move to correct pile in box (shared)
 	mute()
+	if card.pile() == shared.piles['Blessing Deck']:
+		if confirm("Are you sure?") != True: # This is unusual
+			return
+		card = shared.piles['Blessing Discard'].top()
 	notify("{} banishes '{}'".format(me, card))
 	returnToBox(card)
 		
@@ -1067,35 +1103,16 @@ def scenarioSetup(card):
 	unlockPile(hidden)
 	notify("{} starts the scenario '{}'".format(me, card.name))
 
-def advanceBlessingDeck(card=None):
-	#Replace the given blessing with the top card from the blessing deck
-	#If no card is given, just create one at the default position
-	if card is None:
-		x = PlayerX(0)
-		y = StoryY
-	else:
-		x, y = card.position
-		card.link(None)
-		card.moveTo(shared.piles['Blessing Discard'])
-	
+def advanceBlessingDeck():
+	#Move the top card of the Blessing deck to the discard pile	
 	pile = shared.piles['Blessing Deck']	
 	if len(pile) == 0:
 		# Out of time - the players have lost
 		gameOver()
 		notify("You have failed to complete the scenario in time")		
 	else:
-		if pile.controller != me:# There is a possibility that we haven't been passed control of the blessing pile yet
-			remoteCall(pile.controller, "nextBlessing", [x, y])
-		else:
-			nextBlessing(x, y)
+		shared.piles['Blessing Deck'].top().moveTo(shared.piles['Blessing Discard'])
 		notify("{} advances the Blessing Deck".format(me))
-
-def nextBlessing(x, y):
-	mute()
-	pile = shared.piles['Blessing Deck']
-	blessing = pile.top()
-	blessing.moveToTable(x, y)
-	blessing.link(pile)
 			
 def gameOver():
 	clearupGame()

@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.97.227"
-		version="1.0.8.0"
+		version="1.0.10.0"
 		markersize="10"
 		tags="Pathfinder"
 		description="In the Pathfinder Adventure Card Game, your party of adventurers races against time on a quest to defeat a dangerous villain. Each player has a deck of cards representing her character. In most scenarios, your characters explore a variety of locations as you try to hunt down the villain. You need to clean out or protect these locations so that you can corner the villain and defeat him before time runs out. As you play more games, you will complete scenarios, improve your deck, customize your character, and take on more and more powerful challenges."
@@ -22,7 +22,7 @@
   <events>
     <event name="OnLoadDeck" action="deckLoaded"/>
 	<event name="OnTurn" action="startOfTurn"/>
-	<event name="OnMoveCard" action="checkAvatar"/>
+	<event name="OnMoveCard" action="checkMovement"/>
 	<event name="OnMoveCard" action="cardPile"/>
   </events>
   <sounds>
@@ -101,7 +101,7 @@
 	  <cardaction menu="+2" shortcut="shift+F2" execute="minusTwo" />
 	  <cardaction menu="+1" shortcut="shift+F1" execute="minusOne" />
 	</cardactions>
-	<cardaction menu="Default Action" default="True" execute="defaultAction" />
+	<cardaction menu="Default Action" default="True" shortcut="Enter" execute="defaultAction" />
   </table>
   <player summary="Hand {#Hand} Deck {#Deck}">
     <hand name="Hand" visibility="all" ordered="False" width="63" height="88" icon="Resources/hand.png">
@@ -126,7 +126,7 @@
   <shared>
     <group name="Blessing Deck" visibility="none" ordered="True" width="63" height="88" icon="Resources/blessing.png" collapsed="False" />
 	<group name="Blessing Discard" visibility="all" ordered="True" width="63" height="88" icon="Resources/discard.png" collapsed="False">
-	  <groupaction menu="Return Random Blessing" default="False" execute="returnToBlessingDeck" />
+	  <groupaction menu="Return Random Blessing" default="True" execute="returnToBlessingDeck" />
 	</group>
 	<group name="Location1" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False">
 	  <groupaction menu="Shuffle" default="True" execute="shufflePile" />
