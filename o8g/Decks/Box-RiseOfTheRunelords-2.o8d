@@ -52,7 +52,7 @@
   <section name="Ally" shared="True">
     <card qty="1" id="656b387f-22d4-4a09-b0b3-f586a2e346f1">Brodert Quink</card>
     <card qty="1" id="64705ae9-23ac-4b56-a436-0fd70c28baf7">Maester Grump</card>
-    <card qty="1" id="54eb4470-b8ba-4348-8050-8a892d0de0a4">Merchant</card>
+    <card qty="3" id="54eb4470-b8ba-4348-8050-8a892d0de0a4">Merchant</card>
   </section>
   <section name="Blessing" shared="True">
     <card qty="5" id="8f62357b-b692-4c83-9e6a-ac183d5eb2d8">Blessing of Abadar</card>

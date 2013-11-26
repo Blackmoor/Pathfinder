@@ -67,6 +67,8 @@
     <card qty="1" id="5695d847-70de-4bfb-a027-2f1fcb2051ab">Ilsoari Gandethus</card>
     <card qty="2" id="d710ec7f-aa64-4eb4-a0a5-6681fccb7be4">Toad</card>
     <card qty="1" id="9866fa1b-3588-4735-8519-f11cc6604dc3">Ven Vinder</card>
+  </section>
+  <section name="Armor" shared="True">
     <card qty="2" id="f85d8124-fc9d-4eef-883e-3005cb8744df">Elven Breastplate</card>
     <card qty="1" id="a3a81065-ed44-45f8-8d98-d6b179304d0e">Elven Chain Shirt</card>
     <card qty="1" id="5aa2b45b-eb0e-4a9b-9c7c-e6fcb52f4875">Shield of Fire Resistance</card>
@@ -93,14 +95,4 @@
     <card qty="1" id="ac29afbc-092b-4e33-8487-ee3fae36c816">Ripnugget and Stickfoot</card>
     <card qty="1" id="0afb6174-3ba5-4f52-9ecd-05d225f4444e">The Sandpoint Devil</card>
   </section>
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
-  <section name="Armor" shared="True" />
-  <notes><![CDATA[]]></notes>
 </deck>
