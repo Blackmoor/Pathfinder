@@ -743,6 +743,7 @@ def banishCard(card, x=0, y=0): #Move to correct pile in box (shared)
 		if confirm("Are you sure?") != True: # This is unusual
 			return
 		card = shared.piles['Blessing Discard'].top()
+		card.link(None)
 	notify("{} banishes '{}'".format(me, card))
 	returnToBox(card)
 		
@@ -795,9 +796,9 @@ def peekTop2(card, x=0, y=0):
 	notify("{} looks at the top 2 cards of the '{}' deck".format(me, card))
 	sync()
 	if lockPile(shared.piles['Internal']):
-		for i in range(2):
+		for src in pile.top(2):
 			#Move the card to a pile with full visibility
-			src = pile[i]
+			i = src.getIndex
 			src.moveTo(shared.piles['Internal'])
 			whisper("{} looks at '{}'".format(me, src))
 			src.moveTo(pile, i)
