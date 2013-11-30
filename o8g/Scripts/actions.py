@@ -41,13 +41,6 @@ def shuffle(pile, synchronise=False):
 	if synchronise:
 		sync()
 	notify("{} shuffles '{}'".format(me, pile.name))
-
-def cardType(card):
-	if card.Subtype2 is not None and len(card.Subtype2) > 0 and card.Subtype2 != 'Front' and card.Subtype2 != 'Back':
-		return card.Subtype2
-	elif card.Subtype is not None:
-		return card.Subtype
-	return None
 	
 #Return the default x coordinate of the players hero
 #We Leave space for 4 piles (Adventure Path, Adventure, Scenario, Blessings) then place the characters
@@ -230,36 +223,24 @@ def d4Add(card, x=0, y=0):
 
 def d4Sub(card, x=0, y=0):
 	subToken(card, d4)	
-
+		
 def plusThree(card, x=0, y=0):
-	plusOne(card, x, y)
-	plusOne(card, x, y)
-	plusOne(card, x, y)
+	tokens(card, 3)
 
 def plusTwo(card, x=0, y=0):
-	plusOne(card, x, y)
-	plusOne(card, x, y)
-	
-def minusThree(card, x=0, y=0):
-	minusOne(card, x, y)
-	minusOne(card, x, y)
-	minusOne(card, x, y)
-
-def minusTwo(card, x=0, y=0):
-	minusOne(card, x, y)
-	minusOne(card, x, y)
+	tokens(card, 2)
 	
 def plusOne(card, x=0, y=0):
-	if card.markers[minus] > 0:
-		subToken(card, minus)
-	else:
-		addToken(card, plus)
+	tokens(card, 1)	
+	
+def minusThree(card, x=0, y=0):
+	tokens(card, -3)
+
+def minusTwo(card, x=0, y=0):
+	tokens(card, -2)
 
 def minusOne(card, x=0, y=0):
-	if card.markers[plus] > 0:
-		subToken(card, plus)
-	else:
-		addToken(card, minus)
+	tokens(card, -1)
 
 # Find the pile under this card
 def overPile(card):
@@ -318,6 +299,8 @@ def clearupGame(cleanupStory=False):
 				card.moveTo(card.owner.hand)
 			else:
 				card.switchTo() # Display side A of the card as it shows the deck makeup
+		elif not cleanupStory and card.Type == 'Boon': # Return displayed cards to the controller's hand
+			card.moveTo(card.controller.hand)
 		elif cleanupStory or card.Type != 'Story':
 			returnToBox(card)
 
@@ -523,7 +506,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 		handSize = getHandSize()
 		ci = 0
 		for card in me.Discarded:
-			if card.Subtype == favoured: break
+			if card.Subtype == favoured or (card.Subtype == 'Loot' and card.Subtype2 == favoured): break
 			ci += 1
 			
 		if ci >= size:
@@ -717,7 +700,17 @@ def addToken(card, tokenType):
 def subToken(card, tokenType):
     mute()
     card.markers[tokenType] -= 1
-
+		
+def tokens(card, num):
+	mute()
+	total = card.markers[plus] - card.markers[minus] + num
+	if total > 0:
+		card.markers[plus] = total
+		card.markers[minus] = 0
+	else:
+		card.markers[minus] = -total
+		card.markers[plus] = 0
+		
 def revealCard(card, x=0, y=0):
 	mute()
 	notify("{} reveals '{}'".format(me, card))
@@ -1010,10 +1003,12 @@ def playerSetup():
 	if favoured == 'Your choice':
 		#Make a list of card types in the deck
 		choices = []
-		for card in me.Discarded:
-			type = cardType(card)		
-			if type is not None and type not in choices:
-				choices.append(type)
+		for card in me.Discarded:	
+			if card.Subtype not in choices:
+				choices.append(card.Subtype)
+			if card.Subtype == 'Loot': # Loots have a secondary type too
+				if card.Subtype2 not in choices:
+					choices.append(card.Subtype2)
 		#Prompt user to select favoured card type
 		choice = None
 		if len(choices) > 0:
@@ -1118,7 +1113,10 @@ def advanceBlessingDeck():
 def gameOver():
 	clearupGame()
 	for p in getPlayers():
-		remoteCall(p, "displayHand", [me])	
+		if p == me:
+			displayHand(me)
+		else:
+			remoteCall(p, "displayHand", [me])	
 		
 #Move all my cards back into my hand ordered by type
 def displayHand(who):
@@ -1133,5 +1131,5 @@ def displayHand(who):
 	#Now order the cards - in turn move cards of the given type to the hand
 	for type in ["Token","Weapon","Spell","Item","Armor","Ally","Blessing"]:
 		for c in me.Discarded:
-			if cardType(c) == type:
+			if c.Subtype == type or (c.Subtype == 'Loot' and c.Subtype2 == type):
 				c.moveTo(me.hand)
