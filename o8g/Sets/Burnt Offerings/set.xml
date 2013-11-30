@@ -1,39 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.7.13" version="1.2.0.0">
-  <cards>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.10.0" version="1.1.0.0">
+ <cards>
    <card id="9161cc3d-94d0-4399-88ae-3ae61e39a79c" name="Goblin Raid">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Skirmish&#10;Goblin&#10;Basic" />
+    <property name="Attr1" value="Each character at an open location summons and encounters a Goblin Raider henchman; banish this card." />
+    <property name="Attr2" value="None" />
    </card>
    <card id="87c9f50c-20d5-46c1-b0c0-2c9719df9807" name="Monster in the Closet">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Skirmish&#10;Goblin&#10;Basic" />
+    <property name="Attr1" value="If you succeed at the check to defeat the Monster in the Closet, summon and encounter a Goblin Raider henchman. If you do not defeat the Goblin Raider, the Monster in the Closet is undefeated." />
+    <property name="Attr2" value="Wisdom&#10;Perception" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="c650d6b7-05b0-4624-a99f-47f327c2bc17" name="Pit of Malfeshnekor">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Cache" />
+    <property name="Attr1" value="Draw 3 items from the box. You may choose 1 and add it to your hand; banish any not chosen. If you added one to your hand, each character at this location is dealt 1d4+1 Fire damage.&#10;After the encounter, banish the Pit of Malfeshnekor." />
+    <property name="Attr2" value="None." />
    </card>
    <card id="da754d2c-6969-488f-b9a3-ba7cb1322f90" name="Shopkeeper's Daughter">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Obstacle&#10;Human&#10;Basic" />
+    <property name="Attr1" value="If defeated, you may immediately explore again.&#10;If undefeated, reset your hand and end your turn." />
+    <property name="Attr2" value="Wisdom" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="447f7189-c3a5-4433-95e5-9137e580d017" name="Slashing Blade">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Trap&#10;Elite" />
+    <property name="Attr1" value="If undefeated, every character at this location is dealt 1d4 Combat damage." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="71940a21-9ffa-475a-9b0e-40f3d4b55313" name="Bruthazmus">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -44,7 +62,7 @@
    </card>
    <card id="b66ff82b-b883-4598-b57a-2362557b7be0" name="Goblin Raider">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -55,7 +73,7 @@
    </card>
    <card id="22f23eff-25c2-47a5-9215-8d0d3b44031b" name="Koruvus">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -66,7 +84,7 @@
    </card>
    <card id="ae70afbd-4f91-469a-98a8-ca14cea5b9af" name="Lyrie Akenja">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -77,7 +95,7 @@
    </card>
    <card id="e08b72e6-33c3-481d-8114-8c2bfbb4b8e8" name="Orik Vancaskerkin">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -88,7 +106,7 @@
    </card>
    <card id="0aad5534-68b6-4f18-b108-64a325a95e19" name="Tangletooth">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -99,7 +117,7 @@
    </card>
    <card id="6be101cb-83b5-4d6a-aa45-6d3270c90957" name="Tsuto Kaikitsu">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -110,7 +128,7 @@
    </card>
    <card id="0650fe9d-a57b-489e-ae4a-498809631752" name="Wrathful Sinspawn">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
@@ -121,61 +139,97 @@
    </card>
    <card id="f023d332-d741-4bde-bcfd-3e8a8389ff50" name="Attic Whisperer">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Undead&#10;Elite" />
+    <property name="Attr1" value="The Attic Whisperer is immune to the Mental and Poison traits.&#10;Before the encounter, each character at your location must succeed at a Wisdom 4 check or be dealt 1 Mental damage which may not be reduced; players must choose a blessing to discard as their damage, if they have any." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="10" />
    </card>
    <card id="3844666e-8d59-4947-adec-8e937ac6891a" name="Giant Hermit Crab">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Aquatic&#10;Elite" />
+    <property name="Attr1" value="If the Giant Hermit Crab would be defeated, reroll the dice and use the new result." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="14222cb6-c5e1-4183-8cc1-c7c901e18cb0" name="Goblin Cutpurse">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Goblin&#10;Rogue&#10;Basic" />
+    <property name="Attr1" value="Before the encounter, succeed at a Wisdom or Perception 6 check or bury 1 random card from your hand." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="49066149-9aeb-411d-a7a0-454feb20c1dd" name="Goblin Dog">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Basic" />
+    <property name="Attr1" value="If undefeated, succeed at a Constitution or Fortitude 8 check or discard the top card of your deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="e0c414d5-9219-4eb6-b2d4-342692df30d2" name="Goblin Pyro">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Goblin&#10;Warrior&#10;Elite" />
+    <property name="Attr1" value="After the encounter, the Goblin Pyro deals 1 Fire damage to you." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="450f1c2d-d0e5-4fd5-928f-e5e5b36f0181" name="Goblin Snake">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Aberration&#10;Basic" />
+    <property name="Attr1" value="Before the enounter, succeed at a Constitution or Fortitude 6 check or the diffuculty of your checks is increased by 1 for the rest of the turn." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="74c24cf9-71df-4bd9-a5b6-051c413ddb16" name="Goblin Warchanter">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Goblin&#10;Bard&#10;Elite" />
+    <property name="Attr1" value="Before the encounter, succeed at a Wisdom 8 check or you may not play spells with the Attack trait or weapons." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="ab5a07c2-4fe0-4f5f-a1d9-70e25791a18e" name="Tickwood Boar">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal" />
+    <property name="Attr1" value="Before the encounter, succeed at a Wisdom or Survival 7 check or the difficulty to defeat the Tickwood Boar is increased by 2." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="39d7abb9-0637-4b9b-8b83-55c0cf6f802f" name="Yeth Hound">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Outsider&#10;Elite" />
+    <property name="Attr1" value="Before the encounter, each character at your location must succeed at a Wisdom 6 check or the difficulty of your checks is increased by 1 for the rest of the turn." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="a8133420-aa43-488d-ae53-097072b82546" name="Erylium">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -190,7 +244,7 @@
    </card>
    <card id="ce878fc5-7aa3-4078-b4de-cb2382cf7ecd" name="Gogmurt">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -205,7 +259,7 @@
    </card>
    <card id="ae60ab9e-0856-45d1-84af-65fc1521a716" name="Nualia">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -220,7 +274,7 @@
    </card>
    <card id="ac29afbc-092b-4e33-8487-ee3fae36c816" name="Ripnugget and Stickfoot">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -235,7 +289,7 @@
    </card>
    <card id="0afb6174-3ba5-4f52-9ecd-05d225f4444e" name="The Sandpoint Devil">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Villain" />
     <property name="Subtype2" value="Monster" />
@@ -250,103 +304,179 @@
    </card>
    <card id="b9639dfb-fe21-4c88-b3b8-5fb007b58d0b" name="Aldern Foxglove">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Noble" />
+    <property name="Attr1" value="Banish this card to reduce damage dealt to a character at your location by 3.&#10;Banish this card to succeed at your check to acquire a weapon, an armor, an item or a spell." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="4" />
    </card>
-   <card id="840c80f8-0bb8-44d3-a426-c3cec2d848b5" name="Ameik Kaijitsu">
+   <card id="840c80f8-0bb8-44d3-a426-c3cec2d848b5" name="Ameiko Kaijitsu">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Bard&#10;Rogue" />
+    <property name="Attr1" value="Banish this card to add 1d6 to your check.&#10;Banish this card to return a card from your discard pile to your hand." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="7" />
    </card>
    <card id="9d9a5b19-8f58-46e6-8858-0bce3e760bd7" name="Cyrdak Drokkus">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Bard" />
+    <property name="Attr1" value="Recharge this card to add 1d6 to your check to acquire an ally.&#10;Banish this card to return an ally from your discard pile to your hand." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="5" />
    </card>
    <card id="09ce2557-7fae-4e8d-add9-0a4116a7d345" name="Grizzled Mercenary">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Hireling" />
+    <property name="Attr1" value="Bury this card to add 1d8 to a combat check at your location.&#10;Discard this card to explore your location. If you encounter a boon, banish it." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
    </card>
    <card id="5695d847-70de-4bfb-a027-2f1fcb2051ab" name="Ilsoari Gandethus">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Wizard" />
+    <property name="Attr1" value="During your turn, reveal this card and put it on top of your deck to examine the top card of your location deck; if it's a monster, you may shuffle that monster back into the location deck. After you play this card, roll 1d12; on a 1, summon and encounter the villain The Sandpoint Devil." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Charisma&#10;Diplomacy" />
+    <property name="Attr5" value="6" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="d710ec7f-aa64-4eb4-a0a5-6681fccb7be4" name="Toad">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal&#10;Arcane" />
+    <property name="Attr1" value="Bury this card to put a spell from your discard pile into your hand.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Wisdom&#10;Survival&#10;Intelligence&#10;Arcane" />
+    <property name="Attr3" value="7" />
    </card>
    <card id="9866fa1b-3588-4735-8519-f11cc6604dc3" name="Ven Vinder">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Shopkeeper" />
+    <property name="Attr1" value="Banish this card to add a random item from the box to your hand." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+    <property name="Attr4" value="Dexterity&#10;Stealth" />
+    <property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="f85d8124-fc9d-4eef-883e-3005cb8744df" name="Elven Breastplate">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Heavy Armor&#10;Magic&#10;Elite" />
+    <property name="Attr1" value="Reveal this card to reduce Combat damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="7" />
    </card>
    <card id="a3a81065-ed44-45f8-8d98-d6b179304d0e" name="Elven Chain Shirt">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Elite" />
+    <property name="Attr1" value="Reveal this card to reduce Combat damage dealt to you by 1.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="6" />
    </card>
    <card id="5aa2b45b-eb0e-4a9b-9c7c-e6fcb52f4875" name="Shield of Fire Resistance">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Shield&#10;Offhand&#10;Magic" />
+    <property name="Attr1" value="If you played a weapon with the 2-Handed trait on this check, you may not play this card.&#10;Reveal this card to reduce Combat or Fire damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="6" />
    </card>
    <card id="76a26ea3-ab46-43a0-8f7d-13857f0e2e82" name="Blessing of Lamashtu">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Lamashtu" />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check to defeat a monster.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Divine" />
+    <property name="Attr3" value="5" />
+    <property name="Recharge" value="If the top card of the blessings discard pile matches this card, recharge it instead of discarding it." />
    </card>
    <card id="c7e48913-6709-42df-8560-6b0bbd7ba653" name="Potion of Gracefulness">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Liquid&#10;Alchemical&#10;Elite" />
+    <property name="Attr1" value="Banish this card and choose a character at your location to succeed at an Acrobatics check." />
+    <property name="Attr2" value="Intelligence&#10;Craft" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="None" />
    </card>
    <card id="341ace1e-9183-4640-88ad-8ed15098b4a5" name="Potion of Ruggedness">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Liquid&#10;Alchemical&#10;Elite" />
+    <property name="Attr1" value="Banish this card and choose a character at your location to succeed at a Survival check." />
+    <property name="Attr2" value="Intelligence&#10;Craft" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="None" />
    </card>
    <card id="e856088b-1cb8-4290-b0c1-51c35b595322" name="Staff of Minor Healing">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Staff&#10;Magic&#10;Divine&#10;Healing" />
+    <property name="Attr1" value="Recharge this card and choose a character at your location to recharge 1 random card from his discard pile." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="7" />
+    <property name="Recharge" value="None" />
    </card>
    <card id="c2871f12-4d04-4da2-99a0-43c676586603" name="Wand of Force Missile">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Wand&#10;Magic&#10;Arcane&#10;Attack&#10;Elite" />
+    <property name="Attr1" value="For your combat check, bury this card to roll 4d4 with the Arcane and Force traits." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="7" />
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it." />
    </card>
    <card id="503e87e1-213b-4fb3-b576-3c415cfec9e1" name="Wand of Shield">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
+    <property name="Traits" value="Wand&#10;Magic&#10;Arcane" />
+    <property name="Attr1" value="Bury this card to reduce Combat damage dealt to you by 2." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="7" />
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it." />
    </card>
    <card id="9246a66c-4a98-4fcd-87dd-81daddb3439a" name="Sihedron  Medallion">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Item" />
@@ -356,73 +486,122 @@
    </card>
    <card id="fdea7274-9050-4738-b3ef-469fed526f80" name="Enfeeble">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Mental" />
+    <property name="Attr1" value="Discard this card to evade a monster; return it to the top of the deck.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of discarding it." />
    </card>
    <card id="659f1f14-80c6-4ae8-8021-489f3ce12f34" name="Fiery Weapon">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Fire" />
+    <property name="Attr1" value="Discard this card to add 1d4 with the Fire trait to a combat check using a weapon.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
    </card>
    <card id="eb0cb247-20a9-4f2a-b2f4-309fc39d8832" name="Frost Ray">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Cold" />
+    <property name="Attr1" value="For your combat check, discard this card to roll your Arcane die + 2d6 with the Cold trait.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of discarding it." />
    </card>
    <card id="d5f74302-1839-468c-90b8-12cb1b230d55" name="Scorching Ray">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Fire&#10;Basic" />
+    <property name="Attr1" value="For your combat check, discard this card to roll your Arcane die + 2d6 with the Fire trait.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of discarding it." />
    </card>
    <card id="09c87b7e-a396-405b-a40f-9a666fade242" name="Speed">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine" />
+    <property name="Attr1" value="Discard this card and select a character. For the rest of the turn, add 3 to that character's checks that use their Dexterity die.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of discarding it." />
    </card>
    <card id="3fbdd615-f495-486f-aae9-28bd8c01d2eb" name="Bastard Sword +1">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+1; you may additionally discard this card to add another 1d10. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="db27344a-66f1-4851-8d0c-5f7a2cb77288" name="Dagger +1">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Finesse&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d4+1; you may additionally recharge this card to add another 1d4.&#10;When playing another weapon, you may discard this card to add 1d4+1 to the combat check." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="6" />
    </card>
    <card id="aca4db7b-04a9-42a4-b4da-436e681cb510" name="Dogslicer">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d6; you may additionally discard this card to add another 1d6.&#10;If any d6 rolled for this weapon is a 1, count it as a 3, then discard this card." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="7" />
    </card>
    <card id="8590f3ee-fe9a-40eb-aefc-4ba75a089743" name="Dogslicer +1">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d6+1; you may additionally discard this card to add another 1d6.&#10;If any d6 rolled for this weapon is a 1, count it as a 3, then discard this card." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="ea0b61af-124d-492f-b754-51f48c047c13" name="Longbow +1">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + your unmodified Strength die + 1. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you are proficient with weapons, you may discard this card to add 1d4+1 to a combat check at another location." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="cc48f2f2-970d-4c6e-ba56-6898685b3618" name="Short Sword +1">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d6+1; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="7" />
    </card>
    <card id="6e41db4f-9734-4858-ad84-e885fcf74a7c" name="Catacombs of Wrath">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 6&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 0&#10;Blessing 0" />
@@ -431,15 +610,15 @@
     <property name="Attr4" value="On closing, you may shuffle an item from your discard pile into your deck." />
    <alternate name="Catacombs of Wrath" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="A sink hole freshly opened in streets reveals the cracked masonry of some ancient but still intact structure hidden just beneath the town. The new opening into the mysterious ruins exposes darkened chambers, jagged runes suggested of demonic hordes, and the crimson glow of something old – but still very much alive – pulsing in the depths" />
+    <property name="Flavour" value="A sink hole freshly opened in streets reveals the cracked masonry of some ancient but still intact structure hidden just beneath the town. The new opening into the mysterious ruins exposes darkened chambers, jagged runes suggested of demonic hordes, and the crimson glow of something old - but still very much alive - pulsing in the depths" />
    </alternate>
    </card>
    <card id="ae67dbb5-0069-411d-9b1a-d8c113cbab36" name="Glassworks">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 0&#10;Item 1&#10;Ally 2&#10;Blessing 0" />
@@ -448,7 +627,7 @@
     <property name="Attr4" value="No effect." />
    <alternate name="Glassworks" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="The glasswork stands at the edge of Sandpoint. Here, artisans use sand and flame to create every sort of glassware, from common windows to elaborate, colored pieces of art. Curtains have been drawn across the buildings numerous windows, and it is curiously silent, although plumes of dark smoke still issue from its many numerous chimneys." />
@@ -456,7 +635,7 @@
    </card>
    <card id="99082528-31cf-4387-b006-45d7eb1955f2" name="Goblin Fortress">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 0" />
@@ -465,7 +644,7 @@
     <property name="Attr4" value="On closing, add 1d4 random [X] Weapons to this location without looking at them, then automatically acquire the top card." />
    <alternate name="Goblin Fortress" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Crashes, discordant singing, and manic laughter ringing from the crude walls of this goblin holdfast, a fortress of branches, scrap metal, and garbage as elaborate as it is ramshackle. The bodies of unfortunate travelers, the paint smeared skins of livestock, and a half eaten remains of seagulls serve as warnings of the inhabitants by woodwinds and demented sense of humor." />
@@ -473,7 +652,7 @@
    </card>
    <card id="9dc8ceab-047b-42fa-9d20-373f853651fa" name="Junk Beach">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 1&#10;Spell 0&#10;Armor 1&#10;Item 3&#10;Ally 0&#10;Blessing 0" />
@@ -482,7 +661,7 @@
     <property name="Attr4" value="On closing, add 1d6 random items to this location without looking at them, then automatically acquire the top card." />
    <alternate name="Junk Beach" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="The stark expansive coast is littered with the debris of shipwrecks and trash dumped from the clips above. The tide constantly drags scraps into the water, but some of the junk heaps will take decades to erode. Amid piles of cast-off barrels, rotten food, wagon parts, and other scrap run the trails of scavengers; some obviously prowl on four legs, and others on two." />
@@ -490,7 +669,7 @@
    </card>
    <card id="d583c203-1126-4563-a4f5-9a33b80e497d" name="Nettlemaze">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 6&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 0&#10;Blessing 0" />
@@ -499,32 +678,32 @@
     <property name="Attr4" value="On closing, you may shuffle an item from you discard pile into you deck." />
    <alternate name="Nettlemaze" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Dense hedges of words and creeping vines knot into a twisting labyrinth of crawling natural walls. Too dense to push through, the mazes passages bear the evidence of past explorers, such as flaps of torn cloth and bloodstained needles. The thicket doesn’t sound empty though, as small things giggle and darts just beyond this wall or that, visible only in glimpses through the brush." />
+    <property name="Flavour" value="Dense hedges of words and creeping vines knot into a twisting labyrinth of crawling natural walls. Too dense to push through, the mazes passages bear the evidence of past explorers, such as flaps of torn cloth and bloodstained needles. The thicket doesn't sound empty though, as small things giggle and darts just beyond this wall or that, visible only in glimpses through the brush." />
    </alternate>
    </card>
    <card id="bda50362-42c0-4e27-95aa-0aff53e6d1f9" name="Swallowtail Festival">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 2&#10;Blessing 2" />
     <property name="Attr2" value="At the start of your turn, you may shuffle any number of cards from your hand into your deck and draw 1 fewer card than you shuffled in." />
-    <property name="Attr3" value="Defeat or acquire the next card in the deck. If there isn’t one, you may close this location automatically." />
+    <property name="Attr3" value="Defeat or acquire the next card in the deck. If there isn't one, you may close this location automatically." />
     <property name="Attr4" value="No effect." />
    <alternate name="Swallowtail Festival" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Sandpoint’s town square is crowded with people. Locals and visitors alike celebrate amid good music and food. But tiny forms slip through the shadows and begin singing an obnoxious song…" />
+    <property name="Flavour" value="Sandpoint's town square is crowded with people. Locals and visitors alike celebrate amid good music and food. But tiny forms slip through the shadows and begin singing an obnoxious song..." />
    </alternate>
    </card>
    <card id="1d22a9b7-835e-42c4-bb48-5bbe175f9ac8" name="The Rusty Dragon">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 0&#10;Item 1&#10;Ally 3&#10;Blessing 0" />
@@ -533,21 +712,22 @@
     <property name="Attr4" value="On closing, you may recharge an ally from your discard pile" />
    <alternate name="The Rusty Dragon" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Laughter, music, and light fill the cozy common room of Sandpoint’s most renowned inn. Travelers and locals enjoy warm food and quaff god ale, all the while swapping stories of adventure and the open road. Behind the bar, the Rusty Dragon’s owner, Ameiko Kaijitsu, greets each newcomer as a friend with a wave, a wink or a genial welcome." />
+    <property name="Flavour" value="Laughter, music, and light fill the cozy common room of Sandpoint's most renowned inn. Travelers and locals enjoy warm food and quaff god ale, all the while swapping stories of adventure and the open road. Behind the bar, the Rusty Dragon's owner, Ameiko Kaijitsu, greets each newcomer as a friend with a wave, a wink or a genial welcome." />
    </alternate>
    </card>
    <card id="134dd6cc-b6d3-4d60-b68d-6f9909e6ac6a" name="Burnt Offerings">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure" />
     <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="With celestial ancestry, Nualia was born on the path of light, but a childhood facing the constant attention and fealousy of Sandpoint's people drove her to embrace the demon goddess Lamashtu. Bitter and vengeful, Nualia has taken refuge in the ruins of Thistletop, enlisting the aid of goblins, a band of vicious outcasts, and other mysterious allies in a plot to destroy Sandpoint. Those who would save the town must defend it from her goblin raiders, quall the evils unleashed in the chaos, and then take flight to Thistletop and Nualia herself!" />
    <alternate name="Burnt Offerings" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure" />
     <property name="Subtype2" value="Back" />
@@ -557,17 +737,19 @@
    </card>
    <card id="da60c33c-8d95-4ea3-9001-732073638258" name="Approach to Thistletop">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The goblin raiders might have been defeated, but already they're regrouping in thier lair of sticks and brambles amid the ruins called Thistletop. Strike back against the goblins and find out what's been stirring the disorderly maniacs to attack!" />
     <property name="Attr1" value="Woods&#10;Treacherous Cave&#10;Goblin Fortress&#10;Nettlemaze&#10;Waterfront&#10;Guard Tower&#10;Prison&#10;Garrison" />
    <alternate name="Approach to Thistletop" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="The difficulty to defeat monsters with the Goblin trait is increased by 1d4." />
     <property name="Attr2" value="Gogmurt" />
     <property name="Attr3" value="Tangletooth&#10;Bruthazmus&#10;Goblin Raiders" />
     <property name="Attr4" value="Each character draws a random weapon from the box" />
@@ -575,17 +757,19 @@
    </card>
    <card id="fcfb5061-a689-4990-bb35-66e8134b6504" name="Attack on Sandpoint">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Wielding torches and cackling war songs, goblin raiders dash through the streets of Sandpoint. Find the goblins' ruthless geck-mounted leader, Chief Ripnugget, and unmask their ally in Sandpoint before the miniature maniacs set the entire town ablaze!" />
     <property name="Attr1" value="Town Square&#10;Swallowtail Festival&#10;City Gate&#10;Sandpoint Cathedral&#10;The Rusty Dragon&#10;The Old Light&#10;Wooden Bridge&#10;Desecrated Vault" />
    <alternate name="Attack on Sandpoint" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="If you defeat a monster with the Goblin trait, roll 1d6. On a 1, each character at your location takes 1 Fire damage." />
     <property name="Attr2" value="Ripnugget and Stickfoot" />
     <property name="Attr3" value="Tsuto Kaikitsu&#10;Goblin Raiders" />
     <property name="Attr4" value="Each character gains a skill feat" />
@@ -593,17 +777,19 @@
    </card>
    <card id="96d6b7eb-bb39-48a7-ab35-f624dfd8cef8" name="Local Heroes">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Everyone in town wants to thank the heroes of Sandpoint for saving them from the recent goblin raid, but you have feeling that darker times are on the horizon. Explore the town, visit its most signficant landmarks, and gather your allies - you'll be needing them!" />
     <property name="Attr1" value="General Store&#10;Woods&#10;Waterfront&#10;Academy&#10;The Rusty Dragon&#10;Sandpoint Cathedral&#10;City Gate&#10;Garrison" />
    <alternate name="Local Heroes" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="If you acquire an ally, you may immediately to close your location. If you fail to acquire an ally, discard the top card of blessings deck.&#10;&#10;To win this scenario, close all locations." />
     <property name="Attr2" value="None" />
     <property name="Attr3" value="Ally" />
     <property name="Attr4" value="Each character draws a random ally from the box" />
@@ -611,17 +797,19 @@
    </card>
    <card id="50cb1b70-bb25-4da5-9b7a-459197016732" name="Thistletop Delve">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Wearing a strange star medallion and raising prayers to the goddess Lamashtu, the vicious fanatic Nualia has been commanding her goblin servants from dungeons beneath Thistletop. Hunt down Nualia and her henchmen before they can unleash greater evils upon Sandpoint!" />
     <property name="Attr1" value="Throne Room&#10;Thassilonian Dungeon&#10;Warrens&#10;Goblin Fortress&#10;Temple&#10;Deeper Dungeons&#10;Garrison&#10;Desecrated Vault" />
    <alternate name="Thistletop Delve" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="The difficulty of checks to acquire items or weapons is inscreased by 2." />
     <property name="Attr2" value="Nualia" />
     <property name="Attr3" value="Lyrie Akenja&#10;Orik Vancaskerkin&#10;Goblin Raiders" />
     <property name="Attr4" value="Loot: Sihedron Medallion" />
@@ -629,21 +817,23 @@
    </card>
    <card id="a14b46a3-924a-4bcb-b28d-934e426251ee" name="Trouble in Sandpoint">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="As cowardly as they are crafty, goblins still lurk in Sandpoint, stirring up trouble. They've even revealed strange ruins beneath the town's streets. Ferret out the last of the goblins and destroy the evil things they've unleashed before someone gets hurt!" />
     <property name="Attr1" value="Glassworks&#10;Catacombs of Wrath&#10;Shrine to Lamashtu&#10;Village House&#10;The Old Light&#10;Junk Beach&#10;Waterfront&#10;Apothecary" />
    <alternate name="Trouble in Sandpoint" type="B">
     <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes" />
+    <property name="Copyright" value="Yes." />
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="After a character encounters a Wrathful Sinspawn henchman, roll 1d6. On a 1, discard the top card of the blessings deck." />
     <property name="Attr2" value="Erylium" />
     <property name="Attr3" value="Koruvus&#10;Wrathful Sinspawns" />
     <property name="Attr4" value="Each character gains a power feat" />
    </alternate>
    </card>
-  </cards>
+ </cards>
 </set>
