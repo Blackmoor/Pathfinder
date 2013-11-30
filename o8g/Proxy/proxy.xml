@@ -138,7 +138,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -197,7 +197,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -247,7 +247,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -294,7 +294,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -341,7 +341,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -388,7 +388,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -438,7 +438,7 @@
 	   <property name="Traits" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="CheckTypeM">
 		   <property name="Attr2" />
 		  </link>
@@ -485,7 +485,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -535,7 +535,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -585,7 +585,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -635,7 +635,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
@@ -683,7 +683,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="StatBlock">
 		   <property name="Attr1" />
 		  </link>
@@ -716,7 +716,7 @@
 	   <property name="Name" />
 	  </link>
 	  <conditional>
-		<if property="Copyright" value="No">
+		<if property="Copyright" contains="No">
 		  <link block="Text">
 		   <property name="Flavour" />
 		   <property name="Attr1" format="&#10;When Closed&#10;{}" />
@@ -762,8 +762,9 @@
 	  <link block="Name">
 	   <property name="Name" />
 	  </link>
-	  <link block="HighText">
+	  <link block="HighText" separator="&#10;&#10;">
 	   <property name="Attr1" />
+	   <property name="Attr3" />
 	  </link>
 	  <link block="Recharge">
 	   <property name="Attr2" />
