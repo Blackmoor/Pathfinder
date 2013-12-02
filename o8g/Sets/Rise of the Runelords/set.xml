@@ -7,7 +7,7 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
     <property name="Traits" value="Skirmish&#10;Veteran" />
-    <property name="Attr1" value="The difficulty to defeat the barrier is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, you may immediately explore again.&#10;If undefeated, examine the location deck until you find a monster; encounter it, subtracting 1 from each die rolled in your check. Shuffle the remaining cards into the location deck." />
+    <property name="Attr1" value="The difficulty to defeat the barrier is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, you may immediately explore again.&#10;If undefeated, examine the location deck until you find a monster; encounter it, subtracting 1 from each die rolled in your check. Banish this card and shuffle the remaining cards into the location deck." />
     <property name="Attr2" value="Wisdom&#10;Perception&#10;Dexterity&#10;Acrobatics" />
     <property name="Attr3" value="9" />
    </card>
@@ -842,7 +842,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Pharasma" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check when playing a spell.&#10;Discard this card to explore your location." />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check if a spell was played during that check.&#10;Discard this card to explore your location." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Divine" />
     <property name="Attr3" value="5" />
     <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
@@ -881,7 +881,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Basic" />
-    <property name="Attr1" value="If you encounter this card, you automatically acquire it.&#10;Discard this card to add 1 die to a check.&#10;Discard this card to explore your location.&#10;You may instead treat this card as if it were identical to the top card of the blessings discard pile." />
+    <property name="Attr1" value="If you encounter this card, you automatically acquire it.&#10;Discard this card to add 1 die to a check.&#10;Discard this card to explore your current location.&#10;You may instead treat this card as if it had the same powers as the top card of the blessings discard pile." />
     <property name="Attr2" value="None" />
    </card>
    <card id="5392bf66-b821-42b6-a6d2-21d943f4ebac" name="Blessing of Torag">
@@ -1168,7 +1168,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Book&#10;Magic&#10;Elite" />
-    <property name="Attr1" value="Reveal this card to add 1d6 to a Knowledge check.&#10;Recharge this card to succeed at a Knowledge check." />
+    <property name="Attr1" value="Reveal this card to add 1d6 to your Knowledge check.&#10;Recharge this card to succeed at your Knowledge check." />
     <property name="Attr2" value="Intelligence&#10;Knowledge" />
     <property name="Attr3" value="5" />
     <property name="Recharge" value="None" />
@@ -1201,7 +1201,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Basic" />
-    <property name="Attr1" value="Discard this card to reduce Combat damage dealt to you by 2.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr1" value="Discard this card to reduce Combat damage dealt to you by 2. You may play this card even if you have played another spell on this check.&#10;If you do not have the Arcane skill, banish this card." />
     <property name="Attr2" value="Intelligence&#10;Arcane" />
     <property name="Attr3" value="4" />
     <property name="Recharge" value="Succeed at an Arcane 4 check to recharge this card instead of discarding it." />
@@ -1245,7 +1245,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Divine" />
-    <property name="Attr1" value="Discard this card to examine the top card of your location deck. If it is a monster other than a henchman or villain, you may immediately encounter it.&#10;If you do not have the Divine skill, banish this card." />
+    <property name="Attr1" value="During your turn discard this card to examine the top card of your location deck. If it is a monster other than a henchman or villain, you may immediately encounter it.&#10;If you do not have the Divine skill, banish this card." />
     <property name="Attr2" value="Wisdom&#10;Divine" />
     <property name="Attr3" value="4" />
     <property name="Recharge" value="Succeed at a Divine 6 check to recharge this card instead of discarding it." />
@@ -1256,7 +1256,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic" />
-    <property name="Attr1" value="Discard this card to examine the top card of your location deck. If it is a blessing or has the Magic trait, you may immediately encounter it; otherwise, return it to the top of the deck.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
+    <property name="Attr1" value="During your turn discard this card to examine the top card of your location deck. If it is a blessing or has the Magic trait, you may immediately encounter it; otherwise, return it to the top of the deck.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
     <property name="Attr3" value="2" />
     <property name="Recharge" value="Succeed at an Arcane or Divine 4 check to recharge this card instead of discarding it." />
@@ -1289,7 +1289,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Elite" />
-    <property name="Attr1" value="Discard this card and select a character. For the rest of the turn, add 3 to that character's checks that use their Charisma die.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
+    <property name="Attr1" value="Display this card and select a character. For the rest of the turn, add 3 to that character's checks that use her Charisma die. Discard this card at the end of the turn.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
     <property name="Attr3" value="6" />
     <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
@@ -1377,7 +1377,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane" />
-    <property name="Attr1" value="If you are dealt damage by a monster during your turn, you may discard this card to roll 1d4, and on a result other than 1, reduce the damage to 0. Roll again for each additional source of damage for the rest of the turn.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr1" value="If a monster deals damage to you, you may display this card, even if you have played another spell on this check. Roll 1d4; on a result other than 1, reduce the damage to 0. Do this each time a monster deals damage to you. Discard this card at the end of the turn.&#10;If you do not have the Arcane skill, banish this card." />
     <property name="Attr2" value="Intelligence&#10;Arcane" />
     <property name="Attr3" value="6" />
     <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of discarding it." />
@@ -1388,7 +1388,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Divine&#10;Mental&#10;Basic" />
-    <property name="Attr1" value="Discard this card to choose a character at your location to evade a monster; put that monster on top of the location deck.&#10;If you do not have the Divine skill, banish this card." />
+    <property name="Attr1" value="Discard this card to choose a character at your location to evade a monster; put that monster on top of the location deck, if it came from one.&#10;If you do not have the Divine skill, banish this card." />
     <property name="Attr2" value="Wisdom&#10;Divine" />
     <property name="Attr3" value="6" />
     <property name="Recharge" value="Succeed at a Divine 8 check to recharge this card instead of discarding it." />
@@ -1410,7 +1410,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic" />
-    <property name="Attr1" value="Discard this card and select a character. For the rest of the turn, add 3 to that character's checks that use their Strength die.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
+    <property name="Attr1" value="Display this card and select a character. For the rest of the turn, add 3 to that character's checks that use her Strength die. Discard this card at the end of the turn.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
     <property name="Attr3" value="6" />
     <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
@@ -1651,7 +1651,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Axe&#10;Ranged&#10;Slashing&#10;Elite" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d6; you may instead discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d6; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
     <property name="Attr3" value="6" />
    </card>
@@ -2615,7 +2615,7 @@
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="If a monster's power causes you to recharge a card, draw a card after doing so." />
+    <property name="Attr1" value="If a monster's power causes you to recharge one or more cards, do so, then draw the same number of cards." />
     <property name="Attr2" value="Jubrayl Vhiski" />
     <property name="Attr3" value="Bandits" />
     <property name="Attr4" value="Each character draws a random item from the box" />

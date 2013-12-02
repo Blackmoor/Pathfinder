@@ -153,7 +153,7 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Animal&#10;Aquatic&#10;Elite" />
-    <property name="Attr1" value="If the Giant Hermit Crab would be defeated, reroll the dice and use the new result." />
+    <property name="Attr1" value="If the Giant Hermit Crab would be defeated, reroll the dice. The Giant Hermit Crab is defeated or undefeated based solely on the results of the second die roll." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="9" />
    </card>
@@ -522,7 +522,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Fire&#10;Basic" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Fire" />
     <property name="Attr1" value="For your combat check, discard this card to roll your Arcane die + 2d6 with the Fire trait.&#10;If you do not have the Arcane skill, banish this card." />
     <property name="Attr2" value="Intelligence&#10;Arcane" />
     <property name="Attr3" value="6" />
@@ -534,17 +534,17 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine" />
-    <property name="Attr1" value="Discard this card and select a character. For the rest of the turn, add 3 to that character's checks that use their Dexterity die.&#10;If you do not have the Arcane skill, banish this card." />
-    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr1" value="Display this card and select a character. For the rest of the turn, add 3 to that character's checks that use her Dexterity die. Discard this card at the end of the turn.&#10;If you do not have the Arcane or Divine skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
     <property name="Attr3" value="6" />
-    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of discarding it." />
+    <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
    </card>
    <card id="3fbdd615-f495-486f-aae9-28bd8c01d2eb" name="Bastard Sword +1">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic" />
     <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+1; you may additionally discard this card to add another 1d10. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Strength&#10;Melee" />
     <property name="Attr3" value="9" />

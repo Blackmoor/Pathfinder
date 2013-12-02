@@ -75,10 +75,10 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Skirmish&#10;Undead&#10;Elite" />
-    <property name="Attr1" value="Each character at an open location summons and encounters an Ancient Skeleton henchman; banish this card." />
-    <property name="Attr2" value="None" />
-    <property name="Attr3" value="0" />
+    <property name="Traits" value="Undead&#10;Skeleton" />
+    <property name="Attr1" value="The Skeleton is immune to the Mental and Poison traits.&#10;If your check to defeat the Skeleton has the Slashing or Piercing trait, the difficulty to defeat the Skeleton is increased by 3.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="9148965b-bf11-4168-9f10-c0e483c11b6f" name="Bandit">
     <property name="Abr" value="C" />
@@ -86,10 +86,10 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Skirmish&#10;Undead&#10;Elite" />
-    <property name="Attr1" value="Each character at an open location summons and encounters an Ancient Skeleton henchman; banish this card." />
-    <property name="Attr2" value="None" />
-    <property name="Attr3" value="0" />
+    <property name="Traits" value="Human&#10;Bandit" />
+    <property name="Attr1" value="Before the encounter, recharge a card of your choice from your hand.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="97d8f297-1640-41ca-b9ac-c56052cca03b" name="Poison Trap">
     <property name="Abr" value="C" />
@@ -107,20 +107,20 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Trap&#10;Poison" />
-    <property name="Attr1" value="If undefeated, discard the top card of your deck. Then, each character at this location must succeed at a Constitution or Fortitude 7 check or be dealt 1d4-1 Poison damage.&#10;If defeated, you may immediately attempt to close your location." />
-    <property name="Attr2" value="Dexterity&#10;Disable" />
-    <property name="Attr3" value="5" />
+    <property name="Traits" value="Goblin&#10;Warrior&#10;Elite" />
+    <property name="Attr1" value="If undefeated, bury 1 item or weapon of your choice from your discard pile." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="10" />
    </card>
    <card id="8df9f5ef-87a0-4f72-954c-10a0caa51d94" name="Cultist">
     <property name="Abr" value="C" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Trap&#10;Poison" />
-    <property name="Attr1" value="If undefeated, discard the top card of your deck. Then, each character at this location must succeed at a Constitution or Fortitude 7 check or be dealt 1d4-1 Poison damage.&#10;If defeated, you may immediately attempt to close your location." />
-    <property name="Attr2" value="Dexterity&#10;Disable" />
-    <property name="Attr3" value="5" />
+    <property name="Traits" value="Human&#10;Cultist&#10;Basic" />
+    <property name="Attr1" value="If undefeated, shuffle the top card of the blessings deck into this location deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="29b77d1e-8bd5-4db7-bf24-ce91ba180c71" name="Enchanter">
     <property name="Abr" value="C" />
@@ -339,8 +339,8 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
-    <property name="Traits" value="Heavy Armor&#10;Basic" />
-    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead." />
+    <property name="Traits" value="Heavy Armor&#10;Elite" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="4" />
    </card>
@@ -399,10 +399,10 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
-    <property name="Traits" value="Shield&#10;Offhand&#10;Magic&#10;Elite" />
-    <property name="Attr1" value="Reveal this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check.&#10;If you played a weapon with the 2-Handed trait on this check, you may not play this card.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand." />
+    <property name="Traits" value="Shield&#10;Offhand&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check.&#10;If you played a weapons with the 2-Handed trait on this check, you may not play this card." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="6" />
+    <property name="Attr3" value="4" />
    </card>
    <card id="527854c0-d3e2-4581-a9e5-0e5c791af194" name="Blessing of Calistria">
     <property name="Abr" value="C" />
@@ -423,10 +423,10 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
-    <property name="Traits" value="Divine&#10;Calistria" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a noncombat Dexterity check.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Dexterity" />
-    <property name="Attr3" value="4" />
+    <property name="Traits" value="Divine&#10;Desna" />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check to recharge a card.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Divine" />
+    <property name="Attr3" value="5" />
     <property name="Recharge" value="If the top card of the blessings discard pile matches this card, recharge it instead of discarding it." />
    </card>
    <card id="a382fe1e-cc21-4bf8-9532-44588870e7a6" name="Blessing of Erastil">
@@ -435,7 +435,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Erastil" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a Dexterity-based combat check.&#10;Discard this card to explore your location." />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a combat Dexterity check.&#10;Discard this card to explore your location." />
     <property name="Attr2" value="Dexterity" />
     <property name="Attr3" value="4" />
     <property name="Attr4" value="Divine" />
@@ -449,7 +449,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Gorum" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a Strength-based combat check.&#10;Discard this card to explore your location." />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a combat Strength check.&#10;Discard this card to explore your location." />
     <property name="Attr2" value="Strength" />
     <property name="Attr3" value="4" />
     <property name="Attr4" value="Divine" />
@@ -491,7 +491,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
     <property name="Traits" value="Divine&#10;Pharasma" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check when playing a spell.&#10;Discard this card to explore your location." />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to to add 2 dice to a check if a spell was played during that check.&#10;Discard this card to explore your location." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Divine" />
     <property name="Attr3" value="5" />
     <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
@@ -529,9 +529,9 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Blessing" />
-    <property name="Traits" value="Divine&#10;Shelyn" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a noncombat Wisdom check.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Wisdom" />
+    <property name="Traits" value="Divine&#10;Basic" />
+    <property name="Attr1" value="If you encounter this card, you automatically acquire it.&#10;Discard this card to add 1 die to a check.&#10;Discard this card to explore your current location.&#10;You may instead treat this card as if it had the same powers as the top card of the blessings discard pile." />
+    <property name="Attr2" value="None" />
    </card>
    <card id="5a178d98-93ed-4395-b875-f92596b07955" name="Blessing of Torag">
     <property name="Abr" value="C" />
@@ -553,7 +553,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Item" />
     <property name="Traits" value="Accessory&#10;Magic&#10;Basic" />
-    <property name="Attr1" value="Reveal this card to add 1d4 with the Magic trait to your Strength or Melee combat check; you may not play a weapon on the check." />
+    <property name="Attr1" value="Reveal this card to add 1d4 with the Magic trait to your combat check; you may not play a spell with the Attack trait or a weapon on this check." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
     <property name="Recharge" value="None" />
    </card>
@@ -727,7 +727,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Divine" />
-    <property name="Attr1" value="Discard this card to examine the top card of your location deck. If it is a monster other than a henchman or villain, you may immediately encounter it.&#10;If you do not have the Divine skill, banish this card." />
+    <property name="Attr1" value="During your turn discard this card to examine the top card of your location deck. If it is a monster other than a henchman or villain, you may immediately encounter it.&#10;If you do not have the Divine skill, banish this card." />
     <property name="Attr2" value="Wisdom&#10;Divine" />
     <property name="Attr3" value="4" />
     <property name="Recharge" value="Succeed at a Divine 6 check to recharge this card instead of discarding it." />
@@ -782,7 +782,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Divine&#10;Mental&#10;Basic" />
-    <property name="Attr1" value="Discard this card to choose a character at your location to evade a monster; put that monster on top of the location deck.&#10;If you do not have the Divine skill, banish this card." />
+    <property name="Attr1" value="Discard this card to choose a character at your location to evade a monster; put that monster on top of the location deck, if it came from one.&#10;If you do not have the Divine skill, banish this card." />
     <property name="Attr2" value="Wisdom&#10;Divine" />
     <property name="Attr3" value="6" />
     <property name="Recharge" value="Succeed at a Divine 8 check to recharge this card instead of discarding it." />
@@ -813,10 +813,10 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Dart&#10;Ranged&#10;Piercing&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d4+1; you may additionally discard this card to add another 1d4.&#10;You may recharge this card to add 1d4+1 to a combat check made by another character at your location." />
+    <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged + 1d4; you may additionally recharge this card to add another 1d4.&#10;When playing another weapon, you may discard this card to add 1d4 to the combat check." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
-    <property name="Attr3" value="8" />
+    <property name="Attr3" value="3" />
    </card>
    <card id="7d6bd318-d30f-44bc-8ef4-5e432c15eb4a" name="Deathbane Light Crossbow +1">
     <property name="Abr" value="C" />
@@ -893,10 +893,10 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Finesse&#10;Elite" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d6; you may additionally discard this card to add another 1d6+1. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d6; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Strength&#10;Melee" />
-    <property name="Attr3" value="7" />
+    <property name="Attr3" value="4" />
    </card>
    <card id="0e29baf8-5d82-415c-8378-21cbe5e98d68" name="Shortbow">
     <property name="Abr" value="C" />
@@ -1027,7 +1027,7 @@
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
-    <property name="Attr1" value="When you attempt a combat check without playing a weapon, you may use your Dexterity die instead of your Strength die ([ ] and add the Magic trait) ([ ] and the Fire trait).&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them.&#10;[ ] When dealt damage other than Combat damage, reduce that damage by 1 ([ ] 2) ([ ] 3).&#10;[ ] When you play a boon with the Liquid trait, succeed at a Fortitude 6 check to recharge it instead of banishing it.&#10;[ ] Add 6 to your check to acquire a boon with the Liquid trait.&#10;[ ] At the start of your turn, you must draw 1 card." />
+    <property name="Attr1" value="For your combat check, you may roll your Dexterity die ([ ] and add the Magic trait) ([ ] and the Fire trait); you may not play a weapon on the check.&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them.&#10;[ ] When dealt damage other than Combat damage, reduce that damage by 1 ([ ] 2) ([ ] 3).&#10;[ ] When you play a boon with the Liquid trait, succeed at a Fortitude 6 check to recharge it instead of banishing it.&#10;[ ] Add 6 to your check to acquire a boon with the Liquid trait.&#10;[ ] At the start of your turn, you must draw 1 card." />
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7" />
    </alternate>
@@ -1049,7 +1049,7 @@
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
-    <property name="Attr1" value="When you attempt a combat check without playing a weapon, you may use your Dexterity die instead of your Strength die ([ ] and add the Magic trait) ([ ] and the Fire trait).&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them.&#10;[ ] When dealt damage other than Combat damage, reduce that damage by 1 ([ ] 2).&#10;[ ] When you play a weapon with the Ranged trait, you may recharge it instead of discarding it.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a boon with the Ranged trait.&#10;[ ] When you start your turn with n[ ] cards in your hand, you may draw 1 card." />
+    <property name="Attr1" value="For your combat check, you may roll your Dexterity die ([ ] and add the Magic trait) ([ ] and the Fire trait); you may not play a weapon on the check.&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them.&#10;[ ] When dealt damage other than Combat damage, reduce that damage by 1 ([ ] 2).&#10;[ ] When you play a weapon with the Ranged trait, you may recharge it instead of discarding it.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a boon with the Ranged trait.&#10;[ ] When you start your turn with n[ ] cards in your hand, you may draw 1 card." />
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
    </alternate>
@@ -1157,7 +1157,7 @@
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
-    <property name="Attr1" value="When you attempt a combat check without playing a weapon, you may use your Dexterity die instead of your Strength die ([ ] and add the Magic trait) ([ ] and the Fire trait).&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them" />
+    <property name="Attr1" value="For your combat check, you may roll your Dexterity die ([ ] and add the Magic trait) ([ ] and the Fire trait); you may not play a weapon on the check.&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them" />
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
    </alternate>
