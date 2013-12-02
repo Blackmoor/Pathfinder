@@ -957,9 +957,9 @@ def drawCard(group, x=0, y=0): # me.deck
 	mute()
 	card = group.top()
 	if card is None:
-		return
-	notify("{} draws '{}'".format(me, card))
+		return	
 	card.moveTo(me.hand)
+	notify("{} draws '{}'".format(me, card))
 	
 #---------------------------------------------------------------------------
 # Game logic and set up
@@ -1035,7 +1035,9 @@ def scenarioSetup(card):
 		pileName = "Location{}".format(i+1)
 		setGlobalVariable(locations[i], pileName)
 		location = findCardByName(shared.piles['Location'], locations[i])
-		if location is not None:
+		if location is None:
+			whisper("Failed to find location {}".format(locations[i]))
+		else:
 			locPile = shared.piles[pileName]
 			debug("Moving '{}' to table ...".format(location))
 			location.moveToTable(LocationX(i+1), LocationY)
@@ -1047,7 +1049,11 @@ def scenarioSetup(card):
 					debug("Adding {} cards of type {}".format(details[1], details[0]))
 					pile = shared.piles[details[0]]
 					for count in range(num(details[1])):
-						pile.random().moveTo(locPile)
+						c = pile.random()
+						if c is None:
+							whisper("No more {} cards to deal to location {}".format(details[0], location))
+							break
+						c.moveTo(locPile)
 				else:
 					whisper("Location error: Failed to parse [{}]".format(details[0]))
 			location.link(locPile)
