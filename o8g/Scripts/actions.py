@@ -269,6 +269,7 @@ def closeLocation(card, perm):
 		for c in visible:
 			debug("Unexplored ... '{}'".format(c))
 			if c.Subtype == 'Villain':
+				notify("You find {} while attempting to close this location".format(c))
 				c.moveTo(pile)
 			else:
 				returnToBox(c)
@@ -276,8 +277,7 @@ def closeLocation(card, perm):
 		unlockPile(visible)
 		
 		if len(pile) > 0: # Villain was left in the pile
-			notify("You find a Villain while attempting to close this location")
-			card.orientation = Rot90
+			card.orientation = Rot90 # We temporarily close the location but leave it in the deck
 			return False
 			
 		flipCard(card)
@@ -367,6 +367,18 @@ def unlockPile(pile):
 	else:
 		setGlobalVariable(pile.name, "{} {}".format(me.name, count-1))
 	return True
+
+#Look at the global variables to determine who was the active player on the given turn
+def getPlayer(turn):
+	for var in [ 'Current Turn', 'Previous Turn' ]:
+		info = getGlobalVariable(var)
+		if len(info) > 0:
+			t, p = info.split('.')
+			if int(t) == turn:
+				for player in getPlayers():
+					if player.name == p:
+						return player
+	return None
 	
 #---------------------------------------------------------------------------
 # Call outs
@@ -392,93 +404,78 @@ def deckLoaded(player, groups):
 	
 def startOfTurn(player, turn):
 	mute()
-	# Pass control of the shared decks and current Blessing card
-	debug("Start of Turn for player {}".format(player))
-	wasMyTurn = False
-	for card in table: #Re-open any temporarily closed locations
-		if card.orientation != Rot0 and card.controller == me:
-			card.orientation = Rot0	
+	debug("Start of Turn {} for player {}".format(turn, player))
 	
-	#The shared piles should be controlled by the last player
-	#Some may have been taken control of manually so determine the last player as
-	#the player controlling the majority of the shared piles
-	counts = {}
+	if player == me: # Store my details in the global variable
+		setGlobalVariable("Previous Turn", getGlobalVariable("Current Turn"))
+		setGlobalVariable("Current Turn", "{}.{}".format(turn, player.name))
+	
+	# Pass control of the shared piles and table cards to the new player
+	debug("Processing table ...")
+	for card in table: 
+		if card.controller == me: # We can only update cards we control	
+			if card.orientation != Rot0: #Re-open any temporarily closed locations
+				card.orientation = Rot0	
+			if card.Type == 'Character':
+				if card.Subtype == 'Token' and card.owner == me: #Highlight my avatar
+					if player == me: # I am the active player
+						card.sendToFront()
+						card.highlight = "#82FA58" # Green
+					else:
+						card.highlight = None
+			elif player != me: #Pass control of all non-character cards to the new active player
+				card.setController(player)
+	
+	debug("Processing shared piles ...")	
 	for name in shared.piles:
-		if shared.piles[name].controller in counts:
-			counts[shared.piles[name].controller] += 1
-		else:
-			counts[shared.piles[name].controller] = 1
 		if shared.piles[name].controller == me and player != me: # Hand over control to the new player
 			shared.piles[name].setController(player)
 	
-	lastPlayer = None
-	for p in counts:
-		if lastPlayer is None or counts[p] > counts[lastPlayer]:
-			lastPlayer = p
-	if lastPlayer == me:
+	lastPlayer = getPlayer(turn-1)
+	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
+	if lastPlayer is not None and lastPlayer == me:
 		drawUp(me.hand)
-	
-	#Pass control of the cards on the table - skip the current blessing as this causes timing issues
-	blessing = None
-	handover = [ c for c in table if c.Type != 'Character' ]
-	for card in handover:
-		if card.controller == me and player != me and (card.pile() is None or card.pile() != shared.piles['Blessing Deck']):
-			card.setController(player)
-	
-	#Advance the Blessing deck if we are the new player
+		
 	if player == me:
+		sync() # wait for control of cards to be passed to us
 		advanceBlessingDeck()
-		#Highlight my avatar
-		for c in table:
-			if c.Type == 'Character' and c.Subtype == 'Token':
-				if c.owner == me:
-					c.sendToFront()
-					c.highlight = "#82FA58" # Green
-				else:
-					c.highlight = None
-					
-def deleteCard(card):
-	mute()
-	card.link(None)
-	debug("{} Trying to delete {} owned by {}".format(me, card, card.controller))
-	card.delete()
 	
 #
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
 # or if the blessing discard pile changes
 #
-def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):	
-	if me.isActivePlayer: # The active player is allowed to update the blessing discard pile card
-		bd = shared.piles['Blessing Discard']
-		x = PlayerX(0)
-		y = StoryY
-		deleted = False
-		if fromGroup == bd or toGroup == bd: # The blessing discard pile changed - we must update the current blessing card
-			for c in table:
-				if c.pile() == shared.piles['Blessing Deck'] and ((len(bd) > 0 and c.model != bd.top().model) or len(bd) == 0):
-					x, y = c.position
-					if c.controller != me:
-						remoteCall(c.controller, "deleteCard", [c])
-					else:
-						deleteCard(c)
-					deleted = True
-					
+def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):
+	mute()
+	#Check to see if the current blessing card needs to change
+	bd = shared.piles['Blessing Discard']
+	x = PlayerX(0)
+	y = StoryY
+	deleted = False
+	if fromGroup == bd or toGroup == bd: # The blessing discard pile changed
+		for c in table:
+			if c.pile() == shared.piles['Blessing Deck']:
+				deleted = True # This card will be deleted by the controlling player
+				debug("{} finds blessing card to delete {}, controller by {}".format(me, c, c.controller))
+				x, y = c.position
+				if c.controller == me:
+					c.link(None)
+					c.delete()
+				
+	if me.isActivePlayer: # The active player should create the current blessing card if required				
 		found = False
-		if not deleted: # check to see if the blessing card is on the table
-			for c in table:
-				if c.pile() == shared.piles['Blessing Deck']:
-					found = True
-					break
-		# Create a copy of the top card
-		if len(bd) > 0 and not found:
-			table.create(bd.top().model, x, y).link(shared.piles['Blessing Deck'])
-
-	if player != me:
-		return
+		for c in table:
+			if c.pile() == shared.piles['Blessing Deck']:
+				found = True
+				break
 		
-	if card.Type == 'Character' and card.Subtype == 'Token' and fromGroup == me.hand and toGroup == table:
-		mute()
+		if len(bd) > 0 and (deleted or not found): # Create a copy of the top card
+			c = table.create(bd.top().model, x, y)
+			c.link(shared.piles['Blessing Deck'])
+			debug("{} created new blessing card {}".format(me, c))
+
+	#Check to see if we moved our avatar to the table
+	if player == me and card.Type == 'Character' and card.Subtype == 'Token' and fromGroup == me.hand and toGroup == table:
 		# If the scenario hasn't been set up yet return the avatar to hand and issue a warning
 		if len(shared.piles['Blessing Deck']) == 0:
 			whisper("Ensure the scenario is set up before placing {} at your starting location".format(card))
@@ -519,7 +516,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 
 		for c in me.Discarded.top(handSize):
 			c.moveTo(me.hand)
-		#Move the rest of the cards into the deck and re-shuffle
+		#Move the rest of the cards into the deck
 		for card in me.Discarded:
 			card.moveTo(me.deck)
 		
@@ -537,6 +534,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 				remoteCall(active, "makeActive", [me])
 
 def makeActive(who):
+	mute()
 	if who != me:
 		debug("{} passes control to {}".format(me, who))
 	who.setActivePlayer()
@@ -643,6 +641,11 @@ def exploreLocation(card, x=0, y=0):
 	if card.type != 'Location':
 		whisper("This is not a location ....")
 		return
+	#Ensure all locations that were temporarily closed are re-opened
+	for c in table:
+		if c.Type == 'Location' and c.orientation != Rot0:
+			c.orientation = Rot0
+			
 	notify("{} explores '{}'".format(me, card))
 	pile = card.pile()
 	if pile is None:
@@ -836,10 +839,10 @@ def pileSwap12(card, x=0, y=0):
 	pile[1].moveTo(pile)
 	
 def closePermanently(card, x=0, y=0):
-	closeLocation(card, True)
+	closed = closeLocation(card, True)
 	#If there are no open locations the players have won
 	open = [ card for card in table if isOpen(card) ]
-	if len(open) == 0:
+	if len(open) == 0 and closed:
 		gameOver()
 		notify("You have won ..... claim your reward")		
 
@@ -852,10 +855,15 @@ def hideVillain(villain, x=0, y=0):
 		notify("This is not a Villain ...")
 		return
 	
-	defeated = confirm("Did you defeat the villain?")
-	if defeated is None:
+	choices = [ 'Evaded', 'Defeated', 'Undefeated' ]
+	choice = askChoice("Was the villain ....", choices)
+	if choice is None or choice == 0:
+		return
+	if choices[choice-1] == 'Evaded':
+		shuffleCard(villain, x, y)
 		return
 		
+	defeated = choices[choice-1] == 'Defeated'		
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
 	location = overPile(villain) #Determine the location of the Villain (based on the if it is over a pile on the table)
 	if defeated: # We get to close the location
