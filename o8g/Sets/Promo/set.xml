@@ -37,6 +37,14 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Divine" />
     <property name="Attr3" value="7" />
    </card>
+   <card id="432183f3-52d6-402c-af34-0effcc7f9f7a" name="Goblin Plate +1">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Magic" />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+   </card>
    <card id="f2aa27e7-a000-48b8-b981-4f100006e58f" name="Blessing of Zarongel">
     <property name="Abr" value="P" />
     <property name="Copyright" value="No." />
@@ -51,6 +59,17 @@
     <property name="Attr5" value="5" />
     <property name="Attr6" value="OR" />
     <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
+   </card>
+   <card id="6def1053-007f-4e97-af0a-7686c5438757" name="Birdcruncher Crown">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to evade a bane with the Goblin trait.&#10;When you defeat a bane with the Goblin trait, you may recharge this card to examine your location deck until you find a weapon, an item, or an armor; add it to your hand and shuffle the location deck." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
+    <property name="Recharge" value="None" />
    </card>
    <card id="b6c26b73-1882-446d-acb5-6f8f61221d9b" name="Fire Sneeze">
     <property name="Abr" value="P" />
