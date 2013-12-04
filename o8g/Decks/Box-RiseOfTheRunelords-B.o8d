@@ -62,6 +62,8 @@
     <card qty="1" id="c8fba166-4da0-4d7b-8e00-5619f20d4f4b">Magic Chain Mail</card>
     <card qty="1" id="cb40a358-1341-4b04-b4ea-b2b4d67b48ea">Magic Half-Plate</card>
     <card qty="3" id="f30ab8bf-f738-4170-a80d-68daf41eb585">Magic Leather Armor</card>
+    <card qty="1" id="99ee0127-5165-4698-82b1-504bd93151dd">Magic Shield</card>
+    <card qty="3" id="ab1d7d2a-4693-47ae-9baa-e2c7a97b5625">Wooden Shield</card>
   </section>
   <section name="Weapon" shared="True">
     <card qty="1" id="63082636-2624-4cc1-b77f-a47f7a0f1b21">Bastard Sword</card>
@@ -203,14 +205,5 @@
     <card qty="1" id="e6c1601b-e561-4a84-be2e-3888ad06e2ef">Jubrayl Vhiski</card>
     <card qty="1" id="50ce68e9-bdef-4532-ad3d-38749d56d999">Pillbug Podicker</card>
   </section>
-  <section name="Character" shared="False" />
-  <section name="Weapons" shared="False" />
-  <section name="Spells" shared="False" />
-  <section name="Armours" shared="False" />
-  <section name="Items" shared="False" />
-  <section name="Allies" shared="False" />
-  <section name="Blessings" shared="False" />
-  <section name="Feats" shared="False" />
-  <section name="Loot" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

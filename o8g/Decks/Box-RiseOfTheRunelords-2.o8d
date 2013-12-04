@@ -2,14 +2,14 @@
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
   <section name="Henchman" shared="True">
     <card qty="6" id="af5be048-78d7-4720-8bef-5083e1c2cd6d">Charmed Faceless Stalker</card>
+	<card qty="1" id="2844618f-ed35-4355-95c3-543ebe11f00c">Dr. Habe</card>
     <card qty="6" id="afd29992-c74c-400d-a567-512d3978ba20">Ghoul Scarecrow</card>
+	<card qty="1" id="b3560b5b-8166-4f54-b634-95759bd8df5b">Grayst Sevilla</card>
     <card qty="7" id="72f7ab8a-71ce-4d5b-82a9-3eee47bca8c8">Haunt</card>
-    <card qty="7" id="adc74804-ee41-48d2-91a2-62c1544dc384">Skinsaw Cultist</card>
-    <card qty="5" id="cc06ef42-4421-49ca-9a93-9efa3c7d5b2b">Zombie Minion</card>
-    <card qty="1" id="2844618f-ed35-4355-95c3-543ebe11f00c">Dr. Habe</card>
-    <card qty="1" id="b3560b5b-8166-4f54-b634-95759bd8df5b">Grayst Sevilla</card>
     <card qty="1" id="94aa7ff4-932c-4c28-aea2-0866e81d7db2">Pidget Tergelson</card>
     <card qty="1" id="3c64d77b-1ab0-45c5-81c7-2494603242a2">Scarecrow Golem</card>
+    <card qty="7" id="adc74804-ee41-48d2-91a2-62c1544dc384">Skinsaw Cultist</card>
+    <card qty="5" id="cc06ef42-4421-49ca-9a93-9efa3c7d5b2b">Zombie Minion</card>
   </section>
   <section name="Loot" shared="True">
     <card qty="1" id="a29f572d-2386-4966-a057-334d0f092886">Impaler of Thorns</card>
@@ -84,13 +84,5 @@
     <card qty="2" id="3ecc9285-26f1-4743-bbb5-06f7e12687e8">Zombie Horde</card>
     <card qty="1" id="3d2eb30b-4789-4e27-a10c-e22f7dbdf044">Zombie Nest</card>
   </section>
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
   <notes><![CDATA[]]></notes>
 </deck>
