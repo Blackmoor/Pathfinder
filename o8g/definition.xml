@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.112.250"
-		version="1.0.11.3"
+		version="1.0.12.0"
 		markersize="10"
 		tags="Pathfinder"
 		description="In the Pathfinder Adventure Card Game, your party of adventurers races against time on a quest to defeat a dangerous villain. Each player has a deck of cards representing her character. In most scenarios, your characters explore a variety of locations as you try to hunt down the villain. You need to clean out or protect these locations so that you can corner the villain and defeat him before time runs out. As you play more games, you will complete scenarios, improve your deck, customize your character, and take on more and more powerful challenges."
@@ -39,6 +39,7 @@
   <globalvariables>
     <globalvariable name="Previous Turn" value="" /> 
     <globalvariable name="Current Turn" value="" /> <!-- turn.player -->
+	<globalvariable name="Eliminated" value="000000000" /> <!-- string of 0 and 1 indexed by player._id -->
   </globalvariables>
   <card back="Resources/card.jpg" front="Resources/card.jpg" width="63" height="88" cornerRadius="3">
     <property name="Type" type="String" hidden="False" ignoreText="False" textKind="Enum" /> <!-- Character, Role, Story, Location, Bane, Boon -->
@@ -61,6 +62,7 @@
   </card>
   <table name="Table" visibility="undefined" ordered="False" width="700" height="300" background="Resources/background.jpg" backgroundStyle="uniformToFill">
     <groupaction menu="Pick Scenario" default="False" execute="pickScenario" />
+	<groupaction menu="Next Turn" default="False" shortcut="ctrl+N" execute="nextTurn" />
 	<groupaction menu="Reveal Random Card" default="False" execute="randomCard" />	
 	<groupaction menu="Reveal Random Cards" default="False" execute="randomCards" />
 	<groupaction menu="Hidden Random Card" default="False" execute="randomHiddenCard" />

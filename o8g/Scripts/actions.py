@@ -9,7 +9,7 @@ minus = ("-", "b442c012-023f-42d1-9d28-e85168a4401a")
 BoardWidth = 700
 BoardHeight = 300
 StoryY = -BoardHeight/2
-LocationY = StoryY + 200
+LocationY = StoryY + 190
 
 showDebug = False #Can be changed to turn on debug
 
@@ -59,6 +59,17 @@ def num(s):
    except ValueError:
       return 0
 
+def eliminated(p, setVal=None):
+	val = list(getGlobalVariable("Eliminated"))	
+	if setVal is None:
+		return val[p._id] == '1'
+	if setVal == True:
+		val[p._id] = '1'
+	else:
+		val[p._id] = '0'
+	setGlobalVariable("Eliminated", "".join(val))
+	return setVal
+	
 #Check see if a card at x1,y1 overlaps a card at x2,y2
 #Both have size w, h	
 def overlaps(x1, y1, x2, y2, w, h):
@@ -409,7 +420,12 @@ def startOfTurn(player, turn):
 	if player == me: # Store my details in the global variable
 		setGlobalVariable("Previous Turn", getGlobalVariable("Current Turn"))
 		setGlobalVariable("Current Turn", "{}.{}".format(turn, player.name))
-	
+			
+	lastPlayer = getPlayer(turn-1)
+	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
+	if lastPlayer is not None and lastPlayer == me:
+		drawUp(me.hand)
+		
 	# Pass control of the shared piles and table cards to the new player
 	debug("Processing table ...")
 	for card in table: 
@@ -417,10 +433,12 @@ def startOfTurn(player, turn):
 			if card.orientation != Rot0: #Re-open any temporarily closed locations
 				card.orientation = Rot0	
 			if card.Type == 'Character':
-				if card.Subtype == 'Token' and card.owner == me: #Highlight my avatar
+				if card.owner == me: #Highlight my avatar
 					if player == me: # I am the active player
 						card.sendToFront()
 						card.highlight = "#82FA58" # Green
+					elif eliminated(me):
+						card.highlight = "#FF0000" # Red
 					else:
 						card.highlight = None
 			elif player != me: #Pass control of all non-character cards to the new active player
@@ -430,11 +448,6 @@ def startOfTurn(player, turn):
 	for name in shared.piles:
 		if shared.piles[name].controller == me and player != me: # Hand over control to the new player
 			shared.piles[name].setController(player)
-	
-	lastPlayer = getPlayer(turn-1)
-	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
-	if lastPlayer is not None and lastPlayer == me:
-		drawUp(me.hand)
 		
 	if player == me:
 		sync() # wait for control of cards to be passed to us
@@ -499,7 +512,22 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 					c.moveTo(me.Discarded)
 		shuffle(me.Discarded, True)
 		size = len(me.Discarded)
-		favoured = getFavoured()
+		favoured = getFavoured()					
+		if favoured == 'Your choice':
+			#Make a list of card types in the deck
+			choices = []
+			for card in me.Discarded:	
+				if card.Subtype not in choices:
+					choices.append(card.Subtype)
+				if card.Subtype == 'Loot': # Loots have a secondary type too
+					if card.Subtype2 not in choices:
+						choices.append(card.Subtype2)
+			#Prompt user to select favoured card type
+			choice = None
+			if len(choices) > 0:
+				while choice == None or choice == 0:
+					choice = askChoice("Favoured Card Type", choices)
+				favoured = choices[choice-1]
 		handSize = getHandSize()
 		ci = 0
 		for card in me.Discarded:
@@ -596,6 +624,21 @@ def pickScenario(group=table, x=0, y=0):
 		scenario.moveToTable(PlayerX(-1),StoryY)
 		scenarioSetup(scenario)
 
+def nextTurn(group=table, x=0, y=0):
+	mute()
+	# Only the current active player can do this
+	if not me.isActivePlayer:
+		whisper("Only the active player may perform this operation")
+		return
+	players = getPlayers()
+	nextID = (me._id % len(players)) + 1
+	while nextID <> me._id:
+		for p in players:
+			if p._id == nextID and not eliminated(p):
+				p.setActivePlayer()
+				return
+		nextID = (nextID % len(players)) + 1
+	
 def randomHiddenCard(group=table, x=0, y=0):
 	pile = cardTypePile()
 	if pile is None: return
@@ -939,7 +982,6 @@ def shufflePile(group, x=0, y=0): # Location piles use this
 #---------------------------------------------------------------------------
 
 def drawUp(group): # group == me.hand
-	if len(me.deck) == 0: return
 	handSize = getHandSize()
 	if len(group) > handSize:
 		notify("{} already has too many cards ({}), max {}".format(me, len(group), handSize))
@@ -950,6 +992,7 @@ def drawUp(group): # group == me.hand
 		c.moveTo(group)
 	
 	if len(group) < handSize: #We ran out of cards ... and died
+		eliminated(me, True)
 		notify("{} has run out of cards".format(me))
 	elif toDraw > 0:
 		notify("{} draws {} cards".format(me, toDraw))
@@ -1007,25 +1050,10 @@ def playerSetup():
 		elif card.subtype == 'Favoured':
 			favoured = card.name
 			debug("Favoured override - {}".format(favoured))
-			
-	if favoured == 'Your choice':
-		#Make a list of card types in the deck
-		choices = []
-		for card in me.Discarded:	
-			if card.Subtype not in choices:
-				choices.append(card.Subtype)
-			if card.Subtype == 'Loot': # Loots have a secondary type too
-				if card.Subtype2 not in choices:
-					choices.append(card.Subtype2)
-		#Prompt user to select favoured card type
-		choice = None
-		if len(choices) > 0:
-			while choice == None or choice == 0:
-				choice = askChoice("Favoured Card Type", choices)
-			favoured = choices[choice-1]
 	
 	storeHandSize(handSize)
 	storeFavoured(favoured)
+	eliminated(me, False)
 	debug("HandSize {}, Favoured type {}".format(handSize, favoured))
 	whisper("Drag avatar to your starting location once the scenario is set up")
 	
@@ -1110,7 +1138,7 @@ def scenarioSetup(card):
 	while len(src) > 0 and len(dst) < 30:
 		src.random().moveTo(dst)		
 	
-	unlockPile(hidden)
+	unlockPile(hidden)	
 	notify("{} starts the scenario '{}'".format(me, card.name))
 
 def advanceBlessingDeck():
