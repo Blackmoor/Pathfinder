@@ -548,6 +548,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 		for card in me.Discarded:
 			card.moveTo(me.deck)
 		
+		sync()
 		#The first player to drag to the table becomes the active player
 		if len(shared.piles['Blessing Deck']) == 30:
 			#Check to see who the active player is
@@ -557,7 +558,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 					active = p
 					break
 			if active is None: # At the start of a game no one is active but anyone can set the active player
-				me.setActivePlayer()
+				makeActive(me)
 			else:
 				remoteCall(active, "makeActive", [me])
 
@@ -638,6 +639,7 @@ def nextTurn(group=table, x=0, y=0):
 				p.setActivePlayer()
 				return
 		nextID = (nextID % len(players)) + 1
+	me.setActivePlayer()
 	
 def randomHiddenCard(group=table, x=0, y=0):
 	pile = cardTypePile()
@@ -764,7 +766,6 @@ def revealCard(card, x=0, y=0):
 def rechargeCard(card, x=0, y=0):
 	mute()
 	notify("{} recharges '{}'".format(me, card))
-	sync()
 	card.moveToBottom(me.deck)
 	
 def displayCard(card, x=0, y=0):
@@ -799,7 +800,6 @@ def discardCard(card, x=0, y=0): #Move to discard pile
 def removeCard(card, x=0, y=0):
 	mute()
 	notify("{} removes '{}' from play".format(me, card))
-	sync()
 	card.delete()
 
 def shuffleCard(card, x=0, y=0):
@@ -810,8 +810,8 @@ def shuffleCard(card, x=0, y=0):
 		if c is None: return
 		pile = c.pile()
 		notify("{} moves '{}' into '{}' deck".format(me, card, pile.name))
-		sync()
 		card.moveTo(pile)
+	update() # Ensure card has moved to pile before we shuffle
 	shuffle(pile)
 	
 def peekTop(card, x=0, y=0):
@@ -819,7 +819,6 @@ def peekTop(card, x=0, y=0):
 	pile = card.pile()
 	if pile is None or len(pile) == 0: return
 	notify("{} looks at the top card of the '{}' deck".format(me, card))
-	sync()
 	src = pile.top()
 	#Move the top card to a pile with full visibility
 	if lockPile(shared.piles['Internal']):
@@ -833,7 +832,6 @@ def peekTop2(card, x=0, y=0):
 	pile = card.pile()
 	if pile is None: return
 	notify("{} looks at the top 2 cards of the '{}' deck".format(me, card))
-	sync()
 	if lockPile(shared.piles['Internal']):
 		for src in pile.top(2):
 			#Move the card to a pile with full visibility
@@ -848,7 +846,6 @@ def peekBottom(card, x=0, y=0):
 	pile = card.pile()
 	if pile is None: return
 	notify("{} looks at the bottom card of the '{}' deck".format(me, card))
-	sync()
 	src = pile.bottom()
 	#Move the top card to a pile with full visibility
 	if lockPile(shared.piles['Internal']):
@@ -944,7 +941,7 @@ def hideVillain(villain, x=0, y=0):
 	for card in table:
 		if card.Type == 'Location' and card.orientation != Rot0:
 			card.orientation = Rot0
-	update()	
+	sync()	
 	unlockPile(hidden)
 	
 #---------------------------------------------------------------------------
@@ -956,7 +953,6 @@ def rechargeRandom(group, x=0, y=0): # Discarded pile
 	if len(group) == 0: return
 	card = group.random()
 	notify("{} recharges '{}'".format(me, card))
-	sync()
 	card.moveToBottom(me.deck)
 	
 def returnToBlessingDeck(group, x=0, y=0): # Blessing Discard
@@ -1002,7 +998,7 @@ def drawUp(group): # group == me.hand
 #---------------------------------------------------------------------------
 def shuffleDeck(group, x=0, y=0): # me.deck
 	mute()
-	shuffle(group, True)
+	shuffle(group)
 
 def drawCard(group, x=0, y=0): # me.deck
 	mute()
