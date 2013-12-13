@@ -178,7 +178,6 @@ def rollDice(card): #Roll the dice based on the number of tokens
 			dice = "{} + {}{}".format(dice, count, die[0])
 			while count > 0:
 				roll += 1 + int(random() * num(die[0][1:]))
-				#roll += rnd(1, num(die[0][1:]))
 				count -= 1
 			card.markers[die] = 0
 	
@@ -417,6 +416,7 @@ def startOfTurn(player, turn):
 	mute()
 	debug("Start of Turn {} for player {}".format(turn, player))
 	
+	clearTargets()
 	if player == me: # Store my details in the global variable
 		setGlobalVariable("Previous Turn", getGlobalVariable("Current Turn"))
 		setGlobalVariable("Current Turn", "{}.{}".format(turn, player.name))
@@ -568,10 +568,37 @@ def makeActive(who):
 		debug("{} passes control to {}".format(me, who))
 	who.setActivePlayer()
 
+# Called when a player draws an arrow between two cards (or clears an arrow)
+# If the source card has dice on it, they are moved to the destination
+def passDice(player, src, dst, targeted):
+	mute()
+	if player == me and targeted and src.controller == me:
+		dice=""
+		for m in [ d12, d10, d8, d6, d4 ]:
+			if src.markers[m] > 0:
+				dice = "{} + {}{}".format(dice, src.markers[m], m[0])
+				dst.markers[m] += src.markers[m]
+				src.markers[m] = 0
+		if src.markers[plus] > 0:
+			dice = "{} + {}".format(dice, src.markers[plus])
+			dst.markers[plus] += src.markers[plus]
+			src.markers[plus] = 0
+		if src.markers[minus] > 0:
+			dice = "{} - {}".format(dice, src.markers[minus])
+			dst.markers[minus] += src.markers[minus]
+			src.markers[minus] = 0
+		notify("{} Moves {} from {} to {}".format(me, dice[3:], src, dst))
+				
 #---------------------------------------------------------------------------
 # Table group actions
 #---------------------------------------------------------------------------
-		
+
+# Remove targeting arrows after a check
+def clearTargets(group=table, x=0, y=0):
+	for c in group:
+		if c.controller == me or (c.targetedBy is not None and c.targetedBy == me):
+			c.target(False)
+			
 #Table action - prompts the player to pick an adventure path, an adventure and a scenario
 #If there is already a scenario on the table clear it away
 def pickScenario(group=table, x=0, y=0):
@@ -706,6 +733,7 @@ def defaultAction(card, x = 0, y = 0):
 	mute()
 
 	if rollDice(card): # If it has dice on - roll them
+		clearTargets()
 		return
 	if card.pile() is not None:
 		if card.Type == 'Location': # Explore location
@@ -723,7 +751,22 @@ def defaultAction(card, x = 0, y = 0):
 		acquireCard(card)
 	else:
 		flipCard(card, x, y)
-                                
+
+def donateDice(card, x=0, y=0):
+	# Move any dice on this card to the card targeted by me
+	# If there is no target, default to the avatar of the active player
+	# The actual dice movement is handled by the event callout when a card is targeted
+	t = [ c for c in table if c.targetedBy is not None and c.targetedBy == me ]
+	if len(t) == 0:
+		t = [ c for c in table if c.Type == 'Character' and c.Subtype == 'Token' and c.highlight is not None ]
+
+	if len(t) != 1:
+		whisper("Unsure where to donate dice: target one card and try again")
+	elif t[0] == card:
+		whisper("You cannot donate dice to yourself")
+	else:
+		card.arrow(t[0])
+				
 def flipCard(card, x = 0, y = 0):
 	mute()
 	if card.Subtype == 'Token': return
@@ -811,7 +854,6 @@ def shuffleCard(card, x=0, y=0):
 		pile = c.pile()
 		notify("{} moves '{}' into '{}' deck".format(me, card, pile.name))
 		card.moveTo(pile)
-	update() # Ensure card has moved to pile before we shuffle
 	shuffle(pile)
 	
 def peekTop(card, x=0, y=0):
@@ -941,7 +983,7 @@ def hideVillain(villain, x=0, y=0):
 	for card in table:
 		if card.Type == 'Location' and card.orientation != Rot0:
 			card.orientation = Rot0
-	sync()	
+			
 	unlockPile(hidden)
 	
 #---------------------------------------------------------------------------
@@ -961,14 +1003,14 @@ def returnToBlessingDeck(group, x=0, y=0): # Blessing Discard
 		notify("No cards to return")
 		return
 	destination = shared.piles['Blessing Deck']
-	group.random().moveToBottom(destination)
+	group.random().moveTo(destination, int(random()*(1+len(destination))))
 	notify("{} returns a card to the Blessing Deck".format(me))
 
 def revealRandom(group, x=0, y=0): # Most shared piles use this
 	if len(group) == 0: return
 	group.random().moveToTable(x, y)
 	
-def shufflePile(group, x=0, y=0): # Location piles use this
+def shufflePile(group, x=0, y=0): # Most piles use this
 	mute()
 	if len(group) == 0: return
 	shuffle(group)
@@ -996,9 +1038,6 @@ def drawUp(group): # group == me.hand
 #---------------------------------------------------------------------------
 # Deck Group Actions
 #---------------------------------------------------------------------------
-def shuffleDeck(group, x=0, y=0): # me.deck
-	mute()
-	shuffle(group)
 
 def drawCard(group, x=0, y=0): # me.deck
 	mute()
@@ -1126,7 +1165,6 @@ def scenarioSetup(card):
 		hidden.random().moveTo(pile)
 		shuffle(pile)
 		index += 1
-	update()
 	
 	#Create the Blessing deck
 	src = shared.piles['Blessing']
