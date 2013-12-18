@@ -289,9 +289,11 @@ def closeLocation(card, perm):
 		if len(pile) > 0: # Villain was left in the pile
 			card.orientation = Rot90 # We temporarily close the location but leave it in the deck
 			return False
-			
+		
+		notify("{} permanently closes '{}'".format(me, card))
+		if len(card.Attr4) > 0 and card.Attr4 != "No effect.":
+			notify(card.Attr4)
 		flipCard(card)
-		notify("{} Permanently closes '{}'".format(me, card))
 		return True
 	else:
 		card.orientation = Rot90
@@ -332,8 +334,8 @@ def clearupGame(cleanupStory=False):
 def storeHandSize(h):
 	me.setGlobalVariable('HandSize', str(h))
 
-def getHandSize():
-	return num(me.getGlobalVariable('HandSize'))
+def getHandSize(p=me):
+	return num(p.getGlobalVariable('HandSize'))
 	
 def storeFavoured(f):
 	me.setGlobalVariable('Favoured', f)
@@ -603,6 +605,13 @@ def clearTargets(group=table, x=0, y=0):
 #If there is already a scenario on the table clear it away
 def pickScenario(group=table, x=0, y=0):
 	mute()
+	
+	#If any of the players haven't loaded their deck we abort
+	for p in getPlayers():
+		if getHandSize(p) == 0:
+			whisper("Please wait until {} has loaded their deck and then try again".format(p))
+			return
+			
 	story = [ card for card in group if card.Type == 'Story' ]
 	if len(story) > 0:
 		if not confirm("Clear the current game?"):
@@ -1032,6 +1041,8 @@ def drawUp(group): # group == me.hand
 	if len(group) < handSize: #We ran out of cards ... and died
 		eliminated(me, True)
 		notify("{} has run out of cards".format(me))
+	elif toDraw == 1:
+		notify("{} draws a card".format(me))
 	elif toDraw > 0:
 		notify("{} draws {} cards".format(me, toDraw))
 
