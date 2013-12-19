@@ -678,25 +678,38 @@ def nextTurn(group=table, x=0, y=0):
 	me.setActivePlayer()
 	
 def randomHiddenCard(group=table, x=0, y=0):
-	pile = cardTypePile()
+	pile, trait = cardTypePile()
 	if pile is None: return
-	randomCardN(pile, x, y, 1, True)
+	randomCardN(pile, trait, x, y, 1, True)
 	
 def randomCard(group=table, x=0, y=0):
-	pile = cardTypePile()
+	pile, trait = cardTypePile()
 	if pile is None: return
-	randomCardN(pile, x, y, 1)
+	randomCardN(pile, trait, x, y, 1)
 
 def randomCards(group=table, x=0, y=0):
-	pile = cardTypePile()
-	if pile is None: return
 	quantity = [ "One", "Two", "Three", "Four", "Five", "Six" ]
 	choice = askChoice("How many?", quantity)
-	randomCardN(pile, x, y, choice)
+	if choice <= 0:
+		return
+	pile, trait = cardTypePile()
+	if pile is None: return
+	randomCardN(pile, trait, x, y, choice)
 
-def randomCardN(pile, x, y, n, hide=False):
-	while n > 0 and len(pile) > 0:
-		card = pile.random()
+def hasTrait(card, trait):
+	if trait == "Any":
+		return True
+	if card is None:
+		return False
+	for t in card.Traits.splitlines():
+		if t == trait:
+			return True
+	return False
+	
+def randomCardN(pile, trait, x, y, n, hide=False):
+	cards = [ c for c in pile if hasTrait(c, trait) ]
+	while n > 0 and len(cards) > 0:
+		card = cards[int(random()*len(cards))]
 		card.setController(me)
 		if y < 0:
 			card.moveToTable(x, y, hide or n > 1)
@@ -710,8 +723,23 @@ def cardTypePile():
 	types = ["Henchman", "Monster", "Barrier", "Armor", "Weapon", "Spell", "Item", "Ally", "Blessing"]
 	choice = askChoice("Pick card type", types)
 	if choice <= 0:
-		return None
-	return shared.piles[types[choice-1]]
+		return None	
+	pile = shared.piles[types[choice-1]]
+	
+	# Ask for an optional trait
+	traits = [ ]	
+	for c in pile:
+		for t in c.Traits.splitlines():
+			if t not in traits:
+				traits.append(t)
+	traits.sort()
+	traits.insert(0, "Any")
+	choice = 1
+	if len(traits) > 1:
+		choice = askChoice("Pick a trait", traits)
+		if choice <= 0:
+			choice = 1
+	return pile, traits[choice-1]
 
 #---------------------------------------------------------------------------
 # Table card actions

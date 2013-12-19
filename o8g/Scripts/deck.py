@@ -46,6 +46,7 @@ def saveDeck(group, x=0, y=0): #me.hand or table
 
 	piles = [ me.piles[p] for p in me.piles ]
 	piles.append(me.hand)
+	
 	filename = savePiles(character.name+'-saved.o8d', sections, piles, getSection, False)
 	if filename is None:
 		whisper("Failed to save deck")
