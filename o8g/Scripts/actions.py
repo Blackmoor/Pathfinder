@@ -323,7 +323,10 @@ def clearupGame(cleanupStory=False):
 	for pile in [ 'Blessing Deck', 'Blessing Discard' ]:
 		for card in shared.piles[pile]:
 			returnToBox(card)
-			
+	
+	setGlobalVariable("Previous Turn", "")
+	setGlobalVariable("Current Turn", "")
+	
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------	
@@ -490,7 +493,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 			debug("{} created new blessing card {}".format(me, c))
 
 	#Check to see if we moved our avatar to the table
-	if player == me and card.Type == 'Character' and card.Subtype == 'Token' and fromGroup == me.hand and toGroup == table:
+	if player == me and card.Type == 'Character' and card.Subtype == 'Token' and fromGroup != table and toGroup == table:
 		# If the scenario hasn't been set up yet return the avatar to hand and issue a warning
 		if len(shared.piles['Blessing Deck']) == 0:
 			whisper("Ensure the scenario is set up before placing {} at your starting location".format(card))
