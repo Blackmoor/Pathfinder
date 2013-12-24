@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fan Made" id="add5338c-0278-488a-b99d-20417c8123c5" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.10.0" version="1.0.1.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fan Made" id="add5338c-0278-488a-b99d-20417c8123c5" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.0.1.0">
  <cards>
    <card id="5a3fbb7e-b600-4520-bf30-17757dd8d34c" name="Funeral Urn">
     <property name="Abr" value="2" />

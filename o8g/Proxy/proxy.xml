@@ -33,6 +33,7 @@
 	<block type="text" id="StatBlock">
 		<location x="26" y="126" />
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="120" width="370" />
 	</block>
 	<block type="text" id="HighText">
 		<location x="32" y="230" />

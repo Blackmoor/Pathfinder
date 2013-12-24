@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Feats" id="33cae22c-0c82-4e9e-b465-2422ab40d45c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.10.0" version="1.1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Feats" id="33cae22c-0c82-4e9e-b465-2422ab40d45c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.0">
  <cards>
    <card id="2f24bb9c-5983-4f26-91f4-6d3cd51601c3" name="Ally">
     <property name="Abr" value="O" />

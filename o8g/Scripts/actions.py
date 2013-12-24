@@ -1180,10 +1180,17 @@ def scenarioSetup(card):
 		else:
 			debug("Moving '{}' to hidden pile".format(villain))
 			villain.moveTo(hidden)
-	henchmen = card.Attr3.splitlines()
+	
 	debug("Hide Henchmen '{}'".format(card.Attr3))
+	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
+		henchmen = card.Attr3.replace('Per Location: ','').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
+		cardsPerLocation = len(henchmen)
+	else:
+		henchmen = card.Attr3.splitlines()
+		cardsPerLocation = 1	
 	index = 0
-	while len(hidden) < len(getPlayers()) + 2:
+	locations = len(getPlayers()) + 2
+	while len(hidden) < locations * cardsPerLocation:
 		if henchmen[index] in shared.piles: # A card type has been supplied
 			man = shared.piles[henchmen[index]].random()
 		else:
@@ -1196,15 +1203,17 @@ def scenarioSetup(card):
 				break;
 		else:
 			man.moveTo(hidden)
-		if index < len(henchmen) - 1: #Repeat the last named entry if there are not enough named unique henchmen
-			index += 1
+		index += 1
+		if index == len(henchmen): #Repeat the last named entry if there are not enough named unique henchmen
+			index -= cardsPerLocation
 
 	debug("Deal from hidden deck ...")
 	#Now deal them to each location pile
 	index = 0
 	while len(hidden) > 0:
 		pile = shared.piles["Location{}".format(index+1)]
-		hidden.random().moveTo(pile)
+		for i in range(cardsPerLocation):
+			hidden.random().moveTo(pile)
 		shuffle(pile)
 		index += 1
 	
@@ -1215,7 +1224,7 @@ def scenarioSetup(card):
 		src.random().moveTo(dst)		
 	
 	unlockPile(hidden)	
-	notify("{} starts the scenario '{}'".format(me, card.name))
+	notify("{} starts the scenario '{}'".format(me, card))
 
 def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
