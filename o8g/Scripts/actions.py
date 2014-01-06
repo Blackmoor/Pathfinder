@@ -904,7 +904,7 @@ def banishCard(card, x=0, y=0): #Move to correct pile in box (shared)
 	removeElite = (getGlobalVariable("Remove Elite") == "1")
 	remove = ((removeBasic and hasTrait(card, "Basic")) or (removeElite and hasTrait(card, "Elite")))
 
-	if remove and ((card.Type == 'Boon' and confirm("Remove from box?") == True) or card.Type == 'Bane'):
+	if remove and ((card.Type == 'Boon' and confirm("Remove {} from box?".format(card.Name)) == True) or card.Type == 'Bane'):
 		removeCard(card)
 	else:
 		notify("{} banishes '{}'".format(me, card))
