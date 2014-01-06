@@ -282,7 +282,7 @@ def closeLocation(card, perm):
 				notify("You find {} while attempting to close this location".format(c))
 				c.moveTo(pile)
 			else:
-				returnToBox(c)
+				banishCard(c)
 		
 		unlockPile(visible)
 		
@@ -326,6 +326,8 @@ def clearupGame(cleanupStory=False):
 	
 	setGlobalVariable("Previous Turn", "")
 	setGlobalVariable("Current Turn", "")
+	setGlobalVariable("Remove Basic", "")
+	setGlobalVariable("Remove Elite", "")
 	
 #------------------------------------------------------------
 # Global variable manipulations function
@@ -457,7 +459,24 @@ def startOfTurn(player, turn):
 	if player == me:
 		sync() # wait for control of cards to be passed to us
 		advanceBlessingDeck()
-	
+		# Perform scenario specific actions
+		scenario = [ c for c in table if c.Subtype == 'Scenario' ]
+		if len(scenario) == 1 and scenario[0].Name == 'Here Comes the Flood':
+			flood = scenario[0]
+			#Pick a random location
+			locs = [ c for c in table if c.Type == 'Location' ]
+			loc = locs[int(random()*len(locs))]
+			#Move 1d4 cards from that location to the table
+			moved = 0
+			toMove = 1+int(random()*4)
+			for c in loc.pile().bottom(toMove):
+				c.moveTo(flood.pile())
+				moved += 1
+			flood.sendToFront()
+			if toMove == moved:
+				notify("{} moves {} cards from {}".format(me, moved, loc))
+			else:
+				notify("{} moves {} out of {} cards from {}".format(me, moved, toMove, loc))
 #
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
@@ -620,7 +639,8 @@ def pickScenario(group=table, x=0, y=0):
 		if not confirm("Clear the current game?"):
 			return
 		clearupGame(True)
-						
+	
+	rise = False # Rise of the Runelords has special rules for banishing cards with the Basic and Elite traits	
 	#Pick the new Scenario
 	paths = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure Path' ]
 	if len(paths) > 0:
@@ -634,6 +654,7 @@ def pickScenario(group=table, x=0, y=0):
 	else:
 		path = findCardByName(shared.piles['Story'], paths[choice-1])
 		path.moveToTable(PlayerX(-3),StoryY)
+		rise = path.Name == 'Rise of the Runelords'
 		flipCard(path)
 		loaded = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
 		adventures = []
@@ -649,6 +670,11 @@ def pickScenario(group=table, x=0, y=0):
 	else:
 		adventure = findCardByName(shared.piles['Story'], adventures[choice-1])
 		adventure.moveToTable(PlayerX(-2), StoryY)
+		if rise:
+			if num(adventure.Abr) >= 3:
+				setGlobalVariable("Remove Basic", "1")
+			if num(adventure.Abr) >= 5:
+				setGlobalVariable("Remove Elite", "1")
 		flipCard(adventure)
 		loaded = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Scenario' ]
 		scenarios = []
@@ -783,6 +809,12 @@ def defaultAction(card, x = 0, y = 0):
 				closePermanently(card)
 		elif card.pile() == shared.piles['Blessing Deck']: # Reveal the next blessing
 			advanceBlessingDeck()
+		else:
+			t = card.pile().top()
+			if t is not None:
+				x, y = card.position
+				t.moveToTable(x, y+14)
+				notify("{} reveals {}".format(me, t))
 	elif card.Subtype == 'Villain':
 		hideVillain(card)
 	elif card.Type == 'Bane': # Assume it is undefeated and shuffle back into location
@@ -867,8 +899,16 @@ def banishCard(card, x=0, y=0): #Move to correct pile in box (shared)
 			return
 		card = shared.piles['Blessing Discard'].top()
 		card.link(None)
-	notify("{} banishes '{}'".format(me, card))
-	returnToBox(card)
+		
+	removeBasic = (getGlobalVariable("Remove Basic") == "1")
+	removeElite = (getGlobalVariable("Remove Elite") == "1")
+	remove = ((removeBasic and hasTrait(card, "Basic")) or (removeElite and hasTrait(card, "Elite")))
+
+	if remove and ((card.Type == 'Boon' and confirm("Remove from box?") == True) or card.Type == 'Bane'):
+		removeCard(card)
+	else:
+		notify("{} banishes '{}'".format(me, card))
+		returnToBox(card)
 		
 def buryCard(card, x=0, y=0): #Move to bury pile
 	mute()
@@ -894,6 +934,7 @@ def shuffleCard(card, x=0, y=0):
 		pile = c.pile()
 		notify("{} moves '{}' into '{}' deck".format(me, card, pile.name))
 		card.moveTo(pile)
+		update()
 	shuffle(pile)
 	
 def peekTop(card, x=0, y=0):
@@ -1139,6 +1180,8 @@ def playerSetup():
 #Create the Blessing deck and reveal the top card
 def scenarioSetup(card):
 	mute()
+	
+	card.link(shared.piles['Scenario'])
 	hidden = shared.piles['Internal']
 	if not lockPile(hidden): return
 				

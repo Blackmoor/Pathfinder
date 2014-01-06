@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.1">
  <cards>
    <card id="0edac356-1fba-42b6-bed1-9f43828c1041" name="Ambush">
     <property name="Abr" value="B" />
