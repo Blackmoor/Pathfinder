@@ -320,7 +320,7 @@ def clearupGame(cleanupStory=False):
 		for card in shared.piles["Location{}".format(i+1)]:
 			returnToBox(card)
 
-	for pile in [ 'Blessing Deck', 'Blessing Discard' ]:
+	for pile in [ 'Blessing Deck', 'Blessing Discard', 'Special', 'Scenario' ]:
 		for card in shared.piles[pile]:
 			returnToBox(card)
 	
@@ -458,11 +458,9 @@ def startOfTurn(player, turn):
 		
 	if player == me:
 		sync() # wait for control of cards to be passed to us
-		advanceBlessingDeck()
 		# Perform scenario specific actions
 		scenario = [ c for c in table if c.Subtype == 'Scenario' ]
 		if len(scenario) == 1 and scenario[0].Name == 'Here Comes the Flood':
-			flood = scenario[0]
 			#Pick a random location
 			locs = [ c for c in table if c.Type == 'Location' ]
 			loc = locs[int(random()*len(locs))]
@@ -470,13 +468,13 @@ def startOfTurn(player, turn):
 			moved = 0
 			toMove = 1+int(random()*4)
 			for c in loc.pile().bottom(toMove):
-				c.moveTo(flood.pile())
+				c.moveTo(shared.piles['Special'])
 				moved += 1
-			flood.sendToFront()
 			if toMove == moved:
-				notify("{} moves {} cards from {}".format(me, moved, loc))
+				notify("{} moves {} cards from {} to Black Magga".format(me, moved, loc))
 			else:
-				notify("{} moves {} out of {} cards from {}".format(me, moved, toMove, loc))
+				notify("{} moves {} out of {} cards from {} to Black Magga".format(me, moved, toMove, loc))
+		advanceBlessingDeck()
 #
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
@@ -1002,12 +1000,13 @@ def pileSwap12(card, x=0, y=0):
 	pile[1].moveTo(pile)
 	
 def closePermanently(card, x=0, y=0):
-	closed = closeLocation(card, True)
-	#If there are no open locations the players have won
-	open = [ card for card in table if isOpen(card) ]
-	if len(open) == 0 and closed:
-		gameOver()
-		notify("You have won ..... claim your reward")		
+	if closeLocation(card, True):
+		local = findCardByName(table, 'Local Heroes')
+		if local is not None: # This scenario is won when the last location is closed
+			open = [ card for card in table if isOpen(card) ]
+			if len(open) == 0:
+				gameOver()
+				notify("You have won ..... claim your reward")
 
 def closeTemporarily(card, x=0, y=0):
 	closeLocation(card, False)
@@ -1036,9 +1035,12 @@ def hideVillain(villain, x=0, y=0):
 				return
 		elif isOpen(location): # Ensure location is closed
 			closePermanently(location)
-			
+	
+	#If there are no open locations the players have won
 	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
+		gameOver()
+		notify("You have won ..... claim your reward")		
 		return
 	
 	hidden = shared.piles['Internal']
@@ -1223,7 +1225,14 @@ def scenarioSetup(card):
 		else:
 			debug("Moving '{}' to hidden pile".format(villain))
 			villain.moveTo(hidden)
-	
+	elif card.Name == 'Here Comes the Flood':
+		magga = findCardByName(shared.piles['Villain'], 'Black Magga')
+		if magga is None:
+			notify("Setup error: failed to find Black Magga")
+		else:
+			magga.moveToTable(PlayerX(-3),StoryY)
+			magga.link(shared.piles['Special'])
+			
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
@@ -1277,8 +1286,25 @@ def advanceBlessingDeck():
 		gameOver()
 		notify("You have failed to complete the scenario in time")		
 	else:
-		shared.piles['Blessing Deck'].top().moveTo(shared.piles['Blessing Discard'])
+		pile.top().moveTo(shared.piles['Blessing Discard'])
 		notify("{} advances the Blessing Deck".format(me))
+		if len(pile) == 0 and findCardByName(table, 'Here Comes the Flood') is not None: # special winning conditions
+			died = 0
+			for c in shared.piles['Special']:
+				returnToBox(c)
+				if c.Subtype == 'Ally':
+					died += 1
+			saved = [ c for c in shared.piles['Scenario'] ]
+			notify("You saved {} allies and lost {} allies".format(len(saved), died))
+			gameOver()
+			if len(saved) >= died:
+				notify("You won the scenario")
+				x = -300
+				for c in saved:
+					c.moveToTable(x, 0)
+					x += 32
+			else:
+				notify("You lost the scenario")
 			
 def gameOver():
 	clearupGame()
