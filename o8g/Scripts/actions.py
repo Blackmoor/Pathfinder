@@ -532,6 +532,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 					c.moveTo(me.Buried)
 				else:
 					c.moveTo(me.Discarded)
+		update()
 		shuffle(me.Discarded, True)
 		size = len(me.Discarded)
 		favoured = getFavoured()					
@@ -799,7 +800,7 @@ def defaultAction(card, x = 0, y = 0):
 	if rollDice(card): # If it has dice on - roll them
 		clearTargets()
 		return
-	if card.pile() is not None:
+	if card.pile() is not None and (card.Type == 'Location' or len(card.pile()) > 0):
 		if card.Type == 'Location': # Explore location
 			if len(card.pile()) > 0:
 				exploreLocation(card)
@@ -809,10 +810,9 @@ def defaultAction(card, x = 0, y = 0):
 			advanceBlessingDeck()
 		else:
 			t = card.pile().top()
-			if t is not None:
-				x, y = card.position
-				t.moveToTable(x, y+14)
-				notify("{} reveals {}".format(me, t))
+			x, y = card.position
+			t.moveToTable(x, y+14)
+			notify("{} reveals {}".format(me, t))
 	elif card.Subtype == 'Villain':
 		hideVillain(card)
 	elif card.Type == 'Bane': # Assume it is undefeated and shuffle back into location
@@ -1060,6 +1060,7 @@ def hideVillain(villain, x=0, y=0):
 		card = hidden.random()
 		if card is not None:			
 			card.moveTo(pile)
+			update()
 		shuffle(pile)
 	
 	# Re-open temporarily closed locations
@@ -1266,6 +1267,7 @@ def scenarioSetup(card):
 		pile = shared.piles["Location{}".format(index+1)]
 		for i in range(cardsPerLocation):
 			hidden.random().moveTo(pile)
+		update()
 		shuffle(pile)
 		index += 1
 	
