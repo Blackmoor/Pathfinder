@@ -42,32 +42,27 @@ def updatePile(self):
 	elif self.markers[remaining] != len(pile):
 		self.markers[remaining] = len(pile)
 
-# Event trigger - need to be set up in your definition.xml
+# Event trigger - needs to be set up in your definition.xml
 def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):	
-	mute()
-	piles = [ c for c in table if isPile(c) ]
-
-	# Most of the time we only care if we are the player moving the card
-	if player == me:
-		if toGroup == table and not isScriptMove and card.pile() is None and card.Type != 'Character':	
-			# Check to see if this card has been moved on top of a pile card
-			# If so move it to the top or bottom of the pile depending on the location of the card drop (top or bottom half of pile card)
-			for c in piles:
-				pile = getPile(c)
+	if player != me:
+		return
+	mute()	
+	for c in table:
+		if isPile(c):
+			pile = getPile(c)
+			if toGroup == table and not isScriptMove and card.pile() is None and card.Type != 'Character':	
+				# Check to see if this card has been moved on top of a pile card
+				# If so move it to the top or bottom of the pile depending on the location of the card drop (top or bottom half of pile card)				
 				px, py = c.position
 				if x + c.width()/2 > px and x < px + c.width()/2: # middle of card is over the pile in the x axis
 					if y + c.height() >= py and y <= py: # some of the card overlaps the upper half of the pile
 						notify("{} moves {} to the top of the {} pile".format(player, card, c))
 						card.moveTo(pile)
-						break
 					elif y > py and y <= py + c.height(): # some of the card overlaps the bottom half of the pile
 						notify("{} moves {} to the bottom of the {} pile".format(player, card, c))
-						card.moveToBottom(pile)
-						break
-				
-	# The move could affect the size of a pile we are tracking, update all pile cards
-	for c in piles:
-		c.refresh()
+						card.moveToBottom(pile)			
+			# The move could affect the size of a pile we are tracking, update all pile cards
+			c.markers[remaining] = len(pile)
 
 Card.pile = getPile
 Card.link = linkPile
