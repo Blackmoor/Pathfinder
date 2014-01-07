@@ -72,7 +72,7 @@ def saveBox(group, x=0, y=0): #table
 	piles.append(table)	
 	filename = savePiles('Box-Campaign-saved.o8d', sections, piles, getSection, True)
 	if filename is None:
-		whisper("Failed to safe Box")
+		whisper("Failed to save Box")
 	else:
 		notify("{} saves the box to {}".format(me, filename))
 
