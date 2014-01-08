@@ -69,7 +69,14 @@ def saveBox(group, x=0, y=0): #table
 				"Location":{},
 				"Villain":{} }
 	piles = [ shared.piles[p] for p in shared.piles if p != 'Internal' ]
+	#Add in player piles
+	for pl in getPlayers():
+		piles.append(pl.hand)
+		for p in pl.piles:
+			piles.append(pl.piles[p])
+	#And finally any cards on the table
 	piles.append(table)	
+	
 	filename = savePiles('Box-Campaign-saved.o8d', sections, piles, getSection, True)
 	if filename is None:
 		whisper("Failed to save Box")
