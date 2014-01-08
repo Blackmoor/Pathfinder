@@ -99,6 +99,8 @@ def savePiles(name, sections, piles, getSection, isShared):
 			else:
 				pile = p
 			for card in pile:
+				if pile == table and card.Subtype == 'Blessing' and card.pile() is not None: #This is temporary copy of the top of the blessing deck and should be ignored
+					continue
 				s = getSection(sections, card)					
 				if s is None:
 					whisper("Ignoring unknown card {}".format(card))
