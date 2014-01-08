@@ -42,7 +42,7 @@ def updatePile(self):
 	elif self.markers[remaining] != len(pile):
 		self.markers[remaining] = len(pile)
 
-# Event trigger - needs to be set up in your definition.xml
+#Event trigged by card movement - needs to be registered in your definition.xml
 def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):	
 	if player != me:
 		return
@@ -62,7 +62,8 @@ def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y
 						notify("{} moves {} to the bottom of the {} pile".format(player, card, c))
 						card.moveToBottom(pile)			
 			# The move could affect the size of a pile we are tracking, update all pile cards
-			c.markers[remaining] = len(pile)
+			if c.markers[remaining] != len(pile):
+				c.markers[remaining] = len(pile)
 
 Card.pile = getPile
 Card.link = linkPile
