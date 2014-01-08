@@ -1305,7 +1305,17 @@ def advanceBlessingDeck():
 	else:
 		pile.top().moveTo(shared.piles['Blessing Discard'])
 		notify("{} advances the Blessing Deck".format(me))
-		if len(pile) == 0 and findCardByName(table, 'Here Comes the Flood') is not None: # special winning conditions
+		
+		# Here comes the flood has special end conditions
+		flood = findCardByName(table, 'Here Comes the Flood')
+		if flood is not None:
+			# Check to see if all locations are empty
+			cardsToExplore = 0
+			for i in range(8): # Loop through 8 location decks
+				cardsToExplore += len(shared.piles["Location{}".format(i+1)])
+			if cardsToExplore > 0 and len(pile) > 0:
+				flood = None
+		if flood is not None: # Compare dead allies to rescued allies
 			died = 0
 			for c in shared.piles['Special']:
 				returnToBox(c)
