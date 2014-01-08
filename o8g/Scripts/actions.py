@@ -38,8 +38,8 @@ def shuffle(pile, synchronise=False):
 	mute()
 	if pile is None or len(pile) == 0: return
 	pile.shuffle()
-	if synchronise:
-		sync()
+	#if synchronise:
+	#	sync()
 	notify("{} shuffles '{}'".format(me, pile.name))
 	
 #Return the default x coordinate of the players hero
@@ -155,7 +155,7 @@ def isOpen(card):
 		return False
 	return (card.orientation == Rot0 and card.alternate != "B")
 	
-#Any card loaded into the player area must be removed from the box and put into the "InUse" pile
+#Any card loaded into the player area must be removed from the box otherwise we end up with duplicates
 #Find an exact match based on the card model, if none look for a name match
 def inUse(card):
 	mute()
@@ -164,7 +164,7 @@ def inUse(card):
 		if found is None:
 			found = findCardByName(shared.piles[card.Subtype], card.name)
 		if found is not None:
-			found.moveTo(shared.piles['InUse'])
+			found.delete()
 		else:
 			notify("{} is using '{}' which is not in the box".format(me, card))
 
@@ -430,7 +430,7 @@ def startOfTurn(player, turn):
 			
 	lastPlayer = getPlayer(turn-1)
 	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
-	if lastPlayer is not None and lastPlayer == me:
+	if lastPlayer is not None and me == lastPlayer:
 		drawUp(me.hand)
 		
 	# Pass control of the shared piles and table cards to the new player
@@ -473,7 +473,7 @@ def startOfTurn(player, turn):
 			if toMove == moved:
 				notify("{} moves {} cards from {} to Black Magga".format(me, moved, loc))
 			else:
-				notify("{} moves {} out of {} cards from {} to Black Magga".format(me, moved, toMove, loc))
+				notify("{} moves {} cards (rolled {}) from {} to Black Magga".format(me, moved, toMove, loc))
 		advanceBlessingDeck()
 #
 #Card Move Event
@@ -532,7 +532,6 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 					c.moveTo(me.Buried)
 				else:
 					c.moveTo(me.Discarded)
-		update()
 		shuffle(me.Discarded, True)
 		size = len(me.Discarded)
 		favoured = getFavoured()					
@@ -932,7 +931,6 @@ def shuffleCard(card, x=0, y=0):
 		pile = c.pile()
 		notify("{} moves '{}' into '{}' deck".format(me, card, pile.name))
 		card.moveTo(pile)
-		update()
 	shuffle(pile)
 	
 def peekTop(card, x=0, y=0):
@@ -1060,7 +1058,6 @@ def hideVillain(villain, x=0, y=0):
 		card = hidden.random()
 		if card is not None:			
 			card.moveTo(pile)
-			update()
 		shuffle(pile)
 	
 	# Re-open temporarily closed locations
@@ -1267,7 +1264,6 @@ def scenarioSetup(card):
 		pile = shared.piles["Location{}".format(index+1)]
 		for i in range(cardsPerLocation):
 			hidden.random().moveTo(pile)
-		update()
 		shuffle(pile)
 		index += 1
 	
@@ -1318,6 +1314,7 @@ def gameOver():
 		
 #Move all my cards back into my hand ordered by type
 def displayHand(who):
+	mute()
 	debug("Display hand")
 	for pile in [ me.hand, me.Buried, me.deck ]:
 		for c in pile:
