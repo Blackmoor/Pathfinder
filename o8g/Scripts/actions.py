@@ -276,30 +276,36 @@ def closeLocation(card, perm):
 		debug("Cleaning up pile '{}'".format(pile.name))
 		for c in pile:
 			c.moveTo(visible)
-
-		for c in visible:
+		
+		villain = [ c for c in visible if c.Subtype == 'Villain' ]
+		for c in villain:
+			notify("You find {} while attempting to close this location".format(c))
+			c.moveTo(pile)
+		
+		for c in visible: #Banish the remaining cards (unless we are at the Garrison)
 			debug("Unexplored ... '{}'".format(c))
-			if c.Subtype == 'Villain':
-				notify("You find {} while attempting to close this location".format(c))
+			if len(villain) == 0 and card.name == 'Garrison' and c.Subtype in ['Weapon','Armor']:
 				c.moveTo(pile)
 			else:
 				banishCard(c)
 		
 		unlockPile(visible)
 		
-		if len(pile) > 0: # Villain was left in the pile
-			card.orientation = Rot90 # We temporarily close the location but leave it in the deck
+		if len(villain) > 0: # Close fails - we temporarily close it instead
+			card.orientation = Rot90 
 			return False
+			
+		if len(pile) > 1: # Garrison cards
+			shuffle(pile)
 		
 		notify("{} permanently closes '{}'".format(me, card))
 		if len(card.Attr4) > 0 and card.Attr4 != "No effect.":
 			notify(card.Attr4)
 		flipCard(card)
-		return True
 	else:
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
-		return True
+	return True
 		
 def clearupGame(cleanupStory=False):
 	for card in table:
@@ -890,8 +896,13 @@ def acquireCard(card, x=0, y=0):
 	card.moveTo(me.hand)
 	notify("{} acquires '{}'".format(me, card))
 	
-def banishCard(card, x=0, y=0): #Move to correct pile in box (shared)
+def banishCard(card, x=0, y=0): #Move to correct pile in box
 	mute()
+	
+	if card.Subtype == 'Villain': # This is probably not what the player wanted to do
+		hideVillain(card, x, y, True)
+		return
+		
 	if card.pile() == shared.piles['Blessing Deck']:
 		if confirm("Are you sure?") != True: # This is unusual
 			return
@@ -1010,20 +1021,27 @@ def closePermanently(card, x=0, y=0):
 def closeTemporarily(card, x=0, y=0):
 	closeLocation(card, False)
 	
-def hideVillain(villain, x=0, y=0):
+def hideVillain(villain, x=0, y=0, banish=False):
 	mute()
 	if villain.Subtype != 'Villain':
 		notify("This is not a Villain ...")
 		return
 	
 	choices = [ 'Evaded', 'Defeated', 'Undefeated' ]
+	if banish:
+		choices.append('Banished')
 	choice = askChoice("Was the villain ....", choices)
 	if choice is None or choice == 0:
 		return
 	if choices[choice-1] == 'Evaded':
 		shuffleCard(villain, x, y)
 		return
-		
+	if choices[choice-1] == 'Banished':
+		notify("{} banishes '{}'".format(me, villain))
+		returnToBox(villain)
+		return
+	
+	# We need to hide the villain in an open location
 	defeated = choices[choice-1] == 'Defeated'		
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
 	location = overPile(villain) #Determine the location of the Villain (based on the if it is over a pile on the table)
