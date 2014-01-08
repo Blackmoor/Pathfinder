@@ -164,6 +164,7 @@ def inUse(card):
 		if found is None:
 			found = findCardByName(shared.piles[card.Subtype], card.name)
 		if found is not None:
+			found.moveTo(me.hand)
 			found.delete()
 		else:
 			notify("{} is using '{}' which is not in the box".format(me, card))
