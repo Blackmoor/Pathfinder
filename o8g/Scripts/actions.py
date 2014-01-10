@@ -744,6 +744,7 @@ def randomCardN(pile, trait, x, y, n, hide=False):
 	cards = [ c for c in pile if hasTrait(c, trait) ]
 	while n > 0 and len(cards) > 0:
 		card = cards[int(random()*len(cards))]
+		cards.remove(card)
 		card.setController(me)
 		if y < 0:
 			card.moveToTable(x, y, hide or n > 1)
@@ -757,7 +758,7 @@ def cardTypePile():
 	types = ["Henchman", "Monster", "Barrier", "Armor", "Weapon", "Spell", "Item", "Ally", "Blessing"]
 	choice = askChoice("Pick card type", types)
 	if choice <= 0:
-		return None	
+		return None, None	
 	pile = shared.piles[types[choice-1]]
 	
 	# Ask for an optional trait
