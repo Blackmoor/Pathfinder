@@ -967,7 +967,9 @@ def peekTop(card, x=0, y=0):
 	#Move the top card to a pile with full visibility
 	if lockPile(shared.piles['Internal']):
 		src.moveTo(shared.piles['Internal'])
+		sync() #HACK to work around OCTGN thread issue		
 		whisper("{} looks at '{}'".format(me, src))
+		sync() #HACK to work around OCTGN thread issue
 		src.moveTo(pile)
 		unlockPile(shared.piles['Internal'])
 
@@ -981,7 +983,9 @@ def peekTop2(card, x=0, y=0):
 			#Move the card to a pile with full visibility
 			i = src.getIndex
 			src.moveTo(shared.piles['Internal'])
+			sync() #HACK to work around OCTGN thread issue
 			whisper("{} looks at '{}'".format(me, src))
+			sync() #HACK to work around OCTGN thread issue
 			src.moveTo(pile, i)
 		unlockPile(shared.piles['Internal'])
 		
