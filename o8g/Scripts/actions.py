@@ -154,20 +154,29 @@ def isOpen(card):
 	if card is None or card.Type != 'Location':
 		return False
 	return (card.orientation == Rot0 and card.alternate != "B")
+
+def deleteCard(card):
+	mute()
+	if card is not None:
+		card.delete()
 	
 #Any card loaded into the player area must be removed from the box otherwise we end up with duplicates
 #Find an exact match based on the card model, if none look for a name match
-def inUse(card):
+def inUse(pile):
 	mute()
-	if card.Subtype in shared.piles:
-		found = findCard(shared.piles[card.Subtype], card.model)
-		if found is None:
-			found = findCardByName(shared.piles[card.Subtype], card.name)
-		if found is not None:
-			found.moveTo(me.hand)
-			found.delete()
-		else:
-			notify("{} is using '{}' which is not in the box".format(me, card))
+	for card in pile:
+		if card.Subtype in shared.piles:
+			found = findCard(shared.piles[card.Subtype], card.model)
+			if found is None:
+				found = findCardByName(shared.piles[card.Subtype], card.name)
+			if found is not None:
+				if found.controller != me:
+					remoteCall(found.controller, "deleteCard", [found])
+					sync()
+				else:
+					found.delete()
+			else:
+				notify("{} is using '{}' which is not in the box".format(me, card))
 
 def rollDice(card): #Roll the dice based on the number of tokens
 	mute()
@@ -418,12 +427,9 @@ def deckLoaded(player, groups):
 	for p in groups:
 		if p.name in shared.piles:
 			isShared = True
+			break
 	
-	if isShared:
-		for p in groups:
-			if p.controller != me:
-				p.setController(me)
-	else: # Player deck loaded
+	if not isShared: # Player deck loaded
 		playerSetup()
 	
 def startOfTurn(player, turn):
@@ -491,15 +497,15 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 	mute()
 	#Check to see if the current blessing card needs to change
 	bd = shared.piles['Blessing Discard']
-	x = PlayerX(0)
-	y = StoryY
+	bx = PlayerX(0)
+	by = StoryY
 	deleted = False
 	if fromGroup == bd or toGroup == bd: # The blessing discard pile changed
 		for c in table:
 			if c.pile() == shared.piles['Blessing Deck']:
 				deleted = True # This card will be deleted by the controlling player
 				debug("{} finds blessing card to delete {}, controller by {}".format(me, c, c.controller))
-				x, y = c.position
+				bx, by = c.position
 				if c.controller == me:
 					c.link(None)
 					c.delete()
@@ -512,7 +518,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 				break
 		
 		if len(bd) > 0 and (deleted or not found): # Create a copy of the top card
-			c = table.create(bd.top().model, x, y)
+			c = table.create(bd.top().model, bx, by)
 			c.link(shared.piles['Blessing Deck'])
 			debug("{} created new blessing card {}".format(me, c))
 
@@ -638,14 +644,20 @@ def pickScenario(group=table, x=0, y=0):
 		if getHandSize(p) == 0:
 			whisper("Please wait until {} has loaded their deck and then try again".format(p))
 			return
-			
+	
+	#Take control of the shared piles
+	for name in shared.piles:
+		if shared.piles[name].controller != me:
+			shared.piles[name].setController(me)
+	sync()
+	
 	story = [ card for card in group if card.Type == 'Story' ]
 	if len(story) > 0:
 		if not confirm("Clear the current game?"):
 			return
 		clearupGame(True)
 	
-	rise = False # Rise of the Runelords has special rules for banishing cards with the Basic and Elite traits	
+	rise = False # Rise of the Runelords adventure path has special rules for banishing cards with the Basic and Elite traits	
 	#Pick the new Scenario
 	paths = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure Path' ]
 	if len(paths) > 0:
@@ -1156,9 +1168,9 @@ def drawCard(group, x=0, y=0): # me.deck
 def playerSetup():
 	id = me._id
 	debug("Player {}: Setup ....".format(id))
-	#Remove all the player cards from the box area (into the InUse area)
-	for card in me.Discarded:
-		inUse(card)
+	
+	sync() # Make sure all other processing is complete
+	inUse(me.Discarded) #Remove all the loaded player cards from the box (shared piles)
 	
 	handSize = 4
 	favoured = 'Your choice'
