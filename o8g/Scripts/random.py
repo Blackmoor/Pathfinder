@@ -34,4 +34,4 @@ def localRandom(pile):
 	return pile[int(random()*len(pile))]
 
 Group.random = localRandom
-Pile.shuffle = localShuffle
+#Pile.shuffle = localShuffle
