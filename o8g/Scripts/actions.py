@@ -202,7 +202,7 @@ def rollDice(card): #Roll the dice based on the number of tokens
 	
 	if len(dice) > 0:
 		playSound("dice")
-		notify("{} rolls {} and gets {}".format(me, dice[3:], roll))
+		notify("{} rolls {} on {} and gets {}".format(me, dice[3:], card, roll))
 		return True
 	
 	return False
@@ -493,7 +493,7 @@ def startOfTurn(player, turn):
 # We only care if we have just moved our avatar from hand to the table
 # or if the blessing discard pile changes
 #
-def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove):
+def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=[]):
 	mute()
 	#Check to see if the current blessing card needs to change
 	bd = shared.piles['Blessing Discard']
@@ -605,25 +605,37 @@ def makeActive(who):
 
 # Called when a player draws an arrow between two cards (or clears an arrow)
 # If the source card has dice on it, they are moved to the destination
+# This is done in two parts, the controller of the dst card adds dice based on the src
+# Then the controller of the src card removes the dice on it
 def passDice(player, src, dst, targeted):
 	mute()
-	if player == me and targeted and src.controller == me:
+	if targeted and dst.controller == me:	
+		whisper("dst controller is {}".format(dst.controller))
 		dice=""
 		for m in [ d12, d10, d8, d6, d4 ]:
 			if src.markers[m] > 0:
 				dice = "{} + {}{}".format(dice, src.markers[m], m[0])
 				dst.markers[m] += src.markers[m]
-				src.markers[m] = 0
 		if src.markers[plus] > 0:
 			dice = "{} + {}".format(dice, src.markers[plus])
 			dst.markers[plus] += src.markers[plus]
-			src.markers[plus] = 0
 		if src.markers[minus] > 0:
 			dice = "{} - {}".format(dice, src.markers[minus])
 			dst.markers[minus] += src.markers[minus]
-			src.markers[minus] = 0
-		notify("{} Moves {} from {} to {}".format(me, dice[3:], src, dst))
-				
+		if src.controller != me:
+			remoteCall(src.controller, "clearDice", [src])
+		else:
+			clearDice(src)
+		notify("{} Moves {} from {} to {}".format(player, dice[3:], src, dst))
+
+# Remove all dice from the card
+def clearDice(card):
+	mute()
+	whisper("Clearing dice on {}".format(card))
+	for m in [ d12, d10, d8, d6, d4, plus, minus ]:
+		if card.markers[m] > 0:
+			card.markers[m] = 0	
+		
 #---------------------------------------------------------------------------
 # Table group actions
 #---------------------------------------------------------------------------
@@ -777,7 +789,7 @@ def cardTypePile():
 	traits = [ ]	
 	for c in pile:
 		for t in c.Traits.splitlines():
-			if t not in traits:
+			if t != "and" and t not in traits:
 				traits.append(t)
 	traits.sort()
 	traits.insert(0, "Any")
@@ -854,7 +866,7 @@ def donateDice(card, x=0, y=0):
 	elif t[0] == card:
 		whisper("You cannot donate dice to yourself")
 	else:
-		card.arrow(t[0])
+		card.arrow(t[0]) # This triggers a callback (passDice)
 				
 def flipCard(card, x = 0, y = 0):
 	mute()
