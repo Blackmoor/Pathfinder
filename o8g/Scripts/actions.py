@@ -493,7 +493,7 @@ def startOfTurn(player, turn):
 # We only care if we have just moved our avatar from hand to the table
 # or if the blessing discard pile changes
 #
-def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=[]):
+def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=~None):
 	mute()
 	#Check to see if the current blessing card needs to change
 	bd = shared.piles['Blessing Discard']

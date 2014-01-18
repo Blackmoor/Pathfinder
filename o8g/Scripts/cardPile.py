@@ -43,7 +43,7 @@ def updatePile(self):
 		self.markers[remaining] = len(pile)
 
 #Event trigged by card movement - needs to be registered in your definition.xml
-def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=[]):	
+def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):	
 	if player != me:
 		return
 	mute()	
