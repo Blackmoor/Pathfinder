@@ -757,7 +757,7 @@ def randomCards(group=table, x=0, y=0):
 def hasTrait(card, trait):
 	if trait == "Any":
 		return True
-	if card is None:
+	if card is None or card.Traits is None or len(card.Traits) == 0:
 		return False
 	for t in card.Traits.splitlines():
 		if t == trait:
