@@ -755,14 +755,13 @@ def randomCards(group=table, x=0, y=0):
 	randomCardN(pile, trait, x, y, choice)
 
 def hasTrait(card, trait):
+	if card is None:
+		return False
 	if trait == "Any":
 		return True
-	if card is None or card.Traits is None or len(card.Traits) == 0:
+	if card.Traits is None or len(card.Traits) == 0:
 		return False
-	for t in card.Traits.splitlines():
-		if t == trait:
-			return True
-	return False
+	return trait in card.Traits.splitlines()
 	
 def randomCardN(pile, trait, x, y, n, hide=False):
 	cards = [ c for c in pile if hasTrait(c, trait) ]
@@ -911,6 +910,7 @@ def revealCard(card, x=0, y=0):
 def rechargeCard(card, x=0, y=0):
 	mute()
 	notify("{} recharges '{}'".format(me, card))
+	sync() #HACK to work around OCTGN thread issue
 	card.moveToBottom(me.deck)
 	
 def displayCard(card, x=0, y=0):
