@@ -44,26 +44,24 @@ def updatePile(self):
 
 #Event trigged by card movement - needs to be registered in your definition.xml
 def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):	
-	if player != me:
-		return
-	mute()	
-	for c in table:
-		if isPile(c):
-			pile = getPile(c)
-			if toGroup == table and not isScriptMove and card.pile() is None and card.Type != 'Character':	
-				# Check to see if this card has been moved on top of a pile card
-				# If so move it to the top or bottom of the pile depending on the location of the card drop (top or bottom half of pile card)				
-				px, py = c.position
-				if x + c.width()/2 > px and x < px + c.width()/2: # middle of card is over the pile in the x axis
-					if y + c.height() >= py and y <= py: # some of the card overlaps the upper half of the pile
-						notify("{} moves {} to the top of the {} pile".format(player, card, c))
-						card.moveTo(pile)
-					elif y > py and y <= py + c.height(): # some of the card overlaps the bottom half of the pile
-						notify("{} moves {} to the bottom of the {} pile".format(player, card, c))
-						card.moveToBottom(pile)			
-			# The move could affect the size of a pile we are tracking, update all pile cards
-			if c.markers[remaining] != len(pile):
-				c.markers[remaining] = len(pile)
+	mute()
+	piles = [ c for c in table if c.controller == me and isPile(c) ]
+	for c in piles:
+		pile = getPile(c)
+		if player == me and toGroup == table and not isScriptMove and card.pile() is None and card.Type in [ 'Boon', 'Bane', '?' ]:	
+			# Check to see if this card has been moved on top of a pile card
+			# If so move it to the top or bottom of the pile depending on the location of the card drop (top or bottom half of pile card)				
+			px, py = c.position
+			if x + c.width()/2 > px and x < px + c.width()/2: # middle of card is over the pile in the x axis
+				if y + c.height() >= py and y <= py: # some of the card overlaps the upper half of the pile
+					notify("{} moves {} to the top of the {} pile".format(player, card, c))
+					card.moveTo(pile)
+				elif y > py and y <= py + c.height(): # some of the card overlaps the bottom half of the pile
+					notify("{} moves {} to the bottom of the {} pile".format(player, card, c))
+					card.moveToBottom(pile)			
+		# The move could affect the size of a pile we are tracking, update all pile cards we control
+		if c.markers[remaining] != len(pile):
+			c.markers[remaining] = len(pile)
 
 Card.pile = getPile
 Card.link = linkPile
