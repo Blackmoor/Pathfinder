@@ -13,8 +13,7 @@ LocationY = StoryY + 190
 
 showDebug = False #Can be changed to turn on debug
 
-#HACK
-#This function replaces update() which is not quite working as expected in the current release of OCTGN
+#This function replaces update() which does not wait for async fns like shuffle to complete
 def sync():
 	i = rnd(0,1)
 	
@@ -38,8 +37,8 @@ def shuffle(pile, synchronise=False):
 	mute()
 	if pile is None or len(pile) == 0: return
 	pile.shuffle()
-	#if synchronise:
-	#	sync()
+	if synchronise:
+		sync()
 	notify("{} shuffles '{}'".format(me, pile.name))
 	
 #Return the default x coordinate of the players hero
@@ -910,7 +909,6 @@ def revealCard(card, x=0, y=0):
 def rechargeCard(card, x=0, y=0):
 	mute()
 	notify("{} recharges '{}'".format(me, card))
-	sync() #HACK to work around OCTGN thread issue
 	card.moveToBottom(me.deck)
 	
 def displayCard(card, x=0, y=0):
@@ -979,10 +977,8 @@ def peekTop(card, x=0, y=0):
 	src = pile.top()
 	#Move the top card to a pile with full visibility
 	if lockPile(shared.piles['Internal']):
-		src.moveTo(shared.piles['Internal'])
-		sync() #HACK to work around OCTGN thread issue		
+		src.moveTo(shared.piles['Internal'])	
 		whisper("{} looks at '{}'".format(me, src))
-		sync() #HACK to work around OCTGN thread issue
 		src.moveTo(pile)
 		unlockPile(shared.piles['Internal'])
 
@@ -996,9 +992,7 @@ def peekTop2(card, x=0, y=0):
 			#Move the card to a pile with full visibility
 			i = src.getIndex
 			src.moveTo(shared.piles['Internal'])
-			sync() #HACK to work around OCTGN thread issue
 			whisper("{} looks at '{}'".format(me, src))
-			sync() #HACK to work around OCTGN thread issue
 			src.moveTo(pile, i)
 		unlockPile(shared.piles['Internal'])
 		
@@ -1126,6 +1120,13 @@ def rechargeRandom(group, x=0, y=0): # Discarded pile
 	card = group.random()
 	notify("{} recharges '{}'".format(me, card))
 	card.moveToBottom(me.deck)
+
+def buryRandom(group, x=0, y=0): # Discarded pile
+	mute()
+	if len(group) == 0: return
+	card = group.random()
+	notify("{} buries '{}'".format(me, card))
+	card.moveTo(me.Buried)
 	
 def returnToBlessingDeck(group, x=0, y=0): # Blessing Discard
 	mute()
@@ -1315,15 +1316,15 @@ def scenarioSetup(card):
 			hidden.random().moveTo(pile)
 		shuffle(pile)
 		index += 1
+	unlockPile(hidden)
 	
 	#Create the Blessing deck
 	src = shared.piles['Blessing']
 	dst = shared.piles['Blessing Deck']
 	while len(src) > 0 and len(dst) < 30:
 		src.random().moveTo(dst)		
-	
-	unlockPile(hidden)	
-	notify("{} starts the scenario '{}'".format(me, card))
+			
+	notify("{} starts '{}'".format(me, card))
 
 def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
