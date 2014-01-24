@@ -1127,6 +1127,13 @@ def buryRandom(group, x=0, y=0): # Discarded pile
 	card = group.random()
 	notify("{} buries '{}'".format(me, card))
 	card.moveTo(me.Buried)
+
+def discardRandom(group, x=0, y=0): # Hand
+	mute()
+	if len(group) == 0: return
+	card = group.random()
+	notify("{} discards '{}'".format(me, card))
+	card.moveTo(me.Discarded)
 	
 def returnToBlessingDeck(group, x=0, y=0): # Blessing Discard
 	mute()
@@ -1151,6 +1158,7 @@ def shufflePile(group, x=0, y=0): # Most piles use this
 #---------------------------------------------------------------------------
 
 def drawUp(group): # group == me.hand
+	mute()
 	handSize = getHandSize()
 	if len(group) > handSize:
 		notify("{} already has too many cards ({}), max {}".format(me, len(group), handSize))

@@ -113,7 +113,7 @@ def savePiles(name, sections, piles, getSection, isShared):
 					
 	unlockPile(internal)
 	dir = wd(name)
-	if 'GameDatbase' in dir:
+	if 'GameDatabase' in dir:
 		filename = dir.replace('GameDatabase','Decks').replace('d2e34ee4-b26b-4bcd-9709-1c45feb12d40','Pathfinder - Adventure Card Game')
 	else:
 		filename = "Decks\Pathfinder - Adventure Card Game".join(dir.rsplit('OCTGN',1))
