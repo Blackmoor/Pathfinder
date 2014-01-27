@@ -107,7 +107,7 @@ def savePiles(name, sections, piles, getSection, isShared):
 					continue
 				s = getSection(sections, card)					
 				if s is None:
-					whisper("Ignoring unknown card {}".format(card))
+					pass #whisper("Ignoring unknown card {}".format(card))
 				elif (card.name, card.model) in sections[s]:
 					sections[s][(card.name, card.model)] += 1
 				else:
