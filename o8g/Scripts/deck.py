@@ -93,13 +93,17 @@ def savePiles(name, sections, piles, getSection, isShared):
 		if len(p) > 0:
 			moveThem = p[0].Type == '?' # Do we have visibility of the cards in this pile
 			if moveThem:
+				controller = p.controller
+				if controller != me:
+					p.setController(me)
+					sync()
 				for card in p:
 					card.moveTo(internal)
 				pile = internal	
 			else:
 				pile = p
 			for card in pile:
-				if pile == table and card.Subtype == 'Blessing' and card.pile() is not None: #This is temporary copy of the top of the blessing deck and should be ignored
+				if pile == table and card.Subtype == 'Blessing' and card.pile() is not None: #This is a temporary copy of the top of the blessing deck and should be ignored
 					continue
 				s = getSection(sections, card)					
 				if s is None:
@@ -110,7 +114,8 @@ def savePiles(name, sections, piles, getSection, isShared):
 					sections[s][(card.name, card.model)] = 1
 				if moveThem:
 					card.moveTo(p)
-					
+			if moveThem and controller != me:
+				p.setController(controller)
 	unlockPile(internal)
 	dir = wd(name)
 	if 'GameDatabase' in dir:
