@@ -1228,10 +1228,12 @@ def playerSetup():
 	cardTypes = [ 'Weapon', 'Spell', 'Armor', 'Item', 'Ally', 'Blessing' ]
 	minC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
 	maxC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
+	custom = False
 	#Move Character Card to the table
 	for card in me.hand:
 		if card.Type == 'Character':
 			if card.Subtype != 'Token': # Extract information about the hand size and favoured card type
+				custom = card.name == 'Custom'
 				if len(card.Attr3) > 0:
 					favoured = card.Attr3
 					debug("Favoured = {}".format(favoured))
@@ -1278,9 +1280,8 @@ def playerSetup():
 	dist=""
 	for type in cardTypes:
 		dist = dist + "{}:{} ".format(type, counts[type])
-		if counts[type] > maxC[type]:
+		if counts[type] > maxC[type] and not custom:
 			notify("{} has more '{}' cards than allowed".format(me, type))
-			counts[type] = maxC[type]
 		if counts[type] < minC[type]:
 			whisper("You don't have enough '{}' cards in your deck. Found {}, expected {}".format(type, counts[type], minC[type]))
 		elif counts[type] > minC[type]:
