@@ -179,29 +179,36 @@ def inUse(pile):
 
 def rollDice(card): #Roll the dice based on the number of tokens
 	mute()
-	roll = 0
-	dice=""
+	rolled = 0
+	dice = ""
+	detail = ""
 	for die in [ d12, d10, d8, d6, d4 ]:
 		count = card.markers[die]
 		if count > 0:
-			dice = "{} + {}{}".format(dice, count, die[0])
+			dice += " + {}{}".format(count, die[0])
+			detail += " + ["
 			while count > 0:
-				roll += 1 + int(random() * num(die[0][1:]))
+				roll = 1 + int(random() * num(die[0][1:]))
+				detail ="{}{}{}".format(detail,roll,"+" if count > 1 else "]")
+				rolled += roll
 				count -= 1
 			card.markers[die] = 0
 	
 	if card.markers[plus] > 0:
-		roll += card.markers[plus]
+		rolled += card.markers[plus]
 		dice = "{} + {}".format(dice, card.markers[plus])
+		detail = "{} + {}".format(detail, card.markers[plus])
 		card.markers[plus] = 0
 	if card.markers[minus] > 0:
-		roll -= card.markers[minus]
+		rolled -= card.markers[minus]
 		dice = "{} - {}".format(dice, card.markers[minus])
+		detail = "{} - {}".format(detail, card.markers[minus])
 		card.markers[minus] = 0
 	
 	if len(dice) > 0:
 		playSound("dice")
-		notify("{} rolls {} on {} and gets {}".format(me, dice[3:], card, roll))
+		notify("{} rolls {} on {}".format(me, dice[3:], card))
+		notify("{} = {}".format(detail[3:], rolled))
 		return True
 	
 	return False
