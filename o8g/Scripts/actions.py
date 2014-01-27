@@ -362,6 +362,12 @@ def storeFavoured(f):
 
 def getFavoured():
 	return me.getGlobalVariable('Favoured')
+	
+def storeCards(s):
+	me.setGlobalVariable("Cards", s)
+	
+def getCards():
+	return me.getGlobalVariable("Cards")
 
 def lockInfo(pile):
 	if pile is None: return (None, 0)
@@ -380,7 +386,10 @@ def lockPile(pile):
 	if who != None and who != me.name:
 		whisper("{} has temporarily locked the game - please try again".format(who))
 		return False
-
+		
+	if pile.controller != me:
+		pile.setController(me)
+		sync()
 	setGlobalVariable(pile.name, "{} {}".format(me.name, count+1))
 	return True
 
@@ -737,12 +746,18 @@ def nextTurn(group=table, x=0, y=0):
 def randomHiddenCard(group=table, x=0, y=0):
 	pile, trait = cardTypePile()
 	if pile is None: return
-	randomCardN(pile, trait, x, y, 1, True)
+	if pile.controller != me:
+		remoteCall(pile.controller, "randomCardN", [me, pile, trait, x, y, 1, True])
+	else:
+		randomCardN(me, pile, trait, x, y, 1, True)
 	
 def randomCard(group=table, x=0, y=0):
 	pile, trait = cardTypePile()
 	if pile is None: return
-	randomCardN(pile, trait, x, y, 1)
+	if pile.controller != me:
+		remoteCall(pile.controller, "randomCardN", [me, pile, trait, x, y, 1])
+	else:
+		randomCardN(me, pile, trait, x, y, 1)
 
 def randomCards(group=table, x=0, y=0):
 	quantity = [ "One", "Two", "Three", "Four", "Five", "Six" ]
@@ -751,7 +766,10 @@ def randomCards(group=table, x=0, y=0):
 		return
 	pile, trait = cardTypePile()
 	if pile is None: return
-	randomCardN(pile, trait, x, y, choice)
+	if pile.controller != me:
+		remoteCall(pile.controller, "randomCardN", [me, pile, trait, x, y, choice])
+	else:
+		randomCardN(me, pile, trait, x, y, choice)
 
 def hasTrait(card, trait):
 	if card is None:
@@ -762,19 +780,19 @@ def hasTrait(card, trait):
 		return False
 	return trait in card.Traits.splitlines()
 	
-def randomCardN(pile, trait, x, y, n, hide=False):
+def randomCardN(who, pile, trait, x, y, n, hide=False):
+	mute()
+	if y > 0:
+		y -= 50
 	cards = [ c for c in pile if hasTrait(c, trait) ]
 	while n > 0 and len(cards) > 0:
 		card = cards[int(random()*len(cards))]
 		cards.remove(card)
-		if card.controller != me:
-			card.setController(me)
-		if y < 0:
-			card.moveToTable(x, y, hide or n > 1)
-		else:
-			card.moveToTable(x, y-card.height(), hide or n > 1)
+		card.moveToTable(x, y, hide or n > 1)
+		if who != me:
+			card.setController(who)
 		x = x + 10
-		n -= 1
+		n -= 1	
 
 def cardTypePile():
 	mute()
@@ -1200,13 +1218,22 @@ def playerSetup():
 	
 	handSize = 4
 	favoured = 'Your choice'
+	cardTypes = [ 'Weapon', 'Spell', 'Armor', 'Item', 'Ally', 'Blessing' ]
+	minC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
+	maxC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
 	#Move Character Card to the table
 	for card in me.hand:
 		if card.Type == 'Character':
 			if card.Subtype != 'Token': # Extract information about the hand size and favoured card type
 				if len(card.Attr3) > 0:
 					favoured = card.Attr3
-					debug("Favoured = {}".format(favoured))	
+					debug("Favoured = {}".format(favoured))
+				#Store Card counts
+				for line in card.Attr2.splitlines():
+					type, rest = line.split(':',1)
+					counts = rest.split()
+					minC[type] = num(counts[0])
+					maxC[type] = num(counts[len(counts)-1])
 				card.moveToTable(PlayerX(id), StoryY)
 				update()
 				flipCard(card)
@@ -1223,12 +1250,45 @@ def playerSetup():
 		if card.name[:9] == "Hand Size":
 			handSize = num(card.name[10:])
 			debug("HandSize override - {}".format(handSize))			
-		elif card.subtype == 'Favoured':
+		elif card.Subtype == 'Favoured':
 			favoured = card.name
 			debug("Favoured override - {}".format(favoured))
+		elif card.Subtype == 'Card':
+			type, count = card.name.split()
+			minC[type] = num(count)
 	
+	#Check loaded deck matches expected card distribution. Add missing Card feats if required
+	hexmap = [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' ]
+	counts = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
+	for c in me.Discarded:
+		if c.Subtype == 'Loot':
+			type = c.Subtype2
+		else:
+			type = c.Subtype
+		counts[type] += 1
+		
+	i = 0
+	dist=""
+	for type in cardTypes:
+		dist = dist + "{}:{} ".format(type, counts[type])
+		if counts[type] > maxC[type]:
+			notify("{} has more '{}' cards than allowed".format(me, type))
+			counts[type] = maxC[type]
+		if counts[type] < minC[type]:
+			whisper("You don't have enough '{}' cards in your deck. Found {}, expected {}".format(type, counts[type], minC[type]))
+		elif counts[type] > minC[type]:
+			whisper("You have more '{}' cards than expected - updating your card feat to {}".format(type, counts[type]))
+			#Delete the current card feat (if any)
+			for c in me.Buried:
+				if c.Type == 'Feat' and c.Subtype == 'Card' and type in card.name:
+					c.delete()
+			id = '7c5d69b1-b5ec-47f2-ba25-5a839291c3' + hexmap[i] + hexmap[counts[type]]
+			table.create(id, 0, 0, 1, True).moveTo(me.Buried)
+		i += 1	
+			
 	storeHandSize(handSize)
 	storeFavoured(favoured)
+	storeCards(dist)
 	eliminated(me, False)
 	debug("HandSize {}, Favoured type {}".format(handSize, favoured))
 	whisper("Drag avatar to your starting location once the scenario is set up")
@@ -1396,3 +1456,4 @@ def displayHand(who):
 		for c in me.Discarded:
 			if c.Subtype == type or (c.Subtype == 'Loot' and c.Subtype2 == type):
 				c.moveTo(me.hand)
+	whisper("Expected card distribution is {}".format(getCards()))
