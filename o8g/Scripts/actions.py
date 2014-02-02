@@ -510,32 +510,25 @@ def startOfTurn(player, turn):
 #
 def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
 	mute()
-	#Check to see if the current blessing card needs to change
 	bd = shared.piles['Blessing Discard']
-	bx = PlayerX(0)
-	by = StoryY
-	deleted = False
-	if fromGroup == bd or toGroup == bd: # The blessing discard pile changed
+	if fromGroup == bd or toGroup == bd or me.isActivePlayer: #Check to see if the current blessing card needs to change
+		bx = PlayerX(0)
+		by = StoryY	
+		bc = None #Temp blessing card	
 		for c in table:
 			if c.pile() == shared.piles['Blessing Deck']:
-				deleted = True # This card will be deleted by the controlling player
-				debug("{} finds blessing card to delete {}, controller by {}".format(me, c, c.controller))
 				bx, by = c.position
-				if c.controller == me:
-					c.link(None)
-					c.delete()
-				
-	if me.isActivePlayer: # The active player should create the current blessing card if required				
-		found = False
-		for c in table:
-			if c.pile() == shared.piles['Blessing Deck']:
-				found = True
+				if fromGroup == bd or toGroup == bd: # Tidy up the temp blessing card
+					if c.controller == me:
+						c.link(None)
+						c.delete()
+				else:
+					bc = c
 				break
-		
-		if len(bd) > 0 and (deleted or not found): # Create a copy of the top card
-			c = table.create(bd.top().model, bx, by)
-			c.link(shared.piles['Blessing Deck'])
-			debug("{} created new blessing card {}".format(me, c))
+					
+		if me.isActivePlayer and len(bd) > 0 and bc is None: # Create a copy of the top card
+			bc = table.create(bd.top().model, bx, by)
+			bc.link(shared.piles['Blessing Deck'])
 
 	#Check to see if we moved our avatar to the table
 	if player == me and card.Type == 'Character' and card.Subtype == 'Token' and fromGroup != table and toGroup == table:
@@ -999,40 +992,28 @@ def peekTop(card, x=0, y=0):
 	pile = card.pile()
 	if pile is None or len(pile) == 0: return
 	notify("{} looks at the top card of the '{}' deck".format(me, card))
-	src = pile.top()
-	#Move the top card to a pile with full visibility
-	if lockPile(shared.piles['Internal']):
-		src.moveTo(shared.piles['Internal'])	
-		whisper("{} looks at '{}'".format(me, src))
-		src.moveTo(pile)
-		unlockPile(shared.piles['Internal'])
+	pile.loolAt(1)
 
 def peekTop2(card, x=0, y=0):
 	mute()
 	pile = card.pile()
 	if pile is None: return
 	notify("{} looks at the top 2 cards of the '{}' deck".format(me, card))
-	if lockPile(shared.piles['Internal']):
-		for src in pile.top(2):
-			#Move the card to a pile with full visibility
-			i = src.getIndex
-			src.moveTo(shared.piles['Internal'])
-			whisper("{} looks at '{}'".format(me, src))
-			src.moveTo(pile, i)
-		unlockPile(shared.piles['Internal'])
+	pile.lookAt(2)
+
+def peekBottom3(card, x=0, y=0):
+	mute()
+	pile = card.pile()
+	if pile is None: return
+	notify("{} looks at the bottom 3 cards of the '{}' deck".format(me, card))
+	pile.lookAt(3, False)
 		
 def peekBottom(card, x=0, y=0):
 	mute()
 	pile = card.pile()
 	if pile is None: return
 	notify("{} looks at the bottom card of the '{}' deck".format(me, card))
-	src = pile.bottom()
-	#Move the top card to a pile with full visibility
-	if lockPile(shared.piles['Internal']):
-		src.moveTo(shared.piles['Internal'])
-		whisper("{} looks at '{}'".format(me, src))
-		src.moveToBottom(pile)
-		unlockPile(shared.piles['Internal'])
+	pile.lookAt(1, False)
 
 def pileMoveTB(card, x=0, y=0):
 	mute()
