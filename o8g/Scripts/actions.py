@@ -992,7 +992,7 @@ def peekTop(card, x=0, y=0):
 	pile = card.pile()
 	if pile is None or len(pile) == 0: return
 	notify("{} looks at the top card of the '{}' deck".format(me, card))
-	pile.loolAt(1)
+	pile.lookAt(1)
 
 def peekTop2(card, x=0, y=0):
 	mute()
