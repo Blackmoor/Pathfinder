@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.2">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.3">
  <cards>
    <card id="0edac356-1fba-42b6-bed1-9f43828c1041" name="Ambush">
     <property name="Abr" value="B" />
@@ -2618,7 +2618,7 @@
     <property name="Attr1" value="If a monster's power causes you to recharge one or more cards, do so, then draw the same number of cards." />
     <property name="Attr2" value="Jubrayl Vhiski" />
     <property name="Attr3" value="Bandits" />
-    <property name="Attr4" value="Each character draws a random item from the box" />
+    <property name="Attr4" value="Each character draws a random item from the box." />
    </alternate>
    </card>
    <card id="c7ec89d9-9c73-4fbf-bbf2-d4529101fa0f" name="The Poison Pill">
@@ -2638,7 +2638,7 @@
     <property name="Attr1" value="Add 2 to your checks to acquire allies." />
     <property name="Attr2" value="Pillbug Podicker" />
     <property name="Attr3" value="Poison Traps" />
-    <property name="Attr4" value="Each character draws a random weapon from the box" />
+    <property name="Attr4" value="Each character draws a random weapon from the box." />
    </alternate>
    </card>
  </cards>

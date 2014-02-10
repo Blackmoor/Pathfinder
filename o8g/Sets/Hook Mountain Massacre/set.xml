@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.4">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.5">
  <cards>
    <card id="8d3f16a4-b991-4728-a65d-54a63c887010" name="Cryptic Message">
     <property name="Abr" value="3" />
@@ -562,7 +562,7 @@
     <property name="Attr4" value="Wisdom&#10;Divine" />
     <property name="Attr5" value="6" />
     <property name="Attr6" value="OR" />
-    <property name="Recharge" value="Succeed at and Arcane or Divine 10 check to recharge this card instead of discarding it." />
+    <property name="Recharge" value="Succeed at an Arcane or Divine 10 check to recharge this card instead of discarding it." />
    </card>
    <card id="0b45133d-f1d8-4298-a247-658a0e568a16" name="Frost Longbow +1">
     <property name="Abr" value="3" />

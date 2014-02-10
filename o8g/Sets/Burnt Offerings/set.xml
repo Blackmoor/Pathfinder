@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.1">
  <cards>
    <card id="9161cc3d-94d0-4399-88ae-3ae61e39a79c" name="Goblin Raid">
     <property name="Abr" value="1" />
@@ -772,7 +772,7 @@
     <property name="Attr1" value="If you defeat a monster with the Goblin trait, roll 1d6. On a 1, each character at your location takes 1 Fire damage." />
     <property name="Attr2" value="Ripnugget and Stickfoot" />
     <property name="Attr3" value="Tsuto Kaikitsu&#10;Goblin Raiders" />
-    <property name="Attr4" value="Each character gains a skill feat" />
+    <property name="Attr4" value="Each character gains a skill feat." />
    </alternate>
    </card>
    <card id="96d6b7eb-bb39-48a7-ab35-f624dfd8cef8" name="Local Heroes">
@@ -792,7 +792,7 @@
     <property name="Attr1" value="If you acquire an ally, you may immediately to close your location. If you fail to acquire an ally, discard the top card of blessings deck.&#10;&#10;To win this scenario, close all locations." />
     <property name="Attr2" value="None" />
     <property name="Attr3" value="1 Random Ally per location" />
-    <property name="Attr4" value="Each character draws a random ally from the box" />
+    <property name="Attr4" value="Each character draws a random ally from the box." />
    </alternate>
    </card>
    <card id="50cb1b70-bb25-4da5-9b7a-459197016732" name="Thistletop Delve">
@@ -832,7 +832,7 @@
     <property name="Attr1" value="After a character encounters a Wrathful Sinspawn henchman, roll 1d6. On a 1, discard the top card of the blessings deck." />
     <property name="Attr2" value="Erylium" />
     <property name="Attr3" value="Koruvus&#10;Wrathful Sinspawns" />
-    <property name="Attr4" value="Each character gains a power feat" />
+    <property name="Attr4" value="Each character gains a power feat." />
    </alternate>
    </card>
  </cards>
