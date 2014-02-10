@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortress of the Stone Giants" id="f833b378-6eaf-42e5-bcae-cbffc52ece7a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.0.0.1">
+ <cards>
+   <card id="43a49435-2cb5-4b33-8345-32be734fd2eb" name="Arcane Lock">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Lock&#10;Magic&#10;Arcane" />
+    <property name="Attr1" value="If defeated, examine the top card of the location deck, then put it on either the top or bottom of the deck." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="13" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="26" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="2eac592e-daeb-400f-af82-471076f123d7" name="Circles of Binding">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Obstacle" />
+    <property name="Attr1" value="If undefeated, examine the location deck until you find a monster; set it and this card aside. Shuffle the deck, put this card on top of it, then put the monster on top of this card.&#10;&#10;If you did not find a monster, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="aa6b8d3d-7e0f-49b4-b7be-8d472e41bacd" name="Invasion Plans">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Cache" />
+    <property name="Attr1" value="If defeated, you may examine the top 3 cards of the location deck and return them in any order.&#10;&#10;If undefeated, you may banish this barrier." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="fda9a875-5660-4c52-92d2-24a5b1652ac4" name="Reduction Field">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Trap&#10;Magic&#10;Arcane" />
+    <property name="Attr1" value="If undefeated, leave this card faceup next to the location deck. While it is there, the difficulty of Strength and Melee check at this location is increased by 4. Any character ending her turn at this location may attempt an Arcane or Divine 12 check to banish this card." />
+    <property name="Attr2" value="Constitution&#10;Fortitude&#10;Dexterity&#10;Disable" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="e205f542-d4d3-4ed0-bfd1-4c0cee94b4d6" name="Cinderma">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant" />
+    <property name="Attr1" value="Before the encounter, Cinderma deals 1d4-1 Ranged Combat damage to you.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="29f1e851-430e-4749-9583-bd628604f44b" name="Enga Keckvia">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Kobold&#10;Barbarian" />
+    <property name="Attr1" value="If undefeated, shuffle this location deck and put Enga Keckvia on top.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+   </card>
+   <card id="726e17ca-a91a-46c7-9c6d-1ea78c74b1c8" name="Forgefiend">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Outsider" />
+    <property name="Attr1" value="If your check to defeat the Forgefiend uses the Melee trait, after the encounter the Forgefiend deals 1d4-1 Fire damage to you.&#10;&#10;Damage dealt by the Forgefiend may not be reduced.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+   </card>
+   <card id="a7540c22-4e10-4b8c-9f10-3a96e9d7a677" name="Harpy Monk">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Harpy&#10;Monk" />
+    <property name="Attr1" value="Before the encounter, each character must succeed at a Wisdom 8 check or he may not play weapons or spells and, if at another location, he moves to this location.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="14" />
+   </card>
+   <card id="dda33ce8-7d95-40de-8d1e-c518256b46e3" name="Headless Lord">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant&#10;Ogre&#10;Undead&#10;Fighter" />
+    <property name="Attr1" value="The Headless Lord is immune to the Mental and Poison traits.&#10;&#10;Before you encounter the Headless Lord, each other character at your location summons and encounters an Ancient Skeleton henchman; the difficulty to defeat the Skeletons is increased by 6.&#10;&#10;If defeated, you may add a random armor from the box to your hand, and you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="f4d043fd-4fb2-40b0-bd3b-c67043ae86d2" name="Hill Giant Runeslave">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant" />
+    <property name="Attr1" value="Damage dealt by the Hill Giant is dealt to each character at this location.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="15" />
+   </card>
+   <card id="45113fac-8b82-45b2-bb3d-0372b02a9ab9" name="Jorgenfist Stone Giant">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant" />
+    <property name="Attr1" value="Damage Dealt by the Stone Giant is dealt to each creature at this location.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="33e69f92-873e-4974-8fe1-6e0106131548" name="Lokansir">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant" />
+    <property name="Attr1" value="Before the encounter, succeed at an Arcane or Divine 10 check or you may not play spells with the Attack trait.&#10;&#10;If undefeated, after damage is dealt, each character at this location recharges a random card from her hand, put Lokansir on the bottom of this location deck.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="d6898274-a746-4a07-b32f-86bb8953995f" name="Longtooth">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Dragon" />
+    <property name="Attr1" value="Before the encounter, each character at this location attempts a Dexterity or Acrobatics 9 check. Characters who succeed are dealt 1 Fire damage; Characters who fail are dealt 1d4 Fire damage.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="15" />
+   </card>
+   <card id="bf50518d-59af-456e-a3b8-b6b60376cc2c" name="Tyrant Troll">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant&#10;Troll" />
+    <property name="Attr1" value="Damage dealt by the Tyrant Troll is increased by 2.&#10;&#10;Add 1d8 to check to defeat the Tyrant Troll using the Fire trait. If the check to defeat does not have either the Fire or Acid trait, the Tyrant Troll is undefeated.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="15" />
+   </card>
+   <card id="2b74385c-ff5d-4fd4-b9c3-f3a4b8de7d0c" name="Cave Bear">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal" />
+    <property name="Attr1" value="Damage dealt by the Cave Bear is increased by 1d4-1." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="d7ec82e9-178d-4b36-b72d-b3855873bcf6" name="Deathweb">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Undead" />
+    <property name="Attr1" value="The Deathweb is immune to the Mental and Poison traits.&#10;&#10;Before the encounter, the Deathweb deals 1 point of Combat damage to each character at this location.&#10;&#10;If undefeated, the Deathweb deals 1 point of Poison damage to each character at this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="14" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="1ee87865-1a64-4b76-a23e-bddbd7b60fc1" name="Ghoul Bat">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Undead" />
+    <property name="Attr1" value="Bury any card with the Magic trait during this encounter, unless that card would be banished." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+   </card>
+   <card id="b5ecd19e-7ab6-4b13-aae8-4a05022bf471" name="Harpy">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Harpy" />
+    <property name="Attr1" value="Before the encounter, each character attempts a Wisdom 8 check; characters who fail may not play weapons or spells in this enounter and, if at another location, must move to this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="14" />
+   </card>
+   <card id="8c2b1a21-431c-4abb-913a-6bb6ebd898c3" name="Hill Giant">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Giant" />
+    <property name="Attr1" value="Damage dealt by the Hill Giant is dealt to each character at this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="15" />
+   </card>
+   <card id="14a905a1-cc99-4ede-952f-4a2618a8094e" name="Mammoth">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal" />
+    <property name="Attr1" value="If undefeated, instead of the normal damage, the Mammoth deals 1d4 Combat damage to each character at this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="69d43160-b58f-4a18-ae95-024fb1dfa9d3" name="Redcap">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Fey" />
+    <property name="Attr1" value="If undefeated, shuffle the Redcap into a random open location deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="12" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="d14585a2-8261-432e-9cb4-a3d86a6be775" name="Roc">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal" />
+    <property name="Attr1" value="If undefeated, move to a random open location and shuffle the Roc into that deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+   </card>
+   <card id="ef9f6da8-7b4d-4b34-8038-36649f5c1b4d" name="Shining Child">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Outsider" />
+    <property name="Attr1" value="The Shining Child is immune to the Fire and Poison traits.&#10;&#10;All damage dealt by the Shining Child is Fire damage." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="20" />
+   </card>
+   <card id="30a1cdc6-d3f2-41ea-9772-cd5b6c71a020" name="Stone Giant">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Giant" />
+    <property name="Attr1" value="Damage Dealt by the Stone Giant is dealt to each creature at this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="52f38f5f-9d32-42e0-8782-97a86dc10433" name="Troll">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Giant&#10;Troll&#10;Fighter" />
+    <property name="Attr1" value="Add 1d8 to checks to defeat the Troll with the Fire trait. If the check to defeat does not have either the Fire or Acid trait, the Troll is undefeated." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="18" />
+   </card>
+   <card id="fb1abe27-181e-413a-99dc-cca71cd13cf8" name="Wyvern">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Dragon" />
+    <property name="Attr1" value="If undefeated, succeed at a Constitution or Fortitude 8 check or damage from Wyvern may not be reduced." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="324c6e14-517e-45d5-935c-ee13ecd5dcc3" name="Galenmir">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant&#10;Fighter" />
+    <property name="Flavour" value="&quot;We are not the children of dirt or of sand; we are the children of stone, and like the mighty mountain we will roar until even great Minderhal hears our thunder.&quot; - General Galenmir" />
+    <property name="Attr1" value="Before the encounter, Galenmir deals 1d4-1 Ranged Combat damage to each character at this location.&#10;&#10;Damage dealt by Galenmir is dealt to each character at this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="23" />
+   </card>
+   <card id="86fa24df-8115-4b40-87ea-b6460d9d0ebd" name="Mokmurian">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant&#10;Transmuter" />
+    <property name="Attr1" value="Before the encounter, attempt a Constitution or Fortitude 8 check. If you succeed, bury 1 card from your hand; if you fail, bury 1d6 cards from your hand and reset your hand.&#10;&#10;If your check to defeat Mokmurian has the Fire trait, subtract 1 from each die rolled.&#10;&#10;Damage dealt by Mokmurian is dealt to each character at this location, and may not be reduced." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="20" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="24" />
+    <property name="Attr6" value="THEN" />
+   </card>
+   <card id="c97a7673-e41d-4d1f-82b8-2d155b569dc6" name="Seleval">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Lamia&#10;Cleric" />
+    <property name="Flavour" value="&quot;Do you smell something, dear sister? Something that doesn't reek like sweat and rock salt?&quot; - Seleval to Zaelsar" />
+    <property name="Attr1" value="After the encounter, if Seleval dealt damage to you, bury 1d4 random cards from your discard pile." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="21" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="16" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="5a626e48-0ad9-4f0a-95bb-16ab844003ca" name="Teraktinus">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Giant&#10;Ranger" />
+    <property name="Flavour" value="&quot;You greedy little things crawl all over the fields and forests while we scrape what we can from the old fires and dust. It's time you learned the taste of ashes.&quot; - Raider Teraktinus" />
+    <property name="Attr1" value="Before the encounter, Teraktinus deals 1d4-1 Ranged Combat damage to you.&#10;&#10;Damage dealt by Teraktinus is dealt to each character at this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="18" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="22" />
+    <property name="Attr6" value="THEN" />
+   </card>
+   <card id="fb95250c-29bb-4d39-b93c-6b5f74a9b550" name="The Black Monk">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Undead&#10;Mummy&#10;Monk" />
+    <property name="Attr1" value="The Black Monk is immune to the Mental and Poison traits.&#10;&#10;Before the encounter, each character at this location must succeed at a Constitution or Fortitude 12 check or the difficulty of that character's checks this turn is increased by 4.&#10;&#10;If undefeated, after the encounter, bury your discard pile." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="20" />
+   </card>
+   <card id="a9369164-fb8f-4d1e-a2da-b124cf8ab6d8" name="Zaelsar">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Lamia&#10;Cleric" />
+    <property name="Flavour" value="&quot;Even a bite of the stringiest fool would be better than another whole feast of gritty giant, dear sister.&quot; - Zaelsar to Seleval" />
+    <property name="Attr1" value="After the encounter, if Zaelsar dealt damage to you, bury 1d4 random cards from your discard pile." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="21" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="16" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="188cf45d-2ad9-427c-b5e9-3d434a19949f" name="Bear">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal" />
+    <property name="Attr1" value="Discard this card to add 2d4 to your combat check.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="11" />
+   </card>
+   <card id="eb922d8f-90b6-4a6a-ae50-08ab1082c1ea" name="Charmed Red Dragon">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Dragon" />
+    <property name="Attr1" value="Recharge this card to add 5 with the Fire trait to a combat check. Then, roll 1d12. On a 1, banish this card and each character at your location takes 1d4 Fire damage.&#10;&#10;If you do not acquire this card, each character at your location takes 1d4 Fire damage." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Arcane&#10;Divine" />
+    <property name="Attr3" value="12" />
+   </card>
+   <card id="f0ee2a0d-73db-4a92-af74-bf16f262e83d" name="Clockwork Librarian">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Automaton" />
+    <property name="Attr1" value="Recharge this card to add 2d8 to your Intelligence or Knowledge check.&#10;&#10;Recharge this card to succeed at your check to acquire a spell." />
+    <property name="Attr2" value="Intelligence&#10;Knowledge" />
+    <property name="Attr3" value="11" />
+   </card>
+   <card id="6620fb6a-ecd0-43f1-b4a7-ea83bd98215d" name="Conna the Wise">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Giant&#10;Sorcerer" />
+    <property name="Attr1" value="Banish this card to examine the top 3 cards of a location deck.&#10;&#10;Banish this card to move to another location and explore it." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="9" />
+   </card>
+   <card id="a51d717a-41d7-4f54-9c6c-e002ce8f6053" name="Eagle">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal" />
+    <property name="Attr1" value="Place this card on top of your deck to examine the top card of a location deck." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="9" />
+   </card>
+   <card id="28d2f4d3-51e6-401b-989e-908ea55af06e" name="Lizard">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal&#10;Arcane" />
+    <property name="Attr1" value="Discard this card to succeed at your Stealth or Survival check.&#10;&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Survival" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="acb27c78-4e97-4954-86a5-2f98b99190dd" name="Breastplate of Fire Resistance">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Heavy Armor&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to reduce Combat or Fire damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="50065e92-92d8-4514-9df3-bf8aa8b512da" name="Chainmail of Cold Resistance">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Heavy Armor&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to reduce Combat or Cold damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="79a3e27e-edb5-4d45-94c0-8a0bf4289c9f" name="Lesser Bolstering Armor">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2. You may draw a card.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="1a8410b5-cfdf-4ecf-8315-b4d2be291f08" name="Reflecting Shield">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Shield&#10;Offhand&#10;Magic" />
+    <property name="Attr1" value="If you played a weapon with the 2-Handed trait on this check, you may not play this card.&#10;Reveal this card to reduce Acid, Cold, Combat, Electricity or Fire damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="a6be7b44-24ab-426c-aeac-9e9da8fc757c" name="Blessing of Gozreh">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Gozreh" />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check to close a location.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+    <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
+   </card>
+   <card id="f6a68bff-cec5-4b41-a56f-c9ce6c989f0e" name="Amulet of Fiery Fists">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to add 1d8 with the Fire and Magic traits to your combat check; you may not play a spell with the Attack trait or a weapon on this check." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Intelligence&#10;Arcane" />
+    <property name="Attr5" value="9" />
+    <property name="Attr6" value="OR" />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="eefbad64-a91c-42a8-9f31-89bf7ef039d7" name="Bracers of Greater Protection">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 3." />
+    <property name="Attr2" value="Wisdom&#10;Survival&#10;Constitution&#10;Fortitude" />
+    <property name="Attr3" value="5" />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="54c6227b-f8b6-4ed7-b079-3187ec0eff95" name="Greater Luckstone">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
+    <property name="Attr1" value="Discard this card to add 2 to your check.&#10;If you would fail a check by 2, you may bury this card to succeed." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="5" />
+    <property name="Recharge" value="Succeed at a Wisdom or Survival 9 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="66dde0ea-10bb-4e03-a80e-2b538d65efe8" name="Headband of Inspired Wisdom">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to add 2 to your Wisdom check. You may play another item on this check." />
+    <property name="Attr2" value="Wisdom" />
+    <property name="Attr3" value="7" />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="38ac168d-f610-4aaa-b7ae-4515c1e2c248" name="Magic Spyglass">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to add 1 die to a Perception check.&#10;Discard this card to examine the top 3 cards of your location and put them back in any order." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="8" />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="d1c22502-c697-465d-bfec-20e422635145" name="Necklace of Fireballs">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic&#10;Attack" />
+    <property name="Attr1" value="For your combat check, banish this card to roll 3d6+12 with the fire trait." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="9" />
+    <property name="Recharge" value="Succeed at an Arcane 9 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="be7f4117-d6b3-4a91-aa1d-956c1850550b" name="Staff of Heaven and Earth">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Staff&#10;Magic" />
+    <property name="Attr1" value="Recharge this card and discard a spell to defeat a barrier.&#10;Recharge this card and discard a spell to add 1d4 to a combat check at your location." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="8" />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="b6b40da4-5187-4fa6-b667-0cc56b8ac57a" name="Emerald Codex">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Item" />
+    <property name="Traits" value="Book&#10;Magic" />
+    <property name="Attr1" value="Banish this card to add 3 random Divine spells from the box to your hand. You may instead bury this card to place the spells faceup next to your character card, you may banish any of these cards for its effect as though you had played it as a spell. Banish any that remain at the end of the scenarion." />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="5cc05dc5-f628-402c-a0bf-adb09a530999" name="Mokmurian's Club">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Weapon" />
+    <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die +1d10+2; you may additionally discard one other card from your hand to add another 1d10. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you defeat a monster while playing this weapon, recharge a random card from your discard pile." />
+   </card>
+   <card id="c7ea2d2e-93bf-452f-a717-040f07151c37" name="Robe of Runes">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Item" />
+    <property name="Traits" value="Clothing&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to add 2 to your Intelligence check. You may play another item on this check.&#10;&#10;Recharge this card to add a spell of your choice from your discard pile to your hand." />
+   </card>
+   <card id="d129d88e-929f-4f7c-b972-f4c138e1620c" name="Mass Cure">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine&#10;Healing" />
+    <property name="Attr1" value="Reveal this card and choose another character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck, and 1d4+1 random cards from your own discard pile into your deck, then discard this card.&#10;If you do not have the Divine skill, banish this card." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="12" />
+    <property name="Recharge" value="Succeed at a Divine 14 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="a5ead080-e354-4ad2-8633-03f419f6d521" name="Poison Blast">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Poison" />
+    <property name="Attr1" value="For your combat check, discard this card to roll your Arcane die + 2d12 with the Poison trait.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="12" />
+    <property name="Recharge" value="Succeed at an Arcane 14 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="cdb4ae77-798a-4d76-bab7-82d794129b35" name="Restoration">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine" />
+    <property name="Attr1" value="Discard this card and choose a character at your location to add the top 2 cards of his deck to his hand. You may not play this card during an encounter&#10;If you do not have the Divine skill, banish this card." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="12" />
+    <property name="Recharge" value="Succeed at a Divine 14 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="42070a18-cf64-4427-80b7-d1f622e8fd21" name="Teleport">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane" />
+    <property name="Attr1" value="At the end of a player's turn, discard this card to move yourself and any number of willing characters at your location to a location of your choice. Ignore any movement restrictions.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="12" />
+    <property name="Recharge" value="Succeed at an Arcane 14 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="d38c858e-5bef-4f6f-a553-62da6c7d38db" name="Giantbane Dagger +1">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d4+1; you may additionally recharge this card to add another 1d4, or 3d4 against a bane with the Giant trait.&#10;When playing another weapon, you may discard this card to add 1d4+1 to the combat check." />
+   </card>
+   <card id="1c117e87-50ec-4d60-a98d-d9dfe4f2bfd7" name="Greatclub +3">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+3; you may additionally discard this card to add your unmodified Strength die. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+   </card>
+   <card id="ef5ffd72-18b1-4160-97e5-d6bc40ee47b0" name="Runechill Hatchet +2">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Axe&#10;Ranged&#10;Slashing&#10;2-Handed&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d8+2; you may additionally discard this card to add another 2d6 with the Cold trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+   </card>
+   <card id="f38388b9-d369-47c0-ab30-9f2c20873eaa" name="Shortspear +3">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Spear&#10;Melee&#10;Piercing&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d6+3; you may additionally discard this card to add another 1d12." />
+   </card>
+   <card id="6ef035da-becf-416a-b8e4-3ec415a0c34a" name="Courtyard">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 3&#10;Barrier 0&#10;Weapon 2&#10;Spell 0&#10;Armor 2&#10;Item 2&#10;Ally 0&#10;Blessing 0" />
+    <property name="Attr2" value="Before any combat here, each character at this location must succeed at a Dexterity or Acrobatics 8 check or take 1d4 Combat damage." />
+    <property name="Attr3" value="Succeed at a Dexterity or Acrobatics 10 check." />
+    <property name="Attr4" value="No effect." />
+   <alternate name="Courtyard" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="A large area of hard packed earth stands exposed to the harsh weather. The passing of many different animals, dozens of public gatherings, and the occasional scuffle have all made thier marks, leaving hoofprints, divots and loose stones scattered around the unkempt plaza." />
+   </alternate>
+   </card>
+   <card id="e1b8aaaf-1949-4a6d-8dff-576c7063ae59" name="Giant Lair">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 4&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 1" />
+    <property name="Attr2" value="The difficulty to defeat monsters with the Giant trait is increased by 2." />
+    <property name="Attr3" value="Succeed at a Strength or Melee 10 check." />
+    <property name="Attr4" value="For the rest of the scenario, the difficulty to defeatt monsters with the Giant trait at any location is decreased by 2." />
+   <alternate name="Giant Lair" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="The earthen floor of this low-ceilinged room is stained with blood and mold. It contains a lumpy mattress and a variety of oversized trophies, all sized for a giant." />
+    <property name="Attr4" value="For the rest of the scenario, the difficulty to defeatt monsters with the Giant trait at any location is decreased by 2." />
+   </alternate>
+   </card>
+   <card id="62e258e3-e038-41a7-b329-b97d14309ab3" name="Scarnetti Manor">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 2&#10;Barrier 0&#10;Weapon 1&#10;Spell 0&#10;Armor 2&#10;Item 3&#10;Ally 1&#10;Blessing 0" />
+    <property name="Attr2" value="When you encounter a boon, bury a boon from your hand or banish the card you encountered." />
+    <property name="Attr3" value="Succeed at a Charisma or Diplomacy 10 check." />
+    <property name="Attr4" value="On closing, add 1d6 random items to this location without looking at them, then automatically acquire the top card." />
+   <alternate name="Scarnetti Manor" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="This gracious and noble manor is home to Sandpoint's most traditional family, the Scarnettis, who are willing to trade with just about anyone. As one of the grandest and well-appointed houses in town, the estatee makes a tempting target for any who seek to pilfer Sandpoint's treasures, whether they be housebreakers or invaders." />
+   </alternate>
+   </card>
+   <card id="4ebc1837-dc1c-496a-8c68-f45bfcbd69c5" name="Thassilonian Library">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 3&#10;Armor 0&#10;Item 0&#10;Ally 1&#10;Blessing 2" />
+    <property name="Attr2" value="If you acquire a spell, reset your hand and end your turn." />
+    <property name="Attr3" value="Banish a spell." />
+    <property name="Attr4" value="No effect." />
+   <alternate name="Thassilonian Library" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Spiraling stairs descend into the depths, revealing a chamber in which all the hard edges have been polished away by the passage of ages and countless slippered feet. Grim statues of unspeakable being glare down from the heights of towering bookshelves lined with books, scrolls, tablets, and stray parchments covered in a mind-bending range of forgotten languages." />
+   </alternate>
+   </card>
+   <card id="bce39abe-1a86-4271-ba77-47eb915705f1" name="Fortress of the Stone Giants">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The giants are on the march! The stone giants of Jorgenfist and their red dragon ally have invaded Sandpoint. To save the town, its heroes must drive off the titanic invaders and pursue the survivors back to their rugged stronghold. Amidthe mighty towers of Jorgenfist lurkforgotten evils and secrets of dark arcana. Inthe deepest halls schemes the stone giant Mokmurian, a power-hungry magician pursuing the secrets of sin magic and plotting to restore the ancient evil empire of Thassilon." />
+   <alternate name="Fortress of the Stone Giants" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Sandpoint Under Siege&#10;Jorgenfist&#10;The Black Tower&#10;Under Jorgenfist&#10;The Ancient Library" />
+    <property name="Attr2" value="Each character gains a card feat" />
+   </alternate>
+   </card>
+   <card id="c87fe0a2-18a5-4f7d-83ca-e719e6c83eef" name="Jorgenfist">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Sandpoint is safe for now, but the stone giant threat hasn't ended. Pursuing the massive marauders back to their fortress of Jorgenfist reveals nearly endless armies of giant soldiers. Sneak into the fort and strike down the stone giant general, Galenmir, to put an end to the threat!" />
+    <property name="Attr1" value="Mountain Peak&#10;Giant Lair&#10;Treacherous Cave&#10;Guard Tower&#10;Courtyard&#10;Prison&#10;Garrison&#10;City Gate" />
+   <alternate name="Jorgenfist" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="If you would defeat a monster with the Giant trait, roll 1d6. On a 1, the monster is undefeated." />
+    <property name="Attr2" value="Galenmir" />
+    <property name="Attr3" value="Longtooth&#10;Cinderma&#10;Jorgenfist Stone Giants" />
+    <property name="Attr4" value="Each character gains a card feat," />
+   </alternate>
+   </card>
+   <card id="16a6eda8-e403-4fe3-b054-a8467c73f36d" name="Sandpoint Under Siege">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Stone giants have invaded Sandpoint, overwhelming the town's defenses and sending its people into a panic! Prevent the giants and their terrible red dragon ally, Longtooth, from pillaging the community, and slay their vicious leader, battle-hungry Teraktinus." />
+    <property name="Attr1" value="Sandpoint Cathedral&#10;City Gate&#10;Scarnetti Manor&#10;The Old Light&#10;Wooden Bridge&#10;Waterfront&#10;Town Square&#10;Courtyard" />
+   <alternate name="Sandpoint Under Siege" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Start the blessings deck with 25 cards.&#10;&#10;After you advance the blessings deck at the start of each turn, randomly select an open location and reveal the top card. If it's a boon, banish it; if it's a bane, shuffle it back in the location deck." />
+    <property name="Attr2" value="Teraktinus" />
+    <property name="Attr3" value="Longtooth&#10;Jorgenfist Stone Giants" />
+    <property name="Attr4" value="Each character gains a power feat." />
+   </alternate>
+   </card>
+   <card id="5f4a953a-92c8-4cbd-96d2-7694ea01d1ea" name="The Ancient Library">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="A vast Thassilonian library has lain hidden beneath Jorgenfist for ages. The stone giant Mokmurian has used its ancient magic to turn his people down down the path of evil. Face the necromantic magic of this giant warlord and put an end to his foul plots!" />
+    <property name="Attr1" value="Thassilonian Library&#10;Thassilonian Dungeon&#10;Giant Lair&#10;Treacherous Cave&#10;Prison&#10;Deeper Dungeons&#10;Shrine to Lamashtu&#10;Temple" />
+   <alternate name="The Ancient Library" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="All Hill Giant Runeslave henchmen gain the Undead and Zombie traits and are immune to the Mental and Poison traits.&#10;&#10;If you defeat a henchman but do not close the location, shuffle the henchman back into the location deck." />
+    <property name="Attr2" value="Mokmurian" />
+    <property name="Attr3" value="Headless Lord&#10;Forgefiend&#10;Hill Giant Runeslaves" />
+    <property name="Attr4" value="Loot: Mokmurian's Club, Robe of Runes" />
+   </alternate>
+   </card>
+   <card id="fd287804-ae79-4a13-b276-0948af2ec63e" name="The Black Tower">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="A strange black tower of ancient and mysterious design rises from the heart of Jorgenfist. Within its ancient walls lie the remnants of a strange magical empire. Drive off the harpies roosting in the tower and claim the timeless Emerald Codex from its undying keeper!" />
+    <property name="Attr1" value="Courtyard&#10;Guard Tower&#10;Throne Room&#10;Mountain Peak&#10;City Gate&#10;Temple&#10;Academy&#10;Deeper Dungeons" />
+   <alternate name="The Black Tower" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Deal an extra spell into each location deck at the start of the scenario.&#10;&#10;The difficulty to defeat monsters with the Harpy trait is increased by 2.&#10;&#10;After you acquire a spell, bury a card from your hand." />
+    <property name="Attr2" value="The Black Monk" />
+    <property name="Attr3" value="Harpy Monks" />
+    <property name="Attr4" value="Loot: Emerald Codex" />
+   </alternate>
+   </card>
+   <card id="7fe8b413-b96d-41f4-b632-425efba722d3" name="Under Jorgenfist">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="More dark secrets lie beneath the stones of Jorgenfist. Among them are remnants of a strange fallen civilization called Thassilon. Defeat the life-twisting mistresses of these dungeons, the lamias Selval and Zaelsar, to learn more Thassilon's secrets!" />
+    <property name="Attr1" value="Thassilonian Dungeon&#10;Giant Lair&#10;Desecrated Vault&#10;Garrison&#10;Mountain Peak&#10;Warrnes&#10;Deeper Dungeons&#10;Guard Tower" />
+   <alternate name="Under Jorgenfist" type="B">
+    <property name="Abr" value="4" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You must defeat both villains to win this scenario. After you defeat the first villain, do not check to see if it escapes; instead, place it next to this scenario card. When the second villain is defeated and would not escape, banish it, then put the first villain on the top of the current location deck and choose a character at that location to immediately encounter it." />
+    <property name="Attr2" value="Seleval&#10;Zaelsar" />
+    <property name="Attr3" value="Enga Keckvia&#10;Lokansir&#10;Tyrant Trolls" />
+    <property name="Attr4" value="Each character gains a skill feat." />
+   </alternate>
+   </card>
+ </cards>
+</set>

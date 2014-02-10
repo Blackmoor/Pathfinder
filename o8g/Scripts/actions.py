@@ -488,21 +488,50 @@ def startOfTurn(player, turn):
 		sync() # wait for control of cards to be passed to us
 		# Perform scenario specific actions
 		scenario = [ c for c in table if c.Subtype == 'Scenario' ]
-		if len(scenario) == 1 and scenario[0].Name == 'Here Comes the Flood':
-			#Pick a random location
-			locs = [ c for c in table if c.Type == 'Location' ]
-			loc = locs[int(random()*len(locs))]
-			#Move 1d4 cards from that location to the table
-			moved = 0
-			toMove = 1+int(random()*4)
-			for c in loc.pile().bottom(toMove):
-				c.moveTo(shared.piles['Special'])
-				moved += 1
-			if toMove == moved:
-				notify("{} moves {} cards from {} to Black Magga".format(me, moved, loc))
-			else:
-				notify("{} moves {} cards (rolled {}) from {} to Black Magga".format(me, moved, toMove, loc))
-		advanceBlessingDeck()
+		if len(scenario) == 1:
+			fn = scenario[0].Name.replace(' ','')
+			if fn in globals():
+				globals()[fn]()
+		advanceBlessingDeck()	
+		
+#
+# Scenario specific functions - called at the start of each turn and must be named exactly as the Scenario card with the spaces removed
+#
+def HereComestheFlood():
+	mute()
+	#Pick a random location
+	locs = [ c for c in table if c.Type == 'Location' ]
+	loc = locs[int(random()*len(locs))]
+	#Move 1d4 cards from that location to the table
+	moved = 0
+	toMove = 1+int(random()*4)
+	for c in loc.pile().bottom(toMove):
+		c.moveTo(shared.piles['Special'])
+		moved += 1
+	if toMove == moved:
+		notify("{} moves {} cards from {} to Black Magga".format(me, moved, loc))
+	else:
+		notify("{} moves {} cards (rolled {}) from {} to Black Magga".format(me, moved, toMove, loc))
+
+def SandpointUnderSiege():
+	mute()
+	#Pick a random open location
+	locs = [ c for c in table if isOpen(c) ]
+	loc = locs[int(random()*len(locs))]
+	if len(loc.pile()) == 0:
+		notify("Random open location '{}' has no cards".format(loc))
+	else:
+		c = loc.pile().top()
+		x, y = loc.position
+		c.moveToTable(x, y+14)
+		notify("{} reveals '{}' as the top card of '{}'".format(me, c, loc))
+		if c.Type == 'Boon':
+			banishCard(c)
+		elif c.Type == 'Bane':
+			notify("{} shuffles '{}' back into '{}'".format(me, c, loc))
+			c.moveTo(loc.pile())
+			shuffle(loc.pile(), True)
+			
 #
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
@@ -593,7 +622,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 		
 		sync()
 		#The first player to drag to the table becomes the active player
-		if len(shared.piles['Blessing Deck']) == 30:
+		if len(shared.piles['Blessing Deck']) > 0:
 			#Check to see who the active player is
 			active = None
 			for p in getPlayers():
@@ -992,7 +1021,14 @@ def peekTop(card, x=0, y=0):
 	pile = card.pile()
 	if pile is None or len(pile) == 0: return
 	notify("{} looks at the top card of the '{}' deck".format(me, card))
-	pile.lookAt(1)
+	src = pile.top()
+	src.peek() # This doesn't seem to reveal the card id as expected
+	#Move the top card to a pile with full visibility
+	if lockPile(shared.piles['Internal']):
+		src.moveTo(shared.piles['Internal'])	
+		whisper("{} looks at '{}'".format(me, src))
+		src.moveTo(pile)
+		unlockPile(shared.piles['Internal'])	
 
 def peekTop2(card, x=0, y=0):
 	mute()
@@ -1001,19 +1037,40 @@ def peekTop2(card, x=0, y=0):
 	notify("{} looks at the top 2 cards of the '{}' deck".format(me, card))
 	pile.lookAt(2)
 
-def peekBottom3(card, x=0, y=0):
+def peekTop3(card, x=0, y=0):
 	mute()
 	pile = card.pile()
 	if pile is None: return
-	notify("{} looks at the bottom 3 cards of the '{}' deck".format(me, card))
-	pile.lookAt(3, False)
+	notify("{} looks at the top 3 cards of the '{}' deck".format(me, card))
+	pile.lookAt(3)
 		
 def peekBottom(card, x=0, y=0):
 	mute()
 	pile = card.pile()
 	if pile is None: return
 	notify("{} looks at the bottom card of the '{}' deck".format(me, card))
-	pile.lookAt(1, False)
+	src = pile.bottom()
+	src.peek() # This doesn't seem to reveal the card id as expected
+	#Move the bottom card to a pile with full visibility
+	if lockPile(shared.piles['Internal']):
+		src.moveTo(shared.piles['Internal'])	
+		whisper("{} looks at '{}'".format(me, src))
+		src.moveToBottom(pile)
+		unlockPile(shared.piles['Internal'])
+	
+def peekBottom2(card, x=0, y=0):
+	mute()
+	pile = card.pile()
+	if pile is None: return
+	notify("{} looks at the bottom 2 cards of the '{}' deck".format(me, card))
+	pile.lookAt(2, False)
+	
+def peekBottom3(card, x=0, y=0):
+	mute()
+	pile = card.pile()
+	if pile is None: return
+	notify("{} looks at the bottom 3 cards of the '{}' deck".format(me, card))
+	pile.lookAt(3, False)
 
 def pileMoveTB(card, x=0, y=0):
 	mute()
@@ -1291,7 +1348,11 @@ def scenarioSetup(card):
 	card.link(shared.piles['Scenario'])
 	hidden = shared.piles['Internal']
 	if not lockPile(hidden): return
-				
+	
+	if card.Name == 'The Black Tower':
+		bonus = 1 # Add a bonus spell to each location
+	else:
+		bonus = 0
 	locations = card.Attr1.splitlines()
 	for i in range(len(getPlayers())+2):
 		debug("Processing Location '{}'".format(locations[i]))
@@ -1311,7 +1372,10 @@ def scenarioSetup(card):
 				if len(details) == 2 and details[0] in shared.piles:
 					debug("Adding {} cards of type {}".format(details[1], details[0]))
 					pile = shared.piles[details[0]]
-					for count in range(num(details[1])):
+					cards = num(details[1])
+					if details[0] == 'Spell':
+						cards += bonus
+					for count in range(cards):
 						c = pile.random()
 						if c is None:
 							whisper("No more {} cards to deal to location {}".format(details[0], location))
@@ -1324,12 +1388,13 @@ def scenarioSetup(card):
 	#Put the Villain and henchmen in a new pile, then shuffle and deal out to the locations
 	flipCard(card) # Villain info is on Side B
 	if len(card.Attr2) > 0 and card.Attr2 != 'None':
-		villain = findCardByName(shared.piles['Villain'], card.Attr2)
-		if villain is None:
-			whisper("Setup error: failed to find '{}'".format(card.Attr2))
-		else:
-			debug("Moving '{}' to hidden pile".format(villain))
-			villain.moveTo(hidden)
+		for v in card.Attr2.splitlines():
+			villain = findCardByName(shared.piles['Villain'], v)
+			if villain is None:
+				whisper("Setup error: failed to find '{}'".format(v))
+			else:
+				debug("Moving '{}' to hidden pile".format(villain))
+				villain.moveTo(hidden)
 	elif card.Name == 'Here Comes the Flood':
 		magga = findCardByName(shared.piles['Villain'], 'Black Magga')
 		if magga is None:
@@ -1378,7 +1443,11 @@ def scenarioSetup(card):
 	#Create the Blessing deck
 	src = shared.piles['Blessing']
 	dst = shared.piles['Blessing Deck']
-	while len(src) > 0 and len(dst) < 30:
+	if card.Name == 'Sandpoint Under Siege':
+		blessings = 25
+	else:
+		blessings = 30
+	while len(src) > 0 and len(dst) < blessings:
 		src.random().moveTo(dst)		
 			
 	notify("{} starts '{}'".format(me, card))
