@@ -144,11 +144,20 @@ def returnToBox(card):
 			if c.name >= card.name:
 				break
 			index += 1
-		card.moveTo(dest, index)
+		if dest.controller != me:
+			card.setController(dest.controller) #Pass control to the pile controller and ask them to move it
+			remoteCall(dest.controller, "moveCard", [card, dest, index])
+		else:
+			card.moveTo(dest, index)
 	
 	if locked:
 		unlockPile(shared.piles['Internal'])
 
+# Called remotely to move a card to a pile we control
+def moveCard(card, pile, index):
+	mute()
+	card.moveTo(pile, index)
+	
 def isOpen(card):
 	if card is None or card.Type != 'Location':
 		return False
@@ -321,35 +330,42 @@ def closeLocation(card, perm):
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
 	return True
-		
-def clearupGame(cleanupStory=False):
+	
+def cleanupGame(cleanupStory=False):
+	for p in getPlayers():
+		if p == me:
+			cleanupPiles(cleanupStory)
+		else:
+			remoteCall(p, "cleanupPiles", [cleanupStory])
+
+def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 	for card in table:
-		#Remove the pile link on cards leaving the table
-		if card.pile() is not None:
-			card.link(None)
-			
-		if card.Type == 'Character':
-			if card.Subtype == 'Token':
-				card.moveTo(card.owner.hand)
-			else:
-				card.switchTo() # Display side A of the card as it shows the deck makeup
-		elif not cleanupStory and card.Type == 'Boon': # Return displayed cards to the controller's hand
-			card.moveTo(card.controller.hand)
-		elif cleanupStory or card.Type != 'Story':
-			returnToBox(card)
+		if card.controller == me:
+			#Remove the pile link on cards leaving the table
+			if card.pile() is not None:
+				card.link(None)
+				
+			if card.Type == 'Character':
+				if card.Subtype == 'Token':
+					card.moveTo(card.owner.hand)
+				else:
+					card.switchTo() # Display side A of the card as it shows the deck makeup
+			elif not cleanupStory and card.Type == 'Boon': # Return displayed cards to the controller's hand
+				card.moveTo(me.hand)
+			elif cleanupStory or card.Type != 'Story':
+				returnToBox(card)
 
 	for i in range(8): # Loop through 8 location decks
-		for card in shared.piles["Location{}".format(i+1)]:
-			returnToBox(card)
+		pile = shared.piles["Location{}".format(i+1)]
+		if pile.controller == me:
+			for card in pile:
+				returnToBox(card)
 
-	for pile in [ 'Blessing Deck', 'Blessing Discard', 'Special', 'Scenario' ]:
-		for card in shared.piles[pile]:
-			returnToBox(card)
-	
-	setGlobalVariable("Previous Turn", "")
-	setGlobalVariable("Current Turn", "")
-	setGlobalVariable("Remove Basic", "")
-	setGlobalVariable("Remove Elite", "")
+	for p in [ 'Blessing Deck', 'Blessing Discard', 'Special', 'Scenario' ]:
+		pile = shared.piles[p]
+		if pile.controller == me:
+			for card in pile:
+				returnToBox(card)
 	
 #------------------------------------------------------------
 # Global variable manipulations function
@@ -622,7 +638,8 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 		
 		sync()
 		#The first player to drag to the table becomes the active player
-		if len(shared.piles['Blessing Deck']) > 0:
+		tokens = [ c for c in table if c.Subtype == 'Token' ]
+		if len(tokens) == 1:
 			#Check to see who the active player is
 			active = None
 			for p in getPlayers():
@@ -704,7 +721,7 @@ def pickScenario(group=table, x=0, y=0):
 	if len(story) > 0:
 		if not confirm("Clear the current game?"):
 			return
-		clearupGame(True)
+		cleanupGame(True)
 	
 	rise = False # Rise of the Runelords adventure path has special rules for banishing cards with the Basic and Elite traits	
 	#Pick the new Scenario
@@ -1449,7 +1466,11 @@ def scenarioSetup(card):
 		blessings = 30
 	while len(src) > 0 and len(dst) < blessings:
 		src.random().moveTo(dst)		
-			
+	
+	setGlobalVariable("Previous Turn", "")
+	setGlobalVariable("Current Turn", "")
+	setGlobalVariable("Remove Basic", "")
+	setGlobalVariable("Remove Elite", "")	
 	notify("{} starts '{}'".format(me, card))
 
 def advanceBlessingDeck():
@@ -1491,7 +1512,7 @@ def advanceBlessingDeck():
 				notify("You lost the scenario")
 			
 def gameOver():
-	clearupGame()
+	cleanupGame()			
 	for p in getPlayers():
 		if p == me:
 			displayHand(me)
