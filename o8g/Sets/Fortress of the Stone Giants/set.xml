@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortress of the Stone Giants" id="f833b378-6eaf-42e5-bcae-cbffc52ece7a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.0.0.1">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortress of the Stone Giants" id="f833b378-6eaf-42e5-bcae-cbffc52ece7a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.0">
  <cards>
    <card id="43a49435-2cb5-4b33-8345-32be734fd2eb" name="Arcane Lock">
     <property name="Abr" value="4" />
@@ -635,6 +635,8 @@
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Magic" />
     <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d4+1; you may additionally recharge this card to add another 1d4, or 3d4 against a bane with the Giant trait.&#10;When playing another weapon, you may discard this card to add 1d4+1 to the combat check." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="1c117e87-50ec-4d60-a98d-d9dfe4f2bfd7" name="Greatclub +3">
     <property name="Abr" value="4" />
@@ -643,6 +645,8 @@
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Magic" />
     <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+3; you may additionally discard this card to add your unmodified Strength die. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="13" />
    </card>
    <card id="ef5ffd72-18b1-4160-97e5-d6bc40ee47b0" name="Runechill Hatchet +2">
     <property name="Abr" value="4" />
@@ -651,6 +655,8 @@
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Axe&#10;Ranged&#10;Slashing&#10;2-Handed&#10;Magic" />
     <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d8+2; you may additionally discard this card to add another 2d6 with the Cold trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="13" />
    </card>
    <card id="f38388b9-d369-47c0-ab30-9f2c20873eaa" name="Shortspear +3">
     <property name="Abr" value="4" />
@@ -659,6 +665,8 @@
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Spear&#10;Melee&#10;Piercing&#10;Magic" />
     <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d6+3; you may additionally discard this card to add another 1d12." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="13" />
    </card>
    <card id="6ef035da-becf-416a-b8e4-3ec415a0c34a" name="Courtyard">
     <property name="Abr" value="4" />
