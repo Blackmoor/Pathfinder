@@ -552,6 +552,7 @@ def SandpointUnderSiege():
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
 # or if the blessing discard pile changes
+# We also stop a player moving the avatar from the table
 #
 def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
 	mute()
@@ -574,9 +575,17 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 		if me.isActivePlayer and len(bd) > 0 and bc is None: # Create a copy of the top card
 			bc = table.create(bd.top().model, bx, by)
 			bc.link(shared.piles['Blessing Deck'])
-
-	#Check to see if we moved our avatar to the table
-	if player == me and card.Type == 'Character' and card.Subtype == 'Token' and fromGroup != table and toGroup == table:
+	
+	#We only care if we moved the avatar
+	if isScriptMove or player != me or card.Type != 'Character' or card.Subtype != 'Token':
+		return
+	
+	if fromGroup == table and toGroup != table: # Did we move the avatar off the table
+		# Don't allow this
+		card.moveToTable(oldX, oldY)
+		return
+	
+	if fromGroup != table and toGroup == table: # Did we move the avatar onto the table
 		# If the scenario hasn't been set up yet return the avatar to hand and issue a warning
 		if len(shared.piles['Blessing Deck']) == 0:
 			whisper("Ensure the scenario is set up before placing {} at your starting location".format(card))
@@ -723,7 +732,12 @@ def pickScenario(group=table, x=0, y=0):
 			return
 		cleanupGame(True)
 	
-	rise = False # Rise of the Runelords adventure path has special rules for banishing cards with the Basic and Elite traits	
+	rise = False # Rise of the Runelords adventure path has special rules for banishing cards with the Basic and Elite traits
+	setGlobalVariable("Previous Turn", "")
+	setGlobalVariable("Current Turn", "")
+	setGlobalVariable("Remove Basic", "")
+	setGlobalVariable("Remove Elite", "")
+	
 	#Pick the new Scenario
 	paths = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure Path' ]
 	if len(paths) > 0:
@@ -1466,11 +1480,7 @@ def scenarioSetup(card):
 		blessings = 30
 	while len(src) > 0 and len(dst) < blessings:
 		src.random().moveTo(dst)		
-	
-	setGlobalVariable("Previous Turn", "")
-	setGlobalVariable("Current Turn", "")
-	setGlobalVariable("Remove Basic", "")
-	setGlobalVariable("Remove Elite", "")	
+		
 	notify("{} starts '{}'".format(me, card))
 
 def advanceBlessingDeck():
