@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.5">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.6">
  <cards>
    <card id="8d3f16a4-b991-4728-a65d-54a63c887010" name="Cryptic Message">
     <property name="Abr" value="3" />
@@ -653,7 +653,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="The swamp known as the Shimmerglens is said to be haunted by nixies, nymphs, and even more dangerous fey. The paths through the mire endlessly shift as if trying to trap trespassers." />
-    <property name="Attr4" value="Characters at this location may choose not to reset their hands." />
+    <property name="Attr1" value="Characters at this location may choose not to reset their hands." />
    </alternate>
    </card>
    <card id="12667c01-ac1f-4860-9071-b3777162cb22" name="Turtleback Ferry">
@@ -671,6 +671,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="A remote village in the shadow of Hook Mountain, Turtleback Ferry has long borne the brunt of violence from a nearby ogre tribe. Most villagers have long since fled to safer havens." />
+    <property name="Attr1" value="At the end of your turn, you may move." />
     <property name="Attr4" value="At the end of your turn, you may move." />
    </alternate>
    </card>

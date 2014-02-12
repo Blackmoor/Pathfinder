@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.3">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Rise of the Runelords" id="0aa6cc74-098e-499a-a6c5-986129863e38" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.4">
  <cards>
    <card id="0edac356-1fba-42b6-bed1-9f43828c1041" name="Ambush">
     <property name="Abr" value="B" />
@@ -2170,6 +2170,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Glass jars filled with dried herbs and jewel-like potions gleam in the soft light of this shop. While most are well labeled, it's impossible to tell if some are healing tinctures of deadly poisons." />
+    <property name="Attr1" value="If you did not explore this turn, after you reset your hand, you may shuffle the top 1d6 cards from your discard pile into your deck." />
    </alternate>
    </card>
    <card id="ed1e03c1-cc2a-4a44-b52f-eb6c9df82922" name="City Gate">
@@ -2306,6 +2307,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="The mountains jagged peak lances into the sky, skewering clouds and attempting to pierce the heavens themselves. No obvious path leads through the mazes of boulders and walls of cliffs that line its slopes, making the summit a seemingly impregnable natural fortress. As it that weren't intimidating enough, a screech from on high suggests that even this fortress has its defenders." />
+    <property name="Attr1" value="At the end of your turn you may examine the top card of an open location deck." />
    </alternate>
    </card>
    <card id="0b7e60ea-d699-4d73-97c1-7b74b9755d3e" name="Prison">
@@ -2340,6 +2342,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="The grandest building in the town, Sandpoint's new cathedral is dedicated to the six deities worshiped by the towns founders: Abadar, Desna, Erastil, Gozreh, Sarenrae and Shelyn." />
+    <property name="Attr1" value="When you end your turn here, you may attempt a Wisdom 6 check to recharge a blessing from your discard pile" />
    </alternate>
    </card>
    <card id="ff942330-9a4d-42af-84fb-a1645bd3e3ee" name="Shrine to Lamashtu">
@@ -2374,6 +2377,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Old but still impressive, a temple rises from the undergrowth, its ancient stones pocked by time and weather. Numerous narrow windows peer into its darkened interior." />
+    <property name="Attr1" value="When you move or are moved here, discard a card.&#10;Any character at another location may evade an encounter and move here, discarding 2 cards instead of the normal 1 then reset their hand and end their turn." />
    </alternate>
    </card>
    <card id="6d1eb6c2-5af8-428c-a653-2b2cbb28c614" name="Thassilonian Dungeon">
@@ -2391,6 +2395,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Jagged runes adorn the surfaces of this unfathomably ancient ruin. In places it look as if whole walls should fall away into rubble, but unseen forces work to hold them in place." />
+    <property name="Attr1" value="If you play a spell with the Arcane trait, you may immediately draw a card." />
    </alternate>
    </card>
    <card id="e7df872a-33c7-4191-bb6b-df802ffd168a" name="The Old Light">
@@ -2408,6 +2413,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="A crumbling tower rises from the cliff west of Sandpoint. Predating the town itself, the spire is thought to be a ruined lighthouse, but some claim it has a more mysterious history." />
+    <property name="Attr1" value="Add 1d6 to checks using the Fire trait." />
    </alternate>
    </card>
    <card id="d7e5b198-c5b9-4329-b3d7-78a19deb288d" name="Throne Room">
@@ -2425,6 +2431,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Hung with black-and-red striped firepelt skins, dog pelts and horsehides, the walls of this savage, reeking room also sport impaled hands. The throne is adorned with a variety of cracked skulls." />
+    <property name="Attr1" value="At the start of your turn, you may recharge an item to draw a card." />
    </alternate>
    </card>
    <card id="17461454-fe89-47a1-b4a6-bfd2ce283cd3" name="Town Square">
@@ -2527,6 +2534,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="A fragile bridge creaks and sways in the wind above a sheer ravine. The planks and hairy ropes have seen better days, but if careful, someone could probably make it across." />
+    <property name="Attr1" value="When you end your turn here you may bury a card from your hand to recharge a card from your discard pile." />
    </alternate>
    </card>
    <card id="92ce78d2-48a8-4a1f-8aad-280aafa162b1" name="Woods">

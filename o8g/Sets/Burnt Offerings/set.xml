@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.1">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Burnt Offerings" id="605e17d5-2981-4ec0-b52d-db8ed165c14c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.2">
  <cards>
    <card id="9161cc3d-94d0-4399-88ae-3ae61e39a79c" name="Goblin Raid">
     <property name="Abr" value="1" />
@@ -699,6 +699,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Sandpoint's town square is crowded with people. Locals and visitors alike celebrate amid good music and food. But tiny forms slip through the shadows and begin singing an obnoxious song..." />
+    <property name="Attr1" value="At the start of your turn, you may shuffle any number of cards from your hand into your deck and draw 1 fewer card than you shuffled in." />
    </alternate>
    </card>
    <card id="1d22a9b7-835e-42c4-bb48-5bbe175f9ac8" name="The Rusty Dragon">
