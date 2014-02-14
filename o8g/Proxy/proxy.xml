@@ -720,7 +720,7 @@
 		<if property="Copyright" contains="No">
 		  <link block="Text">
 		   <property name="Flavour" />
-		   <property name="Attr1" format="&#10;When Closed&#10;{}" />
+		   <property name="Attr1" format="&#10;&#10;When Closed&#10;{}" />
 		  </link>
 		</if>
 	  </conditional>
