@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortress of the Stone Giants" id="f833b378-6eaf-42e5-bcae-cbffc52ece7a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.2">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortress of the Stone Giants" id="f833b378-6eaf-42e5-bcae-cbffc52ece7a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.3">
  <cards>
    <card id="43a49435-2cb5-4b33-8345-32be734fd2eb" name="Arcane Lock">
     <property name="Abr" value="4" />
@@ -428,7 +428,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Heavy Armor&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to reduce Combat or Fire damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
+    <property name="Attr1" value="Recharge this card to reduce Combat or Fire damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="8" />
    </card>
@@ -438,7 +438,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
     <property name="Traits" value="Heavy Armor&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to reduce Combat or Cold damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
+    <property name="Attr1" value="Recharge this card to reduce Combat or Cold damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="8" />
    </card>
