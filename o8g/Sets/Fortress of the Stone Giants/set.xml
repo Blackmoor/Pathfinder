@@ -117,7 +117,7 @@
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Giant" />
-    <property name="Attr1" value="Damage Dealt by the Stone Giant is dealt to each creature at this location.&#10;&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr1" value="Damage Dealt by the Stone Giant is dealt to each character at this location.&#10;&#10;If defeated, you may immediately attempt to close this location." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="16" />
    </card>
@@ -256,7 +256,7 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Giant" />
-    <property name="Attr1" value="Damage Dealt by the Stone Giant is dealt to each creature at this location." />
+    <property name="Attr1" value="Damage Dealt by the Stone Giant is dealt to each character at this location." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="16" />
    </card>
