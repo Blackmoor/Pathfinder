@@ -48,8 +48,16 @@ def PlayerX(player):
 	return  room*(player+4) - room/2 - 32 - BoardWidth/2
 
 def LocationX(i):
-	room = int(BoardWidth / (len(getPlayers())+2))	#2 more locations than players
+	room = int(BoardWidth / numLocations())
 	return room*i - room/2 - 32 - BoardWidth/2
+	
+def numLocations(): #2 more locations than players but modified by the extra locations counter in the shared tab
+	n = len(getPlayers())+2+shared.ExtraLocations
+	if n < 1:
+		return 1
+	if n > 8:
+		return 8
+	return n
 	
 def num(s):
    if not s: return 0
@@ -1385,7 +1393,7 @@ def scenarioSetup(card):
 	else:
 		bonus = 0
 	locations = card.Attr1.splitlines()
-	for i in range(len(getPlayers())+2):
+	for i in range(numLocations()):
 		debug("Processing Location '{}'".format(locations[i]))
 		pileName = "Location{}".format(i+1)
 		setGlobalVariable(locations[i], pileName)
@@ -1442,7 +1450,7 @@ def scenarioSetup(card):
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1	
 	index = 0
-	locations = len(getPlayers()) + 2
+	locations = numLocations()
 	while len(hidden) < locations * cardsPerLocation:
 		if henchmen[index] in shared.piles: # A card type has been supplied
 			man = shared.piles[henchmen[index]].random()
