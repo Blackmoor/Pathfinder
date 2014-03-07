@@ -739,6 +739,7 @@ def pickScenario(group=table, x=0, y=0):
 		if not confirm("Clear the current game?"):
 			return
 		cleanupGame(True)
+		sync() #wait for other players to tidy up their cards
 	
 	rise = False # Rise of the Runelords adventure path has special rules for banishing cards with the Basic and Elite traits
 	setGlobalVariable("Previous Turn", "")
@@ -1486,6 +1487,9 @@ def scenarioSetup(card):
 		blessings = 25
 	else:
 		blessings = 30
+	blessings += shared.ExtraBlessings
+	if blessings < 0:
+		blessings = 1
 	while len(src) > 0 and len(dst) < blessings:
 		src.random().moveTo(dst)		
 		
