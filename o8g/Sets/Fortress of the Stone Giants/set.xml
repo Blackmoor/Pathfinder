@@ -841,7 +841,7 @@
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
     <property name="Flavour" value="More dark secrets lie beneath the stones of Jorgenfist. Among them are remnants of a strange fallen civilization called Thassilon. Defeat the life-twisting mistresses of these dungeons, the lamias Selval and Zaelsar, to learn more Thassilon's secrets!" />
-    <property name="Attr1" value="Thassilonian Dungeon&#10;Giant Lair&#10;Desecrated Vault&#10;Garrison&#10;Mountain Peak&#10;Warrnes&#10;Deeper Dungeons&#10;Guard Tower" />
+    <property name="Attr1" value="Thassilonian Dungeon&#10;Giant Lair&#10;Desecrated Vault&#10;Garrison&#10;Mountain Peak&#10;Warrens&#10;Deeper Dungeons&#10;Guard Tower" />
    <alternate name="Under Jorgenfist" type="B">
     <property name="Abr" value="4" />
     <property name="Copyright" value="Yes." />
