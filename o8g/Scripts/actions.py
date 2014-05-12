@@ -47,8 +47,8 @@ def PlayerX(player):
 	room = int(BoardWidth / (len(getPlayers()) + 4))
 	return  room*(player+4) - room/2 - 32 - BoardWidth/2
 
-def LocationX(i):
-	room = int(BoardWidth / numLocations())
+def LocationX(i, nl):
+	room = int(BoardWidth / nl)
 	return room*i - room/2 - 32 - BoardWidth/2
 	
 def numLocations(): #2 more locations than players but modified by the extra locations counter in the shared tab
@@ -1394,7 +1394,12 @@ def scenarioSetup(card):
 	else:
 		bonus = 0
 	locations = card.Attr1.splitlines()
-	for i in range(numLocations()):
+	nl = numLocations()
+	if card.Name == 'Rimeskull':
+		nl = 8
+	elif card.Name == 'Into the Runeforge':
+		nl -= 1
+	for i in range(nl):
 		debug("Processing Location '{}'".format(locations[i]))
 		pileName = "Location{}".format(i+1)
 		setGlobalVariable(locations[i], pileName)
@@ -1404,7 +1409,7 @@ def scenarioSetup(card):
 		else:
 			locPile = shared.piles[pileName]
 			debug("Moving '{}' to table ...".format(location))
-			location.moveToTable(LocationX(i+1), LocationY)
+			location.moveToTable(LocationX(i+1, nl), LocationY)
 			#Create deck based on location distribution
 			deck = location.Attr1.splitlines()
 			for entry in deck:
@@ -1451,8 +1456,7 @@ def scenarioSetup(card):
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1	
 	index = 0
-	locations = numLocations()
-	while len(hidden) < locations * cardsPerLocation:
+	while len(hidden) < nl * cardsPerLocation:
 		if henchmen[index] in shared.piles: # A card type has been supplied
 			man = shared.piles[henchmen[index]].random()
 		else:
@@ -1475,7 +1479,10 @@ def scenarioSetup(card):
 	while len(hidden) > 0:
 		pile = shared.piles["Location{}".format(index+1)]
 		for i in range(cardsPerLocation):
-			hidden.random().moveTo(pile)
+			if index == 0 and card.Name in ('Rimeskull', 'Into the Runeforge'):
+				hidden.bottom().moveTo(pile) # Ensure Villain is in first location
+			else:
+				hidden.random().moveTo(pile)
 		shuffle(pile)
 		index += 1
 	unlockPile(hidden)
