@@ -615,6 +615,7 @@
     <property name="Attr3" value="6" />
     <property name="Attr4" value="Charisma&#10;Diplomacy" />
     <property name="Attr5" value="7" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="f77a21a1-ac3c-4991-be13-a7293a3ea405" name="Sheriff Hemlock">
     <property name="Abr" value="B" />
@@ -2247,7 +2248,7 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Front" />
     <property name="Attr1" value="Monster 3&#10;Barrier 0&#10;Weapon 3&#10;Spell 0&#10;Armor 2&#10;Item 0&#10;Ally 1&#10;Blessing 0" />
-    <property name="Attr2" value="If you encounter a monster other than a villain or a henchmen, each character at this location must summon and encounter that monster." />
+    <property name="Attr2" value="If you encounter a monster other than a villain or a henchmen, each other character at this location must summon and encounter that monster." />
     <property name="Attr3" value="Summon and defeat a Bandit henchmen with the combat difficulty increased by 2." />
     <property name="Attr4" value="On closing, do not banish any weapons or armors from this location; shuffle any that remain into this deck." />
    <alternate name="Garrison" type="B">

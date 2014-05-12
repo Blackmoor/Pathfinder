@@ -103,7 +103,7 @@
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Human&#10;Fighter&#10;Wizard" />
-    <property name="Attr1" value="Before the encounter, each character at your location must succeed at a Dexterity or Acrobatics check or be dealt 1 Fire damage.&#10;If undefeated, the Warrior of Wrath deals 1d4 Force damage to a random character at your location.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr1" value="Before the encounter, each character at your location must succeed at a Dexterity or Acrobatics 12 check or be dealt 1 Fire damage.&#10;If undefeated, the Warrior of Wrath deals 1d4 Force damage to a random character at your location.&#10;If defeated, you may immediately attempt to close this location." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="20" />
    </card>
@@ -219,7 +219,7 @@
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Dragon" />
     <property name="Flavour" value="&quot;Tread not upon the frozen stones, lest Freezemaw see and steal your bones.&quot; -- Tamiir-Quah Shoanti warning" />
-    <property name="Attr1" value="Before the encounter, deach character at this location attempts a Dexterity or Acrobatics 12 check. Characters who succeed are dealt 1 Cold damage; characters who fail are dealt 1d4 Cold damage.&#10;If Arkrhyst escapes, return him to the location where you encountered him." />
+    <property name="Attr1" value="Before the encounter, each character at this location attempts a Dexterity or Acrobatics 12 check. Characters who succeed are dealt 1 Cold damage; characters who fail are dealt 1d4 Cold damage.&#10;If Arkrhyst escapes, return him to the location where you encountered him." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="20" />
     <property name="Attr4" value="Combat" />
@@ -335,6 +335,7 @@
     <property name="Attr3" value="11" />
     <property name="Attr4" value="Charisma&#10;Diplomacy" />
     <property name="Attr5" value="13" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="75762375-83fb-4013-b01f-4a00fc72cebb" name="Shaman">
     <property name="Abr" value="5" />
@@ -347,6 +348,7 @@
     <property name="Attr3" value="9" />
     <property name="Attr4" value="Wisdom&#10;Divine" />
     <property name="Attr5" value="7" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="21c9d74b-e9a3-4e56-b572-b39d098914a5" name="Velociraptor">
     <property name="Abr" value="5" />
@@ -354,7 +356,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Animal" />
-    <property name="Attr1" value="Discard this card to explore your location; add 2d6 to your combat check during this exploration." />
+    <property name="Attr1" value="Discard this card to explore your location; add 2d6 to your combat checks during this exploration." />
     <property name="Attr2" value="Wisdom&#10;Survival" />
     <property name="Attr3" value="14" />
    </card>
@@ -791,7 +793,7 @@
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="Whenever you defeat a villain, place it next to this card; any characters at that villain's previous location may immediately move. You must defeat all three villains to win this scenario." />
+    <property name="Attr1" value="When a villain is defeated and cannot escape, put it next to this card; any characters at that villain's previous location may immediately move.&#10;&#10;To win this scenario, all three villains must be next to this card." />
     <property name="Attr2" value="Azaven&#10;Ordikon&#10;Jordimandus" />
     <property name="Attr3" value="Xyoddin Xerriock&#10;Simulacrum of Vraxeris" />
     <property name="Attr4" value="Loot: Staff of Hungry Shadows, Summon Monster, Ordikon's Staff" />
