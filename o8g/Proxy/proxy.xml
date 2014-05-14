@@ -480,7 +480,7 @@
 	   <property name="Abr" />
 	  </link>
 	  <link block="Subtype">
-	   <property name="Subtype" />
+	   <property name="Subtype2" format="Loot ({})"/>
 	  </link>
 	  <link block="Name">
 	   <property name="Name" />

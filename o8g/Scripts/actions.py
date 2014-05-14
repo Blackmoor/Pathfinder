@@ -322,13 +322,13 @@ def closeLocation(card, perm):
 				banishCard(c)
 		
 		unlockPile(visible)
+					
+		if len(pile) > 1:
+			shuffle(pile)
 		
 		if len(villain) > 0: # Close fails - we temporarily close it instead
 			card.orientation = Rot90 
 			return False
-			
-		if len(pile) > 1: # Garrison cards
-			shuffle(pile)
 		
 		notify("{} permanently closes '{}'".format(me, card))
 		if len(card.Attr4) > 0 and card.Attr4 != "No effect.":
@@ -1071,18 +1071,20 @@ def peekTop(card, x=0, y=0):
 		unlockPile(shared.piles['Internal'])	
 
 def peekTop2(card, x=0, y=0):
-	mute()
-	pile = card.pile()
-	if pile is None: return
-	notify("{} looks at the top 2 cards of the '{}' deck".format(me, card))
-	pile.lookAt(2)
+	peekTopN(card, 2)
 
 def peekTop3(card, x=0, y=0):
+	peekTopN(card, 3)
+
+def peekTop5(card, x=0, y=0):
+	peekTopN(card, 5)
+	
+def peekTopN(card, n):
 	mute()
 	pile = card.pile()
 	if pile is None: return
-	notify("{} looks at the top 3 cards of the '{}' deck".format(me, card))
-	pile.lookAt(3)
+	notify("{} looks at the top {} cards of the '{}' deck".format(me, n, card))
+	pile.lookAt(n)
 		
 def peekBottom(card, x=0, y=0):
 	mute()
@@ -1144,6 +1146,8 @@ def closePermanently(card, x=0, y=0):
 			if len(open) == 0:
 				gameOver()
 				notify("You have won ..... claim your reward")
+		return True
+	return False
 
 def closeTemporarily(card, x=0, y=0):
 	closeLocation(card, False)
@@ -1172,26 +1176,31 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	defeated = choices[choice-1] == 'Defeated'		
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
 	location = overPile(villain) #Determine the location of the Villain (based on the if it is over a pile on the table)
+	closed = True
 	if defeated: # We get to close the location
 		if location is None or location.Type != 'Location': # Not sure which location to close
 			if not confirm("Did you close the location?"):
 				whisper("Close the location manually, then hide the villain")
 				return
 		elif isOpen(location): # Ensure location is closed
-			closePermanently(location)
+			closed = closePermanently(location) # Villains found in pile so game is not over
 	
-	#If there are no open locations the players have won
+	#If there are no open locations the villain has been cornered
 	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
-		gameOver()
-		notify("You have won ..... claim your reward")		
+		returnToBox(villain)
+		if closed:
+			gameOver()
+			notify("You have won ..... claim your reward")
+		else: # There are more villains left in the pile
+			notify("{} returns {} to the box".format(me, villain))			
 		return
 	
+	# The villain has escaped
+	debug("Villain has {} open locations".format(len(open)))
 	hidden = shared.piles['Internal']
 	if not lockPile(hidden):
-		return
-	
-	debug("Villain has {} open locations".format(len(open)))	
+		return	
 	villain.moveTo(hidden)
 	#Add a Blessing for each other open location
 	for i in range(len(open)-1):
