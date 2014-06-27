@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="82eaa5fe-e6fb-4649-9118-630c9d2c3a05">Spires of Xin-Shalast</card>
+    <card qty="1" id="23dd3cda-c6f5-4094-ae95-a895ea9a29a7">Assault on the Pinnacle</card>
+    <card qty="1" id="dd1ba78f-083f-4fd1-991e-2c9c358495b6">Cabin in the Snow</card>
+    <card qty="1" id="6f8aefea-26f9-46ac-a5ce-2d839bf83415">Into the Eye</card>
+    <card qty="1" id="9ff8a2bb-6b44-47fc-ab99-d0320eb8346d">Scaling Mhar Massif</card>
+    <card qty="1" id="168e96fe-5a37-4782-a8cf-b413358a0d94">The Road though Xin-Shalast</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="5" id="f3a3077f-c9e8-46df-99dd-ca54bce50c57">Cannibal Haunt</card>
+    <card qty="1" id="021d046d-b8ed-430f-8df8-d849a54e6cd6">Enslaved Blue Dragon</card>
+    <card qty="1" id="c7c0aca9-1152-4043-9f6a-59ead974067a">Karivek Vekker</card>
+    <card qty="1" id="6528fbac-1dc3-4705-aa17-30cf70dc4e42">Khalib</card>
+    <card qty="6" id="b2b66c38-c845-4a47-ad8d-ebda7c640bc4">Leng Spider</card>
+    <card qty="1" id="ebf02b95-88dc-4f7c-b20b-df1619e682db">Silas Vekker</card>
+    <card qty="1" id="d92b7996-4631-4af5-9c6c-dbd9e69cdb96">Viorian Dekanti</card>
+    <card qty="8" id="de133e36-009b-4cb3-a070-e571624c3b57">Warden of Runes</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="55e05d8b-767d-4503-b20b-aa227046769a">Abominable Snowman</card>
+    <card qty="1" id="349bc370-b37d-4ad0-80c7-61fe3f368158">Frost Worm</card>
+    <card qty="1" id="45218a66-ba84-4cc3-89a1-df37439c2832">Gamigin</card>
+    <card qty="1" id="eb6cefb6-361f-4636-aedd-f9253debbfb1">Hidden Beast</card>
+    <card qty="1" id="312ca409-7e36-4a6d-ad1f-1f521cea1134">Horror Tree</card>
+    <card qty="1" id="e2dace52-decc-40c8-83db-a0be527c6f50">Hungerer</card>
+    <card qty="2" id="244afdd8-a3c8-45de-980c-3a6559b43f96">Scarlet Walker</card>
+    <card qty="1" id="16ad7c9d-bcc7-4e05-8152-7fa3ae559fea">Shemhazian Demon</card>
+    <card qty="2" id="fb159c54-a371-4d13-9ca5-9bac42c48c67">Skulking Vampire</card>
+    <card qty="2" id="37cf4b8e-34df-4ef6-ac09-53c83e11fafe">Warden of Thunder</card>
+    <card qty="2" id="178fdad5-97fc-4e97-83a1-6cf287259c8c">Warden of Wind</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="c58577f2-fb41-473c-84a0-f04ad7f0114e">Avalanche</card>
+    <card qty="1" id="0366dfbd-0a15-4b90-af55-1f39a3a41437">Corroded Lock</card>
+    <card qty="2" id="f9b4669c-d96e-4752-90f5-2d4a4f72f814">Icy Ledge</card>
+    <card qty="2" id="e08f9ab2-cfeb-47af-8f74-f72a86acac2d">Occluding Field</card>
+    <card qty="1" id="a2eb7792-953b-4ba3-bc8d-67fd8b7fc67b">Stampeding Aurochs</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="be62f8e9-2942-4315-8bc7-47811d8ca6d5">Adamantine Plate Armor</card>
+    <card qty="1" id="1d4bf43c-305b-49ee-8430-1c2144e254fa">Demon Armor</card>
+    <card qty="1" id="f0d1f6f5-0eed-47be-9f09-cf8f861a3e74">Entropy Shield</card>
+    <card qty="2" id="3d71e58b-52d1-46fa-8bb2-491117b617e9">Fortress Shield</card>
+    <card qty="1" id="da71514e-f271-4a7a-803b-d6df81ff3012">Greater Bolstering Armor</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="2" id="958c7931-8115-4453-9fab-6636d5ce1bbe">Flaming Icy Axe +1</card>
+    <card qty="2" id="edd5c688-c1e6-43b1-9aa0-b2113288bb9a">Force Sling +3</card>
+    <card qty="2" id="69ca54a1-f188-448d-81e5-9f7e337002b7">Returning Frost Spear +2</card>
+    <card qty="2" id="9d894ab3-c56c-47da-bcd7-a739d7509f70">Shock Greatsword +2</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="dd1f6980-c93a-4b05-af05-8ebb448ea514">Bewilder</card>
+    <card qty="2" id="3847924a-e90e-4b97-83c5-5c69b039fc65">Corrosive Storm</card>
+    <card qty="1" id="552409bf-954a-4181-b181-5c52d116a116">Dominate</card>
+    <card qty="2" id="37f3e20f-f33a-4b45-b47e-480879fe38d7">Invoke</card>
+    <card qty="2" id="dd5d8982-ebf3-4eac-9c80-66b3d98a475d">Sign of Wrath</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="2" id="a04bcb17-65aa-4ad6-931e-26e29cd62aa5">Belt of Physical Might</card>
+    <card qty="2" id="1d1d32af-905e-4eef-bb35-17313fe6b9b7">Boots of Teleportation</card>
+    <card qty="1" id="adacc4cd-49b1-460c-bc64-7da15a66eff9">Ring of Energy Resistance</card>
+    <card qty="2" id="f98ca0f8-bca0-4d87-9bf0-ba81d6cfcaf9">Sihedron Ring</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="38f0f68e-8c49-4be3-ab2e-ff020a40ad2a">Ayruzi</card>
+    <card qty="1" id="436b2991-8b3a-40f0-b637-60bfa7458327">Gyukak</card>
+    <card qty="1" id="4a632d7b-f384-41fa-aa1e-e0ff94ab313b">Morgiv</card>
+    <card qty="2" id="16e7474e-87f1-4edb-9d49-505c98b58747">Mountaineer</card>
+    <card qty="1" id="8dc0f384-1964-448b-a00a-f2421eff6d57">Svevenka</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="109eb667-904c-4c66-8ece-900810a0b6bf">Blessing of Nethys</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="63209a84-97cb-4776-895d-06c8a506f90a">Chellan, Sword of Greed</card>
+    <card qty="1" id="1d0dd2cd-56b8-4078-bf68-44d61f61ad42">Karzoug's Burning Glaive</card>
+    <card qty="1" id="06918f2e-f9ab-4d97-9913-1ddb1245acfb">Robes of Xin-Shalast</card>
+    <card qty="1" id="70713ff6-34a4-42e3-bb62-b09b470d1ac7">Sihedron Tome</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="6" id="8bf8fc03-4380-407b-937e-81a02cbed6f2">Death Zone</card>
+    <card qty="1" id="94e752c7-9c6e-4b56-8cb5-e2a6bdbfe7e5">Heptaric Locus</card>
+    <card qty="1" id="c8fed49a-c1ff-4cde-89d6-eef4c355de16">Runewell</card>
+    <card qty="1" id="4c4ade5c-1cbe-40f6-a9d6-c91a83fe86a3">The Leng Device</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="31f254f6-dc1f-4b1a-abdb-4cadf0508f2c">Ghlorofaex</card>
+    <card qty="1" id="64d4c795-3eaa-47f7-a486-d200408eca41">Karzoug the Claimer</card>
+    <card qty="1" id="e7110898-8c88-4a03-be7e-ea1eb33da668">Most High Ceoptra</card>
+    <card qty="1" id="24a409b7-ebcc-4b7b-ac78-ba33b514a09d">The Thing From Beyond Time</card>
+    <card qty="1" id="2edcc91c-7040-46c0-b039-dd6445c28e05">Wendigo</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

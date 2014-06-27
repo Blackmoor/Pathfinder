@@ -5,6 +5,7 @@ d10 = ("d10", "3b7cbb3a-4f52-4445-a4a5-65d5dfd9fa23")
 d12 = ("d12", "53d1f6b4-03f6-4b8b-8065-d0759309e00d")
 plus = ("+", "1b08a785-f745-4c93-b0f1-cdd64c89d95d")
 minus = ("-", "b442c012-023f-42d1-9d28-e85168a4401a")
+timer = ("Timer", "d59b44ba-cddf-49f9-88f5-1176a305f3d3")
 
 BoardWidth = 700
 BoardHeight = 300
@@ -297,46 +298,48 @@ def closeLocation(card, perm):
 	if card.Type != 'Location':
 		notify("This is not a location ...")
 		return False
-	if perm:
-		# Move cards from location pile back to box
-		# If we find the Villain then the location is not closed and the Villain is displayed
-		# We need to use a pile with full visibility to access the card type
-		pile = card.pile()
-		visible = shared.piles['Internal']
-		if not lockPile(visible): return
-		
-		debug("Cleaning up pile '{}'".format(pile.name))
-		for c in pile:
-			c.moveTo(visible)
-		
-		villain = [ c for c in visible if c.Subtype == 'Villain' ]
-		for c in villain:
-			notify("You find {} while attempting to close this location".format(c))
-			c.moveTo(pile)
-		
-		for c in visible: #Banish the remaining cards (unless we are at the Garrison)
-			debug("Unexplored ... '{}'".format(c))
-			if len(villain) == 0 and card.name == 'Garrison' and c.Subtype in ['Weapon','Armor']:
-				c.moveTo(pile)
-			else:
-				banishCard(c)
-		
-		unlockPile(visible)
-					
-		if len(pile) > 1:
-			shuffle(pile)
-		
-		if len(villain) > 0: # Close fails - we temporarily close it instead
-			card.orientation = Rot90 
-			return False
-		
-		notify("{} permanently closes '{}'".format(me, card))
-		if len(card.Attr4) > 0 and card.Attr4 != "No effect.":
-			notify(card.Attr4)
-		flipCard(card)
-	else:
+	
+	if perm == False:
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
+		return True
+		
+	# Move cards from location pile back to box
+	# If we find the Villain then the location is not closed and the Villain is displayed
+	# We need to use a pile with full visibility to access the card type
+	pile = card.pile()
+	visible = shared.piles['Internal']
+	if not lockPile(visible): return
+	
+	debug("Cleaning up pile '{}'".format(pile.name))
+	for c in pile:
+		c.moveTo(visible)
+	
+	villain = [ c for c in visible if c.Subtype == 'Villain' ]
+	for c in villain:
+		notify("You find {} while attempting to close this location".format(c))
+		c.moveTo(pile)
+		
+	for c in visible: #Banish the remaining cards (unless we are at the Garrison)
+		debug("Unexplored ... '{}'".format(c))
+		if len(villain) == 0 and card.name == 'Garrison' and c.Subtype in ['Weapon','Armor']:
+			c.moveTo(pile)
+		else:
+			banishCard(c)
+	
+	unlockPile(visible)
+				
+	if len(pile) > 1:
+		shuffle(pile)
+	
+	if len(villain) > 0: # Close fails - we temporarily close it instead
+		card.orientation = Rot90 
+		return False
+	
+	notify("{} permanently closes '{}'".format(me, card))
+	if len(card.Attr4) > 0 and card.Attr4 != "No effect.":
+		notify(card.Attr4)
+	flipCard(card)
 	return True
 	
 def cleanupGame(cleanupStory=False):
@@ -395,10 +398,10 @@ def getFavoured():
 	return me.getGlobalVariable('Favoured')
 	
 def storeCards(s):
-	me.setGlobalVariable("Cards", s)
+	me.setGlobalVariable('Cards', s)
 	
 def getCards():
-	return me.getGlobalVariable("Cards")
+	return me.getGlobalVariable('Cards')
 
 def lockInfo(pile):
 	if pile is None: return (None, 0)
@@ -595,7 +598,8 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 	
 	if fromGroup != table and toGroup == table: # Did we move the avatar onto the table
 		# If the scenario hasn't been set up yet return the avatar to hand and issue a warning
-		if len(shared.piles['Blessing Deck']) == 0:
+		locs = [ c for c in table if c.Type == 'Location' ]
+		if len(locs) == 0:
 			whisper("Ensure the scenario is set up before placing {} at your starting location".format(card))
 			card.moveTo(fromGroup)
 			return
@@ -742,10 +746,10 @@ def pickScenario(group=table, x=0, y=0):
 		sync() #wait for other players to tidy up their cards
 	
 	rise = False # Rise of the Runelords adventure path has special rules for banishing cards with the Basic and Elite traits
-	setGlobalVariable("Previous Turn", "")
-	setGlobalVariable("Current Turn", "")
-	setGlobalVariable("Remove Basic", "")
-	setGlobalVariable("Remove Elite", "")
+	setGlobalVariable('Previous Turn', '')
+	setGlobalVariable('Current Turn', '')
+	setGlobalVariable('Remove Basic', '')
+	setGlobalVariable('Remove Elite', '')
 	
 	#Pick the new Scenario
 	paths = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure Path' ]
@@ -1141,7 +1145,7 @@ def pileSwap12(card, x=0, y=0):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		local = findCardByName(table, 'Local Heroes')
-		if local is not None: # This scenario is won when the last location is closed
+		if local is not None or card.Name == 'Death Zone': # This scenario is won when the last location is closed
 			open = [ card for card in table if isOpen(card) ]
 			if len(open) == 0:
 				gameOver()
@@ -1408,10 +1412,16 @@ def scenarioSetup(card):
 		nl = 8
 	elif card.Name == 'Into the Runeforge':
 		nl -= 1
+	elif card.Name == 'Scaling Mhar Massif':
+		nl -= 2
+		
+	if nl < 1:
+		nl = 1
+	if nl > len(locations):
+		nl = len(locations)
 	for i in range(nl):
 		debug("Processing Location '{}'".format(locations[i]))
 		pileName = "Location{}".format(i+1)
-		setGlobalVariable(locations[i], pileName)
 		location = findCardByName(shared.piles['Location'], locations[i])
 		if location is None:
 			whisper("Failed to find location {}".format(locations[i]))
@@ -1438,9 +1448,12 @@ def scenarioSetup(card):
 				else:
 					whisper("Location error: Failed to parse [{}]".format(details[0]))
 			location.link(locPile)
+			if location.Name == 'The Leng Device':
+				location.markers[timer] = 12
 			
 	#Put the Villain and henchmen in a new pile, then shuffle and deal out to the locations
 	flipCard(card) # Villain info is on Side B
+	villain = None
 	if len(card.Attr2) > 0 and card.Attr2 != 'None':
 		for v in card.Attr2.splitlines():
 			villain = findCardByName(shared.piles['Villain'], v)
@@ -1449,13 +1462,10 @@ def scenarioSetup(card):
 			else:
 				debug("Moving '{}' to hidden pile".format(villain))
 				villain.moveTo(hidden)
-	elif card.Name == 'Here Comes the Flood':
-		magga = findCardByName(shared.piles['Villain'], 'Black Magga')
-		if magga is None:
-			notify("Setup error: failed to find Black Magga")
-		else:
-			magga.moveToTable(PlayerX(-3),StoryY)
-			magga.link(shared.piles['Special'])
+	# Some adventures set the villain aside
+	if villain is not None and card.Name in ('Here Comes the Flood', 'The Road through Xin-Shalast'):
+		villain.moveToTable(PlayerX(-3),StoryY)
+		villain.link(shared.piles['Special'])
 			
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
@@ -1463,7 +1473,10 @@ def scenarioSetup(card):
 		cardsPerLocation = len(henchmen)
 	else:
 		henchmen = card.Attr3.splitlines()
-		cardsPerLocation = 1	
+		cardsPerLocation = 1
+		if card.Name == 'Into the Eye':
+			cardsPerLocation += len(getPlayers())
+				
 	index = 0
 	while len(hidden) < nl * cardsPerLocation:
 		if henchmen[index] in shared.piles: # A card type has been supplied
@@ -1497,17 +1510,18 @@ def scenarioSetup(card):
 	unlockPile(hidden)
 	
 	#Create the Blessing deck
-	src = shared.piles['Blessing']
-	dst = shared.piles['Blessing Deck']
-	if card.Name == 'Sandpoint Under Siege':
-		blessings = 25
-	else:
-		blessings = 30
-	blessings += shared.ExtraBlessings
-	if blessings < 0:
-		blessings = 1
-	while len(src) > 0 and len(dst) < blessings:
-		src.random().moveTo(dst)		
+	if card.Name != "Into the Eye":
+		src = shared.piles['Blessing']
+		dst = shared.piles['Blessing Deck']
+		if card.Name == 'Sandpoint Under Siege':
+			blessings = 25
+		else:
+			blessings = 30
+		blessings += shared.ExtraBlessings
+		if blessings < 0:
+			blessings = 1
+		while len(src) > 0 and len(dst) < blessings:
+			src.random().moveTo(dst)		
 		
 	notify("{} starts '{}'".format(me, card))
 
@@ -1515,39 +1529,42 @@ def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
 	pile = shared.piles['Blessing Deck']	
 	if len(pile) == 0:
-		# Out of time - the players have lost
-		gameOver()
-		notify("You have failed to complete the scenario in time")		
-	else:
-		pile.top().moveTo(shared.piles['Blessing Discard'])
-		notify("{} advances the Blessing Deck".format(me))
-		
-		# Here comes the flood has special end conditions
-		flood = findCardByName(table, 'Here Comes the Flood')
-		if flood is not None:
-			# Check to see if all locations are empty
-			cardsToExplore = 0
-			for i in range(8): # Loop through 8 location decks
-				cardsToExplore += len(shared.piles["Location{}".format(i+1)])
-			if cardsToExplore > 0 and len(pile) > 0:
-				flood = None
-		if flood is not None: # Compare dead allies to rescued allies
-			died = 0
-			for c in shared.piles['Special']:
-				returnToBox(c)
-				if c.Subtype == 'Ally':
-					died += 1
-			saved = [ c for c in shared.piles['Scenario'] ]
-			notify("You saved {} allies and lost {} allies".format(len(saved), died))
+		#If we are playing the adventure "Into the Eye" then there is no blessing deck
+		if findCardByName(table, "Into the Eye") is None:
+			# Out of time - the players have lost
 			gameOver()
-			if len(saved) >= died:
-				notify("You won the scenario")
-				x = -300
-				for c in saved:
-					c.moveToTable(x, 0)
-					x += 32
-			else:
-				notify("You lost the scenario")
+			notify("You have failed to complete the scenario in time")		
+		return
+		
+	pile.top().moveTo(shared.piles['Blessing Discard'])
+	notify("{} advances the Blessing Deck".format(me))
+	
+	# Here comes the flood has special end conditions
+	flood = findCardByName(table, 'Here Comes the Flood')
+	if flood is not None:
+		# Check to see if all locations are empty
+		cardsToExplore = 0
+		for i in range(8): # Loop through 8 location decks
+			cardsToExplore += len(shared.piles["Location{}".format(i+1)])
+		if cardsToExplore > 0 and len(pile) > 0:
+			flood = None
+	if flood is not None: # Compare dead allies to rescued allies
+		died = 0
+		for c in shared.piles['Special']:
+			returnToBox(c)
+			if c.Subtype == 'Ally':
+				died += 1
+		saved = [ c for c in shared.piles['Scenario'] ]
+		notify("You saved {} allies and lost {} allies".format(len(saved), died))
+		gameOver()
+		if len(saved) >= died:
+			notify("You won the scenario")
+			x = -300
+			for c in saved:
+				c.moveToTable(x, 0)
+				x += 32
+		else:
+			notify("You lost the scenario")
 			
 def gameOver():
 	cleanupGame()			

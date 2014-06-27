@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Markers and Tokens" id="b455b8fd-bb25-4562-86b4-393c776e02bb" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.0.0" version="1.0.0.1">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Markers and Tokens" id="b455b8fd-bb25-4562-86b4-393c776e02bb" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.2.6.5" version="1.1.0.0">
   <markers>
     <marker id="72fdca01-ff61-4dd2-a6b8-43f567f90ff7" name="d4" />
     <marker id="1f1a643b-2aea-48b2-91c8-96f0dffaad48" name="d6" />
@@ -9,6 +9,7 @@
 	<marker id="1b08a785-f745-4c93-b0f1-cdd64c89d95d" name="+" />
 	<marker id="b442c012-023f-42d1-9d28-e85168a4401a" name="-" />
 	<marker id="9aef0beb-22e6-49d8-a8a0-4069d50f528e" name="Cards" />
+	<marker id="d59b44ba-cddf-49f9-88f5-1176a305f3d3" name="Timer" />
   </markers>
   <cards>
    <card id="841f9b4d-489e-4afe-bae9-82a4d0128283" name="Custom">

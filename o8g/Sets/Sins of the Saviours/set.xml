@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Sins of the Saviours" id="3130abb9-04d8-48b8-9a44-6fedbdad8bc0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.0.0.3">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Sins of the Saviours" id="3130abb9-04d8-48b8-9a44-6fedbdad8bc0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.0">
  <cards>
    <card id="faf18d38-76d4-4a1e-8d51-45486b4615ae" name="Crushing Door">
     <property name="Abr" value="5" />
@@ -486,7 +486,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
     <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Cold" />
-    <property name="Attr1" value="Place this card in front of ou when a character encounters a bane. Any character who encounters a monster this turn adds 2d6 with the Cold trait to her combat check. Discard this card at the end of this turn, and every other character takes 1 Cold damage.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr1" value="Place this card in front of you when a character encounters a bane. Any character who encounters a monster this turn adds 2d6 with the Cold trait to her combat check. Discard this card at the end of this turn, and every other character takes 1 Cold damage.&#10;If you do not have the Arcane skill, banish this card." />
     <property name="Attr2" value="Intelligence&#10;Arcane" />
     <property name="Attr3" value="12" />
     <property name="Recharge" value="Succeed at an Arcane 14 check to recharge this card instead of discarding it." />
@@ -579,7 +579,7 @@
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 1&#10;Ally 1&#10;Blessing 1" />
     <property name="Attr2" value="You may play no more than 1 card per check, regardless of type." />
     <property name="Attr3" value="Succeed at a Constitution or Fortitude 12 check." />
-    <property name="Attr4" value="None" />
+    <property name="Attr4" value="No effect." />
    <alternate name="Festering Maze of Sloth" type="B">
     <property name="Abr" value="5" />
     <property name="Copyright" value="Yes." />
@@ -596,7 +596,7 @@
     <property name="Attr1" value="Monster 6&#10;Barrier 0&#10;Weapon 3&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0" />
     <property name="Attr2" value="The difficulty of any combat check is increased by 2. &#10;If you fail a combat check, the damage dealt to you is increased by 2. " />
     <property name="Attr3" value="Succeed at an Intelligence or Knowledge 12 check." />
-    <property name="Attr4" value="None" />
+    <property name="Attr4" value="No effect." />
    <alternate name="Halls of Wrath" type="B">
     <property name="Abr" value="5" />
     <property name="Copyright" value="Yes." />
@@ -613,7 +613,7 @@
     <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 2" />
     <property name="Attr2" value="Add 2 to your checks to acquire allies.&#10;If you fail to acquire an ally, bury an ally from your hand, if you have one." />
     <property name="Attr3" value="Succeed at a Charisma or Diplomacy 12 check." />
-    <property name="Attr4" value="None" />
+    <property name="Attr4" value="No effect." />
    <alternate name="Iron Cages of Lust" type="B">
     <property name="Abr" value="5" />
     <property name="Copyright" value="Yes." />
@@ -630,7 +630,7 @@
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 2" />
     <property name="Attr2" value="While you are here, your hand size is increased by 2." />
     <property name="Attr3" value="Succeed at a Wisdom or Survival 12 check." />
-    <property name="Attr4" value="None" />
+    <property name="Attr4" value="No effect." />
    <alternate name="Ravenous Crypts of Gluttony" type="B">
     <property name="Abr" value="5" />
     <property name="Copyright" value="Yes." />
