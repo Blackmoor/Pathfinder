@@ -438,7 +438,7 @@
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Item" />
     <property name="Traits" value="Staff&#10;Magic" />
-    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to roll your Strength or Melee die + 2d12. If you aren't proficient with wapons, the difficulty of this check is incrased by 4. &#10;Reveal this card to add 2 to an Intelligence check. You may use another item on this check." />
+    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to roll your Strength or Melee die + 2d12. If you aren't proficient with weapons, the difficulty of this check is incrased by 4. &#10;Reveal this card to add 2 to an Intelligence check. You may use another item on this check." />
     <property name="Recharge" value="None" />
    </card>
    <card id="090111a3-6d6c-4117-a4e7-af996e29cd92" name="Revelation Quill">
@@ -467,7 +467,7 @@
     <property name="Subtype" value="Loot" />
     <property name="Subtype2" value="Item" />
     <property name="Traits" value="Staff&#10;Magic" />
-    <property name="Attr1" value="When you play a spell with the Attack trait, you mnay reveal this card and discard a spell to add 1d8+2 to your check. If you succeed at the check, recharge a random card from your discard pile.&#10;Reveal this card and discard a spell to roll your Arcane die and decrease the difficulty of another character's combat check at your location by that amount." />
+    <property name="Attr1" value="When you play a spell with the Attack trait, you may reveal this card and discard a spell to add 1d8+2 to your check. If you succeed at the check, recharge a random card from your discard pile.&#10;Reveal this card and discard a spell to roll your Arcane die and decrease the difficulty of another character's combat check at your location by that amount." />
     <property name="Recharge" value="None" />
    </card>
    <card id="000cdf9d-37e1-471c-befd-72f54b313374" name="Summon Monster">

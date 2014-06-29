@@ -332,7 +332,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Outsider\nAngel" />
+    <property name="Traits" value="Outsider&#10;Angel" />
     <property name="Attr1" value="Instead of acquiring this card normally, you may attempt a Combat 20 check. If you succeed, acquire this card; if you fail, Ayruzi deals damage to you as if he were a monster.&#10;Discard this card to add 1 die to a check, or to explore your location.&#10;Discard this card to add 2 dice to a Divine check, or to reduce damage dealt to you by 4." />
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="14" />
@@ -342,7 +342,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Outsider\nGiant\nOni" />
+    <property name="Traits" value="Outsider&#10;Giant&#10;Oni" />
     <property name="Attr1" value="Reveal this card to explore your current location, adding 2 to checks to defeat banes during this exploration. Then shuffle Gyukak into a random open location deck, or banish Gyukak if there are no open locations." />
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="14" />
@@ -362,7 +362,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Human\nHireling" />
+    <property name="Traits" value="Human&#10;Hireling" />
     <property name="Attr1" value="Reveal this card to add 2d8 to a Survival check.\nRecharge this card to reduce damage dealt to your by 3.&#10;Discard this card to explore your current location." />
     <property name="Attr2" value="Wisdom&#10;Survival" />
     <property name="Attr3" value="10" />
