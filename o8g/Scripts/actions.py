@@ -1146,7 +1146,7 @@ def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		local = findCardByName(table, 'Local Heroes')
 		if local is not None or card.Name == 'Death Zone': # This scenario is won when the last location is closed
-			open = [ card for card in table if isOpen(card) ]
+			open = [ c for c in table if isOpen(c) ]
 			if len(open) == 0:
 				gameOver()
 				notify("You have won ..... claim your reward")
@@ -1168,9 +1168,14 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	choice = askChoice("Was the villain ....", choices)
 	if choice is None or choice == 0:
 		return
+	
+	if villain.pile() is not None:
+		villain.link(None)
+		
 	if choices[choice-1] == 'Evaded':
 		shuffleCard(villain, x, y)
 		return
+		
 	if choices[choice-1] == 'Banished':
 		notify("{} banishes '{}'".format(me, villain))
 		returnToBox(villain)
