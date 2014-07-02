@@ -183,7 +183,7 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Undead" />
-    <property name="Attr1" value="Bury any card with the Magic trait during this encounter, unless that card would be banished." />
+    <property name="Attr1" value="Bury any card with the Magic trait played during this encounter, unless that card would be banished." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="17" />
    </card>

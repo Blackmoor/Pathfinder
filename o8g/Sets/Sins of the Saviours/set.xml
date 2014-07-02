@@ -549,7 +549,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+2; you may additionally discard this card to add another 1d12 with the Poison trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4. &#10;If you are proficient with weapons, you may discard this card to add 1d4+2 with the Poison trait to a combat check at another location." />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d10+2; you may additionally discard this card to add another 1d12 with the Poison trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4. &#10;If you are proficient with weapons, you may discard this card to add 1d4+2 with the Poison trait to a combat check at another location." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
     <property name="Attr3" value="10" />
    </card>
