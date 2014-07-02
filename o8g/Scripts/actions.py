@@ -1148,8 +1148,7 @@ def closePermanently(card, x=0, y=0):
 		if local is not None or card.Name == 'Death Zone': # This scenario is won when the last location is closed
 			open = [ c for c in table if isOpen(c) ]
 			if len(open) == 0:
-				gameOver()
-				notify("You have won ..... claim your reward")
+				gameOver(True)
 		return True
 	return False
 
@@ -1199,8 +1198,7 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	if len(open) == 0:
 		returnToBox(villain)
 		if closed:
-			gameOver()
-			notify("You have won ..... claim your reward")
+			gameOver(True)
 		else: # There are more villains left in the pile
 			notify("{} returns {} to the box".format(me, villain))			
 		return
@@ -1537,8 +1535,7 @@ def advanceBlessingDeck():
 		#If we are playing the adventure "Into the Eye" then there is no blessing deck
 		if findCardByName(table, "Into the Eye") is None:
 			# Out of time - the players have lost
-			gameOver()
-			notify("You have failed to complete the scenario in time")		
+			gameOver(False)	
 		return
 		
 	pile.top().moveTo(shared.piles['Blessing Discard'])
@@ -1559,25 +1556,29 @@ def advanceBlessingDeck():
 			returnToBox(c)
 			if c.Subtype == 'Ally':
 				died += 1
-		saved = [ c for c in shared.piles['Scenario'] ]
-		notify("You saved {} allies and lost {} allies".format(len(saved), died))
-		gameOver()
-		if len(saved) >= died:
-			notify("You won the scenario")
-			x = -300
-			for c in saved:
-				c.moveToTable(x, 0)
-				x += 32
-		else:
-			notify("You lost the scenario")
+		saved = len(shared.piles['Scenario'])
+		notify("You saved {} allies and lost {} allies".format(saved, died))
+		gameOver(saved >= died)
 			
-def gameOver():
-	cleanupGame()			
+def gameOver(won):
+	if won:
+		loot = [ c for c in shared.piles['Scenario'] ]
+		
+	cleanupGame()				
 	for p in getPlayers():
 		if p == me:
 			displayHand(me)
 		else:
-			remoteCall(p, "displayHand", [me])	
+			remoteCall(p, "displayHand", [me])
+			
+	if won:
+		x = -300
+		for c in loot:
+			c.moveToTable(x, 0)
+			x += 32
+		notify("You won the scenario")
+	else:
+		notify("You lost the scenario")
 		
 #Move all my cards back into my hand ordered by type
 def displayHand(who):
