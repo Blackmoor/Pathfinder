@@ -1694,7 +1694,7 @@
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Wizard" />
     <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it's a spell, you may put it in your hand.&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2)([ ] 3)([ ] 4) to your check to recharge a card.&#10;[ ] Add 2 to your Arcane check with the Force ([ ] or Acid and Cold) ([ ] or Electricity and Fire) trait(s).&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell." />
-    <property name="Attr2" value="Strength: d6&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9" />
    </alternate>
    </card>
@@ -1716,8 +1716,8 @@
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Wizard" />
     <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it's a spell, you may put it in your hand ([ ] or recharge it).&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2)([ ] 3)([ ] 4) to your check to recharge a card.&#10;[ ] If you play a spell to evade a monster, you may put the monster on the bottom of the deck.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell ([ ] or ally).&#10;[ ] At the start of your turn, you may discard a card to draw a card." />
-    <property name="Attr2" value="Strength: d6&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
-    <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9" />
+    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
    </alternate>
    </card>
    <card id="ed2db87f-75a0-4fde-96af-016ff59efd88" name="Harsk (Sniper)">
@@ -1898,7 +1898,7 @@
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
-    <property name="Attr1" value="You may evade your encounter ([ ] and may put the card on top of the deck).&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ]+1)([ ]+2)([ ]+3)([ ]+4) to your combat check, or discard it to add an additional 1d6.&#10;[ ] Add 2 to your noncombat check to close a location.&#10;[ ] Add 2 ([ ] 3) ([ ] 4) to your check to acquire an armor, item or weapon.&#10;[ ] When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it.&#10;[ ] You may use Charisma in place of any skill on any check to recharge an armor, item, or weapon with the Magic trait." />
+    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ]+1)([ ]+2)([ ]+3)([ ]+4) to your combat check, or discard it to add an additional 1d6.&#10;[ ] Add 2 to your noncombat check to close a location.&#10;[ ] Add 2 ([ ] 3) ([ ] 4) to your check to acquire an armor, item or weapon.&#10;[ ] When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it.&#10;[ ] You may use Charisma in place of any skill on any check to recharge an armor, item, or weapon with the Magic trait." />
     <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2, Disable+2, Stealth+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
@@ -1965,7 +1965,7 @@
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Fighter" />
-    <property name="Attr1" value="Add 1d4 ([ ]+1) ([ ]+2)([ ]+3) ([ ]+4) to another character's combat check at your location.&#10;When you play a weapon ([ ] or Armor), you may recharge it instead of discarding it.&#10;[ ] When another character at your location is dealt Combat damage, reduce that damage by 1 ([ ] 2).&#10;[ ] Add 2 ([ ] 4) to your check to acquire an armor.&#10;[ ] When you play a blessing to add to your Constitution check, add d12 instead of the normal die." />
+    <property name="Attr1" value="Add 1d4 ([ ]+1) ([ ]+2)([ ]+3) to another character's combat check at your location.&#10;When you play a weapon ([ ] or Armor), you may recharge it instead of discarding it.&#10;[ ] When another character at your location is dealt Combat damage, reduce that damage by 1 ([ ] 2).&#10;[ ] Add 2 ([ ] 4) to your check to acquire an armor.&#10;[ ] When you play a blessing to add to your Constitution check, add d12 instead of the normal die." />
     <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy+2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
@@ -2010,7 +2010,7 @@
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Wizard" />
     <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it's a spell, you may put it in your hand.&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2) to your check to recharge a card." />
-    <property name="Attr2" value="Strength: d6&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="6  [ ] 7  [ ] 8" />
    </alternate>
    </card>
