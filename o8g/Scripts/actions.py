@@ -891,9 +891,50 @@ def cardTypePile():
 	return pile, traits[choice-1]
 
 #---------------------------------------------------------------------------
+# Menu items - called to see if a menu item should be shown
+#---------------------------------------------------------------------------
+def isPile(cards):
+	for c in cards:
+		if c.pile() is None:
+			return False
+	return True
+
+def isLocation(cards):
+	for c in cards:
+		if c.Type != 'Location':
+			return False
+	return True
+
+def isVillain(cards):
+	for c in cards:
+		if c.Subtype != 'Villain':
+			return False
+	return True
+	
+def isBoon(cards):
+	for c in cards:
+		if c.Type != 'Boon':
+			return False
+	return True
+	
+def isBoxed(cards):
+	for c in cards:
+		if c.Type not in ('Boon', 'Bane', 'Feat'):
+			return False
+	return True
+	
+def hasDice(cards):
+	for c in cards:
+		count = 0
+		for die in [ d12, d10, d8, d6, d4 ]:
+			count += c.markers[die]
+		if count == 0:
+			return False
+	return True
+
+#---------------------------------------------------------------------------
 # Table card actions
 #---------------------------------------------------------------------------
-
 def exploreLocation(card, x=0, y=0):
 	mute()
 	if card.type != 'Location':
@@ -1017,7 +1058,10 @@ def banishCard(card, x=0, y=0): #Move to correct pile in box
 	if card.Subtype == 'Villain': # This is probably not what the player wanted to do
 		hideVillain(card, x, y, True)
 		return
-		
+	
+	if not isBoxed([card]):
+		return
+	
 	if card.pile() == shared.piles['Blessing Deck']:
 		if confirm("Are you sure?") != True: # This is unusual
 			return

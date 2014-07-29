@@ -22,7 +22,7 @@ def getPile(self):
 			return shared.piles[pileName]
 	return None
 	
-def isPile(self):
+def isAPile(self):
 	return len(getGlobalVariable(globalName(self))) > 0
 	
 def linkPile(self, pile):
@@ -45,7 +45,7 @@ def updatePile(self):
 #Event trigged by card movement - needs to be registered in your definition.xml
 def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):	
 	mute()
-	piles = [ c for c in table if c.controller == me and isPile(c) ]
+	piles = [ c for c in table if c.controller == me and isAPile(c) ]
 	for c in piles:
 		pile = getPile(c)
 		if player == me and toGroup == table and not isScriptMove and card.pile() is None and card.Type in [ 'Boon', 'Bane', '?' ]:	
