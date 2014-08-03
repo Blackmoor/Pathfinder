@@ -23,12 +23,6 @@
     <property name="Attr2" value="Strength: &#10;Dexterity: &#10;Constitution: &#10;Intelligence: &#10;Wisdom: &#10;Charisma: " />
    </alternate>
    </card>
-   
-<card id="3e685767-b0f0-4608-ba4d-4efa6ac383f9" name="Adowyn">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
   
 <card id="c2414567-7d8f-4657-8c49-ea63886561b6" name="Alahazra">
     <property name="Abr" value="O" />
@@ -53,21 +47,9 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
-   
-<card id="d43ed1bd-480a-4dd7-b48b-42bb019ba787" name="Crowe">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
   
 <card id="fb812675-d929-4dac-9fdb-03148c328d77" name="Damiel">
     <property name="Abr" value="O" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
-   
-<card id="3676669d-12f2-41d8-aa16-c21e737380ee" name="Enora">
-    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -80,12 +62,6 @@
    
 <card id="0537be81-971f-4f36-90a6-78c510cc179e" name="Feiya">
     <property name="Abr" value="O" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
-   
-<card id="c3c54b62-84a5-463f-bb45-31f08e8b47b0" name="Hakon">
-    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -104,18 +80,6 @@
    
 <card id="67cfd8ee-df23-455b-8d6f-a6d86e67b02f" name="Imrijka">
     <property name="Abr" value="O" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
-   
-<card id="09cb5158-00c7-457d-8760-ccd0954dc07d" name="Jirelle">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
-  
-<card id="33183cc6-f797-4b1e-a05d-7e0af54d4b90" name="Kess">
-    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -145,18 +109,6 @@
    </card>
    
 <card id="4632c480-525b-4e9d-a8ab-ff249979aad2" name="Merisiel">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
-   
-<card id="fb94e513-bf5c-439e-8b53-c8b2f2c26931" name="Oloch">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
-  
-<card id="7b1ee661-1710-4570-8a00-c5f8345fb523" name="Quinn">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
@@ -191,20 +143,8 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
-   
-<card id="287be37f-0ff5-43fd-855e-643fe4febd89" name="Shardra">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
   
 <card id="c1e43f04-d52d-46a0-b676-8f0bbf3a5079" name="Valeros">
-    <property name="Abr" value="B" />
-    <property name="Type" value="Character" />
-    <property name="Subtype" value="Token" />
-   </card>
-  
-<card id="e20b5397-c633-48a3-97b2-75ccf08d0733" name="Zadim">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
