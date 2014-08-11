@@ -4,13 +4,13 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.112.250"
-		version="2.0.0.0"
+		version="2.0.0.6"
 		markersize="10"
 		tags="Pathfinder"
 		description="In the Pathfinder Adventure Card Game, your party of adventurers races against time on a quest to defeat a dangerous villain. Each player has a deck of cards representing her character. In most scenarios, your characters explore a variety of locations as you try to hunt down the villain. You need to clean out or protect these locations so that you can corner the villain and defeat him before time runs out. As you play more games, you will complete scenarios, improve your deck, customize your character, and take on more and more powerful challenges."
 		setsurl="http://octgn.gamersjudgement.com/wordpress/pathfinder/"
 		gameurl="http://octgn.gamersjudgement.com/wordpress/pathfinder/"
-		authors="Memetix (card data by kcvocals)"
+		authors="Memetix, cartmanbeck, kcvocals"
 		iconurl="http://cf.geekdo-images.com/images/pic1775517_t.jpg"
 		usetwosidedtable="False">
   <scripts>
@@ -176,32 +176,41 @@
 	<group name="Location8" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False">
 	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
 	</group>
+	<group name="Fleet" visibility="none" ordered="True" width="63" height="88" icon="Resources/wheel.png" collapsed="False">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
 	<group name="Villain" visibility="all" ordered="True" width="63" height="88" icon="Resources/villain.png" collapsed="True" />
 	<group name="Henchman" visibility="all" ordered="True" width="63" height="88" icon="Resources/henchman.png" collapsed="False" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
-	<group name="Monster" visibility="all" ordered="True" width="63" height="88" icon="Resources/monster.png" collapsed="False" >
+	<group name="Monster" visibility="all" ordered="True" width="63" height="88" icon="Resources/monster.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
-	<group name="Barrier" visibility="all" ordered="True" width="63" height="88" icon="Resources/barrier.png" collapsed="False" >
+	<group name="Barrier" visibility="all" ordered="True" width="63" height="88" icon="Resources/barrier.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
-	<group name="Armor" visibility="all" ordered="True" width="63" height="88" icon="Resources/armor.png" collapsed="False" >
+	<group name="Armor" visibility="all" ordered="True" width="63" height="88" icon="Resources/armor.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
-	<group name="Weapon" visibility="all" ordered="True" width="63" height="88" icon="Resources/weapon.png" collapsed="False" >
+	<group name="Weapon" visibility="all" ordered="True" width="63" height="88" icon="Resources/weapon.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
-	<group name="Spell" visibility="all" ordered="True" width="63" height="88" icon="Resources/spell.png" collapsed="False" >
+	<group name="Spell" visibility="all" ordered="True" width="63" height="88" icon="Resources/spell.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
-	<group name="Item" visibility="all" ordered="True" width="63" height="88" icon="Resources/item.png" collapsed="False" >
+	<group name="Item" visibility="all" ordered="True" width="63" height="88" icon="Resources/item.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
-	<group name="Ally" visibility="all" ordered="True" width="63" height="88" icon="Resources/ally.png" collapsed="False" >
+	<group name="Ally" visibility="all" ordered="True" width="63" height="88" icon="Resources/ally.png" collapsed="True" >
+	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
+	</group>
+	<group name="Ship" visibility="all" ordered="True" width="63" height="88" icon="Resources/wheel.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
 	<group name="Loot" visibility="all" ordered="True" width="63" height="88" icon="Resources/loot.png" collapsed="True" />
+	<group name="Plunder" visibility="none" ordered="False" width="63" height="88" icon="Resources/skull.png" collapsed="False">
+	  <groupaction menu="Add" default="True" execute="addPlunder" />
+	</group>
 	<group name="Blessing" visibility="all" ordered="True" width="63" height="88" icon="Resources/blessing.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
 	</group>
@@ -234,6 +243,8 @@
 	<section name="Item" group="Item" />
 	<section name="Ally" group="Ally" />
 	<section name="Blessing" group="Blessing" />
+	<section name="Ship" group="Ship" />
+	<section name="Fleet" group="Fleet" />
 	<section name="Loot" group="Loot" />
 	<section name="Location" group="Location" />
 	<section name="Villain" group="Villain" />

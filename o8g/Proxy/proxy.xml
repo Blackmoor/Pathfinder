@@ -170,9 +170,6 @@
 		  <link block="CheckValueR">
 		   <property name="Attr8" />
 		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
-		  </link>
 		  <link block="Flavour">
 		   <property name="Flavour" />
 		  </link>
@@ -207,9 +204,6 @@
 		  </link>
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
-		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
 		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
@@ -258,9 +252,6 @@
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
-		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
 		  </link>
@@ -304,9 +295,6 @@
 		  </link>
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
-		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
 		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
@@ -352,9 +340,6 @@
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
-		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
 		  </link>
@@ -399,9 +384,6 @@
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
-		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
 		  </link>
@@ -445,9 +427,6 @@
 		  </link>
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
-		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
 		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
@@ -496,9 +475,6 @@
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
-		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
 		  </link>
@@ -545,9 +521,6 @@
 		  </link>
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
-		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
 		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
@@ -596,9 +569,6 @@
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
-		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
 		  </link>
@@ -645,9 +615,6 @@
 		  </link>
 		  <link block="CheckValueM">
 		   <property name="Attr3" />
-		  </link>
-		  <link block="Text">
-		   <property name="Attr1" />
 		  </link>
 		  <link block="CheckJoinR">
 		   <property name="Attr6" />
@@ -721,6 +688,96 @@
 		  <link block="Text">
 		   <property name="Flavour" />
 		   <property name="Attr1" format="&#10;&#10;When Closed&#10;{}" />
+		  </link>
+		</if>
+	  </conditional>
+	 </textblocks>
+  </template>
+  <template src="Proxy/Ship.jpg">
+	<matches>
+	  <match name="Type" value="Ship" />
+	  <match name="Subtype2" value="Front" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Type" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <conditional>
+		<if property="Copyright" contains="No">
+		  <link block="StatBlock">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="WhenClosing">
+		   <property name="Attr7"/>
+		  </link>
+		  <link block="WhenClosed">
+		   <property name="Attr8"/>
+		  </link>
+		</if>
+	  </conditional>
+	 </textblocks>
+  </template>
+  <template src="Proxy/Wreck.jpg">
+	<matches>
+	  <match name="Type" value="Ship" />
+	  <match name="Subtype2" value="Back" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Type" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <conditional>
+		<if property="Copyright" contains="No">
+		  <link block="StatBlock">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="WhenClosing">
+		   <property name="Attr7"/>
+		  </link>
+		  <link block="WhenClosed">
+		   <property name="Attr8"/>
 		  </link>
 		</if>
 	  </conditional>

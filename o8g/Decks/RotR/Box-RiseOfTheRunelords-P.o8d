@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Monster" shared="True">
+    <card qty="1" id="105c00b1-6f05-49f0-9fef-94f256930559">Grindylow</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="796b4fdf-3251-46c8-bdd8-6cff6d07c4c0">Dance with Squealy Nord</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="f2c48d59-07f0-4d98-9b5e-c3bc84ea9558">Horsechopper +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="b6c26b73-1882-446d-acb5-6f8f61221d9b">Fire Sneeze</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="b73bcd93-2376-4463-a22d-dcba2927d01e">Poog of Zarongel</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="1" id="f2aa27e7-a000-48b8-b981-4f100006e58f">Blessing of Zarongel</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="432183f3-52d6-402c-af34-0effcc7f9f7a">Goblin Plate +1</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="6def1053-007f-4e97-af0a-7686c5438757">Birdcruncher Crown</card>
+  </section>
+</deck>

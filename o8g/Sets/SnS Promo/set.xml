@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="SnS Promo" id="2c6fe2c8-0a35-4b7c-8cfb-75cb51ce0d28" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.0.0.0">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="SnS Promo" id="2c6fe2c8-0a35-4b7c-8cfb-75cb51ce0d28" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="2.0.0.0">
  <cards>
-   <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak">
-    <property name="Abr" value="P" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Male&#10;Goblin&#10;Raider" />
-    <property name="Flavour" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
-    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
-    <property name="Attr3" value="None" />
-   <alternate name="Ranzak" type="B">
-    <property name="Abr" value="P" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Character" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Male&#10;Goblin&#10;Raider" />
-    <property name="Attr1" value="If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
-    <property name="Attr3" value="7  [ ] 8  [ ] 9" />
-    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
-   </alternate>
-   </card>
    <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)">
     <property name="Abr" value="P" />
     <property name="Copyright" value="No." />
@@ -66,6 +45,27 @@
     <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="7  [ ] 8  [ ] 9  [ ] 10  [ ] 11" />
     <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Goblin&#10;Raider" />
+    <property name="Flavour" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="None" />
+   <alternate name="Ranzak" type="B">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Goblin&#10;Raider" />
+    <property name="Attr1" value="If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="7  [ ] 8  [ ] 9" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
  </cards>

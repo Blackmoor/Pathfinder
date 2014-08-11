@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True">
+    <card qty="1" id="6b4069c0-1cbb-4031-a943-673f8974af61">Shackles Pirate Ship</card>
+    <card qty="1" id="f4816e5d-bda6-4d3d-af1f-e046868e6669">The Abrogail's Fury</card>
+    <card qty="1" id="4747842e-dd22-4caa-ab00-308fbabfb44f">The Blood Moon</card>
+    <card qty="1" id="c6759af4-311b-47bf-8335-2fee0bb748ad">The Come What May</card>
+    <card qty="1" id="78fbec04-5fc5-46a5-b341-f77516a1b4aa">The Deathknell</card>
+    <card qty="1" id="e125dc0b-3640-4a09-9a4f-8035de64ef70">The Devil's Pallor</card>
+    <card qty="1" id="6671bd0e-4d23-4757-be79-84de37d854bf">The Dowager Queen</card>
+    <card qty="1" id="c3b9aca2-72e4-48fd-a23a-4ba78e29d41c">The Filthy Lucre</card>
+    <card qty="1" id="a2bc775a-6b3a-4d51-8709-7858fc810dd0">The Kraken</card>
+    <card qty="1" id="e728befb-f19b-46fb-95a7-eb6b663cc242">The Man's Promise</card>
+    <card qty="1" id="092b0871-3b0e-4497-adff-29bfbe35cbbb">The Sanbalot</card>
+    <card qty="1" id="80bfca02-784c-4c66-8872-e54cfb252851">The Sea Chanty</card>
+    <card qty="1" id="516de2ce-739c-41d6-b7b5-adc411a612d3">The Thresher</card>
+    <card qty="1" id="f69eefb0-dae8-44c5-8b6b-acfbc7c1f8c7">The Truewind</card>
+    <card qty="1" id="8d187afb-d21d-4d75-ab5b-d611bc1a407d">The Wanton Wastrel</card>
+    <card qty="1" id="6ba31994-ff73-424b-b2f2-5e48eb01b774">The Wavecrest</card>
+    <card qty="1" id="bce3da8a-405d-4a7a-8506-708cedfe5041">The Wormwood</card>
+  </section>
+  <section name="Fleet" shared="True">
+    <card qty="1" id="5cd413a0-1a78-4eb1-8071-a2507ba880ad">Merchantman</card>
+  </section>
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

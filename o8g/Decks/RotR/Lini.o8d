@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Character" shared="False">
+    <card qty="1" id="5fa1844b-6b8c-4066-8758-c1954b797a58">Lini</card>
+    <card qty="1" id="b287972f-428e-4495-9390-9ef911a18a11">Lini</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False">
+    <card qty="2" id="51fb7b2e-c2f9-422e-83a7-acba06b12f5d">Cure</card>
+    <card qty="1" id="0b65c9b2-d654-4dd4-983d-770c0a0c9fa2">Detect Magic</card>
+    <card qty="1" id="7815f608-3589-44c5-862a-4c5c63569c08">Guidance</card>
+    <card qty="1" id="b0e1c65e-f3e4-4ef9-8274-c46749cd0f00">Sanctuary</card>
+    <card qty="1" id="5adeb9c8-e3e4-4c00-b158-c167a1ba090b">Strength</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="3030c9df-fc73-42de-b701-187041ad4a35">Sage's journal</card>
+    <card qty="1" id="8f68c6bf-b2ff-4236-b219-74e2233dfaac">Potion of Fortitude</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="2dc07046-33eb-4826-9eab-4bf20dd24ab7">Crow</card>
+    <card qty="2" id="f68e9a93-8070-4023-805b-8d55b2229ef0">Dog</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="2" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+    <card qty="2" id="858babfc-6813-4228-b5d5-8c7b08e03674">Blessing of the Gods</card>
+  </section>
+</deck>

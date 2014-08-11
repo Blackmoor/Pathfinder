@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Story" shared="True">
+    <card qty="1" id="bff03572-13a9-4444-9fd1-61d1b7ecbe76">The Hook Mountain Massacre</card>
+    <card qty="1" id="f29b626b-28ed-49c1-990a-c5a7f5356f18">Battle at the Dam</card>
+    <card qty="1" id="453881fa-0207-43a5-9333-d2c28e0ff916">Here Comes the Flood</card>
+    <card qty="1" id="d4f13ef0-e9a3-4570-92f7-4908dccac5de">Into the Mountains</card>
+    <card qty="1" id="29d59be1-5bd2-4c64-90b3-1299944ea61c">The Fort in Peril</card>
+    <card qty="1" id="e6857fb7-038e-4c29-a4cb-e2bf0c66292a">Them Ogres Ain't Right</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="6f439e8e-b25e-46fc-aa52-8aad60c90c42">Magic Full Plate</card>
+    <card qty="2" id="d2436cc1-7ec3-42b2-96ab-818844dc1ac5">Magic Studded Leather Armor</card>
+    <card qty="1" id="913814ca-f798-49a7-bd1e-5b16d4fd874a">Spiny Shield</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="2" id="0b45133d-f1d8-4298-a247-658a0e568a16">Frost Longbow +1</card>
+    <card qty="2" id="ac66ebb2-f4b8-417c-acbc-9fbed22965f8">Longsword +2</card>
+    <card qty="2" id="eeab59df-7c62-4c9f-a7c4-4815af452e6e">Venomous Dagger +2</card>
+    <card qty="2" id="11933c88-02c2-4165-8f3e-df6abd65015b">Vicious Trident +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="cf904956-e6a9-4679-8c80-3fcce256d7e8">Incendiary Cloud</card>
+    <card qty="2" id="8c004d70-f543-4dd8-a37e-29499ead26bc">Major Cure</card>
+    <card qty="2" id="a8fbc087-c9d9-4b90-80ea-4a896f4b1b14">Scrying</card>
+    <card qty="2" id="20801c15-eef7-45dd-bbde-17314d3deaea">Swipe</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="2" id="392a6385-e962-4d44-8b34-045e65eb0c48">Belt of Giant Strength</card>
+    <card qty="2" id="88907730-318d-4a2d-8f89-3aa5f0275829">Belt of Incredible Dexterity</card>
+    <card qty="2" id="75137767-4ffa-4f06-af88-0c4ab537a1a7">Headband of Alluring Charisma</card>
+    <card qty="2" id="57441174-4adc-4d72-8ea5-e4c44a2e1a85">Wand of Scorching Ray</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="3" id="7258dc9a-7f64-48b0-8edd-f7bb8f83f8e3">Black Arrow Ranger</card>
+    <card qty="2" id="182fc68d-b500-48cb-a5fe-fa916953ae7b">Cat</card>
+    <card qty="1" id="720326ae-dc54-461a-af12-7091feb9038d">Giant Badger</card>
+    <card qty="1" id="a169de35-643f-4a6a-a2a5-ca9bf4d936ba">Jakardros Sovark</card>
+    <card qty="1" id="86e29c64-d705-4489-a9b8-793526a74764">Monkey</card>
+    <card qty="1" id="acd25232-78e6-46a3-8ca4-1b5aed89c653">Vale Temros</card>
+    <card qty="1" id="09f18db7-e2b0-453b-8925-b17bc9b44dcb">Yap the Pixie</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="bc846e4d-3204-44b6-8ffa-e2f98ece3827">Blessing of Norgorber</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="3d12b383-a46c-4bfe-8c82-e06018230546">Headband of Vast Intelligence</card>
+    <card qty="1" id="a4d912fd-e922-489a-a3a3-8a3d07043280">Sihedron Medallion</card>
+    <card qty="1" id="a3f1b13e-993b-45d2-a55d-857914c5344f">Wand of Enervation</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Henchman" shared="True">
+    <card qty="1" id="eb75e7d0-3ca5-4c92-a13e-40079584ba83">Crowfood Graul</card>
+    <card qty="1" id="93320c1a-c5af-4471-b5c9-53a4c420447a">Dorella and Hookmaw Kreeg</card>
+    <card qty="5" id="1041ca1f-a3f5-49e8-a0b8-a94bc1bbe4ec">Graul Ogrekin</card>
+    <card qty="5" id="9923d8eb-5ffa-4e9e-8797-bf0903a8a281">Hook Mountain Hag</card>
+    <card qty="1" id="172615de-4f19-486a-95a3-e1826202f9f4">Kaven Windstrike</card>
+    <card qty="7" id="704ab879-0e38-40ee-86da-4f37763bbd39">Kreeg Ogre</card>
+    <card qty="1" id="7248a906-4067-49dd-966f-7c4b5e7d151f">Lamatar Bayden</card>
+    <card qty="1" id="f0f8ea90-bfc4-40a7-afa6-6cad0fee7bcf">Lucrecia</card>
+    <card qty="1" id="26a93980-fc15-43ee-aea0-0b1bad42ee3d">Lunderbud</card>
+    <card qty="8" id="f261d5d9-1c2a-4549-bb3c-86cc06b06d1b">Nightbelly Boa</card>
+    <card qty="1" id="277b5a0f-9463-43ba-a795-bfd3e03cbe3b">Ruckus Graul and Hound</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="f89a601b-2b37-48f0-b3ea-acac552e0813">Donkey Rats</card>
+    <card qty="1" id="38b748a4-96d0-49be-b5fc-22d41441af30">Grazuul</card>
+    <card qty="1" id="9cc1da6e-6127-4417-acea-8c29cce8da72">Hag</card>
+    <card qty="1" id="c1b09c59-f5f2-4263-8be5-3dbee7afac74">Muck Graul</card>
+    <card qty="1" id="10d27ef3-a096-411c-863c-1b746f95b70f">Myriana</card>
+    <card qty="2" id="397fe54c-8d79-48f0-ae2b-dae47f3da5c0">Ogre</card>
+    <card qty="2" id="e961decc-6296-4925-8f3a-fea25b6d0a72">Ogrekin</card>
+    <card qty="1" id="b989d27d-7f3f-4069-9dbb-c15e7e27b626">Skullripper</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="8d3f16a4-b991-4728-a65d-54a63c887010">Cryptic Message</card>
+    <card qty="2" id="9cd451d5-95e9-452e-be53-1455c2a9accb">Door Spike</card>
+    <card qty="2" id="cfe7246b-2457-4ae7-9fff-9ae23292eb1c">Hand Chopper</card>
+    <card qty="1" id="c0d8b158-f9da-4951-9a3c-4a289f764b51">Ranger Stash</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="4b104f23-5a3c-4adb-90eb-886abde2380e">Dam</card>
+    <card qty="1" id="5b5b74d8-9070-4b3d-8e2a-07d87537e363">Fort Rannick</card>
+    <card qty="1" id="0cfacb98-9fe4-4465-a114-c93d30626843">Shimmerglens</card>
+    <card qty="1" id="12667c01-ac1f-4860-9071-b3777162cb22">Turtleback Ferry</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="c681814d-ccb8-42df-b011-1122f26bca8a">Barl Breakbones</card>
+    <card qty="1" id="51aa45c2-6d16-4a5a-877f-d37c646d73e4">Black Magga</card>
+    <card qty="1" id="fbb96632-85a9-4dde-b873-915bb9684177">Jaagrath Kreeg</card>
+    <card qty="1" id="20670550-0fe5-4f40-8409-b5dd77b47402">Malugus Kreeg</card>
+    <card qty="1" id="97f35e8d-6178-406e-99f8-0c60919de0d6">Mammy Graul</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

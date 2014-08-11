@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+  <section name="Story" shared="True">
+    <card qty="1" id="134dd6cc-b6d3-4d60-b68d-6f9909e6ac6a">Burnt Offerings</card>
+    <card qty="1" id="da60c33c-8d95-4ea3-9001-732073638258">Approach to Thistletop</card>
+    <card qty="1" id="fcfb5061-a689-4990-bb35-66e8134b6504">Attack on Sandpoint</card>
+    <card qty="1" id="96d6b7eb-bb39-48a7-ab35-f624dfd8cef8">Local Heroes</card>
+    <card qty="1" id="50cb1b70-bb25-4da5-9b7a-459197016732">Thistletop Delve</card>
+    <card qty="1" id="a14b46a3-924a-4bcb-b28d-934e426251ee">Trouble in Sandpoint</card>
+    <card qty="1" id="29567d57-9cc5-4cc5-8d72-9770d0ea5f34">Rise of the Runelords</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="71940a21-9ffa-475a-9b0e-40f3d4b55313">Bruthazmus</card>
+    <card qty="6" id="b66ff82b-b883-4598-b57a-2362557b7be0">Goblin Raider</card>
+    <card qty="1" id="22f23eff-25c2-47a5-9215-8d0d3b44031b">Koruvus</card>
+    <card qty="1" id="ae70afbd-4f91-469a-98a8-ca14cea5b9af">Lyrie Akenja</card>
+    <card qty="1" id="e08b72e6-33c3-481d-8114-8c2bfbb4b8e8">Orik Vancaskerkin</card>
+    <card qty="1" id="0aad5534-68b6-4f18-b108-64a325a95e19">Tangletooth</card>
+    <card qty="1" id="6be101cb-83b5-4d6a-aa45-6d3270c90957">Tsuto Kaikitsu</card>
+    <card qty="6" id="0650fe9d-a57b-489e-ae4a-498809631752">Wrathful Sinspawn</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="f023d332-d741-4bde-bcfd-3e8a8389ff50">Attic Whisperer</card>
+    <card qty="1" id="3844666e-8d59-4947-adec-8e937ac6891a">Giant Hermit Crab</card>
+    <card qty="2" id="14222cb6-c5e1-4183-8cc1-c7c901e18cb0">Goblin Cutpurse</card>
+    <card qty="2" id="49066149-9aeb-411d-a7a0-454feb20c1dd">Goblin Dog</card>
+    <card qty="3" id="e0c414d5-9219-4eb6-b2d4-342692df30d2">Goblin Pyro</card>
+    <card qty="2" id="450f1c2d-d0e5-4fd5-928f-e5e5b36f0181">Goblin Snake</card>
+    <card qty="3" id="74c24cf9-71df-4bd9-a5b6-051c413ddb16">Goblin Warchanter</card>
+    <card qty="2" id="ab5a07c2-4fe0-4f5f-a1d9-70e25791a18e">Tickwood Boar</card>
+    <card qty="2" id="39d7abb9-0637-4b9b-8b83-55c0cf6f802f">Yeth Hound</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="9161cc3d-94d0-4399-88ae-3ae61e39a79c">Goblin Raid</card>
+    <card qty="1" id="87c9f50c-20d5-46c1-b0c0-2c9719df9807">Monster in the Closet</card>
+    <card qty="1" id="c650d6b7-05b0-4624-a99f-47f327c2bc17">Pit of Malfeshnekor</card>
+    <card qty="1" id="da754d2c-6969-488f-b9a3-ba7cb1322f90">Shopkeeper's Daughter</card>
+    <card qty="2" id="447f7189-c3a5-4433-95e5-9137e580d017">Slashing Blade</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="3fbdd615-f495-486f-aae9-28bd8c01d2eb">Bastard Sword +1</card>
+    <card qty="2" id="db27344a-66f1-4851-8d0c-5f7a2cb77288">Dagger +1</card>
+    <card qty="2" id="aca4db7b-04a9-42a4-b4da-436e681cb510">Dogslicer</card>
+    <card qty="1" id="8590f3ee-fe9a-40eb-aefc-4ba75a089743">Dogslicer +1</card>
+    <card qty="2" id="ea0b61af-124d-492f-b754-51f48c047c13">Longbow +1</card>
+    <card qty="2" id="cc48f2f2-970d-4c6e-ba56-6898685b3618">Short Sword +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="fdea7274-9050-4738-b3ef-469fed526f80">Enfeeble</card>
+    <card qty="2" id="659f1f14-80c6-4ae8-8021-489f3ce12f34">Fiery Weapon</card>
+    <card qty="2" id="eb0cb247-20a9-4f2a-b2f4-309fc39d8832">Frost Ray</card>
+    <card qty="2" id="d5f74302-1839-468c-90b8-12cb1b230d55">Scorching Ray</card>
+    <card qty="2" id="09c87b7e-a396-405b-a40f-9a666fade242">Speed</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="2" id="c7e48913-6709-42df-8560-6b0bbd7ba653">Potion of Gracefulness</card>
+    <card qty="2" id="341ace1e-9183-4640-88ad-8ed15098b4a5">Potion of Ruggedness</card>
+    <card qty="2" id="e856088b-1cb8-4290-b0c1-51c35b595322">Staff of Minor Healing</card>
+    <card qty="2" id="c2871f12-4d04-4da2-99a0-43c676586603">Wand of Force Missile</card>
+    <card qty="2" id="503e87e1-213b-4fb3-b576-3c415cfec9e1">Wand of Shield</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="b9639dfb-fe21-4c88-b3b8-5fb007b58d0b">Aldern Foxglove</card>
+    <card qty="1" id="840c80f8-0bb8-44d3-a426-c3cec2d848b5">Ameik Kaijitsu</card>
+    <card qty="1" id="9d9a5b19-8f58-46e6-8858-0bce3e760bd7">Cyrdak Drokkus</card>
+    <card qty="2" id="09ce2557-7fae-4e8d-add9-0a4116a7d345">Grizzled Mercenary</card>
+    <card qty="1" id="5695d847-70de-4bfb-a027-2f1fcb2051ab">Ilsoari Gandethus</card>
+    <card qty="2" id="d710ec7f-aa64-4eb4-a0a5-6681fccb7be4">Toad</card>
+    <card qty="1" id="9866fa1b-3588-4735-8519-f11cc6604dc3">Ven Vinder</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="f85d8124-fc9d-4eef-883e-3005cb8744df">Elven Breastplate</card>
+    <card qty="1" id="a3a81065-ed44-45f8-8d98-d6b179304d0e">Elven Chain Shirt</card>
+    <card qty="1" id="5aa2b45b-eb0e-4a9b-9c7c-e6fcb52f4875">Shield of Fire Resistance</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="76a26ea3-ab46-43a0-8f7d-13857f0e2e82">Blessing of Lamashtu</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="9246a66c-4a98-4fcd-87dd-81daddb3439a">Sihedron  Medallion</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="6e41db4f-9734-4858-ad84-e885fcf74a7c">Catacombs of Wrath</card>
+    <card qty="1" id="ae67dbb5-0069-411d-9b1a-d8c113cbab36">Glassworks</card>
+    <card qty="1" id="99082528-31cf-4387-b006-45d7eb1955f2">Goblin Fortress</card>
+    <card qty="1" id="9dc8ceab-047b-42fa-9d20-373f853651fa">Junk Beach</card>
+    <card qty="1" id="d583c203-1126-4563-a4f5-9a33b80e497d">Nettlemaze</card>
+    <card qty="1" id="bda50362-42c0-4e27-95aa-0aff53e6d1f9">Swallowtail Festival</card>
+    <card qty="1" id="1d22a9b7-835e-42c4-bb48-5bbe175f9ac8">The Rusty Dragon</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="a8133420-aa43-488d-ae53-097072b82546">Erylium</card>
+    <card qty="1" id="ce878fc5-7aa3-4078-b4de-cb2382cf7ecd">Gogmurt</card>
+    <card qty="1" id="ae60ab9e-0856-45d1-84af-65fc1521a716">Nualia</card>
+    <card qty="1" id="ac29afbc-092b-4e33-8487-ee3fae36c816">Ripnugget and Stickfoot</card>
+    <card qty="1" id="0afb6174-3ba5-4f52-9ecd-05d225f4444e">The Sandpoint Devil</card>
+  </section>
+</deck>

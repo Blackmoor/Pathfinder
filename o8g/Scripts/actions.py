@@ -43,10 +43,10 @@ def shuffle(pile, synchronise=False):
 	notify("{} shuffles '{}'".format(me, pile.name))
 	
 #Return the default x coordinate of the players hero
-#We Leave space for 4 piles (Adventure Path, Adventure, Scenario, Blessings) then place the characters
+#We Leave space for 5 piles (Adventure Path, Adventure, Scenario, Ship, Blessings) then place the characters
 def PlayerX(player):
-	room = int(BoardWidth / (len(getPlayers()) + 4))
-	return  room*(player+4) - room/2 - 32 - BoardWidth/2
+	room = int(BoardWidth / (len(getPlayers()) + 5))
+	return  room*(player+5) - room/2 - 32 - BoardWidth/2
 
 def LocationX(i, nl):
 	room = int(BoardWidth / nl)
@@ -465,12 +465,17 @@ def deckLoaded(player, groups):
 	if player != me:
 		return
 		
-	isShared = False	
+	isShared = False
+	isFleet = False
 	for p in groups:
+		if p.name == 'Fleet':
+			isFleet = True
 		if p.name in shared.piles:
 			isShared = True
-			break
 	
+	if isFleet: # Place random ship from fleet deck onto the table
+		shared.piles['Fleet'].random().moveToTable(PlayerX(-1), StoryY)
+		
 	if not isShared: # Player deck loaded
 		playerSetup()
 	
@@ -763,7 +768,7 @@ def pickScenario(group=table, x=0, y=0):
 		adventures.append("None")
 	else:
 		path = findCardByName(shared.piles['Story'], paths[choice-1])
-		path.moveToTable(PlayerX(-3),StoryY)
+		path.moveToTable(PlayerX(-4),StoryY)
 		rise = path.Name == 'Rise of the Runelords'
 		flipCard(path)
 		loaded = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
@@ -779,7 +784,7 @@ def pickScenario(group=table, x=0, y=0):
 		scenarios = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Scenario' ]
 	else:
 		adventure = findCardByName(shared.piles['Story'], adventures[choice-1])
-		adventure.moveToTable(PlayerX(-2), StoryY)
+		adventure.moveToTable(PlayerX(-3), StoryY)
 		if rise:
 			if num(adventure.Abr) >= 3:
 				setGlobalVariable("Remove Basic", "1")
@@ -797,7 +802,7 @@ def pickScenario(group=table, x=0, y=0):
 		choice = askChoice("Choose Scenario", scenarios)
 	if choice > 0:
 		scenario = findCardByName(shared.piles['Story'], scenarios[choice-1])
-		scenario.moveToTable(PlayerX(-1),StoryY)
+		scenario.moveToTable(PlayerX(-2),StoryY)
 		scenarioSetup(scenario)
 
 def nextTurn(group=table, x=0, y=0):
@@ -1316,6 +1321,18 @@ def shufflePile(group, x=0, y=0): # Most piles use this
 	if len(group) == 0: return
 	shuffle(group)
 	
+def addPlunder(group, x=0, y=0):
+	mute()
+	options = [ 'weapon', 'spell', 'armor' , 'item', 'ally' ]
+	choice = int(random()*6)
+	if choice >= 5:
+		choice = askChoice("Plunder Type", options)
+		if choice is None or choice == 0:
+			return
+		choice -= 1
+	notify("{} adds {} to {}".format(me, options[choice], group.name))
+	shared.piles[options[choice]].random().moveTo(group)
+	
 #---------------------------------------------------------------------------
 # Hand Group Actions
 #---------------------------------------------------------------------------
@@ -1511,7 +1528,7 @@ def scenarioSetup(card):
 				villain.moveTo(hidden)
 	# Some adventures set the villain aside
 	if villain is not None and card.Name in ('Here Comes the Flood', 'The Road through Xin-Shalast'):
-		villain.moveToTable(PlayerX(-3),StoryY)
+		villain.moveToTable(PlayerX(-4),StoryY)
 		villain.link(shared.piles['Special'])
 			
 	debug("Hide Henchmen '{}'".format(card.Attr3))
