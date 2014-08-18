@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="SaS Character Add On" id="8f94e41b-6cc3-4318-b341-0a8bbf96e9fe" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="2.0.0.0">
+ <cards>
+   <card id="175edc02-0529-4401-a6a9-dd4d23f4723f" name="Acolyte">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="01c40429-3e99-4a63-9d27-7e70782aaa43" name="Besmaran Priest">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="49ac4644-8e9e-46d9-b573-8ac4c7a381ea" name="Captain">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="e94c9927-a928-4d0c-9455-edccf95611dc" name="Carver">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="6963f088-1023-42fb-95b4-ce280ffc1bc3" name="Deckhand">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="ee25fa34-84d2-467b-8025-e814363b2698" name="Dodo">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="10b51c8c-e971-4cf1-930b-927ae7a09d2f" name="Dolphin">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="689313e7-e8de-4c24-bca5-8635b99fe890" name="Dwarf Caiman">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="a8e99ea8-6a99-440f-8408-1c0f194ffa37" name="Fox">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="03424b4f-1fb3-4298-a99f-da345f184276" name="Joseph &quot;Jack&quot; Scrimshaw">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="746f5f8e-0c7a-4844-9224-14896bbd358b" name="Lookout">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="68bfbb45-0837-4e48-b26e-1af472cd9dd2" name="Master-at-Arms">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="9cf3e037-1cde-4a0b-973f-db5345fda063" name="Old Salt">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="a81e2715-e711-446e-be4e-49f800451850" name="Parrot">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="0dd4fd9b-4854-41fa-873b-42e9aeb4c9db" name="Quartermaster">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="d27a0c8b-29c6-4770-bef3-45a97e2cf0f0" name="Sailor">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="099d8313-89de-489a-ac42-dbd7ca2485fd" name="Snow Leopard">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="09a999f6-b1bd-4afa-ae06-ea1efce038be" name="Chain Mail">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="29e3599e-44ab-4a99-97df-9f8869daa6fc" name="Cloth Armor">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="241cc360-3d35-4667-9c6c-f667ac3b19ea" name="Leather Armor">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="83bf968c-2aff-4f95-91e4-eb9a34e9a151" name="Magic Chain Shirt">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="ab00bfc3-99ba-4a03-802f-72d73d28e686" name="Wooden Armor">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="19b59840-9ff2-4b70-b9fc-3beb9dba5182" name="Blessing of Abadar">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="b3c20667-b9ef-4a8d-bb3c-17195a6dfe2e" name="Blessing of Achaekek">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="17293f13-d7d1-41bb-91c4-03407ae5ccdd" name="Blessing of Cayden Cailean">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="7e526ffd-fde4-4262-b960-5acc5e4b3fe1" name="Blessing of Erastil">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="a4fde4e8-94ac-4442-a040-2e207318543f" name="Blessing of Gorum">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="d667d30c-513e-4e78-9b9c-589faaa702df" name="Blessing of Gozreh">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="cf2bfa73-bf80-4ab3-abdc-ae0220c1e23a" name="Blessing of Milani">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="0e36a163-f288-45ab-9132-303acc4d78f5" name="Blessing of Pharasma">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="815581b9-50a6-486a-89f3-b87fc74cae11" name="Blessing of Sivanah">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="df69712b-41b8-490a-9905-1bbc739de908" name="Blessing of the Gods">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="44fd2a22-1b27-45a7-8637-8b916d13169c" name="Alchemist's Fire">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="3acfbf5b-5026-4360-9db9-db0978bc9832" name="Blast Stone">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="b1eeda38-a947-4394-8e2b-802a8ca5196c" name="Eye Patch">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="1cb2ac35-28a4-415a-bf72-9cc35c73d85d" name="Noxious Bomb">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="cab60814-984c-48d0-9bbc-085596178dde" name="Potion of Healing">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="2f2a0743-a5c4-4e2f-8502-e268da4e33e1" name="Potion of Lucubration">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="dc0a6838-2882-40e4-ba27-03dbeb3f3f09" name="Powder Horn">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="0a6f0a68-4885-48f4-b564-1b166a55a5f0" name="Rum Bottle">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="cb17f62c-fae7-4d9d-b546-e779e8f1e089" name="Tot Flask">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="6d0a4d03-7867-457c-bad1-230972a1f409" name="Arcane Armor">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="609d0868-c9b0-4a54-b8e4-434f00fc3378" name="Buoyancy">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="c274a404-d2a9-4588-9ed0-c25ab43ad617" name="Charm Animal">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="06e503a6-f081-4e80-81d7-ea454de671c7" name="Cure">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="51a3b576-90dd-4be0-8b7e-00e60ef0b440" name="Fireblade">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="6310bcef-1b56-4246-9353-42311de2ebae" name="Frostbite">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="34f17dd5-4d72-4687-9311-0583cbf060e8" name="Inflict">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="af9177a9-42eb-4eab-8857-9d5668ab4c42" name="Instant Armor">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="54487ad2-821d-4cfb-b2e0-cc0a95c5ae5b" name="Phantasmal Minion">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="cbadc005-6e2a-4750-a4e1-d4a2e7e9a63c" name="Boarding Axe">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="c14a58f3-4d2c-4c59-baad-f831d734be9f" name="Boarding Pike">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="a93a56e2-d9f9-4757-b824-715dadf1353d" name="Cutlass">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="c533b151-b7f5-441f-80d6-0184ed3bdd6f" name="Cutlass +1">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="cc6cad79-2694-41de-ac9e-0b056391b12d" name="Harpoon">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="c14d4234-9524-49d5-b31e-af41beb44700" name="Longsword">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="e087f702-8cae-4018-852f-9c4ab94de20e" name="Pistol">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="669ce025-a853-4206-a34e-549c7e54d9ff" name="Pistol +1">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="61f0a314-2fa8-4394-86fe-7fe0599c6454" name="Rapier">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="83089fd9-b1af-41c3-85d0-4d4ee717e4a9" name="Damiel (Chirurgeon)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="These alchemists study anatomy and use that knowledge to heal.&#10;&#10;The possibilities of alchemy have always fascinated the alchemist Damiel. Delving deep into the ancient elixirs and formulas of Kyonin, his research took a daring turn when he started using himself as a test subject. Following a spate of unsolved crimes, Damiel was banished from his elven homeland. Wandering the world has only deepened his thirst for knowledge, giving him ample opportunities to fuel his addiction to ever-greater secrets." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2  [ ] 3&#10;Spell: 2 [ ] 3 [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 6  [ ] 7  [ ] 8  [ ] 9&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Damiel (Chirurgeon)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may discard a card to add 1d6 ([ ] +1)([ ] +2) and the Poison or Fire trait to any combat check made at your location; If the discarded card has the Alchemical ([ ] or Healing) trait, add an additional 1d6.&#10;When you would banish a card with the Alchemical trait, recharge it instead.&#10;When you play a spell that does not have the Attack trait, you gain the skills Arcane and Divine equal to your Craft skill until the end of the step.&#10;[ ] When you acquire a boon that has the Alchemical or Liquid ([ ] or Healing) ([ ] or Fire or Poison) trait, you may immediately explore again.&#10;[ ] You may recharge an item that has the Alchemical trait to add 1d4 to your check.&#10;[ ] When you reset your hand, you may discard any number of cards to increase your hand size by that number until the end of your turn." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3 [ ]+4&#10;  Disable: Dexterity +2&#10;  Ranged: Dexterity +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d10  [ ] +1 [ ] +2 [ ] +3 [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: d6   [ ] +1&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="ee14c0ee-709a-437d-a1f4-cd6c21bb1742" name="Damiel (Grenadier)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="In the hands of a grenadier, anything's a bomb... especially a bomb.&#10;&#10;The possibilities of alchemy have always fascinated the alchemist Damiel. Delving deep into the ancient elixirs and formulas of Kyonin, his research took a daring turn when he started using himself as a test subject. Following a spate of unsolved crimes, Damiel was banished from his elven homeland. Wandering the world has only deepened his thirst for knowledge, giving him ample opportunities to fuel his addiction to ever-greater secrets." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2  [ ] 3&#10;Spell: 2 [ ] 3 [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 6  [ ] 7  [ ] 8  [ ] 9&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Damiel (Grenadier)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may discard a card to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) and the Poison or Fire ([ ] or Acid, Cold, Electricity, or Mental) trait to any combat check made at your location; If the discarded card has the Alchemical trait, add an additional 1d6 ([ ] 1d12).&#10;When you would banish a card with the Alchemical trait, recharge it instead.&#10;When you play a spell that does not have the Attack trait, you gain the skills Arcane and Divine equal to your Craft skill until the end of the step.&#10;[ ] When you acquire a boon that has the Alchemical or Liquid ([ ] or Firearm) trait, you may immediately explore again.&#10;[ ] When you succeed at a Craft check, you may examine the top card of your deck; if it is an item, you may add it to your hand." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3 [ ]+4&#10;  Disable: Dexterity +2&#10;  Ranged: Dexterity +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d10  [ ] +1 [ ] +2 [ ] +3 [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: d6   [ ] +1&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="358ba300-5abd-4988-8695-e488289b510a" name="Feiya (Hexer)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Hexers manipulate luck to their will. Around hexers, the only predictable thing is unpredictability.&#10;&#10;Claimed by witches in the frozen reaches of Irrisen, young Feiya witnessed untold terrors as she learned her captors' craft. Her freedom eventually came with the help of an unlikely liberator, a wise fox who helped her elude the witches' pursuit. Now free to choose her own path, Feiya travels where she pleases, joined by her vulpine companion Daji. Although she's still baffled by some aspects of civilized life, her eerie magics help her overcome nearly any challenge." />
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9  [ ] 10&#10;Armor: -&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Spell" />
+   <alternate name="Feiya (Hexer)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When any character at your location attempts a check to acquire a spell or defeat a monster ([ ] or barrier), you may recharge a card to reduce the difficulty of that check by 1 ([ ] 2) ([ ] 3) plus the adventure deck number of the recharged card, if any.&#10;You may discard an ally that has the Animal trait ([ ] or any ally) to return a spell from your discard pile to your hand.&#10;[ ] When you would shuffle a non-henchman, non-villain monster you encountered into a location deck, you may exchange it with a random monster from the box.&#10;[ ] When you succeed at a Craft check ([ ] or play a spell that has the Arcane trait), you may examine the top card of your deck; if it's a spell ([ ] or ally), you may add it to your hand.&#10;[ ] When you play Blessing of Pharasma, or you play any blessing on any check to acquire an ally, you may recharge it instead of discarding it." />
+    <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9" />
+    <property name="Attr4" value="None" />
+   </alternate>
+   </card>
+   <card id="e8cca8bc-aec8-40d6-b8de-218082b1e277" name="Feiya (Sea Witch)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Sea witches draw magic from the oceans, the winds, and the moon above. &#10;&#10;Claimed by witches in the frozen reaches of Irrisen, young Feiya witnessed untold terrors as she learned her captors' craft. Her freedom eventually came with the help of an unlikely liberator, a wise fox who helped her elude the witches' pursuit. Now free to choose her own path, Feiya travels where she pleases, joined by her vulpine companion Daji. Although she's still baffled by some aspects of civilized life, her eerie magics help her overcome nearly any challenge." />
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9  [ ] 10&#10;Armor: -&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Spell" />
+   <alternate name="Feiya (Sea Witch)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When any character at your location attempts a check to acquire a spell or defeat a monster ([ ] or barrier), you may recharge a card to reduce the difficulty of that check by 1 ([ ] 2) plus the adventure deck number of the recharged card, if any.&#10;You may discard ([ ] or recharge) an ally that has the Animal trait to return a spell from your discard pile to your hand.&#10;[ ] You may discard a card to evade a bane that has the Aquatic trait ([ ] and you may put the bane on top of the deck).&#10;[ ] You may recharge a card to add 2d4 to your Fortitude ([ ] or Survival) check.&#10;[ ] When you close a location, you may move.&#10;[ ] When you play Blessing of Hshurha, or you play any blessing on any check to defeat a bane that has the Aquatic trait, you may recharge it instead of discarding it." />
+    <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9" />
+    <property name="Attr4" value="None" />
+   </alternate>
+   </card>
+   <card id="fec143ed-5f38-439f-a93b-bda03e73a937" name="Lini (Aquamancer)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="These druids command the animals of the sea.&#10;&#10;Lini has always had a way with wild creatures. More than once, her enclave was threatened by some great beast, yet each time, she soothed it and sent it on its way. As an adult, she chose to leave her druidic fellows behind to protect the wild places of the world. Since then, Lini has collected more than a dozen sticks, one from each of the forests she has visited. These sticks are a road map of her experiences, and each holds a wealth of memories for her." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 4  [ ] 5  [ ] 6&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 4  [ ] 5  [ ] 6  [ ] 7&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Ally" />
+   <alternate name="Lini (Aquamancer)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuffle it into your deck ([ ] or put it on top of your deck).&#10;You may discard a card to use a d12 for your Strength or Dexterity die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead.&#10;[ ] When you succeed at a check to recharge a spell that has the Attack trait, you may put it on top of your deck instead.&#10;[ ] Recharge a card to reduce Acid, Cold, Electricity, or Fire damage dealt to you by 1 ([ ] 2).&#10;[ ] Add 2 ([ ] 4) to any combat check by a character at your location against a card that has the Aquatic trait ([ ] or a ship).&#10;[ ] If you defeat a monster that has the Aquatic trait, you may put it in your hand. You may banish a monster from your hand to add 1d4 to any combat check at your location." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d10  [ ]+1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;  Survival: Wisdom +2&#10;Charisma: d8  [ ] +1" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="22d17fbe-75b4-4ada-bf1f-c63ef35e891d" name="Lini (Feral Druid)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Feral druids can become any animal, but usually ones with vicious teeth.&#10;&#10;Lini has always had a way with wild creatures. More than once, her enclave was threatened by some great beast, yet each time, she soothed it and sent it on its way. As an adult, she chose to leave her druidic fellows behind to protect the wild places of the world. Since then, Lini has collected more than a dozen sticks, one from each of the forests she has visited. These sticks are a road map of her experiences, and each holds a wealth of memories for her." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 4  [ ] 5  [ ] 6&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 4  [ ] 5  [ ] 6  [ ] 7&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Ally" />
+   <alternate name="Lini (Feral Druid)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuffle it into your deck ([ ] or put it on top of your deck).&#10;You may discard a card to use a d12 for your Strength or Dexterity ([ ] or Constitution) die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead.&#10;[ ] For your combat check, you may reveal a card that has the Divine trait to use your Strength skill +1d8 and add the Magic and Melee ([ ] and Fire, Cold, or Electricity) traits; you may not play a weapon on this check.&#10;[ ] Add 2 ([ ] 4) to your check against a card that has the Animal trait.&#10;[ ] Recharge a card to reduce Combat damage dealt to you by 1 ([ ] 2)." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d10  [ ]+1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;  Survival: Wisdom +2&#10;Charisma: d8  [ ] +1" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="69e640bd-32f2-49cd-a6b5-059dcb98bf62" name="Oloch (Battle Chaplain)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Battle chaplain can revive and army and return it to war.&#10;&#10;Oloch was always told his parents were slaves who died in Blisterwell's mines. He grew up in the gladiatorial pits, and before long, he was channeling Gorum's power under the priests' direction. When he learned the truth - that he had been stolen from a human adventurer - he killed his masters and left. Though he managed to track down his mother, she shunned him for his savagery. Now he seeks to learn more of the world, following Gorum's guidance as he hopes to discover who he was truly meant to be." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 1  [ ] 2&#10;Ally: -  [ ] 1&#10;Blessing: 5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Armor" />
+   <alternate name="Oloch (Battle Chaplain)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 ([ ] 2) to the check. Return the displayed cards to your hand before you reset it ([ ] and at the start of your turn).&#10;Instead of your first exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuffle 1d4+1 ([ ] +2) ([ ] +3) random cards from her discard pile into her deck, then discard the card you revealed.&#10;[ ] When you encounter an ally, you may banish it and immediately explore again.&#10;[ ] You may automatically succeed at your check to acquire ([ ] or recharge) a card tha thas the Healing trait.&#10;[ ] When a character plays a blessing on your combat or Strength check, that character may recharge ([ ] that blessing or) a random card from her discard pile." />
+    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +3&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="b35e951e-d068-46cb-8213-057f53b5fa7b" name="Oloch (Shield of Gorum)">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="These warpriests trust in Gorum to make them strong of heart.&#10;&#10;Oloch was always told his parents were slaves who died in Blisterwell's mines. He grew up in the gladiatorial pits, and before long, he was channeling Gorum's power under the priests' direction. When he learned the truth - that he had been stolen from a human adventurer - he killed his masters and left. Though he managed to track down his mother, she shunned him for his savagery. Now he seeks to learn more of the world, following Gorum's guidance as he hopes to discover who he was truly meant to be." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 1  [ ] 2&#10;Ally: -  [ ] 1&#10;Blessing: 5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Armor" />
+   <alternate name="Oloch (Shield of Gorum)" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 ([ ] 2) to the check. Return the displayed cards to your hand before you reset it ([ ] and at the start of your turn).&#10;Instead of your first exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuffle 1d4+1 ([ ] +2) random cards from her discard pile into her deck, then discard the card you revealed.&#10;[ ] WHen another character at your location is dealt damage, you may reveal an armor to reduce that damage by 1; you may instead discard that armor to reduce the damage by 2 ([ ] 3) ([ ] 4).&#10;[ ] When you would bury an armor or weapon, you may discard ([ ] or recharge) it instead.&#10;[ ] Add 2 to your check to defeat a monster that has the Human trait.&#10;[ ] When a character plays a blessing on your combat or Strength check, that character may recharge a random card from her discard pile; if the played card is Blessing of Gorum, the character may first recharge the blessing." />
+    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +3&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="ae4a1a62-b8e1-4401-a74d-a6932b5501c0" name="Damiel">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Human&#10;Alchemist" />
+    <property name="Flavour" value="The possibilities of alchemy have always fascinated the alchemist Damiel. Delving deep into the ancient elixirs and formulas of Kyonin, his research took a daring turn when he started using himself as a test subject. Following a spate of unsolved crimes, Damiel was banished from his elven homeland. Wandering the world has only deepened his thirst for knowledge, giving him ample opportunities to fuel his addiction to ever-greater secrets." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2  [ ] 3&#10;Spell: 2 [ ] 3 [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 6  [ ] 7  [ ] 8  [ ] 9&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Damiel" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Human&#10;Alchemist" />
+    <property name="Attr1" value="You may discard a card to add 1d6 ([ ] +1) ([ ] +2) and the Poison or Fire trait to any combat check made at your location; If the discarded card has the Alchemical trait, add an additional 1d6.&#10;When you would banish a card with the Alchemical trait, recharge it instead.&#10;When you play a spell that does not have the Attack trait, you gain the skills Arcane and Divine equal to your Craft skill until the end of the step." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3 [ ]+4&#10;  Disable: Dexterity +2&#10;  Ranged: Dexterity +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d10  [ ] +1 [ ] +2 [ ] +3 [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: d6   [ ] +1&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr3" value="6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="e9798c26-3f1d-45ac-a8ae-fd61e6136c0e" name="Feiya">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Human&#10;Witch" />
+    <property name="Flavour" value="Claimed by witches in the frozen reaches of Irrisen, young Feiya witnessed untold terrors as she learned her captors' craft. Her freedom eventually came with the help of an unlikely liberator, a wise fox who helped her elude the witches' pursuit. Now free to choose her own path, Feiya travels where she pleases, joined by her vulpine companion Daji. Although she's still baffled by some aspects of civilized life, her eerie magics help her overcome nearly any challenge." />
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9  [ ] 10&#10;Armor: -&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Spell" />
+   <alternate name="Feiya" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Human&#10;Witch" />
+    <property name="Attr1" value="When any character at your location attempts a check to acquire a spell or defeat a monster ([ ] or barrier), you may recharge a card to reduce the difficulty of that check by 1 ([ ] 2) plus the adventure deck number of the recharged card, if any.&#10;You may discard an ally that has the Animal trait to return a spell from your discard pile to your hand." />
+    <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="6  [ ] 7  [ ] 8" />
+    <property name="Attr4" value="None" />
+   </alternate>
+   </card>
+   <card id="e1b55e74-2c2c-43c7-84fb-cd3a7de242cd" name="Lini">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
+    <property name="Flavour" value="Lini has always had a way with wild creatures. More than once, her enclave was threatened by some great beast, yet each time, she soothed it and sent it on its way. As an adult, she chose to leave her druidic fellows behind to protect the wild places of the world. Since then, Lini has collected more than a dozen sticks, one from each of the forests she has visited. These sticks are a road map of her experiences, and each holds a wealth of memories for her." />
+    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 4  [ ] 5  [ ] 6&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 4  [ ] 5  [ ] 6  [ ] 7&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Ally" />
+   <alternate name="Lini" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
+    <property name="Attr1" value="When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuffle it into your deck ([ ] or put it on top of your deck).&#10;You may discard a card to use a d12 for your Strength or Dexterity die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d10  [ ]+1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;  Survival: Wisdom +2&#10;Charisma: d8  [ ] +1" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="69073fb2-8247-4f6f-94f7-406e41bb54b7" name="Oloch">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Half-orc&#10;Warpriest" />
+    <property name="Flavour" value="Oloch was always told his parents were slaves who died in Blisterwell's mines. He grew up in the gladiatorial pits, and before long, he was channeling Gorum's power under the priests' direction. When he learned the truth - that he had been stolen from a human adventurer - he killed his masters and left. Though he managed to track down his mother, she shunned him for his savagery. Now he seeks to learn more of the world, following Gorum's guidance as he hopes to discover who he was truly meant to be." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 1  [ ] 2&#10;Ally: -  [ ] 1&#10;Blessing: 5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Armor" />
+   <alternate name="Oloch" type="B">
+    <property name="Abr" value="C" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Half-orc&#10;Warpriest" />
+    <property name="Attr1" value="When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 ([ ] 2) to the check. Return the displayed cards to your hand before you reset it ([ ] and at the start of your turn).&#10;Instead of your first exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuffle 1d4+1 ([ ] +2) random cards from her discard pile into her deck, then discard the card you revealed." />
+    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +3&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1" />
+    <property name="Attr3" value="4  [ ] 5" />
+    <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+ </cards>
+</set>

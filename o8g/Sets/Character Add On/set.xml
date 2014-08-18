@@ -921,7 +921,7 @@
    </card>
    <card id="ef1e6700-c6c2-46fc-ad69-6665086d828c" name="Amiri (Berserker)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -931,20 +931,20 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Amiri (Berserker)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Barbarian" />
     <property name="Attr1" value="You may bury a card from your hand ([ ] or the top of your deck)  to add 1d10 ([ ]+1)([ ]+2)([ ]+3)([ ]+4) to your Strength, Melee, or Constitution check.&#10;You may move at the end of your turn ([ ] and/or move another character to the location where you end your turn).&#10;[ ] Add 2 ([ ] 4) to your check to acquire a weapon.&#10;[ ] When you play Blessing of Gorum, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival+3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival: Wisdom +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="4bbf3b1e-28a8-4d46-86ec-7b91833b75f8" name="Amiri (Juggernaut)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -954,20 +954,20 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Amiri (Juggernaut)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Barbarian" />
     <property name="Attr1" value="You may bury a card from your hand to add 1d10 ([ ]+1) ([ ]+2)([ ]+3) to your Strength, Melee, or Constitution check.&#10;You may move at the end of your turn ([ ] and/or move another character to the location where you end your turn).&#10;[ ] When you are dealt Combat ([ ] or any other type of) damage, reduce that damage by 1.&#10;[ ] Add 2 ([ ] 4) to your check to acquire an armor.&#10;[ ] When you play Blessing of Gorum, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival+3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival: Wisdom +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="2fdcacde-fbac-484c-9463-be7838ee478a" name="Lini (Shapeshifter)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -977,20 +977,20 @@
     <property name="Attr3" value="Ally" />
    <alternate name="Lini (Shapeshifter)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
     <property name="Attr1" value="When you play an ally with the Animal trait, you may recharge it instead of discarding it.&#10;You may reveal an ally with the Animal trait to add 1d4 ([ ]+1) ([ ]+2)([ ]+3) to your check.&#10;You may discard a card to roll d10 ([ ]+1)([ ]+2)([ ] with the fire trait) instead of your Strength or Dexterity die for any check.&#10;[ ] Add 2 ([ ] 4) to your check to acquire an ally with the Animal trait.&#10;[ ] When you play a blessing to add to your Wisdom check, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence:d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+1, Survival+2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence:d6  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +3&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +1&#10;  Survival: Wisdom +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="51684557-7d58-427b-a011-8878a56da49c" name="Lini (Wild Warden)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1000,20 +1000,20 @@
     <property name="Attr3" value="Ally" />
    <alternate name="Lini (Wild Warden)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
     <property name="Attr1" value="When you play an ally with the Animal trait, you may recharge it instead of discarding it.&#10;You may reveal an ally with the Animal trait to add 1d4 ([ ]+1) ([ ]+2)([ ]+3)([ ]+4) to your check.&#10;You may discard a card to roll d10 instead of your Strength or Dexterity die for any check.&#10;[ ] Add 2 ([ ] 4) to your Divine Check when playing a spell.&#10;[ ] Add 1d8 with the Magic trait to your check to defeat a bane with the Animal trait.&#10;[ ] When you play a blessing to add to your Wisdom check, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence:d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+1, Survival+2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence:d6  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +3&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +1&#10;  Survival: Wisdom +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="d4ada5ec-206f-4b61-942f-0f078eaa9f5e" name="Sajan (Drunken Master)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1023,20 +1023,20 @@
     <property name="Attr3" value="Item" />
    <alternate name="Sajan (Drunken Master)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
     <property name="Attr1" value="For your combat check, you may roll your Dexterity die ([ ] and add the Magic trait) ([ ] and the Fire trait); you may not play a weapon on the check.&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them.&#10;[ ] When dealt damage other than Combat damage, reduce that damage by 1 ([ ] 2) ([ ] 3).&#10;[ ] When you play a boon with the Liquid trait, succeed at a Fortitude 6 check to recharge it instead of banishing it.&#10;[ ] Add 6 to your check to acquire a boon with the Liquid trait.&#10;[ ] At the start of your turn, you must draw 1 card." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[ ] Weapons" />
    </alternate>
    </card>
    <card id="e25cdddc-f044-4ef3-a05e-8cdbf3053057" name="Sajan (Zen Archer)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1046,20 +1046,20 @@
     <property name="Attr3" value="Item" />
    <alternate name="Sajan (Zen Archer)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
     <property name="Attr1" value="For your combat check, you may roll your Dexterity die ([ ] and add the Magic trait) ([ ] and the Fire trait); you may not play a weapon on the check.&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them.&#10;[ ] When dealt damage other than Combat damage, reduce that damage by 1 ([ ] 2).&#10;[ ] When you play a weapon with the Ranged trait, you may recharge it instead of discarding it.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a boon with the Ranged trait.&#10;[ ] When you start your turn with n[ ] cards in your hand, you may draw 1 card." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[ ] Weapons" />
    </alternate>
    </card>
    <card id="d379fb1b-52da-403a-b1a5-22a3b8325289" name="Seelah (Crusader)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1069,20 +1069,20 @@
     <property name="Attr3" value="Armor" />
    <alternate name="Seelah (Crusader)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Paladin" />
     <property name="Attr1" value="You may discard the top card of your deck to add 1d6 ([ ]+1)([ ]+2)([ ]+3) to your check. If the top card was a blessing ([ ] or spell), recharge it instead of discarding it.&#10;You may examine the top card of your location deck at the start ([ ] or end) of your turn. If it's a boon, put it on the bottom ([ ] or underneath the top card) of the deck.&#10;[ ] When another character at your location is dealt Combat damage, reduce that damage by 1.&#10;[ ] Add 1d8 with the Magic trait to your check to defeat a bane with the Undead trait.&#10;[ ] When you play Blessing of Iomedae, you may recharge it ([ ] or shuffle it into your deck) instead." />
-    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3+M629&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine+2&#10;Charisma: d10  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +2&#10;Charisma: d10  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="6d50ed2e-b1bd-4114-83b8-8a0997048f5d" name="Seelah (Hospitaler)">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1092,20 +1092,20 @@
     <property name="Attr3" value="Armor" />
    <alternate name="Seelah (Hospitaler)" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Paladin" />
     <property name="Attr1" value="You may discard the top card of your deck to add 1d6 ([ ]+1)([ ]+2)([ ]+3) to your check. If the top card was a blessing ([ ] or spell), recharge it instead of discarding it.&#10;You may examine the top card of your location deck at the start ([ ] or end) of your turn. If it's a boon, put it on the bottom ([ ] or underneath the top card) of the deck.&#10;[ ] During your turn, you may bury a Divine card and choose a character at your location to shuffle 1d4+1 random cards from his discard pile into his deck.&#10;[ ] When you play Blessing of Iomedae, you may recharge it ([ ] or shuffle it into your deck) instead." />
-    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine+2&#10;Charisma: d10  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +2&#10;Charisma: d10  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="f24e8e24-d3e6-4099-b732-f984d4e0d3e4" name="Amiri">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Human&#10;Barbarian" />
@@ -1114,19 +1114,19 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Amiri" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Barbarian" />
     <property name="Attr1" value="You may bury a card from your hand to add 1d10 ([ ]+1) to your Strength, Melee, or Constitution check.&#10;You may move at the end of your turn ([ ] and/or move another character to the location where you end your turn)." />
-    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival+3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival: Wisdom +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5" />
     <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="5fa1844b-6b8c-4066-8758-c1954b797a58" name="Lini">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
@@ -1135,19 +1135,19 @@
     <property name="Attr3" value="Ally" />
    <alternate name="Lini" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Gnome&#10;Druid" />
     <property name="Attr1" value="When you play an ally with the Animal trait, you may recharge it instead of discarding it.&#10;You may reveal an ally with the Animal trait to add 1d4 ([ ]+1) ([ ]+2) to your check.&#10;You may discard a card to roll d10 instead of your Strength or Dexterity die for any check." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence:d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+1, Survival+2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence:d6  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +3&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +1&#10;  Survival: Wisdom +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="5" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="d0c63ffc-2123-48ec-8c82-79f52730318a" name="Sajan">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
@@ -1156,18 +1156,18 @@
     <property name="Attr3" value="Item" />
    <alternate name="Sajan" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Monk" />
     <property name="Attr1" value="For your combat check, you may roll your Dexterity die ([ ] and add the Magic trait) ([ ] and the Fire trait); you may not play a weapon on the check.&#10;You may play any number of blessings on your combat check; recharge them instead of discarding them" />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
    </alternate>
    </card>
    <card id="38b5c3c2-424f-486d-9e8f-1bab780d66e7" name="Seelah">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Human&#10;Paladin" />
@@ -1176,12 +1176,12 @@
     <property name="Attr3" value="Armor" />
    <alternate name="Seelah" type="B">
     <property name="Abr" value="C" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Paladin" />
     <property name="Attr1" value="You may discard the top card of your deck to add 1d6 ([ ]+1) to your check. If the top card was a blessing ([ ] or spell), recharge it instead of discarding it.&#10;You may examine the top card of your location deck at the start ([ ] or end) of your turn." />
-    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine+2&#10;Charisma: d10  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +2&#10;Charisma: d10  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>

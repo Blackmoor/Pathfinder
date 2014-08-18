@@ -1,27 +1,1144 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Skull and Shackles" id="5dbdb48c-ddfd-4872-a105-7dc217c6b082" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="2.0.0.0">
  <cards>
-   <card id="d0f660ce-b8c9-4daf-9416-5fa5d5dc6515" name="Jirelle">
+   <card id="35e54cb5-44cb-4604-bcb5-052d67b664c9" name="Acolyte">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="dd262b86-eefa-4909-8d95-53b457857059" name="Barefoot Samms Toppin">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="0f17fd17-9ea6-4747-b133-f9aa15242603" name="Besmaran Priest">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="086e3deb-bd01-4a5a-9420-5272dcd02223" name="Boatswain">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="5f957b0b-b0ab-43c5-8bf2-fe6b39336ea1" name="Cabin Boy">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="2660b17b-545a-4842-8ca4-2a15f8d43a8f" name="Captain">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="b9cf3150-ba3b-4251-bbdd-303701c37f7d" name="Carver">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="a2948946-f66f-41b9-9154-76175658f7c7" name="Chanty Singer">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="ccd21e0a-0fa0-4bb9-a67d-976ab71e38ce" name="Deckhand">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="404a108c-481b-44a6-8d91-78201c103779" name="Dolphin">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="0e75ad82-c0ed-4750-b4e8-941a844d75cd" name="Giffer Tibbs">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="4b4d2bcd-cec6-4d53-9333-3997d2bbe43f" name="Heartbreak Hinsin">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="db5e0776-5bf9-44b5-baff-07cc2ae41c81" name="Jinx Eater">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="e944f1e7-52a6-41c7-ae07-d373a482b89d" name="Lookout">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="d0f92dc5-160a-4010-bebe-fb6965879b6d" name="Master Gunner">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="b56417a1-59cf-4bd0-88f1-3537caf90b9f" name="Master-at-Arms">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="eb189857-360b-4a90-ac0c-abe4f455f854" name="Old Salt">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="bd6ede35-c56b-42b1-98c1-3fb56fe1b216" name="Parrot">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="65264ac5-5df3-47a8-8d54-8fb76970fc81" name="Quartermaster">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="a81f9ff1-420a-4cad-9884-43c235581eb8" name="Sailor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="d26537ee-39b0-4a82-baec-4c0aaac1580c" name="Surgeon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="6db7c2b3-a0fe-4111-b47e-b8d94a9d85f8" name="Swab">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+   </card>
+   <card id="d7709442-d4ac-4d40-99de-bd68ea611508" name="Buckler">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="4db56652-9840-4297-86b4-99484c5a0a42" name="Buckler Gun">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="98963214-b923-4ef5-81ac-f49326f236c0" name="Chain Mail">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="f93261a5-80a5-4c94-b0d8-bacf15569c83" name="Chain Shirt">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="7d953eb6-5613-4318-834e-36c3bb545e74" name="Cloth Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="cac9a9e3-75d9-46d5-973c-6554f1e8d786" name="Leather Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="599c3b73-20b6-46f4-9b90-80ca28367e69" name="Magic Buckler">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="475446b5-7b39-4b0f-b611-5eec2597d722" name="Magic Chain Shirt">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="5076e2e2-e267-4b61-8c66-071c91240f78" name="Magic Leather Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="ed4a5587-4c62-4665-90bf-182c2082ed66" name="Wooden Shield">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+   </card>
+   <card id="8514a534-f51d-48ab-8d97-b303160ece1b" name="Blessing of Abadar">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="3d7bebe4-61ab-427a-b160-8ef8c9f7d9e2" name="Blessing of Achaekek">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="6daf11e1-ce16-4565-a0ab-7930f0bd4ff9" name="Blessing of Cayden Cailean">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="d8cb4156-7ddb-4c56-adb4-1134f790593b" name="Blessing of Erastil">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="fc6cc86b-19d6-438e-90d2-03d704c457ff" name="Blessing of Gorum">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="8f913ffb-2089-48fc-8bea-228581ad430d" name="Blessing of Gozreh">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="92543dac-6411-48da-ba70-20dee3f2629c" name="Blessing of Milani">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="a62da064-a85c-42d6-a0ac-9f487a39f11d" name="Blessing of Pharasma">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="a8150fc7-4c02-4bf1-a06e-59ece48f3f5a" name="Blessing of Sivanah">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6" name="Blessing of the Gods">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+   </card>
+   <card id="2484f5df-b12d-44b2-954a-f33fe65a2e4a" name="Amulet of Fortitude">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="5b8a87e6-8ffa-45bf-afa0-19b320cbb926" name="Amulet of Life">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="7c3b3d93-4f06-419a-99b2-5a11e814330f" name="Anchor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="2531ffa6-384d-4bef-bc68-a364231012da" name="Bracers of Protection">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="df23d3e9-5929-44cd-ac5b-168f79eb6865" name="Caltrops">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="7d9e3d18-5d17-4387-be6f-7e290daee6c8" name="Conch Shell">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="a0107750-0324-4ea5-849d-9c4d9cba3b0d" name="Emerald of Dexterity">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="c6350fe9-947f-4480-a641-ba004ced330b" name="Eye Patch">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="d75d47a7-05e8-4292-9355-1b22bc9163dc" name="Masterwork Tools">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="7d1b4499-8593-48e3-bbf5-0ce56f35f62f" name="Nautical Charts">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="31dcccc1-1674-40d9-aba7-88981a641486" name="Old Salt's Bandana">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="c0be1b69-7b04-4db9-8860-ee632f3a45bc" name="Onyx of Constitution">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="5aea4552-2d0d-4e8b-b094-a3baf25e4c0c" name="Pearl of Wisdom">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="11bf459d-08b5-41ff-98db-437fc42c8402" name="Potion of Fortitude">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="dcf17c6b-4b20-4289-9eb1-507fcdfb69c6" name="Potion of Glibness">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="97cd7857-1023-4b2c-96f0-d8a2a5df28bc" name="Potion of Healing">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="4eea2429-dd93-40fb-b438-83295ef60441" name="Powder Horn">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="95ccc190-874b-48b9-81a9-d0660e6192e4" name="Ruby of Charisma">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="2137d0a7-5f92-47b4-97b3-9d404e4c915b" name="Rum Bottle">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="e511cd04-d97a-412c-b2a2-534eb48457cc" name="Sapphire of Intelligence">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="c33ae71a-1446-4058-ab38-c6acb66fec3b" name="Spyglass">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="bb311329-1659-47eb-9d89-86c367d00a09" name="Thieves' Tools">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="f250c710-5f5c-4a95-9544-334d62a97a38" name="Token of Remembrance">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="abdadd44-9fd5-4994-bb88-8b32f9a1694c" name="Topaz of Strengh">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="df5f4604-779f-42e5-a928-24c310eed67f" name="Tot Flask">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+   </card>
+   <card id="a0200b97-02ea-403a-8b77-80a7e3591abd" name="Aid">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="d4cc1203-3430-4f5b-bb9b-1ff14eb7e0e1" name="Arcane Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="933d5f1d-81e0-4490-99ef-adb733478c22" name="Black Spot">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="b988a261-eaf6-4018-8cee-f5687788bc14" name="Buoyancy">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="2bdbfe3f-79ab-481e-b503-0fd464404bc8" name="Call Weapon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="6877fb68-49b4-47cf-bd93-ca606c4fcceb" name="Confusion">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="71f201a6-ae7f-44b6-bfd6-b57cb40f955f" name="Cure">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="5ed530b5-b943-4401-a840-37fa1c3e4741" name="Detect Magic">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="92af4580-540d-40ec-bd0f-ae9b4a0af726" name="Fear">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="4cf8435c-0961-40b5-8c7f-9a4f51cacfdd" name="Find Traps">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="9400bf9f-192f-4c22-b58a-2c5603d9a094" name="Fireblade">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="8d9a27c9-28da-4b3d-ad99-2a5f6a1922f3" name="Force Missile">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="e7b1c035-90da-400b-a3a3-05ebc7dd8da1" name="Frostbite">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="b98d3108-71f5-4432-9e8c-816d620b3e67" name="Inflict">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="f758980d-6d09-4f65-8e12-ccbbf4eeff8d" name="Instant Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="33de395e-4bd1-47fc-9bc4-b51bacbdf859" name="Magic Weapon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="687f25ab-7baf-4565-8f8d-35d678dcc652" name="Phantasmal Minion">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="c877e654-61ae-4a97-9dac-0d4a75f2f1dc" name="Speed">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="2ca3c457-992b-45fc-a308-a68c09124e52" name="Strength">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+   </card>
+   <card id="c0d2807b-3707-4718-afad-07c8ef312cc6" name="Belaying Pin">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="5011851c-ab99-44ab-98be-7723bb860579" name="Blunderbuss">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="8a61376d-ac53-4d01-a8d0-5122360fba84" name="Boarding Axe">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="1b60f81b-f550-4588-b5fe-0cd8680dd51d" name="Boarding Pike">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="092297d3-7d9e-482f-b3a6-012ad16c2a92" name="Cat-o'-Nine-Tails">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="a5e514fc-d0ee-4c5a-bcd1-230af145ab34" name="Cutlass">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="c62a7550-c37b-4571-a45d-190ec01711b1" name="Cutlass +1">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="5abb4664-a19d-437c-bab1-dc41971fcb8a" name="Dagger">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="c15e7807-0eb0-40b7-894a-9c88019c3c83" name="Dragon Pistol">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="765c94fe-3933-437a-ab23-a06a42af6108" name="Falcata">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="c0e2986a-14ab-4246-aa55-c29bfe23d48f" name="Fire Lance">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="890c3df6-4074-400c-aaf2-3a8deab6277b" name="Harpoon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="31288205-2622-4d07-bab9-ccbc5547ab46" name="Heavy Crossbow">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="a154bdba-e424-4c22-baed-d2539d7eb4de" name="Icy Boarding Pike +1">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="348074d9-137c-40b2-8a45-eee31bb7e646" name="Light Crossbow">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="147c46ef-7b1e-4479-bc20-85fe7e227552" name="Longbow">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="59722c2f-cf42-42b7-b1b6-73a137a893d2" name="Longsword">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="039372e8-0ee3-4bc4-9c04-11a401336898" name="Mace">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="29816376-e23a-438f-9425-863cc6ca0ab0" name="Main-Gauche">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="5bb88634-d81d-424e-a926-dd60463088ed" name="Morningstar">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="2cecb56a-03b2-4255-bffb-0e6365ec2ba3" name="Musket">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="7d10b3fc-5eb7-4ff6-a47c-eb58a98ac56c" name="Pistol">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="ea374559-53b3-43ea-adba-c9ef83607456" name="Pistol +1">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="a0f65918-1986-4ab8-b0fa-f94a91f824c2" name="Quarterstaff">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="7d0bd9fd-1e21-41d4-b10c-6e6d09d9f092" name="Rapier">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="c0005605-71a8-4e83-a1a3-f49aea792dcb" name="Sap">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="fab086de-bc4f-4283-b1eb-19bfb2d4006a" name="Short Sword">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="71d8a5a4-8f85-4cd9-b5f5-0888b9ce821c" name="Shortbow">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="6e567cd9-3c38-4c8f-add7-bfd88deabc1c" name="Throwing Axe">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="b68bc5c7-a996-45f9-a40f-d4d9f0a0c6c9" name="Whip">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+   </card>
+   <card id="5d3b25a1-75a6-47cd-81fc-2586b198a05c" name="Alahazra (Stargazer)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Female&#10;Half-elf&#10;Swash-&#10;buckler" />
+    <property name="Flavour" value="The stars give these oracles vision, even in the darkness.&#10;&#10;At a young age, Alahazra was struck blind and began exhibiting supernatural powers. Accused of being a follower of the gods, she was driven from her atheist home in Rahadoum into the desert. Although the experience almost killed her, she emerged with the realization that her&#10;abilities came not from any deity, but from the powers of the sun and flames. Now Alahazra travels the world, exposing any injustice she encounters with her scouring light." />
+    <property name="Attr2" value="Weapon:  -&#10;Spell:  5  [ ] 6  [ ] 7  [ ] 8&#10;Armor:  -  [ ] 1&#10;Item:  2  [ ] 3  [ ] 4&#10;Ally:  3  [ ] 4  [ ] 5&#10;Blessing:  5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Blessing" />
+   <alternate name="Alahazra (Stargazer)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may recharge a card that has the Divine trait to examine the top card of any&#10;location deck ([ ] or the blessings deck or any character deck).&#10;[ ] When you use the above power to examine a card from a location deck on your turn,&#10;and it is a boon, you may encounter it.&#10;[ ] When you use the above power to examine a card from a character deck, that&#10;character may recharge it.&#10;At the end of your turn, you may discard a card that has the Divine trait ([ ] or any card)&#10;to add a card that has the Divine trait from your discard pile to your hand ([ ] or to allow&#10;a character at your location to add a card from his discard pile to his hand).&#10;If your combat check has the Attack trait, add 2 ([ ] 3) to it. ([ ] You may also add the Fire trait.)&#10;[ ] You gain the skill Perception ([ ] and Survival): Charisma +2." />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Desterity: d4  [ ] +1&#10;Consitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Charisma +2" />
+    <property name="Attr3" value="6  [ ] 7 [ ] 8" />
+    <property name="Attr4" value="[ ] Light Armors" />
+   </alternate>
+   </card>
+   <card id="65764ea5-0208-48c6-b568-e7773dae4c4d" name="Alahazra (Tempest)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Tempest oracles draw on the power of the sun. When they do, seek the shade.&#10;&#10;At a young age, Alahazra was struck blind and began exhibiting supernatural powers. Accused of being a follower of the gods, she was driven from her atheist home in Rahadoum into the desert. Although the experience almost killed her, she emerged with the realization that her&#10;abilities came not from any deity, but from the powers of the sun and flames. Now Alahazra travels the world, exposing any injustice she encounters with her scouring light." />
+    <property name="Attr2" value="Weapon:  -&#10;Spell:  5  [ ] 6  [ ] 7  [ ] 8&#10;Armor:  -  [ ] 1&#10;Item:  2  [ ] 3  [ ] 4&#10;Ally:  3  [ ] 4  [ ] 5&#10;Blessing:  5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Blessing" />
+   <alternate name="Alahazra (Tempest)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may recharge a card that has the Divine trait to examine the top card of any&#10;location deck ([ ] or the blessings deck or any character deck).&#10;At the end of your turn, you may discard a card that has the Divine trait to add a card&#10;that has the Divine trait from your discard pile to your hand.&#10;If your combat check has the Attack trait, add 2 ([ ] 3) ([ ] 4) to it. ([ ] You may also add&#10;the ([ ] Electricity or) Fire trait.)&#10;[ ] Add 2 ([ ] 4) to your check to recharge ([ ] or acquire) a spell that has the Attack trait.&#10;[ ] When you play a spell that has the Attack trait, you gain the skill Arcane: Charisma +2 until the end of the encounter." />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Desterity: d4  [ ] +1&#10;Consitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Charisma +2" />
+    <property name="Attr3" value="6  [ ] 7 [ ] 8" />
+    <property name="Attr4" value="[ ] Light Armors" />
+   </alternate>
+   </card>
+   <card id="b6f9a3fb-eaaf-4e13-ac21-3452bd3728f6" name="Jirelle (Duelist)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Duelists are the pinnacle of swordplay, moving with grace and lethality.&#10;&#10;Jirelle lost everything the day her mother's ship, the Bloodcrow, sank off Tempest Cay. Surviving the wreck, she soon learned of the ship's ghostly reappearance. Now Jirelle pits her rapier and wits against the Shackles' countless dangers. Every treasure she uncovers goes into her thricelocked&#10;chest, a trove meant to finance a ship and crew. Donning her mother's cape, the cloak of the Bloodcrow Queen, Jirelle scours eastern Garund for relics and treasure, determined to use them to uncover the mystery of the Bloodcrow." />
     <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6 &#10;Spell: - &#10;Armor: 1  [ ] 2 [ ] 3&#10;Item: 2  [ ] 3  [ ] 4 &#10;Ally: 3  [ ] 4 [ ] 5 [ ] 6&#10;Blessing: 5  [ ] 6" />
     <property name="Attr3" value="Ally" />
-   <alternate name="Jirelle" type="B">
+   <alternate name="Jirelle (Duelist)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Female&#10;Half-elf&#10;Swash-&#10;buckler" />
-    <property name="Attr1" value="If your combat check has the finesse trait, your Strength die is a d10.&#10;If your check has the Swashbuckling trait ([ ] or you are attempting a check to defeat a ship), you may reroll 1 die ([ ] or 2 dice) on your check; you must take the second result.&#10;Reduce Capsize damage to your ship by 1." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;  Melee: Strength +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3 [ ]+4&#10;  Acrobatics: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1 [ ] +2 [ ] +3&#10;  Survival: Wisdom +3&#10;Charisma: d8  [ ] +1 [ ] +2 [ ] +3" />
+    <property name="Attr1" value="For your check that has or is against a card that has the Finesse trait, you gain the skill Melee:  Dexterity +2 ([ ] +3).&#10;If your check has the Swashbuckling trait ([ ] or is a check to defeat a ship), you may reroll&#10;1 die ([ ] or 2 dice) on your check; you must take the second result.&#10;Reduce STructural damage to your ship by 1.&#10;[ ] When you defeat a monster on your turn, and your check to defeat has the Swashbuckling trait, you may discard ([ ] or recharge) a card to immediately explore.&#10;[ ] When you acquire a card that has the Finesse or Ranged trait, you may immediately recharge it to draw a card.&#10;[ ] You may recharge an ally to recharge a random card ([ ] or a weapon of your choice) from your discard pile.&#10;[ ] If any die rolled on your check is an 8 or higher, roll 1d4 and add it to the result." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ]+4&#10;  Acrobatics: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Survival: Wisdom +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="b893008d-faa2-4121-9017-36cc190588c8" name="Jirelle (Pirate Queen)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Pirate queens are beholden to no one. It's their ocean; you just sail on it.&#10;&#10;Jirelle lost everything the day her mother's ship, the Bloodcrow, sank off Tempest Cay. Surviving the wreck, she soon learned of the ship's ghostly reappearance. Now Jirelle pits her rapier and wits against the Shackles' countless dangers. Every treasure she uncovers goes into her thricelocked&#10;chest, a trove meant to finance a ship and crew. Donning her mother's cape, the cloak of the Bloodcrow Queen, Jirelle scours eastern Garund for relics and treasure, determined to use them to uncover the mystery of the Bloodcrow." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6 &#10;Spell: - &#10;Armor: 1  [ ] 2 [ ] 3&#10;Item: 2  [ ] 3  [ ] 4 &#10;Ally: 3  [ ] 4 [ ] 5 [ ] 6&#10;Blessing: 5  [ ] 6" />
+    <property name="Attr3" value="Ally" />
+   <alternate name="Jirelle (Pirate Queen)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +2.&#10;If your check has the Swashbuckling trait ([ ] or is a check to defeat a ship), you may reroll 1 die ([ ] or 2 dice) on your check; you must take the second result.&#10;Reduce Structural damage to your ship by 1 ([ ] 2).&#10;[ ] You gain the skill Diplomacy ([ ] and Craft): Charisma +3.&#10;[ ] When you acquire a card that has the Pirate or Swashbuckling trait, you may immediately explore again.&#10;[ ] You may reveal a card that has the Swashbuckling trait to add the Swashbuckling trait to your check.&#10;[ ] If you are on a ship, you ([ ] or another character on the ship) may move at the end of that character's turn." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ]+4&#10;  Acrobatics: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Survival: Wisdom +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="e00ced34-f486-4b3a-94c2-4182fd680b4e" name="Lem (Freebooter)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Freebooters jump from ship to ship, unfettered by any crew.&#10;&#10;Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the&#10;burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and - when need be - his quick blade." />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4  [ ] 5&#10;Spell: 3  [ ] 4&#10;Armor: -  [ ] 1&#10;Item: 2  [ ] 3&#10;Ally: 4  [ ] 5  [ ] 6  [ ] 7&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Your choice" />
+   <alternate name="Lem (Freebooter)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may recharge a card to add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) to any check by a character at your location.&#10;When you would recharge a card, you may shuffle it into your deck instead.&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.&#10;For your check that has or is against a card that has the Firearm trait, gain the skill Ranged: Dexterity +2 until the end of the encounter.&#10;When you encounter a bane that has the Task ([ ] or Pirate) trait ([ ] or a ship), you may recharge any number of allies; for each ally recharged, add 1d6 to the check to defeat the bane.&#10;When you play a blessing on any check that has the Swashbuckling ([ ] or Firearm) trait, add a d12 instead of the normal die." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[ ] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="1e66305b-71ed-4ee5-bdbf-78111a2471ca" name="Lem (Sea Singer)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Sea singers keep up a crew's morale with a variety of chanties.&#10;&#10;Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the&#10;burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and - when need be - his quick blade." />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4  [ ] 5&#10;Spell: 3  [ ] 4&#10;Armor: -  [ ] 1&#10;Item: 2  [ ] 3&#10;Ally: 4  [ ] 5  [ ] 6  [ ] 7&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Your choice" />
+   <alternate name="Lem (Sea Singer)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may recharge a card to add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) to any check by a character at your location.&#10;When you would recharge a card, you may shuffle it into your deck instead.&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.&#10;[ ] Add 1d4 ([ ] 2d4) ([ ] 3d4) to your non-combat check to defeat a bane ([ ] or ship).&#10;[ ] For your combat check against a bane that has the Aquatic trait, you may use your Diplomacy skill +1d6 and add the Magic and Mental traits; you may additionally discard a card to add another 1d8. This counts as playing a spell.&#10;[ ] When you roll on the Plunder Table, you may add or subtract 1 from the result." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[ ] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="d0bc0011-c48e-4c20-ac9e-bad0ac547f28" name="Lirianne (Deadeye)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Deadeyes learn to seek and destory anything that might kill them.&#10;&#10;Lirianne always dreamed of becoming a shieldmarshal, like her father. With his help, she learned to draw schematics, engineer firearms, and quick-draw pistols. As a vigilant warden, Lirianne spent years safeguarding her homeland in Alkenstar... until a burst of wild magic blew in from the Spellscar Desert. The arcane catastrophe summoned bizarre creatures and struck down the only shieldwarden who stood against them. Wounded, she awoke on the shores of Avistan, where she now wanders a world far from home." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Lirianne (Deadeye)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card.&#10;You may shuffle a card from your hand into the deck to add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) ([ ] +4) to any combat check at another location.&#10;[ ] When you encounter a bane, you may attempt a Perception check with a difficulty of 5 plus the adventure deck number of the bane, if any, to evade it.&#10;[ ] When you are on a ship and a random ship and a random ship is summoned, you may draw 2 ([ ] or 3) such cards and choose 1.&#10;[ ] When you would fail a combat check that has the Firearm trait, you may discard a weapon to add 1d4 to your result.&#10;[ ] When you move to a different location during your move step, you may examine the top card of that location deck ([ ] and shuffle it into the deck)." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="f5420a98-bc52-4ea2-a185-3cf7a29d1b6c" name="Lirianne (Musketeer)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Musketeers are adept with both swords and guns, leading toops by clearing out foes.&#10;&#10;Lirianne always dreamed of becoming a shieldmarshal, like her father. With his help, she learned to draw schematics, engineer firearms, and quick-draw pistols. As a vigilant warden, Lirianne spent years safeguarding her homeland in Alkenstar... until a burst of wild magic blew in from the Spellscar Desert. The arcane catastrophe summoned bizarre creatures and struck down the only shieldwarden who stood against them. Wounded, she awoke on the shores of Avistan, where she now wanders a world far from home." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Lirianne (Musketeer)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card.&#10;You may shuffle a card from your hand into the deck to add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) ([ ] +4) to any combat check at another location.&#10;[ ] If you begin your turn with no weapons in your hand, you may draw a card.&#10;[ ] When you play a weapon that has the Firearm trait on your combat check, you may immediately shuffle another such weapon into your deck to draw a card.&#10;[ ] Add 2 ([ ] 3) ([ ] 4) to your combat check that has the Firearm trait.&#10;[ ] You may discard a weapon to defeat a barrier that has the Cache, Lock, or Skirmish trait." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="20e9f3d0-cfc8-47a1-afc0-f76b26461131" name="Merisiel (Shadow)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="In the alleyways, these rogues know all the places to hide--for example, right behind you.&#10;&#10;Orphaned at a young age and raised by humans in the slums, the elf Merisiel saw many friends grow old and die in the decades it took her to become an adult. Unfettered by responsibilities, she now travels where her curiosity takes her, wandering the world with those she calls friends at the time. Merisiel believes in experiencing life to the fullest - you never know when you'll meet an unexpected end - and that there are few problems a dagger can't solve." />
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5&#10;Spell: -  [ ] 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 2  [ ] 3&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Merisiel (Shadow)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may evade your encounter ([ ] and if it is a boon, you may put it on top of the location deck).&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) ([ ] +4) to your combat check ([ ] and discard it to add an additional 1d6).&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.&#10;[ ] When a monster deals damage to you before ([ ] or after) the encounter, reduce that damage to 0.&#10;[ ] You automatically succeed at your Knowledge check." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Craft: Intelligence +2&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="214bb28a-bd4b-46bf-b2f8-e5940fbca01d" name="Merisiel (Smuggler)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="If you need something, even if it's someone else's, call on these rogues.&#10;&#10;Orphaned at a young age and raised by humans in the slums, the elf Merisiel saw many friends grow old and die in the decades it took her to become an adult. Unfettered by responsibilities, she now travels where her curiosity takes her, wandering the world with those she calls friends at the time. Merisiel believes in experiencing life to the fullest - you never know when you'll meet an unexpected end - and that there are few problems a dagger can't solve." />
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5&#10;Spell: -  [ ] 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 2  [ ] 3&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Merisiel (Smuggler)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="You may evade your encounter. ([ ] If the encountered card has the Pirate or Swashbuckling trait, you may immediately explore again.)&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) to your combat check.&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.&#10;[ ] Add 1d4 ([ ] +1) to your non-combat check.&#10;[ ] When you acquire a card, you may give it to another character.&#10;[ ] When a character gives you a card on his turn, he may give you any number of cards.&#10;[ ] When one or more plunder cards are stashed on your turn, you may stash an additional plunder card." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Craft: Intelligence +2&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="621b95a3-61e5-46e1-b13e-dd84c680c3e1" name="Seltyiel (Marauder)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Marauders don't need a cannon to punch a hole in your ship.&#10;&#10;The bastard son of a Chelish noblewoman and an elven outlaw, Seltyiel was raised by his abusive stepfather. As a teenager, he fled his home to seek out his true father, a painful search that ended in rejection and, ultimately, imprisonment by Hellknight manhunters. In the depths of a Chelish dungeon, his magic awoke, a voice spurring him on to power and&#10;revenge. Arcane ambition has driven him ever since, a passion that won't be sated until both his fathers are dead." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: 4  [ ] 5  [ ] 6  [ ] 7&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Weapon or Spell" />
+   <alternate name="Seltyiel (Marauder)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) ([ ] 3d6) and that card's traits to the check.&#10;Before you reset your hand, you may attempt to recharge a spell in your discard pile.&#10;[ ] You may discard a spell that has the Attack trait to add 1d6 ([ ] 2d6) to any check to defeat a ship or barrier.&#10;[ ] You gain the skill Ranged: Intelligence +2.&#10;[ ] When you discard ([ ] or recharge) a card that has the Pirate or Swashbuckling trait, you may draw 1 card ([ ] or 2 cards).&#10;[ ] When you play a blessing on a Craft check, recharge the blessing." />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
-   <card id="5cd413a0-1a78-4eb1-8071-a2507ba880ad" name="Merchantman">
+   <card id="767ced19-1e51-4107-befe-e7a9e81238e6" name="Seltyiel (Spellblade)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Spellblades focus on turning weapons into magic and magic into weapons.&#10;&#10;The bastard son of a Chelish noblewoman and an elven outlaw, Seltyiel was raised by his abusive stepfather. As a teenager, he fled his home to seek out his true father, a painful search that ended in rejection and, ultimately, imprisonment by Hellknight manhunters. In the depths of a Chelish dungeon, his magic awoke, a voice spurring him on to power and&#10;revenge. Arcane ambition has driven him ever since, a passion that won't be sated until both his fathers are dead." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: 4  [ ] 5  [ ] 6  [ ] 7&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Weapon or Spell" />
+   <alternate name="Seltyiel (Spellblade)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) ([ ] 3d6) and that card's traits to the check.&#10;Before you reset your hand, you may attempt to recharge a spell in your discard pile. ([ ] If you succeed, you may put the card on top of your deck instead of recharging it.)&#10;[ ] When you play a weapon that has the Sword trait, you may add your Intelligence skill to your combat check.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell or a weapon.&#10;[ ] When you acquire a spell or a weapon on your turn, you may immediately explore again.&#10;[ ] Discard a spell to put a weapon from your discard pile into your hand ([ ] or discard a weapon to put a spell from your discard pile into your hand)." />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="8977ea8a-8dbf-4d05-ba9e-b9f8d6188b48" name="Valeros (Corsair)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Corsairs are fierce rovers of the sea who insist that &quot;corsair&quot; just sounds more trustworthy than &quot;filthy pirate.&quot;&#10;&#10;Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer's daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there's nothing better than &quot;an evening of hard drinking and soft company.&quot;" />
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Valeros (Corsair)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) to another character's combat check at your location.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or shuffle it into your deck) instead.&#10;[ ] You may recharge a weapon to add the Swashbuckling trait to your check.&#10;[ ] Add 2 ([ ] 4) to your check to defeat a monster that has the Captain or Pirate trait or a ship.&#10;[ ] When you would put a barrier faceup on top of a location deck, you may shuffle it facedown into the deck instead.&#10;[ ] Recharge a card to reduce Structural damage dealt to your ship by 1 ([ ] 2)." />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +1" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="7105069e-e314-4be2-9313-9d93423e4962" name="Valeros (Tactician)">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Tacticians view the bigger picture on the battlefield, training warriors to work as a team.&#10;&#10;Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer's daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there's nothing better than &quot;an evening of hard drinking and soft company.&quot;" />
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Valeros (Tactician)" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) ([ ] +4) to another character's combat check at your location.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or shuffle it into your deck) instead.&#10;[ ] You may recharge an ally to add 1 plus its adventure deck number, if any, to your combat ([ ] or non-combat) check.&#10;[ ] When another character encounters a villain, you may immediately move.&#10;[ ] Add 2 ([ ] 4) to your check to defeat a henchman or villain." />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +1" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="c1c48f4d-abe4-49d3-8c9e-515fc55e203d" name="Alahazra">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Human&#10;Oracle" />
+    <property name="Flavour" value="At a young age, Alahazra was struck blind and began exhibiting supernatural powers. Accused of being a follower of the gods, she was driven from her atheist home in Rahadoum into the desert. Although the experience almost killed her, she emerged with the realization that her&#10;abilities came not from any deity, but from the powers of the sun and flames. Now Alahazra travels the world, exposing any injustice she encounters with her scouring light." />
+    <property name="Attr2" value="Weapon:  -&#10;Spell:  5  [ ] 6  [ ] 7  [ ] 8&#10;Armor:  -  [ ] 1&#10;Item:  2  [ ] 3  [ ] 4&#10;Ally:  3  [ ] 4  [ ] 5&#10;Blessing:  5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Blessing" />
+   <alternate name="Alahazra" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Human&#10;Oracle" />
+    <property name="Attr1" value="You may recharge a card that has the Divine trait to examine the top card of any location&#10;deck ([ ] or the blessings deck or any character deck).&#10;At the end of your turn, you may discard a card that has the Divine trait to add a card that&#10;has the Divine trait from your discard pile to your hand.&#10;If your combat check has the Attack trait, add 2 to it. ([ ] You may also add the Fire trait.)" />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Desterity: d4  [ ] +1&#10;Consitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Charisma +2" />
+    <property name="Attr3" value="6  [ ] 7" />
+    <property name="Attr4" value="[ ] Light Armors" />
+   </alternate>
+   </card>
+   <card id="d0f660ce-b8c9-4daf-9416-5fa5d5dc6515" name="Jirelle">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Swash-&#10;buckler" />
+    <property name="Flavour" value="Jirelle lost everything the day her mother's ship, the Bloodcrow, sank off Tempest Cay. Surviving the wreck, she soon learned of the ship's ghostly reappearance. Now Jirelle pits her rapier and wits against the Shackles' countless dangers. Every treasure she uncovers goes into her thricelocked&#10;chest, a trove meant to finance a ship and crew. Donning her mother's cape, the cloak of the Bloodcrow Queen, Jirelle scours eastern Garund for relics and treasure, determined to use them to uncover the mystery of the Bloodcrow." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6 &#10;Spell: - &#10;Armor: 1  [ ] 2 [ ] 3&#10;Item: 2  [ ] 3  [ ] 4 &#10;Ally: 3  [ ] 4 [ ] 5 [ ] 6&#10;Blessing: 5  [ ] 6" />
+    <property name="Attr3" value="Ally" />
+   <alternate name="Jirelle" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Swash-&#10;buckler" />
+    <property name="Attr1" value="For your check that has or is against a card that has the Finesse trait, you gain the skill Melee:  Dexterity +2.&#10;If your check has the Swashbuckling trait ([ ] or is a check to defeat a ship), you may reroll&#10;1 die ([ ] or 2 dice) on your check; you must take the second result.&#10;Reduce STructural damage to your ship by 1." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ]+4&#10;  Acrobatics: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Survival: Wisdom +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="30362e92-3dfb-4ae3-bdc9-463f23f0382b" name="Lem">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
+    <property name="Flavour" value="Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the&#10;burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and - when need be - his quick blade." />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4  [ ] 5&#10;Spell: 3  [ ] 4&#10;Armor: -  [ ] 1&#10;Item: 2  [ ] 3&#10;Ally: 4  [ ] 5  [ ] 6  [ ] 7&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Your choice" />
+   <alternate name="Lem" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
+    <property name="Attr1" value="You may recharge a card to add 1d4 ([ ] +1) ([ ] +2) to any check by a character at your location.&#10;When you would recharge a card, you may shuffle it into your deck instead.&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[ ] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="78c344db-eb01-4a9a-ae38-5bc16895b0d4" name="Lirianne">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Gunslinger" />
+    <property name="Flavour" value="Lirianne always dreamed of becoming a shieldmarshal, like her father. With his help, she learned to draw schematics, engineer firearms, and quick-draw pistols. As a vigilant warden, Lirianne spent years safeguarding her homeland in Alkenstar... until a burst of wild magic blew in from the Spellscar Desert. The arcane catastrophe summoned bizarre creatures and struck down the only shieldwarden who stood against them. Wounded, she awoke on the shores of Avistan, where she now wanders a world far from home." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Lirianne" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Gunslinger" />
+    <property name="Attr1" value="When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card.&#10;You may shuffle a card from your hand into the deck to add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) to any combat check at another location." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="4  [ ] 5" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="d37d47a4-138e-4a99-bf6a-232cbdf8e01c" name="Merisiel">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Flavour" value="Orphaned at a young age and raised by humans in the slums, the elf Merisiel saw many friends grow old and die in the decades it took her to become an adult. Unfettered by responsibilities, she now travels where her curiosity takes her, wandering the world with those she calls friends at the time. Merisiel believes in experiencing life to the fullest - you never know when you'll meet an unexpected end - and that there are few problems a dagger can't solve." />
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5&#10;Spell: -  [ ] 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 2  [ ] 3&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Merisiel" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) to your combat check.&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Craft: Intelligence +2&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="9a197178-3bad-4fae-b466-b271bf7f8fda" name="Seltyiel">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Half-elf&#10;Magus" />
+    <property name="Flavour" value="The bastard son of a Chelish noblewoman and an elven outlaw, Seltyiel was raised by his abusive stepfather. As a teenager, he fled his home to seek out his true father, a painful search that ended in rejection and, ultimately, imprisonment by Hellknight manhunters. In the depths of a Chelish dungeon, his magic awoke, a voice spurring him on to power and&#10;revenge. Arcane ambition has driven him ever since, a passion that won't be sated until both his fathers are dead." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: 4  [ ] 5  [ ] 6  [ ] 7&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Weapon or Spell" />
+   <alternate name="Seltyiel" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Half-elf&#10;Magus" />
+    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) and that card's traits to the check.&#10;Before you reset your hand, you may attempt to recharge a spell in your discard pile." />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="a7ba6976-458e-4799-a931-abf3bf6ea72f" name="Valeros">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
+    <property name="Flavour" value="Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer's daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there's nothing better than &quot;an evening of hard drinking and soft company.&quot;" />
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Valeros" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
+    <property name="Attr1" value="Add 1d4 ([ ] +1) to another character's combat check at your location.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or shuffle it into your deck) instead." />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +1" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="8b952145-9cb5-4d46-818a-acc5f8829cc7" name="Merchantman">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -35,7 +1152,7 @@
     <property name="Traits" value="Class 0" />
    </alternate>
    </card>
-   <card id="6b4069c0-1cbb-4031-a943-673f8974af61" name="Shackles Pirate Ship">
+   <card id="45990307-62e1-44d4-9b60-1e31c59efa30" name="Shackles Pirate Ship">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -49,7 +1166,7 @@
     <property name="Traits" value="Class 0" />
    </alternate>
    </card>
-   <card id="f4816e5d-bda6-4d3d-af1f-e046868e6669" name="The Abrogail's Fury">
+   <card id="5a57bf50-a919-4517-857e-e6c4b4b3af39" name="The Abrogail's Fury">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -63,7 +1180,7 @@
     <property name="Traits" value="Class 6" />
    </alternate>
    </card>
-   <card id="4747842e-dd22-4caa-ab00-308fbabfb44f" name="The Blood Moon">
+   <card id="b1ae0f46-34b5-408f-8326-8311bd873893" name="The Blood Moon">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -77,7 +1194,7 @@
     <property name="Traits" value="Class 4" />
    </alternate>
    </card>
-   <card id="c6759af4-311b-47bf-8335-2fee0bb748ad" name="The Come What May">
+   <card id="e119a08e-1bfa-437d-99c2-b52012dc8197" name="The Come What May">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -91,7 +1208,7 @@
     <property name="Traits" value="Class 4" />
    </alternate>
    </card>
-   <card id="78fbec04-5fc5-46a5-b341-f77516a1b4aa" name="The Deathknell">
+   <card id="860a8255-f360-4721-ab14-a658a939dc3d" name="The Deathknell">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -105,7 +1222,7 @@
     <property name="Traits" value="Class 7" />
    </alternate>
    </card>
-   <card id="e125dc0b-3640-4a09-9a4f-8035de64ef70" name="The Devil's Pallor">
+   <card id="23d76431-78b6-456d-b241-9e0682410ce9" name="The Devil's Pallor">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -119,7 +1236,7 @@
     <property name="Traits" value="Class 2" />
    </alternate>
    </card>
-   <card id="6671bd0e-4d23-4757-be79-84de37d854bf" name="The Dowager Queen">
+   <card id="3676ed14-45bf-4f20-ab7b-5835d9b8e903" name="The Dowager Queen">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -133,7 +1250,7 @@
     <property name="Traits" value="Class 3" />
    </alternate>
    </card>
-   <card id="c3b9aca2-72e4-48fd-a23a-4ba78e29d41c" name="The Filthy Lucre">
+   <card id="56e4b705-10e0-4ebe-a931-477aa60078d7" name="The Filthy Lucre">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -147,7 +1264,7 @@
     <property name="Traits" value="Class 7" />
    </alternate>
    </card>
-   <card id="a2bc775a-6b3a-4d51-8709-7858fc810dd0" name="The Kraken">
+   <card id="94f7aad9-c890-4577-b41e-4579650fd47f" name="The Kraken">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -161,7 +1278,7 @@
     <property name="Traits" value="Class 3" />
    </alternate>
    </card>
-   <card id="e728befb-f19b-46fb-95a7-eb6b663cc242" name="The Man's Promise">
+   <card id="1aa1a579-f2a8-4d46-b3e1-806a57f8c978" name="The Man's Promise">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -175,7 +1292,7 @@
     <property name="Traits" value="Class 1" />
    </alternate>
    </card>
-   <card id="092b0871-3b0e-4497-adff-29bfbe35cbbb" name="The Sanbalot">
+   <card id="185d1a09-b0a5-4a4c-afa0-02cbcc27aba3" name="The Sanbalot">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -189,7 +1306,7 @@
     <property name="Traits" value="Class 3" />
    </alternate>
    </card>
-   <card id="80bfca02-784c-4c66-8872-e54cfb252851" name="The Sea Chanty">
+   <card id="72b59ea1-453c-4bc2-a1c7-e4a2c14500c0" name="The Sea Chanty">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -203,7 +1320,7 @@
     <property name="Traits" value="Class 3" />
    </alternate>
    </card>
-   <card id="516de2ce-739c-41d6-b7b5-adc411a612d3" name="The Thresher">
+   <card id="119aed2b-0833-4e72-a1e7-cbdf95410139" name="The Thresher">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
@@ -215,62 +1332,6 @@
     <property name="Type" value="Ship" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Class 2" />
-   </alternate>
-   </card>
-   <card id="f69eefb0-dae8-44c5-8b6b-acfbc7c1f8c7" name="The Truewind">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 1" />
-   <alternate name="The Truewind" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Class 1" />
-   </alternate>
-   </card>
-   <card id="8d187afb-d21d-4d75-ab5b-d611bc1a407d" name="The Wanton Wastrel">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 5" />
-   <alternate name="The Wanton Wastrel" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Class 5" />
-   </alternate>
-   </card>
-   <card id="6ba31994-ff73-424b-b2f2-5e48eb01b774" name="The Wavecrest">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 4" />
-   <alternate name="The Wavecrest" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Class 4" />
-   </alternate>
-   </card>
-   <card id="bce3da8a-405d-4a7a-8506-708cedfe5041" name="The Wormwood">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 5" />
-   <alternate name="The Wormwood" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Class 5" />
    </alternate>
    </card>
  </cards>

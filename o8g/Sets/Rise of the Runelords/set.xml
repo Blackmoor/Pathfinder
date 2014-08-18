@@ -1678,7 +1678,7 @@
    </card>
    <card id="c9655d7a-9be4-4d80-b1e0-cae6a77f1657" name="Ezren (Evoker)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1688,19 +1688,19 @@
     <property name="Attr3" value="Spell" />
    <alternate name="Ezren (Evoker)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Wizard" />
     <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it's a spell, you may put it in your hand.&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2)([ ] 3)([ ] 4) to your check to recharge a card.&#10;[ ] Add 2 to your Arcane check with the Force ([ ] or Acid and Cold) ([ ] or Electricity and Fire) trait(s).&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell." />
-    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9" />
    </alternate>
    </card>
    <card id="4a6f9a14-5b9a-4752-ae5d-12b61eed1637" name="Ezren (Illusionist)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1710,19 +1710,19 @@
     <property name="Attr3" value="Spell" />
    <alternate name="Ezren (Illusionist)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Wizard" />
     <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it's a spell, you may put it in your hand ([ ] or recharge it).&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2)([ ] 3)([ ] 4) to your check to recharge a card.&#10;[ ] If you play a spell to evade a monster, you may put the monster on the bottom of the deck.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell ([ ] or ally).&#10;[ ] At the start of your turn, you may discard a card to draw a card." />
-    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="6  [ ] 7  [ ] 8" />
    </alternate>
    </card>
    <card id="ed2db87f-75a0-4fde-96af-016ff59efd88" name="Harsk (Sniper)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1732,20 +1732,20 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Harsk (Sniper)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
     <property name="Attr1" value="At the end of your turn, you may examine the top card ([ ] or bottom card) of your location deck.&#10;You may recharge a card to add 1d4 ([ ] +1) ([ ] +2)([ ] +3) ([ ] +4) to a combat check at another location.&#10;[ ] When you start your turn with n[ ] cards in your hand, you may draw 1 ([ ] 2) card(s).&#10;[ ] When you play a weapon with the Ranged trait, you may recharge it instead of discarding it.&#10;[ ] You gain the skill Divine: Wisdom +1.&#10;[ ] When you play a blessing to add to your Dexterity check, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged+3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception+2, Survival+2&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="04b42adf-977c-4d55-88b1-0c493853a1ca" name="Harsk (Tracker)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1755,20 +1755,20 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Harsk (Tracker)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
     <property name="Attr1" value="At the end of your turn, you may examine the top card ([ ] or bottom card) ([ ] or both) of your location deck.&#10;You may recharge a card to add 1d4 ([ ] +1) ([ ] +2)([ ] +3) to a combat check at another location.&#10;[ ] Add 1d8 ([ ]+1) to your check to defeat a bane with the Giant trait..&#10;[ ] When you play an ally with the Animal trait, you may recharge it instead of discarding it.&#10;[ ] You gain the skill Divine: Wisdom +1.&#10;[ ] When you play a blessing to add to your Wisdom check, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged+3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception+2, Survival+2&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="79132ead-25cd-4635-b049-43dcfddcd0a8" name="Kyra (Exorcist)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1778,20 +1778,20 @@
     <property name="Attr3" value="Blessing" />
    <alternate name="Kyra (Exorcist)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Cleric" />
     <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) random cards from his discard pile into his deck, then discard the card you revealed.&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead ([ ] or Outsider) trait.&#10;[ ] Add 2 to your check to acquire an armor ([ ] or weapon).&#10;[ ] When you play Blessing of Sarenrae, you may recharge it ([ ] or place it on top of your deck) instead of discarding it.&#10;[ ] If you defeat a bane with the Undead ([ ] or Outsider) trait, you may shuffle 1 random card from your discard pile into your deck." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="a4590a15-49b1-4bda-b91b-7cddb4e1b22a" name="Kyra (Healer)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1801,20 +1801,20 @@
     <property name="Attr3" value="Blessing" />
    <alternate name="Kyra (Healer)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Cleric" />
     <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) ([ ]+3) random cards from his discard pile into his deck, then discard the card you revealed ([ ] and draw a card).&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead trait.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a boon with the Divine trait.&#10;[ ] When you play Blessing of Sarenrae, you may recharge it ([ ] or shuffle it into your deck) instead of discarding it." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="59182689-0e8c-4abe-8037-3cc4934f9455" name="Lem (Charlatan)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1824,20 +1824,20 @@
     <property name="Attr3" value="Your choice" />
    <alternate name="Lem (Charlatan)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
     <property name="Attr1" value="Once per check, you may recharge a card to add 1d4 ([ ]+1) ([ ]+2)([ ]+3) to a check attempted by another character at your location.&#10;At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile.&#10;[ ] Add 2 to your check to acquire an ally ([ ] or defeat a henchman)([ ] or villain).&#10;[ ] You automatically succeed at your check to recharge a card with the Mental trait.&#10;[ ] When you play Blessing of Shelyn, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+1, Divine+1, Diplomacy+3" />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
     <property name="Attr3" value="6  [ ] 7  [ ] 8" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="5427e72b-198e-4880-9cbc-ae0e2fb900b4" name="Lem (Virtuoso)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1847,20 +1847,20 @@
     <property name="Attr3" value="Your choice" />
    <alternate name="Lem (Virtuoso)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
     <property name="Attr1" value="Once per check, you may recharge a card to add 1d4 ([ ]+1) ([ ]+2)([ ]+3) to a check attempted by ([ ] you or) another character at your location.&#10;At the start ([ ] or end) of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile.&#10;[ ] Add 2 to your check to acquire an ally.&#10;[ ] Add 2 to your check to recharge ([ ] or acquire) a spell.&#10;[ ] When you play Blessing of Shelyn, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+1, Divine+1, Diplomacy+3" />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
     <property name="Attr3" value="6  [ ] 7" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="d8da9030-696e-489e-a7cf-708bf515168a" name="Merisiel (Acrobat)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1870,20 +1870,20 @@
     <property name="Attr3" value="Item" />
    <alternate name="Merisiel (Acrobat)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
     <property name="Attr1" value="You may evade your encounter ([ ] and may put the card on top of the deck).&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ]+1)([ ]+2)([ ]+3) to your combat check, or discard it to add an additional 1d6.&#10;[ ] Add 2 to your noncombat check to defeat a barrier ([ ] or close a location). [ ] Add 2 ([ ] 4) to your check to acquire an item.&#10;[ ] When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it." />
-    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2, Disable+2, Stealth+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="1ea6cb2b-9459-4af5-9b0b-23ecfa653de8" name="Merisiel (Thief)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1893,20 +1893,20 @@
     <property name="Attr3" value="Item" />
    <alternate name="Merisiel (Thief)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
     <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ]+1)([ ]+2)([ ]+3)([ ]+4) to your combat check, or discard it to add an additional 1d6.&#10;[ ] Add 2 to your noncombat check to close a location.&#10;[ ] Add 2 ([ ] 3) ([ ] 4) to your check to acquire an armor, item or weapon.&#10;[ ] When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it.&#10;[ ] You may use Charisma in place of any skill on any check to recharge an armor, item, or weapon with the Magic trait." />
-    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2, Disable+2, Stealth+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="a0f9e3c6-ed74-4999-a16b-b7f5fed79bde" name="Seoni (Abyssal Sorcerer)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1916,19 +1916,19 @@
     <property name="Attr3" value="Spell" />
    <alternate name="Seoni (Abyssal Sorcerer)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
     <property name="Attr1" value="For your combat check, you may discard a card to roll your Arcane die + 1d6 ([ ]+1)([ ]+2)([ ]+3)([ ]+4) with the Fire ([ ] or Acid) trait and the Attack and Magic traits. This counts as playing a spell.&#10;You automatically succeed at your check to recharge a spell ([ ] or item) with the Arcane trait.&#10;[ ] Reduce Fire ([ ] and Acid and Cold) damage dealt to you by 1 ([ ] 2).&#10;[ ] When you play Blessing of Pharasma, add d12 instead of the normal die.&#10;[ ] At the start of your turn, you may banish an ally to draw 3 cards." />
-    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy+2, Arcane+2" />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2&#10;  Arcane: Charisma +2" />
     <property name="Attr3" value="6  [ ] 7" />
    </alternate>
    </card>
    <card id="7b54591e-86a2-4d26-8f79-360ebeb25ac0" name="Seoni (Celestial Sorcerer)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1938,19 +1938,19 @@
     <property name="Attr3" value="Spell" />
    <alternate name="Seoni (Celestial Sorcerer)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
     <property name="Attr1" value="For your combat check, you may discard a card to roll your Arcane die + 1d6 ([ ]+1)([ ]+2)([ ]+3)([ ]+4) with with the Fire ([ ] or Acid) trait and the Attack and Magic traits. This counts as playing a spell.&#10;You automatically succeed at your check to recharge a spell ([ ] or item) with the Arcane trait.&#10;[ ] If you would fail a check by 1, you may bury a card to succeed.&#10;[ ] Reduce Fire ([ ] and Electricity) damage dealt to you by 1 ([ ] 2).&#10;[ ] When you play Blessing of Pharasma, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy+2, Arcane+2" />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2&#10;  Arcane: Charisma +2" />
     <property name="Attr3" value="6  [ ] 7" />
    </alternate>
    </card>
    <card id="b89d0652-188f-4db8-81a0-e8fc13a2af99" name="Valeros (Guardian)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1960,20 +1960,20 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Valeros (Guardian)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Fighter" />
     <property name="Attr1" value="Add 1d4 ([ ]+1) ([ ]+2)([ ]+3) to another character's combat check at your location.&#10;When you play a weapon ([ ] or Armor), you may recharge it instead of discarding it.&#10;[ ] When another character at your location is dealt Combat damage, reduce that damage by 1 ([ ] 2).&#10;[ ] Add 2 ([ ] 4) to your check to acquire an armor.&#10;[ ] When you play a blessing to add to your Constitution check, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy+2" />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy: Charisma +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="d5e149ee-1d4b-4420-ab55-917176428017" name="Valeros (Weapon Master)">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Front" />
@@ -1983,20 +1983,20 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Valeros (Weapon Master)" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Fighter" />
     <property name="Attr1" value="Add 1d4 ([ ]+1) ([ ]+2)([ ]+3) ([ ]+4)([ ]+5) to another character's combat check at your location.&#10;When you play a weapon, you may recharge it ([ ] or shuffle it into your deck) instead of discarding it.&#10;[ ] You may use Melee in place of Ranged when using a weapon with the Ranged trait.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a weapon.&#10;[ ] When you play a blessing to add to your Strength check, add d12 instead of the normal die." />
-    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy+2" />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy: Charisma +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="41d4311b-9aa7-4887-aafb-432185bf5500" name="Ezren">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Male&#10;Human&#10;Wizard" />
@@ -2005,18 +2005,18 @@
     <property name="Attr3" value="Spell" />
    <alternate name="Ezren" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Wizard" />
     <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it's a spell, you may put it in your hand.&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2) to your check to recharge a card." />
-    <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+2, Knowledge+2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival: Wisdom +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="6  [ ] 7  [ ] 8" />
    </alternate>
    </card>
    <card id="e1719d19-1acc-41b6-b6a8-a7559d61071f" name="Harsk">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
@@ -2025,19 +2025,19 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Harsk" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Dwarf&#10;Ranger" />
     <property name="Attr1" value="At the end of your turn, you may examine the top card ([ ] or bottom card) of your location deck.&#10;You may recharge a card to add 1d4 ([ ] +1) ([ ] +2) to a combat check at another location." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged+3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude+2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception+2, Survival+2&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom+2&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="a235a0c4-b734-427c-b7cb-17e29c8cae83" name="Kyra">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Human&#10;Cleric" />
@@ -2046,19 +2046,19 @@
     <property name="Attr3" value="Blessing" />
    <alternate name="Kyra" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Cleric" />
     <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) random cards from his discard pile into his deck, then discard the card you revealed.&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead trait." />
-    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude+3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom+2&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="462be7f7-5262-40b5-a8af-5c9f2feaffd7" name="Lem">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
@@ -2067,19 +2067,19 @@
     <property name="Attr3" value="Your choice" />
    <alternate name="Lem" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
     <property name="Attr1" value="Once per check, you may recharge a card to add 1d4 ([ ]+1) ([ ]+2) to a check attempted by another character at your location.&#10;At the start of your turn, you may exchange 1 card in your hand with 1 card of the same type in your discard pile." />
-    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge+3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane+1, Divine+1, Diplomacy+3" />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
     <property name="Attr3" value="6" />
     <property name="Attr4" value="[ ] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="bec82ff2-b72b-439c-ad3c-998bf1c8a339" name="Merisiel">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
@@ -2088,19 +2088,19 @@
     <property name="Attr3" value="Item" />
    <alternate name="Merisiel" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
     <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ]+1)([ ]+2) to your combat check, or discard it to add an additional 1d6." />
-    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics+2, Disable+2, Stealth+2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception+2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
    </alternate>
    </card>
    <card id="083b2669-d940-44eb-a5a1-a79cdd35dc44" name="Seoni">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
@@ -2109,18 +2109,18 @@
     <property name="Attr3" value="Spell" />
    <alternate name="Seoni" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Sorcerer" />
     <property name="Attr1" value="For your combat check, you may discard a card to roll your Arcane die + 1d6 ([ ]+1)([ ]+2) with the Attack, Fire, and Magic traits. This counts as playing a spell.&#10;You automatically succeed at your check to recharge a spell ([ ] or item) with the Arcane trait." />
-    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy+2, Arcane+2" />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2&#10;  Arcane: Charisma +2" />
     <property name="Attr3" value="6  [ ] 7" />
    </alternate>
    </card>
    <card id="6e690cea-cfb4-4e63-b1ea-ed7eb60f3bef" name="Valeros">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Male&#10;Human&#10;Fighter" />
@@ -2129,12 +2129,12 @@
     <property name="Attr3" value="Weapon" />
    <alternate name="Valeros" type="B">
     <property name="Abr" value="B" />
-    <property name="Copyright" value="Yes." />
+    <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Human&#10;Fighter" />
     <property name="Attr1" value="Add 1d4 ([ ]+1) ([ ]+2) to another character's combat check at your location.&#10;When you play a weapon, you may recharge it instead of discarding it." />
-    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy+2" />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2&#10;  Diplomacy: Charisma +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
    </alternate>
