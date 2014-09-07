@@ -1334,5 +1334,159 @@
     <property name="Traits" value="Class 2" />
    </alternate>
    </card>
+   <card id="21c96476-884f-4ed1-90b0-f31c3d327344" name="The Truewind">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Class 1" />
+   <alternate name="The Truewind" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 1" />
+   </alternate>
+   </card>
+   <card id="8c12c39a-fbcd-4917-b812-008ab7794695" name="The Wanton Wastrel">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Class 5" />
+   <alternate name="The Wanton Wastrel" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 5" />
+   </alternate>
+   </card>
+   <card id="7c672491-d426-4b8b-9a06-84fff672ac34" name="The Wavecrest">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Class 4" />
+   <alternate name="The Wavecrest" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 4" />
+   </alternate>
+   </card>
+   <card id="bce3da8a-405d-4a7a-8506-708cedfe5041" name="The Wormwood">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Class 5" />
+   <alternate name="The Wormwood" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 5" />
+   </alternate>
+   </card>
+   <card id="a28b88e7-eb97-4e16-9141-578286d43bf6" name="Plunder and Peril">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Front" />
+   <alternate name="Plunder and Peril" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="7d72ed65-a00f-4974-9a55-b414d9b5912f" name="Skull and Shackles">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure Path" />
+    <property name="Subtype2" value="Front" />
+   <alternate name="Skull and Shackles" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure Path" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="65f409b2-e52e-49e7-ae3f-322355c93c8f" name="Dangerous Waters">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+   <alternate name="Dangerous Waters" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="526240a6-6ad2-4460-88d6-c59ab1881d9d" name="Island Hopping">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+   <alternate name="Island Hopping" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="90822ac5-2039-441f-ab91-75a5733730bd" name="Rum Punch">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+   <alternate name="Rum Punch" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="2c597e73-249e-4c9b-8c16-f87ad7564dcc" name="Sunken Treasure">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+   <alternate name="Sunken Treasure" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="ecbc9f70-1a13-4364-b4f6-ce1f1164018e" name="The Black Flag">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+   <alternate name="The Black Flag" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
  </cards>
 </set>
