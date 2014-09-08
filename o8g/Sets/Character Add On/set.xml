@@ -1180,7 +1180,7 @@
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Paladin" />
-    <property name="Attr1" value="You may discard the top card of your deck to add 1d6 ([ ]+1) to your check. If the top card was a blessing ([ ] or spell), recharge it instead of discarding it.&#10;You may examine the top card of your location deck at the start ([ ] or end) of your turn. If it is a boon, put it on the bottom of the deck." />
+    <property name="Attr1" value="You may discard the top card of your deck to add 1d6 ([ ]+1) to your check. If the top card was a blessing ([ ] or spell), recharge it instead of discarding it.&#10;You may examine the top card of your location deck at the start ([ ] or end) of your turn." />
     <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +2&#10;Charisma: d10  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5" />
     <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons" />
