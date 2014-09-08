@@ -1535,9 +1535,11 @@ def scenarioSetup(card):
 	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
+		repeat = len(henchmen)
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
+		repeat = 1
 		if card.Name == 'Into the Eye':
 			cardsPerLocation += len(getPlayers())
 				
@@ -1557,7 +1559,7 @@ def scenarioSetup(card):
 			man.moveTo(hidden)
 		index += 1
 		if index == len(henchmen): #Repeat the last named entry if there are not enough named unique henchmen
-			index -= cardsPerLocation
+			index -= repeat
 
 	debug("Deal from hidden deck ...")
 	#Now deal them to each location pile
