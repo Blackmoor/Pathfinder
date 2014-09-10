@@ -54,6 +54,16 @@
 		<location x="32" y="400" />
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
 		<wordwrap height="80" width="370" />
+	</block>	
+	<block type="text" id="WhenEncountering">
+		<location x="32" y="300" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="80" width="370" />
+	</block>
+	<block type="text" id="WhenCommanding">
+		<location x="32" y="400" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="80" width="370" />
 	</block>
 	<block type="text" id="WhenClosed">
 		<location x="32" y="500" />
@@ -710,29 +720,29 @@
 	  </link>
 	  <conditional>
 		<if property="Copyright" contains="No">
-		  <link block="StatBlock">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="WhenEncountering">
 		   <property name="Attr1" />
 		  </link>
-		  <link block="CheckTypeM">
+		  <link block="WhenCommanding">
 		   <property name="Attr2" />
-		  </link>
-		  <link block="CheckValueM">
+		  </link> 
+		  <link block="CheckTypeM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="CheckJoinR">
-		   <property name="Attr6" />
-		  </link>
-		  <link block="CheckTypeR">
+		  <link block="CheckValueM">
 		   <property name="Attr4" />
 		  </link>
-		  <link block="CheckValueR">
+		  <link block="CheckJoinR">
+		   <property name="Attr7" />
+		  </link>
+		  <link block="CheckTypeR">
 		   <property name="Attr5" />
 		  </link>
-		  <link block="WhenClosing">
-		   <property name="Attr7"/>
-		  </link>
-		  <link block="WhenClosed">
-		   <property name="Attr8"/>
+		  <link block="CheckValueR">
+		   <property name="Attr6" />
 		  </link>
 		</if>
 	  </conditional>
@@ -755,29 +765,29 @@
 	  </link>
 	  <conditional>
 		<if property="Copyright" contains="No">
-		  <link block="StatBlock">
-		   <property name="Attr1" />
+		  <link block="Traits">
+		   <property name="Traits" />
 		  </link>
-		  <link block="CheckTypeM">
+		  <link block="Text">
+			<property name="Flavour2" />
+		  </link>	
+		  <link block="WhenCommanding">
 		   <property name="Attr2" />
 		  </link>
-		  <link block="CheckValueM">
+		  <link block="CheckTypeM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="CheckJoinR">
-		   <property name="Attr6" />
-		  </link>
-		  <link block="CheckTypeR">
+		  <link block="CheckValueM">
 		   <property name="Attr4" />
 		  </link>
-		  <link block="CheckValueR">
+		  <link block="CheckJoinR">
+		   <property name="Attr7" />
+		  </link>
+		  <link block="CheckTypeR">
 		   <property name="Attr5" />
 		  </link>
-		  <link block="WhenClosing">
-		   <property name="Attr7"/>
-		  </link>
-		  <link block="WhenClosed">
-		   <property name="Attr8"/>
+		  <link block="CheckValueR">
+		   <property name="Attr6" />
 		  </link>
 		</if>
 	  </conditional>
