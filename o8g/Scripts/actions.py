@@ -491,7 +491,11 @@ def startOfTurn(player, turn):
 	lastPlayer = getPlayer(turn-1)
 	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
 	if lastPlayer is not None and me == lastPlayer:
-		drawUp(me.hand)
+	#Press Ganged! has a special hand size condition
+		if getGlobalVariable('PressGanged') == 'TRUE':
+			drawUp(getGlobalVariable('BanesNum'))
+		else: 
+			drawUp(me.hand)
 		
 	# Pass control of the shared piles and table cards to the new player
 	debug("Processing table ...")
@@ -563,7 +567,7 @@ def SandpointUnderSiege():
 			notify("{} shuffles '{}' back into '{}'".format(me, c, loc))
 			c.moveTo(loc.pile())
 			shuffle(loc.pile(), True)
-			
+	
 #
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
@@ -894,7 +898,7 @@ def cardTypePile():
 		if choice <= 0:
 			choice = 1
 	return pile, traits[choice-1]
-
+	
 #---------------------------------------------------------------------------
 # Menu items - called to see if a menu item should be shown
 #---------------------------------------------------------------------------
@@ -1194,7 +1198,7 @@ def pileSwap12(card, x=0, y=0):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		local = findCardByName(table, 'Local Heroes')
-		if local is not None or card.Name == 'Death Zone': # This scenario is won when the last location is closed
+		if local is not None or card.Name == 'Death Zone' or card.Name == 'Sunken Treasure': # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isOpen(c) ]
 			if len(open) == 0:
 				gameOver(True)
@@ -1478,6 +1482,8 @@ def scenarioSetup(card):
 		nl -= 1
 	elif card.Name == 'Scaling Mhar Massif':
 		nl -= 2
+	elif card.Name == 'Press Ganged!':
+		nl = 1
 		
 	if nl < 1:
 		nl = 1
@@ -1536,6 +1542,18 @@ def scenarioSetup(card):
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
 		repeat = len(henchmen)
+		
+	#For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
+	elif card.Name == 'Press Ganged!':
+		henchmen = card.Attr3.splitlines()
+		randHench = henchmen.random()
+		henchmen.remove(randHench)
+		henchCard = findCardByName('Henchmen',randHench')
+		henchCard.moveToTable(PlayerX(-4),StoryY)
+		henchCard.link(shared.piles['Special'])
+		cardsPerLocation = 6
+		setGlobalVariable('PressGanged','TRUE')
+		setGlobalVariable('BanesNum',1)
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
@@ -1562,6 +1580,7 @@ def scenarioSetup(card):
 			index -= repeat
 
 	debug("Deal from hidden deck ...")
+	
 	#Now deal them to each location pile
 	index = 0
 	while len(hidden) > 0:
