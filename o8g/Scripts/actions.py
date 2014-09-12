@@ -1548,7 +1548,7 @@ def scenarioSetup(card):
 		henchmen = card.Attr3.splitlines()
 		randHench = henchmen.random()
 		henchmen.remove(randHench)
-		henchCard = findCardByName('Henchmen',randHench')
+		henchCard = findCardByName('Henchmen',randHench)
 		henchCard.moveToTable(PlayerX(-4),StoryY)
 		henchCard.link(shared.piles['Special'])
 		cardsPerLocation = 6
