@@ -493,7 +493,7 @@ def startOfTurn(player, turn):
 	if lastPlayer is not None and me == lastPlayer:
 	#Press Ganged! has a special hand size condition
 		if getGlobalVariable('PressGanged') == 'TRUE':
-			drawUp(getGlobalVariable('BanesNum'))
+			drawUp(len(shared.pile['Special']))
 		else: 
 			drawUp(me.hand)
 		
