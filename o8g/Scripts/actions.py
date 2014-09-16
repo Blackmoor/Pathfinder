@@ -389,6 +389,10 @@ def storeHandSize(h):
 	me.setGlobalVariable('HandSize', str(h))
 
 def getHandSize(p=me):
+	#Press Ganged uses the scenario pile to determine the hand size
+	scenario = [m.Name for m in table if m.Subtype == 'Scenario']
+	if len(scenario) == 1 and scenario[0] == 'Press Ganged!':
+		return len(shared.piles['Scenario'])
 	return num(p.getGlobalVariable('HandSize'))
 	
 def storeFavoured(f):
@@ -491,6 +495,7 @@ def startOfTurn(player, turn):
 	lastPlayer = getPlayer(turn-1)
 	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
 	if lastPlayer is not None and me == lastPlayer:
+<<<<<<< HEAD
 	#Press Ganged! has a special hand size condition
 		pileMatched = [m for m in table if m.Subtype == 'Scenario']
 		if len(pileMatched) == 1 and pileMatched[0].name == 'Press Ganged!':
@@ -499,6 +504,8 @@ def startOfTurn(player, turn):
 				handSize = handSize + 1
 			storeHandSize(handSize)
 
+=======
+>>>>>>> origin/test-Tyler
 		drawUp(me.hand)
 		
 	# Pass control of the shared piles and table cards to the new player
@@ -529,7 +536,7 @@ def startOfTurn(player, turn):
 		# Perform scenario specific actions
 		scenario = [ c for c in table if c.Subtype == 'Scenario' ]
 		if len(scenario) == 1:
-			fn = scenario[0].Name.replace(' ','')
+			fn = scenario[0].Name.replace(' ','').replace('!','')
 			if fn in globals():
 				globals()[fn]()
 		advanceBlessingDeck()	
@@ -1203,7 +1210,7 @@ def pileSwap12(card, x=0, y=0):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		local = findCardByName(table, 'Local Heroes')
-		if local is not None or card.Name == 'Death Zone' or card.Name == 'Sunken Treasure': # These scenarios are only won when the last location is closed
+		if local is not None or card.Name in [ 'Death Zone', 'Sunken Treasure']: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isOpen(c) ]
 			if len(open) == 0:
 				gameOver(True)
@@ -1458,11 +1465,6 @@ def playerSetup():
 			table.create(id, 0, 0, 1, True).moveTo(me.Buried)
 		i += 1	
 	
-	#If playing Press Ganged, ignore all hand size found from card and change it to 1!
-	pileMatched = [m for m in table if m.Subtype == 'Scenario']
-	if len(pileMatched) == 1 and pileMatched[0] == 'Press Ganged!':
-		handSize = 1
-	
 	storeHandSize(handSize)
 	storeFavoured(favoured)
 	storeCards(dist)
@@ -1509,8 +1511,11 @@ def scenarioSetup(card):
 			locPile = shared.piles[pileName]
 			debug("Moving '{}' to table ...".format(location))
 			location.moveToTable(LocationX(i+1, nl), LocationY)
-			#Create deck based on location distribution
-			deck = location.Attr1.splitlines()
+			#Create deck based on location distribution unless we are playing Press Ganged
+			if card.Name == 'Press Ganged!':
+				deck = [ 'Barrier 5' ]
+			else:
+				deck = location.Attr1.splitlines()
 			for entry in deck:
 				details = entry.split(' ') # i.e. Monster 3
 				if len(details) == 2 and details[0] in shared.piles:
@@ -1551,11 +1556,10 @@ def scenarioSetup(card):
 	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
-		repeat = len(henchmen)
-		
-	#For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
-	elif card.Name == 'Press Ganged!':
+		repeat = len(henchmen)		
+	elif card.Name == 'Press Ganged!': #For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
 		henchmen = card.Attr3.splitlines()
+<<<<<<< HEAD
 		for z in henchmen:
 			currHench = findCardByName(shared.piles['Henchman'], z)
 			currHench.moveTo(shared.piles['Internal'])
@@ -1566,6 +1570,15 @@ def scenarioSetup(card):
 			y.moveTo(shared.piles['Henchman'])
 		cardsPerLocation = 5
 		repeat = len(henchmen)
+=======
+		randIndex = int(random()*len(henchmen))
+		randHench = findCardByName(shared.piles['Henchman'], henchmen[randIndex])
+		del henchmen[randIndex] #Remove the random henchman from our list - the remaining ones are added to the location
+		cardsPerLocation = len(henchmen)
+		repeat = 1
+		# Move the Random henchman to the banes pile (this is our scenario pile) 
+		randHench.moveTo(shared.piles['Scenario'])
+>>>>>>> origin/test-Tyler
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
