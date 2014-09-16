@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Spires of Xin-Shalast" id="d646cb57-3914-4ff4-94c2-7788c0f63d93" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.1">
- <cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Spires of Xin-Shalast" id="d646cb57-3914-4ff4-94c2-7788c0f63d93" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.0.1"><cards>
    <card id="c58577f2-fb41-473c-84a0-f04ad7f0114e" name="Avalanche">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />

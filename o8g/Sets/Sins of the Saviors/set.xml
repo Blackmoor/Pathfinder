@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Sins of the Saviors" id="3130abb9-04d8-48b8-9a44-6fedbdad8bc0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="1.0.16.0" version="1.1.0.0">
- <cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Sins of the Saviors" id="3130abb9-04d8-48b8-9a44-6fedbdad8bc0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.0.0"><cards>
    <card id="faf18d38-76d4-4a1e-8d51-45486b4615ae" name="Crushing Door">
     <property name="Abr" value="5" />
     <property name="Copyright" value="Yes." />
