@@ -494,7 +494,10 @@ def startOfTurn(player, turn):
 	#Press Ganged! has a special hand size condition
 		pileMatched = [m for m in table if m.Subtype == 'Scenario']
 		if len(pileMatched) == 1 and pileMatched[0].name == 'Press Ganged!':
-			storeHandSize(len(shared.pile['Special']))
+			handSize = 0
+			for q in shared.pile['Special']:
+				handSize = handSize + 1
+			storeHandSize(handSize)
 
 		drawUp(me.hand)
 		
@@ -1557,9 +1560,8 @@ def scenarioSetup(card):
 			currHench = findCardByName(shared.piles['Henchman'], z)
 			currHench.moveTo(shared.piles['Internal'])
 		randHench = shared.piles['Internal'].random()
-		randHench.moveToTable(PlayerX(-5),StoryY)
-		flipCard(randHench,PlayerX(-5),StoryY)
-		randHench.link(shared.piles['Special'])
+		card.link(shared.piles['Special'])
+		randHench.moveTo(shared.piles['Special'])
 		for y in shared.piles['Internal']:
 			y.moveTo(shared.piles['Henchman'])
 		cardsPerLocation = 5
