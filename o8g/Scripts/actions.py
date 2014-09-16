@@ -495,17 +495,6 @@ def startOfTurn(player, turn):
 	lastPlayer = getPlayer(turn-1)
 	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
 	if lastPlayer is not None and me == lastPlayer:
-<<<<<<< HEAD
-	#Press Ganged! has a special hand size condition
-		pileMatched = [m for m in table if m.Subtype == 'Scenario']
-		if len(pileMatched) == 1 and pileMatched[0].name == 'Press Ganged!':
-			handSize = 0
-			for q in shared.pile['Special']:
-				handSize = handSize + 1
-			storeHandSize(handSize)
-
-=======
->>>>>>> origin/test-Tyler
 		drawUp(me.hand)
 		
 	# Pass control of the shared piles and table cards to the new player
@@ -1559,18 +1548,6 @@ def scenarioSetup(card):
 		repeat = len(henchmen)		
 	elif card.Name == 'Press Ganged!': #For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
 		henchmen = card.Attr3.splitlines()
-<<<<<<< HEAD
-		for z in henchmen:
-			currHench = findCardByName(shared.piles['Henchman'], z)
-			currHench.moveTo(shared.piles['Internal'])
-		randHench = shared.piles['Internal'].random()
-		card.link(shared.piles['Special'])
-		randHench.moveTo(shared.piles['Special'])
-		for y in shared.piles['Internal']:
-			y.moveTo(shared.piles['Henchman'])
-		cardsPerLocation = 5
-		repeat = len(henchmen)
-=======
 		randIndex = int(random()*len(henchmen))
 		randHench = findCardByName(shared.piles['Henchman'], henchmen[randIndex])
 		del henchmen[randIndex] #Remove the random henchman from our list - the remaining ones are added to the location
@@ -1578,7 +1555,6 @@ def scenarioSetup(card):
 		repeat = 1
 		# Move the Random henchman to the banes pile (this is our scenario pile) 
 		randHench.moveTo(shared.piles['Scenario'])
->>>>>>> origin/test-Tyler
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
