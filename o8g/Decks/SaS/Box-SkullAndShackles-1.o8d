@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Story" shared="True">
+    <card qty="1" id="57dce054-b091-4738-99a5-faaef890e74b">The Wormwood Mutiny</card>
+    <card qty="1" id="3ff18d43-693e-436b-b390-2b22569de6f7">Press Ganged!</card>
+    <card qty="1" id="20f01752-1225-4049-a36f-96b99e46ac3a">Cat and Mouse</card>
+    <card qty="1" id="5db8526d-3019-4ab6-8861-1ae5bdb565d9">The Wreck of the Infernus</card>
+    <card qty="1" id="ecc4a243-bbdb-4e2d-8aa6-e1868ca85949">The Grindylow and the Whale</card>
+    <card qty="1" id="418890c7-8e40-43ae-a19f-e1c985402661">Plugg's Uglies</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="5d77f63b-a5f4-4962-a507-a3d34505d4b9">Benevolent Buckler</card>
+    <card qty="1" id="da1b716c-2bde-4d44-8612-947929d05a80">Fortified Leather Armor</card>
+    <card qty="1" id="3ec6fa3a-6ba3-4e42-9061-d726b0b48473">Magic Wooden Armor</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="01ae9e00-424b-4189-856a-2242a8be0f17">Animalbane Dagger +1</card>
+    <card qty="2" id="037a5d2c-d7ea-4fb8-b380-bd2ba6b762b5">Falcata +1</card>
+    <card qty="1" id="20904634-1227-4d82-8bec-cc24866e4c0e">Pepperbox</card>
+    <card qty="1" id="5cb2e928-2a7c-451b-b304-c415123bac1c">Repelling Pike +1</card>
+    <card qty="1" id="171550b7-cd14-45c1-8bc4-2db5c18df586">Shock Musket +1</card>
+    <card qty="1" id="8dbec2f0-9359-4ed4-9eb8-7b06940c148f">Tidewater Cutlass +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="60d37962-436c-4ecb-919d-9c63ce275db0">Holy Stone</card>
+    <card qty="1" id="ca5092d7-a401-47cd-a026-43631e0e00d5">Hydraulic Push</card>
+    <card qty="2" id="c3ba029f-37d5-40ef-8447-9ce1d5970774">Illuminate</card>
+    <card qty="1" id="621250bd-8ea0-492d-9731-306c68f20748">Obscure</card>
+    <card qty="2" id="47b3927a-7910-437b-bb5b-aae39f07c61c">Rage</card>
+    <card qty="2" id="83bcf154-56ac-4d93-8b30-bf426969f08b">Sphere of Fire</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="2" id="4b89ec34-c150-4297-abab-88d6796ddea4">Alchemical Glue</card>
+    <card qty="1" id="2726f7c5-381d-41b6-bf60-e690bc38cca9">Archer's Bracers</card>
+    <card qty="1" id="d730bbcc-3d7f-41cc-8cf9-77a73b7b4488">Astrolabe</card>
+    <card qty="2" id="16f817d9-4313-4b12-b663-f2edd879d04f">Helpful Haversack</card>
+    <card qty="2" id="575652fe-171c-40b6-8175-889d6546851f">Potion of Heroism</card>
+    <card qty="1" id="800739e0-46de-4d44-af39-b3f3d1a0e9a4">Ring of the Beasts</card>
+    <card qty="2" id="0abfd08f-1895-4f21-ba79-8a375e5d3dbe">Ring of Wave Walking</card>
+    <card qty="1" id="fc3f784b-9449-4576-aee4-5b2b2c248722">Spellmaster's Tricorne</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="37ef97f1-616d-4326-91a7-d13caee84ecc">Ambrose "Fishguts" Kroop</card>
+    <card qty="1" id="1d6b9696-acf5-41e3-bd0e-384aa70f9b01">Conchobar Turlach Shortstone</card>
+    <card qty="2" id="0cb93956-00ce-4555-8946-0ff546f36078">Coral Capuchin</card>
+    <card qty="1" id="4da38346-1263-4b16-9f58-86f450d03e83">Crimson Cogward</card>
+    <card qty="1" id="7d576096-f532-427d-8e11-3b010403f3b2">Cut-Throat Grok</card>
+    <card qty="1" id="73b60950-3dc2-42ca-b09b-f08cac5095af">Rosie Cusswell</card>
+    <card qty="1" id="53541d6d-bc19-419b-b209-a863030d1bd6">Sandara Quinn</card>
+    <card qty="1" id="1ef41d9b-219f-42ae-b344-b53fc06d7ab2">Tidepool Dragon</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="c72cebed-071c-4a47-8d98-a59abefe74f4">Blessing of Besmara</card>
+  </section>
+  <section name="Ship" shared="True">
+    <card qty="1" id="1aa1a579-f2a8-4d46-b3e1-806a57f8c978">Man's Promise</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="73615b81-523c-49cd-9518-c2a01e9496e8">Besmara's Tricorne</card>
+    <card qty="1" id="9789a70d-be70-450b-88cd-7b1149f040f0">Vindictive Harpoon</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="85a24ea4-cca5-4970-9cac-bc3ff7895506">Aretta Bansion</card>
+    <card qty="7" id="3a034867-e6b4-4639-b086-4e507ba7cb9e">Botfly Swarm</card>
+    <card qty="1" id="0f00412b-aaab-488a-ae2e-498b1d8ae8b7">Fipps Chumlett</card>
+    <card qty="1" id="f1d3d161-a023-48ad-9eeb-ac222b0e74b8">Jaundiced Jape</card>
+    <card qty="1" id="908ec4af-07af-4579-b4f6-c01572e514b1">Maheem</card>
+    <card qty="1" id="c717eb61-ca81-46a1-9a76-929a12144ec0">Owlbear Hartshorn</card>
+    <card qty="7" id="3720a60c-42e9-48d3-96e2-e5599e702ee4">Riptide Grindylow</card>
+    <card qty="1" id="8acee7a2-5826-428a-af4f-fa7a74d4d11d">Slippery Syl Lonegan</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="ed5eaf99-1a6c-4395-969b-b878a791b019">Devilfish</card>
+    <card qty="2" id="4f379172-43e2-47f3-954f-7b61029c6b6f">Giant Frog</card>
+    <card qty="2" id="13180ddb-0bf9-4267-a462-6d52d4203417">Giant Moray Eel</card>
+    <card qty="2" id="3758344c-2deb-4608-9007-41581f023aa3">Giant Rock Crab</card>
+    <card qty="1" id="179b49ae-5d6a-47b5-a8e7-9f31d9215df1">Reefclaw</card>
+    <card qty="2" id="ade52ec1-e307-417a-931f-0496bc16e6e8">Tigershark</card>
+    <card qty="1" id="cb9f51ae-153a-4519-a047-b6f8058b7bf4">Vine Choker</card>
+    <card qty="2" id="282a7e85-6dc9-4370-a432-7be4638c4cb0">Bloodbug</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="4263dd23-d16b-47a1-b109-4c235db5d3e2">Drowning Spikes Trap</card>
+    <card qty="1" id="b2ecfab1-8a17-4b74-bf51-f9318b033d53">Goose in the Rigging</card>
+    <card qty="2" id="38d88d0c-76cb-4054-95c1-165af9684aff">Harpoon Trap</card>
+    <card qty="2" id="5da43566-77a2-4a6a-98e9-28a845df1e45">Hull Damage</card>
+    <card qty="2" id="41e40659-ca28-464f-bce5-3f505db49ca7">Swabbing the Decks</card>
+    <card qty="2" id="34d977dc-92ea-49c0-88aa-c7a67e1464c5">Taking on Water</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="bcbcfb93-fe0b-41f6-84f4-189bafdd9819">Chapel</card>
+    <card qty="1" id="345ac5fe-cb3c-4469-9b41-cd904fcc026f">Ghol-Gan Ruins</card>
+    <card qty="1" id="e82d9723-536a-41ae-80e7-683f6167aa4b">Hatchery</card>
+    <card qty="1" id="fc1b1a48-93b2-4082-a3cb-af1de738443f">Jungle</card>
+    <card qty="1" id="5dd2ef27-3cc4-43c0-b23d-20ac7ca1fed6">Riptide Cove</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="67afabed-4384-4a2d-940e-df6fc7f30cc7">Arron Ivy</card>
+    <card qty="1" id="16ffbc2a-5ebb-4f42-9e70-49e1a373781b">Brinebrood Queen</card>
+    <card qty="1" id="d9cd783b-5508-40ac-8174-f660441795fc">Master Scourge</card>
+    <card qty="1" id="d167cc80-5d9c-47f0-b594-6b298e323a1e">Mister Plugg</card>
+    <card qty="1" id="3f60c8a4-f534-4c3a-a2c6-e93ff4f15ffb">Rahadoumi Captain</card>
+    <card qty="1" id="6a2db9a5-dc37-4b7a-baa8-742191601891">The Whale</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Fleet" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

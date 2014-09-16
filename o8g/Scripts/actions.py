@@ -492,10 +492,11 @@ def startOfTurn(player, turn):
 	debug("Last Player = {}, player = {}, me = {}".format(lastPlayer, player, me))
 	if lastPlayer is not None and me == lastPlayer:
 	#Press Ganged! has a special hand size condition
-		if getGlobalVariable('PressGanged') == 'TRUE':
-			drawUp(len(shared.pile['Special']))
-		else: 
-			drawUp(me.hand)
+		pileMatched = [m for m in table if m.Subtype == 'Scenario']
+		if len(pileMatched) == 1 and pileMatched[0].name == 'Press Ganged!':
+			storeHandSize(len(shared.pile['Special']))
+
+		drawUp(me.hand)
 		
 	# Pass control of the shared piles and table cards to the new player
 	debug("Processing table ...")
@@ -774,6 +775,7 @@ def pickScenario(group=table, x=0, y=0):
 		path = findCardByName(shared.piles['Story'], paths[choice-1])
 		path.moveToTable(PlayerX(-4),StoryY)
 		rise = path.Name == 'Rise of the Runelords'
+		skull = path.Name == 'Skull and Shackles'
 		flipCard(path)
 		loaded = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
 		adventures = []
@@ -789,7 +791,7 @@ def pickScenario(group=table, x=0, y=0):
 	else:
 		adventure = findCardByName(shared.piles['Story'], adventures[choice-1])
 		adventure.moveToTable(PlayerX(-3), StoryY)
-		if rise:
+		if rise or skull:
 			if num(adventure.Abr) >= 3:
 				setGlobalVariable("Remove Basic", "1")
 			if num(adventure.Abr) >= 5:
@@ -1452,7 +1454,12 @@ def playerSetup():
 			id = '7c5d69b1-b5ec-47f2-ba25-5a839291c3' + hexmap[i] + hexmap[counts[type]]
 			table.create(id, 0, 0, 1, True).moveTo(me.Buried)
 		i += 1	
-			
+	
+	#If playing Press Ganged, ignore all hand size found from card and change it to 1!
+	pileMatched = [m for m in table if m.Subtype == 'Scenario']
+	if len(pileMatched) == 1 and pileMatched[0] == 'Press Ganged!':
+		handSize = 1
+	
 	storeHandSize(handSize)
 	storeFavoured(favoured)
 	storeCards(dist)
@@ -1546,14 +1553,17 @@ def scenarioSetup(card):
 	#For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
 	elif card.Name == 'Press Ganged!':
 		henchmen = card.Attr3.splitlines()
-		randHench = henchmen.random()
-		henchmen.remove(randHench)
-		henchCard = findCardByName('Henchmen',randHench)
-		henchCard.moveToTable(PlayerX(-4),StoryY)
-		henchCard.link(shared.piles['Special'])
-		cardsPerLocation = 6
-		setGlobalVariable('PressGanged','TRUE')
-		setGlobalVariable('BanesNum',1)
+		for z in henchmen:
+			currHench = findCardByName(shared.piles['Henchman'], z)
+			currHench.moveTo(shared.piles['Internal'])
+		randHench = shared.piles['Internal'].random()
+		randHench.moveToTable(PlayerX(-5),StoryY)
+		flipCard(randHench,PlayerX(-5),StoryY)
+		randHench.link(shared.piles['Special'])
+		for y in shared.piles['Internal']:
+			y.moveTo(shared.piles['Henchman'])
+		cardsPerLocation = 5
+		repeat = len(henchmen)
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
