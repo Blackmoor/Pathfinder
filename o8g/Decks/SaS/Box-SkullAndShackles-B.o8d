@@ -7,6 +7,7 @@
     <card qty="1" id="2c597e73-249e-4c9b-8c16-f87ad7564dcc">Sunken Treasure</card>
     <card qty="1" id="ecbc9f70-1a13-4364-b4f6-ce1f1164018e">The Black Flag</card>
     <card qty="1" id="a28b88e7-eb97-4e16-9141-578286d43bf6">Plunder and Peril</card>
+    <card qty="1" id="65f409b2-e52e-49e7-ae3f-322355c93c8f">Dangerous Waters</card>
   </section>
   <section name="Armor" shared="True">
     <card qty="3" id="d7709442-d4ac-4d40-99de-bd68ea611508">Buckler</card>
@@ -174,14 +175,6 @@
     <card qty="1" id="5547c921-e0d6-4be0-9f87-e642f8b44c1d">Tower</card>
     <card qty="1" id="184fce10-cf41-4b80-babe-82238bb9d946">Wishing Well</card>
   </section>
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
   <section name="Henchman" shared="True">
     <card qty="6" id="e8f40ece-8672-4ca8-bba8-f52d70848d3b">Buccaneer</card>
     <card qty="6" id="91df2cf3-29c8-4c67-bbfa-8954ff6f8df8">Enemy Ship</card>
@@ -228,8 +221,6 @@
     <card qty="1" id="4be6ebc6-498d-42f9-972e-7336e5a37227">Treasure Hunt</card>
     <card qty="2" id="d55ad717-9964-4694-89eb-d392cdfcda6b">Treasure Map</card>
   </section>
-  <section name="Fleet" shared="True" />
-  <section name="Loot" shared="True" />
   <section name="Villain" shared="True">
     <card qty="1" id="1f6ec698-22f7-4a38-9a3b-3f50d451ee7f">Adaro Barbarian</card>
     <card qty="1" id="b866db39-7eea-439d-a32d-e253e76cfea0">Jemma Redclaw</card>
@@ -237,5 +228,15 @@
     <card qty="1" id="0d6edc53-4db9-4ae9-8714-da1f0be085de">Nefti Unwesha</card>
     <card qty="1" id="8e522ebb-8dd7-4ba9-8404-74703d43d138">The Pirate Council</card>
   </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

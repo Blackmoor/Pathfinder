@@ -56,12 +56,12 @@
 		<wordwrap height="80" width="370" />
 	</block>	
 	<block type="text" id="WhenEncountering">
-		<location x="32" y="300" />
+		<location x="32" y="600" />
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
 		<wordwrap height="80" width="370" />
 	</block>
 	<block type="text" id="WhenCommanding">
-		<location x="32" y="400" />
+		<location x="32" y="700" />
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
 		<wordwrap height="80" width="370" />
 	</block>
@@ -126,6 +126,40 @@
 	</block>
 	<block type="text" id="CheckJoinR">
 		<location x="316" y="198" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<border color="#000000" size="1" />
+		<wordwrap height="16" width="50" align="center" />
+	</block>
+		<block type="text" id="CheckShipTypeM">
+		<location x="160" y="268" />
+		<text color="#000000" size="11" font="Resources/dax-blackcaps.ttf" />
+		<wordwrap height="80" width="106" align="center" />
+	</block>
+	<block type="text" id="CheckShipValueM">
+		<location x="188" y="318" />
+		<text color="#000000" size="30" font="Resources/dax.ttf" />
+		<border color="#FFFFFF" size="4" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="CheckShipJoinM">
+		<location x="188" y="248" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<border color="#000000" size="1" />
+		<wordwrap height="16" width="50" align="center" />
+	</block>
+	<block type="text" id="CheckShipTypeR">
+		<location x="288" y="268" />
+		<text color="#000000" size="11" font="Resources/dax-blackcaps.ttf" />
+		<wordwrap height="80" width="106" align="center" />
+	</block>
+	<block type="text" id="CheckShipValueR">
+		<location x="316" y="318" />
+		<text color="#000000" size="30" font="Resources/dax.ttf" />
+		<border color="#FFFFFF" size="4" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="CheckShipJoinR">
+		<location x="316" y="248" />
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
 		<border color="#000000" size="1" />
 		<wordwrap height="16" width="50" align="center" />
@@ -706,7 +740,7 @@
   <template src="Proxy/Ship.jpg">
 	<matches>
 	  <match name="Type" value="Ship" />
-	  <match name="Subtype2" value="Front" />
+	  <match name="Subtype2" value="Back" />
 	</matches>
 	<textblocks>
 	  <link block="Abr">
@@ -729,19 +763,19 @@
 		  <link block="WhenCommanding">
 		   <property name="Attr2" />
 		  </link> 
-		  <link block="CheckTypeM">
+		  <link block="CheckShipTypeM">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="CheckValueM">
+		  <link block="CheckShipValueM">
 		   <property name="Attr4" />
 		  </link>
-		  <link block="CheckJoinR">
+		  <link block="CheckShipJoinR">
 		   <property name="Attr7" />
 		  </link>
-		  <link block="CheckTypeR">
+		  <link block="CheckShipTypeR">
 		   <property name="Attr5" />
 		  </link>
-		  <link block="CheckValueR">
+		  <link block="CheckShipValueR">
 		   <property name="Attr6" />
 		  </link>
 		</if>
@@ -751,7 +785,7 @@
   <template src="Proxy/Wreck.jpg">
 	<matches>
 	  <match name="Type" value="Ship" />
-	  <match name="Subtype2" value="Back" />
+	  <match name="Subtype2" value="Front" />
 	</matches>
 	<textblocks>
 	  <link block="Abr">
@@ -774,20 +808,11 @@
 		  <link block="WhenCommanding">
 		   <property name="Attr2" />
 		  </link>
-		  <link block="CheckTypeM">
+		  <link block="CheckShipTypeR">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="CheckValueM">
+		  <link block="CheckShipValueR">
 		   <property name="Attr4" />
-		  </link>
-		  <link block="CheckJoinR">
-		   <property name="Attr7" />
-		  </link>
-		  <link block="CheckTypeR">
-		   <property name="Attr5" />
-		  </link>
-		  <link block="CheckValueR">
-		   <property name="Attr6" />
 		  </link>
 		</if>
 	  </conditional>
