@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Story" shared="True">
-    <card qty="1" id="7d72ed65-a00f-4974-9a55-b414d9b5912f">Skull and Shackles</card>
     <card qty="1" id="526240a6-6ad2-4460-88d6-c59ab1881d9d">Island Hopping</card>
     <card qty="1" id="90822ac5-2039-441f-ab91-75a5733730bd">Rum Punch</card>
     <card qty="1" id="2c597e73-249e-4c9b-8c16-f87ad7564dcc">Sunken Treasure</card>

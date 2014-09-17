@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Fleet" shared="True">
+    <card qty="1" id="8b952145-9cb5-4d46-818a-acc5f8829cc7">Merchantman</card>
+  </section>
   <section name="Character" shared="False" />
   <section name="Weapon" shared="False" />
   <section name="Spell" shared="False" />
@@ -18,16 +21,7 @@
   <section name="Item" shared="True" />
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
-  <section name="Ship" shared="True">
-    <card qty="1" id="45990307-62e1-44d4-9b60-1e31c59efa30">Shackles Pirate Ship</card>
-    <card qty="1" id="21c96476-884f-4ed1-90b0-f31c3d327344">Truewind</card>
-    <card qty="1" id="72b59ea1-453c-4bc2-a1c7-e4a2c14500c0">Sea Chanty</card>
-    <card qty="1" id="bce3da8a-405d-4a7a-8506-708cedfe5041">Wormwood</card>
-    <card qty="1" id="8a13de0d-9761-4408-8934-3d388be4014a">Dominator</card>
-  </section>
-  <section name="Fleet" shared="True">
-    <card qty="1" id="8b952145-9cb5-4d46-818a-acc5f8829cc7">Merchantman</card>
-  </section>
+  <section name="Ship" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

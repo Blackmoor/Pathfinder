@@ -481,10 +481,11 @@ def deckLoaded(player, groups):
 		
 	if isFleet and isShared: # Allow player to choose a ship from their fleet deck and put it onto the table
 		fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
+		debug("Fleet cards found: {}".format(fleet))
 		if len(fleet) > 0:
 			choice = askChoice("Choose Your Ship", fleet)
 			if choice:
-				activeShip = findCardByName(shared.piles['Fleet'],choice)
+				activeShip = findCardByName(shared.piles['Fleet'], fleet[choice-1])
 				activeShip.moveToTable(PlayerX(-1), StoryY)
 				flipCard(activeShip)
 			else:
