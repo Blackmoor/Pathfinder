@@ -482,18 +482,15 @@ def deckLoaded(player, groups):
 	if isFleet and isShared: # Allow player to choose a ship from their fleet deck and put it onto the table
 		fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
 		debug("Fleet cards found: {}".format(fleet))
-		if len(fleet) > 0:
+		if len(fleet) > 1:
 			choice = askChoice("Choose Your Ship", fleet)
-			if choice:
-				activeShip = findCardByName(shared.piles['Fleet'], fleet[choice-1])
-				activeShip.moveToTable(PlayerX(-1), StoryY)
-			else:
-				whisper("Fleet card not loaded")
-		#If no choice was made, default to a random ship
+		elif len(fleet) == 1:
+			choice = 1
 		else:
-			activeShip = shared.piles['Fleet'].random()
+			whisper("Fleet card not loaded")
+		if choice:
+			activeShip = findCardByName(shared.piles['Fleet'], fleet[choice-1])
 			activeShip.moveToTable(PlayerX(-1), StoryY)
-			flipCard(activeShip)
 		
 	if not isShared: # Player deck loaded
 		playerSetup()
