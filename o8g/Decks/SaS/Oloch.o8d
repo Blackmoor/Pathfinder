@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="69073fb2-8247-4f6f-94f7-406e41bb54b7">Oloch</card>
+    <card qty="1" id="fb94e513-bf5c-439e-8b53-c8b2f2c26931">Oloch</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="73f44037-5460-4c60-99db-4aa8d05676d8">Boarding Axe</card>
+    <card qty="1" id="317fe102-808e-4899-9349-9ec453f2edf9">Boarding Pike</card>
+    <card qty="1" id="979a949c-4649-4b95-9a38-35acef182ad4">Longsword</card>
+    <card qty="1" id="c0d2807b-3707-4718-afad-07c8ef312cc6">Belaying Pin</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="11620a6d-dfb9-49b8-929f-82aec3c5cb0d">Cure</card>
+    <card qty="1" id="33de395e-4bd1-47fc-9bc4-b51bacbdf859">Magic Weapon</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="ee8b1b60-518a-444f-8083-3afa53dd12c2">Chain Mail</card>
+    <card qty="1" id="ed4a5587-4c62-4665-90bf-182c2082ed66">Wooden Shield</card>
+    <card qty="1" id="d7709442-d4ac-4d40-99de-bd68ea611508">Buckler</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="11bf459d-08b5-41ff-98db-437fc42c8402">Potion of Fortitude</card>
+  </section>
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False">
+    <card qty="1" id="b8fc3318-4db4-414c-a1d5-cd4cee7708b1">Blessing of the Gods</card>
+    <card qty="4" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="e9798c26-3f1d-45ac-a8ae-fd61e6136c0e">Feiya</card>
+    <card qty="1" id="0537be81-971f-4f36-90a6-78c510cc179e">Feiya</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False">
+    <card qty="1" id="9dbf3a9d-d503-4847-9a5f-a00a8c003cfd">Arcane Armor</card>
+    <card qty="1" id="ba114000-aabf-4554-a6f0-04bc32704e71">Buoyancy</card>
+    <card qty="1" id="ce3a470f-8777-48fc-8155-e0aaeff6e426">Frostbite</card>
+    <card qty="1" id="cfca8c9e-eac5-49c3-b838-bcfaedbbcf0b">Phantasmal Minion</card>
+    <card qty="1" id="6877fb68-49b4-47cf-bd93-ca606c4fcceb">Confusion</card>
+    <card qty="1" id="5ed530b5-b943-4401-a840-37fa1c3e4741">Detect Magic</card>
+  </section>
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False">
+    <card qty="1" id="7da3f3ef-c2df-4ea4-9c20-0ce46f0292f4">Potion of Lucubration</card>
+    <card qty="1" id="daed7e59-038a-41ab-a514-11b1586a1755">Rum Bottle</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="dfbfd348-6b84-4ce6-a748-a9568929f99c">Carver</card>
+    <card qty="1" id="dc11f41c-1dbc-4103-b8b8-c7008aff4afc">Sailor</card>
+    <card qty="1" id="851f5154-782f-4003-8c77-1eb6d1b02ba1">Turtle</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="1" id="b8fc3318-4db4-414c-a1d5-cd4cee7708b1">Blessing of the Gods</card>
+    <card qty="3" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

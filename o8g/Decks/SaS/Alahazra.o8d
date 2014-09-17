@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="c1c48f4d-abe4-49d3-8c9e-515fc55e203d">Alahazra</card>
+    <card qty="1" id="c2414567-7d8f-4657-8c49-ea63886561b6">Alahazra</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False">
+    <card qty="1" id="933d5f1d-81e0-4490-99ef-adb733478c22">Black Spot</card>
+    <card qty="1" id="71f201a6-ae7f-44b6-bfd6-b57cb40f955f">Cure</card>
+    <card qty="1" id="9400bf9f-192f-4c22-b58a-2c5603d9a094">Fireblade</card>
+    <card qty="1" id="b98d3108-71f5-4432-9e8c-816d620b3e67">Inflict</card>
+    <card qty="1" id="2ca3c457-992b-45fc-a308-a68c09124e52">Strength</card>
+  </section>
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False">
+    <card qty="1" id="df23d3e9-5929-44cd-ac5b-168f79eb6865">Caltrops</card>
+    <card qty="1" id="2137d0a7-5f92-47b4-97b3-9d404e4c915b">Rum Bottle</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="2660b17b-545a-4842-8ca4-2a15f8d43a8f">Captain</card>
+    <card qty="1" id="db5e0776-5bf9-44b5-baff-07cc2ae41c81">Jinx Eater</card>
+    <card qty="1" id="6db7c2b3-a0fe-4111-b47e-b8d94a9d85f8">Swab</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="5" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

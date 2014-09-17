@@ -391,7 +391,7 @@ def storeHandSize(h):
 def getHandSize(p=me):
 	#Press Ganged uses the scenario pile to determine the hand size
 	scenario = [m.Name for m in table if m.Subtype == 'Scenario']
-	if len(scenario) == 1 and scenario[0] == 'Press Ganged!':
+	if len(scenario) == 1 and scenario[0] == 'Press Ganged!' and len(shared.piles['Scenario']) <= num(p.getGlobalVariable('HandSize')):
 		return len(shared.piles['Scenario'])
 	return num(p.getGlobalVariable('HandSize'))
 	
@@ -1500,17 +1500,17 @@ def scenarioSetup(card):
 			locPile = shared.piles[pileName]
 			debug("Moving '{}' to table ...".format(location))
 			location.moveToTable(LocationX(i+1, nl), LocationY)
-			#Create deck based on location distribution unless we are playing Press Ganged
-			if card.Name == 'Press Ganged!':
-				deck = [ 'Barrier 5' ]
-			else:
-				deck = location.Attr1.splitlines()
+			#Create deck based on location distribution 
+			deck = location.Attr1.splitlines()
 			for entry in deck:
 				details = entry.split(' ') # i.e. Monster 3
 				if len(details) == 2 and details[0] in shared.piles:
 					debug("Adding {} cards of type {}".format(details[1], details[0]))
 					pile = shared.piles[details[0]]
 					cards = num(details[1])
+					#if playing Press Ganged!, add 5 extra Barriers
+					if details[0] == 'Barrier' and card.Name == 'Press Ganged!':
+						cards += 5
 					if details[0] == 'Spell':
 						cards += bonus
 					for count in range(cards):

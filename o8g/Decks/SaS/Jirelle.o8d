@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="d0f660ce-b8c9-4daf-9416-5fa5d5dc6515">Jirelle</card>
+    <card qty="1" id="09cb5158-00c7-457d-8760-ccd0954dc07d">Jirelle</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="2" id="a5e514fc-d0ee-4c5a-bcd1-230af145ab34">Cutlass</card>
+    <card qty="2" id="7d0bd9fd-1e21-41d4-b10c-6e6d09d9f092">Rapier</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="cac9a9e3-75d9-46d5-973c-6554f1e8d786">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="7d9e3d18-5d17-4387-be6f-7e290daee6c8">Conch Shell</card>
+    <card qty="1" id="c6350fe9-947f-4480-a641-ba004ced330b">Eye Patch</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="086e3deb-bd01-4a5a-9420-5272dcd02223">Boatswain</card>
+    <card qty="1" id="b56417a1-59cf-4bd0-88f1-3537caf90b9f">Master-at-Arms</card>
+    <card qty="1" id="a81f9ff1-420a-4cad-9884-43c235581eb8">Sailor</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="5" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
