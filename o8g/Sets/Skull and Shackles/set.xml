@@ -1645,7 +1645,7 @@
     <property name="Attr2" value="You may discard a card from the blessings deck to automatically succeed at your check to defeat a barrier that has the Task trait." />
     <property name="Attr3" value="Wisdom&#10;Survival" />
     <property name="Attr4" value="8" />
-    <property name="Attr5" value="Dexterity&#10;Ranges" />
+    <property name="Attr5" value="Dexterity&#10;Ranged" />
     <property name="Attr6" value="11" />
     <property name="Attr7" value="OR" />
    <alternate name="Dominator" type="B">
@@ -1854,7 +1854,7 @@
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="When you close a location, you may attempt to acquire any allies left in that location deck.&#10;&#10;When you acquire an ally, put it in an ally pile next to this scenario card. Before you attempt a check to deffeat Nefti Unwesha, you may put any number of allies from the ally pile into your hand." />
+    <property name="Attr1" value="When you close a location, you may attempt to acquire any allies left in that location deck.&#10;&#10;When you acquire an ally, put it in an ally pile next to this scenario card. Before you attempt a check to defeat Nefti Unwesha, you may put any number of allies from the ally pile into your hand." />
     <property name="Attr2" value="Nefti Unwesha" />
     <property name="Attr3" value="Ruffians" />
     <property name="Attr4" value="Gain all the allies in the ally pile." />
@@ -1952,7 +1952,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Minature deserts blasted by salt, most beaches in the Shackles are sprawling testaments to the dead and dying. Whether a beach is the hunting ground of sharp-eyed jungle lurkers or the final sight of withering castaways, the border between surf and shore is no place to tarry. Those who do soon find their bones as thoroughly bleached as the pervasive wreckage of shattered ships." />
+    <property name="Flavour" value="Miniature deserts blasted by salt, most beaches in the Shackles are sprawling testaments to the dead and dying. Whether a beach is the hunting ground of sharp-eyed jungle lurkers or the final sight of withering castaways, the border between surf and shore is no place to tarry. Those who do soon find their bones as thoroughly bleached as the pervasive wreckage of shattered ships." />
    </alternate>
    </card>
    <card id="4b05cd30-037f-4782-9ecc-ca77c42a7d99" name="Cannibal Isle">
@@ -2003,7 +2003,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="This urban wilderness is as deadly as any jungle. The docks of many pirate ports teem with ambitious shysters, would-be stowaways, opportunistic theives, imposter harbormasters, mangy parrots, crooks, evangelists, liars, and worse. Any sailor putting into port knows that dropping anchor doesn't guarantee safety, and it's best to go ashore with weapons drawn." />
+    <property name="Flavour" value="This urban wilderness is as deadly as any jungle. The docks of many pirate ports teem with ambitious shysters, would-be stowaways, opportunistic thieves, imposter harbormasters, mangy parrots, crooks, evangelists, liars, and worse. Any sailor putting into port knows that dropping anchor doesn't guarantee safety, and it's best to go ashore with weapons drawn." />
    </alternate>
    </card>
    <card id="3a2e4d8d-a2e8-4bb4-a03a-3e9731a6bba0" name="Festhall">
@@ -2173,7 +2173,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Unscrupulous sorts gather in markets to buy the sacrificial blades of lost tribes, accursed tortoise shells, juju dust, shrunken monkey heads, sea drake venom, and far stranger items.  One can find such everyday wares in practically any quality market across the worl. In the Shackles, however there's no such thing as contraband. Every dark deed and unspeakable vice has its price." />
+    <property name="Flavour" value="Unscrupulous sorts gather in markets to buy the sacrificial blades of lost tribes, accursed tortoise shells, juju dust, shrunken monkey heads, sea drake venom, and far stranger items.  One can find such everyday wares in practically any quality market across the world. In the Shackles, however there's no such thing as contraband. Every dark deed and unspeakable vice has its price." />
    </alternate>
    </card>
    <card id="4e47a7dd-e2b8-465a-94c7-a89439665c7c" name="Pinnacle Atoll">
@@ -2184,7 +2184,7 @@
     <property name="Attr1" value="Monster 2&#10;Barrier 3&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 1&#10;Blessing 2" />
     <property name="Attr2" value="When you encounter a card, roll 1d12; on a 1, shuffle the henchman Hirgenzosk into this location." />
     <property name="Attr3" value="Discard a card from the blessings deck." />
-    <property name="Attr4" value="On closing, shash a plunder card." />
+    <property name="Attr4" value="On closing, stash a plunder card." />
    <alternate name="Pinnacle Atoll" type="B">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -2224,7 +2224,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Choirs of ill-tempered sea birds make a vertical concert hall of this natural stone wall. They prove exceptionally particular about their audiences, violently berating any who dare to climb these cliffs. Exporers who persevere are rewarded with a fantastic view of the surrounding terrain. From their lofty vantage point, they can see dangers and wonders for miles around." />
+    <property name="Flavour" value="Choirs of ill-tempered sea birds make a vertical concert hall of this natural stone wall. They prove exceptionally particular about their audiences, violently berating any who dare to climb these cliffs. Explorers who persevere are rewarded with a fantastic view of the surrounding terrain. From their lofty vantage point, they can see dangers and wonders for miles around." />
    </alternate>
    </card>
    <card id="7c08ca80-8fe1-408c-9c1e-d125209ce470" name="Safe House">
@@ -2275,7 +2275,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="The endless shushing of the surf echoes through these cramped tunnels, eternally repeating its complaints to the resident newts and damp bats. Yet more than mere waves splash in the dark, flooded caverns. Elusive things born of shadow and sea brine surge just out of sight. Healf-eaten sea cucucmbers and limpets remain as the only evidence of their passage." />
+    <property name="Flavour" value="The endless shushing of the surf echoes through these cramped tunnels, eternally repeating its complaints to the resident newts and damp bats. Yet more than mere waves splash in the dark, flooded caverns. Elusive things born of shadow and sea brine surge just out of sight. Half-eaten sea cucumbers and limpets remain as the only evidence of their passage." />
    </alternate>
    </card>
    <card id="a533c0a8-891e-4a2c-8c44-d4b524bc896a" name="Sea Fort">
@@ -2343,7 +2343,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Beneath the waves lies a larger armada of pirate vessels than will ever sail above. Seemingly peaceful waters sometimes hide morbid seabeds - the final resting places of ages' worth of ships and their ill-fated crews. The promise of sunken plunder draws reckless treasure hunters to these briny graveyards, but as often as not, would-be looters end up joining the suken fleets." />
+    <property name="Flavour" value="Beneath the waves lies a larger armada of pirate vessels than will ever sail above. Seemingly peaceful waters sometimes hide morbid seabeds - the final resting places of ages' worth of ships and their ill-fated crews. The promise of sunken plunder draws reckless treasure hunters to these briny graveyards, but as often as not, would-be looters end up joining the sunken fleets." />
    </alternate>
    </card>
    <card id="35f2d595-3f19-4f56-b4bf-91964c17c000" name="Tempest Cay">
@@ -2540,7 +2540,7 @@
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Animal&#10;Aquatic&#10;Veteran" />
-    <property name="Attr1" value="The Hammerhead Shark may not be evaded.&#10;The difficulty to defeat is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, you may immediately attempt to close the location this henchman caem from." />
+    <property name="Attr1" value="The Hammerhead Shark may not be evaded.&#10;The difficulty to defeat is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, you may immediately attempt to close the location this henchman came from." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="9" />
    </card>
@@ -2683,7 +2683,7 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Merfolk&#10;Aquatic" />
-    <property name="Attr1" value="Before you act, succeed at a Wisom or Perception 8 check or the difficulty of the check to defeat is increased by 2.&#10;If undefeated, each character at your location must succeed at a Constitution or Fortitude 8 check or bury the top 1d4 cards of his deck." />
+    <property name="Attr1" value="Before you act, succeed at a Wisdom or Perception 8 check or the difficulty of the check to defeat is increased by 2.&#10;If undefeated, each character at your location must succeed at a Constitution or Fortitude 8 check or bury the top 1d4 cards of his deck." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="13" />
    </card>

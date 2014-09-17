@@ -836,7 +836,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Human&#10;Captain&#10;Pirate&#10;Basic" />
-    <property name="Attr1" value="Reveal this card and recharge anotehr card to add 1d6 to your non-combat Constitution or Intelligence check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your noncombat checks during this exploration." />
+    <property name="Attr1" value="Reveal this card and recharge another card to add 1d6 to your non-combat Constitution or Intelligence check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your noncombat checks during this exploration." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="4" />
     <property name="Attr4" value="Charisma&#10;Diplomacy" />
