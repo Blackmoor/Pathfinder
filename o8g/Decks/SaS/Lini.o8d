@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="b287972f-428e-4495-9390-9ef911a18a11">Lini</card>
+    <card qty="1" id="e1b55e74-2c2c-43c7-84fb-cd3a7de242cd">Lini</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="a0f65918-1986-4ab8-b0fa-f94a91f824c2">Quarterstaff</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="11620a6d-dfb9-49b8-929f-82aec3c5cb0d">Cure</card>
+    <card qty="1" id="22ae1e42-3b36-4219-ab66-9a3daa8138e1">Fireblade</card>
+    <card qty="1" id="5ed530b5-b943-4401-a840-37fa1c3e4741">Detect Magic</card>
+    <card qty="1" id="2ca3c457-992b-45fc-a308-a68c09124e52">Strength</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="58f21fb4-58ca-462e-bee2-aa90db8f0992">Wooden Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="87c46154-a9be-4564-8ae2-02acd21e06ea">Noxious Bomb</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="9033c717-a26e-4a30-8722-70df8148c748">Dwarf Caiman</card>
+    <card qty="1" id="b148583e-4291-4a59-b44e-604e234cabc2">Fox</card>
+    <card qty="1" id="b31665aa-c3db-49e0-a13b-514f1bfc38cf">Master-at-Arms</card>
+    <card qty="1" id="851f5154-782f-4003-8c77-1eb6d1b02ba1">Turtle</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="3" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+    <card qty="1" id="b8fc3318-4db4-414c-a1d5-cd4cee7708b1">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

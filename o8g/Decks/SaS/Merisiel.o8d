@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="4632c480-525b-4e9d-a8ab-ff249979aad2">Merisiel</card>
+    <card qty="1" id="d37d47a4-138e-4a99-bf6a-232cbdf8e01c">Merisiel</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="5abb4664-a19d-437c-bab1-dc41971fcb8a">Dagger</card>
+    <card qty="1" id="7d10b3fc-5eb7-4ff6-a47c-eb58a98ac56c">Pistol</card>
+    <card qty="1" id="71d8a5a4-8f85-4cd9-b5f5-0888b9ce821c">Shortbow</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False">
+    <card qty="1" id="cac9a9e3-75d9-46d5-973c-6554f1e8d786">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="5b8a87e6-8ffa-45bf-afa0-19b320cbb926">Amulet of Life</card>
+    <card qty="1" id="7d9e3d18-5d17-4387-be6f-7e290daee6c8">Conch Shell</card>
+    <card qty="1" id="c6350fe9-947f-4480-a641-ba004ced330b">Eye Patch</card>
+    <card qty="2" id="bb311329-1659-47eb-9d89-86c367d00a09">Thieves' Tools</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="5f957b0b-b0ab-43c5-8bf2-fe6b39336ea1">Cabin Boy</card>
+    <card qty="1" id="d0f92dc5-160a-4010-bebe-fb6965879b6d">Master Gunner</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="fb812675-d929-4dac-9fdb-03148c328d77">Damiel</card>
+    <card qty="1" id="ae4a1a62-b8e1-4401-a74d-a6932b5501c0">Damiel</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="f8cef49c-b5ec-4c83-81df-5dfbfe073871">Pistol</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="11620a6d-dfb9-49b8-929f-82aec3c5cb0d">Cure</card>
+    <card qty="1" id="cfca8c9e-eac5-49c3-b838-bcfaedbbcf0b">Phantasmal Minion</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="2162c6a5-035c-4bcf-9829-6cd036467939">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="781f40e6-0c68-406a-a619-9638a84c7f5f">Alchemist's Fire</card>
+    <card qty="1" id="51476ea4-537b-45a2-bb6e-7b7d4bbce00a">Blast Stone</card>
+    <card qty="1" id="87c46154-a9be-4564-8ae2-02acd21e06ea">Noxious Bomb</card>
+    <card qty="1" id="7da3f3ef-c2df-4ea4-9c20-0ce46f0292f4">Potion of Lucubration</card>
+    <card qty="1" id="6de55f61-8c76-49cf-be1d-dd0c0e1075d5">Powder Horn</card>
+    <card qty="1" id="daed7e59-038a-41ab-a514-11b1586a1755">Rum Bottle</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="fb3ae0ce-3b59-4cc8-813b-d2e17edc8ec3">Quartermaster</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="1" id="b8fc3318-4db4-414c-a1d5-cd4cee7708b1">Blessing of the Gods</card>
+    <card qty="3" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

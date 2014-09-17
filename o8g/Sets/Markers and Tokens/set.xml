@@ -25,7 +25,7 @@
    </card>
   
 <card id="c2414567-7d8f-4657-8c49-ea63886561b6" name="Alahazra">
-    <property name="Abr" value="O" />
+    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -49,7 +49,7 @@
    </card>
   
 <card id="fb812675-d929-4dac-9fdb-03148c328d77" name="Damiel">
-    <property name="Abr" value="O" />
+    <property name="Abr" value="C" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -61,7 +61,7 @@
    </card>
    
 <card id="0537be81-971f-4f36-90a6-78c510cc179e" name="Feiya">
-    <property name="Abr" value="O" />
+    <property name="Abr" value="C" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -84,6 +84,12 @@
     <property name="Subtype" value="Token" />
    </card>
   
+<card id="09cb5158-00c7-457d-8760-ccd0954dc07d" name="Jirelle">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>  
+  
 <card id="5e3e72cf-d81b-4c4a-99cd-42ac702cf73d" name="Kyra">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
@@ -103,13 +109,19 @@
    </card>
    
 <card id="ad79890a-1f76-4bbe-babc-e1ad2af80718" name="Lirianne">
-    <property name="Abr" value="O" />
+    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
    
 <card id="4632c480-525b-4e9d-a8ab-ff249979aad2" name="Merisiel">
     <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+  
+<card id="fb94e513-bf5c-439e-8b53-c8b2f2c26931" name="Oloch">
+    <property name="Abr" value="C" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -133,7 +145,7 @@
    </card>
    
 <card id="e5a37887-3ccb-440a-bc79-b123676c2290" name="Seltyiel">
-    <property name="Abr" value="O" />
+    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>

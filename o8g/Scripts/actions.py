@@ -355,7 +355,7 @@ def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 			#Remove the pile link on cards leaving the table
 			if card.pile() is not None:
 				card.link(None)
-				
+			shipFound = 0	
 			if card.Type == 'Character':
 				if card.Subtype == 'Token':
 					card.moveTo(card.owner.hand)
@@ -363,6 +363,8 @@ def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 					card.switchTo() # Display side A of the card as it shows the deck makeup
 			elif not cleanupStory and card.Type == 'Boon': # Return displayed cards to the controller's hand
 				card.moveTo(me.hand)
+			elif card.Type == 'Ship':
+				shipFound = 1
 			elif cleanupStory or card.Type != 'Story':
 				returnToBox(card)
 
@@ -389,6 +391,10 @@ def storeHandSize(h):
 	me.setGlobalVariable('HandSize', str(h))
 
 def getHandSize(p=me):
+	#Press Ganged uses the scenario pile to determine the hand size
+	scenario = [m.Name for m in table if m.Subtype == 'Scenario']
+	if len(scenario) == 1 and scenario[0] == 'Press Ganged!' and len(shared.piles['Scenario']) <= num(p.getGlobalVariable('HandSize')):
+		return len(shared.piles['Scenario'])
 	return num(p.getGlobalVariable('HandSize'))
 	
 def storeFavoured(f):
@@ -472,9 +478,23 @@ def deckLoaded(player, groups):
 			isFleet = True
 		if p.name in shared.piles:
 			isShared = True
-	
-	if isFleet: # Place random ship from fleet deck onto the table
-		shared.piles['Fleet'].random().moveToTable(PlayerX(-1), StoryY)
+		
+	if isFleet and isShared: # Allow player to choose a ship from their fleet deck and put it onto the table
+		fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
+		debug("Fleet cards found: {}".format(fleet))
+		if len(fleet) > 0:
+			choice = askChoice("Choose Your Ship", fleet)
+			if choice:
+				activeShip = findCardByName(shared.piles['Fleet'], fleet[choice-1])
+				activeShip.moveToTable(PlayerX(-1), StoryY)
+				flipCard(activeShip)
+			else:
+				whisper("Fleet card not loaded")
+		#If no choice was made, default to a random ship
+		else:
+			activeShip = shared.piles['Fleet'].random()
+			activeShip.moveToTable(PlayerX(-1), StoryY)
+			flipCard(activeShip)
 		
 	if not isShared: # Player deck loaded
 		playerSetup()
@@ -521,7 +541,7 @@ def startOfTurn(player, turn):
 		# Perform scenario specific actions
 		scenario = [ c for c in table if c.Subtype == 'Scenario' ]
 		if len(scenario) == 1:
-			fn = scenario[0].Name.replace(' ','')
+			fn = scenario[0].Name.replace(' ','').replace('!','')
 			if fn in globals():
 				globals()[fn]()
 		advanceBlessingDeck()	
@@ -563,7 +583,7 @@ def SandpointUnderSiege():
 			notify("{} shuffles '{}' back into '{}'".format(me, c, loc))
 			c.moveTo(loc.pile())
 			shuffle(loc.pile(), True)
-			
+	
 #
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
@@ -766,10 +786,13 @@ def pickScenario(group=table, x=0, y=0):
 	if choice <= 0 or paths[choice-1] == 'None': # Not using an adventure path
 		adventures = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
 		adventures.append("None")
+		rise = 0
+		skull = 0
 	else:
 		path = findCardByName(shared.piles['Story'], paths[choice-1])
 		path.moveToTable(PlayerX(-4),StoryY)
 		rise = path.Name == 'Rise of the Runelords'
+		skull = path.Name == 'Skull and Shackles'
 		flipCard(path)
 		loaded = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
 		adventures = []
@@ -783,9 +806,18 @@ def pickScenario(group=table, x=0, y=0):
 	if choice <= 0 or adventures[choice-1] == 'None': # Not using an adventure card
 		scenarios = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Scenario' ]
 	else:
+		#If playing Skull and Shackles, make sure Fleet card has been loaded, otherwise abort
+		if skull:
+			fleetLoaded = 0
+			for card in table:
+				if card.Type == 'Ship':
+					fleetLoaded = 1
+			if fleetLoaded == 0:
+				whisper("Please load the Fleet deck before playing the Skull and Shackles adventure".format(p))
+				return
 		adventure = findCardByName(shared.piles['Story'], adventures[choice-1])
 		adventure.moveToTable(PlayerX(-3), StoryY)
-		if rise:
+		if rise or skull:
 			if num(adventure.Abr) >= 3:
 				setGlobalVariable("Remove Basic", "1")
 			if num(adventure.Abr) >= 5:
@@ -894,7 +926,7 @@ def cardTypePile():
 		if choice <= 0:
 			choice = 1
 	return pile, traits[choice-1]
-
+	
 #---------------------------------------------------------------------------
 # Menu items - called to see if a menu item should be shown
 #---------------------------------------------------------------------------
@@ -1194,7 +1226,7 @@ def pileSwap12(card, x=0, y=0):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		local = findCardByName(table, 'Local Heroes')
-		if local is not None or card.Name == 'Death Zone': # This scenario is won when the last location is closed
+		if local is not None or card.Name in [ 'Death Zone', 'Sunken Treasure']: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isOpen(c) ]
 			if len(open) == 0:
 				gameOver(True)
@@ -1448,7 +1480,7 @@ def playerSetup():
 			id = '7c5d69b1-b5ec-47f2-ba25-5a839291c3' + hexmap[i] + hexmap[counts[type]]
 			table.create(id, 0, 0, 1, True).moveTo(me.Buried)
 		i += 1	
-			
+	
 	storeHandSize(handSize)
 	storeFavoured(favoured)
 	storeCards(dist)
@@ -1478,6 +1510,8 @@ def scenarioSetup(card):
 		nl -= 1
 	elif card.Name == 'Scaling Mhar Massif':
 		nl -= 2
+	elif card.Name == 'Press Ganged!':
+		nl = 1
 		
 	if nl < 1:
 		nl = 1
@@ -1493,7 +1527,7 @@ def scenarioSetup(card):
 			locPile = shared.piles[pileName]
 			debug("Moving '{}' to table ...".format(location))
 			location.moveToTable(LocationX(i+1, nl), LocationY)
-			#Create deck based on location distribution
+			#Create deck based on location distribution 
 			deck = location.Attr1.splitlines()
 			for entry in deck:
 				details = entry.split(' ') # i.e. Monster 3
@@ -1501,6 +1535,9 @@ def scenarioSetup(card):
 					debug("Adding {} cards of type {}".format(details[1], details[0]))
 					pile = shared.piles[details[0]]
 					cards = num(details[1])
+					#if playing Press Ganged!, add 5 extra Barriers
+					if details[0] == 'Barrier' and card.Name == 'Press Ganged!':
+						cards += 5
 					if details[0] == 'Spell':
 						cards += bonus
 					for count in range(cards):
@@ -1535,7 +1572,16 @@ def scenarioSetup(card):
 	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
-		repeat = len(henchmen)
+		repeat = len(henchmen)		
+	elif card.Name == 'Press Ganged!': #For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
+		henchmen = card.Attr3.splitlines()
+		randIndex = int(random()*len(henchmen))
+		randHench = findCardByName(shared.piles['Henchman'], henchmen[randIndex])
+		del henchmen[randIndex] #Remove the random henchman from our list - the remaining ones are added to the location
+		cardsPerLocation = len(henchmen)
+		repeat = 1
+		# Move the Random henchman to the banes pile (this is our scenario pile) 
+		randHench.moveTo(shared.piles['Scenario'])
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
@@ -1562,6 +1608,7 @@ def scenarioSetup(card):
 			index -= repeat
 
 	debug("Deal from hidden deck ...")
+	
 	#Now deal them to each location pile
 	index = 0
 	while len(hidden) > 0:

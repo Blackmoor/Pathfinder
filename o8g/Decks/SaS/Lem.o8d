@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="fe244b04-4884-4ed5-8c21-603222a9dc37">Lem</card>
+    <card qty="1" id="30362e92-3dfb-4ae3-bdc9-463f23f0382b">Lem</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="5abb4664-a19d-437c-bab1-dc41971fcb8a">Dagger</card>
+    <card qty="1" id="71d8a5a4-8f85-4cd9-b5f5-0888b9ce821c">Shortbow</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="d4cc1203-3430-4f5b-bb9b-1ff14eb7e0e1">Arcane Armor</card>
+    <card qty="1" id="71f201a6-ae7f-44b6-bfd6-b57cb40f955f">Cure</card>
+    <card qty="1" id="8d9a27c9-28da-4b3d-ad99-2a5f6a1922f3">Force Missile</card>
+  </section>
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False">
+    <card qty="1" id="2531ffa6-384d-4bef-bc68-a364231012da">Bracers of Protection</card>
+    <card qty="1" id="11bf459d-08b5-41ff-98db-437fc42c8402">Potion of Fortitude</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="e944f1e7-52a6-41c7-ae07-d373a482b89d">Lookout</card>
+    <card qty="1" id="65264ac5-5df3-47a8-8d54-8fb76970fc81">Quartermaster</card>
+    <card qty="1" id="a81f9ff1-420a-4cad-9884-43c235581eb8">Sailor</card>
+    <card qty="1" id="6db7c2b3-a0fe-4111-b47e-b8d94a9d85f8">Swab</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

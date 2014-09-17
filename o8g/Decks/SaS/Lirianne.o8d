@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="78c344db-eb01-4a9a-ae38-5bc16895b0d4">Lirianne</card>
+    <card qty="1" id="ad79890a-1f76-4bbe-babc-e1ad2af80718">Lirianne</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="5abb4664-a19d-437c-bab1-dc41971fcb8a">Dagger</card>
+    <card qty="2" id="7d10b3fc-5eb7-4ff6-a47c-eb58a98ac56c">Pistol</card>
+    <card qty="1" id="c0005605-71a8-4e83-a1a3-f49aea792dcb">Sap</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False">
+    <card qty="1" id="d7709442-d4ac-4d40-99de-bd68ea611508">Buckler</card>
+    <card qty="1" id="cac9a9e3-75d9-46d5-973c-6554f1e8d786">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="dcf17c6b-4b20-4289-9eb1-507fcdfb69c6">Potion of Glibness</card>
+    <card qty="1" id="4eea2429-dd93-40fb-b438-83295ef60441">Powder Horn</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="ccd21e0a-0fa0-4bb9-a67d-976ab71e38ce">Deckhand</card>
+    <card qty="1" id="e944f1e7-52a6-41c7-ae07-d373a482b89d">Lookout</card>
+    <card qty="1" id="d0f92dc5-160a-4010-bebe-fb6965879b6d">Master Gunner</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="9a197178-3bad-4fae-b466-b271bf7f8fda">Seltyiel</card>
+    <card qty="1" id="e5a37887-3ccb-440a-bc79-b123676c2290">Seltyiel</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="8a61376d-ac53-4d01-a8d0-5122360fba84">Boarding Axe</card>
+    <card qty="1" id="a5e514fc-d0ee-4c5a-bcd1-230af145ab34">Cutlass</card>
+    <card qty="1" id="59722c2f-cf42-42b7-b1b6-73a137a893d2">Longsword</card>
+    <card qty="1" id="039372e8-0ee3-4bc4-9c04-11a401336898">Mace</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="b988a261-eaf6-4018-8cee-f5687788bc14">Buoyancy</card>
+    <card qty="1" id="8d9a27c9-28da-4b3d-ad99-2a5f6a1922f3">Force Missile</card>
+    <card qty="1" id="e7b1c035-90da-400b-a3a3-05ebc7dd8da1">Frostbite</card>
+    <card qty="1" id="33de395e-4bd1-47fc-9bc4-b51bacbdf859">Magic Weapon</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="f93261a5-80a5-4c94-b0d8-bacf15569c83">Chain Shirt</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="c6350fe9-947f-4480-a641-ba004ced330b">Eye Patch</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="b9cf3150-ba3b-4251-bbdd-303701c37f7d">Carver</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
