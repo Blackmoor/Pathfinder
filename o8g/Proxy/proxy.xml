@@ -740,7 +740,7 @@
   <template src="Proxy/Ship.jpg">
 	<matches>
 	  <match name="Type" value="Ship" />
-	  <match name="Subtype2" value="Back" />
+	  <match name="Subtype2" value="Front" />
 	</matches>
 	<textblocks>
 	  <link block="Abr">
@@ -785,7 +785,7 @@
   <template src="Proxy/Wreck.jpg">
 	<matches>
 	  <match name="Type" value="Ship" />
-	  <match name="Subtype2" value="Front" />
+	  <match name="Subtype2" value="Back" />
 	</matches>
 	<textblocks>
 	  <link block="Abr">

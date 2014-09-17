@@ -343,21 +343,11 @@
     <property name="Attr2" value="Strength&#10;Melee" />
     <property name="Attr3" value="9" />
    </card>
-   <card id="1aa1a579-f2a8-4d46-b3e1-806a57f8c978" name="Man's Promise">
+   <card id="1dcb5d2b-bc33-40a3-a84f-51aad1c25767" name="Man's Promise">
     <property name="Abr" value="1" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
     <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 1" />
-    <property name="Flavour" value="The Man's Promise is a proud three-master of Rahadoumi vintage. Like many a merchant ship before her, she's proven that any vessel in pirate waters will eventually become a pirate vessel." />
-    <property name="Attr2" value="Other characters may not move with this ship." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="6" />
-   <alternate name="Man's Promise" type="B">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
     <property name="Traits" value="Class 1" />
     <property name="Attr1" value="If any check to defeat the Man's Promise has the Swashbuckling trait, add 2 to it." />
     <property name="Attr2" value="You may discard a card from the blessings deck to explore your location." />
@@ -366,6 +356,16 @@
     <property name="Attr5" value="Charisma&#10;Diplomacy" />
     <property name="Attr6" value="8" />
     <property name="Attr7" value="OR" />
+   <alternate name="Man's Promise" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 1" />
+    <property name="Flavour" value="The Man's Promise is a proud three-master of Rahadoumi vintage. Like many a merchant ship before her, she's proven that any vessel in pirate waters will eventually become a pirate vessel." />
+    <property name="Attr2" value="Other characters may not move with this ship." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="6" />
    </alternate>
    </card>
    <card id="57dce054-b091-4738-99a5-faaef890e74b" name="The Wormwood Mutiny">

@@ -1635,71 +1635,11 @@
     <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
-   <card id="8b952145-9cb5-4d46-818a-acc5f8829cc7" name="Merchantman">
+   <card id="5f34d725-e135-40ea-b6f1-3db397ee608f" name="Dominator">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
     <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 0" />
-    <property name="Flavour" value="A plucky merchant crew considers a ship valuable when its hold is laden with precious goods. So do the pirates in Port Peril. That's one of the few ideas that unites the denizens of the Shackles." />
-    <property name="Attr2" value="If you fail to defeat a bane that has the Pirate trait, bury a card." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="6" />
-   <alternate name="Merchantman" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Class 0" />
-    <property name="Attr1" value="If defeated, when you stash a plunder card, roll on the Plunder Table twice and choose 1 of the results." />
-    <property name="Attr2" value="When you would roll for plunder, you may discard a card from the blessings deck to choose the type of plunder card instead." />
-    <property name="Attr3" value="Wisdom&#10;Survival" />
-    <property name="Attr4" value="5" />
-    <property name="Attr5" value="Perception" />
-    <property name="Attr6" value="7" />
-    <property name="Attr7" value="OR" />
-   </alternate>
-   </card>
-   <card id="45990307-62e1-44d4-9b60-1e31c59efa30" name="Shackles Pirate Ship">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 0" />
-    <property name="Flavour" value="Over at Rickety's Squibs, the scoundrels in the Shackles celebrate the commissioning of a new ship with resounding joy. The ship's previous owners don't share their enthusiasm." />
-    <property name="Attr2" value="When your ship is dealt damage, add 1 to the amount of damage dealt." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="5" />
-   <alternate name="Shackles Pirate Ship" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Class 0" />
-    <property name="Attr1" value="If your check to defeat has the Swashbuckling trait, add 1 to it." />
-    <property name="Attr2" value="If your check to defeat a ship has the Swashbuckling trait, you may discard a card from the blessings deck to add 1d12 to that check." />
-    <property name="Attr3" value="Dexterity&#10;Disable" />
-    <property name="Attr4" value="8" />
-    <property name="Attr5" value="Wisdom&#10;Survival" />
-    <property name="Attr6" value="6" />
-    <property name="Attr7" value="OR" />
-   </alternate>
-   </card>
-   <card id="8a13de0d-9761-4408-8934-3d388be4014a" name="Dominator">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 6" />
-    <property name="Flavour" value="This huge warship fies the colors of the Empire of Cheliax. With a company of marines mustered on deck, the Dominator is home to pirate hunter Kyan Kain, the scourge of scourges everywhere." />
-    <property name="Attr2" value="Remove the Swashbuckling trait from all of your checks." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="7" />
-   <alternate name="Dominator" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
     <property name="Traits" value="Class 6" />
     <property name="Attr1" value="If the Dominator was summoned by a card that has the Captain trait, the difficulty of your check to defeat the Dominator is increased by 2. This ship cannot be seized." />
     <property name="Attr2" value="You may discard a card from the blessings deck to automatically succeed at your check to defeat a barrier that has the Task trait." />
@@ -1708,23 +1648,48 @@
     <property name="Attr5" value="Dexterity&#10;Ranges" />
     <property name="Attr6" value="11" />
     <property name="Attr7" value="OR" />
-   </alternate>
-   </card>
-   <card id="72b59ea1-453c-4bc2-a1c7-e4a2c14500c0" name="Sea Chanty">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 3" />
-    <property name="Flavour" value="This Sargavan galleon out of Eleder is often stocked with trade goods and luxuries. It's suffered many a clash with freebooting vessels and survived to brave the shipping lanes anew." />
-    <property name="Attr2" value="The difficulty of your check to acquire a boon is increased by 1." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="5" />
-   <alternate name="Sea Chanty" type="B">
+   <alternate name="Dominator" type="B">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
     <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 6" />
+    <property name="Flavour" value="This huge warship fies the colors of the Empire of Cheliax. With a company of marines mustered on deck, the Dominator is home to pirate hunter Kyan Kain, the scourge of scourges everywhere." />
+    <property name="Attr2" value="Remove the Swashbuckling trait from all of your checks." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="7" />
+   </alternate>
+   </card>
+   <card id="c81669c6-9a3b-444d-a31f-cdf0a7f1b25b" name="Merchantman">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Class 0" />
+    <property name="Attr1" value="If defeated, when you stash a plunder card, roll on the Plunder Table twice and choose 1 of the results." />
+    <property name="Attr2" value="When you would roll for plunder, you may discard a card from the blessings deck to choose the type of plunder card instead." />
+    <property name="Attr3" value="Wisdom&#10;Survival" />
+    <property name="Attr4" value="5" />
+    <property name="Attr5" value="Perception" />
+    <property name="Attr6" value="7" />
+    <property name="Attr7" value="OR" />
+   <alternate name="Merchantman" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 0" />
+    <property name="Flavour" value="A plucky merchant crew considers a ship valuable when its hold is laden with precious goods. So do the pirates in Port Peril. That's one of the few ideas that unites the denizens of the Shackles." />
+    <property name="Attr2" value="If you fail to defeat a bane that has the Pirate trait, bury a card." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="6" />
+   </alternate>
+   </card>
+   <card id="fd0a81ac-c033-451e-a5b5-11ba809c8bdc" name="Sea Chanty">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
     <property name="Traits" value="Class 3" />
     <property name="Attr1" value="You may reveal any number of allies; for each ally revealed, add 3 to your check to defeat the Sea Chanty." />
     <property name="Attr2" value="You may discard a card from the blessings deck to add 1d12 to your check to acquire a boon." />
@@ -1733,23 +1698,48 @@
     <property name="Attr5" value="Charisma&#10;Diplomacy" />
     <property name="Attr6" value="8" />
     <property name="Attr7" value="OR" />
-   </alternate>
-   </card>
-   <card id="21c96476-884f-4ed1-90b0-f31c3d327344" name="Truewind">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 1" />
-    <property name="Flavour" value="When pirates attack your ship, this fine Absalom barque is a vessel you'll want to see. Bedecked with ballistae, it intercedes when helpless sailors are about to have their vessels plundered." />
-    <property name="Attr2" value="The difficulty of your check to acquire an ally that has the Pirate trait is increased by 2." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="7" />
-   <alternate name="Truewind" type="B">
+   <alternate name="Sea Chanty" type="B">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
     <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 3" />
+    <property name="Flavour" value="This Sargavan galleon out of Eleder is often stocked with trade goods and luxuries. It's suffered many a clash with freebooting vessels and survived to brave the shipping lanes anew." />
+    <property name="Attr2" value="The difficulty of your check to acquire a boon is increased by 1." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="5" />
+   </alternate>
+   </card>
+   <card id="83722bd3-531d-4596-8f08-5e1f49ac9063" name="Shackles Pirate Ship">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Class 0" />
+    <property name="Attr1" value="If your check to defeat has the Swashbuckling trait, add 1 to it." />
+    <property name="Attr2" value="If your check to defeat a ship has the Swashbuckling trait, you may discard a card from the blessings deck to add 1d12 to that check." />
+    <property name="Attr3" value="Dexterity&#10;Disable" />
+    <property name="Attr4" value="8" />
+    <property name="Attr5" value="Wisdom&#10;Survival" />
+    <property name="Attr6" value="6" />
+    <property name="Attr7" value="OR" />
+   <alternate name="Shackles Pirate Ship" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 0" />
+    <property name="Flavour" value="Over at Rickety's Squibs, the scoundrels in the Shackles celebrate the commissioning of a new ship with resounding joy. The ship's previous owners don't share their enthusiasm." />
+    <property name="Attr2" value="When your ship is dealt damage, add 1 to the amount of damage dealt." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="5" />
+   </alternate>
+   </card>
+   <card id="9712f862-3e46-4758-8834-bdd6355dbaef" name="Truewind">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
     <property name="Traits" value="Class 1" />
     <property name="Attr1" value="You may discard an ally that has the Pirate trait to add 2 to your check to defeat." />
     <property name="Attr2" value="You may discard a card from the blessings deck to recharge a random card from your discard pile." />
@@ -1758,6 +1748,16 @@
     <property name="Attr5" value="Wisdom&#10;Survival" />
     <property name="Attr6" value="6" />
     <property name="Attr7" value="OR" />
+   <alternate name="Truewind" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 1" />
+    <property name="Flavour" value="When pirates attack your ship, this fine Absalom barque is a vessel you'll want to see. Bedecked with ballistae, it intercedes when helpless sailors are about to have their vessels plundered." />
+    <property name="Attr2" value="The difficulty of your check to acquire an ally that has the Pirate trait is increased by 2." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="7" />
    </alternate>
    </card>
    <card id="bce3da8a-405d-4a7a-8506-708cedfe5041" name="Wormwood">
@@ -1766,22 +1766,22 @@
     <property name="Type" value="Ship" />
     <property name="Subtype2" value="Front" />
     <property name="Traits" value="Class 5" />
-    <property name="Flavour" value="Barnabas Harrigan's flagship is infamous throughout the Shackles for its ability to slip away from the watchful Chelish navy, but rumblings of mutiny are common within Harrigan's crew." />
-    <property name="Attr2" value="At the start of your turn, banish this card and exchange it for the ship Merchantman." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="8" />
-   <alternate name="Wormwood" type="B">
-    <property name="Abr" value="B" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
-    <property name="Traits" value="Class 5" />
     <property name="Attr1" value="The difficulty of your check to defeat the Wormwood is increased by twice the adventure deck number, if any." />
     <property name="Attr2" value="You may discard a card from the blessings deck to add 1d12 to your check to defeat a bane or a ship." />
     <property name="Attr3" value="Dexterity&#10;Acrobatics" />
     <property name="Attr4" value="9" />
     <property name="Attr5" value="Wisdom&#10;Survival" />
     <property name="Attr6" value="7" />
+   <alternate name="Wormwood" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 5" />
+    <property name="Flavour" value="Barnabas Harrigan's flagship is infamous throughout the Shackles for its ability to slip away from the watchful Chelish navy, but rumblings of mutiny are common within Harrigan's crew." />
+    <property name="Attr2" value="At the start of your turn, banish this card and exchange it for the ship Merchantman." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="8" />
    </alternate>
    </card>
    <card id="7d72ed65-a00f-4974-9a55-b414d9b5912f" name="Skull and Shackles">
