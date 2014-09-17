@@ -487,7 +487,6 @@ def deckLoaded(player, groups):
 			if choice:
 				activeShip = findCardByName(shared.piles['Fleet'], fleet[choice-1])
 				activeShip.moveToTable(PlayerX(-1), StoryY)
-				flipCard(activeShip)
 			else:
 				whisper("Fleet card not loaded")
 		#If no choice was made, default to a random ship
@@ -906,7 +905,7 @@ def randomCardN(who, pile, trait, x, y, n, hide=False):
 
 def cardTypePile():
 	mute()
-	types = ["Henchman", "Monster", "Barrier", "Armor", "Weapon", "Spell", "Item", "Ally", "Blessing"]
+	types = ["Henchman", "Monster", "Barrier", "Armor", "Weapon", "Spell", "Item", "Ally", "Blessing", "Ship"]
 	choice = askChoice("Pick card type", types)
 	if choice <= 0:
 		return None, None	
@@ -956,7 +955,7 @@ def isBoon(cards):
 	
 def isBoxed(cards):
 	for c in cards:
-		if c.Type not in ('Boon', 'Bane', 'Feat'):
+		if c.Type not in ('Boon', 'Bane', 'Feat', 'Ship'):
 			return False
 	return True
 	

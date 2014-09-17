@@ -343,21 +343,11 @@
     <property name="Attr2" value="Strength&#10;Melee" />
     <property name="Attr3" value="9" />
    </card>
-   <card id="1aa1a579-f2a8-4d46-b3e1-806a57f8c978" name="Man's Promise">
+   <card id="1dcb5d2b-bc33-40a3-a84f-51aad1c25767" name="Man's Promise">
     <property name="Abr" value="1" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Ship" />
     <property name="Subtype2" value="Front" />
-    <property name="Traits" value="Class 1" />
-    <property name="Flavour" value="The Man's Promise is a proud three-master of Rahadoumi vintage. Like many a merchant ship before her, she's proven that any vessel in pirate waters will eventually become a pirate vessel." />
-    <property name="Attr2" value="Other characters may not move with this ship." />
-    <property name="Attr3" value="Craft" />
-    <property name="Attr4" value="6" />
-   <alternate name="Man's Promise" type="B">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Ship" />
-    <property name="Subtype2" value="Back" />
     <property name="Traits" value="Class 1" />
     <property name="Attr1" value="If any check to defeat the Man's Promise has the Swashbuckling trait, add 2 to it." />
     <property name="Attr2" value="You may discard a card from the blessings deck to explore your location." />
@@ -366,6 +356,16 @@
     <property name="Attr5" value="Charisma&#10;Diplomacy" />
     <property name="Attr6" value="8" />
     <property name="Attr7" value="OR" />
+   <alternate name="Man's Promise" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 1" />
+    <property name="Flavour" value="The Man's Promise is a proud three-master of Rahadoumi vintage. Like many a merchant ship before her, she's proven that any vessel in pirate waters will eventually become a pirate vessel." />
+    <property name="Attr2" value="Other characters may not move with this ship." />
+    <property name="Attr3" value="Craft" />
+    <property name="Attr4" value="6" />
    </alternate>
    </card>
    <card id="57dce054-b091-4738-99a5-faaef890e74b" name="The Wormwood Mutiny">
@@ -374,7 +374,7 @@
     <property name="Type" value="Story" />
     <property name="Subtype" value="Adventure" />
     <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="No one asks to join the crew of the ruthless pirate captain Barnabas Harrigan, but when his ship, the Wormwood, leaves port, it usually sets sail with several unwitting new crew members. Survival aboard the Wormwood means carving out a place among a crew of vicious scalawags ready to fight for their bloodthirsty commander. There's booty to be had, after all, and opportunity awaits for those who demonstrate a knack for survival. And besdies, following orders is often just a step on the path to being the one who gives them." />
+    <property name="Flavour" value="No one asks to join the crew of the ruthless pirate captain Barnabas Harrigan, but when his ship, the Wormwood, leaves port, it usually sets sail with several unwitting new crew members. Survival aboard the Wormwood means carving out a place among a crew of vicious scalawags ready to fight for their bloodthirsty commander. There's booty to be had, after all, and opportunity awaits for those who demonstrate a knack for survival. And besides, following orders is often just a step on the path to being the one who gives them." />
    <alternate name="The Wormwood Mutiny" type="B">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />
@@ -420,10 +420,10 @@
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="When you would encounter a buccaneer henchman, summon and encounter the ship Man's Promise instead. If you defeat the Man's Promise, the Buccaneer is defeated; otehrwise, the Buccaneer is undefeated, and a random character summons and encounters the henchman Hammerhead Shark." />
+    <property name="Attr1" value="When you would encounter a buccaneer henchman, summon and encounter the ship Man's Promise instead. If you defeat the Man's Promise, the Buccaneer is defeated; otherwise, the Buccaneer is undefeated, and a random character summons and encounters the henchman Hammerhead Shark." />
     <property name="Attr2" value="Rahadoumi Captain" />
     <property name="Attr3" value="Buccaneers" />
-    <property name="Attr4" value="For each plunder card, gain anotehr random card of that type from the box. Gain a Class 1 ship feat." />
+    <property name="Attr4" value="For each plunder card, gain another random card of that type from the box. Gain a Class 1 ship feat." />
    </alternate>
    </card>
    <card id="5db8526d-3019-4ab6-8861-1ae5bdb565d9" name="The Wreck of the Infernus">
@@ -519,7 +519,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="The cyclops empire of Ghol-Gan once encompassed all of the Shackles. Although the giants' civilization died off ages ago, ruins of their grand structures remain hidden in wild jungles on scattered islands. While msot ruins hold only a suggestion of their terrible brutality, some are far from empty. Even after centuries, the bloody might of Ghol-Gan refuses to die." />
+    <property name="Flavour" value="The cyclops empire of Ghol-Gan once encompassed all of the Shackles. Although the giants' civilization died off ages ago, ruins of their grand structures remain hidden in wild jungles on scattered islands. While most ruins hold only a suggestion of their terrible brutality, some are far from empty. Even after centuries, the bloody might of Ghol-Gan refuses to die." />
    </alternate>
    </card>
    <card id="e82d9723-536a-41ae-80e7-683f6167aa4b" name="Hatchery">
@@ -536,7 +536,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Countless squirming things hunt beneat the waves. Some only crawl onto land when they spawn, hiding their cold births in shadowy places far from the suffering of their aquatic nightmares." />
+    <property name="Flavour" value="Countless squirming things hunt beneath the waves. Some only crawl onto land when they spawn, hiding their cold births in shadowy places far from the suffering of their aquatic nightmares." />
    </alternate>
    </card>
    <card id="fc1b1a48-93b2-4082-a3cb-af1de738443f" name="Jungle">
@@ -553,7 +553,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="If the smothering heat, strangling vines, stinging insects, poisonous serpents, and prowling predators weren't enough, dark magic and memories of ancient atrocities lay cloaked admidst trackless jungle islands. Is it any surprise that in the Shackles, it's the landlubbers - not the experienced pirates - who are usually considered the crazy ones?" />
+    <property name="Flavour" value="If the smothering heat, strangling vines, stinging insects, poisonous serpents, and prowling predators weren't enough, dark magic and memories of ancient atrocities lay cloaked amidst trackless jungle islands. Is it any surprise that in the Shackles, it's the landlubbers - not the experienced pirates - who are usually considered the crazy ones?" />
    </alternate>
    </card>
    <card id="5dd2ef27-3cc4-43c0-b23d-20ac7ca1fed6" name="Riptide Cove">
@@ -816,7 +816,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Abberation&#10;Aquatic&#10;Basic" />
+    <property name="Traits" value="Aberration&#10;Aquatic&#10;Basic" />
     <property name="Attr1" value="If any die rolled in your check to defeat is a 2, count it as a 1. If undefeated, after you act, the Devilfish deals 1 Poison damage to you." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="10" />
@@ -877,7 +877,7 @@
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Monster" />
     <property name="Traits" value="Aberration&#10;Plant&#10;Elite" />
-    <property name="Attr1" value="The Vine Choker is immune to the Mental and Poison traits.&#10;Before you act, succeed at a Dexterity or Acrobatics 8 check or you may not play spells.&#10;If undefeated, the Vine Choker deals no dmage; instead, bury the top 1d4 cards from your deck." />
+    <property name="Attr1" value="The Vine Choker is immune to the Mental and Poison traits.&#10;Before you act, succeed at a Dexterity or Acrobatics 8 check or you may not play spells.&#10;If undefeated, the Vine Choker deals no damage; instead, bury the top 1d4 cards from your deck." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="10" />
    </card>
