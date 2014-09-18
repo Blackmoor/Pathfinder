@@ -123,8 +123,11 @@ def findCard(group, model):
 def comesFrom(card):
 	if card is None:
 		return None
-	if card.Type is not None and card.Type in shared.piles:
-		return shared.piles[card.Type]
+	if card.Type is not None:
+		if card.Type == 'Ship':
+			return shared.piles['Fleet'] #We assume any Ships on the table are in our fleet
+		if card.Type in shared.piles:
+			return shared.piles[card.Type]
 	if card.Subtype is not None and card.Subtype in shared.piles:
 		return shared.piles[card.Subtype]
 	return None
@@ -354,8 +357,7 @@ def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 		if card.controller == me:
 			#Remove the pile link on cards leaving the table
 			if card.pile() is not None:
-				card.link(None)
-			shipFound = 0	
+				card.link(None)	
 			if card.Type == 'Character':
 				if card.Subtype == 'Token':
 					card.moveTo(card.owner.hand)
@@ -363,8 +365,6 @@ def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 					card.switchTo() # Display side A of the card as it shows the deck makeup
 			elif not cleanupStory and card.Type == 'Boon': # Return displayed cards to the controller's hand
 				card.moveTo(me.hand)
-			elif card.Type == 'Ship':
-				shipFound = 1
 			elif cleanupStory or card.Type != 'Story':
 				returnToBox(card)
 
@@ -563,7 +563,19 @@ def SandpointUnderSiege():
 			notify("{} shuffles '{}' back into '{}'".format(me, c, loc))
 			c.moveTo(loc.pile())
 			shuffle(loc.pile(), True)
-	
+
+#Pick a random ally from the player piles, move it to the given pile and pass control to a supplied player
+def donateAlly(who):
+	mute()
+	allies = []
+	for name in me.piles:
+		allies.extend([ c for c in me.piles[name] if c.Subtype == 'Ally' ])
+	ally = allies[int(random()*len(allies))]
+	ally.moveToTable(0, 0)
+	ally.setController(who)
+	debug("{} donates {} to {}".format(me, ally, who))
+	return ally
+
 #
 #Card Move Event
 # We only care if we have just moved our avatar from hand to the table
@@ -1599,6 +1611,20 @@ def scenarioSetup(card):
 		index += 1
 	unlockPile(hidden)
 	
+	#The scenario "The Grindylow and the Whale" requires each player to move a random ally into the Scenario pile
+	if card.Name == 'The Grindylow and the Whale':
+		for p in getPlayers():
+			if p == me:
+				donateAlly(me)
+			else:
+				remoteCall(p, "donateAlly", [ me ])
+		sync()
+		#Find all the allies on the table and move the Scenario pile
+		for c in table:
+			if c.Subtype == 'Ally':
+				c.moveTo(shared.piles['Scenario'])				
+		shuffle(shared.piles['Scenario'])
+		
 	#Create the Blessing deck
 	if card.Name != "Into the Eye":
 		src = shared.piles['Blessing']

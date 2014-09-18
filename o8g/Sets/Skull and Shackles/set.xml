@@ -1979,7 +1979,7 @@
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Female&#10;Human&#10;Oracle" />
-    <property name="Attr1" value="You may recharge a card that has the Divine trait to examine the top card of any location&#10;deck ([ ] or the blessings deck or any character deck).&#10;At the end of your turn, you may discard a card that has the Divine trait to add a card that&#10;has the Divine trait from your discard pile to your hand.&#10;If your combat check has the Attack trait, add 2 to it. ([ ] You may also add the Fire trait.)" />
+    <property name="Attr1" value="You may recharge a card that has the Divine trait to examine the top card of any location deck ([ ] or the blessings deck or any character deck).&#10;At the end of your turn, you may discard a card that has the Divine trait to add a card that has the Divine trait from your discard pile to your hand.&#10;If your combat check has the Attack trait, add 2 to it. ([ ] You may also add the Fire trait.)" />
     <property name="Attr2" value="Strength: d4  [ ] +1&#10;Desterity: d4  [ ] +1&#10;Consitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Charisma +2" />
     <property name="Attr3" value="6  [ ] 7" />
     <property name="Attr4" value="[ ] Light Armors" />

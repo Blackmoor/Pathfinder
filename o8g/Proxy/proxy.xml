@@ -35,6 +35,16 @@
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
 		<wordwrap height="120" width="370" />
 	</block>
+	<block type="text" id="Villain">
+		<location x="26" y="126" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="120" width="180" />
+	</block>
+	<block type="text" id="Henchmen">
+		<location x="216" y="126" />
+		<text color="#000000" size="12" font="Resources/dax.ttf" />
+		<wordwrap height="120" width="180" />
+	</block>
 	<block type="text" id="HighText">
 		<location x="32" y="230" />
 		<text color="#000000" size="14" font="Resources/dax.ttf" />
@@ -920,8 +930,10 @@
 	  <link block="Subtype">
 	   <property name="Subtype" />
 	  </link>
-	  <link block="StatBlock" separator="&#10;">
+	  <link block="Villain">
 	   <property name="Attr2" format="Villain: {}" />
+	  </link>
+	  <link block="Henchmen">
 	   <property name="Attr3" format="Henchmen: {}" />
 	  </link>
 	  <link block="HighText">
