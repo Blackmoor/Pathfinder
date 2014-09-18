@@ -472,25 +472,9 @@ def deckLoaded(player, groups):
 		return
 		
 	isShared = False
-	isFleet = False
 	for p in groups:
-		if p.name == 'Fleet':
-			isFleet = True
 		if p.name in shared.piles:
 			isShared = True
-		
-	if isFleet and isShared: # Allow player to choose a ship from their fleet deck and put it onto the table
-		fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
-		debug("Fleet cards found: {}".format(fleet))
-		if len(fleet) > 1:
-			choice = askChoice("Choose Your Ship", fleet)
-		elif len(fleet) == 1:
-			choice = 1
-		else:
-			whisper("Fleet card not loaded")
-		if choice:
-			activeShip = findCardByName(shared.piles['Fleet'], fleet[choice-1])
-			activeShip.moveToTable(PlayerX(-1), StoryY)
 		
 	if not isShared: # Player deck loaded
 		playerSetup()
@@ -766,7 +750,7 @@ def pickScenario(group=table, x=0, y=0):
 		cleanupGame(True)
 		sync() #wait for other players to tidy up their cards
 	
-	rise = False # Rise of the Runelords adventure path has special rules for banishing cards with the Basic and Elite traits
+	autobanish = False # Rise of the Runelords and Skull and Shackles adventure paths have special rules for banishing cards with the Basic and Elite traits
 	setGlobalVariable('Previous Turn', '')
 	setGlobalVariable('Current Turn', '')
 	setGlobalVariable('Remove Basic', '')
@@ -782,13 +766,10 @@ def pickScenario(group=table, x=0, y=0):
 	if choice <= 0 or paths[choice-1] == 'None': # Not using an adventure path
 		adventures = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
 		adventures.append("None")
-		rise = 0
-		skull = 0
 	else:
 		path = findCardByName(shared.piles['Story'], paths[choice-1])
+		autobanish = path.Name in ['Rise of the Runelords', 'Skull and Shackles']
 		path.moveToTable(PlayerX(-4),StoryY)
-		rise = path.Name == 'Rise of the Runelords'
-		skull = path.Name == 'Skull and Shackles'
 		flipCard(path)
 		loaded = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
 		adventures = []
@@ -802,18 +783,9 @@ def pickScenario(group=table, x=0, y=0):
 	if choice <= 0 or adventures[choice-1] == 'None': # Not using an adventure card
 		scenarios = [ card.name for card in shared.piles['Story'] if card.Subtype == 'Scenario' ]
 	else:
-		#If playing Skull and Shackles, make sure Fleet card has been loaded, otherwise abort
-		if skull:
-			fleetLoaded = 0
-			for card in table:
-				if card.Type == 'Ship':
-					fleetLoaded = 1
-			if fleetLoaded == 0:
-				whisper("Please load the Fleet deck before playing the Skull and Shackles adventure".format(p))
-				return
 		adventure = findCardByName(shared.piles['Story'], adventures[choice-1])
 		adventure.moveToTable(PlayerX(-3), StoryY)
-		if rise or skull:
+		if autobanish:
 			if num(adventure.Abr) >= 3:
 				setGlobalVariable("Remove Basic", "1")
 			if num(adventure.Abr) >= 5:
@@ -832,7 +804,16 @@ def pickScenario(group=table, x=0, y=0):
 		scenario = findCardByName(shared.piles['Story'], scenarios[choice-1])
 		scenario.moveToTable(PlayerX(-2),StoryY)
 		scenarioSetup(scenario)
-
+	
+	#If we loaded a fleet then pick a ship		
+	fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
+	if len(fleet) > 0:
+		if len(fleet) == 1:
+			choice = 1
+		else:
+			choice = askChoice("Choose Your Ship", fleet)
+		findCardByName(shared.piles['Fleet'], fleet[choice-1]).moveToTable(PlayerX(-1), StoryY)
+			
 def nextTurn(group=table, x=0, y=0):
 	mute()
 	# Only the current active player can do this
