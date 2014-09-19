@@ -564,16 +564,16 @@ def SandpointUnderSiege():
 			c.moveTo(loc.pile())
 			shuffle(loc.pile(), True)
 
-#Pick a random ally from the player piles, move it to the given pile and pass control to a supplied player
+#Pick a random ally from the player piles, move it to the table and pass control to the supplied player
 def donateAlly(who):
 	mute()
 	allies = []
 	for name in me.piles:
 		allies.extend([ c for c in me.piles[name] if c.Subtype == 'Ally' ])
 	ally = allies[int(random()*len(allies))]
-	ally.moveToTable(0, 0)
-	ally.setController(who)
 	debug("{} donates {} to {}".format(me, ally, who))
+	ally.moveToTable(0, 0, True) # Move to the centre of the table and face down
+	ally.setController(who)
 	return ally
 
 #
@@ -1619,9 +1619,11 @@ def scenarioSetup(card):
 			else:
 				remoteCall(p, "donateAlly", [ me ])
 		sync()
-		#Find all the allies on the table and move the Scenario pile
-		for c in table:
-			if c.Subtype == 'Ally':
+		#Find all the allies on the table (they are face down at 0,0) and move to the Scenario pile
+		facedown = [c for c in table if not c.isFaceUp]
+		for c in facedown:
+			x, y = c.position
+			if x == 0 and y == 0:
 				c.moveTo(shared.piles['Scenario'])				
 		shuffle(shared.piles['Scenario'])
 		
