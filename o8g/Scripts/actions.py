@@ -523,13 +523,16 @@ def startOfTurn(player, turn):
 		if len(scenario) == 1:
 			fn = scenario[0].Name.replace(' ','').replace('!','')
 			if fn in globals():
-				globals()[fn]()
+				globals()[fn](False)
 		advanceBlessingDeck()	
 		
 #
-# Scenario specific functions - called at the start of each turn and must be named exactly as the Scenario card with the spaces removed
+# Scenario specific functions - called once during setup and then at the start of each turn
+# The function must be named exactly as the Scenario card with the spaces removed
 #
-def HereComestheFlood():
+def HereComestheFlood(setup):
+	if setup:
+		return # Nothing special to do in setup
 	mute()
 	#Pick a random location
 	locs = [ c for c in table if c.Type == 'Location' ]
@@ -545,7 +548,9 @@ def HereComestheFlood():
 	else:
 		notify("{} moves {} cards (rolled {}) from {} to Black Magga".format(me, moved, toMove, loc))
 
-def SandpointUnderSiege():
+def SandpointUnderSiege(setup):
+	if setup:
+		return # Nothing special to do in setup
 	mute()
 	#Pick a random open location
 	locs = [ c for c in table if isOpen(c) ]
@@ -563,6 +568,22 @@ def SandpointUnderSiege():
 			notify("{} shuffles '{}' back into '{}'".format(me, c, loc))
 			c.moveTo(loc.pile())
 			shuffle(loc.pile(), True)
+			
+def TheGrindylowandtheWhale(setup): # setup requires each player to move a random ally into the Scenario pile
+	if setup:
+		for p in getPlayers():
+			if p == me:
+				donateAlly(me)
+			else:
+				remoteCall(p, "donateAlly", [ me ])
+		sync()
+		#Find all the allies on the table (they are face down at 0,0) and move to the Scenario pile
+		facedown = [c for c in table if not c.isFaceUp]
+		for c in facedown:
+			x, y = c.position
+			if x == 0 and y == 0:
+				c.moveTo(shared.piles['Scenario'])				
+		shuffle(shared.piles['Scenario'])
 
 #Pick a random ally from the player piles, move it to the table and pass control to the supplied player
 def donateAlly(who):
@@ -578,9 +599,7 @@ def donateAlly(who):
 
 #
 #Card Move Event
-# We only care if we have just moved our avatar from hand to the table
-# or if the blessing discard pile changes
-# We also stop a player moving the avatar from the table
+# Enforce game logic for ships, avatars and blessing deck
 #
 def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
 	mute()
@@ -604,15 +623,19 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 			bc = table.create(bd.top().model, bx, by)
 			bc.link(shared.piles['Blessing Deck'])
 	
-	#We only care if we moved the avatar
-	if isScriptMove or player != me or card.Type != 'Character' or card.Subtype != 'Token':
+	if player != me: # Nothing to do
 		return
-	
+	if card.Type == 'Ship': #Any ship moved to the table should be linked to the Plunder pile
+		card.link(shared.piles['Plunder'])
+		return
+	if isScriptMove or card.Type != 'Character' or card.Subtype != 'Token': # Nothing to do
+		return	
+
+	# Our Avatar has moved
 	if fromGroup == table and toGroup != table: # Did we move the avatar off the table
 		# Don't allow this
 		card.moveToTable(oldX, oldY)
 		return
-	
 	if fromGroup != table and toGroup == table: # Did we move the avatar onto the table
 		# If the scenario hasn't been set up yet return the avatar to hand and issue a warning
 		locs = [ c for c in table if c.Type == 'Location' ]
@@ -620,74 +643,77 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 			whisper("Ensure the scenario is set up before placing {} at your starting location".format(card))
 			card.moveTo(fromGroup)
 			return
+		playerReady(card)
 		
-		#Ensure side B of the character card is face up
-		for c in table:
-			if c.owner == me and c.Type == 'Character' and c != card:
-				c.switchTo('B')
+def playerReady(card):
+	mute()
+	#Ensure side B of the character card is face up
+	for c in table:
+		if c.owner == me and c.Type == 'Character' and c != card:
+			c.switchTo('B')
 
-		debug("{} is ready".format(me))
-		#Move all player card (Boons) to Discarded pile - then shuffle ready for dealing
-		for pile in [ me.hand, me.Buried, me.deck ]:
-			for c in pile:
-				if c.Type == 'Character':
-					c.moveTo(me.hand)
-				elif c.Type == 'Feat':
-					c.moveTo(me.Buried)
-				else:
-					c.moveTo(me.Discarded)
-		shuffle(me.Discarded, True)
-		size = len(me.Discarded)
-		favoured = getFavoured()					
-		if favoured == 'Your choice':
-			#Make a list of card types in the deck
-			choices = []
-			for card in me.Discarded:	
-				if card.Subtype not in choices:
-					choices.append(card.Subtype)
-				if card.Subtype == 'Loot': # Loots have a secondary type too
-					if card.Subtype2 not in choices:
-						choices.append(card.Subtype2)
-			#Prompt user to select favoured card type
-			choice = None
-			if len(choices) > 0:
-				while choice == None or choice == 0:
-					choice = askChoice("Favoured Card Type", choices)
-				favoured = choices[choice-1]
-		handSize = getHandSize()
-		ci = 0
-		for card in me.Discarded:
-			if card.Subtype == favoured or (card.Subtype == 'Loot' and card.Subtype2 == favoured): break
-			ci += 1
-			
-		if ci >= size:
-			ci = 0
-			notify("{} has an invalid deck - no favoured cards ({})".format(me, favoured))
-		
-		if ci > 0: #Move the top cards to deck so that the favoured card is at the top of the Discarded pile
-			for card in me.Discarded.top(ci):
-				card.moveToBottom(me.Discarded)
-
-		for c in me.Discarded.top(handSize):
-			c.moveTo(me.hand)
-		#Move the rest of the cards into the deck
-		for card in me.Discarded:
-			card.moveTo(me.deck)
-		
-		sync()
-		#The first player to drag to the table becomes the active player
-		tokens = [ c for c in table if c.Subtype == 'Token' ]
-		if len(tokens) == 1:
-			#Check to see who the active player is
-			active = None
-			for p in getPlayers():
-				if p.isActivePlayer:
-					active = p
-					break
-			if active is None: # At the start of a game no one is active but anyone can set the active player
-				makeActive(me)
+	debug("{} is ready".format(me))
+	#Move all player card (Boons) to Discarded pile - then shuffle ready for dealing
+	for pile in [ me.hand, me.Buried, me.deck ]:
+		for c in pile:
+			if c.Type == 'Character':
+				c.moveTo(me.hand)
+			elif c.Type == 'Feat':
+				c.moveTo(me.Buried)
 			else:
-				remoteCall(active, "makeActive", [me])
+				c.moveTo(me.Discarded)
+	shuffle(me.Discarded, True)
+	size = len(me.Discarded)
+	favoured = getFavoured()					
+	if favoured == 'Your choice':
+		#Make a list of card types in the deck
+		choices = []
+		for card in me.Discarded:	
+			if card.Subtype not in choices:
+				choices.append(card.Subtype)
+			if card.Subtype == 'Loot': # Loots have a secondary type too
+				if card.Subtype2 not in choices:
+					choices.append(card.Subtype2)
+		#Prompt user to select favoured card type
+		choice = None
+		if len(choices) > 0:
+			while choice == None or choice == 0:
+				choice = askChoice("Favoured Card Type", choices)
+			favoured = choices[choice-1]
+	handSize = getHandSize()
+	ci = 0
+	for card in me.Discarded:
+		if card.Subtype == favoured or (card.Subtype == 'Loot' and card.Subtype2 == favoured): break
+		ci += 1
+		
+	if ci >= size:
+		ci = 0
+		notify("{} has an invalid deck - no favoured cards ({})".format(me, favoured))
+	
+	if ci > 0: #Move the top cards to deck so that the favoured card is at the top of the Discarded pile
+		for card in me.Discarded.top(ci):
+			card.moveToBottom(me.Discarded)
+
+	for c in me.Discarded.top(handSize):
+		c.moveTo(me.hand)
+	#Move the rest of the cards into the deck
+	for card in me.Discarded:
+		card.moveTo(me.deck)
+	
+	sync()
+	#The first player to drag to the table becomes the active player
+	tokens = [ c for c in table if c.Subtype == 'Token' ]
+	if len(tokens) == 1:
+		#Check to see who the active player is
+		active = None
+		for p in getPlayers():
+			if p.isActivePlayer:
+				active = p
+				break
+		if active is None: # At the start of a game no one is active but anyone can set the active player
+			makeActive(me)
+		else:
+			remoteCall(active, "makeActive", [me])
 
 def makeActive(who):
 	mute()
@@ -824,7 +850,9 @@ def pickScenario(group=table, x=0, y=0):
 			choice = 1
 		else:
 			choice = askChoice("Choose Your Ship", fleet)
-		findCardByName(shared.piles['Fleet'], fleet[choice-1]).moveToTable(PlayerX(-1), StoryY)
+		ship = findCardByName(shared.piles['Fleet'], fleet[choice-1])
+		ship.moveToTable(PlayerX(-1), StoryY)
+		addPlunder(ship)
 			
 def nextTurn(group=table, x=0, y=0):
 	mute()
@@ -934,6 +962,12 @@ def isLocation(cards):
 def isVillain(cards):
 	for c in cards:
 		if c.Subtype != 'Villain':
+			return False
+	return True
+
+def isShip(cards):
+	for c in cards:
+		if c.Type != 'Ship':
 			return False
 	return True
 	
@@ -1298,6 +1332,42 @@ def hideVillain(villain, x=0, y=0, banish=False):
 			card.orientation = Rot0
 			
 	unlockPile(hidden)
+
+	
+def addRandomPlunder(ship, x=0, y=0):
+	addPlunder(ship, False)
+	
+def addChosenPlunder(ship, x=0, y=0):
+	addPlunder(ship, True)
+	
+def addPlunder(ship, choose=False):
+	mute()
+	types = [ 'Weapon', 'Spell', 'Armor' , 'Item', 'Ally' ]
+	if choose:
+		options = types
+	else:
+		choice = int(random()*6) # Roll on the plunder table
+		if choice >= 5: # User choice
+			options = types
+		else:
+			options = [ types[choice] ]
+			
+		if ship.Name == 'Merchantman': # We roll twice and pick
+			choice = int(random()*6)
+			if choice >= 5: #User choice
+				options = types
+			elif types[choice] not in options:
+				options.append(types[choice])	
+
+	if len(options) > 1:
+		choice = askChoice("Plunder Type", options)
+		if choice is None or choice == 0:
+			return
+		choice -= 1
+	else:
+		choice = 0
+	notify("{} adds {} to Plunder".format(me, options[choice]))
+	shared.piles[options[choice]].random().moveTo(shared.piles['Plunder'])
 	
 #---------------------------------------------------------------------------
 # Pile Group Actions
@@ -1341,18 +1411,6 @@ def shufflePile(group, x=0, y=0): # Most piles use this
 	mute()
 	if len(group) == 0: return
 	shuffle(group)
-	
-def addPlunder(group, x=0, y=0):
-	mute()
-	options = [ 'weapon', 'spell', 'armor' , 'item', 'ally' ]
-	choice = int(random()*6)
-	if choice >= 5:
-		choice = askChoice("Plunder Type", options)
-		if choice is None or choice == 0:
-			return
-		choice -= 1
-	notify("{} adds {} to {}".format(me, options[choice], group.name))
-	shared.piles[options[choice]].random().moveTo(group)
 	
 #---------------------------------------------------------------------------
 # Hand Group Actions
@@ -1611,21 +1669,10 @@ def scenarioSetup(card):
 		index += 1
 	unlockPile(hidden)
 	
-	#The scenario "The Grindylow and the Whale" requires each player to move a random ally into the Scenario pile
-	if card.Name == 'The Grindylow and the Whale':
-		for p in getPlayers():
-			if p == me:
-				donateAlly(me)
-			else:
-				remoteCall(p, "donateAlly", [ me ])
-		sync()
-		#Find all the allies on the table (they are face down at 0,0) and move to the Scenario pile
-		facedown = [c for c in table if not c.isFaceUp]
-		for c in facedown:
-			x, y = c.position
-			if x == 0 and y == 0:
-				c.moveTo(shared.piles['Scenario'])				
-		shuffle(shared.piles['Scenario'])
+	# Perform scenario specific actions
+	fn = card.Name.replace(' ','').replace('!','')
+	if fn in globals():
+		globals()[fn](True)
 		
 	#Create the Blessing deck
 	if card.Name != "Into the Eye":
@@ -1678,6 +1725,8 @@ def advanceBlessingDeck():
 def gameOver(won):
 	if won:
 		loot = [ c for c in shared.piles['Scenario'] ]
+		plunder = [ c for c in shared.piles['Plunder'] ]
+		loot.extend(plunder)
 		
 	cleanupGame()				
 	for p in getPlayers():
