@@ -1656,7 +1656,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Axe&#10;Ranged&#10;Slashing&#10;Elite" />
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may instead discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
     <property name="Attr3" value="6" />
    </card>
@@ -1895,7 +1895,7 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) ([ ] 3d6) and that card's traits to the check.&#10;Before you reset your hand, you may attempt to recharge a spell in your discard pile.&#10;[ ] You may discard a spell that has the Attack trait to add 1d6 ([ ] 2d6) to any check to defeat a ship or barrier.&#10;[ ] You gain the skill Ranged: Intelligence +2.&#10;[ ] When you discard ([ ] or recharge) a card that has the Pirate or Swashbuckling trait, you may draw 1 card ([ ] or 2 cards).&#10;[ ] When you play a blessing on a Craft check, recharge the blessing." />
+    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) ([ ] 3d6) and that card's traits to the check.&#10;At the end of the turn you may attempt to recharge a spell in your discard pile.&#10;[ ] You may discard a spell that has the Attack trait to add 1d6 ([ ] 2d6) to any check to defeat a ship or barrier.&#10;[ ] You gain the skill Ranged: Intelligence +2.&#10;[ ] When you discard ([ ] or recharge) a card that has the Pirate or Swashbuckling trait, you may draw 1 card ([ ] or 2 cards).&#10;[ ] When you play a blessing on a Craft check, recharge the blessing." />
     <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
@@ -1916,7 +1916,7 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) ([ ] 3d6) and that card's traits to the check.&#10;Before you reset your hand, you may attempt to recharge a spell in your discard pile. ([ ] If you succeed, you may put the card on top of your deck instead of recharging it.)&#10;[ ] When you play a weapon that has the Sword trait, you may add your Intelligence skill to your combat check.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell or a weapon.&#10;[ ] When you acquire a spell or a weapon on your turn, you may immediately explore again.&#10;[ ] Discard a spell to put a weapon from your discard pile into your hand ([ ] or discard a weapon to put a spell from your discard pile into your hand)." />
+    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) ([ ] 3d6) and that card's traits to the check.&#10;At the end of the turn you may attempt to recharge a spell in your discard pile. ([ ] If you succeed, you may put the card on top of your deck instead of recharging it.)&#10;[ ] When you play a weapon that has the Sword trait, you may add your Intelligence skill to your combat check.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a spell or a weapon.&#10;[ ] When you acquire a spell or a weapon on your turn, you may immediately explore again.&#10;[ ] Discard a spell to put a weapon from your discard pile into your hand ([ ] or discard a weapon to put a spell from your discard pile into your hand)." />
     <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
@@ -2084,7 +2084,7 @@
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
     <property name="Traits" value="Male&#10;Half-elf&#10;Magus" />
-    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) and that card's traits to the check.&#10;Before you reset your hand, you may attempt to recharge a spell in your discard pile." />
+    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) and that card's traits to the check.&#10;At the end of the turn you may attempt to recharge a spell in your discard pile." />
     <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
@@ -2847,7 +2847,7 @@
     <property name="Type" value="Story" />
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="When you encounter Kelizar the Brine Dragon, examine a random other open location deck until you find a henchman; banish it. Shuffle the remaining cards into the location deck. If Kelizar is defeated and cannot escape, banish Kelizar.&#10;&#10;You win the scenario only when all locations are permanently closed." />
+    <property name="Attr1" value="When you encounter Kelizar the Brine Dragon, examine a random other open location deck until you find a henchman; banish it. Shuffle the remaining cards into that location deck. If Kelizar is defeated and cannot escape, banish Kelizar.&#10;&#10;You win the scenario only when all locations are permanently closed." />
     <property name="Attr2" value="Kelizar the Brine Dragon" />
     <property name="Attr3" value="Shipwrecks" />
     <property name="Attr4" value="Each character draws 3 random items from the box, banishes 2 of them, and gains 1." />
