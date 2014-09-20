@@ -124,8 +124,8 @@ def comesFrom(card):
 	if card is None:
 		return None
 	if card.Type is not None:
-		if card.Type == 'Ship':
-			return shared.piles['Fleet'] #We assume any Ships on the table are in our fleet
+		if card.Type == 'Ship' and card.pile() == shared.piles['Plunder']: # The current ship belongs in our Fleet
+			return shared.piles['Fleet']
 		if card.Type in shared.piles:
 			return shared.piles[card.Type]
 	if card.Subtype is not None and card.Subtype in shared.piles:
@@ -151,6 +151,7 @@ def returnToBox(card):
 			else:
 				card.moveTo(group)
 	else: # Move to the correct pile - aiming to keep in alphabetical order
+		card.link(None)
 		index = 0
 		for c in dest:
 			if c.name >= card.name:
@@ -355,9 +356,6 @@ def cleanupGame(cleanupStory=False):
 def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 	for card in table:
 		if card.controller == me:
-			#Remove the pile link on cards leaving the table
-			if card.pile() is not None:
-				card.link(None)	
 			if card.Type == 'Character':
 				if card.Subtype == 'Token':
 					card.moveTo(card.owner.hand)
@@ -374,7 +372,7 @@ def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 			for card in pile:
 				returnToBox(card)
 
-	for p in [ 'Blessing Deck', 'Blessing Discard', 'Special', 'Scenario' ]:
+	for p in [ 'Blessing Deck', 'Blessing Discard', 'Special', 'Scenario', 'Plunder' ]:
 		pile = shared.piles[p]
 		if pile.controller == me:
 			for card in pile:
@@ -588,14 +586,14 @@ def TheGrindylowandtheWhale(setup): # setup requires each player to move a rando
 #Pick a random ally from the player piles, move it to the table and pass control to the supplied player
 def donateAlly(who):
 	mute()
-	allies = []
+	allies = [ c for c in me.hand if c.Subtype == 'Ally' ]
 	for name in me.piles:
 		allies.extend([ c for c in me.piles[name] if c.Subtype == 'Ally' ])
-	ally = allies[int(random()*len(allies))]
-	debug("{} donates {} to {}".format(me, ally, who))
-	ally.moveToTable(0, 0, True) # Move to the centre of the table and face down
-	ally.setController(who)
-	return ally
+	if len(allies) > 0:
+		ally = allies[int(random()*len(allies))]
+		debug("{} donates {} to {}".format(me, ally, who))
+		ally.moveToTable(0, 0, True) # Move face down to the centre of the table
+		ally.setController(who)
 
 #
 #Card Move Event
@@ -623,12 +621,7 @@ def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY,
 			bc = table.create(bd.top().model, bx, by)
 			bc.link(shared.piles['Blessing Deck'])
 	
-	if player != me: # Nothing to do
-		return
-	if card.Type == 'Ship': #Any ship moved to the table should be linked to the Plunder pile
-		card.link(shared.piles['Plunder'])
-		return
-	if isScriptMove or card.Type != 'Character' or card.Subtype != 'Token': # Nothing to do
+	if player != me or isScriptMove or card.Type != 'Character' or card.Subtype != 'Token': # Nothing to do
 		return	
 
 	# Our Avatar has moved
@@ -852,6 +845,7 @@ def pickScenario(group=table, x=0, y=0):
 			choice = askChoice("Choose Your Ship", fleet)
 		ship = findCardByName(shared.piles['Fleet'], fleet[choice-1])
 		ship.moveToTable(PlayerX(-1), StoryY)
+		ship.link(shared.piles['Plunder'])
 		addPlunder(ship)
 			
 def nextTurn(group=table, x=0, y=0):
@@ -1022,7 +1016,12 @@ def defaultAction(card, x = 0, y = 0):
 	if rollDice(card): # If it has dice on - roll them
 		clearTargets()
 		return
-	if card.pile() is not None and (card.Type == 'Location' or len(card.pile()) > 0):
+	if card.Type == 'Ship':
+		if card.pile() is None: # Another ship - Seize it
+			seizeShip(card)
+		else: # Our ship - either wreck or repair it
+			flipCard(card, x, y)
+	elif card.pile() is not None and (card.Type == 'Location' or len(card.pile()) > 0):
 		if card.Type == 'Location': # Explore location
 			if len(card.pile()) > 0:
 				exploreLocation(card)
@@ -1039,7 +1038,7 @@ def defaultAction(card, x = 0, y = 0):
 		hideVillain(card)
 	elif card.Type == 'Bane': # Assume it is undefeated and shuffle back into location
 		shuffleCard(card)
-	elif card.type == 'Boon': # Assume it is acquired
+	elif card.Type == 'Boon': # Assume it is acquired
 		acquireCard(card)
 	else:
 		flipCard(card, x, y)
@@ -1333,6 +1332,17 @@ def hideVillain(villain, x=0, y=0, banish=False):
 			
 	unlockPile(hidden)
 
+def seizeShip(ship, x=0, y=0):
+	if ship.pile() == shared.piles['Plunder']:
+		whisper("You already control this ship")
+		return
+		
+	# Look for any current ship(s) and return to the box
+	for c in table:
+		if c.Type == 'Ship' and c.pile() == shared.piles['Plunder']:
+			c.link(None)
+			c.moveTo(shared.piles['Fleet'])
+	ship.link(shared.piles['Plunder'])		
 	
 def addRandomPlunder(ship, x=0, y=0):
 	addPlunder(ship, False)
