@@ -1336,13 +1336,16 @@ def seizeShip(ship, x=0, y=0):
 	if ship.pile() == shared.piles['Plunder']:
 		whisper("You already control this ship")
 		return
-		
+	
+	x,y = ship.position
 	# Look for any current ship(s) and return to the box
 	for c in table:
 		if c.Type == 'Ship' and c.pile() == shared.piles['Plunder']:
 			c.link(None)
+			x, y = c.position
 			c.moveTo(shared.piles['Fleet'])
-	ship.link(shared.piles['Plunder'])		
+	ship.link(shared.piles['Plunder'])
+	ship.moveToTable(x, y)
 	
 def addRandomPlunder(ship, x=0, y=0):
 	addPlunder(ship, False)
