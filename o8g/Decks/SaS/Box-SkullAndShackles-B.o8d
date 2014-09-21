@@ -136,14 +136,6 @@
     <card qty="4" id="a8150fc7-4c02-4bf1-a06e-59ece48f3f5a">Blessing of Sivanah</card>
     <card qty="32" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
   </section>
-  <section name="Ship" shared="True">
-    <card qty="1" id="8b952145-9cb5-4d46-818a-acc5f8829cc7">Merchantman</card>
-    <card qty="1" id="45990307-62e1-44d4-9b60-1e31c59efa30">Shackles Pirate Ship</card>
-    <card qty="1" id="8a13de0d-9761-4408-8934-3d388be4014a">Dominator</card>
-    <card qty="1" id="72b59ea1-453c-4bc2-a1c7-e4a2c14500c0">Sea Chanty</card>
-    <card qty="1" id="21c96476-884f-4ed1-90b0-f31c3d327344">Truewind</card>
-    <card qty="1" id="bce3da8a-405d-4a7a-8506-708cedfe5041">Wormwood</card>
-  </section>
   <section name="Location" shared="True">
     <card qty="1" id="cd922cb5-4e8a-4e04-8e8b-435e34e16dc1">Alehouse</card>
     <card qty="1" id="45118116-5a17-4352-af92-85b5a27affb2">Beach</card>

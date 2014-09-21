@@ -1,29 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
-  <section name="Fleet" shared="True">
-    <card qty="1" id="8b952145-9cb5-4d46-818a-acc5f8829cc7">Merchantman</card>
-  </section>
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
-  <section name="Story" shared="True" />
-  <section name="Henchman" shared="True" />
-  <section name="Monster" shared="True" />
-  <section name="Barrier" shared="True" />
-  <section name="Armor" shared="True" />
-  <section name="Weapon" shared="True" />
-  <section name="Spell" shared="True" />
-  <section name="Item" shared="True" />
-  <section name="Ally" shared="True" />
-  <section name="Blessing" shared="True" />
-  <section name="Ship" shared="True" />
-  <section name="Loot" shared="True" />
-  <section name="Location" shared="True" />
-  <section name="Villain" shared="True" />
-  <notes><![CDATA[]]></notes>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+ <section name="Ship" shared="True">
+  <card qty="1" id="5f34d725-e135-40ea-b6f1-3db397ee608f">Dominator</card>
+  <card qty="1" id="fd0a81ac-c033-451e-a5b5-11ba809c8bdc">Sea Chanty</card>
+  <card qty="1" id="83722bd3-531d-4596-8f08-5e1f49ac9063">Shackles Pirate Ship</card>
+  <card qty="1" id="9712f862-3e46-4758-8834-bdd6355dbaef">Truewind</card>
+  <card qty="1" id="bce3da8a-405d-4a7a-8506-708cedfe5041">Wormwood</card>
+ </section>
+ <section name="Fleet" shared="True">
+  <card qty="1" id="c81669c6-9a3b-444d-a31f-cdf0a7f1b25b">Merchantman</card>
+ </section>
 </deck>
