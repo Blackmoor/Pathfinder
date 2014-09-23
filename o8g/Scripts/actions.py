@@ -834,7 +834,7 @@ def pickScenario(group=table, x=0, y=0):
 	if choice > 0:
 		scenario = findCardByName(shared.piles['Story'], scenarios[choice-1])
 		scenario.moveToTable(PlayerX(-2),StoryY)
-		scenarioSetup(scenario)
+		anchorage = scenarioSetup(scenario)
 	
 	#If we loaded a fleet then pick a ship		
 	fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
@@ -847,6 +847,11 @@ def pickScenario(group=table, x=0, y=0):
 		ship.moveToTable(PlayerX(-1), StoryY)
 		ship.link(shared.piles['Plunder'])
 		addPlunder(ship)
+		if anchorage is not None:
+			x, y = anchorage.position
+			ship.moveToTable(x+3*anchorage.width()/4, y-anchorage.height()/4)
+			ship.setIndex(0) # Move underneath the location and slightly offset
+		
 			
 def nextTurn(group=table, x=0, y=0):
 	mute()
@@ -1348,7 +1353,12 @@ def seizeShip(ship, x=0, y=0):
 	ship.moveToTable(x, y)
 	
 def addRandomPlunder(ship, x=0, y=0):
-	addPlunder(ship, False)
+	yesNo = [ "Yes", "No" ]
+	if ship.Name == 'Merchantman' and len(shared.piles['Blessing Deck']) > 0 and askChoice("Merchantman - discard to choose plunder type?", yesNo) == 1:
+		advanceBlessingDeck()
+		addPlunder(ship, True)
+	else:
+		addPlunder(ship, False)
 	
 def addChosenPlunder(ship, x=0, y=0):
 	addPlunder(ship, True)
@@ -1364,13 +1374,6 @@ def addPlunder(ship, choose=False):
 			options = types
 		else:
 			options = [ types[choice] ]
-			
-		if ship.Name == 'Merchantman': # We roll twice and pick
-			choice = int(random()*6)
-			if choice >= 5: #User choice
-				options = types
-			elif types[choice] not in options:
-				options.append(types[choice])	
 
 	if len(options) > 1:
 		choice = askChoice("Plunder Type", options)
@@ -1551,13 +1554,19 @@ def playerSetup():
 #Set up the scenario
 #Move each location to the table and create its deck
 #Create the Blessing deck and reveal the top card
+#If the scenario mentions an anchorage - return the location card to anchor the ship at
 def scenarioSetup(card):
 	mute()
 	
 	card.link(shared.piles['Scenario'])
 	hidden = shared.piles['Internal']
-	if not lockPile(hidden): return
+	if not lockPile(hidden): return None
 	
+	anchorage = None # This is set to the location card if an anchorage is mentioned in attr2 of the scenario.
+	if 'Your ship is anchored at ' in card.attr2:
+		shipSearch = card.attr2.replace('Your ship is anchored at ','')
+	else:
+		shipSearch = ''
 	if card.Name == 'The Black Tower':
 		bonus = 1 # Add a bonus spell to each location
 	else:
@@ -1587,6 +1596,8 @@ def scenarioSetup(card):
 			locPile = shared.piles[pileName]
 			debug("Moving '{}' to table ...".format(location))
 			location.moveToTable(LocationX(i+1, nl), LocationY)
+			if location.Name in shipSearch:
+				anchorage = location
 			#Create deck based on location distribution 
 			deck = location.Attr1.splitlines()
 			for entry in deck:
@@ -1702,6 +1713,7 @@ def scenarioSetup(card):
 			src.random().moveTo(dst)		
 		
 	notify("{} starts '{}'".format(me, card))
+	return anchorage
 
 def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
