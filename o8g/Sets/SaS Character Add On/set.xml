@@ -840,7 +840,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;Swashbuckling&#10;Basic" />
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on 1-2, shuffle this card into your location deck." />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on 1-2, shuffle this card into your deck." />
     <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
     <property name="Attr3" value="6" />
    </card>
@@ -850,7 +850,7 @@
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
     <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;Swashbuckling&#10;Magic&#10;Elite" />
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6+1; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your location deck." />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6+1; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your deck." />
     <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
     <property name="Attr3" value="8" />
    </card>

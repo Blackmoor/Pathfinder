@@ -1356,7 +1356,7 @@ def addRandomPlunder(ship, x=0, y=0):
 	yesNo = [ "Yes", "No" ]
 	if ship.Name == 'Merchantman' and len(shared.piles['Blessing Deck']) > 0 and askChoice("Merchantman - discard to choose plunder type?", yesNo) == 1:
 		advanceBlessingDeck()
-		addPlunder(ship, True)
+		addPlunder(ship, 'RollTwice')
 	else:
 		addPlunder(ship, False)
 	
@@ -1367,6 +1367,8 @@ def addPlunder(ship, choose=False):
 	mute()
 	types = [ 'Weapon', 'Spell', 'Armor' , 'Item', 'Ally' ]
 	if choose:
+		if choose == 'RollTwice':
+			options = [ types[int(random()*5)], types[int(random()*5)] ]
 		options = types
 	else:
 		choice = int(random()*6) # Roll on the plunder table
@@ -1384,6 +1386,13 @@ def addPlunder(ship, choose=False):
 		choice = 0
 	notify("{} adds {} to Plunder".format(me, options[choice]))
 	shared.piles[options[choice]].random().moveTo(shared.piles['Plunder'])
+	
+def banishRandomPlunder(ship, x=0, y=0):
+	mute()
+	if len(shared.piles['Plunder']) > 0:
+		returnToBox(shared.piles['Plunder'].random())
+	else:
+		notify("There are no Plunder cards to banish!")
 	
 #---------------------------------------------------------------------------
 # Pile Group Actions
