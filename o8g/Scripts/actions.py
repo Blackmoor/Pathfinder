@@ -1398,6 +1398,7 @@ def seizeShip(ship, x=0, y=0):
 			c.moveTo(shared.piles['Fleet'])
 	ship.link(shared.piles['Plunder'])
 	ship.moveToTable(x, y)
+	ship.sendToBack()
 	
 def addRandomPlunder(ship, x=0, y=0):
 	addPlunder(ship, False)

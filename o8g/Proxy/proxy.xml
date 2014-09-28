@@ -960,6 +960,17 @@
 	  </link>
 	 </textblocks>
   </template>
+  <template src="Proxy/Silhouette.png">
+	<matches>
+	  <match name="Type" value="Character" />
+	  <match name="Subtype" value="Token" />
+	</matches>
+	<textblocks>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	</textblocks>
+  </template>
   <template src="Proxy/Character.jpg">
 	<matches>
 	  <match name="Type" value="Character" />
