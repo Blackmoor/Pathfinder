@@ -181,7 +181,7 @@ def isOpen(card):
 def isNotPermanentlyClosed(card):
 	if card is None or card.Type != 'Location':
 		return False
-	return card.alternate == "B"
+	return card.alternate != "B"
 
 def deleteCard(card):
 	mute()
@@ -397,8 +397,8 @@ def storeHandSize(h):
 
 def getHandSize(p=me):
 	#Press Ganged uses the scenario pile to determine the hand size
-	scenario = [m.Name for m in table if m.Subtype == 'Scenario']
-	if len(scenario) == 1 and scenario[0] == 'Press Ganged!' and len(shared.piles['Scenario']) <= num(p.getGlobalVariable('HandSize')):
+	scenario = getScenario(table)
+	if scenario is not None and  scenario.Name == 'Press Ganged!' and len(shared.piles['Scenario']) <= num(p.getGlobalVariable('HandSize')):
 		return len(shared.piles['Scenario'])
 	return num(p.getGlobalVariable('HandSize'))
 	
@@ -524,9 +524,9 @@ def startOfTurn(player, turn):
 	if player == me:
 		sync() # wait for control of cards to be passed to us
 		# Perform scenario specific actions
-		scenario = [ c for c in table if c.Subtype == 'Scenario' ]
-		if len(scenario) == 1:
-			fn = scenario[0].Name.replace(' ','').replace('!','')
+		scenario = getScenario(table)
+		if scenario is not None:
+			fn = scenario.Name.replace(' ','').replace('!','')
 			if fn in globals():
 				globals()[fn](False)
 		advanceBlessingDeck()	
@@ -849,23 +849,22 @@ def pickScenario(group=table, x=0, y=0):
 	if choice > 0:
 		scenario = findCardByName(shared.piles['Story'], scenarios[choice-1])
 		scenario.moveToTable(PlayerX(-2),StoryY)
-		anchorage = scenarioSetup(scenario)
-	
-	#If we loaded a fleet then pick a ship		
-	fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
-	if len(fleet) > 0:
-		if len(fleet) == 1:
-			choice = 1
-		else:
-			choice = askChoice("Choose Your Ship", fleet)
-		ship = findCardByName(shared.piles['Fleet'], fleet[choice-1])
-		ship.moveToTable(PlayerX(-1), StoryY)
-		ship.link(shared.piles['Plunder'])
-		addPlunder(ship)
-		if anchorage is not None:
-			x, y = anchorage.position
-			ship.moveToTable(x+3*anchorage.width()/4, y-anchorage.height()/4)
-			ship.setIndex(0) # Move underneath the location and slightly offset
+		anchorage = scenarioSetup(scenario)	
+		#If we loaded a fleet then pick a ship		
+		fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
+		if len(fleet) > 0:
+			if len(fleet) == 1:
+				choice = 1
+			else:
+				choice = askChoice("Choose Your Ship", fleet)
+			ship = findCardByName(shared.piles['Fleet'], fleet[choice-1])
+			ship.moveToTable(PlayerX(-1), StoryY)
+			ship.link(shared.piles['Plunder'])
+			addPlunder(ship)
+			if anchorage is not None:
+				x, y = anchorage.position
+				ship.moveToTable(x+3*anchorage.width()/4, y-anchorage.height()/4)
+				ship.setIndex(0) # Move underneath the location and slightly offset
 					
 def nextTurn(group=table, x=0, y=0):
 	mute()
@@ -1295,16 +1294,24 @@ def pileSwap12(card, x=0, y=0):
 	if pile is None or len(pile) < 2: return
 	notify("{} swaps to the top 2 cards of the '{}' pile".format(me, card))
 	pile[1].moveTo(pile)
+
+def getScenario(group):
+	found = [s for s in group if s.Subtype == 'Scenario']
+	if len(found) == 1:
+		return found[0]
+	return None
 	
+# Returns a tuple closed, gameover	
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
-		local = findCardByName(table, 'Local Heroes')
-		if local is not None or card.Name in [ 'Death Zone', 'Sunken Treasure']: # These scenarios are only won when the last location is closed
-			open = [ c for c in table if isOpen(c) ]
+		scenario = getScenario(table)
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure' ]: # These scenarios are only won when the last location is closed
+			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				gameOver(True)
-		return True
-	return False
+				return True, True
+		return True, False
+	return False, False
 
 def closeTemporarily(card, x=0, y=0):
 	closeLocation(card, False)
@@ -1338,26 +1345,24 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	defeated = choices[choice-1] == 'Defeated'		
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
 	location = overPile(villain, True) #Determine the location of the Villain (based on whether it is over a pile on the table)
-	closed = True
+	closed = False
 	if defeated: # We get to close the location
 		if location is None or location.Type != 'Location': # Not sure which location to close
 			if not confirm("Did you close the location?"):
 				whisper("Close the location manually, then hide the villain")
 				return
+			closed = True
 		elif isOpen(location): # Ensure location is closed
-			closed = closePermanently(location) # Villains found in pile so game is not over
-	
+			closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
+			if done:
+				return
+			
 	#If there are no open locations the villain has been cornered
-	# The game is over if all locations are closed
-	# If we are playing Sunken Treasure then all the locations must be permanently closed
-	if villain.Name == 'Kelizar the Brine Dragon':
-		open = [ card for card in table if isNotPermanentlyClosed(card) ]
-	else:
-		open = [ card for card in table if isOpen(card) ]
+	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
 		returnToBox(villain)
-		if closed:
-			gameOver(True)
+		if closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
+			gameOver(True)	
 		else:
 			notify("{} returns {} to the box".format(me, villain))
 		return
