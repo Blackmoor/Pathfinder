@@ -183,7 +183,7 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
+    <property name="Subtype2" value="Barrier" />
     <property name="Traits" value="Cache&#10;Aquatic&#10;Veteran" />
     <property name="Attr1" value="The difficulty to defeat is increased by the adventure deck number of the current scenario, if any.&#10;If undefeated, you may banish this barrier.&#10;If defeated, add 1 plunder card from the box to your hand; you may immediately attempt to close the location this henchman came from." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
