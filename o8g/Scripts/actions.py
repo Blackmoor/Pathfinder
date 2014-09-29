@@ -12,6 +12,8 @@ BoardHeight = 300
 StoryY = -BoardHeight/2
 LocationY = StoryY + 190
 
+plunderTypes = [ 'Weapon', 'Spell', 'Armor' , 'Item', 'Ally' ]
+
 showDebug = False #Can be changed to turn on debug
 
 #This function replaces update() which does not wait for async fns like shuffle to complete
@@ -78,7 +80,7 @@ def eliminated(p, setVal=None):
 	setGlobalVariable("Eliminated", "".join(val))
 	return setVal
 	
-#Check see if a card at x1,y1 overlaps a card at x2,y2
+#Check to see if a card at x1,y1 overlaps a card at x2,y2
 #Both have size w, h	
 def overlaps(x1, y1, x2, y2, w, h):
 	#Four checks, one for each corner
@@ -88,10 +90,10 @@ def overlaps(x1, y1, x2, y2, w, h):
 	if x1 + w >= x2 and x1 <= x2 and y1 + h >= y2 and y1 <= y2: return True
 	return False
 	
-def cardHere(x, y, checkOverlap=True, group=table):
+def cardHere(x, y, checkOverlap=True, cards=table):
 	cw = 0
 	ch = 0
-	for c in group:
+	for c in cards:
 		cx, cy = c.position
 		if checkOverlap:
 			cw = c.width()
@@ -175,6 +177,11 @@ def isOpen(card):
 	if card is None or card.Type != 'Location':
 		return False
 	return (card.orientation == Rot0 and card.alternate != "B")
+	
+def isNotPermanentlyClosed(card):
+	if card is None or card.Type != 'Location':
+		return False
+	return card.alternate != "B"
 
 def deleteCard(card):
 	mute()
@@ -290,10 +297,10 @@ def minusTwo(card, x=0, y=0):
 def minusOne(card, x=0, y=0):
 	tokens(card, -1)
 
-# Find the pile under this card
-def overPile(card):
-	debug("Checking to see if '{}' is over a pile".format(card))
-	piles = [ c for c in table if c.pile() is not None ]
+# Find the top pile under this card
+def overPile(card, onlyLocations=False):
+	debug("Checking to see if '{}' is over a pile".format(card))	
+	piles = sorted([ c for c in table if c.pile() is not None and (c.Type == 'Location' or not onlyLocations) ], key=lambda c: -c.getIndex)
 	x, y = card.position
 	return cardHere(x, y, True, piles)
 	
@@ -390,8 +397,8 @@ def storeHandSize(h):
 
 def getHandSize(p=me):
 	#Press Ganged uses the scenario pile to determine the hand size
-	scenario = [m.Name for m in table if m.Subtype == 'Scenario']
-	if len(scenario) == 1 and scenario[0] == 'Press Ganged!' and len(shared.piles['Scenario']) <= num(p.getGlobalVariable('HandSize')):
+	scenario = getScenario(table)
+	if scenario is not None and  scenario.Name == 'Press Ganged!' and len(shared.piles['Scenario']) <= num(p.getGlobalVariable('HandSize')):
 		return len(shared.piles['Scenario'])
 	return num(p.getGlobalVariable('HandSize'))
 	
@@ -517,9 +524,9 @@ def startOfTurn(player, turn):
 	if player == me:
 		sync() # wait for control of cards to be passed to us
 		# Perform scenario specific actions
-		scenario = [ c for c in table if c.Subtype == 'Scenario' ]
-		if len(scenario) == 1:
-			fn = scenario[0].Name.replace(' ','').replace('!','')
+		scenario = getScenario(table)
+		if scenario is not None:
+			fn = scenario.Name.replace(' ','').replace('!','')
 			if fn in globals():
 				globals()[fn](False)
 		advanceBlessingDeck()	
@@ -751,6 +758,14 @@ def clearDice(card):
 # Table group actions
 #---------------------------------------------------------------------------
 
+# Roll on the Skull and Shackles Plunder table
+def rollPlunder(unused, x=0, y=0):
+	r = int(random()*6)
+	if r < len(plunderTypes):
+		notify("{} rolls a {} on the plunder table ({})".format(me, r+1, plunderTypes[r]))
+	else:
+		notify("{} rolls a {} on the plunder table (Your choice)".format(me, r+1))
+		
 # Remove targeting arrows after a check
 def clearTargets(group=table, x=0, y=0):
 	for c in group:
@@ -834,25 +849,23 @@ def pickScenario(group=table, x=0, y=0):
 	if choice > 0:
 		scenario = findCardByName(shared.piles['Story'], scenarios[choice-1])
 		scenario.moveToTable(PlayerX(-2),StoryY)
-		anchorage = scenarioSetup(scenario)
-	
-	#If we loaded a fleet then pick a ship		
-	fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
-	if len(fleet) > 0:
-		if len(fleet) == 1:
-			choice = 1
-		else:
-			choice = askChoice("Choose Your Ship", fleet)
-		ship = findCardByName(shared.piles['Fleet'], fleet[choice-1])
-		ship.moveToTable(PlayerX(-1), StoryY)
-		ship.link(shared.piles['Plunder'])
-		addPlunder(ship)
-		if anchorage is not None:
-			x, y = anchorage.position
-			ship.moveToTable(x+3*anchorage.width()/4, y-anchorage.height()/4)
-			ship.setIndex(0) # Move underneath the location and slightly offset
-		
-			
+		anchorage = scenarioSetup(scenario)	
+		#If we loaded a fleet then pick a ship		
+		fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
+		if len(fleet) > 0:
+			if len(fleet) == 1:
+				choice = 1
+			else:
+				choice = askChoice("Choose Your Ship", fleet)
+			ship = findCardByName(shared.piles['Fleet'], fleet[choice-1])
+			ship.moveToTable(PlayerX(-1), StoryY)
+			ship.link(shared.piles['Plunder'])
+			addPlunder(ship)
+			if anchorage is not None:
+				x, y = anchorage.position
+				ship.moveToTable(x+3*anchorage.width()/4, y-anchorage.height()/4)
+				ship.setIndex(0) # Move underneath the location and slightly offset
+					
 def nextTurn(group=table, x=0, y=0):
 	mute()
 	# Only the current active player can do this
@@ -969,7 +982,31 @@ def isShip(cards):
 		if c.Type != 'Ship':
 			return False
 	return True
+
+def isEnemyShip(cards):
+	for c in cards:
+		if c.type != 'Ship' or c.pile() == shared.piles['Plunder']:
+			return False
+	return True
+
+def isWrecked(cards):
+	for c in cards:
+		if c.Type != 'Ship' or c.alternate != "B":
+			return False
+	return True
 	
+def isNotWrecked(cards):
+	for c in cards:
+		if c.Type != 'Ship' or c.alternate == "B":
+			return False
+	return True
+
+def hasPlunder(cards):
+	for c in cards:
+		if c.Type != 'Ship' or c.pile() is None or len(c.pile()) == 0:
+			return False
+	return True
+
 def isBoon(cards):
 	for c in cards:
 		if c.Type != 'Boon':
@@ -991,6 +1028,14 @@ def hasDice(cards):
 			return False
 	return True
 
+def usePlunder(groups):
+	#Check to see if the group contains a ship
+	for g in groups:
+		for c in g:
+			if c.Type == 'Ship':
+				return True
+	return False
+	
 #---------------------------------------------------------------------------
 # Table card actions
 #---------------------------------------------------------------------------
@@ -1249,16 +1294,24 @@ def pileSwap12(card, x=0, y=0):
 	if pile is None or len(pile) < 2: return
 	notify("{} swaps to the top 2 cards of the '{}' pile".format(me, card))
 	pile[1].moveTo(pile)
+
+def getScenario(group):
+	found = [s for s in group if s.Subtype == 'Scenario']
+	if len(found) == 1:
+		return found[0]
+	return None
 	
+# Returns a tuple closed, gameover	
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
-		local = findCardByName(table, 'Local Heroes')
-		if local is not None or card.Name in [ 'Death Zone', 'Sunken Treasure']: # These scenarios are only won when the last location is closed
-			open = [ c for c in table if isOpen(c) ]
+		scenario = getScenario(table)
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure' ]: # These scenarios are only won when the last location is closed
+			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				gameOver(True)
-		return True
-	return False
+				return True, True
+		return True, False
+	return False, False
 
 def closeTemporarily(card, x=0, y=0):
 	closeLocation(card, False)
@@ -1291,24 +1344,27 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	# We need to hide the villain in an open location
 	defeated = choices[choice-1] == 'Defeated'		
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
-	location = overPile(villain) #Determine the location of the Villain (based on the if it is over a pile on the table)
-	closed = True
+	location = overPile(villain, True) #Determine the location of the Villain (based on whether it is over a pile on the table)
+	closed = False
 	if defeated: # We get to close the location
 		if location is None or location.Type != 'Location': # Not sure which location to close
 			if not confirm("Did you close the location?"):
 				whisper("Close the location manually, then hide the villain")
 				return
+			closed = True
 		elif isOpen(location): # Ensure location is closed
-			closed = closePermanently(location) # Villains found in pile so game is not over
-	
+			closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
+			if done:
+				return
+			
 	#If there are no open locations the villain has been cornered
 	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
 		returnToBox(villain)
-		if closed:
-			gameOver(True)
-		else: # There are more villains left in the pile
-			notify("{} returns {} to the box".format(me, villain))			
+		if closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
+			gameOver(True)	
+		else:
+			notify("{} returns {} to the box".format(me, villain))
 		return
 	
 	# The villain has escaped
@@ -1338,10 +1394,6 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	unlockPile(hidden)
 
 def seizeShip(ship, x=0, y=0):
-	if ship.pile() == shared.piles['Plunder']:
-		whisper("You already control this ship")
-		return
-	
 	x,y = ship.position
 	# Look for any current ship(s) and return to the box
 	for c in table:
@@ -1351,31 +1403,25 @@ def seizeShip(ship, x=0, y=0):
 			c.moveTo(shared.piles['Fleet'])
 	ship.link(shared.piles['Plunder'])
 	ship.moveToTable(x, y)
+	ship.sendToBack()
 	
 def addRandomPlunder(ship, x=0, y=0):
-	yesNo = [ "Yes", "No" ]
-	if ship.Name == 'Merchantman' and len(shared.piles['Blessing Deck']) > 0 and askChoice("Merchantman - discard to choose plunder type?", yesNo) == 1:
-		advanceBlessingDeck()
-		addPlunder(ship, 'RollTwice')
-	else:
-		addPlunder(ship, False)
+	addPlunder(ship, False)
 	
 def addChosenPlunder(ship, x=0, y=0):
 	addPlunder(ship, True)
-	
+
 def addPlunder(ship, choose=False):
 	mute()
-	types = [ 'Weapon', 'Spell', 'Armor' , 'Item', 'Ally' ]
+	
 	if choose:
-		if choose == 'RollTwice':
-			options = [ types[int(random()*5)], types[int(random()*5)] ]
-		options = types
+		options = plunderTypes
 	else:
 		choice = int(random()*6) # Roll on the plunder table
 		if choice >= 5: # User choice
-			options = types
+			options = plunderTypes
 		else:
-			options = [ types[choice] ]
+			options = [ plunderTypes[choice] ]
 
 	if len(options) > 1:
 		choice = askChoice("Plunder Type", options)
@@ -1389,10 +1435,9 @@ def addPlunder(ship, choose=False):
 	
 def banishRandomPlunder(ship, x=0, y=0):
 	mute()
-	if len(shared.piles['Plunder']) > 0:
-		returnToBox(shared.piles['Plunder'].random())
-	else:
-		notify("There are no Plunder cards to banish!")
+	card = ship.pile().random()
+	card.moveTo(shared.piles['Internal']) # Ensure the card is in a pile with full visibility so we know where to put it
+	banishCard(card)
 	
 #---------------------------------------------------------------------------
 # Pile Group Actions
