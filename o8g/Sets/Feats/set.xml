@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Feats" id="33cae22c-0c82-4e9e-b465-2422ab40d45c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.0.2"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Feats" id="33cae22c-0c82-4e9e-b465-2422ab40d45c" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.1.0.2"><cards>
    <card id="7c5d69b1-b5ec-47f2-ba25-5a839291c341" name="Ally 1">
     <property name="Abr" value="O" />
     <property name="Copyright" value="No." />

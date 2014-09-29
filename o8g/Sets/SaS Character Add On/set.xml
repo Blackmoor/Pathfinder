@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="SaS Character Add On" id="8f94e41b-6cc3-4318-b341-0a8bbf96e9fe" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="SaS Character Add On" id="8f94e41b-6cc3-4318-b341-0a8bbf96e9fe" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.0.0.0"><cards>
    <card id="24ff1c44-a387-4f0f-b2d9-6a0eb85706fd" name="Ambush">
     <property name="Abr" value="C" />
     <property name="Copyright" value="Yes." />

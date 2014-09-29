@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Class Decks" id="daee2ba5-77b0-4f97-ab27-6cfcd798f346" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.0.0.1"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Class Decks" id="daee2ba5-77b0-4f97-ab27-6cfcd798f346" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.0.0.0"><cards>
    <card id="bef13f9d-b961-4cc9-ada2-69306e85288b" name="Acolyte">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -19,12 +19,6 @@
    </card>
    <card id="a85368e2-c52b-4c5f-a445-d1cb296b98ed" name="Archer">
     <property name="Abr" value="2" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-   </card>
-   <card id="3ae31937-a596-47c0-aca4-24dc8f37fafc" name="Archer">
-    <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />

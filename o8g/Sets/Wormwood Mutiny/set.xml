@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Wormwood Mutiny" id="0baa4493-7a37-4504-a757-0211f3f6df77" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Wormwood Mutiny" id="0baa4493-7a37-4504-a757-0211f3f6df77" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.0.0.0"><cards>
    <card id="4263dd23-d16b-47a1-b109-4c235db5d3e2" name="Drowning Spikes Trap">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />

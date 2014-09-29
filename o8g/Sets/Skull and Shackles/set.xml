@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Skull and Shackles" id="5dbdb48c-ddfd-4872-a105-7dc217c6b082" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Skull and Shackles" id="5dbdb48c-ddfd-4872-a105-7dc217c6b082" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.0.0.0"><cards>
    <card id="181e5735-1f2e-4e5a-acef-1fbb05760fc4" name="Ambush">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />

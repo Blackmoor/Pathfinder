@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortress of the Stone Giants" id="f833b378-6eaf-42e5-bcae-cbffc52ece7a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.0.3"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortress of the Stone Giants" id="f833b378-6eaf-42e5-bcae-cbffc52ece7a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.1.0.3"><cards>
    <card id="43a49435-2cb5-4b33-8345-32be734fd2eb" name="Arcane Lock">
     <property name="Abr" value="4" />
     <property name="Copyright" value="Yes." />
