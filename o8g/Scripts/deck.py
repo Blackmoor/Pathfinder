@@ -5,7 +5,7 @@
 #Returns the section the card should be stored in
 def getSection(sections, card):
 	if card.Type is not None and card.Type in sections:
-		if card.Type == 'Ship' and card.group != shared.piles['Ship']:
+		if card.Type == 'Ship' and card.Name in eval(getGlobalVariable('Fleet')):
 			return 'Fleet'
 		return card.Type
 	elif card.Subtype is not None:
@@ -85,7 +85,7 @@ def saveBox(group, x=0, y=0): #table
 	else:
 		notify("{} saves the box to {}".format(me, filename))
 		
-	if len(shared.piles['Fleet']) + len(shared.piles['Ship']) > 0: # Save the Fleet deck too
+	if len(shared.piles['Ship']) > 0: # Save the Fleet deck too
 		sections = { "Fleet":{}, "Ship":{} }
 		filename = savePiles('Fleet-saved.o8d', sections, piles, getSection, True)
 		if filename is None:

@@ -126,8 +126,6 @@ def comesFrom(card):
 	if card is None:
 		return None
 	if card.Type is not None:
-		if card.Type == 'Ship' and card.pile() == shared.piles['Plunder']: # The current ship belongs in our Fleet
-			return shared.piles['Fleet']
 		if card.Type in shared.piles:
 			return shared.piles[card.Type]
 	if card.Subtype is not None and card.Subtype in shared.piles:
@@ -480,6 +478,12 @@ def deckLoaded(player, groups):
 	for p in groups:
 		if p.name in shared.piles:
 			isShared = True
+		if p.name == 'Internal': # Fleet cards are loaded into the Internal pile
+			# Store each ship in the fleet in a global variable so we know where to put them when they go back to the box
+			fleet = [ c.Name for c in shared.piles[p.name] ]
+			setGlobalVariable('Fleet', str(fleet))
+			for c in shared.piles[p.name]:
+				c.moveTo(shared.piles['Ship'])
 		
 	if not isShared: # Player deck loaded
 		playerSetup()
@@ -851,13 +855,13 @@ def pickScenario(group=table, x=0, y=0):
 		scenario.moveToTable(PlayerX(-2),StoryY)
 		anchorage = scenarioSetup(scenario)	
 		#If we loaded a fleet then pick a ship		
-		fleet = [ card.name for card in shared.piles['Fleet'] if card.Type == 'Ship' ]
+		fleet = eval(getGlobalVariable('Fleet'))
 		if len(fleet) > 0:
 			if len(fleet) == 1:
 				choice = 1
 			else:
 				choice = askChoice("Choose Your Ship", fleet)
-			ship = findCardByName(shared.piles['Fleet'], fleet[choice-1])
+			ship = findCardByName(shared.piles['Ship'], fleet[choice-1])
 			ship.moveToTable(PlayerX(-1), StoryY)
 			ship.link(shared.piles['Plunder'])
 			addPlunder(ship)
@@ -1400,10 +1404,18 @@ def seizeShip(ship, x=0, y=0):
 		if c.Type == 'Ship' and c.pile() == shared.piles['Plunder']:
 			c.link(None)
 			x, y = c.position
-			c.moveTo(shared.piles['Fleet'])
+			returnToBox(c)
 	ship.link(shared.piles['Plunder'])
 	ship.moveToTable(x, y)
 	ship.sendToBack()
+	
+def addToFleet(ship, x=0, y=0):
+	fleet = eval(getGlobalVariable('Fleet'))
+	if ship.Name in fleet:
+		whisper("{} is already in your fleet".format(ship))
+		return
+	fleet.append(ship.Name)
+	setGlobalVariable('Fleet', str(fleet))
 	
 def addRandomPlunder(ship, x=0, y=0):
 	addPlunder(ship, False)
