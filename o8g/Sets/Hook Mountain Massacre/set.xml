@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.2.0.0"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.2.0.0"><cards>
    <card id="8d3f16a4-b991-4728-a65d-54a63c887010" name="Cryptic Message">
     <property name="Abr" value="3" />
     <property name="Copyright" value="Yes." />

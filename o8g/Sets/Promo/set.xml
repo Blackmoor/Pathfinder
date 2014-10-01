@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promo" id="b37bbdfc-5106-4b17-a077-259f3405cda1" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.1.0"><cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promo" id="b37bbdfc-5106-4b17-a077-259f3405cda1" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.1.0.0" version="1.1.1.0"><cards>
    <card id="796b4fdf-3251-46c8-bdd8-6cff6d07c4c0" name="Dance with Squealy Nord">
     <property name="Abr" value="P" />
     <property name="Copyright" value="No." />
