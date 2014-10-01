@@ -317,6 +317,62 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="6" />
    </card>
+   <card id="1d6b9696-acf5-41e3-bd0e-384aa70f9b01" name="Conchobar Turlach Shortstone">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Gnome&#10;Bard&#10;Pirate" />
+    <property name="Attr1" value="Reveal this card to add 1d10 and the Swashbuckling trait to your Diplomacy check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="0cb93956-00ce-4555-8946-0ff546f36078" name="Coral Capuchin">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal&#10;Aquatic" />
+    <property name="Attr1" value="Reveal this card and discard another card to add 1d6 to your combat check or 1d10 if the monster has the Aquatic trait." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="4da38346-1263-4b16-9f58-86f450d03e83" name="Crimson Cogward">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Rogue&#10;Pirate" />
+    <property name="Attr1" value="Discard this card and bury another card to succeed at your check to acquire a boon.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="6" />
+    <property name="Attr4" value="Charisma&#10;Diplomacy" />
+    <property name="Attr5" value="7" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="7d576096-f532-427d-8e11-3b010403f3b2" name="Cut-Throat Grok">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Half-Orc&#10;Fighter&#10;Pirate" />
+    <property name="Attr1" value="Recharge this card to add 1d6 and the Swashbuckling trait to your check to acquire a weapon, an armor, or an item.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="5" />
+    <property name="Attr4" value="Charisma&#10;Diplomacy" />
+    <property name="Attr5" value="7" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="73b60950-3dc2-42ca-b09b-f08cac5095af" name="Rosie Cusswell">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Halfling&#10;Fighter&#10;Pirate" />
+    <property name="Attr1" value="Recharge this card to add 1d4 and the Swashbuckling trait to your combat or Dexterity check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
    <card id="53541d6d-bc19-419b-b209-a863030d1bd6" name="Sandara Quinn">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />
@@ -326,6 +382,16 @@
     <property name="Attr1" value="If you fail a combat check, you may reveal this card to immediately recharge a card.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="5" />
+   </card>
+   <card id="1ef41d9b-219f-42ae-b344-b53fc06d7ab2" name="Tidepool Dragon">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Dragon&#10;Aquatic&#10;Elite" />
+    <property name="Attr1" value="Recharge this card to add 2 and the Fire trait to any combat or Perception check. Then roll 1d12. On a 1, banish this card and each character at your location is dealt 1 Fire damage.&#10;If you do not evade this card and fail the check to acquire it, each character at your location is dealt 1 Fire damage." />
+    <property name="Attr2" value="Arcane&#10;Divine&#10;Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
    </card>
    <card id="5d77f63b-a5f4-4962-a507-a3d34505d4b9" name="Benevolent Buckler">
     <property name="Abr" value="1" />
@@ -397,52 +463,6 @@
     <property name="Attr2" value="Wisdom&#10;Survival" />
     <property name="Attr3" value="7" />
    </card>
-   <card id="1d6b9696-acf5-41e3-bd0e-384aa70f9b01" name="Conchobar Turlach Shortstone">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Gnome&#10;Bard&#10;Pirate" />
-    <property name="Attr1" value="Reveal this card to add 1d10 and the Swashbuckling trait to your Diplomacy check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
-    <property name="Attr2" value="Charisma&#10;Diplomacy" />
-    <property name="Attr3" value="7" />
-   </card>
-   <card id="0cb93956-00ce-4555-8946-0ff546f36078" name="Coral Capuchin">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Animal&#10;Aquatic" />
-    <property name="Attr1" value="Reveal this card and discard another card to add 1d6 to your combat check or 1d10 if the monster has the Aquatic trait." />
-    <property name="Attr2" value="Wisdom&#10;Survival" />
-    <property name="Attr3" value="6" />
-   </card>
-   <card id="4da38346-1263-4b16-9f58-86f450d03e83" name="Crimson Cogward">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Human&#10;Rogue&#10;Pirate" />
-    <property name="Attr1" value="Discard this card and bury another card to succeed at your check to acquire a boon.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
-    <property name="Attr2" value="Strength&#10;Melee" />
-    <property name="Attr3" value="6" />
-    <property name="Attr4" value="Charisma&#10;Diplomacy" />
-    <property name="Attr5" value="7" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="7d576096-f532-427d-8e11-3b010403f3b2" name="Cut-Throat Grok">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Half-Orc&#10;Fighter&#10;Pirate" />
-    <property name="Attr1" value="Recharge this card to add 1d6 and the Swashbuckling trait to your check to acquire a weapon, an armor, or an item.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="5" />
-    <property name="Attr4" value="Charisma&#10;Diplomacy" />
-    <property name="Attr5" value="7" />
-    <property name="Attr6" value="OR" />
-   </card>
    <card id="16f817d9-4313-4b12-b663-f2edd879d04f" name="Helpful Haversack">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />
@@ -483,16 +503,6 @@
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="6" />
    </card>
-   <card id="73b60950-3dc2-42ca-b09b-f08cac5095af" name="Rosie Cusswell">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Halfling&#10;Fighter&#10;Pirate" />
-    <property name="Attr1" value="Recharge this card to add 1d4 and the Swashbuckling trait to your combat or Dexterity check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
-    <property name="Attr2" value="Charisma&#10;Diplomacy" />
-    <property name="Attr3" value="6" />
-   </card>
    <card id="fc3f784b-9449-4576-aee4-5b2b2c248722" name="Spellmaster's Tricorne">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />
@@ -501,16 +511,6 @@
     <property name="Traits" value="Accessory&#10;Magic&#10;Swashbuckling&#10;Elite" />
     <property name="Attr1" value="Reveal this card to add 2 and the Swashbuckling trait to your check to acquire or recharge a spell.&#10;Bury this card to succeed at your check to acquire or recharge a spell." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
-    <property name="Attr3" value="6" />
-   </card>
-   <card id="1ef41d9b-219f-42ae-b344-b53fc06d7ab2" name="Tidepool Dragon">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Dragon&#10;Aquatic&#10;Elite" />
-    <property name="Attr1" value="Recharge this card to add 2 and the Fire trait to any combat or Perception check. Then roll 1d12. On a 1, banish this card and each character at your location is dealt 1 Fire damage.&#10;If you do not evade this card and fail the check to acquire it, each character at your location is dealt 1 Fire damage." />
-    <property name="Attr2" value="Arcane&#10;Divine&#10;Charisma&#10;Diplomacy" />
     <property name="Attr3" value="6" />
    </card>
    <card id="73615b81-523c-49cd-9518-c2a01e9496e8" name="Besmara's Tricorne">
