@@ -468,6 +468,10 @@ def getPlayer(turn):
 # Call outs
 #---------------------------------------------------------------------------
 
+def setGlobals():
+	mute()
+	setGlobalVariable('Fleet', '[]')
+	
 def deckLoaded(player, groups):
 	mute()
 
