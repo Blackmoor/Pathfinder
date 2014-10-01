@@ -125,6 +125,12 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
+   
+   <card id="a12cb98c-e788-41bc-8f6a-80578a8521fe" name="Ranzak">
+    <property name="Abr" value="P" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
   
    <card id="13af4439-859c-48be-ac3a-2f84254b1d71" name="Reiko">
     <property name="Abr" value="O" />

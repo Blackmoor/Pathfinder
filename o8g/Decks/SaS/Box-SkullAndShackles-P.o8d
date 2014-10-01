@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True">
+    <card qty="1" id="939618bd-f90f-4ec6-a23d-c4b96d6dc8ff">Owlbeartross</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="25544130-9a2a-4213-baaf-0bafd0f2c63a">Goblin Keelhaulin'</card>
+  </section>
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True">
+    <card qty="1" id="e9e3cae1-1423-4a60-9517-3bd960be3d71">Mogmurch</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="4f6a1547-14f7-45b1-af36-102bccb7d931">Blessing of Zogmugot</card>
+  </section>
+  <section name="Ship" shared="True">
+    <card qty="1" id="24e7eda4-47d1-41a2-9b59-b992ac04dede">Goblin Weidling</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

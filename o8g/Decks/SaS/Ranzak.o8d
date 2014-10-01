@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="ec917fa8-ecef-499a-978c-12af6f678cea">Ranzak</card>
+    <card qty="1" id="a12cb98c-e788-41bc-8f6a-80578a8521fe">Ranzak</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="7d10b3fc-5eb7-4ff6-a47c-eb58a98ac56c">Pistol</card>
+    <card qty="1" id="b68bc5c7-a996-45f9-a40f-d4d9f0a0c6c9">Whip</card>
+    <card qty="1" id="5abb4664-a19d-437c-bab1-dc41971fcb8a">Dagger</card>
+    <card qty="1" id="348074d9-137c-40b2-8a45-eee31bb7e646">Light Crossbow</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="687f25ab-7baf-4565-8f8d-35d678dcc652">Phantasmal Minion</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="cac9a9e3-75d9-46d5-973c-6554f1e8d786">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="df23d3e9-5929-44cd-ac5b-168f79eb6865">Caltrops</card>
+    <card qty="1" id="c6350fe9-947f-4480-a641-ba004ced330b">Eye Patch</card>
+    <card qty="1" id="2137d0a7-5f92-47b4-97b3-9d404e4c915b">Rum Bottle</card>
+    <card qty="1" id="bb311329-1659-47eb-9d89-86c367d00a09">Thieves' Tools</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="a81f9ff1-420a-4cad-9884-43c235581eb8">Sailor</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
