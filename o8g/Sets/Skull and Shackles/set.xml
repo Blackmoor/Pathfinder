@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Skull and Shackles" id="5dbdb48c-ddfd-4872-a105-7dc217c6b082" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0"><cards>
+<<<<<<< HEAD
    <card id="1f6ec698-22f7-4a38-9a3b-3f50d451ee7f" name="Adaro Barbarian">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -11,6 +12,8 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="15" />
    </card>
+=======
+>>>>>>> origin/test-Tyler
    <card id="181e5735-1f2e-4e5a-acef-1fbb05760fc4" name="Ambush">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -31,6 +34,7 @@
     <property name="Attr2" value="Strength&#10;Melee&#10;Dexterity" />
     <property name="Attr3" value="5" />
    </card>
+<<<<<<< HEAD
    <card id="36d7f3aa-26ab-4c4b-8b50-d88971d884ac" name="Bilge Spider Swarm">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -63,10 +67,47 @@
     <property name="Attr3" value="8" />
    </card>
    <card id="f79033f9-1fe0-4534-b3fb-4f3639ed740f" name="Bucket Brigade">
+=======
+   <card id="f79033f9-1fe0-4534-b3fb-4f3639ed740f" name="Bucket Brigade">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Task&#10;Fire&#10;Elite" />
+    <property name="Attr1" value="You may recharge any number of allies; for each ally recharged, add 1d4 to your check to defeat this barrier.&#10;Each character at this location must succeed at a check to defeat this barrier or be dealt 2 Fire damage. The barrier is defeated or undefeated based solely on your check.&#10;If undefeated, leave this barrier faceup on the location deck; characters at this location encounter this barrier as their first exploration each turn. If you start your turn at this location, your ship is dealt 1 Structural damage." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="44dbdff6-5e30-4c97-babc-1cca74d27600" name="Illusory Wall">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Obstacle&#10;Magic&#10;Mental&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat this barrier is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, examine the top card of the location deck and return it to either the top or bottom of the deck." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Perception" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="1ff19463-871d-4f5f-90ab-ef2f7926f431" name="Large Chest">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Cache&#10;Lock&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat the barrier is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, add 1d4 random weapons from the box to your hand.&#10;If undefeated, you may banish this barrier." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="10" />
+    <property name="Attr4" value="Dexterity&#10;Disable" />
+    <property name="Attr5" value="9" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="930924c3-be4a-444a-800e-2d2f8d65dc38" name="Lookout Duty">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+<<<<<<< HEAD
     <property name="Traits" value="Task&#10;Fire&#10;Elite" />
     <property name="Attr1" value="You may recharge any number of allies; for each ally recharged, add 1d4 to your check to defeat this barrier.&#10;Each character at this location must succeed at a check to defeat this barrier or be dealt 2 Fire damage. The barrier is defeated or undefeated based solely on your check.&#10;If undefeated, leave this barrier faceup on the location deck; characters at this location encounter this barrier as their first exploration each turn. If you start your turn at this location, your ship is dealt 1 Structural damage." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
@@ -134,6 +175,75 @@
     <property name="Attr4" value="Dexterity&#10;Stealth" />
     <property name="Attr5" value="6" />
     <property name="Attr6" value="OR" />
+=======
+    <property name="Traits" value="Task&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat this barrier is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, you may look at the top card of the barrier's location deck; if it is a monster, you may immediately encounter it.&#10;If undefeated, your ship is dealt 1 Structural damage. Leave this barrier faceup on the location deck; characters at this location encounter this barrier as their first exploration each turn." />
+    <property name="Attr2" value="Wisdom&#10;Perception" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="34439624-c923-4c22-9f87-891f9c70ce37" name="Man Overboard">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Obstacle&#10;Aquatic&#10;Basic" />
+    <property name="Attr1" value="If undefeated, display this card next to a random character. At the start of each character's turn, the character next to this card must succeed at a Constitution or Fortitude 7 check to banish this card; otherwise, that character must bury the top card of his deck." />
+    <property name="Attr2" value="Dexterity" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="962dfa6e-f533-42f1-a798-0489c32a1dc9" name="Pirate Hunting">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Task&#10;Pirate" />
+    <property name="Attr1" value="Summon and encounter a random ship, or a random monster if you are not on a ship. If the summoned card is undefeated, leave this barrier faceup on the location deck and put the summoned card next to it. Characters at this location encounter the summoned card as their first exploration each turn.&#10;If the summoned card is defeated, banish it; this barrier is also defeated." />
+    <property name="Attr2" value="None" />
+   </card>
+   <card id="407b49e4-6066-4350-88ac-31ac18811377" name="Trapped Locker">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Cache&#10;Lock&#10;Trap&#10;Basic" />
+    <property name="Attr1" value="If defeated, add 1 random armor from the box to your hand.&#10;If undefeated, discard the top 1d4-1 cards from your deck; you may banish this barrier." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="9" />
+    <property name="Attr4" value="Strength&#10;Melee" />
+    <property name="Attr5" value="11" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="4be6ebc6-498d-42f9-972e-7336e5a37227" name="Treasure Hunt">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Cache&#10;Task&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat this barrier is increased by the adventure deck number of the current scenario, if any.&#10;Each character may attempt at a check to defeat this barrier. Each character may recharge any number of allies; for each ally recharged, add 1d4 to that character's check. Each character that succeeds may add a random item from the box to her hand. Then banish this barrier." />
+    <property name="Attr2" value="Intelligence&#10;Knowledge" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="d55ad717-9964-4694-89eb-d392cdfcda6b" name="Treasure Map">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Cache&#10;Basic" />
+    <property name="Attr1" value="If defeated, examine the top card of the location deck. If it is a boon, you may add it to your hand.&#10;If undefeated, you may banish this barrier." />
+    <property name="Attr2" value="Intelligence&#10;Knowledge&#10;Wisdom&#10;Survival" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="e8f40ece-8672-4ca8-bba8-f52d70848d3b" name="Buccaneer">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat is increased by the adventure deck number of the current scenario, if any. If the check to defeat has the Swashbuckling trait, the difficulty is increased by twice the adventure deck number instead.&#10;If defeated, you may immediately attempt to close the location this henchman came from." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
+>>>>>>> origin/test-Tyler
    </card>
    <card id="91df2cf3-29c8-4c67-bbfa-8954ff6f8df8" name="Enemy Ship">
     <property name="Abr" value="B" />
@@ -144,6 +254,7 @@
     <property name="Traits" value="Skirmish&#10;Aquatic" />
     <property name="Attr1" value="Summon and encounter a random ship. If you do not defeat the summoned ship, the Enemy Ship is undefeated.&#10;If the summoned ship is defeated, you may seize it. The Enemy Ship is also defeated, and you may immediately attempt to close the location this henchman came from." />
     <property name="Attr2" value="None" />
+<<<<<<< HEAD
    </card>
    <card id="d80e3e08-9f21-46c8-a9fd-82cd5184c3dc" name="Ghost">
     <property name="Abr" value="B" />
@@ -157,6 +268,8 @@
     <property name="Attr4" value="Wisdom&#10;Divine" />
     <property name="Attr5" value="8" />
     <property name="Attr6" value="OR" />
+=======
+>>>>>>> origin/test-Tyler
    </card>
    <card id="8d9cbaa7-2932-4656-8c98-d64f65b29eec" name="Hammerhead Shark">
     <property name="Abr" value="B" />
@@ -180,6 +293,7 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="30" />
    </card>
+<<<<<<< HEAD
    <card id="44dbdff6-5e30-4c97-babc-1cca74d27600" name="Illusory Wall">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -246,6 +360,135 @@
     <property name="Attr1" value="If undefeated, display this card next to a random character. At the start of each character's turn, the character next to this card must succeed at a Constitution or Fortitude 7 check to banish this card; otherwise, that character must bury the top card of his deck." />
     <property name="Attr2" value="Dexterity" />
     <property name="Attr3" value="7" />
+=======
+   <card id="002fd0ca-9b54-4a42-a2ac-a0be75796852" name="Pirate Shade Haunt">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Undead&#10;Pirate" />
+    <property name="Attr1" value="Display the Pirate Shade Haunt next to your character card. For each Haunt next to your character card, the difficulty of your checks is increased by 1, or by 2 if your check has the Swashbuckling trait.&#10;When you encounter the Pirate Shade Haunt, you may immediately attempt to close the location this henchman came from." />
+    <property name="Attr2" value="None" />
+   </card>
+   <card id="6c58d62e-318b-43a5-98bb-21e8052d7a75" name="Ruffian">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat is increased by the adventure deck number of the current scenario, if any.&#10;After you act, if your check to defeat did not have the Swashbuckling trait, bury 1 item or weapon of your choice from your discard pile.&#10;If defeated, you may immediately attempt to close the location this henchman came from." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="832ae756-8467-463c-bc7b-66d4031f9b29" name="Shipwreck">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Barrier" />
+    <property name="Traits" value="Cache&#10;Aquatic&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat is increased by the adventure deck number of the current scenario, if any.&#10;If undefeated, you may banish this barrier.&#10;If defeated, add 1 plunder card from the box to your hand; you may immediately attempt to close the location this henchman came from." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="36d7f3aa-26ab-4c4b-8b50-d88971d884ac" name="Bilge Spider Swarm">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Swarm&#10;Basic" />
+    <property name="Attr1" value="All damage dealt by the Bilge Spider Swarm is Poison damage.&#10;If you are on a ship, the difficulty of the check to defeat is increased by 4.&#10;If you do not defeat the Bilge Spider Swarm by at least 4, shuffle it into the deck it came from; the bilge Spider Swarm still counts as defeated." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="8fdc91d6-1fe6-46e3-91bf-62f15370f123" name="Blood Moon Pirate">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Lycanthrope&#10;Pirate&#10;Elite" />
+    <property name="Attr1" value="Before you act, if the top card of the blessings discard pile is the Blessing of the Gods, the difficulty of the check to defeat the Blood Moon Pirate is increased by 3.&#10;If the check to defeat has the Swashbuckling trait, after you act, discard the top card of the blessings deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="0b3ee2f1-d534-4590-9a65-896287f3a0cc" name="Bunyip">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Bunyip&#10;Aquatic&#10;Elite" />
+    <property name="Attr1" value="Damage dealt by the Bunyip may not be reduced.&#10;Before you act, succeed at a Wisdom 9 check or the difficulty of your checks is increased by 1 for the rest of the turn." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
+   </card>
+   <card id="0ff30ed9-0159-480f-8db1-8549190313ed" name="Cecaelia">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Merfolk&#10;Aquatic" />
+    <property name="Attr1" value="Before you act, succeed at a Wisdom or Perception 8 check or the difficulty of the check to defeat is increased by 2.&#10;If undefeated, each character at your location must succeed at a Constitution or Fortitude 8 check or bury the top 1d4 cards of his deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="5cb62e0f-5e08-49ef-9405-908beb2f22f5" name="Constrictor Snake">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Elite" />
+    <property name="Attr1" value="If the check to defeat has the Cold trait, add 1d6 to it.&#10;If undefeated, bury the top card of your deck and return the Constrictor Snake to the top of the location deck, if it came from one." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="11" />
+   </card>
+   <card id="34e3c800-4824-417d-8c64-048621578e9c" name="Crab Swarm">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Aquatic&#10;Swarm&#10;Basic" />
+    <property name="Attr1" value="Each character at your location must summon and encounter the Crab Swarm. If any character would defeat the Crab Swarm, reroll the dice; that character must take the second result. The Crab Swarm is defeated or undefeated based solely on the result of your second die roll." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="edb33f79-0373-4a1a-8d0d-95a202a4bb85" name="Crocodile">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Aquatic&#10;Elite" />
+    <property name="Attr1" value="If the check to defeat has the Cold trait, add 1d6 to it.&#10;If undefeated, shuffle this card into a random open location, if it came from one." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="09a57f76-edb1-42a4-b021-34aeda4e191a" name="Dire Rat">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Basic" />
+    <property name="Attr1" value="If undefeated, the Dire Rat deals 1 Combat damage to you; succeed at a Constitution or Fortitude 6 check or discard the top card of your deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="8" />
+    <property name="Attr4" value="Dexterity&#10;Stealth" />
+    <property name="Attr5" value="6" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="d80e3e08-9f21-46c8-a9fd-82cd5184c3dc" name="Ghost">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Undead&#10;Incorporeal&#10;Ghost&#10;Elite" />
+    <property name="Attr1" value="The Ghost is immune to the Mental and Poison traits.&#10;If the check to defeat does not have the Magic trait, the Ghost is undefeated." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="12" />
+    <property name="Attr4" value="Wisdom&#10;Divine" />
+    <property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
+>>>>>>> origin/test-Tyler
    </card>
    <card id="1abc8e8e-24ae-4cf2-8a5f-d200ef03ebea" name="Marine">
     <property name="Abr" value="B" />
@@ -276,6 +519,7 @@
     <property name="Attr1" value="If undefeated, each character at this location must succeed at a Constitution or Fortitude 7 check or bury the top card of his deck." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="8" />
+<<<<<<< HEAD
    </card>
    <card id="0d6edc53-4db9-4ae9-8714-da1f0be085de" name="Nefti Unwesha">
     <property name="Abr" value="B" />
@@ -288,6 +532,8 @@
     <property name="Attr1" value="Before you act, choose a card from your hand and shuffle it into a random open location deck.&#10;You may reveal any number of allies; for each ally revealed, add 1 to your check to defeat." />
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="13" />
+=======
+>>>>>>> origin/test-Tyler
    </card>
    <card id="0f76c90c-17d8-4535-91bd-6c217735bc21" name="Pirate Captain">
     <property name="Abr" value="B" />
@@ -298,6 +544,7 @@
     <property name="Attr1" value="Before you act, recharge a card.&#10;The difficulty of the check to defeat is increased by the adventure deck number of the current scenario, if any. You may not play allies that have the Pirate trait on this check.&#10;After you act, the Pirate Captain deals 2 Structural damage to your ship." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="12" />
+<<<<<<< HEAD
    </card>
    <card id="962dfa6e-f533-42f1-a798-0489c32a1dc9" name="Pirate Hunting">
     <property name="Abr" value="B" />
@@ -317,6 +564,8 @@
     <property name="Traits" value="Undead&#10;Pirate" />
     <property name="Attr1" value="Display the Pirate Shade Haunt next to your character card. For each Haunt next to your character card, the difficulty of your checks is increased by 1, or by 2 if your check has the Swashbuckling trait.&#10;When you encounter the Pirate Shade Haunt, you may immediately attempt to close the location this henchman came from." />
     <property name="Attr2" value="None" />
+=======
+>>>>>>> origin/test-Tyler
    </card>
    <card id="18a1a6fd-39b5-4788-82e8-7979fef485c7" name="Rat Swarm">
     <property name="Abr" value="B" />
@@ -327,6 +576,7 @@
     <property name="Attr1" value="If you do not defeat the Rat Swarm by at least 4, shuffle it into the deck it came from; the Rat Swarm still counts as defeated." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="8" />
+<<<<<<< HEAD
    </card>
    <card id="6c58d62e-318b-43a5-98bb-21e8052d7a75" name="Ruffian">
     <property name="Abr" value="B" />
@@ -338,6 +588,8 @@
     <property name="Attr1" value="The difficulty to defeat is increased by the adventure deck number of the current scenario, if any.&#10;After you act, if your check to defeat did not have the Swashbuckling trait, bury 1 item or weapon of your choice from your discard pile.&#10;If defeated, you may immediately attempt to close the location this henchman came from." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="7" />
+=======
+>>>>>>> origin/test-Tyler
    </card>
    <card id="257ce8a5-aea5-45ad-9013-59ad97357cdb" name="Sea Drake">
     <property name="Abr" value="B" />
@@ -368,6 +620,7 @@
     <property name="Attr1" value="The difficulty of the check to defeat is increased by the adventure deck number of the current scenario, if any.&#10;If the check to defeat has the Swashbuckling trait, add 1d4 to it." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="9" />
+<<<<<<< HEAD
    </card>
    <card id="832ae756-8467-463c-bc7b-66d4031f9b29" name="Shipwreck">
     <property name="Abr" value="B" />
@@ -379,6 +632,8 @@
     <property name="Attr1" value="The difficulty to defeat is increased by the adventure deck number of the current scenario, if any.&#10;If undefeated, you may banish this barrier.&#10;If defeated, add 1 plunder card from the box to your hand; you may immediately attempt to close the location this henchman came from." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="5" />
+=======
+>>>>>>> origin/test-Tyler
    </card>
    <card id="77704dbf-7ae1-4e31-9bda-ff4f88f7fe04" name="Siren Caller">
     <property name="Abr" value="B" />
@@ -420,6 +675,7 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="11" />
    </card>
+<<<<<<< HEAD
    <card id="8e522ebb-8dd7-4ba9-8404-74703d43d138" name="The Pirate Council">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -474,6 +730,77 @@
     <property name="Attr1" value="The Zombie is immune to the Mental and Poison traits.&#10;Halve the damage dealt by the Zombie (rounding up).&#10;If undefeated, each other character at your location summons and encounters a Zombie." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="9" />
+=======
+   <card id="adf0b53c-fd65-4f2e-bc3e-841b23042c6e" name="Zombie">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Undead&#10;Zombie&#10;Basic" />
+    <property name="Attr1" value="The Zombie is immune to the Mental and Poison traits.&#10;Halve the damage dealt by the Zombie (rounding up).&#10;If undefeated, each other character at your location summons and encounters a Zombie." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="9" />
+   </card>
+   <card id="1f6ec698-22f7-4a38-9a3b-3f50d451ee7f" name="Adaro Barbarian">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Merfolk&#10;Barbarian&#10;Aquatic" />
+    <property name="Flavour" value="&quot;Oh, they're worse than sea devils. Those fishskins just ride sharks. Adaros, though, those things are sharks. Get enough of 'em together, and they'll turn the whole ocean into a feeding frenzy like you wish you'd never seen!&quot; --Sammi One-Toe, former pearl diver" />
+    <property name="Attr1" value="The Adaro Barbarian may not be evaded.&#10;All damage from the Adaro Barbarian is Poison Damage." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="15" />
+   </card>
+   <card id="b866db39-7eea-439d-a32d-e253e76cfea0" name="Jemma Redclaw">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Captain&#10;Pirate" />
+    <property name="Flavour" value="&quot;She says she got it from some exiled Alkenstar junk-smith, but if you ask me, I don't even think that piece of junk works.&quot; --last words of &quot;Doubting&quot; Jossana Bleachwart" />
+    <property name="Attr1" value="Before you act, recharge a card, then summon and encounter the ship Shackles Pirate Ship.&#10;If undefeated, bury the bottom 1d4 cards of your deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="11" />
+   </card>
+   <card id="6cb5f8a8-162b-4794-825b-635da990cb01" name="Kelizar the Brine Dragon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Dragon&#10;Aquatic" />
+    <property name="Flavour" value="&quot;There's loot sailing every which way. There's scalawags puttin' it in and digging it up from the ground. The whole ocean bottom's carpeted with coin. If you were smart enough to try and find a fortune here, you can bet a dragon had the idea first.&quot; --Less Bowsman, veteran lookout" />
+    <property name="Attr1" value="Before you act, each character at your location must attempt a Dexterity or Acrobatics 7 check. Characters who succeed are dealt 1 Acid damage; characters who fail are dealt 1d4 Acid damage." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="0d6edc53-4db9-4ae9-8714-da1f0be085de" name="Nefti Unwesha">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Smuggler" />
+    <property name="Flavour" value="&quot;Had some luck with beer, but wine never took. Not cider, nor Irrisen vodka either. Never made much sense to me, but for most seafarin' sorts, it's rum, or it's spit.&quot; --Nefti Unwesha, proprietor of the Mermaid's Bucket" />
+    <property name="Attr1" value="Before you act, choose a card from your hand and shuffle it into a random open location deck.&#10;You may reveal any number of allies; for each ally revealed, add 1 to your check to defeat." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="8e522ebb-8dd7-4ba9-8404-74703d43d138" name="The Pirate Council">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Aristocrat&#10;Captain&#10;Pirate" />
+    <property name="Flavour" value="&quot;Lots of liars say they know someone on the council, or they say they're a step from being on it themselves, or they're the newest member. If you're good enough to stand to-to-toe with the Hurricane King and go diving off the nearest pier, then you're not someone who needs to tell drunks you're tough.&quot; --Lolik Vok, former cabin boy aboard the Filthy Lucre" />
+    <property name="Attr1" value="If undefeated, you may banish 1 plunder card per character to defeat The Pirate Council." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="11" />
+>>>>>>> origin/test-Tyler
    </card>
    <card id="35e54cb5-44cb-4604-bcb5-052d67b664c9" name="Acolyte">
     <property name="Abr" value="B" />
@@ -485,6 +812,7 @@
     <property name="Attr2" value="Arcane&#10;Divine&#10;Charisma&#10;Diplomacy" />
     <property name="Attr3" value="6" />
    </card>
+<<<<<<< HEAD
    <card id="a0200b97-02ea-403a-8b77-80a7e3591abd" name="Aid">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -536,10 +864,67 @@
     <property name="Attr3" value="4" />
    </card>
    <card id="dd262b86-eefa-4909-8d95-53b457857059" name="Barefoot Samms Toppin">
+=======
+   <card id="dd262b86-eefa-4909-8d95-53b457857059" name="Barefoot Samms Toppin">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Rogue&#10;Pirate" />
+    <property name="Attr1" value="Discard this card to add 1d6 to any check to defeat a barrier that has the Task trait; you may additionally discard another card to add another 1d6.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="0f17fd17-9ea6-4747-b133-f9aa15242603" name="Besmaran Priest">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Cleric&#10;Pirate" />
+    <property name="Attr1" value="Recharge this card to add 1d6 to your non-combat Wisdom or Charisma check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
+    <property name="Attr2" value="Divine&#10;Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="086e3deb-bd01-4a5a-9420-5272dcd02223" name="Boatswain">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Dwarf&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to examine the top card of your location deck.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="9" />
+   </card>
+   <card id="5f957b0b-b0ab-43c5-8bf2-fe6b39336ea1" name="Cabin Boy">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to add 1d4 to your non-combat check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="2660b17b-545a-4842-8ca4-2a15f8d43a8f" name="Captain">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Captain&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Reveal this card and recharge another card to add 1d6 to your non-combat Constitution or Intelligence check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="4" />
+    <property name="Attr4" value="Charisma&#10;Diplomacy" />
+    <property name="Attr5" value="6" />
+    <property name="Attr6" value="THEN" />
+   </card>
+   <card id="b9cf3150-ba3b-4251-bbdd-303701c37f7d" name="Carver">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+<<<<<<< HEAD
     <property name="Traits" value="Human&#10;Rogue&#10;Pirate" />
     <property name="Attr1" value="Discard this card to add 1d6 to any check to defeat a barrier that has the Task trait; you may additionally discard another card to add another 1d6.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
@@ -556,10 +941,29 @@
     <property name="Attr3" value="3" />
    </card>
    <card id="0f17fd17-9ea6-4747-b133-f9aa15242603" name="Besmaran Priest">
+=======
+    <property name="Traits" value="Elf&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Discard this card to add 1d8 to your Craft check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="a2948946-f66f-41b9-9154-76175658f7c7" name="Chanty Singer">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Half-Elf&#10;Bard&#10;Elite" />
+    <property name="Attr1" value="Reveal this card to avoid being moved to a location.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="ccd21e0a-0fa0-4bb9-a67d-976ab71e38ce" name="Deckhand">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+<<<<<<< HEAD
     <property name="Traits" value="Human&#10;Cleric&#10;Pirate" />
     <property name="Attr1" value="Recharge this card to add 1d6 to your non-combat Wisdom or Charisma check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
     <property name="Attr2" value="Divine&#10;Charisma&#10;Diplomacy" />
@@ -749,6 +1153,146 @@
     <property name="Attr3" value="3" />
    </card>
    <card id="d7709442-d4ac-4d40-99de-bd68ea611508" name="Buckler">
+=======
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to add 1d6 to your non-combat Strength or Dexterity check.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="404a108c-481b-44a6-8d91-78201c103779" name="Dolphin">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal&#10;Aquatic&#10;Elite" />
+    <property name="Attr1" value="Bury this card to add 1d6 to any combat check to defeat a monster that has the Aquatic trait; if you are on a ship, put this card on top of your deck instead of burying it.&#10;Recharge this card to examine the bottom card of any location deck." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="0e75ad82-c0ed-4750-b4e8-941a844d75cd" name="Giffer Tibbs">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Gnome&#10;Pirate" />
+    <property name="Attr1" value="Discard this card to put the bottom card of your deck on top of your deck.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="4b4d2bcd-cec6-4d53-9333-3997d2bbe43f" name="Heartbreak Hinsin">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Aristocrat&#10;Pirate" />
+    <property name="Attr1" value="Bury this card to succeed at your check to defeat a barrier that has the Task trait.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="4" />
+    <property name="Attr4" value="Charisma&#10;Diplomacy" />
+    <property name="Attr5" value="7" />
+    <property name="Attr6" value="THEN" />
+   </card>
+   <card id="db5e0776-5bf9-44b5-baff-07cc2ae41c81" name="Jinx Eater">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Tengu&#10;Assassin&#10;Basic" />
+    <property name="Attr1" value="Discard this card to explore your location. Add 1 to your combat checks during this exploration.&#10;If you would fail a combat check by 1, you may bury this card to succeed." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="e944f1e7-52a6-41c7-ae07-d373a482b89d" name="Lookout">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Elf&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Reveal this card to add 1d6 to any Perception check.&#10;Recharge this card to examine the top card of your location deck." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="d0f92dc5-160a-4010-bebe-fb6965879b6d" name="Master Gunner">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to add 1d4 to your Ranged combat check. If you would shuffle a weapon that has the Firearm trait into your deck on this check, put it on top of your deck instead.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="b56417a1-59cf-4bd0-88f1-3537caf90b9f" name="Master-at-Arms">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to add 1d4 to your Melee combat check, or 1d6 if you are on a ship. When you play a weapon that has the Melee trait on this check, the check gains the Finesse trait.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="eb189857-360b-4a90-ac0c-abe4f455f854" name="Old Salt">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Veteran" />
+    <property name="Attr1" value="Recharge this card to add the adventure deck number of the current scenario to your check (minimum 1). &#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="bd6ede35-c56b-42b1-98c1-3fb56fe1b216" name="Parrot">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal&#10;Elite" />
+    <property name="Attr1" value="If you would fail a check by 4 or less, you may bury this card to ignore the result and reroll the dice. You must take the second result.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="65264ac5-5df3-47a8-8d54-8fb76970fc81" name="Quartermaster">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to add 1d4 to your check to acquire a boon, or 1d8 if it is a weapon, an armor, or an item.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="a81f9ff1-420a-4cad-9884-43c235581eb8" name="Sailor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Discard this card to add 1d4 to your check when you are on a ship.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="d26537ee-39b0-4a82-baec-4c0aaac1580c" name="Surgeon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Surgeon&#10;Elite" />
+    <property name="Attr1" value="Reveal this card and choose a character at your location. Shuffle a random card from her discard pile into her deck. Then recharge this card.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="6db7c2b3-a0fe-4111-b47e-b8d94a9d85f8" name="Swab">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic" />
+    <property name="Attr1" value="Reveal this card when you are required to shuffle one or more random cards from your hand or discard pile into your deck; you choose thos cards instead. Then shuffle this card into your deck when you shuffle in those cards.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="d7709442-d4ac-4d40-99de-bd68ea611508" name="Buckler">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
@@ -763,6 +1307,50 @@
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Shield&#10;FIrearm&#10;Basic" />
+    <property name="Attr1" value="For your combat check, bury this card to use your Dexterity or Ranged skill + 1d8 and add the Ranged trait; this counts as playing a weapon instead of an armor.&#10;Recharge this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="5" />
+    <property name="Attr4" value="Constitution&#10;Fortitude" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="THEN" />
+   </card>
+   <card id="98963214-b923-4ef5-81ac-f49326f236c0" name="Chain Mail">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Heavy Armor&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2. &#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="f93261a5-80a5-4c94-b0d8-bacf15569c83" name="Chain Shirt">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+<<<<<<< HEAD
+    <property name="Traits" value="Shield&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 1. If you are proficient with light armors, you may reveal this card instead, and you may play another armor on this check." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="4db56652-9840-4297-86b4-99484c5a0a42" name="Buckler Gun">
+=======
+    <property name="Traits" value="Light Armor&#10;Swashbuckling&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 1, or 3 if the check has the Swashbuckling trait. &#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="7d953eb6-5613-4318-834e-36c3bb545e74" name="Cloth Armor">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+<<<<<<< HEAD
     <property name="Traits" value="Shield&#10;FIrearm&#10;Basic" />
     <property name="Attr1" value="For your combat check, bury this card to use your Dexterity or Ranged skill + 1d8 and add the Ranged trait; this counts as playing a weapon instead of an armor.&#10;Recharge this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
@@ -983,6 +1571,245 @@
     <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6. You may additionally bury this card to add another 2d6. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your deck.&#10;Recharge this card to add 1d6 and this card's traits to another character's combat check at your location." />
     <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
     <property name="Attr3" value="9" />
+=======
+    <property name="Traits" value="Light Armor&#10;Basic" />
+    <property name="Attr1" value="When you acquire this card, you may draw a card.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="2" />
+   </card>
+   <card id="cac9a9e3-75d9-46d5-973c-6554f1e8d786" name="Leather Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 1. &#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="2" />
+   </card>
+   <card id="599c3b73-20b6-46f4-9b90-80ca28367e69" name="Magic Buckler">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Shield&#10;Magic&#10;Elite" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may reveal this card instead, and you may play another armor on this check." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="475446b5-7b39-4b0f-b611-5eec2597d722" name="Magic Chain Shirt">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Swashbuckling&#10;Elite" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 1, or 3 if the check has the Swashbuckling trait.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="5076e2e2-e267-4b61-8c66-071c91240f78" name="Magic Leather Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Elite" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 1.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="2" />
+   </card>
+   <card id="ed4a5587-4c62-4665-90bf-182c2082ed66" name="Wooden Shield">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Shield&#10;Offhand&#10;Basic" />
+    <property name="Attr1" value="If you played a weapon that has the 2-Handed trait on this check, you may not play this card.&#10;Recharge this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="8514a534-f51d-48ab-8d97-b303160ece1b" name="Blessing of Abadar">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Abadar" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any check to defeat a barrier.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="6" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="3d7bebe4-61ab-427a-b160-8ef8c9f7d9e2" name="Blessing of Achaekek">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Achaekek" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any check to defeat a villain or henchman.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Craft" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="6daf11e1-ce16-4565-a0ab-7930f0bd4ff9" name="Blessing of Cayden Cailean">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Cayden Cailean" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 to any non-combat Strength or Constitution check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Strength&#10;Constitution" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="d8cb4156-7ddb-4c56-adb4-1134f790593b" name="Blessing of Erastil">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Erastil" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 to any combat Dexterity check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Dexterity" />
+    <property name="Attr3" value="4" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="fc6cc86b-19d6-438e-90d2-03d704c457ff" name="Blessing of Gorum">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Gorum" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 to any combat Strength check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Strength" />
+    <property name="Attr3" value="4" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="8f913ffb-2089-48fc-8bea-228581ad430d" name="Blessing of Gozreh">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Gozreh" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any check to close a location.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="92543dac-6411-48da-ba70-20dee3f2629c" name="Blessing of Milani">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Milani" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any non-combat Dexterity or Wisdom check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Dexterity&#10;Wisdom" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="a62da064-a85c-42d6-a0ac-9f487a39f11d" name="Blessing of Pharasma">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Pharasma" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;When a spell is played during any check, discard this card to add 2 dice to that check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Divine" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="a8150fc7-4c02-4bf1-a06e-59ece48f3f5a" name="Blessing of Sivanah">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Sivanah" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any non-combat Intelligence or Charisma check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Charisma" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6" name="Blessing of the Gods">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Basic" />
+    <property name="Attr1" value="When you encounter this card, you automatically acquire it.&#10;Discard this card to add 1 die to any check.&#10;Discard this card to explore your location.&#10;You may instead treat this card as if it had the same powers as the top card of the blessings discard pile." />
+    <property name="Attr2" value="None" />
+   </card>
+   <card id="2484f5df-b12d-44b2-954a-f33fe65a2e4a" name="Amulet of Fortitude">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic&#10;Elite" />
+    <property name="Attr1" value="Reveal this card to add 1 die to your Fortitude check.&#10;Recharge this card to succeed at your Fortitude check." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="5b8a87e6-8ffa-45bf-afa0-19b320cbb926" name="Amulet of Life">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic&#10;Basic" />
+    <property name="Attr1" value="Discard this card to reduce damage dealt to you by 3. After playing this card, succeed at an Arcane or Divine 7 check to recharge it instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="7c3b3d93-4f06-419a-99b2-5a11e814330f" name="Anchor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Tool" />
+    <property name="Attr1" value="Display this card next to your character. When you would shuffle a non-villain monster into your location, you may place it on top of that location instead. At the start of each turn, roll 1d6; on a 1, bury this card. If you move, discard this card." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="2531ffa6-384d-4bef-bc68-a364231012da" name="Bracers of Protection">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic&#10;Basic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 1." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="df23d3e9-5929-44cd-ac5b-168f79eb6865" name="Caltrops">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Basic" />
+    <property name="Attr1" value="Banish this card to evade a monster whose highest difficulty to defeat is 14 or lower.&#10;Banish this card to defeat a monster whose highest difficulty to defeat is 9 or lower." />
+    <property name="Attr2" value="Dexterity" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="7d9e3d18-5d17-4387-be6f-7e290daee6c8" name="Conch Shell">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Aquatic&#10;Basic" />
+    <property name="Attr1" value="Reveal this card to add 1d6 to your Perception check.&#10;Discard this card to examine the top card of another location deck. After playing this card, succeed at a Perception 7 check to recharge it instead of discarding it." />
+    <property name="Attr2" value="Wisdom&#10;Perception" />
+    <property name="Attr3" value="5" />
+>>>>>>> origin/test-Tyler
    </card>
    <card id="a0107750-0324-4ea5-849d-9c4d9cba3b0d" name="Emerald of Dexterity">
     <property name="Abr" value="B" />
@@ -1004,6 +1831,7 @@
     <property name="Attr2" value="Charisma&#10;Dexterity" />
     <property name="Attr3" value="5" />
    </card>
+<<<<<<< HEAD
    <card id="765c94fe-3933-437a-ab23-a06a42af6108" name="Falcata">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
@@ -1248,10 +2076,247 @@
     <property name="Attr3" value="2" />
    </card>
    <card id="33de395e-4bd1-47fc-9bc4-b51bacbdf859" name="Magic Weapon">
+=======
+   <card id="d75d47a7-05e8-4292-9355-1b22bc9163dc" name="Masterwork Tools">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Tool&#10;Elite" />
+    <property name="Attr1" value="Reveal this card to add 2 dice to your Disable check.&#10;Recharge this card to defeat a barrier whose highest difficulty to defeat is 14 or lower." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="7d1b4499-8593-48e3-bbf5-0ce56f35f62f" name="Nautical Charts">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Book" />
+    <property name="Attr1" value="At the end of a turn, recharge this card to move. Movement restrictions still apply." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="31dcccc1-1674-40d9-aba7-88981a641486" name="Old Salt's Bandana">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Swashbuckling&#10;Elite" />
+    <property name="Attr1" value="Reveal this card to add the Swashbuckling trait to your check." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="c0be1b69-7b04-4db9-8860-ee632f3a45bc" name="Onyx of Constitution">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to roll your Constitution die instead of the normal die on a non-combat check." />
+    <property name="Attr2" value="Constitution" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="5aea4552-2d0d-4e8b-b094-a3baf25e4c0c" name="Pearl of Wisdom">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to roll your Wisdom die instead of the normal die on a non-combat check." />
+    <property name="Attr2" value="Wisdom" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="11bf459d-08b5-41ff-98db-437fc42c8402" name="Potion of Fortitude">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Liquid&#10;Alchemical&#10;Basic" />
+    <property name="Attr1" value="Banish this card and choose a character at your location to succeed at a Fortitude check." />
+    <property name="Attr2" value="Intelligence&#10;Craft" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="dcf17c6b-4b20-4289-9eb1-507fcdfb69c6" name="Potion of Glibness">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Liquid&#10;Alchemical&#10;Basic" />
+    <property name="Attr1" value="Banish this card and choose a character at your location to succeed at a Diplomacy check." />
+    <property name="Attr2" value="Intelligence&#10;Craft" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="97cd7857-1023-4b2c-96f0-d8a2a5df28bc" name="Potion of Healing">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Liquid&#10;Alchemical&#10;Healing" />
+    <property name="Attr1" value="Banish this card and choose a character at your location to shuffle 1d4 random cards from his discard pile into his deck." />
+    <property name="Attr2" value="Intelligence&#10;Craft" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="4eea2429-dd93-40fb-b438-83295ef60441" name="Powder Horn">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Tool&#10;Alchemical&#10;Basic" />
+    <property name="Attr1" value="Discard this card to search your deck for a weapon that has the Firearm trait. Add it to your hand and shuffle your deck. After playing this card, succeed at a Craft 8 check to recharge it instead of discarding it." />
+    <property name="Attr2" value="Ranged&#10;Intelligence&#10;Craft" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="95ccc190-874b-48b9-81a9-d0660e6192e4" name="Ruby of Charisma">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to roll your Charisma die instead of the normal die on a non-combat check." />
+    <property name="Attr2" value="Charisma" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="2137d0a7-5f92-47b4-97b3-9d404e4c915b" name="Rum Bottle">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Liquid&#10;Basic" />
+    <property name="Attr1" value="Discard this card to choose a character at your location and add 1d10 to that character's check to acquire an ally that has the Pirate trait. After playing this card, succeed at a Survival 7 check to recharge this card instead of discarding it.&#10;Banish this card to defeat a barrier that has the Task trait." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Craft" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="e511cd04-d97a-412c-b2a2-534eb48457cc" name="Sapphire of Intelligence">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to roll your Intelligence die instead of the normal die on a non-combat check." />
+    <property name="Attr2" value="Intelligence" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="c33ae71a-1446-4058-ab38-c6acb66fec3b" name="Spyglass">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object" />
+    <property name="Attr1" value="Reveal this card to add 1d6 to your Perception check.&#10;Discard this card to examine the top 2 cards of your location deck and put them back in any order." />
+    <property name="Attr2" value="Wisdom&#10;Perception" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="bb311329-1659-47eb-9d89-86c367d00a09" name="Thieves' Tools">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Tool&#10;Basic" />
+    <property name="Attr1" value="Reveal this card to add 1 die to your Disable check.&#10;Discard this card to defeat a barrier whose highest difficulty to defeat is 11 or lower. After playing this card, succeed at a Disable 8 check to recharge it instead of discarding it." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="f250c710-5f5c-4a95-9544-334d62a97a38" name="Token of Remembrance">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic&#10;Arcane&#10;Divine" />
+    <property name="Attr1" value="Bury this card to recharge a spell from your discard pile. You must have a skill matching the spell's Arcane or Divine trait to use this power." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="abdadd44-9fd5-4994-bb88-8b32f9a1694c" name="Topaz of Strengh">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to roll your Strength die instead of the normal die on a non-combat check." />
+    <property name="Attr2" value="Strength" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="df5f4604-779f-42e5-a928-24c310eed67f" name="Tot Flask">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Object&#10;Alchemical" />
+    <property name="Attr1" value="When you would banish an item that has the Alchemical or Liquid trait for its power, reveal this card to bury that item instead of banishing it.&#10;Discard this card to search your deck for an item that has the Liquid trait, then add it to your hand and shuffle your deck. After playing this card, succeed at a Craft 9 check to recharge it instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Craft" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="a0200b97-02ea-403a-8b77-80a7e3591abd" name="Aid">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine&#10;Elite" />
+    <property name="Attr1" value="Discard this card to add 1d6 to any check. &#10;After playing this card, if you do not have the Divine skill, banish it; otherwise, you may succeed at a Divine 8 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="d4cc1203-3430-4f5b-bb9b-1ff14eb7e0e1" name="Arcane Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Basic" />
+    <property name="Attr1" value="Discard this card to reduce Combat damage dealt to you by 2. You may play this card even if you have played another spell on this check.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, you may succeed at an Arcane 4 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="933d5f1d-81e0-4490-99ef-adb733478c22" name="Black Spot">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic" />
+    <property name="Attr1" value="Discard this card to decrease the difficulty to defeat a monster by 1 plus the adventure deck number of the current scenario, if any.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 6 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="b988a261-eaf6-4018-8cee-f5687788bc14" name="Buoyancy">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Basic" />
+    <property name="Attr1" value="Discard this card to examine the bottom card of your location deck and put it on top of that deck.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, you may succeed at an Arcane 5 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="2bdbfe3f-79ab-481e-b503-0fd464404bc8" name="Call Weapon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Elite" />
+    <property name="Attr1" value="Discard this card to search the deck of a character at your location for a weapon and add it to your hand.&#10;Bury this card to search the deck of a character at your location for a weapon and give it to any character.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 6 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="6877fb68-49b4-47cf-bd93-ca606c4fcceb" name="Confusion">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Mental&#10;Basic" />
+    <property name="Attr1" value="Discard this card to evade a monster. If there is another character at your location, that character may encounter the monster.&#10;After playing this card, if you do not have the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="71f201a6-ae7f-44b6-bfd6-b57cb40f955f" name="Cure">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+<<<<<<< HEAD
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic" />
     <property name="Attr1" value="When a weapon is played on a combat check, discard this card to add 1d4 and the Magic trait to the check.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 6 check to recharge this card instead of discarding it." />
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
@@ -1388,20 +2453,168 @@
     <property name="Attr3" value="4" />
    </card>
    <card id="7d10b3fc-5eb7-4ff6-a47c-eb58a98ac56c" name="Pistol">
+=======
+    <property name="Traits" value="Magic&#10;Divine&#10;Healing&#10;Basic" />
+    <property name="Attr1" value="Reveal this card and choose a character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck, then discard this card.&#10;After playing this card, if you do not have the Divine skill, banish it; otherwise, you may succeed at a Divine 8 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="5ed530b5-b943-4401-a840-37fa1c3e4741" name="Detect Magic">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic" />
+    <property name="Attr1" value="During your turn, discard this card to examine the top card of your location deck. If the card is a blessing of has the Magic trait, you may immediately encounter it; otherwise, return it to the top of the deck.&#10;After playing this card, if you do not have the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 4 check to recharge this card isntead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="2" />
+   </card>
+   <card id="92af4580-540d-40ec-bd0f-ae9b4a0af726" name="Fear">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Mental&#10;Elite" />
+    <property name="Attr1" value="Discard this card to evade a non-villain monster and shuffle it into an open location of your choice.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="4cf8435c-0961-40b5-8c7f-9a4f51cacfdd" name="Find Traps">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine" />
+    <property name="Attr1" value="Discard this card to add 2 dice to any check to defeat a barrier.&#10;After playing this card, if you do not have the Divine skill, banish it; otherwise you may succeed at a Divine 8 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="9400bf9f-192f-4c22-b58a-2c5603d9a094" name="Fireblade">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine&#10;Attack&#10;Fire&#10;Basic" />
+    <property name="Attr1" value="For your combat check, discard this card to use your Divine skill + 2d4.&#10;After playing this card, if you do not have the Divine skill, banish it; otherwise, you may succeed at a Divine 8 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="8d9a27c9-28da-4b3d-ad99-2a5f6a1922f3" name="Force Missile">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Force&#10;Basic" />
+    <property name="Attr1" value="For your combat check, discard this card to use your Arcane skill + 2d4.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, you may succeed at an Arcane 6 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="e7b1c035-90da-400b-a3a3-05ebc7dd8da1" name="Frostbite">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Cold&#10;Basic" />
+    <property name="Attr1" value="For your combat check to defeat a monster, display this card to use your Arcane or Divine skill + 1d6. While displayed, damage dealt by that monster is reduced by 1. At the end of the encounter, if you do not have either the Arcane or Divine skill, banish this card; otherwise, attempt an Arcane or Divine 7 check. If you succeed, recharge this card; if you fail, discard it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="b98d3108-71f5-4432-9e8c-816d620b3e67" name="Inflict">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine&#10;Attack&#10;Basic" />
+    <property name="Attr1" value="For your combat check, discard this card to use your Divine skill + 1d6. &#10;After playing this card, if you do not have the Divine skill, banish this card; otherwise, you may succeed at a Divine 6 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="f758980d-6d09-4f65-8e12-ccbbf4eeff8d" name="Instant Armor">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine" />
+    <property name="Attr1" value="When an armor is played on any check, discard this card to recharge that armor instead of discarding, burying, or banishing it.&#10;After playing this card, if you do not have the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 5 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="33de395e-4bd1-47fc-9bc4-b51bacbdf859" name="Magic Weapon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic" />
+    <property name="Attr1" value="When a weapon is played on a combat check, discard this card to add 1d4 and the Magic trait to the check.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 6 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="687f25ab-7baf-4565-8f8d-35d678dcc652" name="Phantasmal Minion">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Basic" />
+    <property name="Attr1" value="Discard this card to give a card to another character.&#10;Discard this card to allow another character at your location to give you a card.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, you may succeed at an Arcane 6 check to recharge this card instead of discarding it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="c877e654-61ae-4a97-9dac-0d4a75f2f1dc" name="Speed">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine" />
+    <property name="Attr1" value="Display this card next to a character. While displayed, that character's checks using her Dexterity skill are increased by 3. At the end of the turn, if you do not have either the Arcane or Divine skill, banish this card; otherwise, attempt an Arcane or Divine 8 check. If you succeed, recharge this card; if you fail, discard it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="2ca3c457-992b-45fc-a308-a68c09124e52" name="Strength">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic" />
+    <property name="Attr1" value="Display this card next to a character. While displayed, that character's checks using her Strength skill are increased by 3. At the end of the turn, if you do not have either the Arcane or Divine skill, banish this card; otherwise, attempt an Arcane or Divine 8 check. If you succeed, recharge this card; if you fail, discard it." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="c0d2807b-3707-4718-afad-07c8ef312cc6" name="Belaying Pin">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;Swashbuckling&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d4; you may additionally discard this card to add your Strength die." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="5011851c-ab99-44ab-98be-7723bb860579" name="Blunderbuss">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;Swashbuckling&#10;Basic" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on 1-2, shuffle this card into your deck." />
     <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
     <property name="Attr3" value="6" />
    </card>
    <card id="ea374559-53b3-43ea-adba-c9ef83607456" name="Pistol +1">
+=======
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d10; you may additionally bury this card to add another 2d6. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on 1-2, shuffle this card into your deck." />
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="8a61376d-ac53-4d01-a8d0-5122360fba84" name="Boarding Axe">
+>>>>>>> origin/test-Tyler
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;Swashbuckling&#10;Magic&#10;Elite" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6+1; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your deck." />
     <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
@@ -1458,20 +2671,88 @@
     <property name="Attr3" value="8" />
    </card>
    <card id="a0f65918-1986-4ab8-b0fa-f94a91f824c2" name="Quarterstaff">
+=======
+    <property name="Traits" value="Axe&#10;Melee&#10;Slashing&#10;Swashbuckling&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6; add another 1d6 if the bane has the Pirate trait. You may additionally discard this card to add another 1d4. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="1b60f81b-f550-4588-b5fe-0cd8680dd51d" name="Boarding Pike">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;2-Handed&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8. Add another 1d4 if you are on a ship. If you fail this check, you may discard this card to ignore the result and reroll the dice. You must take the second result." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="092297d3-7d9e-482f-b3a6-012ad16c2a92" name="Cat-o'-Nine-Tails">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Whip&#10;Melee&#10;Slashing&#10;Finesse&#10;Swashbuckling&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 3d4. If you fail this check, and you are proficient with weapons, you may discard this card to ignore the result and evade the bane." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="11" />
+   </card>
+   <card id="a5e514fc-d0ee-4c5a-bcd1-230af145ab34" name="Cutlass">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Finesse&#10;Swashbuckling&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6; you may additionally discard this card to add 1d8. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="c62a7550-c37b-4571-a45d-190ec01711b1" name="Cutlass +1">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Finesse&#10;Swashbuckling&#10;Magic&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6+1; you may additionally discard this card to add 1d8. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="5abb4664-a19d-437c-bab1-dc41971fcb8a" name="Dagger">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d4; you may additionally recharge this card to add another 1d4. &#10;When playing another weapon, you may discard this card to add 1d4 to the combat check." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="c15e7807-0eb0-40b7-894a-9c88019c3c83" name="Dragon Pistol">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Staff&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Basic" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6; you may additionally discard this card to add another 1d6." />
     <property name="Attr2" value="Strength&#10;Melee" />
     <property name="Attr3" value="3" />
    </card>
    <card id="7d0bd9fd-1e21-41d4-b10c-6e6d09d9f092" name="Rapier">
+=======
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6. You may additionally bury this card to add another 2d6. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your deck.&#10;Recharge this card to add 1d6 and this card's traits to another character's combat check at your location." />
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
+    <property name="Attr3" value="9" />
+   </card>
+   <card id="765c94fe-3933-437a-ab23-a06a42af6108" name="Falcata">
+>>>>>>> origin/test-Tyler
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Swashbuckling&#10;Basic" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d4; you may additionally discard this card to add another 1d4. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Strength&#10;Melee" />
@@ -1511,10 +2792,49 @@
     <property name="Attr3" value="6" />
    </card>
    <card id="c0005605-71a8-4e83-a1a3-f49aea792dcb" name="Sap">
+=======
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d4; you may additionally discard this card to add another 2d4. If you aren't proficient with weapons, the difficulty of this check is increased by 4. &#10;If any d4 rolled on this check is a 4, count it as a 5." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="c0e2986a-14ab-4246-aa55-c29bfe23d48f" name="Fire Lance">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Alchemical&#10;Elite" />
+    <property name="Attr1" value="For your combat check, bury this card to roll 2d12; you may instead banish this card to roll 4d8." />
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="890c3df6-4074-400c-aaf2-3a8deab6277b" name="Harpoon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Spear&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Swashbuckling&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6. Add another 1d8 if the bane has the Aquatic trait. If you fail a check to defeat a non-villain monster, and you are proficient with weapons, you may put the monster on top of the location deck, if it came from one." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="31288205-2622-4d07-bab9-ccbc5547ab46" name="Heavy Crossbow">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d10.&#10;If you are proficient with weapons, you may discard this card to add 1d4 to any combat check at another location." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="a154bdba-e424-4c22-baed-d2539d7eb4de" name="Icy Boarding Pike +1">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;Basic" />
     <property name="Attr1" value="Discard this card to evade a monster whose highest difficulty to defeat is 12 or lower." />
     <property name="Attr2" value="Strength&#10;Melee" />
@@ -1531,20 +2851,48 @@
     <property name="Attr3" value="7" />
    </card>
    <card id="fab086de-bc4f-4283-b1eb-19bfb2d4006a" name="Short Sword">
+=======
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;2-Handed&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8+1 and add the Cold trait. Add another 1d4 if you are on a ship. If you fail this check, you may discard this card to ignore the result and reroll the dice. You must take the second result." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="10" />
+   </card>
+   <card id="348074d9-137c-40b2-8a45-eee31bb7e646" name="Light Crossbow">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d8.&#10;If you are proficient with weapons, you may discard this card to add 1d4 to any combat check at another location." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="147c46ef-7b1e-4479-bc20-85fe7e227552" name="Longbow">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Basic" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Strength&#10;Melee" />
     <property name="Attr3" value="4" />
    </card>
    <card id="71d8a5a4-8f85-4cd9-b5f5-0888b9ce821c" name="Shortbow">
+=======
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + your Strength die. If you aren't proficient with weapons, the difficulty of this check is increased by 4. &#10;If you are proficient with weapons, you may discard this card to add 1d4 to any combat check at another location." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="59722c2f-cf42-42b7-b1b6-73a137a893d2" name="Longsword">
+>>>>>>> origin/test-Tyler
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Basic" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6.&#10;If you are proficient with weapons, you may discard this card to add 1d4 to any combat check at another location." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
@@ -1611,10 +2959,79 @@
     <property name="Attr3" value="4" />
    </card>
    <card id="6e567cd9-3c38-4c8f-add7-bfd88deabc1c" name="Throwing Axe">
+=======
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="039372e8-0ee3-4bc4-9c04-11a401336898" name="Mace">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Mace&#10;Melee&#10;Bludgeoning&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8; you may additionally discard this card to add another 1d4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="29816376-e23a-438f-9425-863cc6ca0ab0" name="Main-Gauche">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Knife&#10;Melee&#10;Piercing&#10;Finesse&#10;Offhand&#10;Swashbuckling&#10;Elite" />
+    <property name="Attr1" value="If you played a weapon that has the 2-Handed trait on this check, you may not play this card.&#10;For your combat check, reveal this card to use your Strength or Melee skill + 1d4. &#10;Discard this card to reduce Combat damage dealt to you by 2." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="5bb88634-d81d-424e-a926-dd60463088ed" name="Morningstar">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Mace&#10;Melee&#10;Piercing&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8; you may additionally discard this card to add another 1d4.&#10;You may play this card as if it has the Bludgeoning trait instead of the Piercing trait." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="2cecb56a-03b2-4255-bffb-0e6365ec2ba3" name="Musket">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d10; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on 1-2, shuffle this card into your deck." />
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="7d10b3fc-5eb7-4ff6-a47c-eb58a98ac56c" name="Pistol">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;Swashbuckling&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on 1-2, shuffle this card into your deck." />
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="ea374559-53b3-43ea-adba-c9ef83607456" name="Pistol +1">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;Swashbuckling&#10;Magic&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6+1; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your deck." />
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft" />
+    <property name="Attr3" value="8" />
+   </card>
+   <card id="a0f65918-1986-4ab8-b0fa-f94a91f824c2" name="Quarterstaff">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Axe&#10;Ranged&#10;Slashing&#10;Elite" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
@@ -1651,10 +3068,49 @@
     <property name="Attr3" value="6" />
    </card>
    <card id="b68bc5c7-a996-45f9-a40f-d4d9f0a0c6c9" name="Whip">
+=======
+    <property name="Traits" value="Staff&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6; you may additionally discard this card to add another 1d6." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="7d0bd9fd-1e21-41d4-b10c-6e6d09d9f092" name="Rapier">
     <property name="Abr" value="B" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
     <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Swashbuckling&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d4; you may additionally discard this card to add another 1d4. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="c0005605-71a8-4e83-a1a3-f49aea792dcb" name="Sap">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;Basic" />
+    <property name="Attr1" value="Discard this card to evade a monster whose highest difficulty to defeat is 12 or lower." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="fab086de-bc4f-4283-b1eb-19bfb2d4006a" name="Short Sword">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="4" />
+   </card>
+   <card id="71d8a5a4-8f85-4cd9-b5f5-0888b9ce821c" name="Shortbow">
+>>>>>>> origin/test-Tyler
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+<<<<<<< HEAD
     <property name="Traits" value="Whip&#10;Melee&#10;Slashing&#10;Finesse&#10;Swashbuckling&#10;Basic" />
     <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6. If you would fail this check, and you are proficient with weapons, you may discard this card to ignore the result and evade the bane." />
     <property name="Attr2" value="Strength&#10;Melee" />
@@ -1690,6 +3146,32 @@
     <property name="Attr3" value="6  [ ] 7" />
     <property name="Attr4" value="[ ] Light Armors" />
    </alternate>
+=======
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6.&#10;If you are proficient with weapons, you may discard this card to add 1d4 to any combat check at another location." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="3" />
+   </card>
+   <card id="6e567cd9-3c38-4c8f-add7-bfd88deabc1c" name="Throwing Axe">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Axe&#10;Ranged&#10;Slashing&#10;Elite" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="6" />
+   </card>
+   <card id="b68bc5c7-a996-45f9-a40f-d4d9f0a0c6c9" name="Whip">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Whip&#10;Melee&#10;Slashing&#10;Finesse&#10;Swashbuckling&#10;Basic" />
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6. If you would fail this check, and you are proficient with weapons, you may discard this card to ignore the result and evade the bane." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="7" />
+>>>>>>> origin/test-Tyler
    </card>
    <card id="5d3b25a1-75a6-47cd-81fc-2586b198a05c" name="Alahazra (Stargazer)">
     <property name="Abr" value="B" />
@@ -1731,6 +3213,7 @@
     <property name="Attr2" value="Strength: d4  [ ] +1&#10;Desterity: d4  [ ] +1&#10;Consitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Charisma +2" />
     <property name="Attr3" value="6  [ ] 7 [ ] 8" />
     <property name="Attr4" value="[ ] Light Armors" />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="d0f660ce-b8c9-4daf-9416-5fa5d5dc6515" name="Jirelle">
@@ -1752,6 +3235,8 @@
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ]+4&#10;  Acrobatics: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Survival: Wisdom +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="b6f9a3fb-eaaf-4e13-ac21-3452bd3728f6" name="Jirelle (Duelist)">
@@ -1794,6 +3279,7 @@
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ]+4&#10;  Acrobatics: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Survival: Wisdom +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="30362e92-3dfb-4ae3-bdc9-463f23f0382b" name="Lem">
@@ -1815,6 +3301,8 @@
     <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[ ] Light Armors, [X] Weapons" />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="e00ced34-f486-4b3a-94c2-4182fd680b4e" name="Lem (Freebooter)">
@@ -1857,6 +3345,7 @@
     <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[ ] Light Armors, [X] Weapons" />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="78c344db-eb01-4a9a-ae38-5bc16895b0d4" name="Lirianne">
@@ -1878,6 +3367,8 @@
     <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="d0bc0011-c48e-4c20-ac9e-bad0ac547f28" name="Lirianne (Deadeye)">
@@ -1920,6 +3411,7 @@
     <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="d37d47a4-138e-4a99-bf6a-232cbdf8e01c" name="Merisiel">
@@ -1941,6 +3433,8 @@
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Craft: Intelligence +2&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="20e9f3d0-cfc8-47a1-afc0-f76b26461131" name="Merisiel (Shadow)">
@@ -1983,6 +3477,7 @@
     <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Craft: Intelligence +2&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="9a197178-3bad-4fae-b466-b271bf7f8fda" name="Seltyiel">
@@ -2004,6 +3499,8 @@
     <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="621b95a3-61e5-46e1-b13e-dd84c680c3e1" name="Seltyiel (Marauder)">
@@ -2046,6 +3543,7 @@
     <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
     <property name="Attr3" value="5  [ ] 6  [ ] 7" />
     <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="a7ba6976-458e-4799-a931-abf3bf6ea72f" name="Valeros">
@@ -2067,6 +3565,8 @@
     <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +1" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons" />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="8977ea8a-8dbf-4d05-ba9e-b9f8d6188b48" name="Valeros (Corsair)">
@@ -2109,6 +3609,156 @@
     <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +1" />
     <property name="Attr3" value="4  [ ] 5  [ ] 6" />
     <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons" />
+<<<<<<< HEAD
+=======
+   </alternate>
+   </card>
+   <card id="c1c48f4d-abe4-49d3-8c9e-515fc55e203d" name="Alahazra">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Human&#10;Oracle" />
+    <property name="Flavour" value="At a young age, Alahazra was struck blind and began exhibiting supernatural powers. Accused of being a follower of the gods, she was driven from her atheist home in Rahadoum into the desert. Although the experience almost killed her, she emerged with the realization that her&#10;abilities came not from any deity, but from the powers of the sun and flames. Now Alahazra travels the world, exposing any injustice she encounters with her scouring light." />
+    <property name="Attr2" value="Weapon:  -&#10;Spell:  5  [ ] 6  [ ] 7  [ ] 8&#10;Armor:  -  [ ] 1&#10;Item:  2  [ ] 3  [ ] 4&#10;Ally:  3  [ ] 4  [ ] 5&#10;Blessing:  5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Blessing" />
+   <alternate name="Alahazra" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Human&#10;Oracle" />
+    <property name="Attr1" value="You may recharge a card that has the Divine trait to examine the top card of any location deck ([ ] or the blessings deck or any character deck).&#10;At the end of your turn, you may discard a card that has the Divine trait to add a card that has the Divine trait from your discard pile to your hand.&#10;If your combat check has the Attack trait, add 2 to it. ([ ] You may also add the Fire trait.)" />
+    <property name="Attr2" value="Strength: d4  [ ] +1&#10;Desterity: d4  [ ] +1&#10;Consitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Charisma +2" />
+    <property name="Attr3" value="6  [ ] 7" />
+    <property name="Attr4" value="[ ] Light Armors" />
+   </alternate>
+   </card>
+   <card id="d0f660ce-b8c9-4daf-9416-5fa5d5dc6515" name="Jirelle">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Swash-&#10;buckler" />
+    <property name="Flavour" value="Jirelle lost everything the day her mother's ship, the Bloodcrow, sank off Tempest Cay. Surviving the wreck, she soon learned of the ship's ghostly reappearance. Now Jirelle pits her rapier and wits against the Shackles' countless dangers. Every treasure she uncovers goes into her thricelocked&#10;chest, a trove meant to finance a ship and crew. Donning her mother's cape, the cloak of the Bloodcrow Queen, Jirelle scours eastern Garund for relics and treasure, determined to use them to uncover the mystery of the Bloodcrow." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6 &#10;Spell: - &#10;Armor: 1  [ ] 2 [ ] 3&#10;Item: 2  [ ] 3  [ ] 4 &#10;Ally: 3  [ ] 4 [ ] 5 [ ] 6&#10;Blessing: 5  [ ] 6" />
+    <property name="Attr3" value="Ally" />
+   <alternate name="Jirelle" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Swash-&#10;buckler" />
+    <property name="Attr1" value="For your check that has or is against a card that has the Finesse trait, you gain the skill Melee:  Dexterity +2.&#10;If your check has the Swashbuckling trait ([ ] or is a check to defeat a ship), you may reroll&#10;1 die ([ ] or 2 dice) on your check; you must take the second result.&#10;Reduce STructural damage to your ship by 1." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ]+4&#10;  Acrobatics: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Survival: Wisdom +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="30362e92-3dfb-4ae3-bdc9-463f23f0382b" name="Lem">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
+    <property name="Flavour" value="Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the&#10;burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and - when need be - his quick blade." />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4  [ ] 5&#10;Spell: 3  [ ] 4&#10;Armor: -  [ ] 1&#10;Item: 2  [ ] 3&#10;Ally: 4  [ ] 5  [ ] 6  [ ] 7&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Your choice" />
+   <alternate name="Lem" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Halfling&#10;Bard" />
+    <property name="Attr1" value="You may recharge a card to add 1d4 ([ ] +1) ([ ] +2) to any check by a character at your location.&#10;When you would recharge a card, you may shuffle it into your deck instead.&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Arcane: Charisma +1&#10;  Diplomacy: Charisma +3&#10;  Divine: Charisma +1" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[ ] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="78c344db-eb01-4a9a-ae38-5bc16895b0d4" name="Lirianne">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Gunslinger" />
+    <property name="Flavour" value="Lirianne always dreamed of becoming a shieldmarshal, like her father. With his help, she learned to draw schematics, engineer firearms, and quick-draw pistols. As a vigilant warden, Lirianne spent years safeguarding her homeland in Alkenstar... until a burst of wild magic blew in from the Spellscar Desert. The arcane catastrophe summoned bizarre creatures and struck down the only shieldwarden who stood against them. Wounded, she awoke on the shores of Avistan, where she now wanders a world far from home." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Lirianne" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Half-elf&#10;Gunslinger" />
+    <property name="Attr1" value="When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card.&#10;You may shuffle a card from your hand into the deck to add 1d4 ([ ] +1) ([ ] +2) ([ ] +3) to any combat check at another location." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="4  [ ] 5" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="d37d47a4-138e-4a99-bf6a-232cbdf8e01c" name="Merisiel">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Flavour" value="Orphaned at a young age and raised by humans in the slums, the elf Merisiel saw many friends grow old and die in the decades it took her to become an adult. Unfettered by responsibilities, she now travels where her curiosity takes her, wandering the world with those she calls friends at the time. Merisiel believes in experiencing life to the fullest - you never know when you'll meet an unexpected end - and that there are few problems a dagger can't solve." />
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5&#10;Spell: -  [ ] 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 2  [ ] 3&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
+   <alternate name="Merisiel" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) to your combat check.&#10;For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;  Craft: Intelligence +2&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Weapons" />
+   </alternate>
+   </card>
+   <card id="9a197178-3bad-4fae-b466-b271bf7f8fda" name="Seltyiel">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Half-elf&#10;Magus" />
+    <property name="Flavour" value="The bastard son of a Chelish noblewoman and an elven outlaw, Seltyiel was raised by his abusive stepfather. As a teenager, he fled his home to seek out his true father, a painful search that ended in rejection and, ultimately, imprisonment by Hellknight manhunters. In the depths of a Chelish dungeon, his magic awoke, a voice spurring him on to power and&#10;revenge. Arcane ambition has driven him ever since, a passion that won't be sated until both his fathers are dead." />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: 4  [ ] 5  [ ] 6  [ ] 7&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Weapon or Spell" />
+   <alternate name="Seltyiel" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Half-elf&#10;Magus" />
+    <property name="Attr1" value="Choose a weapon that doesn't have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other ([ ] or shuffle it into your deck) to add 1d6 ([ ] 2d6) and that card's traits to the check.&#10;At the end of the turn you may attempt to recharge a spell in your discard pile." />
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +3&#10;  Craft: Intelligence +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="a7ba6976-458e-4799-a931-abf3bf6ea72f" name="Valeros">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
+    <property name="Flavour" value="Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer's daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there's nothing better than &quot;an evening of hard drinking and soft company.&quot;" />
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4" />
+    <property name="Attr3" value="Weapon" />
+   <alternate name="Valeros" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Human&#10;Fighter" />
+    <property name="Attr1" value="Add 1d4 ([ ] +1) to another character's combat check at your location.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or shuffle it into your deck) instead." />
+    <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee+3&#10;Dexterity: d6  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +1" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons" />
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="cd922cb5-4e8a-4e04-8e8b-435e34e16dc1" name="Alehouse">
@@ -2734,6 +4384,44 @@
     <property name="Attr2" value="At the start of your turn, banish this card and exchange it for the ship Merchantman." />
     <property name="Attr3" value="Craft" />
     <property name="Attr4" value="8" />
+<<<<<<< HEAD
+=======
+   </alternate>
+   </card>
+   <card id="a28b88e7-eb97-4e16-9141-578286d43bf6" name="Plunder and Peril">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The Shackles include hundreds of islands spinning off from the western coast of Garund, and they're the perfect hunting grounds for the Inner Sea region's most notorious pirates. To join their ranks, you'll have to learn how to survive, not just aboard a ship, but among the treacherous scalawags and vicious sea monsters who call these broken isles home. You'll face brutal ship-to-ship battles, engagements with raiders from beneath the waves, and treacherous trips ashore. The life of a pirate is not for the weak!" />
+   <alternate name="Plunder and Peril" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Island Hopping&#10;Rum Punch&#10;Dangerous Waters&#10;Sunken Treasure&#10;The Black Flag" />
+    <property name="Attr2" value="Each character gains a skill feat" />
+   </alternate>
+   </card>
+   <card id="7d72ed65-a00f-4974-9a55-b414d9b5912f" name="Skull and Shackles">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure Path" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The pirate isles of the Shackles have long been a refuge for independent freebooters. Press-ganged strangers sail the high seas, preying on shipping and contending with mutinies, rival buccaneers, raging storms, and fearsome sea monsters. But a far-reaching conspiracy points toward a foreign invasion of the Shackles -- and the crowning of a new Hurricane King!" />
+   <alternate name="Skull and Shackles" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure Path" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="The Wormwood Mutiny&#10;Raiders of the Fever Sea&#10;Tempest Rising&#10;Island of Empty Eyes&#10;The Price of Infamy&#10;From Hell's Heart" />
+    <property name="Attr2" value="Each character gains a card feat." />
+    <property name="Attr3" value="After you begin Tempest Rising, when you would banish a bane with the Basic trait, remove it from the game; when you would banish a boon with the Basic trait, you may remove it from the game. After you begin The Price of Infamy, do the same for cards with the Elite trait." />
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="65f409b2-e52e-49e7-ae3f-322355c93c8f" name="Dangerous Waters">
@@ -2774,6 +4462,7 @@
     <property name="Attr2" value="Adaro Barbarian" />
     <property name="Attr3" value="Enemy Ship&#10;Hammerhead Sharks" />
     <property name="Attr4" value="Each character gains a random item from the box." />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="a28b88e7-eb97-4e16-9141-578286d43bf6" name="Plunder and Peril">
@@ -2791,6 +4480,8 @@
     <property name="Subtype2" value="Back" />
     <property name="Attr1" value="Island Hopping&#10;Rum Punch&#10;Dangerous Waters&#10;Sunken Treasure&#10;The Black Flag" />
     <property name="Attr2" value="Each character gains a skill feat" />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="90822ac5-2039-441f-ab91-75a5733730bd" name="Rum Punch">
@@ -2812,6 +4503,7 @@
     <property name="Attr2" value="Nefti Unwesha" />
     <property name="Attr3" value="Ruffians" />
     <property name="Attr4" value="Gain all the allies in the ally pile." />
+<<<<<<< HEAD
    </alternate>
    </card>
    <card id="7d72ed65-a00f-4974-9a55-b414d9b5912f" name="Skull and Shackles">
@@ -2830,6 +4522,8 @@
     <property name="Attr1" value="The Wormwood Mutiny&#10;Raiders of the Fever Sea&#10;Tempest Rising&#10;Island of Empty Eyes&#10;The Price of Infamy&#10;From Hell's Heart" />
     <property name="Attr2" value="Each character gains a card feat." />
     <property name="Attr3" value="After you begin Tempest Rising, when you would banish a bane with the Basic trait, remove it from the game; when you would banish a boon with the Basic trait, you may remove it from the game. After you begin The Price of Infamy, do the same for cards with the Elite trait." />
+=======
+>>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="2c597e73-249e-4c9b-8c16-f87ad7564dcc" name="Sunken Treasure">
