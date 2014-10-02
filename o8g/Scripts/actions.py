@@ -582,6 +582,14 @@ def SandpointUnderSiege(setup):
 			c.moveTo(loc.pile())
 			shuffle(loc.pile(), True)
 			
+def TheTolloftheBell(setup):
+	if setup:
+		#Deal an extra henchman to the first location (Scar Bay) if we have an even number of players
+		zombie = findCardByName(shared.piles['Henchman'], 'Scurvy Zombie')
+		if zombie is None: return
+		zombie.moveTo(shared.piles['Location1'])
+		shuffle(shared.piles['Location1'])
+	
 def TheGrindylowandtheWhale(setup): # setup requires each player to move a random ally into the Scenario pile
 	if setup:
 		for p in getPlayers():
@@ -1446,8 +1454,8 @@ def addPlunder(ship, choose=False):
 		choice -= 1
 	else:
 		choice = 0
-	notify("{} adds {} to Plunder".format(me, options[choice]))
-	shared.piles[options[choice]].random().moveTo(shared.piles['Plunder'])
+	notify("{} adds {} to {}".format(me, options[choice], ship))
+	shared.piles[options[choice]].random().moveTo(ship.pile())
 	
 def banishRandomPlunder(ship, x=0, y=0):
 	mute()
@@ -1722,25 +1730,11 @@ def scenarioSetup(card):
 	if card.Name == 'Give the Devil His Due':
 		seaChanty = findCardByName(shared.piles['Ship'],'Sea Chanty')
 		seaChanty.moveToTable(PlayerX(-4),StoryY)
-		seaChanty.link(shared.piles['Special'])
+		seaChanty.link(shared.piles['Special']) # We use a non-standard plunder pile for this ship
 		i = 0
 		while i < 14 - nl:
-			choice = int(random()*6) # Roll on the plunder table
-			if choice >= 5: # User choice
-				options = plunderTypes
-			else:
-				options = [ plunderTypes[choice] ]
-
-			if len(options) > 1:
-				choice = askChoice("Plunder Type", options)
-				if choice is None or choice == 0:
-					return
-				choice -= 1
-			else:
-				choice = 0
-			notify("{} adds {} to Plunder".format(me, options[choice]))
-			shared.piles[options[choice]].random().moveTo(shared.piles['Special'])
-			i = i+1
+			addPlunder(seaChanty)
+			i = i + 1
 		
 		devilsPallor = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
 		devilsPallor.moveToTable(PlayerX(-5),StoryY)
@@ -1758,16 +1752,11 @@ def scenarioSetup(card):
 		cardsPerLocation = len(henchmen)
 		repeat = 1
 		# Move the Random henchman to the banes pile (this is our scenario pile) 
-		randHench.moveTo(shared.piles['Scenario'])
-	
-	#The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
-	elif card.Name == 'The Toll of the Bell':
-		henchmen = ['The Ancient Mariner']
-		for i in getPlayers():
-			henchmen.append('Scurvy Zombie')
-		henchCount = len(henchmen)
-		cardsPerLocation = int(henchCount/2)
-		
+		randHench.moveTo(shared.piles['Scenario'])	
+	elif card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
+		henchmen = card.Attr3.replace(' per Character', '').replace('1 ','').split(', ')
+		cardsPerLocation = (1+len(getPlayers()))/2
+		repeat = 1
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
@@ -1785,7 +1774,7 @@ def scenarioSetup(card):
 				man = findCardByName(shared.piles['Henchman'], henchmen[index][:-1])
 		if man is None:
 			whisper("Setup error: failed to find '{}'".format(henchmen[index]))
-			if index == len(henchmen) - 1: # Stop a possible infinite loop if the final bandit is not loaded
+			if index == len(henchmen) - 1: # Stop a possible infinite loop if the final henchman is not loaded
 				break;
 		else:
 			man.moveTo(hidden)
@@ -1799,11 +1788,6 @@ def scenarioSetup(card):
 	index = 0
 	while len(hidden) > 0:
 		pile = shared.piles["Location{}".format(index+1)]
-		
-		#move an extra card to Scar Bay if there were an odd number
-		if index == 0 and card.Name == 'The Toll of the Bell' and int(len(henchmen/2)) < len(henchmen/2):
-			hidden.random().moveTo(pile)
-			
 		for i in range(cardsPerLocation):
 			if index == 0 and card.Name in ('Rimeskull', 'Into the Runeforge'):
 				hidden.bottom().moveTo(pile) # Ensure Villain is in first location
