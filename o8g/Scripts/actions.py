@@ -1353,6 +1353,13 @@ def hideVillain(villain, x=0, y=0, banish=False):
 		return
 		
 	if choices[choice-1] == 'Banished':
+
+		#In the Secret of Mancatcher Cove, if you banish Isabella, build a new location
+		if villain.Name == 'Isabella "Inkskin" Locke' and getScenario(table).Name == 'The Secret of Mancatcher Cove':
+			location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
+			newVillain = findCardByName(shared.piles['Villain'],'The Matron')
+			buildLocation(location,newVillain)
+		
 		notify("{} banishes '{}'".format(me, villain))
 		returnToBox(villain)
 		return
@@ -1818,6 +1825,41 @@ def scenarioSetup(card):
 		
 	notify("{} starts '{}'".format(me, card))
 	return anchorage
+
+#more generic location building function which can be used outside of scenario start
+def buildLocation(location,villHench):
+	debug("Processing Location '{}'".format(location))
+	locs = [ card for card in table if isLocation(card) ]
+	nl = len (locs)
+	pileName = "Location{}".format(nl+1)
+	locationCard = findCardByName(shared.piles['Location'], location)
+	if locationCard is None:
+			whisper("Failed to find location {}".format(location))
+	else:
+		locPile = shared.piles[pileName]
+		debug("Moving '{}' to table ...".format(locationCard.Name))
+		locationCard.moveToTable(LocationX(nl+1,nl+1), LocationY)
+		#Create deck based on location distribution 
+		deck = locationCard.Attr1.splitlines()
+		for entry in deck:
+			details = entry.split(' ') # i.e. Monster 3
+			if len(details) == 2 and details[0] in shared.piles:
+				debug("Adding {} cards of type {}".format(details[1], details[0]))
+				pile = shared.piles[details[0]]
+				cards = num(details[1])
+				for count in range(cards):
+					c = pile.random()
+					if c is None:
+						whisper("No more {} cards to deal to location {}".format(details[0], locationCard))
+						break
+					c.moveTo(locPile)
+				#move passed-in villain or henchman card to pile
+				villHench.moveTo(locPile)
+				shufflePile(locPile)
+				whisper("{} successfully built.").format(locationCard.Name)
+			else:
+				whisper("Location error: Failed to parse [{}]".format(details[0]))
+	return
 
 def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
