@@ -1,237 +1,237 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promo" id="b37bbdfc-5106-4b17-a077-259f3405cda1" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.1.0"><cards>
    <card id="796b4fdf-3251-46c8-bdd8-6cff6d07c4c0" name="Dance with Squealy Nord">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Barrier" />
-    <property name="" value="Obstacle&#10;Animal&#10;Elite" />
-    <property name="" value="&quot;Piggy, piggy, piggy, pig!&#10;Hard to ride when they get big!&#10;So catch yourself a piggy pup,&#10;And ride him till the sun comes up!&quot;&#10; - Goblin lullaby" />
-    <property name="" value="If defeated, draw 1d4 random items from the box, choose 1 and add to your hand, then banish the rest.&#10;If undefeated, you are dealt 1 Combat damage; choose another character at your location to draw a card." />
-    <property name="" value="Wisdom&#10;Survival" />
-    <property name="" value="9" />
-    <property name="" value="Combat" />
-    <property name="" value="18" />
-    <property name="" value="OR" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Obstacle&#10;Animal&#10;Elite" />
+    <property name="Flavour" value="&quot;Piggy, piggy, piggy, pig!&#10;Hard to ride when they get big!&#10;So catch yourself a piggy pup,&#10;And ride him till the sun comes up!&quot;&#10; - Goblin lullaby" />
+    <property name="Attr1" value="If defeated, draw 1d4 random items from the box, choose 1 and add to your hand, then banish the rest.&#10;If undefeated, you are dealt 1 Combat damage; choose another character at your location to draw a card." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="9" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="18" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="25544130-9a2a-4213-baaf-0bafd0f2c63a" name="Goblin Keelhaulin'">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Barrier" />
-    <property name="" value="Skirmish&#10;Goblin&#10;Pirate&#10;Veteran" />
-    <property name="" value="The difficulty to defeat this barrier is increased by twice the adventure deck number of the current scenario, if any.&#10;If undefeated, draw a number of cards equal to your hand size, then bury that number of cards.&#10;After you act, stash a number of plunder cards equal to your hand size." />
-    <property name="" value="Constitution&#10;Fortitude" />
-    <property name="" value="5" />
-    <property name="" value="Wisdom&#10;Survival" />
-    <property name="" value="6" />
-    <property name="" value="OR" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Skirmish&#10;Goblin&#10;Pirate&#10;Veteran" />
+    <property name="Attr1" value="The difficulty to defeat this barrier is increased by twice the adventure deck number of the current scenario, if any.&#10;If undefeated, draw a number of cards equal to your hand size, then bury that number of cards.&#10;After you act, stash a number of plunder cards equal to your hand size." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="5" />
+    <property name="Attr4" value="Wisdom&#10;Survival" />
+    <property name="Attr5" value="6" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="105c00b1-6f05-49f0-9fef-94f256930559" name="Grindylow">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Monster" />
-    <property name="" value="Aberration&#10;Goblin&#10;Aquatic&#10;Veteran" />
-    <property name="" value="&quot;Yummy squid! Salty! Tough!&#10;Tasy 'cause they fight so rough.&#10;But if squid have goblin grin,&#10;Run like hell, he ain't you kin!&quot;&#10;- Goblin beachcombing song" />
-    <property name="" value="The Grindylow may not be evaded.&#10;The difficulty to defeat the Grindylow is increased by the adventure deck number of the current scenario, if any." />
-    <property name="" value="Combat" />
-    <property name="" value="12" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Aberration&#10;Goblin&#10;Aquatic&#10;Veteran" />
+    <property name="Flavour" value="&quot;Yummy squid! Salty! Tough!&#10;Tasy 'cause they fight so rough.&#10;But if squid have goblin grin,&#10;Run like hell, he ain't you kin!&quot;&#10;- Goblin beachcombing song" />
+    <property name="Attr1" value="The Grindylow may not be evaded.&#10;The difficulty to defeat the Grindylow is increased by the adventure deck number of the current scenario, if any." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="12" />
    </card>
    <card id="939618bd-f90f-4ec6-a23d-c4b96d6dc8ff" name="Owlbeartross">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Monster" />
-    <property name="" value="Aberration" />
-    <property name="" value="Before you act, a character at your location must summon and encounter the henchman Riptide Grindylow. If that henchman is defeated, the difficulty of the check to defeat Owlbeartross is increased by 4.&#10;If the Owlbeartross is undefeated, shuffle it into a random open location. If defeated, examine your location until you find a non-villain monster; then banish it." />
-    <property name="" value="Combat" />
-    <property name="" value="13" />
-    <property name="" value="Combat" />
-    <property name="" value="15" />
-    <property name="" value="THEN" />
-   </card>
-   <card id="6def1053-007f-4e97-af0a-7686c5438757" name="Birdcruncher Crown">
-    <property name="B" value="P" />
-    <property name="Yes" value="Yes." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Item" />
-    <property name="" value="Accessory&#10;Magic" />
-    <property name="" value="Biggest, baddest, meanest, best!&#10;Crunched more birds than all the rest!&#10;Eat them up, get all fat,&#10;You the chief, now wear the hat! -- Goblin coronation song" />
-    <property name="" value="Reveal this card to evade a bane with the Goblin trait.&#10;When you defeat a bane with the Goblin trait, you may recharge this card to examine your location deck until you find a weapon, an item, or an armor; add it to your hand and shuffle the location deck." />
-    <property name="" value="Charisma&#10;Diplomacy" />
-    <property name="" value="8" />
-    <property name="" value="None" />
-   </card>
-   <card id="f2aa27e7-a000-48b8-b981-4f100006e58f" name="Blessing of Zarongel">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Blessing" />
-    <property name="" value="Divine&#10;Zarongel" />
-    <property name="" value="&quot;Every beastie has a taste,&#10;Whether raw or stewed to paste!&#10;If a beastie bites your hide,&#10;Climb up top and take a ride!&quot;   -Goblin hunting song." />
-    <property name="" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check with the Fire trait, or to a check to defeat or acquire a card with the Animal trait.&#10;Discard this card to explore your location." />
-    <property name="" value="Constitution&#10;Fortitude" />
-    <property name="" value="6" />
-    <property name="" value="Divine" />
-    <property name="" value="5" />
-    <property name="" value="OR" />
-    <property name="" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
-   </card>
-   <card id="4f6a1547-14f7-45b1-af36-102bccb7d931" name="Blessing of Zogmugot">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Blessing" />
-    <property name="" value="Divine&#10;Zogmugot" />
-    <property name="" value="Discard this card to add 1 die to any check.&#10;Bury this card to choose a card from another character's discard pile and add it to your hand.&#10;Discard this card to explore your location.&#10;After you play this card, if the top card of the blessings discard pile is Blessing of the Gods, recharge this card instead of discarding it." />
-    <property name="" value="Dexterity&#10;Stealth&#10;Divine" />
-    <property name="" value="5" />
-   </card>
-   <card id="b6c26b73-1882-446d-acb5-6f8f61221d9b" name="Fire Sneeze">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Spell" />
-    <property name="" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Fire" />
-    <property name="" value="&quot;Peppered oil, up the nose,&#10;In with all the snot it goes.&#10;When you see a horse's knees,&#10;Roast them right with burning sneeze!&quot;&#10;Goblin wizarding song" />
-    <property name="" value="For your combat check, discard this card to roll your Arcane or Divine die + 1d12 with the Fire trait.&#10;Discard this card to add 1d4 with the Fire trait to a combat check using a weapon.&#10;If you do not have either the Arcane or Divine skill, banish this card.&#10;If you do not have the Arcane skill, banish this card." />
-    <property name="" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
-    <property name="" value="6" />
-    <property name="" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="432183f3-52d6-402c-af34-0effcc7f9f7a" name="Goblin Plate +1">
-    <property name="B" value="P" />
-    <property name="Yes" value="Yes." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Armor" />
-    <property name="" value="Heavy Armor&#10;Magic" />
-    <property name="" value="&quot;Links of steel and shiny metal,&#10;Decorate with pointy nettle,&#10;Not too pretty, might be shoddy,&#10;Helps keep blood in goblin body!&quot;&#10;--Goblin smithing song" />
-    <property name="" value="Recharge this card to reduce Combat or Fire damage dealt to you by 3. &#10;Banish this card to reduce all damage dealt to you to 0; a random character at your location is dealt 1 Combat damage. If you are proficient with heavy armors, bury this card instead of banishing it.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
-    <property name="" value="Constitution&#10;Fortitude" />
-    <property name="" value="7" />
-   </card>
-   <card id="f2c48d59-07f0-4d98-9b5e-c3bc84ea9558" name="Horsechopper +1">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Weapon" />
-    <property name="" value="Melee&#10;Slashing&#10;2-Handed&#10;Magic" />
-    <property name="" value="&quot;Trip the horse, watch him drop,&#10;As he whinnies, chop, chop, chop!&#10;Don't stop there, 'cause horse is big;&#10;When it croaks, dance goblin jig!&quot;&#10; - Goblin festival song" />
-    <property name="" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+1. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you fail a combat check using this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result." />
-    <property name="" value="Strength&#10;Melee" />
-    <property name="" value="9" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Aberration" />
+    <property name="Attr1" value="Before you act, a character at your location must summon and encounter the henchman Riptide Grindylow. If that henchman is defeated, the difficulty of the check to defeat Owlbeartross is increased by 4.&#10;If the Owlbeartross is undefeated, shuffle it into a random open location. If defeated, examine your location until you find a non-villain monster; then banish it." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="13" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="15" />
+    <property name="Attr6" value="THEN" />
    </card>
    <card id="e9e3cae1-1423-4a60-9517-3bd960be3d71" name="Mogmurch">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Ally" />
-    <property name="" value="Goblin&#10;Alchemist" />
-    <property name="" value="&quot;Things go boom when Mogmurch throws,&#10;Much more fun than using bows.&#10;Sometimes when the boom boom blows&#10;Is not my fault - that's how it goes.&quot;&#10;-Mogmurch's song" />
-    <property name="" value="Recharge this card to add 2d6 and the Fire trait to any check. If at least 1 d6 rolled on that check is a 1, you are dealt 1d4-1 fire damage.&#10;Discard this card to succeed at your Craft check or to explore your location; each character at your location is dealt 1 Fire damage." />
-    <property name="" value="Charisma&#10;Diplomacy" />
-    <property name="" value="7" />
-    <property name="" value="Ranged&#10;Craft" />
-    <property name="" value="5" />
-    <property name="" value="OR" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Goblin&#10;Alchemist" />
+    <property name="Flavour" value="&quot;Things go boom when Mogmurch throws,&#10;Much more fun than using bows.&#10;Sometimes when the boom boom blows&#10;Is not my fault - that's how it goes.&quot;&#10;-Mogmurch's song" />
+    <property name="Attr1" value="Recharge this card to add 2d6 and the Fire trait to any check. If at least 1 d6 rolled on that check is a 1, you are dealt 1d4-1 fire damage.&#10;Discard this card to succeed at your Craft check or to explore your location; each character at your location is dealt 1 Fire damage." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="7" />
+    <property name="Attr4" value="Ranged&#10;Craft" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="b73bcd93-2376-4463-a22d-dcba2927d01e" name="Poog of Zarongel">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Boon" />
-    <property name="Spell" value="Ally" />
-    <property name="" value="Goblin&#10;Cleric" />
-    <property name="" value="&quot;Poog say Zarongel is the best,&#10;He help burn things and heal the rest.&#10;Zarongel's favor makes Poog blessed,&#10;And Poog also stab you with knife if you make fun of how he isn't good at riding animals.&quot;    -Poog's song" />
-    <property name="" value="Recharge this card to add 3 with the Fire trait to a combat check.&#10;Bury this card to recharge 1d4 random cards from your discard pile.&#10;Discard this card to explore your location." />
-    <property name="" value="Charisma&#10;Diplomacy&#10;Divine" />
-    <property name="" value="7" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Goblin&#10;Cleric" />
+    <property name="Flavour" value="&quot;Poog say Zarongel is the best,&#10;He help burn things and heal the rest.&#10;Zarongel's favor makes Poog blessed,&#10;And Poog also stab you with knife if you make fun of how he isn't good at riding animals.&quot;    -Poog's song" />
+    <property name="Attr1" value="Recharge this card to add 3 with the Fire trait to a combat check.&#10;Bury this card to recharge 1d4 random cards from your discard pile.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Divine" />
+    <property name="Attr3" value="7" />
    </card>
-   <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Character" />
-    <property name="" value="Front" />
-    <property name="" value="Male&#10;Goblin&#10;Raider" />
-    <property name="" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
-    <property name="" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
-    <property name="" value="None" />
-   <alternate name="Ranzak" type="B">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Character" />
-    <property name="" value="Back" />
-    <property name="" value="Male&#10;Goblin&#10;Raider" />
-    <property name="" value="If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location." />
-    <property name="" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
-    <property name="" value="7  [ ] 8  [ ] 9" />
-    <property name="" value="[X] Light Armors, [X] Weapons" />
-   </alternate>
+   <card id="432183f3-52d6-402c-af34-0effcc7f9f7a" name="Goblin Plate +1">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Heavy Armor&#10;Magic" />
+    <property name="Flavour" value="&quot;Links of steel and shiny metal,&#10;Decorate with pointy nettle,&#10;Not too pretty, might be shoddy,&#10;Helps keep blood in goblin body!&quot;&#10;--Goblin smithing song" />
+    <property name="Attr1" value="Recharge this card to reduce Combat or Fire damage dealt to you by 3. &#10;Banish this card to reduce all damage dealt to you to 0; a random character at your location is dealt 1 Combat damage. If you are proficient with heavy armors, bury this card instead of banishing it.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="7" />
+   </card>
+   <card id="f2aa27e7-a000-48b8-b981-4f100006e58f" name="Blessing of Zarongel">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Zarongel" />
+    <property name="Flavour" value="&quot;Every beastie has a taste,&#10;Whether raw or stewed to paste!&#10;If a beastie bites your hide,&#10;Climb up top and take a ride!&quot;   -Goblin hunting song." />
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check with the Fire trait, or to a check to defeat or acquire a card with the Animal trait.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="6" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="5" />
+    <property name="Attr6" value="OR" />
+    <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
+   </card>
+   <card id="4f6a1547-14f7-45b1-af36-102bccb7d931" name="Blessing of Zogmugot">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Blessing" />
+    <property name="Traits" value="Divine&#10;Zogmugot" />
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Bury this card to choose a card from another character's discard pile and add it to your hand.&#10;Discard this card to explore your location.&#10;After you play this card, if the top card of the blessings discard pile is Blessing of the Gods, recharge this card instead of discarding it." />
+    <property name="Attr2" value="Dexterity&#10;Stealth&#10;Divine" />
+    <property name="Attr3" value="5" />
+   </card>
+   <card id="6def1053-007f-4e97-af0a-7686c5438757" name="Birdcruncher Crown">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic" />
+    <property name="Flavour" value="Biggest, baddest, meanest, best!&#10;Crunched more birds than all the rest!&#10;Eat them up, get all fat,&#10;You the chief, now wear the hat! -- Goblin coronation song" />
+    <property name="Attr1" value="Reveal this card to evade a bane with the Goblin trait.&#10;When you defeat a bane with the Goblin trait, you may recharge this card to examine your location deck until you find a weapon, an item, or an armor; add it to your hand and shuffle the location deck." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="b6c26b73-1882-446d-acb5-6f8f61221d9b" name="Fire Sneeze">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Fire" />
+    <property name="Flavour" value="&quot;Peppered oil, up the nose,&#10;In with all the snot it goes.&#10;When you see a horse's knees,&#10;Roast them right with burning sneeze!&quot;&#10;Goblin wizarding song" />
+    <property name="Attr1" value="For your combat check, discard this card to roll your Arcane or Divine die + 1d12 with the Fire trait.&#10;Discard this card to add 1d4 with the Fire trait to a combat check using a weapon.&#10;If you do not have either the Arcane or Divine skill, banish this card.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="6" />
+    <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="f2c48d59-07f0-4d98-9b5e-c3bc84ea9558" name="Horsechopper +1">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Melee&#10;Slashing&#10;2-Handed&#10;Magic" />
+    <property name="Flavour" value="&quot;Trip the horse, watch him drop,&#10;As he whinnies, chop, chop, chop!&#10;Don't stop there, 'cause horse is big;&#10;When it croaks, dance goblin jig!&quot;&#10; - Goblin festival song" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+1. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you fail a combat check using this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="9" />
    </card>
    <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Character" />
-    <property name="Spell" value="Role" />
-    <property name="" value="Front" />
-    <property name="" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
-    <property name="" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
-    <property name="" value="None" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="None" />
    <alternate name="Ranzak (Kleptomaniac)" type="B">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Character" />
-    <property name="Spell" value="Role" />
-    <property name="" value="Back" />
-    <property name="" value="If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) ([ ] +3) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location.&#10;[ ] When you close a location, add a plunder card from the box to your hand.&#10;[ ] If another character at your location fails a check to acquire a boon, you may attempt a check to acquire it.&#10;[ ] When you recieve plunder cards for successfully completing a scenario, you may banish any 1 of those cards and replace it with another plunder card from the box.&#10;[ ] Discard a card from the blessings deck to explore your location." />
-    <property name="" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
-    <property name="" value="7  [ ] 8  [ ] 9  [ ] 10  [ ] 11" />
-    <property name="" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) ([ ] +3) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location.&#10;[ ] When you close a location, add a plunder card from the box to your hand.&#10;[ ] If another character at your location fails a check to acquire a boon, you may attempt a check to acquire it.&#10;[ ] When you recieve plunder cards for successfully completing a scenario, you may banish any 1 of those cards and replace it with another plunder card from the box.&#10;[ ] Discard a card from the blessings deck to explore your location." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="7  [ ] 8  [ ] 9  [ ] 10  [ ] 11" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="fcef875d-f9ab-44cc-a4eb-be539aa9a2cd" name="Ranzak (Wrecker)">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Character" />
-    <property name="Spell" value="Role" />
-    <property name="" value="Front" />
-    <property name="" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
-    <property name="" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
-    <property name="" value="None" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="None" />
    <alternate name="Ranzak (Wrecker)" type="B">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Character" />
-    <property name="Spell" value="Role" />
-    <property name="" value="Back" />
-    <property name="" value="If there is another character at your location, you may evade a bane; a random other&#10;character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location.&#10;[ ] Recharge a card to add 2d4 to your check to defeat a barrier or a henchman, then&#10;discard the top 1d4 cards from your deck.&#10;[ ] At the end of your move step, if you are the only character at your location, you may&#10;move a random other character to your location.&#10;[ ] After you defeat a monster from a location deck, you may examine the top card of&#10;that deck; if it's a boon, banish it.&#10;[ ] If you defeat a henchman by at least 6, add 1d6 ([ ] 2d6) to your check to close the&#10;location, if any." />
-    <property name="" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
-    <property name="" value="7  [ ] 8  [ ] 9  [ ] 10  [ ] 11" />
-    <property name="" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Role" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="If there is another character at your location, you may evade a bane; a random other&#10;character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location.&#10;[ ] Recharge a card to add 2d4 to your check to defeat a barrier or a henchman, then&#10;discard the top 1d4 cards from your deck.&#10;[ ] At the end of your move step, if you are the only character at your location, you may&#10;move a random other character to your location.&#10;[ ] After you defeat a monster from a location deck, you may examine the top card of&#10;that deck; if it's a boon, banish it.&#10;[ ] If you defeat a henchman by at least 6, add 1d6 ([ ] 2d6) to your check to close the&#10;location, if any." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="7  [ ] 8  [ ] 9  [ ] 10  [ ] 11" />
+    <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons" />
+   </alternate>
+   </card>
+   <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Goblin&#10;Raider" />
+    <property name="Flavour" value="&quot;Goblins fight and goblins bleed,&#10;Ranzak takes what Ranzak needs.&#10;Follow orders! Don't give guff!&#10;Fight for Ranzak! He needs stuff!&#10;&#10;Ranzak wrote this clever verse.&#10;Ranzak's smart, so you go first!&#10;Come on, pirates! Do your duty!&#10;Ranzak's ready for some booty!&quot;&#10;&#10;--Ranzak's song" />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="None" />
+   <alternate name="Ranzak" type="B">
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Character" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Goblin&#10;Raider" />
+    <property name="Attr1" value="If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead.&#10;Add 1d4 ([ ] +1) to your check to acquire a boon.&#10;When you acquire a boon on your turn, roll 1d6; on a ([ ] 3,) 4, 5, or 6, explore your location." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="7  [ ] 8  [ ] 9" />
+    <property name="Attr4" value="[X] Light Armors, [X] Weapons" />
    </alternate>
    </card>
    <card id="24e7eda4-47d1-41a2-9b59-b992ac04dede" name="Goblin Weidling">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Ship" />
-    <property name="" value="Front" />
-    <property name="" value="Class 0" />
-    <property name="" value="Before you act, summon and encounter the henchman Riptide Grindylow." />
-    <property name="" value="Instead of your first exploration each turn, you may choose another character at your location and add 1 random card from his discard pile to your hand." />
-    <property name="" value="Dexterity&#10;Stealth" />
-    <property name="" value="5" />
-    <property name="" value="Wisdom&#10;Survival" />
-    <property name="" value="4" />
-    <property name="" value="OR" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Class 0" />
+    <property name="Attr1" value="Before you act, summon and encounter the henchman Riptide Grindylow." />
+    <property name="Attr2" value="Instead of your first exploration each turn, you may choose another character at your location and add 1 random card from his discard pile to your hand." />
+    <property name="Attr3" value="Dexterity&#10;Stealth" />
+    <property name="Attr4" value="5" />
+    <property name="Attr5" value="Wisdom&#10;Survival" />
+    <property name="Attr6" value="4" />
+    <property name="Attr7" value="OR" />
    <alternate name="Goblin Weidling" type="B">
-    <property name="B" value="P" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Ship" />
-    <property name="" value="Back" />
-    <property name="" value="Class 0" />
-    <property name="" value="If they brings a tasty goat,&#10;Peoples welcome on our boat!&#10;You can gain the rank of private&#10;After teaching us to drive it." />
-    <property name="" value="When you encounter a card, all other characters at this location move to a random closed location." />
-    <property name="" value="Strength" />
-    <property name="" value="4" />
+    <property name="Abr" value="P" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Class 0" />
+    <property name="Flavour" value="If they brings a tasty goat,&#10;Peoples welcome on our boat!&#10;You can gain the rank of private&#10;After teaching us to drive it." />
+    <property name="Attr2" value="When you encounter a card, all other characters at this location move to a random closed location." />
+    <property name="Attr3" value="Strength" />
+    <property name="Attr4" value="4" />
    </alternate>
    </card>
  </cards>
