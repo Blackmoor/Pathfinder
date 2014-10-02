@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fan Made" id="add5338c-0278-488a-b99d-20417c8123c5" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.0.1.1"><cards>
-<<<<<<< HEAD
    <card id="c75a945b-0e10-4384-a074-8ba90bbf5c06" name="Chosen of Apollyon">
     <property name="Abr" value="1" />
     <property name="Copyright" value="No." />
@@ -11,8 +10,6 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="12" />
    </card>
-=======
->>>>>>> origin/test-Tyler
    <card id="5a3fbb7e-b600-4520-bf30-17757dd8d34c" name="Funeral Urn">
     <property name="Abr" value="2" />
     <property name="Copyright" value="No." />
@@ -26,31 +23,6 @@
     <property name="Attr4" value="Strength&#10;Melee" />
     <property name="Attr5" value="14" />
     <property name="Attr6" value="OR" />
-<<<<<<< HEAD
-=======
-   </card>
-   <card id="95ea0639-66b2-45dd-b91e-2f335af5572f" name="Infected Pool">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Barrier" />
-    <property name="Traits" value="Pool" />
-    <property name="Attr1" value="If undefeated, succeed in a Constitution or Fortitude 6 check or become Infected.&#10;Whenever an Infected character discards a card, they must bury it." />
-    <property name="Attr2" value="Wisdom&#10;Knowledge" />
-    <property name="Attr3" value="7" />
-   </card>
-   <card id="c75a945b-0e10-4384-a074-8ba90bbf5c06" name="Chosen of Apollyon">
-    <property name="Abr" value="1" />
-    <property name="Copyright" value="No." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Dwarf&#10;Cultist" />
-    <property name="Attr1" value="Before the encounter, if there are any other cards at this location, succeed in a Perception 6 check or shuffle Chose of Apollyon back into the location deck.&#10;Any character damaged by Chosen of Apollyon becomes Infected.  Whenever an Infected character discards a card, they must bury it." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="12" />
->>>>>>> origin/test-Tyler
    </card>
    <card id="ec8e5fe4-77f0-4052-9057-7a07a21dcdf6" name="Garrak">
     <property name="Abr" value="1" />
@@ -76,7 +48,6 @@
     <property name="Attr4" value="Divine" />
     <property name="Attr5" value="14" />
     <property name="Attr6" value="OR" />
-<<<<<<< HEAD
    </card>
    <card id="95ea0639-66b2-45dd-b91e-2f335af5572f" name="Infected Pool">
     <property name="Abr" value="1" />
@@ -88,8 +59,6 @@
     <property name="Attr1" value="If undefeated, succeed in a Constitution or Fortitude 6 check or become Infected.&#10;Whenever an Infected character discards a card, they must bury it." />
     <property name="Attr2" value="Wisdom&#10;Knowledge" />
     <property name="Attr3" value="7" />
-=======
->>>>>>> origin/test-Tyler
    </card>
    <card id="3524d6e9-894a-412a-add0-fd64d22dd4bc" name="Lich">
     <property name="Abr" value="2" />

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Spires of Xin-Shalast" id="d646cb57-3914-4ff4-94c2-7788c0f63d93" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.0.1"><cards>
-<<<<<<< HEAD
    <card id="55e05d8b-767d-4503-b20b-aa227046769a" name="Abominable Snowman">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
@@ -10,8 +9,6 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="18" />
    </card>
-=======
->>>>>>> origin/test-Tyler
    <card id="c58577f2-fb41-473c-84a0-f04ad7f0114e" name="Avalanche">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
@@ -21,7 +18,6 @@
     <property name="Attr1" value="When the Avalanche is encountered for the first time, each character at this location encounters it. Each character who defeats the barrier is dealt 1 Cold damage; each character who does not is dealt 2 Cold damage. If any character fails to defeat the Avalanche, if is undefeated; put it faceup on the location deck. Characters at this location encounter this card as their exploration, and may not move or be moved until the Avalanche is defeated." />
     <property name="Attr2" value="Dexterity&#10;Acrobatics&#10;Wisdom&#10;Survival" />
     <property name="Attr3" value="16" />
-<<<<<<< HEAD
    </card>
    <card id="f3a3077f-c9e8-46df-99dd-ca54bce50c57" name="Cannibal Haunt">
     <property name="Abr" value="6" />
@@ -32,8 +28,6 @@
     <property name="Traits" value="Undead&#10;Dwarf" />
     <property name="Attr1" value="Before the encounter, banish either a card of your choice from your hand or the top card of your deck.&#10;Place the Haunt next to your character card. For each Haunt next to your character card, the difficulty of your checks is increased by 1. At the end of the scenario, banish all Haunts.&#10;When you encounter the Cannibal Haunt, you may immediately attempt to close this location." />
     <property name="Attr2" value="None" />
-=======
->>>>>>> origin/test-Tyler
    </card>
    <card id="0366dfbd-0a15-4b90-af55-1f39a3a41437" name="Corroded Lock">
     <property name="Abr" value="6" />
@@ -48,7 +42,6 @@
     <property name="Attr5" value="30" />
     <property name="Attr6" value="OR" />
    </card>
-<<<<<<< HEAD
    <card id="021d046d-b8ed-430f-8df8-d849a54e6cd6" name="Enslaved Blue Dragon">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
@@ -139,109 +132,12 @@
     <property name="Attr6" value="OR" />
    </card>
    <card id="c7c0aca9-1152-4043-9f6a-59ead974067a" name="Karivek Vekker">
-=======
-   <card id="f9b4669c-d96e-4752-90f5-2d4a4f72f814" name="Icy Ledge">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Barrier" />
-    <property name="Traits" value="Obstacle&#10;Cold" />
-    <property name="Attr1" value="If undefeated, you are dealt 1 Cold damage; move to a random other location, reset your hand, and end your turn." />
-    <property name="Attr2" value="Dexterity&#10;Disable" />
-    <property name="Attr3" value="14" />
-    <property name="Attr4" value="Wisdom&#10;Survival" />
-    <property name="Attr5" value="16" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="e08f9ab2-cfeb-47af-8f74-f72a86acac2d" name="Occluding Field">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Barrier" />
-    <property name="Traits" value="Obstacle&#10;Magic&#10;Arcane" />
-    <property name="Attr1" value="Each character at this location encounters the Occluding Field. Any character may reveal a boon with the Sihedron trait to evade the barrier; if all characters at the location do so, banish the barrier. Characters who fail to defeat the barrier are dealt 1d4+1 Force damage that may not be reduced.&#10;If defeated, shuffle the barrier into a random other open location deck. If there are no other open locations, banish the barrier." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="15" />
-   </card>
-   <card id="a2eb7792-953b-4ba3-bc8d-67fd8b7fc67b" name="Stampeding Aurochs">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Barrier" />
-    <property name="Traits" value="Skirmish&#10;Animal" />
-    <property name="Attr1" value="If undefeated, each character attempts a Dexterity or Acrobatics 13 check. Characters who succeed are dealt 2 Combat damage; characters who fail are dealt 1d6+1 Combat damage." />
-    <property name="Attr2" value="Dexterity&#10;Stealth" />
-    <property name="Attr3" value="16" />
-   </card>
-   <card id="f3a3077f-c9e8-46df-99dd-ca54bce50c57" name="Cannibal Haunt">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Undead&#10;Dwarf" />
-    <property name="Attr1" value="Before the encounter, banish either a card of your choice from your hand or the top card of your deck.&#10;Place the Haunt next to your character card. For each Haunt next to your character card, the difficulty of your checks is increased by 1. At the end of the scenario, banish all Haunts.&#10;When you encounter the Cannibal Haunt, you may immediately attempt to close this location." />
-    <property name="Attr2" value="None" />
-   </card>
-   <card id="021d046d-b8ed-430f-8df8-d849a54e6cd6" name="Enslaved Blue Dragon">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Dragon" />
-    <property name="Attr1" value="Before the encounter, each character at this location attempts a Dexterity or Acrobatics 14 check. Characters who succeed are dealt 2 Electricity damage; characters who fail are dealt 1d4+1 Electricity damage.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="23" />
-   </card>
-   <card id="c7c0aca9-1152-4043-9f6a-59ead974067a" name="Karivek Vekker">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
     <property name="Traits" value="Undead&#10;Incorporeal&#10;Ghost&#10;Dwarf" />
-    <property name="Attr1" value="Karivek is immune to the Cold, Mental, and Poison traits. &#10;If the check to defeat does not have the Magic trait, Karivek is undefeated.&#10;If undefeated, Karivek does not deal damage; instead, each character at this location buries 1d4-1 cards of her choice from her hand.&#10;If defeated, you may immediately attempts to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="21" />
-    <property name="Attr4" value="Divine" />
-    <property name="Attr5" value="21" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="6528fbac-1dc3-4705-aa17-30cf70dc4e42" name="Khalib">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Human&#10;Transmuter" />
-    <property name="Attr1" value="Before the encounter, Khalib deals 2 Force damage to a random character at this location; each character at this location must then succeed at a Dexterity or Acrobatics 11 check or be  dealt 1d4 Fire damage.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="20" />
-   </card>
-   <card id="b2b66c38-c845-4a47-ad8d-ebda7c640bc4" name="Leng Spider">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Spider" />
-    <property name="Attr1" value="Roll 1d6. On a 1, 2, or 3, you may not play spells with the Attack trait.&#10;If undefeated, the damage from the Leng Spider is dealt to a random character. Move to that character's location.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="24" />
-    <property name="Attr4" value="Charisma&#10;Diplomacy" />
-    <property name="Attr5" value="16" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="ebf02b95-88dc-4f7c-b20b-df1619e682db" name="Silas Vekker">
->>>>>>> origin/test-Tyler
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Undead&#10;Incorporeal&#10;Ghost&#10;Dwarf" />
-<<<<<<< HEAD
     <property name="Attr1" value="Karivek is immune to the Cold, Mental, and Poison traits. &#10;If the check to defeat does not have the Magic trait, Karivek is undefeated.&#10;If undefeated, Karivek does not deal damage; instead, each character at this location buries 1d4-1 cards of her choice from her hand.&#10;If defeated, you may immediately attempts to close this location." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="21" />
@@ -264,30 +160,11 @@
     <property name="Attr6" value="THEN" />
    </card>
    <card id="6528fbac-1dc3-4705-aa17-30cf70dc4e42" name="Khalib">
-=======
-    <property name="Attr1" value="Silas is immune to the Mental and Poison traits.&#10;Each character at this location encounters Silas Vekker. If any character does not defeat Silas, Silas deals 1d4-1 Poison damage to that character, and is undefeated. &#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Wisdom" />
-    <property name="Attr3" value="14" />
-   </card>
-   <card id="d92b7996-4631-4af5-9c6c-dbd9e69cdb96" name="Viorian Dekanti">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
     <property name="Subtype" value="Henchman" />
     <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Human&#10;Transmuter&#10;Fighter" />
-    <property name="Attr1" value="The first time Viorian Dekanti is undefeated this turn, a random character at this location encounters her. &#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="23" />
-   </card>
-   <card id="de133e36-009b-4cb3-a070-e571624c3b57" name="Warden of Runes">
->>>>>>> origin/test-Tyler
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-<<<<<<< HEAD
     <property name="Traits" value="Human&#10;Transmuter" />
     <property name="Attr1" value="Before the encounter, Khalib deals 2 Force damage to a random character at this location; each character at this location must then succeed at a Dexterity or Acrobatics 11 check or be  dealt 1d4 Fire damage.&#10;If defeated, you may immediately attempt to close this location." />
     <property name="Attr2" value="Combat" />
@@ -331,75 +208,6 @@
     <property name="Attr1" value="Each character at this location encounters the Occluding Field. Any character may reveal a boon with the Sihedron trait to evade the barrier; if all characters at the location do so, banish the barrier. Characters who fail to defeat the barrier are dealt 1d4+1 Force damage that may not be reduced.&#10;If defeated, shuffle the barrier into a random other open location deck. If there are no other open locations, banish the barrier." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="15" />
-=======
-    <property name="Traits" value="Giant" />
-    <property name="Attr1" value="The Warden of Runes is immune to the Cold and Electricity traits.&#10;Before the encounter, each character at this location must succeed at a Constitution or Fortitude 14 check or be dealt 1 Electricity damage.&#10;Damage dealt by the Warden of Runes is dealt to each character at this location.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="23" />
-   </card>
-   <card id="55e05d8b-767d-4503-b20b-aa227046769a" name="Abominable Snowman">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Yeti" />
-    <property name="Attr1" value="The Abominable Snowman is immune to the Cold trait.&#10;Add 1 die to checks to defeat the Abominable Snowman with the Fire trait. &#10;If undefeated, damage dealt by the Abominable Snowman is increased by 1d4-1." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="18" />
-   </card>
-   <card id="349bc370-b37d-4ad0-80c7-61fe3f368158" name="Frost Worm">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Worm" />
-    <property name="Attr1" value="The Frost Worm is immune to the Cold trait.&#10;Add 1 die to checks to defeat the Frost Worm with the Fire trait.&#10;If defeated, each character at this location attempts a Dexterity or Acrobatics 14 check. Characters who succeed are dealt 1 Cold damage; characters who fail are dealt 1 Combat damage and 1 Cold damage.&#10;If undefeated, put the Frost Worm faceup on this location deck; characters may not move or be moved from this location as long as the Frost Worm is faceup on the deck." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="21" />
-   </card>
-   <card id="45218a66-ba84-4cc3-89a1-df37439c2832" name="Gamigin">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Outsider&#10;Devil&#10;Sorcerer" />
-    <property name="Attr1" value="Gamigin is immune to the Fire, Cold, and Poison traits.&#10;Succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait.&#10;Other players may not use powers or play cards other than blessings." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="22" />
-   </card>
-   <card id="eb6cefb6-361f-4636-aedd-f9253debbfb1" name="Hidden Beast">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Aberration&#10;Undead&#10;Vampire&#10;Sorcerer" />
-    <property name="Attr1" value="The Hidden Beast is immune to the Cold, Mental and Poison traits.&#10;Succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait against the Hidden Beast.&#10;Before the encounter, each character at this location must succeed at a Combat 22 check or bury 1d4 random cars from his discard pile." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="22" />
-    <property name="Attr4" value="Wisdom&#10;Perception" />
-    <property name="Attr5" value="16" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="312ca409-7e36-4a6d-ad1f-1f521cea1134" name="Horror Tree">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Undead&#10;Plant&#10;Treant" />
-    <property name="Attr1" value="The Horror Tree is immune to the Mental and Poison traits.&#10;Add 1 die to checks to defeat the Horror Tree with the Fire trait.&#10;If undefeated, after the encounter, the Horror Tree deals 1d4 Combat damage to each character at this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="22" />
-   </card>
-   <card id="e2dace52-decc-40c8-83db-a0be527c6f50" name="Hungerer">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Aberration" />
-    <property name="Attr1" value="The Hungerer is immune to the Acid and Poison traits.&#10;If defeated, attempt a Dexterity or Acrobatics 14 check. If you succeed, the Hungerer deals 1 Acid damage to you; if you fail, the Hungerer deals 1d4 Acid damage to you." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="22" />
->>>>>>> origin/test-Tyler
    </card>
    <card id="244afdd8-a3c8-45de-980c-3a6559b43f96" name="Scarlet Walker">
     <property name="Abr" value="6" />
@@ -420,7 +228,6 @@
     <property name="Attr1" value="The Shemhazian Demon is immune to the Electricity and Poison traits.&#10;Succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait.&#10;If undefeated, reset your hand and end your turn." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="23" />
-<<<<<<< HEAD
    </card>
    <card id="ebf02b95-88dc-4f7c-b20b-df1619e682db" name="Silas Vekker">
     <property name="Abr" value="6" />
@@ -432,8 +239,6 @@
     <property name="Attr1" value="Silas is immune to the Mental and Poison traits.&#10;Each character at this location encounters Silas Vekker. If any character does not defeat Silas, Silas deals 1d4-1 Poison damage to that character, and is undefeated. &#10;If defeated, you may immediately attempt to close this location." />
     <property name="Attr2" value="Wisdom" />
     <property name="Attr3" value="14" />
-=======
->>>>>>> origin/test-Tyler
    </card>
    <card id="fb159c54-a371-4d13-9ca5-9bac42c48c67" name="Skulking Vampire">
     <property name="Abr" value="6" />
@@ -445,7 +250,6 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="22" />
    </card>
-<<<<<<< HEAD
    <card id="a2eb7792-953b-4ba3-bc8d-67fd8b7fc67b" name="Stampeding Aurochs">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
@@ -509,80 +313,6 @@
     <property name="Attr1" value="Damage dealt by the Warden of Wind is dealt to each character at this location." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="22" />
-=======
-   <card id="37cf4b8e-34df-4ef6-ac09-53c83e11fafe" name="Warden of Thunder">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Giant" />
-    <property name="Attr1" value="The Warden of Thunder is immune to the Electricity trait.&#10;Before the encounter, each character at this location must succeed at a Dexterity or Acrobatics 14 check or be dealt 1d4 Electricity damage.&#10;Damage dealt by the Warden of Thunder is dealt to each character at this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="23" />
-   </card>
-   <card id="178fdad5-97fc-4e97-83a1-6cf287259c8c" name="Warden of Wind">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Giant" />
-    <property name="Attr1" value="Damage dealt by the Warden of Wind is dealt to each character at this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="22" />
-   </card>
-   <card id="31f254f6-dc1f-4b1a-abdb-4cadf0508f2c" name="Ghlorofaex">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Dragon" />
-    <property name="Flavour" value="&quot;Lesser things might have laid these stones, but that those slaves were dead before my coming does not make their city now less my domain.&quot; &#10;--Ghlorofax, blue dragon" />
-    <property name="Attr1" value="Before the encounter, randomly select an occupied location. Each character at that location must attempt a Dexterity or Acrobatics 14 check. Characters who succeed are dealt 2 Electricity damage; characters who fail are dealt 1d4+1 Electricity damage." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="30" />
-   </card>
-   <card id="64d4c795-3eaa-47f7-a486-d200408eca41" name="Karzoug the Claimer">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Human&#10;Transmuter" />
-    <property name="Attr1" value="Karzoug the Claimer may not be evaded, and is immune to the Mental trait.&#10;Before attempting to play a spell with the Attack trait, succeed at an Arcane or Divine 15 check or you are dealt 1 Poison damage and you may not play spells with the Attack trait.&#10;Before the encounter, each character at this location attempts a Constitution or Fortitude 15 check. Characters who succeed are dealt 2 Poison damage; characters who fail are dealt 1d4+1 Fire damage.&#10;After the encounter, Karzoug deals 1 Fire damage to each character without either the Arcane or Divine skill." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="30" />
-    <property name="Attr4" value="Combat " />
-    <property name="Attr5" value="40" />
-    <property name="Attr6" value="THEN" />
-   </card>
-   <card id="e7110898-8c88-4a03-be7e-ea1eb33da668" name="Most High Ceoptra">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Lamia&#10;Oracle" />
-    <property name="Flavour" value="&quot;You have come far and done much, and for that you should be rewarded. Come, die an honored death before the throne of our master.&quot;&#10;--Most High Ceoptra, lamia harridan" />
-    <property name="Attr1" value="Succeed at an Arcane or Divine 15 check or you may not play spells with the Attack trait.&#10;Damage dealt by Most High Ceoptra causes cards to be buried instead of discarded. This damage may not be reduced." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="24" />
-    <property name="Attr4" value="Combat" />
-    <property name="Attr5" value="32" />
-    <property name="Attr6" value="THEN" />
-   </card>
-   <card id="24a409b7-ebcc-4b7b-ac78-ba33b514a09d" name="The Thing From Beyond Time">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Outsider" />
-    <property name="Flavour" value="&quot;Few doors are without their keepers, and those keepers are rarely well fed.&quot;&#10;--Excerpt from Preklikin's Book of Cults" />
-    <property name="Attr1" value="The Thing from Beyond Time is immune to the Mental and Poison traits.&#10;When The Thing from Beyond Time deals damage, also discard that number of cards from the blessings deck. Effects that reduce damage do not affect the number of cards discarded from the blessings deck." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="33" />
->>>>>>> origin/test-Tyler
    </card>
    <card id="2edcc91c-7040-46c0-b039-dd6445c28e05" name="Wendigo">
     <property name="Abr" value="6" />
@@ -594,7 +324,6 @@
     <property name="Attr1" value="The Wendigo is immune to the Cold trait. Add 1 die to checks against the Wendigo with the Fire trait.&#10;Succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait.&#10;Before the encounter, each character must succeed at a Wisdom 12 check or the difficulty of that character's checks is increased by 2 for the rest of the turn.&#10;If undefeated, move to a random location and discard the top card of your deck." />
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="29" />
-<<<<<<< HEAD
    </card>
    <card id="be62f8e9-2942-4315-8bc7-47811d8ca6d5" name="Adamantine Plate Armor">
     <property name="Abr" value="6" />
@@ -605,8 +334,6 @@
     <property name="Attr1" value="Reveal this card to reduce damage dealt to you by 1, or recharge it to reduce damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, discard this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="14" />
-=======
->>>>>>> origin/test-Tyler
    </card>
    <card id="38f0f68e-8c49-4be3-ab2e-ff020a40ad2a" name="Ayruzi">
     <property name="Abr" value="6" />
@@ -617,7 +344,6 @@
     <property name="Attr1" value="Instead of acquiring this card normally, you may attempt a Combat 20 check. If you succeed, acquire this card; if you fail, Ayruzi deals damage to you as if he were a monster.&#10;Discard this card to add 1 die to a check, or to explore your location.&#10;Discard this card to add 2 dice to a Divine check, or to reduce damage dealt to you by 4." />
     <property name="Attr2" value="Charisma&#10;Diplomacy" />
     <property name="Attr3" value="14" />
-<<<<<<< HEAD
    </card>
    <card id="a04bcb17-65aa-4ad6-931e-26e29cd62aa5" name="Belt of Physical Might">
     <property name="Abr" value="6" />
@@ -685,61 +411,6 @@
     <property name="Attr2" value="Intelligence&#10;Arcane" />
     <property name="Attr3" value="12" />
     <property name="Recharge" value="Succeed at an Arcane 14 check to recharge this card instead of discarding it." />
-=======
-   </card>
-   <card id="436b2991-8b3a-40f0-b637-60bfa7458327" name="Gyukak">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Outsider&#10;Giant&#10;Oni" />
-    <property name="Attr1" value="Reveal this card to explore your current location, adding 2 to checks to defeat banes during this exploration. Then shuffle Gyukak into a random open location deck, or banish Gyukak if there are no open locations." />
-    <property name="Attr2" value="Charisma&#10;Diplomacy" />
-    <property name="Attr3" value="14" />
-   </card>
-   <card id="4a632d7b-f384-41fa-aa1e-e0ff94ab313b" name="Morgiv">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Enshrouded" />
-    <property name="Attr1" value="Discard this card to examine the bottom 3 cards of a location deck. You may put them back in any order.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Charisma&#10;Diplomacy" />
-    <property name="Attr3" value="13" />
-   </card>
-   <card id="16e7474e-87f1-4edb-9d49-505c98b58747" name="Mountaineer">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Human&#10;Hireling" />
-    <property name="Attr1" value="Reveal this card to add 2d8 to a Survival check.&#10;Recharge this card to reduce damage dealt to your by 3.&#10;Discard this card to explore your current location." />
-    <property name="Attr2" value="Wisdom&#10;Survival" />
-    <property name="Attr3" value="10" />
-    <property name="Attr4" value="Charisma&#10;Diplomacy" />
-    <property name="Attr5" value="13" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="8dc0f384-1964-448b-a00a-f2421eff6d57" name="Svevenka">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Nymph&#10;Druid" />
-    <property name="Attr1" value="Banish this card to shuffle 1d4+1 random cards from your discard pile into your deck.&#10;Banish this card to explore your location, adding 2 to any combat checks made during this exploration." />
-    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Wisdom&#10;Survival" />
-    <property name="Attr3" value="12" />
-   </card>
-   <card id="be62f8e9-2942-4315-8bc7-47811d8ca6d5" name="Adamantine Plate Armor">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Armor" />
-    <property name="Traits" value="Heavy Armor&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to reduce damage dealt to you by 1, or recharge it to reduce damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, discard this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="14" />
->>>>>>> origin/test-Tyler
    </card>
    <card id="1d4bf43c-305b-49ee-8430-1c2144e254fa" name="Demon Armor">
     <property name="Abr" value="6" />
@@ -750,7 +421,6 @@
     <property name="Attr1" value="Discard this card to add 1d4+1 with the Fire and Magic traits to your combat check.&#10;Recharge this card to reduce Combat or Fire damage dealt to you by 3. &#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, discard the card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="11" />
-<<<<<<< HEAD
    </card>
    <card id="552409bf-954a-4181-b181-5c52d116a116" name="Dominate">
     <property name="Abr" value="6" />
@@ -762,8 +432,6 @@
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
     <property name="Attr3" value="12" />
     <property name="Recharge" value="Succeed at an Arcane or Divine 14 check to recharge this card instead of discarding it." />
-=======
->>>>>>> origin/test-Tyler
    </card>
    <card id="f0d1f6f5-0eed-47be-9f09-cf8f861a3e74" name="Entropy Shield">
     <property name="Abr" value="6" />
@@ -774,7 +442,6 @@
     <property name="Attr1" value="If you played a weapon with the 2-Handed trait on this check, you may not play this card.&#10;Bury this card to defeat a barrier with the Lock trait.&#10;Reveal this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check." />
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="10" />
-<<<<<<< HEAD
    </card>
    <card id="958c7931-8115-4453-9fab-6636d5ce1bbe" name="Flaming Icy Axe +1">
     <property name="Abr" value="6" />
@@ -795,8 +462,6 @@
     <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d6+3; you may additionally discard this card to add another 4d4 with the Force trait." />
     <property name="Attr2" value="Dexterity&#10;Ranged" />
     <property name="Attr3" value="10" />
-=======
->>>>>>> origin/test-Tyler
    </card>
    <card id="3d71e58b-52d1-46fa-8bb2-491117b617e9" name="Fortress Shield">
     <property name="Abr" value="6" />
@@ -818,7 +483,6 @@
     <property name="Attr2" value="Constitution&#10;Fortitude" />
     <property name="Attr3" value="12" />
    </card>
-<<<<<<< HEAD
    <card id="436b2991-8b3a-40f0-b637-60bfa7458327" name="Gyukak">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
@@ -895,89 +559,6 @@
     <property name="Attr5" value="9" />
     <property name="Attr6" value="OR" />
     <property name="Recharge" value="None" />
-=======
-   <card id="109eb667-904c-4c66-8ece-900810a0b6bf" name="Blessing of Nethys">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Blessing" />
-    <property name="Traits" value="Divine&#10;Nethys" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to examine the top 2 cards of the location deck, put them back in any order, and explore your location." />
-    <property name="Attr2" value="Wisdom&#10;Perception" />
-    <property name="Attr3" value="8" />
-    <property name="Attr4" value="Divine" />
-    <property name="Attr5" value="5" />
-    <property name="Attr6" value="OR" />
-    <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
-   </card>
-   <card id="a04bcb17-65aa-4ad6-931e-26e29cd62aa5" name="Belt of Physical Might">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to add 2 to your Strength, Dexterity, or Constitution check. You may play another item on this check." />
-    <property name="Attr2" value="Strength&#10;Dexterity&#10;Constitution" />
-    <property name="Attr3" value="9" />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="1d1d32af-905e-4eef-bb35-17313fe6b9b7" name="Boots of Teleportation">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Clothing&#10;Magic" />
-    <property name="Attr1" value="Recharge this card to move. You automatically succeed at any check required to move. You may not play this card during an encounter." />
-    <property name="Attr2" value="Dexterity&#10;Stealth" />
-    <property name="Attr3" value="9" />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="adacc4cd-49b1-460c-bc64-7da15a66eff9" name="Ring of Energy Resistance">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to reduce Acid, Cold, Electricity, or Fire damage dealt to you by 4." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="8" />
-    <property name="Attr4" value="Intelligence&#10;Arcane" />
-    <property name="Attr5" value="9" />
-    <property name="Attr6" value="OR" />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="f98ca0f8-bca0-4d87-9bf0-ba81d6cfcaf9" name="Sihedron Ring">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic&#10;Sihedron" />
-    <property name="Attr1" value="Reveal this card to reduce damage dealt to you by 2. You may play another item on this check." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="7" />
-    <property name="Attr4" value="Arcane" />
-    <property name="Attr5" value="9" />
-    <property name="Attr6" value="OR" />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="63209a84-97cb-4776-895d-06c8a506f90a" name="Chellan, Sword of Greed">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Loot" />
-    <property name="Subtype2" value="Weapon" />
-    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic&#10;Healing" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 5; you may additionally discard this card to add another 2d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4. If this check is against the villain Karzoug the Claimer, banish this card.&#10;Reveal this card to attempt an Intelligence or Charisma 10 check. If you succeed, shuffle 1d6+1 random cards from your discard pile into your deck; if you fail, banish this card." />
-   </card>
-   <card id="1d0dd2cd-56b8-4078-bf68-44d61f61ad42" name="Karzoug's Burning Glaive">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Loot" />
-    <property name="Subtype2" value="Weapon" />
-    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic&#10;Healing" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+2; you may additionally discard this card to add another 1d6+8 with the Fire trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4. &#10;Discard this card to attempt an Intelligence or Charisma 8 check. If you succeed, recharge 1d4+1 random cards from your discard pile; if you fail, bury this card." />
->>>>>>> origin/test-Tyler
    </card>
    <card id="06918f2e-f9ab-4d97-9913-1ddb1245acfb" name="Robes of Xin-Shalast">
     <property name="Abr" value="6" />
@@ -989,7 +570,6 @@
     <property name="Attr1" value="Reveal this card to add 2 to an Arcane or Divine check. You may use another item on this check.&#10;When you take Combat damage, reveal this card to shuffle up to 2 cards into your deck instead of discarding them.&#10;Reveal this card and discard an item to search your deck and choose an item to add to your hand." />
     <property name="Recharge" value="None" />
    </card>
-<<<<<<< HEAD
    <card id="9d894ab3-c56c-47da-bcd7-a739d7509f70" name="Shock Greatsword +2">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
@@ -999,61 +579,6 @@
     <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 2d6+2; you may additionally discard this card to add your unmodified Strength die with the Electricity trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
     <property name="Attr2" value="Strength&#10;Melee" />
     <property name="Attr3" value="11" />
-=======
-   <card id="70713ff6-34a4-42e3-bb62-b09b470d1ac7" name="Sihedron Tome">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Loot" />
-    <property name="Subtype2" value="Item" />
-    <property name="Traits" value="Book&#10;Magic&#10;Sihedron" />
-    <property name="Attr1" value="At the end of your turn, reveal this card to add a random spell with the Arcane trait from the box to your hand; then banish a spell from your hand.&#10;Bury this card to add a random spell with the Arcane trait from the box to your hand." />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="dd1f6980-c93a-4b05-af05-8ebb448ea514" name="Bewilder">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Mental" />
-    <property name="Attr1" value="Discard this card to evade a monster, placing it on the bottom of the deck. If you are exploring, you may immediately explore again.&#10;If you do not have the Arcane skill, banish this card." />
-    <property name="Attr2" value="Intelligence&#10;Arcane" />
-    <property name="Attr3" value="14" />
-    <property name="Recharge" value="Succeed at an Arcane 16 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="3847924a-e90e-4b97-83c5-5c69b039fc65" name="Corrosive Storm">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Acid" />
-    <property name="Attr1" value="Place this card in front of you when a character encounters a bane. Any character who encounters a monster this turn adds 2d6 with the Acid trait to her combat check. Discard this card at the end of this turn, and every other character takes 1 Acid damage" />
-    <property name="Attr2" value="Intelligence&#10;Arcane" />
-    <property name="Attr3" value="12" />
-    <property name="Recharge" value="Succeed at an Arcane 14 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="552409bf-954a-4181-b181-5c52d116a116" name="Dominate">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Mental" />
-    <property name="Attr1" value="Discard this card to evade a monster. Search your location deck and choose a boon to add to your hand, then shuffle the location deck.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
-    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
-    <property name="Attr3" value="12" />
-    <property name="Recharge" value="Succeed at an Arcane or Divine 14 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="37f3e20f-f33a-4b45-b47e-480879fe38d7" name="Invoke">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Divine" />
-    <property name="Attr1" value="Bury this card to shuffle 1d6 random cards from the blessings discard pile into the blessings deck.&#10;If you do not have the Divine skill, banish this card." />
-    <property name="Attr2" value="Wisdom&#10;Divine" />
-    <property name="Attr3" value="12" />
-    <property name="Recharge" value="None" />
->>>>>>> origin/test-Tyler
    </card>
    <card id="dd5d8982-ebf3-4eac-9c80-66b3d98a475d" name="Sign of Wrath">
     <property name="Abr" value="6" />
@@ -1066,7 +591,6 @@
     <property name="Attr3" value="14" />
     <property name="Recharge" value="Succeed at an Arcane or Divine 16 check to recharge this card instead of discarding it." />
    </card>
-<<<<<<< HEAD
    <card id="f98ca0f8-bca0-4d87-9bf0-ba81d6cfcaf9" name="Sihedron Ring">
     <property name="Abr" value="6" />
     <property name="Copyright" value="Yes." />
@@ -1100,47 +624,6 @@
     <property name="Attr1" value="Banish this card to shuffle 1d4+1 random cards from your discard pile into your deck.&#10;Banish this card to explore your location, adding 2 to any combat checks made during this exploration." />
     <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Wisdom&#10;Survival" />
     <property name="Attr3" value="12" />
-=======
-   <card id="958c7931-8115-4453-9fab-6636d5ce1bbe" name="Flaming Icy Axe +1">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Axe&#10;Melee&#10;Slashing&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d12+1; you may additionally discard this card to add another 2d6 with the Cold or Fire trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
-    <property name="Attr2" value="Strength&#10;Melee" />
-    <property name="Attr3" value="11" />
-   </card>
-   <card id="edd5c688-c1e6-43b1-9aa0-b2113288bb9a" name="Force Sling +3">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Sling&#10;Ranged&#10;Bludgeoning&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d6+3; you may additionally discard this card to add another 4d4 with the Force trait." />
-    <property name="Attr2" value="Dexterity&#10;Ranged" />
-    <property name="Attr3" value="10" />
-   </card>
-   <card id="69ca54a1-f188-448d-81e5-9f7e337002b7" name="Returning Frost Spear +2">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Spear&#10;Ranged&#10;Piercing&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d8+2; you may additionally recharge this card to add another 2d6 with the Cold trait.&#10;If you are proficient with weapons, you may discard this card to add 1d4+2 to a combat check at another location." />
-    <property name="Attr2" value="Dexterity&#10;Ranged" />
-    <property name="Attr3" value="12" />
-   </card>
-   <card id="9d894ab3-c56c-47da-bcd7-a739d7509f70" name="Shock Greatsword +2">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 2d6+2; you may additionally discard this card to add your unmodified Strength die with the Electricity trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
-    <property name="Attr2" value="Strength&#10;Melee" />
-    <property name="Attr3" value="11" />
->>>>>>> origin/test-Tyler
    </card>
    <card id="8bf8fc03-4380-407b-937e-81a02cbed6f2" name="Death Zone">
     <property name="Abr" value="6" />
@@ -1211,26 +694,6 @@
     <property name="Type" value="Location" />
     <property name="Subtype2" value="Back" />
     <property name="Flavour" value="Strange cables, frameworks of unidentifiable metals, and strange lights captured in transparent cylinders combine into a device of utterly alien purpose. A rent in the fabric of reality itself seems to shimmer within the ring that forms the center of this enigmatic device. At its core, something pulses within the veils of energy as if trying to break through." />
-<<<<<<< HEAD
-=======
-   </alternate>
-   </card>
-   <card id="82eaa5fe-e6fb-4649-9118-630c9d2c3a05" name="Spires of Xin-Shalast">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Adventure" />
-    <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="The restoration of Thassilon has begun. Within his fortress-city of Xin-Shalast, Karzoug, Runelord of Greed, stirs from his ages-long slumber. Those who survive climbing the dizzying Kodar Mountains and exploring the ruined city of Xin-Shalast must still face Karzoug's most nefarious guardians and fight their way to the Eye of Avarice. Within that magical refuge they'll finally face Karzoug himself in a battle to determine the fate of all Varisia. Will the heroes survive, or will the runelords rise once more?" />
-   <alternate name="Spires of Xin-Shalast" type="B">
-    <property name="Abr" value="6" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Adventure" />
-    <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="Cabin in the Snow&#10;The Road through Xin-Shalast&#10;Scaling Mhar Massif&#10;Assault on the Pinnacle&#10;Into the Eye" />
-    <property name="Attr2" value="Each character gains a card feat." />
->>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="23dd3cda-c6f5-4094-ae95-a895ea9a29a7" name="Assault on the Pinnacle">
@@ -1311,7 +774,6 @@
     <property name="Attr2" value="None" />
     <property name="Attr3" value="Leng Spiders" />
     <property name="Attr4" value="Each character gains a skill feat." />
-<<<<<<< HEAD
    </alternate>
    </card>
    <card id="82eaa5fe-e6fb-4649-9118-630c9d2c3a05" name="Spires of Xin-Shalast">
@@ -1329,8 +791,6 @@
     <property name="Subtype2" value="Back" />
     <property name="Attr1" value="Cabin in the Snow&#10;The Road through Xin-Shalast&#10;Scaling Mhar Massif&#10;Assault on the Pinnacle&#10;Into the Eye" />
     <property name="Attr2" value="Each character gains a card feat." />
-=======
->>>>>>> origin/test-Tyler
    </alternate>
    </card>
    <card id="168e96fe-5a37-4782-a8cf-b413358a0d94" name="The Road through Xin-Shalast">
