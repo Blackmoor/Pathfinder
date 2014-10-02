@@ -1651,6 +1651,10 @@ def scenarioSetup(card):
 		nl -= 2
 	elif card.Name == 'Press Ganged!':
 		nl = 1
+	elif card.Name == 'The Toll of the Bell':
+		nl = 2
+	elif card.Name == 'The Secret of Mancatcher Cove':
+		nl -= 1
 		
 	if nl < 1:
 		nl = 1
@@ -1687,6 +1691,11 @@ def scenarioSetup(card):
 							whisper("No more {} cards to deal to location {}".format(details[0], location))
 							break
 						c.moveTo(locPile)
+					#if playing The Toll of the Bell, add 2 allies to Fog Bank or 2 monster to Scar Bay
+					if details[0] == 'Ally' and card.Name == 'The Toll of the Bell' and location.Name == 'Fog Bank':
+						cards += 2
+					if details[0] == 'Monster' and card.Name == 'The Toll of the Bell' and location.Name == 'Scar Bay':
+						cards += 2
 				else:
 					whisper("Location error: Failed to parse [{}]".format(details[0]))
 			location.link(locPile)
@@ -1705,9 +1714,36 @@ def scenarioSetup(card):
 				debug("Moving '{}' to hidden pile".format(villain))
 				villain.moveTo(hidden)
 	# Some adventures set the villain aside
-	if villain is not None and card.Name in ('Here Comes the Flood', 'The Road through Xin-Shalast'):
+	if villain is not None and card.Name in ('Here Comes the Flood', 'The Road through Xin-Shalast','The Lady\'s Favor'):
 		villain.moveToTable(PlayerX(-4),StoryY)
 		villain.link(shared.piles['Special'])
+		
+	#In 'Give the Devil His Due', display two ships and place plunder under one of them
+	if card.Name == 'Give the Devil His Due':
+		seaChanty = findCardByName(shared.piles['Ship'],'Sea Chanty')
+		seaChanty.moveToTable(PlayerX(-4),StoryY)
+		seaChanty.link(shared.piles['Special'])
+		i = 0
+		while i < 14 - nl:
+			choice = int(random()*6) # Roll on the plunder table
+			if choice >= 5: # User choice
+				options = plunderTypes
+			else:
+				options = [ plunderTypes[choice] ]
+
+			if len(options) > 1:
+				choice = askChoice("Plunder Type", options)
+				if choice is None or choice == 0:
+					return
+				choice -= 1
+			else:
+				choice = 0
+			notify("{} adds {} to Plunder".format(me, options[choice]))
+			shared.piles[options[choice]].random().moveTo(shared.piles['Special'])
+			i = i+1
+		
+		devilsPallor = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
+		devilsPallor.moveToTable(PlayerX(-5),StoryY)
 			
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
@@ -1723,6 +1759,15 @@ def scenarioSetup(card):
 		repeat = 1
 		# Move the Random henchman to the banes pile (this is our scenario pile) 
 		randHench.moveTo(shared.piles['Scenario'])
+	
+	#The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
+	elif card.Name == 'The Toll of the Bell':
+		henchmen = ['The Ancient Mariner']
+		for i in getPlayers():
+			henchmen.append('Scurvy Zombie')
+		henchCount = len(henchmen)
+		cardsPerLocation = int(henchCount/2)
+		
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
@@ -1754,6 +1799,11 @@ def scenarioSetup(card):
 	index = 0
 	while len(hidden) > 0:
 		pile = shared.piles["Location{}".format(index+1)]
+		
+		#move an extra card to Scar Bay if there were an odd number
+		if index == 0 and card.Name == 'The Toll of the Bell' and int(len(henchmen/2)) < len(henchmen/2):
+			hidden.random().moveTo(pile)
+			
 		for i in range(cardsPerLocation):
 			if index == 0 and card.Name in ('Rimeskull', 'Into the Runeforge'):
 				hidden.bottom().moveTo(pile) # Ensure Villain is in first location

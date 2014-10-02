@@ -1,174 +1,174 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fan Made" id="add5338c-0278-488a-b99d-20417c8123c5" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.0.1.1"><cards>
    <card id="c75a945b-0e10-4384-a074-8ba90bbf5c06" name="Chosen of Apollyon">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Villain" />
-    <property name="" value="Monster" />
-    <property name="" value="Dwarf&#10;Cultist" />
-    <property name="" value="Before the encounter, if there are any other cards at this location, succeed in a Perception 6 check or shuffle Chose of Apollyon back into the location deck.&#10;Any character damaged by Chosen of Apollyon becomes Infected.  Whenever an Infected character discards a card, they must bury it." />
-    <property name="" value="Combat" />
-    <property name="" value="12" />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Dwarf&#10;Cultist" />
+    <property name="Attr1" value="Before the encounter, if there are any other cards at this location, succeed in a Perception 6 check or shuffle Chose of Apollyon back into the location deck.&#10;Any character damaged by Chosen of Apollyon becomes Infected.  Whenever an Infected character discards a card, they must bury it." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="12" />
    </card>
    <card id="5a3fbb7e-b600-4520-bf30-17757dd8d34c" name="Funeral Urn">
-    <property name="B" value="2" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Henchman" />
-    <property name="" value="Barrier" />
-    <property name="" value="Magic&#10;Object" />
-    <property name="" value="You may evade Funeral Urn.&#10;If defeated, do not banish this card but place it next to the scenario card and you may immediately attempt to close this location.&#10;If undefeated, take 1 mental damage which may not be reduced." />
-    <property name="" value="Divine&#10;Arcane" />
-    <property name="" value="9" />
-    <property name="" value="Strength&#10;Melee" />
-    <property name="" value="14" />
-    <property name="" value="OR" />
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Barrier" />
+    <property name="Traits" value="Magic&#10;Object" />
+    <property name="Attr1" value="You may evade Funeral Urn.&#10;If defeated, do not banish this card but place it next to the scenario card and you may immediately attempt to close this location.&#10;If undefeated, take 1 mental damage which may not be reduced." />
+    <property name="Attr2" value="Divine&#10;Arcane" />
+    <property name="Attr3" value="9" />
+    <property name="Attr4" value="Strength&#10;Melee" />
+    <property name="Attr5" value="14" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="ec8e5fe4-77f0-4052-9057-7a07a21dcdf6" name="Garrak">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Villain" />
-    <property name="" value="Monster" />
-    <property name="" value="Human&#10;Bandit" />
-    <property name="" value="Before the encounter you must succeed in a Perception 8 check or be dealt 1 Ranged combat damage and the difficulty to defeat Garrak is increased by 2." />
-    <property name="" value="Combat" />
-    <property name="" value="12" />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Bandit" />
+    <property name="Attr1" value="Before the encounter you must succeed in a Perception 8 check or be dealt 1 Ranged combat damage and the difficulty to defeat Garrak is increased by 2." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="12" />
    </card>
    <card id="b2da7575-e91f-4475-9030-c780e5da7a7a" name="Hate">
-    <property name="B" value="2" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Villain" />
-    <property name="" value="Monster" />
-    <property name="" value="Incorporeal&#10;Undead" />
-    <property name="" value="Before the encounter, each character at this location must succeed in a Wisdom 7 check or take 1 mental damage.&#10;All damage dealt by Hate is mental damage.&#10;Allies discarded as a result of damage from Hate are buried.&#10;If you do not defeat Hate using a Divine check, it counts as undefeated." />
-    <property name="" value="Wisdom" />
-    <property name="" value="8" />
-    <property name="" value="Divine" />
-    <property name="" value="14" />
-    <property name="" value="OR" />
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Incorporeal&#10;Undead" />
+    <property name="Attr1" value="Before the encounter, each character at this location must succeed in a Wisdom 7 check or take 1 mental damage.&#10;All damage dealt by Hate is mental damage.&#10;Allies discarded as a result of damage from Hate are buried.&#10;If you do not defeat Hate using a Divine check, it counts as undefeated." />
+    <property name="Attr2" value="Wisdom" />
+    <property name="Attr3" value="8" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="14" />
+    <property name="Attr6" value="OR" />
    </card>
    <card id="95ea0639-66b2-45dd-b91e-2f335af5572f" name="Infected Pool">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Henchman" />
-    <property name="" value="Barrier" />
-    <property name="" value="Pool" />
-    <property name="" value="If undefeated, succeed in a Constitution or Fortitude 6 check or become Infected.&#10;Whenever an Infected character discards a card, they must bury it." />
-    <property name="" value="Wisdom&#10;Knowledge" />
-    <property name="" value="7" />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Barrier" />
+    <property name="Traits" value="Pool" />
+    <property name="Attr1" value="If undefeated, succeed in a Constitution or Fortitude 6 check or become Infected.&#10;Whenever an Infected character discards a card, they must bury it." />
+    <property name="Attr2" value="Wisdom&#10;Knowledge" />
+    <property name="Attr3" value="7" />
    </card>
    <card id="3524d6e9-894a-412a-add0-fd64d22dd4bc" name="Lich">
-    <property name="B" value="2" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Bane" />
-    <property name="Spell" value="Villain" />
-    <property name="" value="Monster" />
-    <property name="" value="Undead&#10;Sorcerer" />
-    <property name="" value="Before the encounter, each character at this location must succeed in a Constitution or Fortitude 8 check, or take 1d4 Cold damage.&#10;The Lich is immune to the Mental, Poison and Cold traits.&#10;Subtract 1 from each die in your check to defeat the Lich." />
-    <property name="" value="Combat" />
-    <property name="" value="16" />
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Undead&#10;Sorcerer" />
+    <property name="Attr1" value="Before the encounter, each character at this location must succeed in a Constitution or Fortitude 8 check, or take 1d4 Cold damage.&#10;The Lich is immune to the Mental, Poison and Cold traits.&#10;Subtract 1 from each die in your check to defeat the Lich." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
    </card>
    <card id="cfa84b91-48b3-4ecd-a4f0-fe0422f24b08" name="Garrak's Gang">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Front" />
-    <property name="" value="Garrak is the leader of the largest criminal gang in Sandpoint, and they have been more active of late. Local businesses are being threatened and extorted, and citizens fear for their lives. When his men are arrested, they often vanish from prison before trial. Can you act quickly and put an end to Garrak's gang?" />
-    <property name="" value="Waterfront&#10;Prison&#10;The Rusty Dragon&#10;Town Square&#10;Glassworks&#10;General Store&#10;Village House&#10;Sandpoint Cathedral" />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Garrak is the leader of the largest criminal gang in Sandpoint, and they have been more active of late. Local businesses are being threatened and extorted, and citizens fear for their lives. When his men are arrested, they often vanish from prison before trial. Can you act quickly and put an end to Garrak's gang?" />
+    <property name="Attr1" value="Waterfront&#10;Prison&#10;The Rusty Dragon&#10;Town Square&#10;Glassworks&#10;General Store&#10;Village House&#10;Sandpoint Cathedral" />
    <alternate name="Garrak's Gang" type="B">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Back" />
-    <property name="" value="The difficulty to defeat a Bandit Henchman is increased by the number of closed locations.  This does not apply to Bandits summoned during the game." />
-    <property name="" value="Garrak" />
-    <property name="" value="Bandits" />
-    <property name="" value="Each character gains a Basic boon of his choice." />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="The difficulty to defeat a Bandit Henchman is increased by the number of closed locations.  This does not apply to Bandits summoned during the game." />
+    <property name="Attr2" value="Garrak" />
+    <property name="Attr3" value="Bandits" />
+    <property name="Attr4" value="Each character gains a Basic boon of his choice." />
    </alternate>
    </card>
    <card id="2ba6b12f-70db-4429-bac9-a06b0a67fcdf" name="Island of the Dead">
-    <property name="B" value="2" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Front" />
-    <property name="" value="Shunned for years by sailors, this small island is rumoured to contain a ruined temple with vaults filled with gold.  Visitors to  the island tell tales of ghosts and walking corpses, but little in the way of reward gained. Are you brave enough to challenge the Island of the Dead?" />
-    <property name="" value="Junk Beach&#10;Desecrated Vault&#10;Shrine to Lamashtu&#10;Treacherous Cave&#10;Woods&#10;Throne Room&#10;Thassilonian Dungeon&#10;Temple" />
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Shunned for years by sailors, this small island is rumoured to contain a ruined temple with vaults filled with gold.  Visitors to  the island tell tales of ghosts and walking corpses, but little in the way of reward gained. Are you brave enough to challenge the Island of the Dead?" />
+    <property name="Attr1" value="Junk Beach&#10;Desecrated Vault&#10;Shrine to Lamashtu&#10;Treacherous Cave&#10;Woods&#10;Throne Room&#10;Thassilonian Dungeon&#10;Temple" />
    <alternate name="Island of the Dead" type="B">
-    <property name="B" value="2" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Back" />
-    <property name="" value="The difficulty of checks to acquire blessings is increased by 2." />
-    <property name="" value="Hate" />
-    <property name="" value="Haunts" />
-    <property name="" value="Each character gains a random item, weapon from the box." />
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="The difficulty of checks to acquire blessings is increased by 2." />
+    <property name="Attr2" value="Hate" />
+    <property name="Attr3" value="Haunts" />
+    <property name="Attr4" value="Each character gains a random item, weapon from the box." />
    </alternate>
    </card>
    <card id="1d1db80c-94aa-49a7-ae8a-b130ca852d07" name="Plague Bearer">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Front" />
-    <property name="" value="A sudden outbreak of a virulent bleeding disease is sweeping the are around Sandpoint. Both animals and people are affected, and the disease does not seem to be natural in origin. So who, or what, is responsible?" />
-    <property name="" value="Woods&#10;Farmhouse&#10;Wooden Bridge&#10;Town Square&#10;Sandpoint Cathedral&#10;City Gate&#10;Academy&#10;Apothecary" />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="A sudden outbreak of a virulent bleeding disease is sweeping the are around Sandpoint. Both animals and people are affected, and the disease does not seem to be natural in origin. So who, or what, is responsible?" />
+    <property name="Attr1" value="Woods&#10;Farmhouse&#10;Wooden Bridge&#10;Town Square&#10;Sandpoint Cathedral&#10;City Gate&#10;Academy&#10;Apothecary" />
    <alternate name="Plague Bearer" type="B">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Back" />
-    <property name="" value="If you gain an ally, roll 1d6. On a 1, the ally is infected with bleeding disease, and you must succeed at a Fortitude 6 check or become Infected.&#10;Whenever an Infected character discards a card, they must bury it." />
-    <property name="" value="Chosen of Apollyon" />
-    <property name="" value="Infected Pool" />
-    <property name="" value="Each character gains a random Armour from the box." />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="If you gain an ally, roll 1d6. On a 1, the ally is infected with bleeding disease, and you must succeed at a Fortitude 6 check or become Infected.&#10;Whenever an Infected character discards a card, they must bury it." />
+    <property name="Attr2" value="Chosen of Apollyon" />
+    <property name="Attr3" value="Infected Pool" />
+    <property name="Attr4" value="Each character gains a random Armour from the box." />
    </alternate>
    </card>
    <card id="2be14ade-55bb-4566-b688-f5e1dbb86a36" name="Return to Thistletop">
-    <property name="B" value="2" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Front" />
-    <property name="" value="With Nualia defeated, Sandpoint should be safe from further attacks from Thistletop. But what unknown treasures and lost magics remain in the deep caverns beneath? There is only one way to find out..." />
-    <property name="" value="Deeper Dungeons&#10;Goblin Fortress&#10;Shrine to Lamashtu&#10;Desecrated Vault&#10;Treacherous Cave&#10;Warrens&#10;Throne Room&#10;Thassilonian Dungeon" />
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="With Nualia defeated, Sandpoint should be safe from further attacks from Thistletop. But what unknown treasures and lost magics remain in the deep caverns beneath? There is only one way to find out..." />
+    <property name="Attr1" value="Deeper Dungeons&#10;Goblin Fortress&#10;Shrine to Lamashtu&#10;Desecrated Vault&#10;Treacherous Cave&#10;Warrens&#10;Throne Room&#10;Thassilonian Dungeon" />
    <alternate name="Return to Thistletop" type="B">
-    <property name="B" value="2" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Back" />
-    <property name="" value="Lich cannot be defeated unless Funeral Urn has been defeated." />
-    <property name="" value="Lich" />
-    <property name="" value="Funeral Urn&#10;Ancient Skeletons" />
-    <property name="" value="Each character gains two random Items." />
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Lich cannot be defeated unless Funeral Urn has been defeated." />
+    <property name="Attr2" value="Lich" />
+    <property name="Attr3" value="Funeral Urn&#10;Ancient Skeletons" />
+    <property name="Attr4" value="Each character gains two random Items." />
    </alternate>
    </card>
    <card id="1075044b-356b-41eb-887a-86c134c2f984" name="Trouble with Goblins">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Front" />
-    <property name="" value="A gang of goblins have take to ambushing travellers along the Forest Road. The mayor has asked if you could see them off before their presence seriously affects the trade route to the town.&#10;The only problem may be that the goblins are accompanied by a couple of fierce ogres..." />
-    <property name="" value="Woods&#10;Nettlemaze&#10;Treacherous Cave&#10;Warrens&#10;Farmhouse&#10;Temple&#10;Wooden Bridge&#10;Guard Tower" />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="A gang of goblins have take to ambushing travellers along the Forest Road. The mayor has asked if you could see them off before their presence seriously affects the trade route to the town.&#10;The only problem may be that the goblins are accompanied by a couple of fierce ogres..." />
+    <property name="Attr1" value="Woods&#10;Nettlemaze&#10;Treacherous Cave&#10;Warrens&#10;Farmhouse&#10;Temple&#10;Wooden Bridge&#10;Guard Tower" />
    <alternate name="Trouble with Goblins" type="B">
-    <property name="B" value="1" />
-    <property name="Yes" value="No." />
-    <property name="Boon" value="Story" />
-    <property name="Spell" value="Scenario" />
-    <property name="" value="Back" />
-    <property name="" value="Subtract 1d4 from any check made to defeat Goblin Raider Henchmen or Gogmurt." />
-    <property name="" value="Gogmurt" />
-    <property name="" value="Goblin Raiders" />
-    <property name="" value="Each character gains a random weapon from the box." />
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Subtract 1d4 from any check made to defeat Goblin Raider Henchmen or Gogmurt." />
+    <property name="Attr2" value="Gogmurt" />
+    <property name="Attr3" value="Goblin Raiders" />
+    <property name="Attr4" value="Each character gains a random weapon from the box." />
    </alternate>
    </card>
  </cards>
