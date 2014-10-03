@@ -335,6 +335,18 @@
     <property name="Type" value="Feat" />
     <property name="Subtype" value="Favoured" />
    </card>
+   <card id="0dc34fcc-156d-453c-8bec-d29c8e2dbd5e" name="Hand Size 10">
+    <property name="Abr" value="O" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Feat" />
+    <property name="Subtype" value="Power" />
+   </card>
+   <card id="442263f0-b857-4cc8-83de-51ab9de78bd1" name="Hand Size 11">
+    <property name="Abr" value="O" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Feat" />
+    <property name="Subtype" value="Power" />
+   </card>
    <card id="d14c070c-966b-48f3-a045-36539fe855aa" name="Hand Size 4">
     <property name="Abr" value="O" />
     <property name="Copyright" value="No." />

@@ -36,6 +36,9 @@ def toggleDebug(group, x=0, y=0):
 	else:
 		notify("{} turns off debug".format(me))
 
+def cardFunctionName(card): # Removes special characters from the card name giving a string we can use as a function name
+	return card.Name.replace(' ','').replace('!','').replace("'","")
+	
 def shuffle(pile, synchronise=False):
 	mute()
 	if pile is None or len(pile) == 0: return
@@ -395,7 +398,7 @@ def storeHandSize(h):
 
 def getHandSize(p=me):
 	#Press Ganged uses the scenario pile to determine the hand size
-	scenario = getScenario(table)
+	scenario = findScenario(table)
 	if scenario is not None and  scenario.Name == 'Press Ganged!' and len(shared.piles['Scenario']) <= num(p.getGlobalVariable('HandSize')):
 		return len(shared.piles['Scenario'])
 	return num(p.getGlobalVariable('HandSize'))
@@ -532,66 +535,66 @@ def startOfTurn(player, turn):
 	if player == me:
 		sync() # wait for control of cards to be passed to us
 		# Perform scenario specific actions
-		scenario = getScenario(table)
+		scenario = findScenario(table)
 		if scenario is not None:
-			fn = scenario.Name.replace(' ','').replace('!','')
+			fn = cardFunctionName(scenario)
 			if fn in globals():
-				globals()[fn](False)
+				globals()[fn]('StartOfTurn')
 		advanceBlessingDeck()	
-		
+	
 #
 # Scenario specific functions - called once during setup and then at the start of each turn
 # The function must be named exactly as the Scenario card with the spaces removed
 #
-def HereComestheFlood(setup):
-	if setup:
-		return # Nothing special to do in setup
-	mute()
-	#Pick a random location
-	locs = [ c for c in table if c.Type == 'Location' ]
-	loc = locs[int(random()*len(locs))]
-	#Move 1d4 cards from that location to the table
-	moved = 0
-	toMove = 1+int(random()*4)
-	for c in loc.pile().bottom(toMove):
-		c.moveTo(shared.piles['Special'])
-		moved += 1
-	if toMove == moved:
-		notify("{} moves {} cards from {} to Black Magga".format(me, moved, loc))
-	else:
-		notify("{} moves {} cards (rolled {}) from {} to Black Magga".format(me, moved, toMove, loc))
+def HereComestheFlood(mode):
+	if mode == 'StartOfTurn':
+		mute()
+		#Pick a random location
+		locs = [ c for c in table if c.Type == 'Location' ]
+		loc = locs[int(random()*len(locs))]
+		#Move 1d4 cards from that location to the table
+		moved = 0
+		toMove = 1+int(random()*4)
+		for c in loc.pile().bottom(toMove):
+			c.moveTo(shared.piles['Special'])
+			moved += 1
+		if toMove == moved:
+			notify("{} moves {} cards from {} to Black Magga".format(me, moved, loc))
+		else:
+			notify("{} moves {} cards (rolled {}) from {} to Black Magga".format(me, moved, toMove, loc))
 
-def SandpointUnderSiege(setup):
-	if setup:
-		return # Nothing special to do in setup
-	mute()
-	#Pick a random open location
-	locs = [ c for c in table if isOpen(c) ]
-	loc = locs[int(random()*len(locs))]
-	if len(loc.pile()) == 0:
-		notify("Random open location '{}' has no cards".format(loc))
-	else:
-		c = loc.pile().top()
-		x, y = loc.position
-		c.moveToTable(x, y+14)
-		notify("{} reveals '{}' as the top card of '{}'".format(me, c, loc))
-		if c.Type == 'Boon':
-			banishCard(c)
-		elif c.Type == 'Bane':
-			notify("{} shuffles '{}' back into '{}'".format(me, c, loc))
-			c.moveTo(loc.pile())
-			shuffle(loc.pile(), True)
+def SandpointUnderSiege(mode):
+	if mode == 'StartOfTurn':
+		mute()
+		#Pick a random open location
+		locs = [ c for c in table if isOpen(c) ]
+		loc = locs[int(random()*len(locs))]
+		if len(loc.pile()) == 0:
+			notify("Random open location '{}' has no cards".format(loc))
+		else:
+			c = loc.pile().top()
+			x, y = loc.position
+			c.moveToTable(x, y+14)
+			notify("{} reveals '{}' as the top card of '{}'".format(me, c, loc))
+			if c.Type == 'Boon':
+				banishCard(c)
+			elif c.Type == 'Bane':
+				notify("{} shuffles '{}' back into '{}'".format(me, c, loc))
+				c.moveTo(loc.pile())
+				shuffle(loc.pile(), True)
 			
-def TheTolloftheBell(setup):
-	if setup:
+def TheTolloftheBell(mode):
+	if mode == 'Setup':
+		mute()
 		#Deal an extra henchman to the first location (Scar Bay) if we have an even number of players
 		zombie = findCardByName(shared.piles['Henchman'], 'Scurvy Zombie')
 		if zombie is None: return
 		zombie.moveTo(shared.piles['Location1'])
 		shuffle(shared.piles['Location1'])
 	
-def TheGrindylowandtheWhale(setup): # setup requires each player to move a random ally into the Scenario pile
-	if setup:
+def TheGrindylowandtheWhale(mode): # setup requires each player to move a random ally into the Scenario pile
+	if mode == 'Setup':
+		mute()
 		for p in getPlayers():
 			if p == me:
 				donateAlly(me)
@@ -1311,7 +1314,7 @@ def pileSwap12(card, x=0, y=0):
 	notify("{} swaps to the top 2 cards of the '{}' pile".format(me, card))
 	pile[1].moveTo(pile)
 
-def getScenario(group):
+def findScenario(group):
 	found = [s for s in group if s.Subtype == 'Scenario']
 	if len(found) == 1:
 		return found[0]
@@ -1320,7 +1323,7 @@ def getScenario(group):
 # Returns a tuple closed, gameover	
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
-		scenario = getScenario(table)
+		scenario = findScenario(table)
 		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure' ]: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
@@ -1351,15 +1354,8 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	if choices[choice-1] == 'Evaded':
 		shuffleCard(villain, x, y)
 		return
-		
-	if choices[choice-1] == 'Banished':
-
-		#In the Secret of Mancatcher Cove, if you banish Isabella, build a new location
-		if villain.Name == 'Isabella "Inkskin" Locke' and getScenario(table).Name == 'The Secret of Mancatcher Cove':
-			location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
-			newVillain = findCardByName(shared.piles['Villain'],'The Matron')
-			buildLocation(location,newVillain)
-		
+				
+	if choices[choice-1] == 'Banished':	
 		notify("{} banishes '{}'".format(me, villain))
 		returnToBox(villain)
 		return
@@ -1384,7 +1380,29 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
 		returnToBox(villain)
-		if closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
+		#In the Secret of Mancatcher Cove, if you defeat Isabella, build a new location and bring in the Matron
+		if villain.Name == 'Isabella "Inkskin" Locke' and findScenario(table).Name == 'The Secret of Mancatcher Cove':
+			location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
+			if location is None:
+				whisper("Failed to find location Mancatcher Cove")
+			else:
+				# Count the number of locations on the table
+				nl = 0 
+				for card in table:
+					if card.Type == 'Location':
+						nl += 1
+				pileName = "Location{}".format(nl+1)
+				buildLocation(findScenario(table), location, shared.piles[pileName])
+				matron = findCardByName(shared.piles['Villain'],'The Matron')
+				if matron is None:
+					whisper("Failed to find The Matron in the box")
+				else:
+					matron.moveTo(location.pile())
+				shuffle(location.pile())
+				location.moveToTable(LocationX(nl+1,nl+1), LocationY)
+			notify("{} banishes '{}'".format(me, villain))
+			returnToBox(villain)
+		elif closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
 			gameOver(True)	
 		else:
 			notify("{} returns {} to the box".format(me, villain))
@@ -1652,12 +1670,10 @@ def scenarioSetup(card):
 		shipSearch = card.attr2.replace('Your ship is anchored at ','')
 	else:
 		shipSearch = ''
-	if card.Name == 'The Black Tower':
-		bonus = 1 # Add a bonus spell to each location
-	else:
-		bonus = 0
+
 	locations = card.Attr1.splitlines()
 	nl = numLocations()
+	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
 	if card.Name == 'Rimeskull':
 		nl = 8
 	elif card.Name == 'Into the Runeforge':
@@ -1670,6 +1686,7 @@ def scenarioSetup(card):
 		nl = 2
 	elif card.Name == 'The Secret of Mancatcher Cove':
 		nl -= 1
+		leaveSpace = 1
 		
 	if nl < 1:
 		nl = 1
@@ -1677,46 +1694,15 @@ def scenarioSetup(card):
 		nl = len(locations)
 	for i in range(nl):
 		debug("Processing Location '{}'".format(locations[i]))
-		pileName = "Location{}".format(i+1)
 		location = findCardByName(shared.piles['Location'], locations[i])
 		if location is None:
 			whisper("Failed to find location {}".format(locations[i]))
 		else:
-			locPile = shared.piles[pileName]
-			debug("Moving '{}' to table ...".format(location))
-			location.moveToTable(LocationX(i+1, nl), LocationY)
+			pileName = "Location{}".format(i+1)
+			buildLocation(card, location, shared.piles[pileName])
+			location.moveToTable(LocationX(i+1, nl+leaveSpace), LocationY)
 			if location.Name in shipSearch:
 				anchorage = location
-			#Create deck based on location distribution 
-			deck = location.Attr1.splitlines()
-			for entry in deck:
-				details = entry.split(' ') # i.e. Monster 3
-				if len(details) == 2 and details[0] in shared.piles:
-					debug("Adding {} cards of type {}".format(details[1], details[0]))
-					pile = shared.piles[details[0]]
-					cards = num(details[1])
-					#if playing Press Ganged!, add 5 extra Barriers
-					if details[0] == 'Barrier' and card.Name == 'Press Ganged!':
-						cards += 5
-					if details[0] == 'Spell':
-						cards += bonus
-					
-					#if playing The Toll of the Bell, add 2 allies to Fog Bank or 2 monster to Scar Bay
-					if details[0] == 'Ally' and card.Name == 'The Toll of the Bell' and location.Name == 'Fog Bank':
-						cards += 2
-					if details[0] == 'Monster' and card.Name == 'The Toll of the Bell' and location.Name == 'Scar Bay':
-						cards += 2
-						
-					for count in range(cards):
-						c = pile.random()
-						if c is None:
-							whisper("No more {} cards to deal to location {}".format(details[0], location))
-							break
-						c.moveTo(locPile)
-
-				else:
-					whisper("Location error: Failed to parse [{}]".format(details[0]))
-			location.link(locPile)
 			if location.Name == 'The Leng Device':
 				location.markers[timer] = 12
 			
@@ -1739,15 +1725,14 @@ def scenarioSetup(card):
 	#In 'Give the Devil His Due', display two ships and place plunder under one of them
 	if card.Name == 'Give the Devil His Due':
 		seaChanty = findCardByName(shared.piles['Ship'],'Sea Chanty')
-		seaChanty.moveToTable(PlayerX(-5),StoryY)
+		seaChanty.moveToTable(PlayerX(-1)+15,StoryY)
+		seaChanty.sendToBack()
 		seaChanty.link(shared.piles['Special']) # We use a non-standard plunder pile for this ship
-		i = 0
-		while i < 14 - nl:
-			addPlunder(seaChanty)
-			i = i + 1
-		
+		while len(shared.piles['Special']) < 14 - nl:
+			addPlunder(seaChanty)		
 		devilsPallor = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
-		devilsPallor.moveToTable(PlayerX(-6),StoryY)
+		devilsPallor.moveToTable(PlayerX(-1)+30,StoryY)
+		devilsPallor.sendToBack()
 			
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	if card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
@@ -1809,9 +1794,9 @@ def scenarioSetup(card):
 	unlockPile(hidden)
 	
 	# Perform scenario specific actions
-	fn = card.Name.replace(' ','').replace('!','')
+	fn = cardFunctionName(card)
 	if fn in globals():
-		globals()[fn](True)
+		globals()[fn]('Setup')
 		
 	#Create the Blessing deck
 	if card.Name != "Into the Eye":
@@ -1830,40 +1815,37 @@ def scenarioSetup(card):
 	notify("{} starts '{}'".format(me, card))
 	return anchorage
 
-#more generic location building function which can be used outside of scenario start
-def buildLocation(location,villHench):
+	
+#Create deck based on location distribution by moving random cards from the box to the location's pile
+def buildLocation(scenario, location, locPile):
 	debug("Processing Location '{}'".format(location))
-	locs = [ card for card in table if isLocation(card) ]
-	nl = len (locs)
-	pileName = "Location{}".format(nl+1)
-	locationCard = findCardByName(shared.piles['Location'], location)
-	if locationCard is None:
-			whisper("Failed to find location {}".format(location))
-	else:
-		locPile = shared.piles[pileName]
-		debug("Moving '{}' to table ...".format(locationCard.Name))
-		locationCard.moveToTable(LocationX(nl+1,nl+1), LocationY)
-		#Create deck based on location distribution 
-		deck = locationCard.Attr1.splitlines()
-		for entry in deck:
-			details = entry.split(' ') # i.e. Monster 3
-			if len(details) == 2 and details[0] in shared.piles:
-				debug("Adding {} cards of type {}".format(details[1], details[0]))
-				pile = shared.piles[details[0]]
-				cards = num(details[1])
-				for count in range(cards):
-					c = pile.random()
-					if c is None:
-						whisper("No more {} cards to deal to location {}".format(details[0], locationCard))
-						break
-					c.moveTo(locPile)
-				#move passed-in villain or henchman card to pile
-				villHench.moveTo(locPile)
-				shufflePile(locPile)
-				whisper("{} successfully built.").format(locationCard.Name)
-			else:
-				whisper("Location error: Failed to parse [{}]".format(details[0]))
-	return
+	for entry in location.Attr1.splitlines():
+		details = entry.split(' ') # i.e. Monster 3
+		if len(details) == 2 and details[0] in shared.piles:
+			debug("Adding {} cards of type {}".format(details[1], details[0]))
+			pile = shared.piles[details[0]]
+			cards = num(details[1])
+			
+			#Card specific rules
+			if details[0] == 'Barrier' and scenario.Name == 'Press Ganged!':
+				cards += 5
+			if details[0] == 'Spell' and scenario.Name == 'The Black Tower':
+				cards += 1
+			if scenario.Name == 'The Toll of the Bell':
+				if details[0] == 'Ally' and location.Name == 'Fog Bank':
+					cards += 2*len(getPlayers())
+				if details[0] == 'Monster' and location.Name == 'Scar Bay':
+					cards += 2*len(getPlayers())
+				
+			for count in range(cards):
+				c = pile.random()
+				if c is None:
+					whisper("No more {} cards to deal to location {}".format(details[0], location))
+					break
+				c.moveTo(locPile)
+		else:
+			whisper("Location error: Failed to parse [{}]".format(details[0]))
+		location.link(locPile) # We do this at the end because doing it earlier causes major performance issues
 
 def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
