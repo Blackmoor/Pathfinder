@@ -1700,17 +1700,20 @@ def scenarioSetup(card):
 						cards += 5
 					if details[0] == 'Spell':
 						cards += bonus
+					
+					#if playing The Toll of the Bell, add 2 allies to Fog Bank or 2 monster to Scar Bay
+					if details[0] == 'Ally' and card.Name == 'The Toll of the Bell' and location.Name == 'Fog Bank':
+						cards += 2
+					if details[0] == 'Monster' and card.Name == 'The Toll of the Bell' and location.Name == 'Scar Bay':
+						cards += 2
+						
 					for count in range(cards):
 						c = pile.random()
 						if c is None:
 							whisper("No more {} cards to deal to location {}".format(details[0], location))
 							break
 						c.moveTo(locPile)
-					#if playing The Toll of the Bell, add 2 allies to Fog Bank or 2 monster to Scar Bay
-					if details[0] == 'Ally' and card.Name == 'The Toll of the Bell' and location.Name == 'Fog Bank':
-						cards += 2
-					if details[0] == 'Monster' and card.Name == 'The Toll of the Bell' and location.Name == 'Scar Bay':
-						cards += 2
+
 				else:
 					whisper("Location error: Failed to parse [{}]".format(details[0]))
 			location.link(locPile)
@@ -1736,7 +1739,7 @@ def scenarioSetup(card):
 	#In 'Give the Devil His Due', display two ships and place plunder under one of them
 	if card.Name == 'Give the Devil His Due':
 		seaChanty = findCardByName(shared.piles['Ship'],'Sea Chanty')
-		seaChanty.moveToTable(PlayerX(-4),StoryY)
+		seaChanty.moveToTable(PlayerX(-5),StoryY)
 		seaChanty.link(shared.piles['Special']) # We use a non-standard plunder pile for this ship
 		i = 0
 		while i < 14 - nl:
@@ -1744,11 +1747,16 @@ def scenarioSetup(card):
 			i = i + 1
 		
 		devilsPallor = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
-		devilsPallor.moveToTable(PlayerX(-5),StoryY)
+		devilsPallor.moveToTable(PlayerX(-6),StoryY)
 			
 	debug("Hide Henchmen '{}'".format(card.Attr3))
-	if 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3: # Special instructions for this one
-		henchmen = card.Attr3.replace('Per Location: ','').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
+	if card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
+		henchmen = card.Attr3.splitlines()
+		henchmen[1].replace(' per Character', '').replace('1 ','').split(', ')
+		cardsPerLocation = (1+len(getPlayers()))/2
+		repeat = 1
+	elif 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3 or ' per Location' in card.Attr3: # Special instructions for this one
+		henchmen = card.Attr3.replace('Per Location: ','').replace(' per Location', '').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
 		repeat = len(henchmen)		
 	elif card.Name == 'Press Ganged!': #For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
@@ -1760,10 +1768,6 @@ def scenarioSetup(card):
 		repeat = 1
 		# Move the Random henchman to the banes pile (this is our scenario pile) 
 		randHench.moveTo(shared.piles['Scenario'])	
-	elif card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
-		henchmen = card.Attr3.replace(' per Character', '').replace('1 ','').split(', ')
-		cardsPerLocation = (1+len(getPlayers()))/2
-		repeat = 1
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1

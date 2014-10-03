@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Henchman" shared="True">
+    <card qty="1" id="4dd91675-52d0-469d-9e8a-f3c54adf38f1">Knuckles Grype</card>
+    <card qty="6" id="e3972739-8cda-4354-b501-1743ead69ddf">Scurvy Zombie</card>
+    <card qty="7" id="1968c14f-4f9b-4abc-8e58-93f57697af17">Sea Devil</card>
+    <card qty="1" id="b3920f36-0086-4ba8-ae94-f1f8a5ed0482">The Ancient Mariner</card>
+    <card qty="1" id="723a10b9-3540-4cbb-99c2-57857d351658">Tidewater Rock</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="5c3900df-9c21-45c1-ab77-5fbe1fc7b89e">Bull Shark</card>
+    <card qty="1" id="db4dc01c-2431-4848-902f-ffd60a646f87">Canopy Creeper</card>
+    <card qty="2" id="43e0ca8d-ed2b-4930-9ffe-94b3422cf2cf">Giant Wasp</card>
+    <card qty="1" id="c6780613-46c8-48fe-95e3-3f7ec2beca60">Jellyfish Swarm</card>
+    <card qty="1" id="982536b9-9ffc-4dce-9c8e-6eb932f298c1">Nirento</card>
+    <card qty="2" id="0de5151c-19b3-4ed9-ac93-451e7abcfcf8">Port Peril Corsair</card>
+    <card qty="2" id="241edaec-0469-4e2e-97b9-e6a558222dc2">Scalawag</card>
+    <card qty="1" id="6a4fa6ab-fa64-487f-8de4-eb95b5df8ade">Sea Cat</card>
+    <card qty="1" id="e5cda072-f325-4ddc-b1b0-6dc749b627ff">Sea Scourge</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="86b31d83-8b72-4d21-a94f-9c31aa54ed28">Becalmed</card>
+    <card qty="2" id="222be581-66cc-4c41-9781-03203cbbbe9f">Curse of the Deep</card>
+    <card qty="2" id="0ef9da98-c6dc-4e55-a990-0c50285cc857">Pirate Entertainments</card>
+    <card qty="2" id="990da1eb-ddba-4c89-95ad-18ba07a7e0fd">Spiked Log Trap</card>
+    <card qty="2" id="0c761b3d-d67d-4ebd-a5de-12febe625d3d">Storm</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="b5613a29-488e-495d-ba42-0b1a0abc2e92">Blackcloth Armor</card>
+    <card qty="2" id="caf725ac-3860-4bce-aa81-a40863ef0c7f">Shark Skin Armor</card>
+    <card qty="1" id="7b4612fb-8a20-41ee-8d2f-d0be1e8c3bb1">Stanching Buckler</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="11374c44-45fe-4cf9-ad9b-dc59545fb4e3">Dagger Pistol +1</card>
+    <card qty="1" id="de0f96c5-3437-428a-87a8-a755586bb9fd">Dragon Pistol +1</card>
+    <card qty="2" id="d8f61d6c-30dd-4a77-9fbc-c8e710787952">Keen Falcata +1</card>
+    <card qty="1" id="1ab3be3b-7101-4d16-b1a1-2a8e99084e84">Morningstar +1</card>
+    <card qty="1" id="6c1d3378-af95-4e8b-a5ba-f5c96de35495">Musket +1</card>
+    <card qty="1" id="b1cd114d-d4af-4607-b961-98034f67bb07">Seeking Harpoon +1</card>
+    <card qty="1" id="3a4009e7-d0ae-4d9c-9be6-0da7214d4308">Toxic Blunderbuss +1</card>
+    <card qty="1" id="2a01026c-1a80-4e9c-892b-73f469772297">Trident +1</card>
+    <card qty="1" id="1a52c4a7-7dfb-455b-b970-b94580f3207c">Zul</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="19171f41-63da-4773-a2fc-cef32a62f977">Animated Weapon</card>
+    <card qty="2" id="5f180b22-779f-45b7-9b1c-ba6001b63a6a">Aqueous Orb</card>
+    <card qty="2" id="c57c7431-d9ae-49ca-8651-f9a25fa7051f">Dehydrating Touch</card>
+    <card qty="2" id="c2c96334-b93b-46b1-b6db-91b3d518cf71">Geyser</card>
+    <card qty="2" id="0b4410ce-8032-4540-bcee-6ee0dabb9e1a">Protect</card>
+    <card qty="2" id="1777cc04-1e30-4923-9ab5-37ab656c01d6">Safe Harbor</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="9728e726-60a7-4c60-90f2-15ed99d84f2f">Besmara's Bones</card>
+    <card qty="1" id="ac70a00d-b778-4da2-917c-1824fcf13498">Crown of Swords</card>
+    <card qty="1" id="d025ca4a-411b-4233-988f-4a0f106c22ba">Jellyfish Cape</card>
+    <card qty="2" id="968fefb0-8f31-40b7-af3e-e7115e4b278a">Jolly Roger</card>
+    <card qty="2" id="1ec11d68-de40-40c7-bde3-96cddad14b2f">Liquid Ice</card>
+    <card qty="2" id="0bb626dc-0ced-4ac7-8bef-7c395201b55c">Periscope</card>
+    <card qty="1" id="6dad2ee9-1771-46c6-a8f7-72f0e41d18e7">Wand of Flame</card>
+    <card qty="2" id="5acba85d-eba6-40d3-9399-84a0240f9ca9">Worn Leather Skullcap</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="5cb259e4-2c22-424c-aaff-e77c745914b9">Merrill Pegsworthy</card>
+    <card qty="1" id="540b3071-bfb6-46a4-b603-457bf1189425">Rotgut</card>
+    <card qty="1" id="be93b5ed-33bc-4430-8138-5d68b6b307bb">Royster McCleagh</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="1d716595-e61e-4256-a47a-e5c889721435">Blessing of Hshurha</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="885f775f-33d1-4a1b-a148-e5032c6b11b6">Brine's Sting</card>
+    <card qty="1" id="dd5e66d1-2ecf-4d48-9278-27ab11d762ab">Buccaneer's Breastplate</card>
+    <card qty="1" id="3fa5145e-714d-41b2-be2b-b1599edcc460">Farglass</card>
+    <card qty="1" id="cc85d2fc-2950-41d8-8260-252fbed15db3">Lady Agasta Smythee</card>
+    <card qty="1" id="fc8d5eb0-5f89-4f34-b27d-f02781ac87e2">Rickety Hake</card>
+    <card qty="1" id="873bf2a4-4f46-41d6-975d-9ab8b8325a0c">Svingli's Eye</card>
+    <card qty="1" id="a4c48414-a30f-4278-a23f-62ede03563f6">Totem Necklace</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="3" id="fed16720-cd45-4cd6-82f9-d0f1dcc012d1">Fishing Village</card>
+    <card qty="1" id="e3e2fb46-2ef8-4711-a6a8-5991d1ecb45a">Mancatcher Cove</card>
+    <card qty="1" id="723a10b9-3540-4cbb-99c2-57857d351658">Tidewater Rock</card>
+    <card qty="1" id="b1bd3e85-745f-43c9-aec4-0ea2b272a321">Windward Isle</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="d508e533-fef0-48b4-b40b-66887a90ad47">Commander Kyan Kain</card>
+    <card qty="1" id="50ef52f3-8f80-420d-87b8-75f64f7e13b4">Gortus Svard</card>
+    <card qty="1" id="a456c5ed-7f3a-47e8-9e27-2da501ae2c54">Isabella "Inkskin" Locke</card>
+    <card qty="1" id="56e87995-d671-4ed3-9c87-fa73dbea48f6">Krelloort</card>
+    <card qty="1" id="cf7cfc5a-bdc8-4c0a-aca7-46ad86a1b94d">Sea Devil Prince</card>
+    <card qty="1" id="a315ca59-e90b-4ab5-9005-43cb2d61bbf5">The Matron</card>
+    <card qty="1" id="6a290e09-f126-4181-a2a5-a58d6542fa97">Whalebone Pilk</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="558dfcbd-2097-4ec8-9966-fa768fa7719c">Raiders of the Fever Sea</card>
+    <card qty="1" id="71c04299-7e0a-447f-9660-b3fa1af2a20e">Attack on Rickety's Squibs</card>
+    <card qty="1" id="8502dc81-0603-44f9-b8c3-9bcad3547417">Give the Devil His Due</card>
+    <card qty="1" id="a79c1ce7-6e6d-4de1-b286-a973862fcb02">The Lady's Favor</card>
+    <card qty="1" id="953dd3c6-79ca-4688-b35a-1f6c005cffed">The Secret of Mancatcher Cove</card>
+    <card qty="1" id="096bc82f-b3be-4f56-b20c-94a3f5a3a29b">The Toll of the Bell</card>
+  </section>
+  <section name="Ship" shared="True">
+    <card qty="1" id="3daeeaae-b876-4fc4-bd22-b0f4a231c385">Deathknell</card>
+    <card qty="1" id="cf0fa598-c4e7-4733-acb0-d0320d5d4e2b">Devil's Pallor</card>
+    <card qty="1" id="1b6b7084-b091-497e-a853-cabc0cc7ef55">Thresher</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
