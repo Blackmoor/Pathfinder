@@ -404,10 +404,10 @@ def getHandSize(p=me):
 	return num(p.getGlobalVariable('HandSize'))
 	
 def storeFavoured(f):
-	me.setGlobalVariable('Favoured', f)
+	me.setGlobalVariable('Favoured', str(f))
 
 def getFavoured():
-	return me.getGlobalVariable('Favoured')
+	return eval(me.getGlobalVariable('Favoured'))
 	
 def storeCards(s):
 	me.setGlobalVariable('Cards', s)
@@ -684,7 +684,7 @@ def playerReady(card):
 	shuffle(me.Discarded, True)
 	size = len(me.Discarded)
 	favoured = getFavoured()					
-	if favoured == 'Your choice':
+	if 'Your choice' in favoured:
 		#Make a list of card types in the deck
 		choices = []
 		for card in me.Discarded:	
@@ -698,12 +698,13 @@ def playerReady(card):
 		if len(choices) > 0:
 			while choice == None or choice == 0:
 				choice = askChoice("Favoured Card Type", choices)
-			favoured = choices[choice-1]
+			favoured = [ choices[choice-1] ]
 	handSize = getHandSize()
 	ci = 0
-	for card in me.Discarded:
-		if card.Subtype == favoured or (card.Subtype == 'Loot' and card.Subtype2 == favoured): break
-		ci += 1
+	if len(favoured) > 0: # If a favoured card type is defined skip cards until we reach one
+		for card in me.Discarded:
+			if card.Subtype in favoured or (card.Subtype == 'Loot' and card.Subtype2 in favoured): break
+			ci += 1
 		
 	if ci >= size:
 		ci = 0
@@ -1365,77 +1366,79 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
 	location = overPile(villain, True) #Determine the location of the Villain (based on whether it is over a pile on the table)
 	closed = False
-	if villain.Name == 'The Matron' and defeated:
-		returnToBox(villain)
-		krelloort = findCardByName(shared.piles['Villain'],'Krelloort')
-		krelloort.moveTo(location.pile())
-		shuffle(location.pile())
-		whisper("The villain Krelloort is moved to {}".format(location))
-	else:
-		if defeated: # We get to close the location
-			if location is None or location.Type != 'Location': # Not sure which location to close
-				if not confirm("Did you close the location?"):
-					whisper("Close the location manually, then hide the villain")
-					return
-				closed = True
-			elif isOpen(location): # Ensure location is closed
-				closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
-				if done:
-					return
-			
-		#If there are no open locations the villain has been cornered
-		open = [ card for card in table if isOpen(card) ]
-		if len(open) == 0:
-			returnToBox(villain)
-			#In the Secret of Mancatcher Cove, if you defeat Isabella, build a new location and bring in the Matron
-			if villain.Name == 'Isabella "Inkskin" Locke' and findScenario(table).Name == 'The Secret of Mancatcher Cove':
-				location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
-				if location is None:
-					whisper("Failed to find location Mancatcher Cove")
-				else:
-					# Count the number of locations on the table
-					nl = 0 
-					for card in table:
-						if card.Type == 'Location':
-							nl += 1
-					pileName = "Location{}".format(nl+1)
-					buildLocation(findScenario(table), location, shared.piles[pileName])
-					matron = findCardByName(shared.piles['Villain'],'The Matron')
-					if matron is None:
-						whisper("Failed to find The Matron in the box")
-					else:
-						matron.moveTo(location.pile())
-					shuffle(location.pile())
-					location.moveToTable(LocationX(nl+1,nl+1), LocationY)
-					whisper("{} builds location {}".format(me,location))
-				notify("{} banishes '{}'".format(me, villain))
-				returnToBox(villain)
-			elif closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
-				gameOver(True)	
-			else:
-				notify("{} returns {} to the box".format(me, villain))
-			return
 	
-		# The villain has escaped
-		debug("Villain has {} open locations".format(len(open)))
-		hidden = shared.piles['Internal']
-		if not lockPile(hidden):
-			return	
-		villain.moveTo(hidden)
-		#Add a Blessing for each other open location
-		for i in range(len(open)-1):
-			card = blessing.random()
-			if card is not None:
-				card.moveTo(hidden)
+	if defeated: # Normally we close the location the villain came from
+		if villain.Name == 'The Matron':
+			notify("{} banishes '{}'".format(me, villain))
+			returnToBox(villain)
+			krelloort = findCardByName(shared.piles['Villain'],'Krelloort')
+			krelloort.moveTo(location.pile())
+			shuffle(location.pile())
+			notify("{} shuffles Krelloort into {}".format(me, location))
+			return
+		if location is None or location.Type != 'Location': # Not sure which location to close
+			if not confirm("Did you close the location?"):
+				whisper("Close the location manually, then hide the villain")
+				return
+			closed = True
+		elif isOpen(location): # Ensure location is closed
+			closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
+			if done:
+				return
+		
+	#If there are no open locations the villain has been cornered
+	open = [ card for card in table if isOpen(card) ]
+	if len(open) == 0:
+		returnToBox(villain)
+		#In the Secret of Mancatcher Cove, if you defeat Isabella, build a new location and bring in the Matron
+		if villain.Name == 'Isabella "Inkskin" Locke' and findScenario(table).Name == 'The Secret of Mancatcher Cove':
+			location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
+			if location is None:
+				whisper("Failed to find location Mancatcher Cove")
+			else:
+				# Count the number of locations on the table
+				nl = 0 
+				for card in table:
+					if card.Type == 'Location':
+						nl += 1
+				pileName = "Location{}".format(nl+1)
+				buildLocation(findScenario(table), location, shared.piles[pileName])
+				matron = findCardByName(shared.piles['Villain'],'The Matron')
+				if matron is None:
+					whisper("Failed to find The Matron in the box")
+				else:
+					matron.moveTo(location.pile())
+				shuffle(location.pile())
+				location.moveToTable(LocationX(nl+1,nl+1), LocationY)
+				whisper("{} builds location {}".format(me,location))
+			notify("{} banishes '{}'".format(me, villain))
+			returnToBox(villain)
+		elif closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
+			gameOver(True)	
+		else:
+			notify("{} returns {} to the box".format(me, villain))
+		return
 
-		for loc in open:
-			pile = loc.pile()
-			card = hidden.random()
-			if card is not None:			
-				card.moveTo(pile)
-			shuffle(pile)
-			
-		unlockPile(hidden)
+	# The villain has escaped
+	debug("Villain has {} open locations".format(len(open)))
+	hidden = shared.piles['Internal']
+	if not lockPile(hidden):
+		return	
+	villain.moveTo(hidden)
+	#Add a Blessing for each other open location
+	for i in range(len(open)-1):
+		card = blessing.random()
+		if card is not None:
+			card.moveTo(hidden)
+
+	for loc in open:
+		pile = loc.pile()
+		card = hidden.random()
+		if card is not None:			
+			card.moveTo(pile)
+		shuffle(pile)
+		
+	unlockPile(hidden)
 	
 	# Re-open temporarily closed locations
 	for card in table:
@@ -1463,40 +1466,40 @@ def addToFleet(ship, x=0, y=0):
 	setGlobalVariable('Fleet', str(fleet))
 	
 def addRandomPlunder(ship, x=0, y=0):
-	addPlunder(ship, False)
+	addPlunder(ship)
 	
 def addChosenPlunder(ship, x=0, y=0):
-	addPlunder(ship, True)
+	addPlunder(ship, 'Choose')
 	
 def addWeaponPlunder (ship, x=0, y=0):
-	addPlunder(ship, False, 'Weapon')
+	addPlunder(ship, 'Weapon')
 
 def addArmorPlunder (ship, x=0, y=0):
-	addPlunder(ship, False, 'Armor')
+	addPlunder(ship, 'Armor')
 	
 def addSpellPlunder (ship, x=0, y=0):
-	addPlunder(ship, False, 'Spell')
+	addPlunder(ship, 'Spell')
 
 def addAllyPlunder (ship, x=0, y=0):
-	addPlunder(ship, False, 'Ally')
+	addPlunder(ship, 'Ally')
 	
 def addItemPlunder (ship, x=0, y=0):
-	addPlunder(ship, False, 'Item')
+	addPlunder(ship, 'Item')
 
-def addPlunder(ship, choose=False, choice='None'):
+def addPlunder(ship, type='Roll'):
 	mute()
 	
-	if choice == 'None':
-		if choose:
-			options = plunderTypes
+	if type == 'Roll':
+		roll = int(random()*6) # Roll on the plunder table
+		if roll >= 5: # User choice
+			type = 'Choose'
 		else:
-			choice = int(random()*6) # Roll on the plunder table
-			if choice >= 5: # User choice
-				options = plunderTypes
-			else:
-				options = [ plunderTypes[choice] ]
+			type = plunderTypes[roll]
+
+	if type == 'Choose':
+		options = plunderTypes
 	else:
-		options = [ choice ]
+		options = [ type ]
 		
 	if len(options) > 1:
 		choice = askChoice("Plunder Type", options)
@@ -1603,7 +1606,7 @@ def playerSetup():
 	inUse(me.Discarded) #Remove all the loaded player cards from the box (shared piles)
 	
 	handSize = 4
-	favoured = 'Your choice'
+	favoured = []
 	cardTypes = [ 'Weapon', 'Spell', 'Armor', 'Item', 'Ally', 'Blessing' ]
 	minC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
 	maxC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
@@ -1613,8 +1616,8 @@ def playerSetup():
 		if card.Type == 'Character':
 			if card.Subtype != 'Token': # Extract information about the hand size and favoured card type
 				custom = card.name == 'Custom'
-				if len(card.Attr3) > 0:
-					favoured = card.Attr3
+				if len(card.Attr3) > 0 and card.Attr3 != 'None':
+					favoured = card.Attr3.split(' or ')
 					debug("Favoured = {}".format(favoured))
 				#Store Card counts
 				for line in card.Attr2.splitlines():
@@ -1639,8 +1642,8 @@ def playerSetup():
 			handSize = num(card.name[10:])
 			debug("HandSize override - {}".format(handSize))			
 		elif card.Subtype == 'Favoured':
-			favoured = card.name
-			debug("Favoured override - {}".format(favoured))
+			favoured.append(card.name)
+			debug("Favoured added - {}".format(favoured))
 		elif card.Subtype == 'Card':
 			type, count = card.name.split()
 			minC[type] = num(count)
@@ -1762,8 +1765,7 @@ def scenarioSetup(card):
 			
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	if card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
-		henchmen = card.Attr3.splitlines()
-		henchmen[1].replace(' per Character', '').replace('1 ','').split(', ')
+		henchmen = card.Attr3.replace(' per Character', '').replace('1 ','').splitlines()
 		cardsPerLocation = (1+len(getPlayers()))/2
 		repeat = 1
 	elif 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3 or ' per Location' in card.Attr3: # Special instructions for this one
