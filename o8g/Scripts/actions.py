@@ -1365,74 +1365,82 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
 	location = overPile(villain, True) #Determine the location of the Villain (based on whether it is over a pile on the table)
 	closed = False
-	if defeated: # We get to close the location
-		if location is None or location.Type != 'Location': # Not sure which location to close
-			if not confirm("Did you close the location?"):
-				whisper("Close the location manually, then hide the villain")
-				return
-			closed = True
-		elif isOpen(location): # Ensure location is closed
-			closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
-			if done:
-				return
-			
-	#If there are no open locations the villain has been cornered
-	open = [ card for card in table if isOpen(card) ]
-	if len(open) == 0:
+	if villain.Name == 'The Matron' and defeated:
 		returnToBox(villain)
-		#In the Secret of Mancatcher Cove, if you defeat Isabella, build a new location and bring in the Matron
-		if villain.Name == 'Isabella "Inkskin" Locke' and findScenario(table).Name == 'The Secret of Mancatcher Cove':
-			location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
-			if location is None:
-				whisper("Failed to find location Mancatcher Cove")
-			else:
-				# Count the number of locations on the table
-				nl = 0 
-				for card in table:
-					if card.Type == 'Location':
-						nl += 1
-				pileName = "Location{}".format(nl+1)
-				buildLocation(findScenario(table), location, shared.piles[pileName])
-				matron = findCardByName(shared.piles['Villain'],'The Matron')
-				if matron is None:
-					whisper("Failed to find The Matron in the box")
-				else:
-					matron.moveTo(location.pile())
-				shuffle(location.pile())
-				location.moveToTable(LocationX(nl+1,nl+1), LocationY)
-			notify("{} banishes '{}'".format(me, villain))
+		krelloort = findCardByName(shared.piles['Villain'],'Krelloort')
+		krelloort.moveTo(location.pile())
+		shuffle(location.pile())
+		whisper("The villain Krelloort is moved to {}".format(location))
+	else:
+		if defeated: # We get to close the location
+			if location is None or location.Type != 'Location': # Not sure which location to close
+				if not confirm("Did you close the location?"):
+					whisper("Close the location manually, then hide the villain")
+					return
+				closed = True
+			elif isOpen(location): # Ensure location is closed
+				closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
+				if done:
+					return
+			
+		#If there are no open locations the villain has been cornered
+		open = [ card for card in table if isOpen(card) ]
+		if len(open) == 0:
 			returnToBox(villain)
-		elif closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
-			gameOver(True)	
-		else:
-			notify("{} returns {} to the box".format(me, villain))
-		return
+			#In the Secret of Mancatcher Cove, if you defeat Isabella, build a new location and bring in the Matron
+			if villain.Name == 'Isabella "Inkskin" Locke' and findScenario(table).Name == 'The Secret of Mancatcher Cove':
+				location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
+				if location is None:
+					whisper("Failed to find location Mancatcher Cove")
+				else:
+					# Count the number of locations on the table
+					nl = 0 
+					for card in table:
+						if card.Type == 'Location':
+							nl += 1
+					pileName = "Location{}".format(nl+1)
+					buildLocation(findScenario(table), location, shared.piles[pileName])
+					matron = findCardByName(shared.piles['Villain'],'The Matron')
+					if matron is None:
+						whisper("Failed to find The Matron in the box")
+					else:
+						matron.moveTo(location.pile())
+					shuffle(location.pile())
+					location.moveToTable(LocationX(nl+1,nl+1), LocationY)
+					whisper("{} builds location {}".format(me,location))
+				notify("{} banishes '{}'".format(me, villain))
+				returnToBox(villain)
+			elif closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
+				gameOver(True)	
+			else:
+				notify("{} returns {} to the box".format(me, villain))
+			return
 	
-	# The villain has escaped
-	debug("Villain has {} open locations".format(len(open)))
-	hidden = shared.piles['Internal']
-	if not lockPile(hidden):
-		return	
-	villain.moveTo(hidden)
-	#Add a Blessing for each other open location
-	for i in range(len(open)-1):
-		card = blessing.random()
-		if card is not None:
-			card.moveTo(hidden)
+		# The villain has escaped
+		debug("Villain has {} open locations".format(len(open)))
+		hidden = shared.piles['Internal']
+		if not lockPile(hidden):
+			return	
+		villain.moveTo(hidden)
+		#Add a Blessing for each other open location
+		for i in range(len(open)-1):
+			card = blessing.random()
+			if card is not None:
+				card.moveTo(hidden)
 
-	for loc in open:
-		pile = loc.pile()
-		card = hidden.random()
-		if card is not None:			
-			card.moveTo(pile)
-		shuffle(pile)
+		for loc in open:
+			pile = loc.pile()
+			card = hidden.random()
+			if card is not None:			
+				card.moveTo(pile)
+			shuffle(pile)
+			
+		unlockPile(hidden)
 	
 	# Re-open temporarily closed locations
 	for card in table:
 		if card.Type == 'Location' and card.orientation != Rot0:
 			card.orientation = Rot0
-			
-	unlockPile(hidden)
 
 def seizeShip(ship, x=0, y=0):
 	x,y = ship.position
@@ -1459,19 +1467,37 @@ def addRandomPlunder(ship, x=0, y=0):
 	
 def addChosenPlunder(ship, x=0, y=0):
 	addPlunder(ship, True)
+	
+def addWeaponPlunder (ship, x=0, y=0):
+	addPlunder(ship, False, 'Weapon')
 
-def addPlunder(ship, choose=False):
+def addArmorPlunder (ship, x=0, y=0):
+	addPlunder(ship, False, 'Armor')
+	
+def addSpellPlunder (ship, x=0, y=0):
+	addPlunder(ship, False, 'Spell')
+
+def addAllyPlunder (ship, x=0, y=0):
+	addPlunder(ship, False, 'Ally')
+	
+def addItemPlunder (ship, x=0, y=0):
+	addPlunder(ship, False, 'Item')
+
+def addPlunder(ship, choose=False, choice='None'):
 	mute()
 	
-	if choose:
-		options = plunderTypes
-	else:
-		choice = int(random()*6) # Roll on the plunder table
-		if choice >= 5: # User choice
+	if choice == 'None':
+		if choose:
 			options = plunderTypes
 		else:
-			options = [ plunderTypes[choice] ]
-
+			choice = int(random()*6) # Roll on the plunder table
+			if choice >= 5: # User choice
+				options = plunderTypes
+			else:
+				options = [ plunderTypes[choice] ]
+	else:
+		options = [ choice ]
+		
 	if len(options) > 1:
 		choice = askChoice("Plunder Type", options)
 		if choice is None or choice == 0:
