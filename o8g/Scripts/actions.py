@@ -683,9 +683,8 @@ def playerReady(card):
 				c.moveTo(me.Discarded)
 	shuffle(me.Discarded, True)
 	size = len(me.Discarded)
-	favoured = getFavoured()					
-	if 'Your choice' in favoured:
-		#Make a list of card types in the deck
+	choices = getFavoured()					
+	if 'Your choice' in choices: # Ignore the stored value and make a list of the card types in the deck
 		choices = []
 		for card in me.Discarded:	
 			if card.Subtype not in choices:
@@ -693,17 +692,22 @@ def playerReady(card):
 			if card.Subtype == 'Loot': # Loots have a secondary type too
 				if card.Subtype2 not in choices:
 					choices.append(card.Subtype2)
-		#Prompt user to select favoured card type
-		choice = None
-		if len(choices) > 0:
-			while choice == None or choice == 0:
-				choice = askChoice("Favoured Card Type", choices)
-			favoured = [ choices[choice-1] ]
+		
+	#Prompt user to select favoured card type
+	choice = None
+	if len(choices) > 1:
+		while choice == None or choice == 0:
+			choice = askChoice("Favoured Card Type", choices)
+		favoured = choices[choice-1]
+	elif len(choices) == 1:
+		favoured = choices[0]
+	else:
+		favoured = None
 	handSize = getHandSize()
 	ci = 0
-	if len(favoured) > 0: # If a favoured card type is defined skip cards until we reach one
+	if favoured is not None: # If a favoured card type is defined skip cards until we reach one
 		for card in me.Discarded:
-			if card.Subtype in favoured or (card.Subtype == 'Loot' and card.Subtype2 in favoured): break
+			if card.Subtype == favoured or (card.Subtype == 'Loot' and card.Subtype2 == favoured): break
 			ci += 1
 		
 	if ci >= size:
