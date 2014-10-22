@@ -253,6 +253,8 @@
     <property name="Subtype" value="Ally" />
     <property name="Traits" value="Tengu&#10;Assassin&#10;Basic" />
     <property name="Attr1" value="Discard this card to explore your location. Add 1 to your combat checks during this exploration.&#10;If you would fail a combat check by 1, you may bury this card to succeed." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="8" />
    </card>
    <card id="de6f53e8-59ac-48d3-943f-03870eae45ea" name="Lizard">
     <property name="Abr" value="4" />
@@ -3335,6 +3337,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Turning and turning in a widening swath of meditative destruction, dervishes seek perfection in combat." />
+    <property name="Attr1" value="For your combat check that has or is against a card that has the Finesse trait, gain the skill Melee: Dexterity +1.&#10;When you would banish a monster, display it. You may recharge a card to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) to your combat check for each displayed monster. At the end of your turn, banish the displayed monsters.&#10;[ ] You gain the skill Survival ([ ] and Divine): Wisdom +2.&#10;[ ] You may recharge a card that has the Divine trait to examine the top ([ ]  or bottom) card of any location deck.&#10;[ ] If you defeat a monster while you are the only character at your location, you may discard a card to explore again." />
+    <property name="Attr2" value="4  [ ] 5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="[ ] Light Armors,  Weapons" />
    </alternate>
    </card>
    <card id="61728373-9156-49a9-b3ab-4527617214e5" name="Lesath (Sword Dancer)">
@@ -3349,6 +3355,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Sword dancers weave in and out of the fray while calling on their gods." />
+    <property name="Attr1" value="For your combat check that has or is against a card that has the Finesse trait, gain the skill Melee: Dexterity +1 ([ ] +2).&#10;When you would banish a monster, display it. You may recharge a card to add 1d6 ([ ] +1) to your combat check for each displayed monster. At the end of your turn, banish the displayed monsters.&#10;[ ] You gain the skill Perception ([ ] and Divine): Wisdom +2&#10;[ ] You may recharge a weapon ([ ] or place it on top of your deck) to evade an encounter.&#10;[ ] When you play a blessing on your combat check that has the Finesse trait, you may add a d12 instead of the normal die.&#10;[ ] On your turn, you may discard 2 cards from the blessings deck to explore again." />
+    <property name="Attr2" value="4  [ ] 5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="[ ] Light Armors,  Weapons" />
    </alternate>
    </card>
    <card id="54878bea-2a28-4ba3-bcd0-e4aaf3677457" name="Melindra (Mage Spy)">
@@ -3419,6 +3429,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Equally adept with bows and daggers, these rogues strike unerringly." />
+    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) to your combat check.&#10;For your combat check that has the Ranged trait, you may use a d10 ([ ] or a d12) for your Strength die.&#10;[ ] When you would discard a weapon that has the Bow ([ ] or Ranged) trait for its power, you may instead discard another card.&#10;[ ] You may recharge a card to add 1d4 to a combat check by a character at another location.&#10;[ ] If you begin your turn with no weapons ([ ] or items) in your hand, you may draw a card.&#10;[ ] When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it." />
+    <property name="Attr2" value="5  [ ] 6" />
+    <property name="Attr3" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="ede0d62d-deb3-426a-8552-81a10137ec57" name="Merisiel (Forger)">
@@ -3433,6 +3447,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Forgers are adept at finding just the right resources for any situation - even if they have to fake them." />
+    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) to your combat check.&#10;For your combat check that has the Ranged trait, you may use a d10 for your Strength die.&#10;[ ] When you would discard ([ ] or bury) ([ ] or banish) a weapon, you may perform the action with a blessing ([ ] or any card) instead.&#10;[ ] When you would fail your check to acquire an item ([ ] or any boon), you may discard a card to ignore the result and reroll the dice. You must use the second result.&#10;[ ] When you play a blessing to add to your Dexterity check, you may recharge it instead of discarding it." />
+    <property name="Attr2" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="8b565117-0866-4a16-9809-599927c38cd3" name="Olenjack (Guild Leader)">
@@ -3447,6 +3465,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Tasks such as calling a raid or assigning members to special missions typify a guild leader's responsibilities." />
+    <property name="Attr1" value="You may recharge an ally to evade a bane.&#10;When you attempt a check, you may display any number of allies; for each ally displayed, add 1 ([ ] 2) to the check. Return the displayed allies to your hand ([ ] or recharge them) before you reset it.&#10;On your turn, when you succeed at a combat check that has the Poison trait, you may immediately explore again.&#10;[ ] Add 2 ([ ] 4) to your check to acquire an ally ([ ]  or a boon).&#10;[ ] When you succeed at a Diplomacy check, you may draw a card ([ ] and recharge a card).&#10;[ ] When you play a blessing to add to your Charisma ([ ] or Dexterity) check, you may recharge it instead of discarding it." />
+    <property name="Attr2" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr3" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="8bbcafef-7b39-4781-98f0-b6a5464b4caf" name="Olenjack (Spider)">
@@ -3461,6 +3483,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Out of the shadows, spiders strike. Their venom is swift, silent, and lethal." />
+    <property name="Attr1" value="You may recharge an ally to evade a bane.&#10;When you attempt a check, you may display any number of allies; for each ally displayed, add 1 ([ ] 2) to the check. Return the displayed allies to your hand before you reset it.&#10;On your turn, when you succeed at a combat check that has the Poison trait, you may immediately explore again.&#10;[ ] Reduce all Poison damage dealt to you to 0. If a card that has the Poison trait would cause you to bury a card, you may recharge that card instead.&#10;[ ] After you reset your hand, you may discard 1 card from your hand then add 1 card that has the Poison trait from the discard pile to your hand.&#10;[ ] When you succeed at a Perception ([ ] or Diplomacy) check, you may draw a card ([ ] and recharge a card).&#10;[ ] When you play a blessing to add to your Dexterity ([ ] or Charisma) check, you may recharge it instead of discarding it." />
+    <property name="Attr2" value="5  [ ] 6  [ ] 7  [ ] 8" />
+    <property name="Attr3" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="df2038e9-22a7-459c-87d9-d8a4544dfa58" name="Qualzar (Impeller)">
@@ -3807,6 +3833,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Death whisperers end lives with quiet sighs and part souls with envenomed strikes." />
+    <property name="Attr1" value="For your combat check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1  ([ ] +2).&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) and the Poison trait to your combat check.&#10;On your turn, you may discard ([ ] or recharge) a card to evade a boon; you may immediately explore again.&#10;[ ] When you defeat a monster by 4 or more ([ ] or 2 or more if your check has the Poison trait), you may draw 1 card ([ ] 2 cards).&#10;[ ] When you have fewer than 5 cards in your deck and you play a blessing, you may recharge the blessing instead of discarding it." />
+    <property name="Attr2" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="9cde6d27-dcfd-4e94-9d63-4db063fc6c71" name="Wu Shen (Prey Stalker)">
@@ -3821,6 +3851,10 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Role" />
     <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Stalkers attack suddenly, then retreat without saying a word." />
+    <property name="Attr1" value="For your combat check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) and the Poison trait to your combat check.&#10;On your turn, you may discard ([ ] or recharge) a card to evade a boon ([ ] and banish it); you may immediately explore again.&#10;[ ] At the ([ ] start or) end of your turn, you may examine the top card of your location deck. If it is a boon, you may put it on the bottom of the deck.&#10;Add 2 ([ ] 4) to your check to defeat a barrier ([ ] or close a location).&#10;[ ] When you play a blessing on your check to defeat a villain or henchman, add a d12 in place of the normal die." />
+    <property name="Attr2" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="6ec0f46b-563e-4d6e-bd97-52c614cf81ab" name="Zarlova (Scholar)">
@@ -3996,11 +4030,19 @@
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Human&#10;Rogue" />
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2  [ ] 3&#10;Item: 3  [ ] 4&#10;Ally: 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6" />
+    <property name="Attr3" value="Weapon" />
    <alternate name="Lesath" type="B">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Human&#10;Rogue" />
+    <property name="Attr1" value="For your check that has or is against a card that has the Finesse trait, gain the skill Melee: Dexterity +1.&#10;When you would banish a monster, display it. You may recharge a card to add 1d6 ([ ] +1) to your combat check for each displayed monster. At the end of your turn, banish the displayed monsters." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Acrobatics: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1" />
+    <property name="Attr3" value="4  [ ] 5  [ ] 6" />
+    <property name="Attr4" value="[ ] Light Armors,  Weapons" />
    </alternate>
    </card>
    <card id="b001afd7-540e-450c-8052-6d652c266eea" name="Melindra">
@@ -4032,11 +4074,19 @@
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Item" />
    <alternate name="Merisiel" type="B">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Elf&#10;Rogue" />
+    <property name="Attr1" value="You may evade your encounter.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) to your combat check.&#10;For your combat check that has the Ranged trait, you may use a d10 for your Strength die." />
+    <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Stealth: Dexterity +2&#10;  Ranged: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2" />
+    <property name="Attr3" value="5  [ ] 6" />
+    <property name="Attr4" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="af91da5c-98fc-4846-bc86-e97934289090" name="Olenjack">
@@ -4044,11 +4094,19 @@
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Male&#10;Dwarf&#10;Rogue" />
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: -  [ ] 1  [ ] 2&#10;Armor: 1  [ ] 2&#10;Item: 4  [ ] 5  [ ] 6&#10;Ally: 5  [ ] 6  [ ] 7&#10;Blessing: 3  [ ] 4" />
+    <property name="Attr3" value="Ally" />
    <alternate name="Olenjack" type="B">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Male&#10;Dwarf&#10;Rogue" />
+    <property name="Attr1" value="You may recharge an ally to evade a bane.&#10;When you attempt a check, you may display any number of allies; for each ally displayed, add 1 ([ ] 2) to the check. Return the displayed allies to your hand before you reset it.&#10;On your turn, when you succeed at a combat check that has the Poison trait, you may immediately explore again." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Disable: Dexterity +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Perception: Wisdom +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +2" />
+    <property name="Attr3" value="5  [ ] 6  [ ] 7" />
+    <property name="Attr4" value="Light Armors,  [ ] Weapons" />
    </alternate>
    </card>
    <card id="9ef0a1e5-9470-4592-a6ae-4d1f8be39746" name="Qualzar">
@@ -4198,11 +4256,19 @@
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Front" />
+    <property name="Traits" value="Female&#10;Human&#10;Rogue" />
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5  [ ] 6&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 2  [ ] 3&#10;Blessing: 4  [ ] 5" />
+    <property name="Attr3" value="Weapon" />
    <alternate name="Wu Shen" type="B">
     <property name="Abr" value="B" />
     <property name="Copyright" value="No." />
     <property name="Type" value="Character" />
     <property name="Subtype2" value="Back" />
+    <property name="Traits" value="Female&#10;Human&#10;Rogue" />
+    <property name="Attr1" value="For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1.&#10;If you are the only character at your location, you may recharge a card to add 1d6 ([ ] +1) ([ ] +2) and the Poison trait to your combat check.&#10;On your turn, you may discard a card to evade a boon, you may immediately explore again." />
+    <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Disable: Dexterity +2&#10;Constitution: d10  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Survival: Wisdom: +2&#10;Charisma: d4  [ ] +1" />
+    <property name="Attr3" value="4  [ ] 5" />
+    <property name="Attr4" value="Light Armors  [ ] Weapons" />
    </alternate>
    </card>
    <card id="ccecc77b-8d8f-4cc1-9fed-c161bf8271e2" name="Zarlova">
