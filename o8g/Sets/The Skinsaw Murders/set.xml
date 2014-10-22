@@ -551,7 +551,7 @@
     <property name="Attr1" value="Reveal Aldern Foxglove to banish all Haunts in front of characters." />
    </alternate>
    </card>
-   <card id="ae8806f8-ca85-472b-a081-932b652f1b58" name="Habe's Sanitorium">
+   <card id="ae8806f8-ca85-472b-a081-932b652f1b58" name="Habe's Sanatorium">
     <property name="Abr" value="2" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
@@ -560,7 +560,7 @@
     <property name="Attr2" value="At the start of your turn, attempt a Wisdom 6 check. If you succeed, draw a random card from your discard pile; if you fail, discard the top card of your deck." />
     <property name="Attr3" value="Succeed at a Wisdom or Perception 7 check." />
     <property name="Attr4" value="On closing, you may shuffle 1d4-1 random cards from your discard pile into your deck." />
-   <alternate name="Habe's Sanitorium" type="B">
+   <alternate name="Habe's Sanatorium" type="B">
     <property name="Abr" value="2" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Location" />
@@ -707,7 +707,7 @@
     <property name="Subtype" value="Scenario" />
     <property name="Subtype2" value="Front" />
     <property name="Flavour" value="The dead are rising from their graves to terrorize the people of Sandpoint. Marks of their shuffling passage lead back to several ruins and the lonely sanatorium of Dr. Habe. Find out who's behind this foul necromancy and put an end to this sinister plot!" />
-    <property name="Attr1" value="Habe's Sanitorium&#10;Mill&#10;Village House&#10;General Store&#10;The Old Light&#10;Desecrated Vault&#10;Thassilonian Dungeon&#10;Prison" />
+    <property name="Attr1" value="Habe's Sanatorium&#10;Mill&#10;Village House&#10;General Store&#10;The Old Light&#10;Desecrated Vault&#10;Thassilonian Dungeon&#10;Prison" />
    <alternate name="Undead Uprising" type="B">
     <property name="Abr" value="2" />
     <property name="Copyright" value="Yes." />

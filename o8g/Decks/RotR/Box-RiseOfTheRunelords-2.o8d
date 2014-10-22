@@ -67,7 +67,7 @@
   </section>
   <section name="Location" shared="True">
     <card qty="1" id="1e60ce9a-81a5-49d7-bed8-4c2e3328e6fa">Foxglove Manor</card>
-    <card qty="1" id="ae8806f8-ca85-472b-a081-932b652f1b58">Habe's Sanitorium</card>
+    <card qty="1" id="ae8806f8-ca85-472b-a081-932b652f1b58">Habe's Sanatorium</card>
     <card qty="1" id="50691e53-6c84-4d12-bc73-35e1c8ecc28d">Mill</card>
     <card qty="1" id="beba802a-0bcc-4e36-afb5-b2ca867aa75e">Shadow Clock</card>
   </section>

@@ -113,7 +113,7 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="8" />
    </card>
-   <card id="6be101cb-83b5-4d6a-aa45-6d3270c90957" name="Tsuto Kaikitsu">
+   <card id="6be101cb-83b5-4d6a-aa45-6d3270c90957" name="Tsuto Kaijitsu">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />
@@ -472,7 +472,7 @@
     <property name="Attr3" value="7" />
     <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it." />
    </card>
-   <card id="9246a66c-4a98-4fcd-87dd-81daddb3439a" name="Sihedron  Medallion">
+   <card id="9246a66c-4a98-4fcd-87dd-81daddb3439a" name="Sihedron Medallion">
     <property name="Abr" value="1" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Boon" />
@@ -770,7 +770,7 @@
     <property name="Subtype2" value="Back" />
     <property name="Attr1" value="If you defeat a monster with the Goblin trait, roll 1d6. On a 1, each character at your location takes 1 Fire damage." />
     <property name="Attr2" value="Ripnugget and Stickfoot" />
-    <property name="Attr3" value="Tsuto Kaikitsu&#10;Goblin Raiders" />
+    <property name="Attr3" value="Tsuto Kaijitsu&#10;Goblin Raiders" />
     <property name="Attr4" value="Each character gains a skill feat." />
    </alternate>
    </card>

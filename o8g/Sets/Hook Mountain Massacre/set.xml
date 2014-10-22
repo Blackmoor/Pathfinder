@@ -239,7 +239,7 @@
     <property name="Attr2" value="Combat" />
     <property name="Attr3" value="13" />
    </card>
-   <card id="b989d27d-7f3f-4069-9dbb-c15e7e27b626" name="Skullripper">
+   <card id="b989d27d-7f3f-4069-9dbb-c15e7e27b626" name="Skull Ripper">
     <property name="Abr" value="3" />
     <property name="Copyright" value="Yes." />
     <property name="Type" value="Bane" />

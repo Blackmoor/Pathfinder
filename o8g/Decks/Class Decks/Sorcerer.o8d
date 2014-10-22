@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False">
+    <card qty="1" id="57f44330-dedb-4ab8-8767-31a05402b91a">Sling</card>
+    <card qty="1" id="620ce148-44d7-4fbf-874c-87a040833a23">Dagger</card>
+    <card qty="1" id="5ff85573-efc9-473e-9721-fd80cb95ec38">Allying Dart +1</card>
+    <card qty="1" id="f4f86d59-59f0-4da8-930a-2b2de36fb0ce">Frost Sling +1</card>
+    <card qty="1" id="66fcff5d-3225-45b5-bd2c-67282c8b4ef4">Main-Gauche +1</card>
+    <card qty="1" id="fbfff7cf-ade7-49ac-bca4-71660a2477ff">Seeking Harpoon +1</card>
+    <card qty="1" id="ffb1307c-48d5-4e54-9cd0-adf89b745c45">Giantbane Dagger +1</card>
+    <card qty="1" id="aca07515-50a6-4cf5-b0e0-d97a400ce7b0">Force Sling +3</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="05380bb2-c7ab-4de2-b7c2-d153c2b9fdae">Frost Ray</card>
+    <card qty="1" id="40a2c7b6-2067-4cbb-a1ea-ac84c8db0279">Force Missile</card>
+    <card qty="1" id="075a9c2f-dfc7-44fd-bf4f-dd14c144143a">Good Omen</card>
+    <card qty="1" id="9a95d31c-4989-494c-a9c2-f60d95fd2c67">Lightning Touch</card>
+    <card qty="1" id="428d09ee-a4cf-4858-ae28-122ecd450067">Illuminate</card>
+    <card qty="1" id="f51a3a34-112f-4b2b-b017-c862c5cdeeae">Frostbite</card>
+    <card qty="1" id="fba1122a-e9c9-49d3-bd54-2342d9a25362">Arcane Armor</card>
+    <card qty="1" id="145a3c05-fece-4ae0-9052-c5eb51a8dcd5">Black Spot</card>
+    <card qty="1" id="2227a6e8-8c57-4f81-b1bd-c89c1ac2d9e5">Confusion</card>
+    <card qty="1" id="d3ac5899-0116-4852-81a2-1bd9987ce955">Mirror Image</card>
+    <card qty="1" id="9df7e5a9-64b4-4b28-9b57-d41318026195">Safe Harbor</card>
+    <card qty="1" id="8aaa066a-9919-4dc3-a357-c6467487b2c1">Unearthly Aim</card>
+    <card qty="1" id="5ab07845-5c89-4c03-b162-ea18561647f0">Web</card>
+    <card qty="1" id="7d2ada39-0332-4813-9603-a85caf63e930">Dimension Leap</card>
+    <card qty="1" id="cf414847-51ee-4d7a-82e9-d5ca6591a453">Scrying</card>
+    <card qty="1" id="134d5616-e0a4-480d-875c-abf19ea1d09e">Swipe</card>
+    <card qty="1" id="586bdd1a-5e24-46ad-a453-7d386a95c44e">Poison Blast</card>
+    <card qty="1" id="e4b44805-0de4-47a9-ab0e-e625a92aea41">Teleport</card>
+    <card qty="1" id="f97e6aa0-3230-4f3a-9de2-d7f62e68deb0">Wall of Fire</card>
+    <card qty="1" id="deec912c-dd8e-4e4b-8dea-314fecab748d">Blizzard</card>
+    <card qty="1" id="b7776a0f-7460-4cdc-a123-6547dd137436">Life Leech</card>
+    <card qty="1" id="4ab98b6f-73e0-4090-a0b9-48ad16eb95ff">Dominate</card>
+    <card qty="1" id="5ea85fef-1297-49b9-aa50-b2b2d73463fc">Sign of Wrath</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="faf95f01-3df9-4131-8349-fa12ceb33ae2">Cloth Armor</card>
+    <card qty="1" id="88d5bc47-17df-49e6-894d-bc1824a44281">Leather Armor</card>
+    <card qty="1" id="aee175d1-bd19-4d85-b06e-41afb1f5c51b">Elven Chain Shirt</card>
+    <card qty="1" id="7bd1552b-2bba-4b43-bc97-3c0eb031756a">Blackcloth Armor</card>
+    <card qty="1" id="e908d21e-cb66-479e-91d0-0bb4a567169c">Magic Leather Armor</card>
+    <card qty="1" id="ee3679f7-7373-4204-93cb-034568218cb7">Robe of Energy Resistance</card>
+    <card qty="1" id="f5775495-b945-43f5-a626-85268ad37fec">Robe of Vision</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="8010ef37-d827-4bfe-b2b4-6aeab8aab87a">Bracers of Protection</card>
+    <card qty="1" id="78f35882-fa8d-43fc-a7a2-9a6be9b8dbe6">Codex</card>
+    <card qty="1" id="99557d3e-6dbc-42e4-826a-eb5fd0f7ee58">Caltrops</card>
+    <card qty="1" id="091523ec-edef-4249-8ce5-f074f701c0dd">Cape of Escape</card>
+    <card qty="1" id="754218fd-047f-41c7-88bb-a339d2288cb5">Token of Remembrance</card>
+    <card qty="1" id="8980cbd3-fcea-441a-ad44-ee1b9cb0aef6">Crown of Charisma</card>
+    <card qty="1" id="c1570b5f-a090-4ef6-8b38-1c8359b6346a">Wand of Shield</card>
+    <card qty="1" id="d8ee9659-3149-4473-8642-1bdfc768209e">Boots of Elvenkind</card>
+    <card qty="1" id="04feab2b-e32c-4e68-a8e1-134d5990701a">Ivory Dice</card>
+    <card qty="1" id="47864dae-333f-473e-a6e3-166230c0df3e">Headband of Alluring Charisma</card>
+    <card qty="1" id="744d0707-db35-4977-bd5d-fcb256e2aa25">Mist Horn</card>
+    <card qty="1" id="786731ec-83ef-4ea8-b563-1f42d01d8a3e">Rabbit's Foot</card>
+    <card qty="1" id="ca3746cc-87a6-44c2-8c18-03f31f31c908">Wand of Treasure Finding</card>
+    <card qty="1" id="251f066f-35b3-4a88-bc07-482ad99b2f73">Bottled Lightning</card>
+    <card qty="1" id="3df697b4-7ea0-4315-8543-103cf9691959">Chaos Stone</card>
+    <card qty="1" id="dab57dd1-a355-4ae0-9422-026bb0c3fb7d">Pearl of Magic</card>
+    <card qty="1" id="8bf1dd0b-3dfb-4b25-bdcd-52ee65d3d69e">Ring of Energy Resistance</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="0624f22a-004e-4dbd-9bf1-6618958b8584">Sage</card>
+    <card qty="1" id="6f94fefc-8e66-4a7d-9237-cf65d40fe849">Jinx Eater</card>
+    <card qty="1" id="319225be-628b-411a-be31-88b9ad6a85fe">Turtle</card>
+    <card qty="1" id="90bea750-f0bb-471e-8ae2-c4a855a7086f">Surgeon</card>
+    <card qty="1" id="687d7e3b-2e4f-4fbd-9bf7-ad1d6de61771">Crow</card>
+    <card qty="1" id="78f500bd-1f9c-4185-8060-945acb264852">Guide</card>
+    <card qty="1" id="4baf1429-8490-4589-a03d-df5c30856368">Incanter</card>
+    <card qty="1" id="4419a0a2-4b37-47f6-b433-379e1ffa4714">Menagerie Keeper</card>
+    <card qty="1" id="807ba6ba-ec35-46c3-b0c6-4cd7d752abec">Apprentice</card>
+    <card qty="1" id="a2fa0c7e-df60-4f2d-bd95-ab77010633d3">Toad</card>
+    <card qty="1" id="3a77a966-0c85-4609-a1e8-e2d06d75f9e5">Cat</card>
+    <card qty="1" id="d43e481e-bf4f-4011-bc94-2656910f6e82">Reveler</card>
+    <card qty="1" id="5461a9e1-c056-406b-9316-b625b714d8f9">Bear</card>
+    <card qty="1" id="6352043c-3579-41c7-88c2-1ee605058290">Yap the Pixie</card>
+    <card qty="1" id="18742fbc-b772-43d8-8ca2-ff6ff78bd2bc">Ataxian</card>
+    <card qty="1" id="beff3443-f231-4307-97b7-8b60f7d38d0c">Pyromaniac Mage</card>
+    <card qty="1" id="4eb461b4-8774-47c8-86d5-7bfc518b76ca">Clockwork Owl</card>
+    <card qty="1" id="267f3d27-6222-4b26-b931-5e502f124275">Velociraptor</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="2" id="978d028c-4aa6-4393-9be6-a6666fa9c3e3">Blessing of Iomedae</card>
+    <card qty="1" id="b0923281-dea2-49af-a5ac-5ad2656ad535">Blessing of Pharasma</card>
+    <card qty="4" id="9c9a011a-c260-4336-b5f8-fe325b25e7bf">Blessing of the Gods</card>
+    <card qty="2" id="299a234a-548b-4095-a9f2-4c824de98266">Blessing of Erastil</card>
+    <card qty="1" id="b98fdd2a-f62b-4616-9969-2f7ac764056e">Blessing of Pharasma</card>
+    <card qty="2" id="b5e9c52c-53c7-4e50-b4d4-62d74cd40af6">Blessing of Abadar</card>
+    <card qty="1" id="72247e86-676d-4339-a3e5-f3a575f8cd6b">Blessing of Pharasma</card>
+    <card qty="2" id="cd1f7fff-f0af-4374-87df-2d3ccadf3e77">Blessing of Gozreh</card>
+    <card qty="1" id="d2858d43-d8e7-4a8f-8422-1c6af69b2592">Blessing of Sivanah</card>
+    <card qty="2" id="baf28e80-5857-43f5-8666-b0e223d1cdd7">Blessing of Lamashtu</card>
+    <card qty="1" id="1134a3e8-f127-45ee-9c25-93d1fb75489a">Blessing of Sivanah</card>
+    <card qty="1" id="e97406ef-8950-4113-b6f7-770be82147cc">Blessing of Achaekek</card>
+    <card qty="1" id="9925bfe4-0b85-4ff6-80b4-379ecc715ddd">Blessing of Sivanah</card>
+    <card qty="2" id="8adf5c1c-7d0f-4537-9b88-63870d5bcfd8">Blessing of Nethys</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
