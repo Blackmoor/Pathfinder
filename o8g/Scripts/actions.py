@@ -183,29 +183,28 @@ def isNotPermanentlyClosed(card):
 	if card is None or card.Type != 'Location':
 		return False
 	return card.alternate != "B"
-
-def deleteCard(card):
-	mute()
-	if card is not None:
-		card.delete()
 	
 #Any card loaded into the player area must be removed from the box otherwise we end up with duplicates
-#Find an exact match based on the card model, if none look for a name match
+#Get the card controller to find and then delete the card
 def inUse(pile):
 	mute()
 	for card in pile:
 		if card.Subtype in shared.piles:
-			found = findCard(shared.piles[card.Subtype], card.model)
-			if found is None:
-				found = findCardByName(shared.piles[card.Subtype], card.name)
-			if found is not None:
-				if found.controller != me:
-					remoteCall(found.controller, "deleteCard", [found])
-					sync()
-				else:
-					found.delete()
+			if shared.piles[card.Subtype].controller != me:
+				remoteCall(shared.piles[card.Subtype].controller, "findAndDelete", [me, card])
 			else:
-				notify("{} is using '{}' which is not in the box".format(me, card))
+				findAndDelete(me, card)
+
+#Find an exact match based on the card model, if none look for a name match
+def findAndDelete(who, card):
+	mute()
+	found = findCard(shared.piles[card.Subtype], card.model)
+	if found is None:
+		found = findCardByName(shared.piles[card.Subtype], card.name)
+	if found is not None:
+		found.delete()
+	else:
+		notify("{} is using '{}' which is not in the box".format(who, card))
 
 def rollDice(card): #Roll the dice based on the number of tokens
 	mute()
