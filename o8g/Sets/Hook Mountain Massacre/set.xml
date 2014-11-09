@@ -1,794 +1,796 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.2.0.0"><cards>
-   <card id="8d3f16a4-b991-4728-a65d-54a63c887010" name="Cryptic Message">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Barrier" />
-    <property name="Traits" value="Cache" />
-    <property name="Attr1" value="If defeated, you may examine the top 2 cards of the location deck and return them in any order.&#10;If undefeated, you may banish this barrier." />
-    <property name="Attr2" value="Intelligence&#10;Knowledge" />
-    <property name="Attr3" value="10" />
-   </card>
-   <card id="9cd451d5-95e9-452e-be53-1455c2a9accb" name="Door Spike">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Barrier" />
-    <property name="Traits" value="Trap" />
-    <property name="Attr1" value="If undefeated, you are dealt 1d4 Combat damage; each other character at this location is dealt 1 Combat damage." />
-    <property name="Attr2" value="Dexterity&#10;Disable&#10;Wisdom&#10;Perception" />
-    <property name="Attr3" value="12" />
-   </card>
-   <card id="cfe7246b-2457-4ae7-9fff-9ae23292eb1c" name="Hand Chopper">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Barrier" />
-    <property name="Traits" value="Trap" />
-    <property name="Attr1" value="If defeated, you may draw 1 random weapon, item, armor or spell (your choice) from the box and add it to your hand.&#10;If undefeated you are dealt 1d4 Combat damage; discard 1 card from the top of your deck." />
-    <property name="Attr2" value="Dexterity&#10;Disable" />
-    <property name="Attr3" value="12" />
-   </card>
-   <card id="c0d8b158-f9da-4951-9a3c-4a289f764b51" name="Ranger Stash">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Barrier" />
-    <property name="Traits" value="Cache&#10;Lock" />
-    <property name="Attr1" value="If defeated, add 1d4+1 random weapons with the Ranged trait from the box to your hand.&#10;If undefeated, you may banish this barrier." />
-    <property name="Attr2" value="Dexterity&#10;Disable" />
-    <property name="Attr3" value="12" />
-   </card>
-   <card id="eb75e7d0-3ca5-4c92-a13e-40079584ba83" name="Crowfood Graul">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogrekin&#10;Fighter&#10;Rogue" />
-    <property name="Attr1" value="Damage dealt by Crowfood is increased by 2.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="13" />
-   </card>
-   <card id="93320c1a-c5af-4471-b5c9-53a4c420447a" name="Dorella and Hookmaw Kreeg">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogre&#10;Sorcerer&#10;and&#10;Giant&#10;Ogre&#10;Fighter" />
-    <property name="Attr1" value="Before the encounter, each character at this location must succeed at a Dexterity or Acrobatics 10 check or be dealt 1d4 Electricity damage.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="(Dorella)&#10;Combat&#10;Arcane" />
-    <property name="Attr3" value="12" />
-    <property name="Attr4" value="(Hookmaw)&#10;Combat" />
-    <property name="Attr5" value="15" />
-    <property name="Attr6" value="THEN" />
-   </card>
-   <card id="1041ca1f-a3f5-49e8-a0b8-a94bc1bbe4ec" name="Graul Ogrekin">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogrekin" />
-    <property name="Attr1" value="When you encounter the Ogrekin, roll 1d4:&#10;1. The difficulty to defeat the Ogrekin is increased by 2; damage dealt by the Ogrekin is reduced by 2.&#10;2. Damage dealt by the Ogrekin is increased by 2.&#10;3. The Ogrekin may not be evaded.&#10;4. After the encounter, put the Ogrekin on the bottom of the location deck.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="13" />
-   </card>
-   <card id="9923d8eb-5ffa-4e9e-8797-bf0903a8a281" name="Hook Mountain Hag">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Hag" />
-    <property name="Attr1" value="Before the encounter, succeed at an Arcane or Divine 8 check or you may not play spells with the Attack trait.&#10;When you are dealt damage by the Hag, you must first choose spells to discard as your damage, if you have any.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="15" />
-   </card>
-   <card id="172615de-4f19-486a-95a3-e1826202f9f4" name="Kaven Windstrike">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Human&#10;Ranger&#10;Rogue" />
-    <property name="Attr1" value="If you are the only character at this location, the difficulty to defeat Kaven is increased by 2.&#10;If undefeated, instead of normal damage, Kaven deals 1d4+1 Combat damage to you; banish this card.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Charisma&#10;Diplomacy" />
-    <property name="Attr3" value="10" />
-   </card>
-   <card id="704ab879-0e38-40ee-86da-4f37763bbd39" name="Kreeg Ogre">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogre" />
-    <property name="Attr1" value="If undefeated, the Kreeg Ogre deals 1 Combat damage to each other character at this location.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="14" />
-   </card>
-   <card id="7248a906-4067-49dd-966f-7c4b5e7d151f" name="Lamatar Bayden">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Undead&#10;Wight&#10;Ranger" />
-    <property name="Attr1" value="Lamatar is immune to the Cold, Mental and Poison traits. If the check to defeat does not have the Magic trait, Lamatar is undefeated.&#10;Before the encounter, Lamatar deals 1d4-1 Cold damage to a character of your choice at this location.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="15" />
-   </card>
-   <card id="f0f8ea90-bfc4-40a7-afa6-6cad0fee7bcf" name="Lucrecia">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Lamia&#10;Sorcerer" />
-    <property name="Attr1" value="Lucrecia is immune to the Mental trait.&#10;Before the encounter, Lucrecia deals 1d4-1 Force damage to a character of your choice at this location.&#10;Any characater dealt damage by Lucrecia also buries 1 random card from his discard pile.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="14" />
-   </card>
-   <card id="26a93980-fc15-43ee-aea0-0b1bad42ee3d" name="Lunderbud">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant" />
-    <property name="Attr1" value="If undefeated, each other character at this location summons and encounters a Kreeg Ogre henchman.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="13" />
-   </card>
-   <card id="f261d5d9-1c2a-4549-bb3c-86cc06b06d1b" name="Nightbelly Boa">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Animal" />
-    <property name="Attr1" value="If undefeated, return the Nightbelly Boa faceup to the top of this location deck.&#10;Defeating the Nightbelly Boa does not allow you to close this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="14" />
-   </card>
-   <card id="277b5a0f-9463-43ba-a795-bfd3e03cbe3b" name="Ruckus Graul and Hound">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Henchman" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogrekin&#10;Fighter&#10;and&#10;Animal" />
-    <property name="Attr1" value="If you defeat the Hound, the difficulty to defeat Ruckus is decreased by 2.&#10;If defeated, you may immediately attempt to close this location." />
-    <property name="Attr2" value="(Hound)&#10;Combat" />
-    <property name="Attr3" value="10" />
-    <property name="Attr4" value="(Ruckus)&#10;Combat" />
-    <property name="Attr5" value="13" />
-    <property name="Attr6" value="THEN" />
-   </card>
-   <card id="f89a601b-2b37-48f0-b3ea-acac552e0813" name="Donkey Rats">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Animal&#10;Elite" />
-    <property name="Attr1" value="After the encounter, roll 1d6. On a 1, a character of your choice at this location summons and encounters a Graul Ogrekin henchman.&#10;If undefeated, damage dealt by the Donkey Rats is reduced to 1." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="11" />
-   </card>
-   <card id="38b748a4-96d0-49be-b5fc-22d41441af30" name="Grazuul">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Giant&#10;Troll&#10;Aquatic&#10;Fighter" />
-    <property name="Attr1" value="Add 1d8 to checks to defeat Grazuul with the Fire trait. If the check to defeat does not have either the Fire trait or the Acid trait, Grazuul is undefeated." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="16" />
-   </card>
-   <card id="9cc1da6e-6127-4417-acea-8c29cce8da72" name="Hag">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Hag" />
-    <property name="Attr1" value="Before the encounter, succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="15" />
-   </card>
-   <card id="c1b09c59-f5f2-4263-8be5-3dbee7afac74" name="Muck Graul">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Plant&#10;Ogrekin" />
-    <property name="Attr1" value="Muck Graul is immune to the Acid trait.&#10;Add 1 die to checks to defeat Muck Graul with the Fire trait.&#10;If the check to defeat does not have the Fire trait, Muck is undefeated.&#10;If undefeated, choose a random character at this location to encounter Muck; after that encounter, put Muck on the bottom of the location deck." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="15" />
-   </card>
-   <card id="10d27ef3-a096-411c-863c-1b746f95b70f" name="Myriana">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Undead&#10;Ghost&#10;Nymph&#10;Incorporeal" />
-    <property name="Attr1" value="Myriana is immune to the Mental and Poison traits.&#10;If the check to defeat does not have the Magic trait, Myriana is undefeated.&#10;If undefeated, after the encounter, reset your hand and end your turn." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="14" />
-    <property name="Attr4" value="Diplomacy" />
-    <property name="Attr5" value="10" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="397fe54c-8d79-48f0-ae2b-dae47f3da5c0" name="Ogre">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogre" />
-    <property name="Attr1" value="If undefeated, the Ogre deals 1 Combat damage dealt to each other character at this location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="14" />
-   </card>
-   <card id="e961decc-6296-4925-8f3a-fea25b6d0a72" name="Ogrekin">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogrekin" />
-    <property name="Attr1" value="When you encounter the Ogrekin, roll 1d4:&#10;1. The difficulty to defeat the Ogrekin is increased by 2; damage dealt by the Ogrekin is reduced by 1.&#10;2. Damage dealt by the Ogrekin is increased by 2.&#10;3. The Ogrekin may not be evaded.&#10;4. After the encounter, put the Ogrekin on the bottom of the location deck." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="13" />
-   </card>
-   <card id="b989d27d-7f3f-4069-9dbb-c15e7e27b626" name="Skull Ripper">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Monster" />
-    <property name="Traits" value="Construct" />
-    <property name="Attr1" value="If undefeated, succeed at a Dexterity or Acrobatics 7 check or when you take damage, discard cards from the top of your deck instead of your hand; this damage may not be reduced." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="14" />
-   </card>
-   <card id="c681814d-ccb8-42df-b011-1122f26bca8a" name="Barl Breakbones">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Necromancer" />
-    <property name="Attr1" value="After the first check, discard 1 random card from your hand, then reset your hand.&#10;Damage dealt by Barl is dealt to each character at this location.&#10;All damage dealt by Barl is Fire damage." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="17" />
-    <property name="Attr4" value="Fortitude" />
-    <property name="Attr5" value="12" />
-    <property name="Attr6" value="OR" />
-    <property name="Attr7" value="Combat" />
-    <property name="Attr8" value="21" />
-    <property name="Attr9" value="THEN" />
-   </card>
-   <card id="51aa45c2-6d16-4a5a-877f-d37c646d73e4" name="Black Magga">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Outsider" />
-    <property name="Attr1" value="Black Magga may not be evaded, and is immune to the Mental trait.&#10;Succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait.&#10;After the encounter, each character at this location attempts a Wisdom 9 check. Characters who succeed recharge 1d4 cards of their choice; characters who fail discard 1d4 cards of their choice." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="24" />
-   </card>
-   <card id="fbb96632-85a9-4dde-b873-915bb9684177" name="Jaagrath Kreeg">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogrekin&#10;Barbarian" />
-    <property name="Flavour" value="&quot;You're a pretty one. Come kiss my hook!&quot; --Jaagrath Kreeg" />
-    <property name="Attr1" value="Before the encounter, Jaagrath Kreek deals 1 Combat damage to each other character at your location.&#10;If your character has the human trait, the difficulty of checks to defeat Jaagrath is increased by 2.&#10;If undefeated, Jaagrath Kreeg deals 1 Combat damage to each other character at your location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="15" />
-    <property name="Attr4" value="Combat" />
-    <property name="Attr5" value="21" />
-    <property name="Attr6" value="THEN" />
-   </card>
-   <card id="20670550-0fe5-4f40-8409-b5dd77b47402" name="Malugus Kreeg">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogre" />
-    <property name="Flavour" value="&quot;Up every mornin', choppin' on the face stones,&#10;Bosses make the rains come down!&#10;Dam's 'bout to tumble, waters gonna rumble,&#10;Glad I don't live 'round in town!&quot; --Malugus Kreeg's wreckin' song" />
-    <property name="Attr1" value="If undefeated, Malugus Kreeg deals 1 Combat damage to each other character at this location; then move each character at this location to a random other location." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="18" />
-    <property name="Attr4" value="Combat" />
-    <property name="Attr5" value="18" />
-    <property name="Attr6" value="THEN" />
-   </card>
-   <card id="97f35e8d-6178-406e-99f8-0c60919de0d6" name="Mammy Graul">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Bane" />
-    <property name="Subtype" value="Villain" />
-    <property name="Subtype2" value="Monster" />
-    <property name="Traits" value="Giant&#10;Ogrekin&#10;Necromancer" />
-    <property name="Flavour" value="&quot;Is that you, butter knuckles? Climb on over your brothers and give Mammy a squeeze!&quot;" />
-    <property name="Attr1" value="Before the encounter, each character at this location summons and encounters an Ancient Skeleton henchman.&#10;The first time in this scenario that anyone would defeat Mammy Graul, she is undefeated." />
-    <property name="Attr2" value="Combat" />
-    <property name="Attr3" value="19" />
-   </card>
-   <card id="7258dc9a-7f64-48b0-8edd-f7bb8f83f8e3" name="Black Arrow Ranger">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Human&#10;Ranger" />
-    <property name="Attr1" value="Recharge this card to add 1d6+1 to your Perception, Dexterity or Ranged check.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Wisdom&#10;Survival&#10;Charisma&#10;Diplomacy" />
-    <property name="Attr3" value="7" />
-   </card>
-   <card id="182fc68d-b500-48cb-a5fe-fa916953ae7b" name="Cat">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Animal&#10;Arcane" />
-    <property name="Attr1" value="Reveal this card to add 2 to your check to recharge a spell.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Wisdom&#10;Survival&#10;Intelligence&#10;Arcane" />
-    <property name="Attr3" value="8" />
-   </card>
-   <card id="720326ae-dc54-461a-af12-7091feb9038d" name="Giant Badger">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Animal" />
-    <property name="Attr1" value="Bury this card to move. You automatically succeed at any check required to move. You may not play this ally during an encounter.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Wisdom&#10;Survival" />
-    <property name="Attr3" value="8" />
-   </card>
-   <card id="a169de35-643f-4a6a-a2a5-ca9bf4d936ba" name="Jakardros Sovark">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Human&#10;Ranger" />
-    <property name="Attr1" value="Recharge this card to add 1d4 to another character's combat check, or 2d4 to another character's combat check against a monster with the Giant trait.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Dexterity&#10;Ranged" />
-    <property name="Attr3" value="8" />
-    <property name="Attr4" value="Charisma&#10;Diplomacy" />
-    <property name="Attr5" value="6" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="86e29c64-d705-4489-a9b8-793526a74764" name="Monkey">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Animal" />
-    <property name="Attr1" value="Discard this card to succeed at your check to acquire an item or weapon.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Wisdom&#10;Survivial" />
-    <property name="Attr3" value="9" />
-   </card>
-   <card id="acd25232-78e6-46a3-8ca4-1b5aed89c653" name="Vale Temros">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Human&#10;Ranger" />
-    <property name="Attr1" value="Recharge this card to add 1d4 to your combat check, or 2d4 to your combat check against a monster with the Giant trait.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Strength&#10;Melee" />
-    <property name="Attr3" value="8" />
-    <property name="Attr4" value="Charisma&#10;Diplomacy" />
-    <property name="Attr5" value="6" />
-    <property name="Attr6" value="OR" />
-   </card>
-   <card id="09f18db7-e2b0-453b-8925-b17bc9b44dcb" name="Yap the Pixie">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Ally" />
-    <property name="Traits" value="Pixie" />
-    <property name="Attr1" value="Discard this card to attempt a Charisma or Diplomacy 6 check; if you succeed, evade a monster whose highest difficulty to defeat is 18 or lower.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Charisma&#10;Diplomacy" />
-    <property name="Attr3" value="2" />
-   </card>
-   <card id="6f439e8e-b25e-46fc-aa52-8aad60c90c42" name="Magic Full Plate">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Armor" />
-    <property name="Traits" value="Heavy Armor&#10;Magic" />
-    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 4.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="6" />
-   </card>
-   <card id="d2436cc1-7ec3-42b2-96ab-818844dc1ac5" name="Magic Studded Leather Armor">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Armor" />
-    <property name="Traits" value="Light Armor&#10;Magic" />
-    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="5" />
-   </card>
-   <card id="913814ca-f798-49a7-bd1e-5b16d4fd874a" name="Spiny Shield">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Armor" />
-    <property name="Traits" value="Shield&#10;Offhand&#10;Magic" />
-    <property name="Attr1" value="If you played a weapon with the 2-Handed trait on this check, you may not play this card.&#10;Discard this card to add 1d4 and the Ranged and Magic traits to your combat check.&#10;Reveal this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors , you may play another armor on this check." />
-    <property name="Attr2" value="Constitution&#10;Fortitude" />
-    <property name="Attr3" value="8" />
-   </card>
-   <card id="bc846e4d-3204-44b6-8ffa-e2f98ece3827" name="Blessing of Norgorber">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Blessing" />
-    <property name="Traits" value="Divine&#10;Norgorber" />
-    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check to acquire a boon.&#10;Discard this card to explore your location." />
-    <property name="Attr2" value="Bury any card." />
-    <property name="Attr4" value="Divine" />
-    <property name="Attr5" value="5" />
-    <property name="Attr6" value="OR" />
-    <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it." />
-   </card>
-   <card id="392a6385-e962-4d44-8b34-045e65eb0c48" name="Belt of Giant Strength">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to add 1 to your Strength check. You may play another item on this check." />
-    <property name="Attr2" value="Strength" />
-    <property name="Attr3" value="5" />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="88907730-318d-4a2d-8f89-3aa5f0275829" name="Belt of Incredible Dexterity">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to add 1 to your Dexterity check. You may play another item on this check." />
-    <property name="Attr2" value="Dexterity" />
-    <property name="Attr3" value="5" />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="75137767-4ffa-4f06-af88-0c4ab537a1a7" name="Headband of Alluring Charisma">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to add 1 to your Charisma ckeck.&#10;You may play another item on this check." />
-    <property name="Attr2" value="Charisma" />
-    <property name="Attr3" value="5" />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="57441174-4adc-4d72-8ea5-e4c44a2e1a85" name="Wand of Scorching Ray">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Item" />
-    <property name="Traits" value="Wand&#10;Magic&#10;Arcane&#10;Attack" />
-    <property name="Attr1" value="For your combat check, bury this card to roll 4d6 and add the Fire and Ranged traits." />
-    <property name="Attr2" value="Intelligence&#10;Arcane" />
-    <property name="Attr3" value="8" />
-    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it." />
-   </card>
-   <card id="3d12b383-a46c-4bfe-8c82-e06018230546" name="Headband of Vast Intelligence">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Loot" />
-    <property name="Subtype2" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic" />
-    <property name="Attr1" value="Reveal this card to add 1 to your Intelligence check. You may play another item on this check." />
-    <property name="Recharge" value="None" />
-   </card>
-   <card id="a4d912fd-e922-489a-a3a3-8a3d07043280" name="Sihedron Medallion">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Loot" />
-    <property name="Subtype2" value="Item" />
-    <property name="Traits" value="Accessory&#10;Magic&#10;Sihedron" />
-    <property name="Attr1" value="Discard this card to reduce damage dealt to you by 4." />
-    <property name="Recharge" value="Succeed at an Arcane or Divine 9 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="a3f1b13e-993b-45d2-a55d-857914c5344f" name="Wand of Enervation">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Loot" />
-    <property name="Subtype2" value="Item" />
-    <property name="Traits" value="Wand&#10;Magic&#10;Arcane" />
-    <property name="Attr1" value="Bury this card to decrease the difficulty of a combat check by 2d4, or 1d4+4 if you have the Arcane skill." />
-    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it." />
-   </card>
-   <card id="cf904956-e6a9-4679-8c80-3fcce256d7e8" name="Incendiary Cloud">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Fire" />
-    <property name="Attr1" value="Place this card in front of you when a character encounters a bane. Any character who encounters a monster this turn adds 2d4 with the Fire trait to her combat check. Discard this card at the end of this turn.&#10;If you do not have the Arcane skill, banish this card." />
-    <property name="Attr2" value="Intelligence&#10;Arcane" />
-    <property name="Attr3" value="8" />
-    <property name="Recharge" value="Succeed at an Arcane 10 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="8c004d70-f543-4dd8-a37e-29499ead26bc" name="Major Cure">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Divine&#10;Healing" />
-    <property name="Attr1" value="Reveal this card and choose a character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck and 1 random card from your discard pile into your deck, then discard this card.&#10;If you do not have the Divine skill, banish this card." />
-    <property name="Attr2" value="Wisdom&#10;Divine" />
-    <property name="Attr3" value="8" />
-    <property name="Recharge" value="Succeed at a Divine 10 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="a8fbc087-c9d9-4b90-80ea-4a896f4b1b14" name="Scrying">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Arcane&#10;Divine" />
-    <property name="Attr1" value="Discard this card to choose a type of card and examine the top 3 cards of a location deck. If there are any cards of the chosen type, set them aside. Shuffle the remaining cards into the deck, then put the cards you set aside together in any order at either the top or the bottom of the deck.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
-    <property name="Attr2" value="Intelligence&#10;Arcane" />
-    <property name="Attr3" value="10" />
-    <property name="Attr4" value="Wisdom&#10;Divine" />
-    <property name="Attr5" value="12" />
-    <property name="Attr6" value="OR" />
-    <property name="Recharge" value="Succeed at an Arcane or Divine 12 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="20801c15-eef7-45dd-bbde-17314d3deaea" name="Swipe">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Spell" />
-    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack" />
-    <property name="Attr1" value="Discard this card to decrease the difficulty of a combat check by 3. If your character is attempting the check, you may roll your Arcane or Divine die + 1d8 for your combat check.&#10;Discard this card to succeed at your check to acquire a weapon, an armor, or an item.&#10;If you do not have either the Arcane or Divine skill, banish this card." />
-    <property name="Attr2" value="Intelligence&#10;Arcane" />
-    <property name="Attr3" value="8" />
-    <property name="Attr4" value="Wisdom&#10;Divine" />
-    <property name="Attr5" value="6" />
-    <property name="Attr6" value="OR" />
-    <property name="Recharge" value="Succeed at an Arcane or Divine 10 check to recharge this card instead of discarding it." />
-   </card>
-   <card id="0b45133d-f1d8-4298-a247-658a0e568a16" name="Frost Longbow +1">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + your unmodified Strength die + 1; you may additionally discard this card to add another 1d6 with the Cold trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you are proficient with weapons, you may discard this card to add 1d4+1 with the Cold trait to a combat check at another location." />
-    <property name="Attr2" value="Dexterity&#10;Ranged" />
-    <property name="Attr3" value="11" />
-   </card>
-   <card id="ac66ebb2-f4b8-417c-acbc-9fbed22965f8" name="Longsword +2">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d8+2; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4." />
-    <property name="Attr2" value="Strength&#10;Melee" />
-    <property name="Attr3" value="10" />
-   </card>
-   <card id="eeab59df-7c62-4c9f-a7c4-4815af452e6e" name="Venomous Dagger +2">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged + 1d4+2; you may additionally recharge this card to add another 1d12 with the Poison trait.&#10;When playing another weapon, you may discard this card to add 1d4+2 with the Poison trait to the combat check." />
-    <property name="Attr2" value="Dexterity&#10;Ranged" />
-    <property name="Attr3" value="11" />
-   </card>
-   <card id="11933c88-02c2-4165-8f3e-df6abd65015b" name="Vicious Trident +1">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Boon" />
-    <property name="Subtype" value="Weapon" />
-    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;Magic" />
-    <property name="Attr1" value="For your combat check, reveal this card and discard another card to roll your Strength or Melee die + 1d8+3; you may additionally discard this card to add another 1d8+3.&#10;When you play this weapon, take 1 Force damage that may not be reduced." />
-    <property name="Attr2" value="Strength&#10;Melee" />
-    <property name="Attr3" value="12" />
-   </card>
-   <card id="4b104f23-5a3c-4adb-90eb-886abde2380e" name="Dam">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Front" />
-    <property name="Attr1" value="Monster 3&#10;Barrier 2&#10;Weapon 1&#10;Spell 0&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 0" />
-    <property name="Attr2" value="You may not move or be moved from this location unless another character is present." />
-    <property name="Attr3" value="Bury 1d4 cards of your choice from your hand. If you don't have enough cards in your hand to do so, bury any remaining cards from the top of your deck instead." />
-    <property name="Attr4" value="No effect" />
-   <alternate name="Dam" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="Despite its unfathomable age and the unbelievable size of the blocks that went into its construction, this immense dam barely holds back the flood of rain-swollen water. While the dam largely seems to be holding, gaps in the massive masonry send torrents of water blasting into the air and crashing into the river below. The thunder of countless tons of rushing water is nearly deafening." />
-   </alternate>
-   </card>
-   <card id="5b5b74d8-9070-4b3d-8e2a-07d87537e363" name="Fort Rannick">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Front" />
-    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 2&#10;Spell 0&#10;Armor 2&#10;Item 0&#10;Ally 2&#10;Blessing 0" />
-    <property name="Attr2" value="When you attempt a combat check, you may discard an ally to add 1d4 to that check." />
-    <property name="Attr3" value="Succeed at a Strength 8 check." />
-    <property name="Attr4" value="On closing, you may shuffle any allies in your discard pile into your character deck." />
-   <alternate name="Fort Rannick" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="This battle-worn but still sturdy looking fort towers over the bleak landscape stretching between the mountains and Kreegwood. With its back to the sheer cliffs of the Wyvern Mountains, the fortifications look impregnable. Yet despite the fort's significant defenses, no one appears to be manning the walls, and the stillness within suggests that the fort has been deserted." />
-   </alternate>
-   </card>
-   <card id="0cfacb98-9fe4-4465-a114-c93d30626843" name="Shimmerglens">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Front" />
-    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 0&#10;Ally 2&#10;Blessing 2" />
-    <property name="Attr2" value="You must succeed at a Wisdom or Divine 7 check to move or be moved to another location." />
-    <property name="Attr3" value="Succeed at a Wisdom or Divine 8 check." />
-    <property name="Attr4" value="For the rest of the scenario, characters at this location may choose not to reset their hands." />
-   <alternate name="Shimmerglens" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="The swamp known as the Shimmerglens is said to be haunted by nixies, nymphs, and even more dangerous fey. The paths through the mire endlessly shift as if trying to trap trespassers." />
-    <property name="Attr1" value="Characters at this location may choose not to reset their hands." />
-   </alternate>
-   </card>
-   <card id="12667c01-ac1f-4860-9071-b3777162cb22" name="Turtleback Ferry">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Front" />
-    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 1&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 1" />
-    <property name="Attr2" value="At the end of your turn, you may move." />
-    <property name="Attr3" value="Banish an item." />
-    <property name="Attr4" value="On closing, draw a random item from the box." />
-   <alternate name="Turtleback Ferry" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Location" />
-    <property name="Subtype2" value="Back" />
-    <property name="Flavour" value="A remote village in the shadow of Hook Mountain, Turtleback Ferry has long borne the brunt of violence from a nearby ogre tribe. Most villagers have long since fled to safer havens." />
-    <property name="Attr1" value="At the end of your turn, you may move." />
-    <property name="Attr4" value="At the end of your turn, you may move." />
-   </alternate>
-   </card>
-   <card id="bff03572-13a9-4444-9fd1-61d1b7ecbe76" name="The Hook Mountain Massacre">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Adventure" />
-    <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="No one has heard from the rangers of Fort Rannick for months, and the lord-mayor of Magnimar fears the worst. Investigating the fate of the lost rangers leads to the homestead of the monstrously inbred Graul half-ogres, and then the Kreeg clan of ogres, who have taken over the fort. Saving the fort reveals a stonehearted warlord manipulating the ogres, threatening to destroy the ancient dam of Skull's Crossing and sacrifice the town of Turtleback Ferry in the name of a mysterious master." />
-   <alternate name="The Hook Mountain Massacre" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Adventure" />
-    <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="Them Ogres Ain't Right&#10;The Fort in Peril&#10;Here Comes the Flood&#10;Battle at the Dam&#10;Into the Mountains" />
-    <property name="Attr2" value="Each character chooses a role card and gains a power feat." />
-   </alternate>
-   </card>
-   <card id="f29b626b-28ed-49c1-990a-c5a7f5356f18" name="Battle at the Dam">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="The destruction of Skull's Crossing wasn't just some random accident. More ogres have been at work destroying the gigantic dam, imperiling all of the lands downriver. Put a stop to the ogre demolitionists and find out why their boss, Malugus Kreeg, is on a rampage." />
-    <property name="Attr1" value="Dam&#10;Shimmerglens&#10;Garrison&#10;Guard Tower&#10;Prison&#10;Treacherous Cave&#10;Waterfront&#10;Mountain Peak" />
-   <alternate name="Battle at the Dam" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="The Dam may not be temporarily closed." />
-    <property name="Attr2" value="Malugus Kreeg" />
-    <property name="Attr3" value="Kreeg Ogres" />
-    <property name="Attr4" value="Each character gains a power feat." />
-   </alternate>
-   </card>
-   <card id="453881fa-0207-43a5-9333-d2c28e0ff916" name="Here Comes the Flood">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="Terrible, unnatural rains have flooded Turtleback Ferry, a village near Fort Rannick. Things get even worse when the nearby dam of Skull's Crossing bursts, spilling the legendary terror Black Magga into the village. Save everyone you can before the moster consumes everything!" />
-    <property name="Attr1" value="Turtleback Ferry&#10;Academy&#10;Village House&#10;Woods&#10;Waterfront&#10;General Store&#10;Dam&#10;Treacherous Cove" />
-   <alternate name="Here Comes the Flood" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="Place the villain Black Magga faceup next to the blessings deck. Shuffle all of the cards in the Henchmen list into a single stack and deal 3 into each location deck.&#10;&#10;At the start of each turn, select a random location deck and put its bottom 1d4 cards facedown under Black Magga without looking at them.&#10;&#10;When you acquire an ally, put it under this card.&#10;&#10;When either the blessings deck or all of the location decks have no cards remaining, if the number of allies under this card is at least equal to the number of allies under Black Magga, you win the scenario.&#10;" />
-    <property name="Attr2" value="Black Magga" />
-    <property name="Attr3" value="Per Location: 1 Nightbelly Boa, 1 Random Blessing, 1 Random Ally" />
-    <property name="Attr4" value="All the allies under this card." />
-   </alternate>
-   </card>
-   <card id="d4f13ef0-e9a3-4570-92f7-4908dccac5de" name="Into the Mountains">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="Malugus revealed that the ogre clanhold at Hook Mountain has been overrun! Journey through swamps, ruins and dungeons to put an end to the ogres' tyrannical new leader, the stone giant necromancer Barl Breakbones, who will eagerly sacrifice his allies to fuel his evil magic!" />
-    <property name="Attr1" value="Mountain Peak&#10;Shrine to Lamashtu&#10;Shimmerglens&#10;Woods&#10;Desecrated Vault&#10;Thassilonian Dungeon&#10;Temple&#10;Deeper Dungeons" />
-   <alternate name="Into the Mountains" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="If you defeat a henchman, place it in a stack next to this card. When the third henchman is placed on the stack, each character is dealt 1d6 Force damage." />
-    <property name="Attr2" value="Barl Breakbones" />
-    <property name="Attr3" value="Lamatar Bayden&#10;Lunderbud&#10;Hook Mountain Hags" />
-    <property name="Attr4" value="Loot: Headband of Vast Intelligence, Sihedron Medallion, Wand of Enervation" />
-   </alternate>
-   </card>
-   <card id="29d59be1-5bd2-4c64-90b3-1299944ea61c" name="The Fort in Peril">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="Fort Rannick, holdfast of the Black Arrow rangers, has been overrun by ogres! Take back the fort from the brutal Kreeg clan of ogres, uncover their sinister allies, and put an end to their brutal leader, the dreaded &quot;pappy&quot; Jaagrath Kreeg!" />
-    <property name="Attr1" value="Fort Rannick&#10;City Gate&#10;Guard Tower&#10;Garrison&#10;Warrens&#10;Prison&#10;Deeper Dungeons&#10;Mountain Peak" />
-   <alternate name="The Fort in Peril" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="The difficulty of checks to acquire allies is decreased by 3." />
-    <property name="Attr2" value="Jaagrath Kreeg" />
-    <property name="Attr3" value="Lucrecia&#10;Dorella and Hookmaw Kreeg&#10;Kaven Windstrike&#10;Kreeg Ogres" />
-    <property name="Attr4" value="Each character gains a card feat." />
-   </alternate>
-   </card>
-   <card id="e6857fb7-038e-4c29-a4cb-e2bf0c66292a" name="Them Ogres Ain't Right">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Front" />
-    <property name="Flavour" value="Contact has been lost with the guardians of Varisia's frontiers, the Black Arrows of Fort Rannick. The search for the missing rangers reveals the homestead of an inbread family of brutal ogrekin. Put an end to these cruel dullards and their corpulent mother, Mammy Graul" />
-    <property name="Attr1" value="Wooden Bridge&#10;Turtleback Ferry&#10;Farmhouse&#10;Woods&#10;Village House&#10;Waterfront&#10;General Store&#10;Prison" />
-   <alternate name="Them Ogres Ain't Right" type="B">
-    <property name="Abr" value="3" />
-    <property name="Copyright" value="Yes." />
-    <property name="Type" value="Story" />
-    <property name="Subtype" value="Scenario" />
-    <property name="Subtype2" value="Back" />
-    <property name="Attr1" value="If you defeat a henchman, place it in a stack next to this card. The difficulty to defeat Mammy Graul is increased by 1 per card in this stack." />
-    <property name="Attr2" value="Mammy Graul" />
-    <property name="Attr3" value="Ruckus Graul and Hound&#10;Crowfood Graul&#10;Graul Ogrekin" />
-    <property name="Attr4" value="Each character gains a skill feat." />
-   </alternate>
-   </card>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hook Mountain Massacre" id="d27abd73-9c8a-4f08-8684-3cb387737870" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.2.0.0">
+ <cards>
+  <card id="8d3f16a4-b991-4728-a65d-54a63c887010" name="Cryptic Message">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Cache"/>
+    <property name="Attr1" value="If defeated, you may examine the top 2 cards of the location deck and return them in any order.&#10;If undefeated, you may banish this barrier."/>
+    <property name="Attr2" value="Intelligence&#10;Knowledge"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="9cd451d5-95e9-452e-be53-1455c2a9accb" name="Door Spike">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Trap"/>
+    <property name="Attr1" value="If undefeated, you are dealt 1d4 Combat damage; each other character at this location is dealt 1 Combat damage."/>
+    <property name="Attr2" value="Dexterity&#10;Disable&#10;Wisdom&#10;Perception"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="cfe7246b-2457-4ae7-9fff-9ae23292eb1c" name="Hand Chopper">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Trap"/>
+    <property name="Attr1" value="If defeated, you may draw 1 random weapon, item, armor or spell (your choice) from the box and add it to your hand.&#10;If undefeated you are dealt 1d4 Combat damage; discard 1 card from the top of your deck."/>
+    <property name="Attr2" value="Dexterity&#10;Disable"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="c0d8b158-f9da-4951-9a3c-4a289f764b51" name="Ranger Stash">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Cache&#10;Lock"/>
+    <property name="Attr1" value="If defeated, add 1d4+1 random weapons with the Ranged trait from the box to your hand.&#10;If undefeated, you may banish this barrier."/>
+    <property name="Attr2" value="Dexterity&#10;Disable"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="eb75e7d0-3ca5-4c92-a13e-40079584ba83" name="Crowfood Graul">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogrekin&#10;Fighter&#10;Rogue"/>
+    <property name="Attr1" value="Damage dealt by Crowfood is increased by 2.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="93320c1a-c5af-4471-b5c9-53a4c420447a" name="Dorella and Hookmaw Kreeg">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogre&#10;Sorcerer&#10;and&#10;Giant&#10;Ogre&#10;Fighter"/>
+    <property name="Attr1" value="Before the encounter, each character at this location must succeed at a Dexterity or Acrobatics 10 check or be dealt 1d4 Electricity damage.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="(Dorella)&#10;Combat&#10;Arcane"/>
+    <property name="Attr3" value="12"/>
+    <property name="Attr4" value="(Hookmaw)&#10;Combat"/>
+    <property name="Attr5" value="15"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="1041ca1f-a3f5-49e8-a0b8-a94bc1bbe4ec" name="Graul Ogrekin">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogrekin"/>
+    <property name="Attr1" value="When you encounter the Ogrekin, roll 1d4:&#10;1. The difficulty to defeat the Ogrekin is increased by 2; damage dealt by the Ogrekin is reduced by 2.&#10;2. Damage dealt by the Ogrekin is increased by 2.&#10;3. The Ogrekin may not be evaded.&#10;4. After the encounter, put the Ogrekin on the bottom of the location deck.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="9923d8eb-5ffa-4e9e-8797-bf0903a8a281" name="Hook Mountain Hag">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Hag"/>
+    <property name="Attr1" value="Before the encounter, succeed at an Arcane or Divine 8 check or you may not play spells with the Attack trait.&#10;When you are dealt damage by the Hag, you must first choose spells to discard as your damage, if you have any.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="172615de-4f19-486a-95a3-e1826202f9f4" name="Kaven Windstrike">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Ranger&#10;Rogue"/>
+    <property name="Attr1" value="If you are the only character at this location, the difficulty to defeat Kaven is increased by 2.&#10;If undefeated, instead of normal damage, Kaven deals 1d4+1 Combat damage to you; banish this card.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="704ab879-0e38-40ee-86da-4f37763bbd39" name="Kreeg Ogre">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogre"/>
+    <property name="Attr1" value="If undefeated, the Kreeg Ogre deals 1 Combat damage to each other character at this location.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="7248a906-4067-49dd-966f-7c4b5e7d151f" name="Lamatar Bayden">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Undead&#10;Wight&#10;Ranger"/>
+    <property name="Attr1" value="Lamatar is immune to the Cold, Mental and Poison traits. If the check to defeat does not have the Magic trait, Lamatar is undefeated.&#10;Before the encounter, Lamatar deals 1d4-1 Cold damage to a character of your choice at this location.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="f0f8ea90-bfc4-40a7-afa6-6cad0fee7bcf" name="Lucrecia">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Lamia&#10;Sorcerer"/>
+    <property name="Attr1" value="Lucrecia is immune to the Mental trait.&#10;Before the encounter, Lucrecia deals 1d4-1 Force damage to a character of your choice at this location.&#10;Any characater dealt damage by Lucrecia also buries 1 random card from his discard pile.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="26a93980-fc15-43ee-aea0-0b1bad42ee3d" name="Lunderbud">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant"/>
+    <property name="Attr1" value="If undefeated, each other character at this location summons and encounters a Kreeg Ogre henchman.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="f261d5d9-1c2a-4549-bb3c-86cc06b06d1b" name="Nightbelly Boa">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="If undefeated, return the Nightbelly Boa faceup to the top of this location deck.&#10;Defeating the Nightbelly Boa does not allow you to close this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="277b5a0f-9463-43ba-a795-bfd3e03cbe3b" name="Ruckus Graul and Hound">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogrekin&#10;Fighter&#10;and&#10;Animal"/>
+    <property name="Attr1" value="If you defeat the Hound, the difficulty to defeat Ruckus is decreased by 2.&#10;If defeated, you may immediately attempt to close this location."/>
+    <property name="Attr2" value="(Hound)&#10;Combat"/>
+    <property name="Attr3" value="10"/>
+    <property name="Attr4" value="(Ruckus)&#10;Combat"/>
+    <property name="Attr5" value="13"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="f89a601b-2b37-48f0-b3ea-acac552e0813" name="Donkey Rats">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Elite"/>
+    <property name="Attr1" value="After the encounter, roll 1d6. On a 1, a character of your choice at this location summons and encounters a Graul Ogrekin henchman.&#10;If undefeated, damage dealt by the Donkey Rats is reduced to 1."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="38b748a4-96d0-49be-b5fc-22d41441af30" name="Grazuul">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Troll&#10;Aquatic&#10;Fighter"/>
+    <property name="Attr1" value="Add 1d8 to checks to defeat Grazuul with the Fire trait. If the check to defeat does not have either the Fire trait or the Acid trait, Grazuul is undefeated."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="16"/>
+  </card>
+  <card id="9cc1da6e-6127-4417-acea-8c29cce8da72" name="Hag">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Hag"/>
+    <property name="Attr1" value="Before the encounter, succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="c1b09c59-f5f2-4263-8be5-3dbee7afac74" name="Muck Graul">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Plant&#10;Ogrekin"/>
+    <property name="Attr1" value="Muck Graul is immune to the Acid trait.&#10;Add 1 die to checks to defeat Muck Graul with the Fire trait.&#10;If the check to defeat does not have the Fire trait, Muck is undefeated.&#10;If undefeated, choose a random character at this location to encounter Muck; after that encounter, put Muck on the bottom of the location deck."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="10d27ef3-a096-411c-863c-1b746f95b70f" name="Myriana">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Undead&#10;Ghost&#10;Nymph&#10;Incorporeal"/>
+    <property name="Attr1" value="Myriana is immune to the Mental and Poison traits.&#10;If the check to defeat does not have the Magic trait, Myriana is undefeated.&#10;If undefeated, after the encounter, reset your hand and end your turn."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="14"/>
+    <property name="Attr4" value="Diplomacy"/>
+    <property name="Attr5" value="10"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="397fe54c-8d79-48f0-ae2b-dae47f3da5c0" name="Ogre">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogre"/>
+    <property name="Attr1" value="If undefeated, the Ogre deals 1 Combat damage dealt to each other character at this location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="e961decc-6296-4925-8f3a-fea25b6d0a72" name="Ogrekin">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogrekin"/>
+    <property name="Attr1" value="When you encounter the Ogrekin, roll 1d4:&#10;1. The difficulty to defeat the Ogrekin is increased by 2; damage dealt by the Ogrekin is reduced by 1.&#10;2. Damage dealt by the Ogrekin is increased by 2.&#10;3. The Ogrekin may not be evaded.&#10;4. After the encounter, put the Ogrekin on the bottom of the location deck."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="b989d27d-7f3f-4069-9dbb-c15e7e27b626" name="Skull Ripper">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Construct"/>
+    <property name="Attr1" value="If undefeated, succeed at a Dexterity or Acrobatics 7 check or when you take damage, discard cards from the top of your deck instead of your hand; this damage may not be reduced."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="c681814d-ccb8-42df-b011-1122f26bca8a" name="Barl Breakbones">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Necromancer"/>
+    <property name="Attr1" value="After the first check, discard 1 random card from your hand, then reset your hand.&#10;Damage dealt by Barl is dealt to each character at this location.&#10;All damage dealt by Barl is Fire damage."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="17"/>
+    <property name="Attr4" value="Fortitude"/>
+    <property name="Attr5" value="12"/>
+    <property name="Attr6" value="OR"/>
+    <property name="Attr7" value="Combat"/>
+    <property name="Attr8" value="21"/>
+    <property name="Attr9" value="THEN"/>
+  </card>
+  <card id="51aa45c2-6d16-4a5a-877f-d37c646d73e4" name="Black Magga">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider"/>
+    <property name="Attr1" value="Black Magga may not be evaded, and is immune to the Mental trait.&#10;Succeed at an Arcane or Divine 14 check or you may not play spells with the Attack trait.&#10;After the encounter, each character at this location attempts a Wisdom 9 check. Characters who succeed recharge 1d4 cards of their choice; characters who fail discard 1d4 cards of their choice."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="24"/>
+  </card>
+  <card id="fbb96632-85a9-4dde-b873-915bb9684177" name="Jaagrath Kreeg">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogrekin&#10;Barbarian"/>
+    <property name="Flavour" value="&quot;You're a pretty one. Come kiss my hook!&quot; --Jaagrath Kreeg"/>
+    <property name="Attr1" value="Before the encounter, Jaagrath Kreek deals 1 Combat damage to each other character at your location.&#10;If your character has the human trait, the difficulty of checks to defeat Jaagrath is increased by 2.&#10;If undefeated, Jaagrath Kreeg deals 1 Combat damage to each other character at your location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="21"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="20670550-0fe5-4f40-8409-b5dd77b47402" name="Malugus Kreeg">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogre"/>
+    <property name="Flavour" value="&quot;Up every mornin', choppin' on the face stones,&#10;Bosses make the rains come down!&#10;Dam's 'bout to tumble, waters gonna rumble,&#10;Glad I don't live 'round in town!&quot; --Malugus Kreeg's wreckin' song"/>
+    <property name="Attr1" value="If undefeated, Malugus Kreeg deals 1 Combat damage to each other character at this location; then move each character at this location to a random other location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="18"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="18"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="97f35e8d-6178-406e-99f8-0c60919de0d6" name="Mammy Graul">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Ogrekin&#10;Necromancer"/>
+    <property name="Flavour" value="&quot;Is that you, butter knuckles? Climb on over your brothers and give Mammy a squeeze!&quot;"/>
+    <property name="Attr1" value="Before the encounter, each character at this location summons and encounters an Ancient Skeleton henchman.&#10;The first time in this scenario that anyone would defeat Mammy Graul, she is undefeated."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="19"/>
+  </card>
+  <card id="7258dc9a-7f64-48b0-8edd-f7bb8f83f8e3" name="Black Arrow Ranger">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Ranger"/>
+    <property name="Attr1" value="Recharge this card to add 1d6+1 to your Perception, Dexterity or Ranged check.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Wisdom&#10;Survival&#10;Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="182fc68d-b500-48cb-a5fe-fa916953ae7b" name="Cat">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Arcane"/>
+    <property name="Attr1" value="Reveal this card to add 2 to your check to recharge a spell.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Wisdom&#10;Survival&#10;Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="720326ae-dc54-461a-af12-7091feb9038d" name="Giant Badger">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="Bury this card to move. You automatically succeed at any check required to move. You may not play this ally during an encounter.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Wisdom&#10;Survival"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="a169de35-643f-4a6a-a2a5-ca9bf4d936ba" name="Jakardros Sovark">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Ranger"/>
+    <property name="Attr1" value="Recharge this card to add 1d4 to another character's combat check, or 2d4 to another character's combat check against a monster with the Giant trait.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="8"/>
+    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="86e29c64-d705-4489-a9b8-793526a74764" name="Monkey">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="Discard this card to succeed at your check to acquire an item or weapon.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Wisdom&#10;Survivial"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="acd25232-78e6-46a3-8ca4-1b5aed89c653" name="Vale Temros">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Ranger"/>
+    <property name="Attr1" value="Recharge this card to add 1d4 to your combat check, or 2d4 to your combat check against a monster with the Giant trait.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="8"/>
+    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="09f18db7-e2b0-453b-8925-b17bc9b44dcb" name="Yap the Pixie">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Pixie"/>
+    <property name="Attr1" value="Discard this card to attempt a Charisma or Diplomacy 6 check; if you succeed, evade a monster whose highest difficulty to defeat is 18 or lower.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="2"/>
+  </card>
+  <card id="6f439e8e-b25e-46fc-aa52-8aad60c90c42" name="Magic Full Plate">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 4.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, bury this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="d2436cc1-7ec3-42b2-96ab-818844dc1ac5" name="Magic Studded Leather Armor">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic"/>
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="5"/>
+  </card>
+  <card id="913814ca-f798-49a7-bd1e-5b16d4fd874a" name="Spiny Shield">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Offhand&#10;Magic"/>
+    <property name="Attr1" value="If you played a weapon with the 2-Handed trait on this check, you may not play this card.&#10;Discard this card to add 1d4 and the Ranged and Magic traits to your combat check.&#10;Reveal this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors , you may play another armor on this check."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="bc846e4d-3204-44b6-8ffa-e2f98ece3827" name="Blessing of Norgorber">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Norgorber"/>
+    <property name="Attr1" value="Discard this card to add 1 die to a check.&#10;Discard this card to add 2 dice to a check to acquire a boon.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Bury any card."/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="5"/>
+    <property name="Attr6" value="OR"/>
+    <property name="Recharge" value="If the top card of the blessing discard pile matches this card, recharge this card instead of discarding it."/>
+  </card>
+  <card id="392a6385-e962-4d44-8b34-045e65eb0c48" name="Belt of Giant Strength">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
+    <property name="Attr1" value="Reveal this card to add 1 to your Strength check. You may play another item on this check."/>
+    <property name="Attr2" value="Strength"/>
+    <property name="Attr3" value="5"/>
+    <property name="Recharge" value="None"/>
+  </card>
+  <card id="88907730-318d-4a2d-8f89-3aa5f0275829" name="Belt of Incredible Dexterity">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
+    <property name="Attr1" value="Reveal this card to add 1 to your Dexterity check. You may play another item on this check."/>
+    <property name="Attr2" value="Dexterity"/>
+    <property name="Attr3" value="5"/>
+    <property name="Recharge" value="None"/>
+  </card>
+  <card id="75137767-4ffa-4f06-af88-0c4ab537a1a7" name="Headband of Alluring Charisma">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
+    <property name="Attr1" value="Reveal this card to add 1 to your Charisma ckeck.&#10;You may play another item on this check."/>
+    <property name="Attr2" value="Charisma"/>
+    <property name="Attr3" value="5"/>
+    <property name="Recharge" value="None"/>
+  </card>
+  <card id="57441174-4adc-4d72-8ea5-e4c44a2e1a85" name="Wand of Scorching Ray">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Wand&#10;Magic&#10;Arcane&#10;Attack"/>
+    <property name="Attr1" value="For your combat check, bury this card to roll 4d6 and add the Fire and Ranged traits."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="8"/>
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it."/>
+  </card>
+  <card id="3d12b383-a46c-4bfe-8c82-e06018230546" name="Headband of Vast Intelligence">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
+    <property name="Attr1" value="Reveal this card to add 1 to your Intelligence check. You may play another item on this check."/>
+    <property name="Recharge" value="None"/>
+  </card>
+  <card id="a4d912fd-e922-489a-a3a3-8a3d07043280" name="Sihedron Medallion">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic&#10;Sihedron"/>
+    <property name="Attr1" value="Discard this card to reduce damage dealt to you by 4."/>
+    <property name="Recharge" value="Succeed at an Arcane or Divine 9 check to recharge this card instead of discarding it."/>
+  </card>
+  <card id="a3f1b13e-993b-45d2-a55d-857914c5344f" name="Wand of Enervation">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Wand&#10;Magic&#10;Arcane"/>
+    <property name="Attr1" value="Bury this card to decrease the difficulty of a combat check by 2d4, or 1d4+4 if you have the Arcane skill."/>
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it."/>
+  </card>
+  <card id="cf904956-e6a9-4679-8c80-3fcce256d7e8" name="Incendiary Cloud">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Fire"/>
+    <property name="Attr1" value="Place this card in front of you when a character encounters a bane. Any character who encounters a monster this turn adds 2d4 with the Fire trait to her combat check. Discard this card at the end of this turn.&#10;If you do not have the Arcane skill, banish this card."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="8"/>
+    <property name="Recharge" value="Succeed at an Arcane 10 check to recharge this card instead of discarding it."/>
+  </card>
+  <card id="8c004d70-f543-4dd8-a37e-29499ead26bc" name="Major Cure">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine&#10;Healing"/>
+    <property name="Attr1" value="Reveal this card and choose a character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck and 1 random card from your discard pile into your deck, then discard this card.&#10;If you do not have the Divine skill, banish this card."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="8"/>
+    <property name="Recharge" value="Succeed at a Divine 10 check to recharge this card instead of discarding it."/>
+  </card>
+  <card id="a8fbc087-c9d9-4b90-80ea-4a896f4b1b14" name="Scrying">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
+    <property name="Attr1" value="Discard this card to choose a type of card and examine the top 3 cards of a location deck. If there are any cards of the chosen type, set them aside. Shuffle the remaining cards into the deck, then put the cards you set aside together in any order at either the top or the bottom of the deck.&#10;If you do not have either the Arcane or Divine skill, banish this card."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="10"/>
+    <property name="Attr4" value="Wisdom&#10;Divine"/>
+    <property name="Attr5" value="12"/>
+    <property name="Attr6" value="OR"/>
+    <property name="Recharge" value="Succeed at an Arcane or Divine 12 check to recharge this card instead of discarding it."/>
+  </card>
+  <card id="20801c15-eef7-45dd-bbde-17314d3deaea" name="Swipe">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack"/>
+    <property name="Attr1" value="Discard this card to decrease the difficulty of a combat check by 3. If your character is attempting the check, you may roll your Arcane or Divine die + 1d8 for your combat check.&#10;Discard this card to succeed at your check to acquire a weapon, an armor, or an item.&#10;If you do not have either the Arcane or Divine skill, banish this card."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="8"/>
+    <property name="Attr4" value="Wisdom&#10;Divine"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="OR"/>
+    <property name="Recharge" value="Succeed at an Arcane or Divine 10 check to recharge this card instead of discarding it."/>
+  </card>
+  <card id="0b45133d-f1d8-4298-a247-658a0e568a16" name="Frost Longbow +1">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + your unmodified Strength die + 1; you may additionally discard this card to add another 1d6 with the Cold trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you are proficient with weapons, you may discard this card to add 1d4+1 with the Cold trait to a combat check at another location."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="ac66ebb2-f4b8-417c-acbc-9fbed22965f8" name="Longsword +2">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d8+2; you may additionally discard this card to add another 1d6. If you aren't proficient with weapons, the difficulty of this check is increased by 4."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="eeab59df-7c62-4c9f-a7c4-4815af452e6e" name="Venomous Dagger +2">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged + 1d4+2; you may additionally recharge this card to add another 1d12 with the Poison trait.&#10;When playing another weapon, you may discard this card to add 1d4+2 with the Poison trait to the combat check."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="11933c88-02c2-4165-8f3e-df6abd65015b" name="Vicious Trident +1">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card and discard another card to roll your Strength or Melee die + 1d8+3; you may additionally discard this card to add another 1d8+3.&#10;When you play this weapon, take 1 Force damage that may not be reduced."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="4b104f23-5a3c-4adb-90eb-886abde2380e" name="Dam">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 2&#10;Weapon 1&#10;Spell 0&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 0"/>
+    <property name="Attr2" value="You may not move or be moved from this location unless another character is present."/>
+    <property name="Attr3" value="Bury 1d4 cards of your choice from your hand. If you don't have enough cards in your hand to do so, bury any remaining cards from the top of your deck instead."/>
+    <property name="Attr4" value="No effect"/>
+    <alternate name="Dam" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Despite its unfathomable age and the unbelievable size of the blocks that went into its construction, this immense dam barely holds back the flood of rain-swollen water. While the dam largely seems to be holding, gaps in the massive masonry send torrents of water blasting into the air and crashing into the river below. The thunder of countless tons of rushing water is nearly deafening."/>
+    </alternate>
+  </card>
+  <card id="5b5b74d8-9070-4b3d-8e2a-07d87537e363" name="Fort Rannick">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 2&#10;Spell 0&#10;Armor 2&#10;Item 0&#10;Ally 2&#10;Blessing 0"/>
+    <property name="Attr2" value="When you attempt a combat check, you may discard an ally to add 1d4 to that check."/>
+    <property name="Attr3" value="Succeed at a Strength 8 check."/>
+    <property name="Attr4" value="On closing, you may shuffle any allies in your discard pile into your character deck."/>
+    <alternate name="Fort Rannick" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="This battle-worn but still sturdy looking fort towers over the bleak landscape stretching between the mountains and Kreegwood. With its back to the sheer cliffs of the Wyvern Mountains, the fortifications look impregnable. Yet despite the fort's significant defenses, no one appears to be manning the walls, and the stillness within suggests that the fort has been deserted."/>
+    </alternate>
+  </card>
+  <card id="0cfacb98-9fe4-4465-a114-c93d30626843" name="Shimmerglens">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 0&#10;Ally 2&#10;Blessing 2"/>
+    <property name="Attr2" value="You must succeed at a Wisdom or Divine 7 check to move or be moved to another location."/>
+    <property name="Attr3" value="Succeed at a Wisdom or Divine 8 check."/>
+    <property name="Attr4" value="For the rest of the scenario, characters at this location may choose not to reset their hands."/>
+    <alternate name="Shimmerglens" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="The swamp known as the Shimmerglens is said to be haunted by nixies, nymphs, and even more dangerous fey. The paths through the mire endlessly shift as if trying to trap trespassers."/>
+      <property name="Attr1" value="Characters at this location may choose not to reset their hands."/>
+    </alternate>
+  </card>
+  <card id="12667c01-ac1f-4860-9071-b3777162cb22" name="Turtleback Ferry">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 1&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 1"/>
+    <property name="Attr2" value="At the end of your turn, you may move."/>
+    <property name="Attr3" value="Banish an item."/>
+    <property name="Attr4" value="On closing, draw a random item from the box."/>
+    <alternate name="Turtleback Ferry" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="A remote village in the shadow of Hook Mountain, Turtleback Ferry has long borne the brunt of violence from a nearby ogre tribe. Most villagers have long since fled to safer havens."/>
+      <property name="Attr1" value="At the end of your turn, you may move."/>
+      <property name="Attr4" value="At the end of your turn, you may move."/>
+    </alternate>
+  </card>
+  <card id="bff03572-13a9-4444-9fd1-61d1b7ecbe76" name="The Hook Mountain Massacre">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="No one has heard from the rangers of Fort Rannick for months, and the lord-mayor of Magnimar fears the worst. Investigating the fate of the lost rangers leads to the homestead of the monstrously inbred Graul half-ogres, and then the Kreeg clan of ogres, who have taken over the fort. Saving the fort reveals a stonehearted warlord manipulating the ogres, threatening to destroy the ancient dam of Skull's Crossing and sacrifice the town of Turtleback Ferry in the name of a mysterious master."/>
+    <alternate name="The Hook Mountain Massacre" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Them Ogres Ain't Right&#10;The Fort in Peril&#10;Here Comes the Flood&#10;Battle at the Dam&#10;Into the Mountains"/>
+      <property name="Attr2" value="Each character chooses a role card and gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="f29b626b-28ed-49c1-990a-c5a7f5356f18" name="Battle at the Dam">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The destruction of Skull's Crossing wasn't just some random accident. More ogres have been at work destroying the gigantic dam, imperiling all of the lands downriver. Put a stop to the ogre demolitionists and find out why their boss, Malugus Kreeg, is on a rampage."/>
+    <property name="Attr1" value="Dam&#10;Shimmerglens&#10;Garrison&#10;Guard Tower&#10;Prison&#10;Treacherous Cave&#10;Waterfront&#10;Mountain Peak"/>
+    <alternate name="Battle at the Dam" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="The Dam may not be temporarily closed."/>
+      <property name="Attr2" value="Malugus Kreeg"/>
+      <property name="Attr3" value="Kreeg Ogres"/>
+      <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="453881fa-0207-43a5-9333-d2c28e0ff916" name="Here Comes the Flood">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="Terrible, unnatural rains have flooded Turtleback Ferry, a village near Fort Rannick. Things get even worse when the nearby dam of Skull's Crossing bursts, spilling the legendary terror Black Magga into the village. Save everyone you can before the moster consumes everything!"/>
+    <property name="Attr1" value="Turtleback Ferry&#10;Academy&#10;Village House&#10;Woods&#10;Waterfront&#10;General Store&#10;Dam&#10;Treacherous Cove"/>
+    <alternate name="Here Comes the Flood" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Place the villain Black Magga faceup next to the blessings deck. Shuffle all of the cards in the Henchmen list into a single stack and deal 3 into each location deck.&#10;&#10;At the start of each turn, select a random location deck and put its bottom 1d4 cards facedown under Black Magga without looking at them.&#10;&#10;When you acquire an ally, put it under this card.&#10;&#10;When either the blessings deck or all of the location decks have no cards remaining, if the number of allies under this card is at least equal to the number of allies under Black Magga, you win the scenario.&#10;"/>
+      <property name="Attr2" value="Black Magga"/>
+      <property name="Attr3" value="Per Location: 1 Nightbelly Boa, 1 Random Blessing, 1 Random Ally"/>
+      <property name="Attr4" value="All the allies under this card."/>
+    </alternate>
+  </card>
+  <card id="d4f13ef0-e9a3-4570-92f7-4908dccac5de" name="Into the Mountains">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="Malugus revealed that the ogre clanhold at Hook Mountain has been overrun! Journey through swamps, ruins and dungeons to put an end to the ogres' tyrannical new leader, the stone giant necromancer Barl Breakbones, who will eagerly sacrifice his allies to fuel his evil magic!"/>
+    <property name="Attr1" value="Mountain Peak&#10;Shrine to Lamashtu&#10;Shimmerglens&#10;Woods&#10;Desecrated Vault&#10;Thassilonian Dungeon&#10;Temple&#10;Deeper Dungeons"/>
+    <alternate name="Into the Mountains" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="If you defeat a henchman, place it in a stack next to this card. When the third henchman is placed on the stack, each character is dealt 1d6 Force damage."/>
+      <property name="Attr2" value="Barl Breakbones"/>
+      <property name="Attr3" value="Lamatar Bayden&#10;Lunderbud&#10;Hook Mountain Hags"/>
+      <property name="Attr4" value="Loot: Headband of Vast Intelligence, Sihedron Medallion, Wand of Enervation"/>
+    </alternate>
+  </card>
+  <card id="29d59be1-5bd2-4c64-90b3-1299944ea61c" name="The Fort in Peril">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="Fort Rannick, holdfast of the Black Arrow rangers, has been overrun by ogres! Take back the fort from the brutal Kreeg clan of ogres, uncover their sinister allies, and put an end to their brutal leader, the dreaded &quot;pappy&quot; Jaagrath Kreeg!"/>
+    <property name="Attr1" value="Fort Rannick&#10;City Gate&#10;Guard Tower&#10;Garrison&#10;Warrens&#10;Prison&#10;Deeper Dungeons&#10;Mountain Peak"/>
+    <alternate name="The Fort in Peril" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="The difficulty of checks to acquire allies is decreased by 3."/>
+      <property name="Attr2" value="Jaagrath Kreeg"/>
+      <property name="Attr3" value="Lucrecia&#10;Dorella and Hookmaw Kreeg&#10;Kaven Windstrike&#10;Kreeg Ogres"/>
+      <property name="Attr4" value="Each character gains a card feat."/>
+    </alternate>
+  </card>
+  <card id="e6857fb7-038e-4c29-a4cb-e2bf0c66292a" name="Them Ogres Ain't Right">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="Contact has been lost with the guardians of Varisia's frontiers, the Black Arrows of Fort Rannick. The search for the missing rangers reveals the homestead of an inbread family of brutal ogrekin. Put an end to these cruel dullards and their corpulent mother, Mammy Graul"/>
+    <property name="Attr1" value="Wooden Bridge&#10;Turtleback Ferry&#10;Farmhouse&#10;Woods&#10;Village House&#10;Waterfront&#10;General Store&#10;Prison"/>
+    <alternate name="Them Ogres Ain't Right" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="If you defeat a henchman, place it in a stack next to this card. The difficulty to defeat Mammy Graul is increased by 1 per card in this stack."/>
+      <property name="Attr2" value="Mammy Graul"/>
+      <property name="Attr3" value="Ruckus Graul and Hound&#10;Crowfood Graul&#10;Graul Ogrekin"/>
+      <property name="Attr4" value="Each character gains a skill feat."/>
+    </alternate>
+  </card>
  </cards>
 </set>
