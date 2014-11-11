@@ -1,843 +1,841 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Sins of the Saviors" id="3130abb9-04d8-48b8-9a44-6fedbdad8bc0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.0.0">
- <cards>
-  <card id="faf18d38-76d4-4a1e-8d51-45486b4615ae" name="Crushing Door">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Barrier"/>
-    <property name="Traits" value="Trap"/>
-    <property name="Attr1" value="If undefeated, each character at this location must succeed at a Dexterity or Acrobatics 12 check or be dealt 1d4+1 Combat damage."/>
-    <property name="Attr2" value="Dexterity&#10;Disable"/>
-    <property name="Attr3" value="13"/>
-  </card>
-  <card id="8562b913-9550-4479-bdc3-c2f9da07b3a6" name="Disjunction Pulse">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Barrier"/>
-    <property name="Traits" value="Trap&#10;Magic&#10;Arcane"/>
-    <property name="Attr1" value="If your check to defeate the Disjunction Pulse fails by 3 or more, each character at this location must recharge every card with the Magic trait in her hand."/>
-    <property name="Attr2" value="Dexterity&#10;Disable"/>
-    <property name="Attr3" value="15"/>
-  </card>
-  <card id="15dbdd62-3d77-426c-a0c9-eb573565bb14" name="Necromantic Deathtrap">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Barrier"/>
-    <property name="Traits" value="Trap&#10;Magic&#10;Arcane"/>
-    <property name="Attr1" value="If undefeated, each character at this location discards 1d4+1 cards of his choice; put this card under the top card (if any) of the location deck."/>
-    <property name="Attr2" value="Dexterity&#10;Disable&#10;Arcane"/>
-    <property name="Attr3" value="14"/>
-  </card>
-  <card id="86bc7045-5cd5-41e1-9d72-8f561c9ebd6e" name="Trapped Spellbook">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Barrier"/>
-    <property name="Traits" value="Cache&#10;Trap&#10;Arcane"/>
-    <property name="Attr1" value="If defeated, add 1d4 random spells from the box to your hand.&#10;If undefeated, each character at this location is dealt 2d4 fire damage; banish this card."/>
-    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
-    <property name="Attr3" value="15"/>
-  </card>
-  <card id="06e75337-7329-4113-a5a9-059c2d6f7cbe" name="Alu-Demon Sister">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Outsider&#10;Demon"/>
-    <property name="Attr1" value="The Alu-Demon is immune to the Electricity, Fire, and Poison traits. &#10;Succeed at an Arcane or Divine 10 check or you may not play Attack spells.&#10;If undefeated, the Alu-Demon deals no damage; instead, bury a blessing of your choice from your hand, or bury your entire hand if you have no blessings.&#10;If defeated, you may immediately attempt to close this location."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="17"/>
-  </card>
-  <card id="dbfb710a-38d3-4b36-8b3b-9ce3f12c1db2" name="Highlady Athroxis">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Human&#10;Fighter&#10;Wizard"/>
-    <property name="Attr1" value="Highlady Athroxis is immune to the Fire trait.&#10;Before the encounter, Highlady Athroxis deals 1 Fire damage to you.&#10;After the encounter, Highlady Athroxis deals 1 Fire damage to you.&#10;If defeated, you may immediately attempt to close this location."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="20"/>
-  </card>
-  <card id="a3c88fe3-d6c6-4aeb-ad90-ce52189255f2" name="Hound of Lamashtu">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Outsider"/>
-    <property name="Attr1" value="Before the encounter, each character at your location must succeed at a Wisdom 10 check or the difficulty of his checks is increased by 2 for the rest of the turn.&#10;If defeated, you may immediately attempt to close this location."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="16"/>
-  </card>
-  <card id="aae2772f-99fc-426a-b4a1-9206fe249b7d" name="Simulacrum of Vraxeris">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Human&#10;Illusionist"/>
-    <property name="Attr1" value="Before the encounter, succeed at a Wisdom 10 check or recharge your hand and draw 1 card. &#10;All damage dealt by the Simulacrum is Mental damage that may not be reduced.&#10;If defeated, you may immediately attempt to close this location."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="16"/>
-  </card>
-  <card id="4104ef6d-e75c-4ae3-afd9-5fbb49ac7676" name="Stone Head">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Barrier"/>
-    <property name="Traits" value="Trap&#10;Magic"/>
-    <property name="Attr1" value="You may bury a spell to defeat the Stone Head. If you defeat it any other way, the Stone Head delas 1d4-1 Electricity damage to each character at this location.&#10;If undefeated, you may return the Stone Head to the top of this location deck.&#10;If defeated, you may immediately attempt to close this location."/>
-    <property name="Attr2" value="Combat&#10;Disable"/>
-    <property name="Attr3" value="16"/>
-  </card>
-  <card id="1658ee7f-ac16-4051-b3a9-5657c1890bff" name="Warrior of Wrath">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Human&#10;Fighter&#10;Wizard"/>
-    <property name="Attr1" value="Before the encounter, each character at your location must succeed at a Dexterity or Acrobatics 12 check or be dealt 1 Fire damage.&#10;If undefeated, the Warrior of Wrath deals 1d4 Force damage to a random character at your location.&#10;If defeated, you may immediately attempt to close this location."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="20"/>
-  </card>
-  <card id="59c0c13e-73cc-4ebf-8895-47a7ed2afba0" name="Xyoddin Xerriock">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Zombie&#10;Rogue&#10;Undead"/>
-    <property name="Attr1" value="Xyoddin Xerriock is immune to the Mental and Poison traits. &#10;If your character has the Human trait, the difficulty to defeat Xyoddin Xerriock is increased by 3.&#10;If undefeated, the damage dealt by Xyoddin Xerriock is increased by 2.&#10;If defeated, you may immediately attempt to close this location."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="19"/>
-    <property name="Attr4" value="Divine"/>
-    <property name="Attr5" value="17"/>
-    <property name="Attr6" value="OR"/>
-  </card>
-  <card id="30febb45-763c-442f-b880-5f3adb10b08d" name="Clay Golem">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Construct&#10;Golem"/>
-    <property name="Attr1" value="You may not play spells with the Attack trait.&#10;If undefeated, after the encounter, bury your discard pile."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="21"/>
-  </card>
-  <card id="15304221-350e-4856-bd4b-6720ebaff1ed" name="Elder Earth Elemental">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Elemental"/>
-    <property name="Attr1" value="The Elemental is immune to the Mental and Poison traits.&#10;If undefeated, put the Elemental on the bottom of the location deck."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="18"/>
-  </card>
-  <card id="650a9111-c4e0-4cd9-bd23-5d4e5e3509f1" name="Elder Water Elemental">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Elemental"/>
-    <property name="Attr1" value="The elemental is immune to the Mental and Poison traits.&#10;If undefeated, you move to a random other location."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="18"/>
-  </card>
-  <card id="0f8f7ddd-8bbb-4226-97f8-dfb977d0f268" name="Iron Golem">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Construct&#10;Golem"/>
-    <property name="Attr1" value="You may not play spells with the Attack trait.&#10;Before the encounter the Golem deals 1d4-1 damage to a random character at this location. Roll 1d4 for the type of damage:&#10;    1. Cold&#10;    2. Electricity&#10;    3. FIre&#10;    4. Ranged Combat"/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="22"/>
-  </card>
-  <card id="dbbc110b-62c7-494b-bf35-7b2b649ba70c" name="Mummy">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Undead&#10;Mummy"/>
-    <property name="Attr1" value="The Mummy is immune to the Cold, Mental, and Poison traits.&#10;Add 1d8 to checks to defeat the Mummy with the Fire trait.&#10;If undefeated, after the encounter, bury your discard pile."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="21"/>
-  </card>
-  <card id="e2b27bdf-3ef7-49dd-81cd-b42adcd02f49" name="Shining Child">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Outsider"/>
-    <property name="Attr1" value="The Shining Child is immune to the Fire and Poison traits.&#10;&#10;All damage dealt by the Shining Child is Fire damage."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="20"/>
-  </card>
-  <card id="a4a0e72e-4872-4429-b406-85ef252249ee" name="Sinspawn Axeman">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Aberration&#10;Fighter"/>
-    <property name="Attr1" value="Damage dealt by the Sinspawn Axeman is increased by 1d4-1."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="19"/>
-  </card>
-  <card id="121a9e6c-0d71-4781-bc5c-160f5d6c8c64" name="Succubus">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Outsider&#10;Demon"/>
-    <property name="Attr1" value="The Succubus is immune to the Electricity, Fire, and Poison traits.&#10;Succeed at an Arcane or Divine 10 check or you may not play spells with the Attack trait.&#10;If undefeated, the Succubus deals no damage; instead, bury a blessing of your choice from your hand, or bury your entire hand if you have no blessings."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="17"/>
-  </card>
-  <card id="1c9d10a9-8308-4274-b432-3b3c05f7da1d" name="Treachery Demon">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Outsider&#10;Demon"/>
-    <property name="Attr1" value="The Treachery Demon may not be evaded, and is immune to the Electricity and Poison traits.&#10;Before the encounter, succeed at a Wisdom 12 check or a random character at this location takes an amount of Combat damage equal to the number of spells with the Attack trait and weapons in your hand."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="21"/>
-  </card>
-  <card id="78a9322e-5e76-4f7c-8cac-1fb1fb30448d" name="Arkrhyst">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Villain"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Dragon"/>
-    <property name="Flavour" value="&quot;Tread not upon the frozen stones, lest Freezemaw see and steal your bones.&quot; -- Tamiir-Quah Shoanti warning"/>
-    <property name="Attr1" value="Before the encounter, each character at this location attempts a Dexterity or Acrobatics 12 check. Characters who succeed are dealt 1 Cold damage; characters who fail are dealt 1d4 Cold damage.&#10;If Arkrhyst escapes, return him to the location where you encountered him."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="20"/>
-    <property name="Attr4" value="Combat"/>
-    <property name="Attr5" value="24"/>
-    <property name="Attr6" value="THEN"/>
-  </card>
-  <card id="fad6a7e4-22e7-49f7-b3de-0699cc20c0dd" name="Azaven">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Villain"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Undead&#10;Lich&#10;Necromancer"/>
-    <property name="Flavour" value="&quot;Who will not know my name? For I am forever!&quot; -- Azaven the Lich"/>
-    <property name="Attr1" value="Azaven is immune to the Cold, Electricity, Mental, and Poison traits. &#10;Before the encounter, attempt a Constitution or Fortitude 12 check. If you succeed, discard 1 card from your deck; if you fail, discard 1d4+1 cards from your deck.&#10;All damage dealt by Azaven is Cold damage."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="25"/>
-    <property name="Attr4" value="Arcane"/>
-    <property name="Attr5" value="18"/>
-    <property name="Attr6" value="OR"/>
-  </card>
-  <card id="067f5f5d-a0e7-4b27-a788-4c6dd99484c2" name="Jordimandus">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Villain"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Human&#10;Conjurer"/>
-    <property name="Attr1" value="Before you encounter Jordimandus, summon and encounter a random monster. If you defeat that monster, you may discard a weapon or a spell with the Attack trait to attempt a Diplomacy 14 check to defeat Jordimandus. If you fail, Jordimandus is undefeated, and deals Mental damage that may not be reduced.&#10;If undefeated, a random character at this location takes 1d4+1 Acid damage."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="25"/>
-    <property name="Attr4" value="Arcane"/>
-    <property name="Attr5" value="18"/>
-    <property name="Attr6" value="OR"/>
-  </card>
-  <card id="1b692738-96b8-4798-ad43-260093f3d755" name="Karzoug Statue">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Villain"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Construct&#10;Golem"/>
-    <property name="Flavour" value="&quot;But fear not. Your sons' gilded corpses will be returned. Let them be an enduring reminder, both of precision's necessity and that all things within this domain belong to me.&quot; -- Karzoug, Runelord of Greed, to his vaultkeeper."/>
-    <property name="Attr1" value="The Karzoug Statue is immune to the Attack and Mental traits. &#10;If undefeated, each character at this location takes 1d4-1 Combat damage; do not reset your hand at the end of the turn."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="28"/>
-  </card>
-  <card id="27153a31-1597-4aea-9a96-d18dbf3e08d9" name="Mistress Delvahine">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Villain"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Outsider&#10;Demon&#10;Bard"/>
-    <property name="Attr1" value="Mistress Delvahine is immune to the Electricity, Fire, and Poison traits. &#10;Succeed at an Arcane or Divine 12 check or you may not play spells with the Attack trait.&#10;Before the encounter, succeed at a Wisdom 12 check or a random character at your location takes Combat damage equal to the number of spells with the Attack trait and weapons in your hand.&#10;If undefeated, Delvahine does not deal damage. Instead, bury a random blessing from your hand, or bury your entire hand if you have no blessings."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="25"/>
-  </card>
-  <card id="f9ba4124-737e-4231-ba6a-1474ac4b663f" name="Ordikon">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Villain"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Human&#10;Transmuter"/>
-    <property name="Attr1" value="Whenever Ordikon deals damage, roll 1d4 for the type of damage: &#10;    1. Acid&#10;    2. Electricity&#10;    3. Fire&#10;    4. Poison&#10;The first time you defeat Ordikon this turn, roll 1d6; on a 1 or 2, Ordikon is undefeated, and you immediately encounter him again."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="25"/>
-    <property name="Attr4" value="Arcane"/>
-    <property name="Attr5" value="18"/>
-    <property name="Attr6" value="OR"/>
-  </card>
-  <card id="e4c4abfb-c0f1-466b-9db4-613195907736" name="The Scribbler">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Villain"/>
-    <property name="Subtype2" value="Monster"/>
-    <property name="Traits" value="Human&#10;Cleric&#10;Fighter"/>
-    <property name="Flavour" value="&quot;What happened to Thassilon? What became of Runelord Karzoug and Runelord Alaznist?&quot; -- The Scribbler"/>
-    <property name="Attr1" value="Before the encounter, each character at this location summons and encounters a random monster.&#10;The first time in this scenario that anyone would defeat the Scribbler, he is undefeated."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="24"/>
-  </card>
-  <card id="488978b7-cfdc-4e70-94d1-a2c842383867" name="Elven Sharpshooter">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Ally"/>
-    <property name="Traits" value="Elf&#10;Ranger"/>
-    <property name="Attr1" value="Recharge this card to add 1d6+1 with the Magic trait to your Ranged combat check.&#10;Discard this card to explore your location."/>
-    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Dexterity&#10;Ranged"/>
-    <property name="Attr3" value="12"/>
-  </card>
-  <card id="1d31f0d1-fb25-4146-ab59-f5bf4a81a26c" name="Pyromaniac Mage">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Ally"/>
-    <property name="Traits" value="Human&#10;Wizard"/>
-    <property name="Attr1" value="Recharge this card to add 1d6+1 to your Arcane or Divine check; if it is a combat check, also add the Fire trait.&#10;Discard this card to explore your current location."/>
-    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Intelligence&#10;Arcane"/>
-    <property name="Attr3" value="13"/>
-  </card>
-  <card id="d347b415-2448-49c4-a686-189006c32352" name="Sacred Killer">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Ally"/>
-    <property name="Traits" value="Half-Orc&#10;Rogue"/>
-    <property name="Attr1" value="Recharge this card to add 1d6+1 with the Poison trait to your Melee combat check.&#10;Discard this card to explore your current location."/>
-    <property name="Attr2" value="Dexterity&#10;Stealth"/>
-    <property name="Attr3" value="11"/>
-    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
-    <property name="Attr5" value="13"/>
-    <property name="Attr6" value="OR"/>
-  </card>
-  <card id="75762375-83fb-4013-b01f-4a00fc72cebb" name="Shaman">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Ally"/>
-    <property name="Traits" value="Half-Orc&#10;Cleric&#10;Divine"/>
-    <property name="Attr1" value="Recharge this card to allow every character at your location to shuffle 1 random card from her discard pile into her deck.&#10;Discard this card to explore your location."/>
-    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
-    <property name="Attr3" value="9"/>
-    <property name="Attr4" value="Wisdom&#10;Divine"/>
-    <property name="Attr5" value="7"/>
-    <property name="Attr6" value="OR"/>
-  </card>
-  <card id="21c9d74b-e9a3-4e56-b572-b39d098914a5" name="Velociraptor">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Ally"/>
-    <property name="Traits" value="Animal"/>
-    <property name="Attr1" value="Discard this card to explore your location; add 2d6 to your combat checks during this exploration."/>
-    <property name="Attr2" value="Wisdom&#10;Survival"/>
-    <property name="Attr3" value="14"/>
-  </card>
-  <card id="463c641f-d92a-45b5-93a0-295ede581778" name="Zuvuzeg">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Ally"/>
-    <property name="Traits" value="Outsider&#10;Demon"/>
-    <property name="Attr1" value="If there are no more than 3 cards in your location deck, banish this card to encounter each of them in turn.&#10;Discard this card to explore your location."/>
-    <property name="Attr2" value="Arcane&#10;Divine"/>
-    <property name="Attr3" value="18"/>
-  </card>
-  <card id="b4e1d5ee-bb01-4c26-98fa-9f76bd9210a2" name="Bolstering Armor">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Armor"/>
-    <property name="Traits" value="Light Armor&#10;Magic"/>
-    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2. You may draw up to 2 cards.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead. &#10;If you are proficient with light armors, you may recharge this card when you reset your hand."/>
-    <property name="Attr2" value="Constitution&#10;Fortitude"/>
-    <property name="Attr3" value="9"/>
-  </card>
-  <card id="0064fda8-a981-4b0e-855c-7d1ccc4cff8e" name="Invincible Breastplate">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Armor"/>
-    <property name="Traits" value="Heavy Armor&#10;Magic"/>
-    <property name="Attr1" value="Recharge this card to reduce damage dealt to you by 3. &#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, discard this card instead. &#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand."/>
-    <property name="Attr2" value="Constitution&#10;Fortitude"/>
-    <property name="Attr3" value="11"/>
-  </card>
-  <card id="45280d56-a1d0-46c0-aa95-6c32e9227489" name="Winged Shield">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Armor"/>
-    <property name="Traits" value="Shield&#10;Offhand&#10;Magic"/>
-    <property name="Attr1" value="If you played a weapon with the 2-handed trait on this check, you may not play this card. &#10;Reveal this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check.&#10;Discard this card to move to another location at the end of your turn."/>
-    <property name="Attr2" value="Constitution&#10;Fortitude"/>
-    <property name="Attr3" value="10"/>
-  </card>
-  <card id="ad281312-74c5-4465-ae30-b87c8ba56404" name="Headband of Epic Intelligence">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Item"/>
-    <property name="Traits" value="Accessory&#10;Magic"/>
-    <property name="Attr1" value="Reveal this card to add 2 to an Intelligence check. You may use another item on this check."/>
-    <property name="Attr2" value="Intelligence"/>
-    <property name="Attr3" value="7"/>
-    <property name="Recharge" value="None"/>
-  </card>
-  <card id="f8dd478c-0fc1-42de-9dd5-6c2da9ad7bf5" name="Wand of Treasure Finding">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Item"/>
-    <property name="Traits" value="Wand&#10;Magic&#10;Arcane"/>
-    <property name="Attr1" value="Bury this card on your turn to examine your location deck until you find a weapon, an item, or an armor; shuffle the location deck and put that card on top."/>
-    <property name="Attr2" value="Wisdom&#10;Perception"/>
-    <property name="Attr3" value="7"/>
-    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it."/>
-  </card>
-  <card id="82dd9287-7d15-47ec-8750-b9afb1393675" name="Fanged Falchion">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Loot"/>
-    <property name="Subtype2" value="Weapon"/>
-    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 2d4+2; you may additionally discard this card to add another 2d4. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If any d4 rolled using this weapon is a 4, count it as 6. "/>
-  </card>
-  <card id="2e38d342-b71e-4716-ab6d-a1fc377a7a1c" name="Ordikon's Staff">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Loot"/>
-    <property name="Subtype2" value="Item"/>
-    <property name="Traits" value="Staff&#10;Magic"/>
-    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to roll your Strength or Melee die + 2d12. If you aren't proficient with weapons, the difficulty of this check is incrased by 4. &#10;Reveal this card to add 2 to an Intelligence check. You may use another item on this check."/>
-    <property name="Recharge" value="None"/>
-  </card>
-  <card id="090111a3-6d6c-4117-a4e7-af996e29cd92" name="Revelation Quill">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Loot"/>
-    <property name="Subtype2" value="Item"/>
-    <property name="Traits" value="Accessory&#10;Magic"/>
-    <property name="Attr1" value="Bury this card to examine the top 5 cards of a location deck and put them back in any order."/>
-    <property name="Recharge" value="None"/>
-  </card>
-  <card id="6068b438-143e-4ad7-b677-b7c9504cd6e0" name="Runeforged Weapons">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Loot"/>
-    <property name="Subtype2" value="Special"/>
-    <property name="Traits" value="Special&#10;Magic"/>
-    <property name="Attr1" value="Place this card next to the Spires of Xin-Shalast adventure card. In each scenario of that adventure, add 2d4 to a check made in an encounter with a bane with the Transmuter trait."/>
-  </card>
-  <card id="8d902316-b667-4f95-84c4-3268f17e792f" name="Staff of Hungry Shadows">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Loot"/>
-    <property name="Subtype2" value="Item"/>
-    <property name="Traits" value="Staff&#10;Magic"/>
-    <property name="Attr1" value="When you play a spell with the Attack trait, you may reveal this card and discard a spell to add 1d8+2 to your check. If you succeed at the check, recharge a random card from your discard pile.&#10;Reveal this card and discard a spell to roll your Arcane die and decrease the difficulty of another character's combat check at your location by that amount."/>
-    <property name="Recharge" value="None"/>
-  </card>
-  <card id="000cdf9d-37e1-471c-befd-72f54b313374" name="Summon Monster">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Loot"/>
-    <property name="Subtype2" value="Spell"/>
-    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
-    <property name="Attr1" value="For your combat check, discard this card to draw a random monster from the box. Use the drawn card's highest difficulty to defeat as the result of your check, then banish the drawn card. No other cards or powers may be used on this check. If you fail the check the monster is undefeated but deals 0 damage."/>
-    <property name="Recharge" value="Succeed at an Arcane or Divine 12 check to recharge this card instead of discarding it."/>
-  </card>
-  <card id="0e1bca68-3a18-41bc-8f99-5204cf8b62e3" name="Blizzard">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Spell"/>
-    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Cold"/>
-    <property name="Attr1" value="Place this card in front of you when a character encounters a bane. Any character who encounters a monster this turn adds 2d6 with the Cold trait to her combat check. Discard this card at the end of this turn, and every other character takes 1 Cold damage.&#10;If you do not have the Arcane skill, banish this card."/>
-    <property name="Attr2" value="Intelligence&#10;Arcane"/>
-    <property name="Attr3" value="12"/>
-    <property name="Recharge" value="Succeed at an Arcane 14 check to recharge this card instead of discarding it."/>
-  </card>
-  <card id="ec3ebe77-bcb4-4e51-85cd-e139de6b4bc8" name="Disintegrate">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Spell"/>
-    <property name="Traits" value="Magic&#10;Arcane&#10;Attack"/>
-    <property name="Attr1" value="For your combat check, discard this card to roll your Arcane die + 4d6. If you defeat a non-Villain monster when playing this spell, banish that monster, even if it would otherwise be undefeated. &#10;Discard this card to defeat a barrier with the Lock or Obstacle trait.&#10;If you do not have the Arcane skill, banish this card."/>
-    <property name="Attr2" value="Intelligence&#10;Arcane"/>
-    <property name="Attr3" value="14"/>
-    <property name="Recharge" value="Succeed at an Arcane 16 check to recharge this card instead of discarding it."/>
-  </card>
-  <card id="cfe11779-825e-4182-85d5-eb9300354b7a" name="Raise Dead">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Spell"/>
-    <property name="Traits" value="Magic&#10;Divine"/>
-    <property name="Attr1" value="Discard this card and choose a dead character. His player shuffles 10 of his buried cards at random into his character deck and draws a new hand. The character is no longer dead.&#10;If you do not have the Divine skill, banish this card."/>
-    <property name="Attr2" value="Wisdom&#10;Divine"/>
-    <property name="Attr3" value="12"/>
-    <property name="Recharge" value="Succeed at a Divine 14 check to recharge this card instead of discarding it."/>
-  </card>
-  <card id="2566eabf-8e75-4eb0-a09c-4df5c569f324" name="Acidic Sling +3">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Weapon"/>
-    <property name="Traits" value="Sling&#10;Ranged&#10;Bludgeoning&#10;Magic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d6+3; you may additionally discard this card to add another 3d4 with the acid trait."/>
-    <property name="Attr2" value="Dexterity&#10;Ranged"/>
-    <property name="Attr3" value="10"/>
-  </card>
-  <card id="9ccf97ed-525b-4384-b64a-28c47d05e022" name="Dancing Scimitar +2">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Weapon"/>
-    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Finesse&#10;Magic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength of Melee die + 1d6+2; you may additionally recharge this card to add another 1d6+2. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;When playing another weapon, you may discard this card to add 1d6+2 to the combat check."/>
-    <property name="Attr2" value="Strength&#10;Melee"/>
-    <property name="Attr3" value="12"/>
-  </card>
-  <card id="03461296-8ce2-4221-89ec-26bcd9ee29c2" name="Flaming Ranseur +3">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Weapon"/>
-    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 2d4+3; you may additionally discard this card to add another 1d10 with the Fire trait. If you aren't proficient with weapons, the difficiulty of this check is increased by 4. &#10;If you fail a combat check with this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result."/>
-    <property name="Attr2" value="Strength&#10;Melee"/>
-    <property name="Attr3" value="12"/>
-  </card>
-  <card id="ec427177-02f7-4c7a-886c-c23d8be31442" name="Venomous Heavy Crossbow +2">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Weapon"/>
-    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d10+2; you may additionally discard this card to add another 1d12 with the Poison trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4. &#10;If you are proficient with weapons, you may discard this card to add 1d4+2 with the Poison trait to a combat check at another location."/>
-    <property name="Attr2" value="Dexterity&#10;Ranged"/>
-    <property name="Attr3" value="10"/>
-  </card>
-  <card id="eaaadc0b-ff2c-4e05-b24c-8f3a0298a904" name="Abjurant Halls of Envy">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 3&#10;Barrier 2&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="You may not play spells."/>
-    <property name="Attr3" value="Bury your hand."/>
-    <property name="Attr4" value="On closing, each character at this location takes 1 Force damage."/>
-    <alternate name="Abjurant Halls of Envy" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Where the walls of this complex are not horribly scorched and soot-stained, they depict bejeweled wizards countering the spells of their rivals and firing back with all manner of arcane death."/>
-      <property name="Attr2" value="You may not play spells."/>
-    </alternate>
-  </card>
-  <card id="d14ff68d-5f03-4078-9f4a-202c9ea882c0" name="Festering Maze of Sloth">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 1&#10;Ally 1&#10;Blessing 1"/>
-    <property name="Attr2" value="You may play no more than 1 card per check, regardless of type."/>
-    <property name="Attr3" value="Succeed at a Constitution or Fortitude 12 check."/>
-    <property name="Attr4" value="No effect."/>
-    <alternate name="Festering Maze of Sloth" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="A nauseating bouquet of septic smells rises from the churning canals that ooze amid this labyrinth of smeared tunnels. Here and there strange currents slip through the slime, suggesting either that some ages-old magic constantly stirs the grotesque rivers or that things better left unnamed swim unseen through the putrid channels."/>
-    </alternate>
-  </card>
-  <card id="8d9ff8b3-88bf-479b-a49e-315a38bb9c3b" name="Halls of Wrath">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 6&#10;Barrier 0&#10;Weapon 3&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="The difficulty of any combat check is increased by 2. &#10;If you fail a combat check, the damage dealt to you is increased by 2. "/>
-    <property name="Attr3" value="Succeed at an Intelligence or Knowledge 12 check."/>
-    <property name="Attr4" value="No effect."/>
-    <alternate name="Halls of Wrath" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Towering iron statues armed with deadly weapons, circles etched with arcane runes, and long, deep gouges scar the walls of these halls, which have more in common with a battlefield than a sanctuary for wizards. Among the brutal decor is a prominent mural of a heavily armored woman wielding a flaming ranseur and riding on a massive red dragon"/>
-    </alternate>
-  </card>
-  <card id="bbfcbc53-23a4-435a-8cb9-6377c7df103c" name="Iron Cages of Lust">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 2"/>
-    <property name="Attr2" value="Add 2 to your checks to acquire allies.&#10;If you fail to acquire an ally, bury an ally from your hand, if you have one."/>
-    <property name="Attr3" value="Succeed at a Charisma or Diplomacy 12 check."/>
-    <property name="Attr4" value="No effect."/>
-    <alternate name="Iron Cages of Lust" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="This opulent cathedral boasts a ceiling depicting all manner of carnal acts, supported by pillars carved in the likeness of a beautiful, nude woman. At the center of the room, walls of wavering silken sheets create a tent-like enclosure reminiscent of some exotic seraglio. The sounds of unbridled pleasure emanating from within reinforce the impression--or are those gasps of pain?"/>
-    </alternate>
-  </card>
-  <card id="b0887e8e-d108-4357-84de-ddd007d1ab46" name="Ravenous Crypts of Gluttony">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 2"/>
-    <property name="Attr2" value="While you are here, your hand size is increased by 2."/>
-    <property name="Attr3" value="Succeed at a Wisdom or Survival 12 check."/>
-    <property name="Attr4" value="No effect."/>
-    <alternate name="Ravenous Crypts of Gluttony" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Ten grinning skulls gripping bits of flesh in their teeth stare from the walls of this circular chamber. Through sturdy stone doors rumble the sounds of endless slurping and gnashing."/>
-      <property name="Attr2" value="While you are here, your hand size is increased by 2."/>
-    </alternate>
-  </card>
-  <card id="d5e2faba-c1a2-47d4-87ad-3f28df0342a3" name="Runeforge Hub">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 0&#10;Barrier 0&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="You may not start the scenario here or move here until all other locations are permanently closed."/>
-    <property name="Attr3" value="You may close this location automatically."/>
-    <property name="Attr4" value="Closing this location ends the scenario."/>
-    <alternate name="Runeforge Hub" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="The seven wings of Runeforge radiate out from this domed, central chamber--an eighth tunnel extending back to the entrance. At the hall's heart stands a pool of bubbling prismatic liquid radiating a strange light. This eerie magical light reflects upon the gigantic statues of seven glowering archmages, one grim guardian standing sentinel over each of the seven halls."/>
-    </alternate>
-  </card>
-  <card id="8263f470-fb1a-474f-9c14-1ed5b8676ef6" name="Shimmering Veils of Pride">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 1"/>
-    <property name="Attr2" value="When you succeed at a check, recharge a card."/>
-    <property name="Attr3" value="Succeed at a Wisdom or Perception 12 check."/>
-    <property name="Attr4" value="On closing, you may put any of your buried cards back in your hand."/>
-    <alternate name="Shimmering Veils of Pride" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Floor-to-ceiling mirrors line this brightly lit corridor, giving the impression that it extends into an infinity of repeating realities. Yet as faces and motions reflect in the shimmering walls, certain details seem slightly off--clothies and accessories appear out of place, movements happen a moment out of step, and features take on a resentful cast."/>
-    </alternate>
-  </card>
-  <card id="0a01bc10-c78d-45b8-82c3-a22a97726bf2" name="Sihedron Circle">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 0&#10;Barrier 0&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="Characters may not move to or explore the Sihedron Circle until all Stone Head locations are closed. When all Stone Head locations are closed, all characters move to the Sihedron Circle."/>
-    <alternate name="Sihedron Circle" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Near the snowy banks of Rimeskull lake rises a ledge dominated by seven ominious monoliths. Each of the seven massive stones are sculpted in the shape of a howling face, scarred by weather and age, with an expression that shrieks the pain of countless centuries of exposure. Freezing winds blowing through the broken cliffs gives voice to these immortal cries."/>
-    </alternate>
-  </card>
-  <card id="4fb149ef-7d74-47ad-bbe3-982bbba52e10" name="Stone Head">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="No."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 1&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="Defeating a Henchman here automatically closes this location. "/>
-    <property name="Attr4" value="All characters here move to an open location of their choice. When all Stone Head locations are closed, all characters move to the Sihedron Circle."/>
-    <alternate name="Stone Head" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="No."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Near the snowy banks of Rimeskull lake rises a ledge dominated by seven ominious monoliths. Each of the seven massive stones are sculpted in the shape of a howling face, scarred by weather and age, with an expression that shrieks the pain of countless centuries of exposure. Freezing winds blowing through the broken cliffs gives voice to these immortal cries."/>
-    </alternate>
-  </card>
-  <card id="356d15e4-472c-4ea2-bc7b-f6ec43899a81" name="Vault of Greed">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Location"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 2&#10;Barrier 0&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 4&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="If you acquire an item, banish another item from your hand, if you have one."/>
-    <property name="Attr3" value="Succeed at a Wisdom or Perception 12 check."/>
-    <property name="Attr4" value="On closing, examine all remaining cards in this deck. You may exchange any of these cards for any cards of the same type in your hand."/>
-    <alternate name="Vault of Greed" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Location"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="A tunnel of polished wood inlaid with gold and silver runes ends at a wall of greenish mist sparkling with silver motes of light. Dozens of precious stones form hypnotic patterns within the glistening walls, but no matter the gemstone's color, each reflects a hint of sinister crimson. The mist in the distance seems to call to you, drawing you into its depths."/>
-    </alternate>
-  </card>
-  <card id="d0172655-b051-4dad-b7da-3b77f73a21ec" name="Sins of the Saviors">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Adventure"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="The evil might of Thassilon has been revealed, and Sandpoint sits upon one of its more fiendish ruins. To combat the resurrection of this dark nation of sin-obsessed wizards, Sandpoint's heroes must scour the town of its haunted ruins, then travel to the dragon-guarded shores of Rimeskull. There, they'll infiltrate the ancient Thassilonian laboratory of Runeforge, face its seven sinful branches and their timeless magical guardians, and claim the power of runeforged weapons for their own."/>
-    <alternate name="Sins of the Saviors" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Adventure"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="Underneath Sandpoint&#10;Rimeskull&#10;The Halls of Seduction&#10;Thassilonian Sins&#10;Into the Runeforge"/>
-      <property name="Attr2" value="Each character gains a card feat"/>
-    </alternate>
-  </card>
-  <card id="f368c88b-5718-4d54-875a-db496d3a6dbc" name="Into the Runeforge">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="The defeat of its leaders has thrown Runeforge into disarray. Vanquish the vicious warriors of wrath--including their leader, Highlady Athroxis--and a living effigy of the Runelord of Greed, then combine the collected magic of Runeforge's masters into weapons of incredible power!"/>
-    <property name="Attr1" value="Runeforge Hub&#10;Halls of Wrath&#10;Iron Cages of Lust&#10;Shimmering Veils of Pride&#10;Ravenous Crypts of Gluttony&#10;Festering Maze of Sloth&#10;Vault of Greed&#10;"/>
-    <alternate name="Into the Runeforge" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="When setting up this scenario, put the villain Karzoug Statue in the location Runeforge Hub. Add henchmen to the other locations as usual.&#10;&#10;If you defeat a henchman but do not close the location, shuffle the henchman back into the location deck."/>
-      <property name="Attr2" value="Karzoug Statue"/>
-      <property name="Attr3" value="Highlady Athroxis&#10;Warrior of Wrath"/>
-      <property name="Attr4" value="Loot: Runeforged Weapons"/>
-    </alternate>
-  </card>
-  <card id="1542e0f7-625f-487b-ba94-b849885bb284" name="Rimeskull">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Boththe Scribbler's lair and the library beneath Jorgenfist told of a bastion of Thassilonian magic known as the Runeforge. Travel to the frosty, dragon-stalked shores of the lake called Rimeskull and use the magic of the monolithic stone heads there to open the passage within!"/>
-    <property name="Attr1" value="Sihedron Circle&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head"/>
-    <alternate name="Rimeskull" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="To set up this scenario, surround the location Sihedron Circle with 7 &quot;Stone Head&quot; location decks as described on the Sihedron Circle. Put Arkrhyst alone in the Sihedron Circle location."/>
-      <property name="Attr2" value="Arkrhyst"/>
-      <property name="Attr3" value="Stone Heads"/>
-      <property name="Attr4" value="Each character chooses a type of boon other than loot and draws a random non-Basic, non-Elite card of that type from the box."/>
-    </alternate>
-  </card>
-  <card id="8e1d1e21-79b2-471f-aad8-0ec4fa82ccf0" name="Thassilonian Sins">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="The other sinful wings of Runeforge branch off from a central hub circled by statues of Thassilon's forgotten rulers. Hunt down the megalomaniacal masters of the labyrinth, put their ages-old tyranny to an end, and liberate their sinister treasures so you can claim their united powers!"/>
-    <property name="Attr1" value="Ravenous Crypts of Gluttony&#10;Festering Maze of Sloth&#10;Vault of Greed&#10;Shimmering Veils of Pride&#10;Abjurant Halls of Envy&#10;Thassilonian Dungeon&#10;Throne Room&#10;Desecrated Vault"/>
-    <alternate name="Thassilonian Sins" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="When a villain is defeated and cannot escape, put it next to this card; any characters at that villain's previous location may immediately move.&#10;&#10;To win this scenario, all three villains must be next to this card."/>
-      <property name="Attr2" value="Azaven&#10;Ordikon&#10;Jordimandus"/>
-      <property name="Attr3" value="Xyoddin Xerriock&#10;Simulacrum of Vraxeris"/>
-      <property name="Attr4" value="Loot: Staff of Hungry Shadows, Summon Monster, Ordikon's Staff"/>
-    </alternate>
-  </card>
-  <card id="22d9c578-7e16-40c2-87a2-ea88aeda3626" name="The Halls of Seduction">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="The seven wings of Runeforge are each controlled by powerful adherents of Thassilon's deadly sin magic. Within the wing devoted to the sin of lust, the sadistic Mistress Delvahine seeks to control all who trespass upon Runeforge's halls."/>
-    <property name="Attr1" value="Iron Cages of Lust&#10;Shimmering Veils of Pride&#10;Academy&#10;Throne Room&#10;Temple&#10;Garrison&#10;Prison&#10;Abjurant Halls of Envy"/>
-    <alternate name="The Halls of Seduction" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="If you acquire an ally, reset your hand and end your turn."/>
-      <property name="Attr2" value="Mistress Delvahine"/>
-      <property name="Attr3" value="Alu-Demon Sisters"/>
-      <property name="Attr4" value="Each character gains a power feat."/>
-    </alternate>
-  </card>
-  <card id="eba3b076-0f25-40bb-b351-c5f97f4fc700" name="Underneath Sandpoint">
-    <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="An ageless evil festers in ruins hidden beneath the streets of Sandpoint. Awaked by the goblin raid long past, the undying cultist called the Scribbler has been restored and is ready to use the power of the demon-goddess Lamashtu to claim lives once more!"/>
-    <property name="Attr1" value="Shrine to Lamashtu&#10;Garrison&#10;Thassilonian Dungeon&#10;Town Square&#10;The Old Light&#10;Sandpoint Cathedral&#10;Halls of Wrath&#10;Prison"/>
-    <alternate name="Underneath Sandpoint" type="B">
-      <property name="Abr" value="5"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="When you permanently close a location, you must succeed at a Wisdom or Divine 8 check or reset your hand and end your turn."/>
-      <property name="Attr2" value="The Scribbler"/>
-      <property name="Attr3" value="Hound of Lamashtu"/>
-      <property name="Attr4" value="Loot: Fanged Falchion, Revelation Quill"/>
-    </alternate>
-  </card>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Sins of the Saviors" id="3130abb9-04d8-48b8-9a44-6fedbdad8bc0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.0.0"><cards>
+   <card id="faf18d38-76d4-4a1e-8d51-45486b4615ae" name="Crushing Door">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Trap" />
+    <property name="Attr1" value="If undefeated, each character at this location must succeed at a Dexterity or Acrobatics 12 check or be dealt 1d4+1 Combat damage." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="8562b913-9550-4479-bdc3-c2f9da07b3a6" name="Disjunction Pulse">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Trap&#10;Magic&#10;Arcane" />
+    <property name="Attr1" value="If your check to defeate the Disjunction Pulse fails by 3 or more, each character at this location must recharge every card with the Magic trait in her hand." />
+    <property name="Attr2" value="Dexterity&#10;Disable" />
+    <property name="Attr3" value="15" />
+   </card>
+   <card id="15dbdd62-3d77-426c-a0c9-eb573565bb14" name="Necromantic Deathtrap">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Trap&#10;Magic&#10;Arcane" />
+    <property name="Attr1" value="If undefeated, each character at this location discards 1d4+1 cards of his choice; put this card under the top card (if any) of the location deck." />
+    <property name="Attr2" value="Dexterity&#10;Disable&#10;Arcane" />
+    <property name="Attr3" value="14" />
+   </card>
+   <card id="86bc7045-5cd5-41e1-9d72-8f561c9ebd6e" name="Trapped Spellbook">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Barrier" />
+    <property name="Traits" value="Cache&#10;Trap&#10;Arcane" />
+    <property name="Attr1" value="If defeated, add 1d4 random spells from the box to your hand.&#10;If undefeated, each character at this location is dealt 2d4 fire damage; banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine" />
+    <property name="Attr3" value="15" />
+   </card>
+   <card id="06e75337-7329-4113-a5a9-059c2d6f7cbe" name="Alu-Demon Sister">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Outsider&#10;Demon" />
+    <property name="Attr1" value="The Alu-Demon is immune to the Electricity, Fire, and Poison traits. &#10;Succeed at an Arcane or Divine 10 check or you may not play Attack spells.&#10;If undefeated, the Alu-Demon deals no damage; instead, bury a blessing of your choice from your hand, or bury your entire hand if you have no blessings.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+   </card>
+   <card id="dbfb710a-38d3-4b36-8b3b-9ce3f12c1db2" name="Highlady Athroxis">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Fighter&#10;Wizard" />
+    <property name="Attr1" value="Highlady Athroxis is immune to the Fire trait.&#10;Before the encounter, Highlady Athroxis deals 1 Fire damage to you.&#10;After the encounter, Highlady Athroxis deals 1 Fire damage to you.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="20" />
+   </card>
+   <card id="a3c88fe3-d6c6-4aeb-ad90-ce52189255f2" name="Hound of Lamashtu">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Outsider" />
+    <property name="Attr1" value="Before the encounter, each character at your location must succeed at a Wisdom 10 check or the difficulty of his checks is increased by 2 for the rest of the turn.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="aae2772f-99fc-426a-b4a1-9206fe249b7d" name="Simulacrum of Vraxeris">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Illusionist" />
+    <property name="Attr1" value="Before the encounter, succeed at a Wisdom 10 check or recharge your hand and draw 1 card. &#10;All damage dealt by the Simulacrum is Mental damage that may not be reduced.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="4104ef6d-e75c-4ae3-afd9-5fbb49ac7676" name="Stone Head">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Barrier" />
+    <property name="Traits" value="Trap&#10;Magic" />
+    <property name="Attr1" value="You may bury a spell to defeat the Stone Head. If you defeat it any other way, the Stone Head delas 1d4-1 Electricity damage to each character at this location.&#10;If undefeated, you may return the Stone Head to the top of this location deck.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat&#10;Disable" />
+    <property name="Attr3" value="16" />
+   </card>
+   <card id="1658ee7f-ac16-4051-b3a9-5657c1890bff" name="Warrior of Wrath">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Fighter&#10;Wizard" />
+    <property name="Attr1" value="Before the encounter, each character at your location must succeed at a Dexterity or Acrobatics 12 check or be dealt 1 Fire damage.&#10;If undefeated, the Warrior of Wrath deals 1d4 Force damage to a random character at your location.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="20" />
+   </card>
+   <card id="59c0c13e-73cc-4ebf-8895-47a7ed2afba0" name="Xyoddin Xerriock">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Henchman" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Zombie&#10;Rogue&#10;Undead" />
+    <property name="Attr1" value="Xyoddin Xerriock is immune to the Mental and Poison traits. &#10;If your character has the Human trait, the difficulty to defeat Xyoddin Xerriock is increased by 3.&#10;If undefeated, the damage dealt by Xyoddin Xerriock is increased by 2.&#10;If defeated, you may immediately attempt to close this location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="19" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="17" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="30febb45-763c-442f-b880-5f3adb10b08d" name="Clay Golem">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Construct&#10;Golem" />
+    <property name="Attr1" value="You may not play spells with the Attack trait.&#10;If undefeated, after the encounter, bury your discard pile." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="21" />
+   </card>
+   <card id="15304221-350e-4856-bd4b-6720ebaff1ed" name="Elder Earth Elemental">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Elemental" />
+    <property name="Attr1" value="The Elemental is immune to the Mental and Poison traits.&#10;If undefeated, put the Elemental on the bottom of the location deck." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="18" />
+   </card>
+   <card id="650a9111-c4e0-4cd9-bd23-5d4e5e3509f1" name="Elder Water Elemental">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Elemental" />
+    <property name="Attr1" value="The elemental is immune to the Mental and Poison traits.&#10;If undefeated, you move to a random other location." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="18" />
+   </card>
+   <card id="0f8f7ddd-8bbb-4226-97f8-dfb977d0f268" name="Iron Golem">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Construct&#10;Golem" />
+    <property name="Attr1" value="You may not play spells with the Attack trait.&#10;Before the encounter the Golem deals 1d4-1 damage to a random character at this location. Roll 1d4 for the type of damage:&#10;    1. Cold&#10;    2. Electricity&#10;    3. FIre&#10;    4. Ranged Combat" />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="22" />
+   </card>
+   <card id="dbbc110b-62c7-494b-bf35-7b2b649ba70c" name="Mummy">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Undead&#10;Mummy" />
+    <property name="Attr1" value="The Mummy is immune to the Cold, Mental, and Poison traits.&#10;Add 1d8 to checks to defeat the Mummy with the Fire trait.&#10;If undefeated, after the encounter, bury your discard pile." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="21" />
+   </card>
+   <card id="e2b27bdf-3ef7-49dd-81cd-b42adcd02f49" name="Shining Child">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Outsider" />
+    <property name="Attr1" value="The Shining Child is immune to the Fire and Poison traits.&#10;&#10;All damage dealt by the Shining Child is Fire damage." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="20" />
+   </card>
+   <card id="a4a0e72e-4872-4429-b406-85ef252249ee" name="Sinspawn Axeman">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Aberration&#10;Fighter" />
+    <property name="Attr1" value="Damage dealt by the Sinspawn Axeman is increased by 1d4-1." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="19" />
+   </card>
+   <card id="121a9e6c-0d71-4781-bc5c-160f5d6c8c64" name="Succubus">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Outsider&#10;Demon" />
+    <property name="Attr1" value="The Succubus is immune to the Electricity, Fire, and Poison traits.&#10;Succeed at an Arcane or Divine 10 check or you may not play spells with the Attack trait.&#10;If undefeated, the Succubus deals no damage; instead, bury a blessing of your choice from your hand, or bury your entire hand if you have no blessings." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="17" />
+   </card>
+   <card id="1c9d10a9-8308-4274-b432-3b3c05f7da1d" name="Treachery Demon">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Outsider&#10;Demon" />
+    <property name="Attr1" value="The Treachery Demon may not be evaded, and is immune to the Electricity and Poison traits.&#10;Before the encounter, succeed at a Wisdom 12 check or a random character at this location takes an amount of Combat damage equal to the number of spells with the Attack trait and weapons in your hand." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="21" />
+   </card>
+   <card id="78a9322e-5e76-4f7c-8cac-1fb1fb30448d" name="Arkrhyst">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Dragon" />
+    <property name="Flavour" value="&quot;Tread not upon the frozen stones, lest Freezemaw see and steal your bones.&quot; -- Tamiir-Quah Shoanti warning" />
+    <property name="Attr1" value="Before the encounter, each character at this location attempts a Dexterity or Acrobatics 12 check. Characters who succeed are dealt 1 Cold damage; characters who fail are dealt 1d4 Cold damage.&#10;If Arkrhyst escapes, return him to the location where you encountered him." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="20" />
+    <property name="Attr4" value="Combat" />
+    <property name="Attr5" value="24" />
+    <property name="Attr6" value="THEN" />
+   </card>
+   <card id="fad6a7e4-22e7-49f7-b3de-0699cc20c0dd" name="Azaven">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Undead&#10;Lich&#10;Necromancer" />
+    <property name="Flavour" value="&quot;Who will not know my name? For I am forever!&quot; -- Azaven the Lich" />
+    <property name="Attr1" value="Azaven is immune to the Cold, Electricity, Mental, and Poison traits. &#10;Before the encounter, attempt a Constitution or Fortitude 12 check. If you succeed, discard 1 card from your deck; if you fail, discard 1d4+1 cards from your deck.&#10;All damage dealt by Azaven is Cold damage." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="25" />
+    <property name="Attr4" value="Arcane" />
+    <property name="Attr5" value="18" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="067f5f5d-a0e7-4b27-a788-4c6dd99484c2" name="Jordimandus">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Conjurer" />
+    <property name="Attr1" value="Before you encounter Jordimandus, summon and encounter a random monster. If you defeat that monster, you may discard a weapon or a spell with the Attack trait to attempt a Diplomacy 14 check to defeat Jordimandus. If you fail, Jordimandus is undefeated, and deals Mental damage that may not be reduced.&#10;If undefeated, a random character at this location takes 1d4+1 Acid damage." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="25" />
+    <property name="Attr4" value="Arcane" />
+    <property name="Attr5" value="18" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="1b692738-96b8-4798-ad43-260093f3d755" name="Karzoug Statue">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Construct&#10;Golem" />
+    <property name="Flavour" value="&quot;But fear not. Your sons' gilded corpses will be returned. Let them be an enduring reminder, both of precision's necessity and that all things within this domain belong to me.&quot; -- Karzoug, Runelord of Greed, to his vaultkeeper." />
+    <property name="Attr1" value="The Karzoug Statue is immune to the Attack and Mental traits. &#10;If undefeated, each character at this location takes 1d4-1 Combat damage; do not reset your hand at the end of the turn." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="28" />
+   </card>
+   <card id="27153a31-1597-4aea-9a96-d18dbf3e08d9" name="Mistress Delvahine">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Outsider&#10;Demon&#10;Bard" />
+    <property name="Attr1" value="Mistress Delvahine is immune to the Electricity, Fire, and Poison traits. &#10;Succeed at an Arcane or Divine 12 check or you may not play spells with the Attack trait.&#10;Before the encounter, succeed at a Wisdom 12 check or a random character at your location takes Combat damage equal to the number of spells with the Attack trait and weapons in your hand.&#10;If undefeated, Delvahine does not deal damage. Instead, bury a random blessing from your hand, or bury your entire hand if you have no blessings." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="25" />
+   </card>
+   <card id="f9ba4124-737e-4231-ba6a-1474ac4b663f" name="Ordikon">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Transmuter" />
+    <property name="Attr1" value="Whenever Ordikon deals damage, roll 1d4 for the type of damage: &#10;    1. Acid&#10;    2. Electricity&#10;    3. Fire&#10;    4. Poison&#10;The first time you defeat Ordikon this turn, roll 1d6; on a 1 or 2, Ordikon is undefeated, and you immediately encounter him again." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="25" />
+    <property name="Attr4" value="Arcane" />
+    <property name="Attr5" value="18" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="e4c4abfb-c0f1-466b-9db4-613195907736" name="The Scribbler">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Bane" />
+    <property name="Subtype" value="Villain" />
+    <property name="Subtype2" value="Monster" />
+    <property name="Traits" value="Human&#10;Cleric&#10;Fighter" />
+    <property name="Flavour" value="&quot;What happened to Thassilon? What became of Runelord Karzoug and Runelord Alaznist?&quot; -- The Scribbler" />
+    <property name="Attr1" value="Before the encounter, each character at this location summons and encounters a random monster.&#10;The first time in this scenario that anyone would defeat the Scribbler, he is undefeated." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="24" />
+   </card>
+   <card id="488978b7-cfdc-4e70-94d1-a2c842383867" name="Elven Sharpshooter">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Elf&#10;Ranger" />
+    <property name="Attr1" value="Recharge this card to add 1d6+1 with the Magic trait to your Ranged combat check.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Dexterity&#10;Ranged" />
+    <property name="Attr3" value="12" />
+   </card>
+   <card id="1d31f0d1-fb25-4146-ab59-f5bf4a81a26c" name="Pyromaniac Mage">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Human&#10;Wizard" />
+    <property name="Attr1" value="Recharge this card to add 1d6+1 to your Arcane or Divine check; if it is a combat check, also add the Fire trait.&#10;Discard this card to explore your current location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Intelligence&#10;Arcane" />
+    <property name="Attr3" value="13" />
+   </card>
+   <card id="d347b415-2448-49c4-a686-189006c32352" name="Sacred Killer">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Half-Orc&#10;Rogue" />
+    <property name="Attr1" value="Recharge this card to add 1d6+1 with the Poison trait to your Melee combat check.&#10;Discard this card to explore your current location." />
+    <property name="Attr2" value="Dexterity&#10;Stealth" />
+    <property name="Attr3" value="11" />
+    <property name="Attr4" value="Charisma&#10;Diplomacy" />
+    <property name="Attr5" value="13" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="75762375-83fb-4013-b01f-4a00fc72cebb" name="Shaman">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Half-Orc&#10;Cleric&#10;Divine" />
+    <property name="Attr1" value="Recharge this card to allow every character at your location to shuffle 1 random card from her discard pile into her deck.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Charisma&#10;Diplomacy" />
+    <property name="Attr3" value="9" />
+    <property name="Attr4" value="Wisdom&#10;Divine" />
+    <property name="Attr5" value="7" />
+    <property name="Attr6" value="OR" />
+   </card>
+   <card id="21c9d74b-e9a3-4e56-b572-b39d098914a5" name="Velociraptor">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Animal" />
+    <property name="Attr1" value="Discard this card to explore your location; add 2d6 to your combat checks during this exploration." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="14" />
+   </card>
+   <card id="463c641f-d92a-45b5-93a0-295ede581778" name="Zuvuzeg">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Ally" />
+    <property name="Traits" value="Outsider&#10;Demon" />
+    <property name="Attr1" value="If there are no more than 3 cards in your location deck, banish this card to encounter each of them in turn.&#10;Discard this card to explore your location." />
+    <property name="Attr2" value="Arcane&#10;Divine" />
+    <property name="Attr3" value="18" />
+   </card>
+   <card id="b4e1d5ee-bb01-4c26-98fa-9f76bd9210a2" name="Bolstering Armor">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Light Armor&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2. You may draw up to 2 cards.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead. &#10;If you are proficient with light armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="9" />
+   </card>
+   <card id="0064fda8-a981-4b0e-855c-7d1ccc4cff8e" name="Invincible Breastplate">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Heavy Armor&#10;Magic" />
+    <property name="Attr1" value="Recharge this card to reduce damage dealt to you by 3. &#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, discard this card instead. &#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="11" />
+   </card>
+   <card id="45280d56-a1d0-46c0-aa95-6c32e9227489" name="Winged Shield">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Armor" />
+    <property name="Traits" value="Shield&#10;Offhand&#10;Magic" />
+    <property name="Attr1" value="If you played a weapon with the 2-handed trait on this check, you may not play this card. &#10;Reveal this card to reduce Combat damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check.&#10;Discard this card to move to another location at the end of your turn." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="10" />
+   </card>
+   <card id="ad281312-74c5-4465-ae30-b87c8ba56404" name="Headband of Epic Intelligence">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic" />
+    <property name="Attr1" value="Reveal this card to add 2 to an Intelligence check. You may use another item on this check." />
+    <property name="Attr2" value="Intelligence" />
+    <property name="Attr3" value="7" />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="f8dd478c-0fc1-42de-9dd5-6c2da9ad7bf5" name="Wand of Treasure Finding">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Item" />
+    <property name="Traits" value="Wand&#10;Magic&#10;Arcane" />
+    <property name="Attr1" value="Bury this card on your turn to examine your location deck until you find a weapon, an item, or an armor; shuffle the location deck and put that card on top." />
+    <property name="Attr2" value="Wisdom&#10;Perception" />
+    <property name="Attr3" value="7" />
+    <property name="Recharge" value="Succeed at an Arcane 8 check to recharge this card instead of burying it." />
+   </card>
+   <card id="82dd9287-7d15-47ec-8750-b9afb1393675" name="Fanged Falchion">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 2d4+2; you may additionally discard this card to add another 2d4. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If any d4 rolled using this weapon is a 4, count it as 6. " />
+   </card>
+   <card id="2e38d342-b71e-4716-ab6d-a1fc377a7a1c" name="Ordikon's Staff">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Item" />
+    <property name="Traits" value="Staff&#10;Magic" />
+    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to roll your Strength or Melee die + 2d12. If you aren't proficient with weapons, the difficulty of this check is incrased by 4. &#10;Reveal this card to add 2 to an Intelligence check. You may use another item on this check." />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="090111a3-6d6c-4117-a4e7-af996e29cd92" name="Revelation Quill">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Item" />
+    <property name="Traits" value="Accessory&#10;Magic" />
+    <property name="Attr1" value="Bury this card to examine the top 5 cards of a location deck and put them back in any order." />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="6068b438-143e-4ad7-b677-b7c9504cd6e0" name="Runeforged Weapons">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Special" />
+    <property name="Traits" value="Special&#10;Magic" />
+    <property name="Attr1" value="Place this card next to the Spires of Xin-Shalast adventure card. In each scenario of that adventure, add 2d4 to a check made in an encounter with a bane with the Transmuter trait." />
+   </card>
+   <card id="8d902316-b667-4f95-84c4-3268f17e792f" name="Staff of Hungry Shadows">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Item" />
+    <property name="Traits" value="Staff&#10;Magic" />
+    <property name="Attr1" value="When you play a spell with the Attack trait, you may reveal this card and discard a spell to add 1d8+2 to your check. If you succeed at the check, recharge a random card from your discard pile.&#10;Reveal this card and discard a spell to roll your Arcane die and decrease the difficulty of another character's combat check at your location by that amount." />
+    <property name="Recharge" value="None" />
+   </card>
+   <card id="000cdf9d-37e1-471c-befd-72f54b313374" name="Summon Monster">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Loot" />
+    <property name="Subtype2" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine" />
+    <property name="Attr1" value="For your combat check, discard this card to draw a random monster from the box. Use the drawn card's highest difficulty to defeat as the result of your check, then banish the drawn card. No other cards or powers may be used on this check. If you fail the check the monster is undefeated but deals 0 damage." />
+    <property name="Recharge" value="Succeed at an Arcane or Divine 12 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="0e1bca68-3a18-41bc-8f99-5204cf8b62e3" name="Blizzard">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Cold" />
+    <property name="Attr1" value="Place this card in front of you when a character encounters a bane. Any character who encounters a monster this turn adds 2d6 with the Cold trait to her combat check. Discard this card at the end of this turn, and every other character takes 1 Cold damage.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="12" />
+    <property name="Recharge" value="Succeed at an Arcane 14 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="ec3ebe77-bcb4-4e51-85cd-e139de6b4bc8" name="Disintegrate">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack" />
+    <property name="Attr1" value="For your combat check, discard this card to roll your Arcane die + 4d6. If you defeat a non-Villain monster when playing this spell, banish that monster, even if it would otherwise be undefeated. &#10;Discard this card to defeat a barrier with the Lock or Obstacle trait.&#10;If you do not have the Arcane skill, banish this card." />
+    <property name="Attr2" value="Intelligence&#10;Arcane" />
+    <property name="Attr3" value="14" />
+    <property name="Recharge" value="Succeed at an Arcane 16 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="cfe11779-825e-4182-85d5-eb9300354b7a" name="Raise Dead">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Spell" />
+    <property name="Traits" value="Magic&#10;Divine" />
+    <property name="Attr1" value="Discard this card and choose a dead character. His player shuffles 10 of his buried cards at random into his character deck and draws a new hand. The character is no longer dead.&#10;If you do not have the Divine skill, banish this card." />
+    <property name="Attr2" value="Wisdom&#10;Divine" />
+    <property name="Attr3" value="12" />
+    <property name="Recharge" value="Succeed at a Divine 14 check to recharge this card instead of discarding it." />
+   </card>
+   <card id="2566eabf-8e75-4eb0-a09c-4df5c569f324" name="Acidic Sling +3">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sling&#10;Ranged&#10;Bludgeoning&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d6+3; you may additionally discard this card to add another 3d4 with the acid trait." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="10" />
+   </card>
+   <card id="9ccf97ed-525b-4384-b64a-28c47d05e022" name="Dancing Scimitar +2">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Finesse&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength of Melee die + 1d6+2; you may additionally recharge this card to add another 1d6+2. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;When playing another weapon, you may discard this card to add 1d6+2 to the combat check." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="12" />
+   </card>
+   <card id="03461296-8ce2-4221-89ec-26bcd9ee29c2" name="Flaming Ranseur +3">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 2d4+3; you may additionally discard this card to add another 1d10 with the Fire trait. If you aren't proficient with weapons, the difficiulty of this check is increased by 4. &#10;If you fail a combat check with this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="12" />
+   </card>
+   <card id="ec427177-02f7-4c7a-886c-c23d8be31442" name="Venomous Heavy Crossbow +2">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Boon" />
+    <property name="Subtype" value="Weapon" />
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic" />
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Dexterity or Ranged die + 1d10+2; you may additionally discard this card to add another 1d12 with the Poison trait. If you aren't proficient with weapons, the difficulty of this check is increased by 4. &#10;If you are proficient with weapons, you may discard this card to add 1d4+2 with the Poison trait to a combat check at another location." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="10" />
+   </card>
+   <card id="eaaadc0b-ff2c-4e05-b24c-8f3a0298a904" name="Abjurant Halls of Envy">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 3&#10;Barrier 2&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0" />
+    <property name="Attr2" value="You may not play spells." />
+    <property name="Attr3" value="Bury your hand." />
+    <property name="Attr4" value="On closing, each character at this location takes 1 Force damage." />
+   <alternate name="Abjurant Halls of Envy" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Where the walls of this complex are not horribly scorched and soot-stained, they depict bejeweled wizards countering the spells of their rivals and firing back with all manner of arcane death." />
+    <property name="Attr2" value="You may not play spells." />
+   </alternate>
+   </card>
+   <card id="d14ff68d-5f03-4078-9f4a-202c9ea882c0" name="Festering Maze of Sloth">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 1&#10;Ally 1&#10;Blessing 1" />
+    <property name="Attr2" value="You may play no more than 1 card per check, regardless of type." />
+    <property name="Attr3" value="Succeed at a Constitution or Fortitude 12 check." />
+    <property name="Attr4" value="No effect." />
+   <alternate name="Festering Maze of Sloth" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="A nauseating bouquet of septic smells rises from the churning canals that ooze amid this labyrinth of smeared tunnels. Here and there strange currents slip through the slime, suggesting either that some ages-old magic constantly stirs the grotesque rivers or that things better left unnamed swim unseen through the putrid channels." />
+   </alternate>
+   </card>
+   <card id="8d9ff8b3-88bf-479b-a49e-315a38bb9c3b" name="Halls of Wrath">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 6&#10;Barrier 0&#10;Weapon 3&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0" />
+    <property name="Attr2" value="The difficulty of any combat check is increased by 2. &#10;If you fail a combat check, the damage dealt to you is increased by 2. " />
+    <property name="Attr3" value="Succeed at an Intelligence or Knowledge 12 check." />
+    <property name="Attr4" value="No effect." />
+   <alternate name="Halls of Wrath" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Towering iron statues armed with deadly weapons, circles etched with arcane runes, and long, deep gouges scar the walls of these halls, which have more in common with a battlefield than a sanctuary for wizards. Among the brutal decor is a prominent mural of a heavily armored woman wielding a flaming ranseur and riding on a massive red dragon" />
+   </alternate>
+   </card>
+   <card id="bbfcbc53-23a4-435a-8cb9-6377c7df103c" name="Iron Cages of Lust">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 2" />
+    <property name="Attr2" value="Add 2 to your checks to acquire allies.&#10;If you fail to acquire an ally, bury an ally from your hand, if you have one." />
+    <property name="Attr3" value="Succeed at a Charisma or Diplomacy 12 check." />
+    <property name="Attr4" value="No effect." />
+   <alternate name="Iron Cages of Lust" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="This opulent cathedral boasts a ceiling depicting all manner of carnal acts, supported by pillars carved in the likeness of a beautiful, nude woman. At the center of the room, walls of wavering silken sheets create a tent-like enclosure reminiscent of some exotic seraglio. The sounds of unbridled pleasure emanating from within reinforce the impression--or are those gasps of pain?" />
+   </alternate>
+   </card>
+   <card id="b0887e8e-d108-4357-84de-ddd007d1ab46" name="Ravenous Crypts of Gluttony">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 2" />
+    <property name="Attr2" value="While you are here, your hand size is increased by 2." />
+    <property name="Attr3" value="Succeed at a Wisdom or Survival 12 check." />
+    <property name="Attr4" value="No effect." />
+   <alternate name="Ravenous Crypts of Gluttony" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Ten grinning skulls gripping bits of flesh in their teeth stare from the walls of this circular chamber. Through sturdy stone doors rumble the sounds of endless slurping and gnashing." />
+    <property name="Attr2" value="While you are here, your hand size is increased by 2." />
+   </alternate>
+   </card>
+   <card id="d5e2faba-c1a2-47d4-87ad-3f28df0342a3" name="Runeforge Hub">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 0&#10;Barrier 0&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0" />
+    <property name="Attr2" value="You may not start the scenario here or move here until all other locations are permanently closed." />
+    <property name="Attr3" value="You may close this location automatically." />
+    <property name="Attr4" value="Closing this location ends the scenario." />
+   <alternate name="Runeforge Hub" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="The seven wings of Runeforge radiate out from this domed, central chamber--an eighth tunnel extending back to the entrance. At the hall's heart stands a pool of bubbling prismatic liquid radiating a strange light. This eerie magical light reflects upon the gigantic statues of seven glowering archmages, one grim guardian standing sentinel over each of the seven halls." />
+   </alternate>
+   </card>
+   <card id="8263f470-fb1a-474f-9c14-1ed5b8676ef6" name="Shimmering Veils of Pride">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 2&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 1" />
+    <property name="Attr2" value="When you succeed at a check, recharge a card." />
+    <property name="Attr3" value="Succeed at a Wisdom or Perception 12 check." />
+    <property name="Attr4" value="On closing, you may put any of your buried cards back in your hand." />
+   <alternate name="Shimmering Veils of Pride" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Floor-to-ceiling mirrors line this brightly lit corridor, giving the impression that it extends into an infinity of repeating realities. Yet as faces and motions reflect in the shimmering walls, certain details seem slightly off--clothies and accessories appear out of place, movements happen a moment out of step, and features take on a resentful cast." />
+   </alternate>
+   </card>
+   <card id="0a01bc10-c78d-45b8-82c3-a22a97726bf2" name="Sihedron Circle">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 0&#10;Barrier 0&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0" />
+    <property name="Attr2" value="Characters may not move to or explore the Sihedron Circle until all Stone Head locations are closed. When all Stone Head locations are closed, all characters move to the Sihedron Circle." />
+   <alternate name="Sihedron Circle" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Near the snowy banks of Rimeskull lake rises a ledge dominated by seven ominious monoliths. Each of the seven massive stones are sculpted in the shape of a howling face, scarred by weather and age, with an expression that shrieks the pain of countless centuries of exposure. Freezing winds blowing through the broken cliffs gives voice to these immortal cries." />
+   </alternate>
+   </card>
+   <card id="4fb149ef-7d74-47ad-bbe3-982bbba52e10" name="Stone Head">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 1&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0" />
+    <property name="Attr2" value="Defeating a Henchman here automatically closes this location. " />
+    <property name="Attr4" value="All characters here move to an open location of their choice. When all Stone Head locations are closed, all characters move to the Sihedron Circle." />
+   <alternate name="Stone Head" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Near the snowy banks of Rimeskull lake rises a ledge dominated by seven ominious monoliths. Each of the seven massive stones are sculpted in the shape of a howling face, scarred by weather and age, with an expression that shrieks the pain of countless centuries of exposure. Freezing winds blowing through the broken cliffs gives voice to these immortal cries." />
+   </alternate>
+   </card>
+   <card id="356d15e4-472c-4ea2-bc7b-f6ec43899a81" name="Vault of Greed">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Monster 2&#10;Barrier 0&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 4&#10;Ally 0&#10;Blessing 0" />
+    <property name="Attr2" value="If you acquire an item, banish another item from your hand, if you have one." />
+    <property name="Attr3" value="Succeed at a Wisdom or Perception 12 check." />
+    <property name="Attr4" value="On closing, examine all remaining cards in this deck. You may exchange any of these cards for any cards of the same type in your hand." />
+   <alternate name="Vault of Greed" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Location" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="A tunnel of polished wood inlaid with gold and silver runes ends at a wall of greenish mist sparkling with silver motes of light. Dozens of precious stones form hypnotic patterns within the glistening walls, but no matter the gemstone's color, each reflects a hint of sinister crimson. The mist in the distance seems to call to you, drawing you into its depths." />
+   </alternate>
+   </card>
+   <card id="d0172655-b051-4dad-b7da-3b77f73a21ec" name="Sins of the Saviors">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The evil might of Thassilon has been revealed, and Sandpoint sits upon one of its more fiendish ruins. To combat the resurrection of this dark nation of sin-obsessed wizards, Sandpoint's heroes must scour the town of its haunted ruins, then travel to the dragon-guarded shores of Rimeskull. There, they'll infiltrate the ancient Thassilonian laboratory of Runeforge, face its seven sinful branches and their timeless magical guardians, and claim the power of runeforged weapons for their own." />
+   <alternate name="Sins of the Saviors" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Underneath Sandpoint&#10;Rimeskull&#10;The Halls of Seduction&#10;Thassilonian Sins&#10;Into the Runeforge" />
+    <property name="Attr2" value="Each character gains a card feat" />
+   </alternate>
+   </card>
+   <card id="f368c88b-5718-4d54-875a-db496d3a6dbc" name="Into the Runeforge">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The defeat of its leaders has thrown Runeforge into disarray. Vanquish the vicious warriors of wrath--including their leader, Highlady Athroxis--and a living effigy of the Runelord of Greed, then combine the collected magic of Runeforge's masters into weapons of incredible power!" />
+    <property name="Attr1" value="Runeforge Hub&#10;Halls of Wrath&#10;Iron Cages of Lust&#10;Shimmering Veils of Pride&#10;Ravenous Crypts of Gluttony&#10;Festering Maze of Sloth&#10;Vault of Greed&#10;" />
+   <alternate name="Into the Runeforge" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When setting up this scenario, put the villain Karzoug Statue in the location Runeforge Hub. Add henchmen to the other locations as usual.&#10;&#10;If you defeat a henchman but do not close the location, shuffle the henchman back into the location deck." />
+    <property name="Attr2" value="Karzoug Statue" />
+    <property name="Attr3" value="Highlady Athroxis&#10;Warrior of Wrath" />
+    <property name="Attr4" value="Loot: Runeforged Weapons" />
+   </alternate>
+   </card>
+   <card id="1542e0f7-625f-487b-ba94-b849885bb284" name="Rimeskull">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Boththe Scribbler's lair and the library beneath Jorgenfist told of a bastion of Thassilonian magic known as the Runeforge. Travel to the frosty, dragon-stalked shores of the lake called Rimeskull and use the magic of the monolithic stone heads there to open the passage within!" />
+    <property name="Attr1" value="Sihedron Circle&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head&#10;Stone Head" />
+   <alternate name="Rimeskull" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="To set up this scenario, surround the location Sihedron Circle with 7 &quot;Stone Head&quot; location decks as described on the Sihedron Circle. Put Arkrhyst alone in the Sihedron Circle location." />
+    <property name="Attr2" value="Arkrhyst" />
+    <property name="Attr3" value="Stone Heads" />
+    <property name="Attr4" value="Each character chooses a type of boon other than loot and draws a random non-Basic, non-Elite card of that type from the box." />
+   </alternate>
+   </card>
+   <card id="8e1d1e21-79b2-471f-aad8-0ec4fa82ccf0" name="Thassilonian Sins">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The other sinful wings of Runeforge branch off from a central hub circled by statues of Thassilon's forgotten rulers. Hunt down the megalomaniacal masters of the labyrinth, put their ages-old tyranny to an end, and liberate their sinister treasures so you can claim their united powers!" />
+    <property name="Attr1" value="Ravenous Crypts of Gluttony&#10;Festering Maze of Sloth&#10;Vault of Greed&#10;Shimmering Veils of Pride&#10;Abjurant Halls of Envy&#10;Thassilonian Dungeon&#10;Throne Room&#10;Desecrated Vault" />
+   <alternate name="Thassilonian Sins" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When a villain is defeated and cannot escape, put it next to this card; any characters at that villain's previous location may immediately move.&#10;&#10;To win this scenario, all three villains must be next to this card." />
+    <property name="Attr2" value="Azaven&#10;Ordikon&#10;Jordimandus" />
+    <property name="Attr3" value="Xyoddin Xerriock&#10;Simulacrum of Vraxeris" />
+    <property name="Attr4" value="Loot: Staff of Hungry Shadows, Summon Monster, Ordikon's Staff" />
+   </alternate>
+   </card>
+   <card id="22d9c578-7e16-40c2-87a2-ea88aeda3626" name="The Halls of Seduction">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The seven wings of Runeforge are each controlled by powerful adherents of Thassilon's deadly sin magic. Within the wing devoted to the sin of lust, the sadistic Mistress Delvahine seeks to control all who trespass upon Runeforge's halls." />
+    <property name="Attr1" value="Iron Cages of Lust&#10;Shimmering Veils of Pride&#10;Academy&#10;Throne Room&#10;Temple&#10;Garrison&#10;Prison&#10;Abjurant Halls of Envy" />
+   <alternate name="The Halls of Seduction" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="If you acquire an ally, reset your hand and end your turn." />
+    <property name="Attr2" value="Mistress Delvahine" />
+    <property name="Attr3" value="Alu-Demon Sisters" />
+    <property name="Attr4" value="Each character gains a power feat." />
+   </alternate>
+   </card>
+   <card id="eba3b076-0f25-40bb-b351-c5f97f4fc700" name="Underneath Sandpoint">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="An ageless evil festers in ruins hidden beneath the streets of Sandpoint. Awaked by the goblin raid long past, the undying cultist called the Scribbler has been restored and is ready to use the power of the demon-goddess Lamashtu to claim lives once more!" />
+    <property name="Attr1" value="Shrine to Lamashtu&#10;Garrison&#10;Thassilonian Dungeon&#10;Town Square&#10;The Old Light&#10;Sandpoint Cathedral&#10;Halls of Wrath&#10;Prison" />
+   <alternate name="Underneath Sandpoint" type="B">
+    <property name="Abr" value="5" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="When you permanently close a location, you must succeed at a Wisdom or Divine 8 check or reset your hand and end your turn." />
+    <property name="Attr2" value="The Scribbler" />
+    <property name="Attr3" value="Hound of Lamashtu" />
+    <property name="Attr4" value="Loot: Fanged Falchion, Revelation Quill" />
+   </alternate>
+   </card>
  </cards>
 </set>

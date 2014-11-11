@@ -1719,6 +1719,12 @@ def scenarioSetup(card):
 	elif card.Name == 'The Secret of Mancatcher Cove':
 		nl -= 1
 		leaveSpace = 1
+	#In the Lone Shark, add a number of Shark Island locations equal to the number of players -1
+	elif card.Name == '0-1B The Lone Shark':
+		addLocs = len(getPlayers())-1	
+		nl += addLocs
+		for q in range(addLocs):
+			locations[q+2] = 'Shark Island'
 		
 	if nl < 1:
 		nl = 1
@@ -1740,12 +1746,15 @@ def scenarioSetup(card):
 			
 	#Put the Villain and henchmen in a new pile, then shuffle and deal out to the locations
 	flipCard(card) # Villain info is on Side B
-	villain = None
+	villain = None	
 	if len(card.Attr2) > 0 and card.Attr2 != 'None':
 		for v in card.Attr2.splitlines():
 			villain = findCardByName(shared.piles['Villain'], v)
 			if villain is None:
 				whisper("Setup error: failed to find '{}'".format(v))
+			#In The Treasure of Jemma Redclaw, the first villain is set aside and added to the Blessings deck, then two villains are added to decks.
+			elif card.Name in ('0-1F The Treasure of Jemma Redclaw') and villain.Name in ('Jemma Redclaw'):
+				ignore = 0
 			else:
 				debug("Moving '{}' to hidden pile".format(villain))
 				villain.moveTo(hidden)
@@ -1780,7 +1789,7 @@ def scenarioSetup(card):
 		randIndex = int(random()*len(henchmen))
 		randHench = findCardByName(shared.piles['Henchman'], henchmen[randIndex])
 		del henchmen[randIndex] #Remove the random henchman from our list - the remaining ones are added to the location
-		cardsPerLocation = len(henchmen)
+		cardsPerLocation = len(henchmen)+1
 		repeat = 1
 		# Move the Random henchman to the banes pile (this is our scenario pile) 
 		randHench.moveTo(shared.piles['Scenario'])	
@@ -1835,13 +1844,23 @@ def scenarioSetup(card):
 		dst = shared.piles['Blessing Deck']
 		if card.Name == 'Sandpoint Under Siege':
 			blessings = 25
+		#In Treasure of Jemma Redclaw, add 10 random blessings now
+		elif card.Name == '0-1F The Treasure of Jemma Redclaw':
+			blessings = 10
 		else:
 			blessings = 30
 		blessings += shared.ExtraBlessings
 		if blessings < 0:
 			blessings = 1
 		while len(src) > 0 and len(dst) < blessings:
-			src.random().moveTo(dst)		
+			src.random().moveTo(dst)
+		#In Treasure of Jemma Redclaw, add Jemma and 19 more random blessings now
+		if card.Name == '0-1F The Treasure of Jemma Redclaw':
+			blessings = 30
+			jemma = findCardByName(shared.piles['Villain'], 'Jemma Redclaw')
+			jemma.moveTo(dst)
+			while len(src) > 0 and len(dst) < blessings:
+				src.random().moveTo(dst)
 		
 	notify("{} starts '{}'".format(me, card))
 	return anchorage

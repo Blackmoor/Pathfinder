@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="b426abe0-e9e5-4484-a759-fb7ec0ced3c9">A Pirate's Life</card>
+    <card qty="1" id="5c21eea7-521e-43fa-8b06-c8af19e73c66">Lost at Sea</card>
+    <card qty="1" id="38cb1970-724a-4b16-a300-717bbcd1b328">Season of the Shackles</card>
+    <card qty="1" id="157bc0ad-2737-4f31-b9e1-90a718bc6220">0-0A On the Horizon</card>
+    <card qty="1" id="84b5454d-57a2-42a0-bd6f-821c00643da7">0-1A Ghosts of the Deep</card>
+    <card qty="1" id="f5f7b23b-b4e7-43fc-8b85-aa83f95cf5ac">0-1B The Lone Shark</card>
+    <card qty="1" id="b02421af-2695-4665-b798-a191238b05bb">0-1C Brine Dragon Hunt</card>
+    <card qty="1" id="f270605b-72c6-4e75-acbc-7a38f6ce327a">0-1D Salvage Operations</card>
+    <card qty="1" id="21173627-2eaa-4d93-89ee-6f3e1312e007">0-1E Nature's Wrath</card>
+    <card qty="1" id="f01a3f58-c6e2-40fd-901d-105d8f365fe5">0-1F The Treasure of Jemma Redclaw</card>
+    <card qty="1" id="58920f2a-b6ce-4f31-9439-475aa7005367">0-2A Love's Labours Lost</card>
+    <card qty="1" id="1a9b0c05-bd25-49ab-b084-e058bdff2009">0-2B Yo Ho Grindylows</card>
+    <card qty="1" id="c07c6aa2-513a-4147-8a1c-093e797a1511">0-2C Revenge of the Fishfolk</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="5cc275ba-4854-42e0-a4b2-b29efab312db">Onwu Azu</card>
+  </section>
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True">
+    <card qty="5" id="3653ffa5-43e2-447a-9eec-bd773942232e">Shark Island</card>
+  </section>
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

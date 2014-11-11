@@ -1,285 +1,283 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Season of the Shackles" id="068e9053-abfc-42e2-bbb0-b1b1701d2001" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0">
- <cards>
-  <card id="5cc275ba-4854-42e0-a4b2-b29efab312db" name="Onwu Azu">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="No."/>
-    <property name="Type" value="Henchman"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Animal&#10;Aquatic"/>
-    <property name="Attr1" value="The Onwu Azu may not be evaded.&#10;If defeated, you may discard the top card of your deck to immediately attempt to close the location the henchman came from."/>
-    <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="10"/>
-  </card>
-  <card id="b426abe0-e9e5-4484-a759-fb7ec0ced3c9" name="A Pirate's Life">
-    <property name="Abr" value="2"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Adventure"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Yo ho! A pirate's life at last! You and your crew can now enjoy the freedom of sailing through the Shackles... but there's more to a pirate's life than rum and gunpowder. Even pirates have a code of what's fair and foul, and in the Shackles, the Pirate's Council enforces it. Just as every shipmate has to follow a captain's orders, every captain has to answer to the council.&#10;Earning a seat on that council could open all sorts of opportunities for you, but that's not an easy feat. For a start, wherever there's power, there's intrigue. The most powerful captains are continually maneuvering for position, like a flotilla of ships on the eve of a great battle. You'll need to set your course carefully: each time you gain a powerful ally, you'll attract a host of powerful enemies.&#10;If you can't earn the patronage of a pirate lord, the Shackles has other wealthy patrons willing to hire a crew that won't ask questions. They've got cargo to deliver, rivals to punish, ports to defend, and all manner of monsters set against them. The most ruthless pirates answer to no one, save for their own whims and ambitions. Yet if you ever need to take arms against a sea of troubles, it never hurts to have a few more captains in your fleet.&#10;According to the scuttlebutt around yer last port of call, a wealthy patron is spending a lot of coin. Agasta Smithee is a widow who inherited everything from Bertram Smithee, the former captain of the Vale. The heartbroken say money can't buy happiness, but she has enough money to ignore them. Just as a shoal of sharks will circle yer ship when there's chum in the water, you'll have no shortage of competition once Lady Smithee starts spreading her wealth around. If you're eager to earn her patronage, then you'd best be ready: close ranks and prepare to repel boarders."/>
-    <alternate name="A Pirate's Life" type="B">
-      <property name="Abr" value="2"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Adventure"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="0-2A Love's Labours Lost&#10;0-2B Yo Ho Grindylows&#10;0-2C Revenge of the Fishfolk&#10;0-2D Who Rules Hell Harbor?"/>
-      <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, you may choose 1 loot card with adventure deck number 2 to replace 1 card of the same type in your deck. If two players choose the same loot card, they should each roll 1d12; the player with the highest result may use the card. Return all loot cards to the same box at the end of each scenario. "/>
-    </alternate>
-  </card>
-  <card id="5c21eea7-521e-43fa-8b06-c8af19e73c66" name="Lost at Sea">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Adventure"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Your ocean voyage has taken a turn for the worse. Yesterday, you were serenely sailing to a port in Rahadoum, but in the middle of the night, your ship's crew successfully mutinied against their captain. The merchantman vessel you hired has headed south, and the mutineers have made plans that are significantly different from yours. The ship's new captain, Jemma Redclaw, is willing to let you disembark at the next port with most of your coin. Unfortunately, they've set sail for profit and plunder in the seas of the Shackles.&#10;Redclaw watched as dockhands loaded precious cargo. She waited as conspirators recruited former pirates. And she never expected the captain to take on passengers, but every plan has a few complications. Jemma Redclaw was hired for her skills as a navigator, but in the middle of the night, she reclaimed a job she walked away from years ago: the captain of a pirate vessel.&#10;Now that the old captain's body has been tossed overboard, the crew has revealed their true colors. Captain Redclaw poisoned her conspirators' minds with promises. If you're careful, you could share in their good fortune... or turn on the traitors who claimed this ship.&#10;First, you'll need to survive the voyage. The seas ahead are fraught with danger, from supernatural spirits and sea monsters to rival crews of buccaneers. You can wait for an opportunity to rebel against the mutinous scoundrels who live on this leaky tub, but if you can't survive in the Shackles, you'll never get a chance to regain your freedom. There's rough seas ahead, lads and lasses, so you'd best keep a weather eye on the horizon."/>
-    <alternate name="Lost at Sea" type="B">
-      <property name="Abr" value="1"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Adventure"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="0-1A Ghosts of the Deep&#10;0-1B The Lone Shark&#10;0-1C Brine Dragon Hunt&#10;0-1D Salvage Operations&#10;0-1E Nature's Wrath&#10;0-1F The Treasure of Jemma Redclaw"/>
-      <property name="Attr4" value="Each character gains a card feat. Each player unlocks the ability to play Jirelle from the Skull &amp; Shackles Base Set with the Rogue Class Deck."/>
-    </alternate>
-  </card>
-  <card id="38cb1970-724a-4b16-a300-717bbcd1b328" name="Season of the Shackles">
-    <property name="Abr" value="B"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Adventure Path"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Some pirates choose to become scurvy scum, but some are merely heroes who've strayed a bit off course. You could have chosen to live among honest, reputable folk, but through misadventure, you've drifted into the Shackles, a chain of islands off the western coast of Garund, just south of an eternal hurricane called the Eye of Abendego. Power and privilege increase your chances of survival here, so you'll want to gain a ship of your own, recruit a crew you can trust, and seize enough ships to form a fleet. If you're gonna stay here, there's no better path to power than claiming a seat on the Pirate Council. Through courage, conquest, exploration, and a little bit of skullduggery, you'll prove to the council you're dangerous enough to rule beside them... because if they don't, your armada is going to blast their ships to the briny deep. Survive the Shackles, and one day, you could be worthy of setting sail with the Hurricane King himself."/>
-    <alternate name="Season of the Shackles" type="B">
-      <property name="Abr" value="B"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Adventure Path"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="Lost at Sea&#10;A Pirate's Life&#10;Treacherous Waters&#10;Island of the Damned&#10;Run Out the Guns&#10;Hurricane Weather"/>
-      <property name="Attr4" value="Each character gains the loot Councilor's Ring."/>
-    </alternate>
-  </card>
-  <card id="157bc0ad-2737-4f31-b9e1-90a718bc6220" name="0-0A On the Horizon">
-    <property name="Abr" value="B"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Ahoy there! This is an introductory scenario for the Pathfinder Society Adventure Card Guild Organized Play program. Normally, players in the Pathfinder Adventure Card Guild must use a character from a Class Deck, but for this scenario, they can use one of the characters from the Skull &amp; Shackles Base Set or the Skull &amp; Shackles Character Add-On Deck. If you'd like to start playing quickly, use the Suggested Deck Lists on page 28 of th Skull &amp; Shackles Base Set rulebook; otherwise, see the Build Your Character section on page 4 of those rules. After the scenario, you can prepare for the Season of the Shackles!"/>
-    <property name="Attr1" value="Harbor&#10;Floating Shipyard&#10;Docks&#10;Tempest Cay&#10;Fog Bank&#10;Shipwreck Graveyard&#10;Sea Fort&#10;Raker Shoals"/>
-    <property name="Attr2" value="Use the Shackles Pirate Ship as your ship."/>
-    <alternate name="0-0A On the Horizon" type="B">
-      <property name="Abr" value="B"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="While on a long ocean voyage, you've decided to get some much-needed sleep below decks. The gentle rocking motion of the waves beneath your ship eases your hammock back and forth as you drift into a deep slumber. You should be dreaming of better days, but instead, something has disturbed your rest. You're not sure whether it's the grog you had with your dinner or the cook's unidentifiable slop, but you're experiencing a vision of a very different life, one where you're continually traveling across the ocean. As you squirm in your hammock, you dream of a restless life on the high seas.&#10;Cannonades thunder across the bow of your vessel, and you open your eyes to find yourself on the deck of a pirate ship! If this is a vision of your future, you have no memory of why you're being pursued by scalawags and cutthroats. They're relentless! They'll chase you round the Abendego maelstrom and through Abyssal flames before they give up! As you bark out orders, the crew rushes to carry out your plans. You'll have to outrun these enemy ships, because if you hesitate for a moment, the bloodthirsty pirates are going to get closer. You can already see the wreckage of other vessels that weren't as swift as your Shackles pirate ship.&#10;Eventually, this nightmare will come to an end, but before it does, you may learn a thing or two about the life of a pirate. Of course, you're a respectable adventurer. You'd never take up a life of piracy. Would you? Any sailor worth her salt will tell you that you can never be sure what lies on the horizon."/>
-      <property name="Attr1" value="At the end of your move step, if you did not move, bury a card."/>
-      <property name="Attr2" value="The Pirate Council"/>
-      <property name="Attr3" value="Enemy Ship&#10;Shipwreck&#10;Enemy Ship&#10;Shipwreck&#10;Enemy Ship&#10;Shipwreck&#10;Enemy Ship"/>
-      <property name="Attr4" value="None. It was just a dream.. Or was it?"/>
-    </alternate>
-  </card>
-  <card id="84b5454d-57a2-42a0-bd6f-821c00643da7" name="0-1A Ghosts of the Deep">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Many have traveled to the Shackles to live the life of a pirate... and some have died. Ill-fated travelers have been eaten by sharks (or worse), killed by their compatriots, or drowned in turbulent waters, consigned to a watery grave. Superstitious sailors claim that the souls of these victims are still sleeping in the watery deeps, a murky realm where Besmara watches over the spirits of the damned.&#10;The mutineers of your merchantman vessel tossed the body of their former captain into the briny deep days ago. They've got blood on their hands, even if their deeds don't weigh heavily on their consciences. If the local ghost stories have any basis in fact, the souls of those other lost sailors may notice the captain's untimely demise. They might even want to take revenge against your treacherous crew. Perhaps you should sleep lightly, because if you're not careful, your soul might get spirited away..."/>
-    <property name="Attr1" value="Fog Bank&#10;Raker Shoals&#10;Scar Bay&#10;Rocky Cliff&#10;Riptide Cove&#10;Sea Caves&#10;Mangrove Swamp&#10;Fringed of the Eye"/>
-    <property name="Attr2" value="Use the Merchantman as your ship."/>
-    <alternate name="0-1A Ghosts of the Deep" type="B">
-      <property name="Abr" value="1"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development:&#10;Even the vengeance of the dead cannot stop you! Your quick wits and ready weapons have earned you a bit of trust from the crew of the stolen merchantman. If you're lucky, they might eventually think of you as more than just passengers; if you're not so lucky, they might become deadly rivals. After all, there's profit to be had, and if you're as dangerous as you look, you might decide to seize it for yourself. Something profitable&#10;must have motivated the ship's new captain to seize command. Maybe she's heard rumors of a treasure hidden in the Shackles. Maybe she wants revenge against someone who's found his way to wealth. Or perhaps it's best not to ask too many questions and keep your weapons handy. Until you reach port, the most dangerous enemies you could face could very well be on the ship with you right now."/>
-      <property name="Attr1" value="When you encounter the henchman Pirate Shade Haunt, display it next to a random character at your location."/>
-      <property name="Attr2" value="Arron Ivy"/>
-      <property name="Attr3" value="Pirate Shade Haunts"/>
-      <property name="Attr4" value="Each character gains a random weapon or spell."/>
-    </alternate>
-  </card>
-  <card id="f5f7b23b-b4e7-43fc-8b85-aa83f95cf5ac" name="0-1B The Lone Shark">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Avast! Sharks sighted on the starboard bow! Something's stirred up a shoal of sharks. You've seen their fins swimming alongside your ship for days, and sharks are as patient as they are hungry. Could it be that someone else is swimming alongside them? Sailors tell tales of adaro and other aquatic terrors commanding legions of sharks. One might be watching your vessel right now. As your ship sails closer to the Shackles, you'll be passing small islands and reefs where refugees, recluses, and reprobates hide from civilization. But in these waters, nowhere is safe, and any traveler can become prey for a lone shark. And those sharks aren't just feeding. They're breeding, and their territory is growing. If someone is herding these hammerheads, you'll need to find their leader and eliminate him, or there's gonna be blood in the water."/>
-    <property name="Attr1" value="Lonely Island&#10;Shark Island"/>
-    <property name="Attr2" value="Use the Merchantman as your ship."/>
-    <alternate name="0-1B The Lone Shark" type="B">
-      <property name="Abr" value="1"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development:&#10;You were almost a feast for sharks, but working with the pirate crew, you've fought off the adaro barbarian who commanded them. Some of your shipmates are impressed by the way you handle yourself in a fight... and others are wary of keeping such dangerous passengers aboard. Their new captain, Jemma Redclaw, has said you can disembark at the next port with the coin in your pockets, but pirates have been known to go back on their word. You might want to consider jumping ship for somewhere safer the first chance you get."/>
-      <property name="Attr1" value="Put the Shark Island location card in the center of the table. Using the deck list from Shark Island, make a number of Shark Island stacks equal to the number of characters. Treat each of these stacks as a unique Shark Island location deck.&#10;When you defeat the henchman Hammerhead Shark from a location deck, display it next to this scenario. For each such henchman displayed, the difficulty to defeat the villain Adaro Barbarian is increased by 2."/>
-      <property name="Attr2" value="Adaro Barbarian"/>
-      <property name="Attr3" value="Hammerhead Sharks"/>
-      <property name="Attr4" value="Each character gains a skill feat."/>
-    </alternate>
-  </card>
-  <card id="b02421af-2695-4665-b798-a191238b05bb" name="0-1C Brine Dragon Hunt">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="For days, you've been traveling as the &quot;guests&quot; of a pirate crew. Captain Redclaw has set a course for the Shackles, a dangerous journey across a sea that's dark and deep and full of terrors. One of those unfathomable horrors is stalking your ship right now, lurking several fathoms below your ship. Nervous crewmen have caught glimpses of a leviathan prowling through these waters. The beastie has only raised its monstrous head for a moment, long enough for the ship's oldest salt to identify it as a brine dragon. A scavenging school of onwu azu swims in its wake, anticipating a feast. The sea monster just needs the right moment to strike.&#10;As you stand on the deck of the ship, Captain Redclaw smirks at you, her mechanical hand held firmly in a fist at her side. &quot;Our oldest sailor has told me this beast has a name,&quot; she says. &quot;They call him Kelizar! He's ancient and greedy, and he demands tribute from any who pass through his realm. He wants our plunder. He wants our gold! But he's not going to get it! I wonder. Should we offer him a few poor souls instead?&quot; She glares at you and smiles cruelly. &quot;Best get your swords and spells ready, heroes. One or two of ya would fit real nice in his belly.&quot; As the captain bellows a hearty laugh at her own jest, the ship lurches, and with a massive thump, the brine dragon rams its head against the side of the merchantman vessel. Any moment now, Kelizar might attack..."/>
-    <property name="Attr1" value="Harbor&#10;Fog Bank&#10;Sea Fort&#10;Holy Isle&#10;Coastline&#10;Ghol-Gan Ruins&#10;Raker Shoals&#10;Lonely Island"/>
-    <property name="Attr2" value="Use the Merchantman as your ship."/>
-    <alternate name="0-1C Brine Dragon Hunt" type="B">
-      <property name="Abr" value="1"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development:&#10;You've survived the predations of a brine dragon, and apparently, you're one of the lucky ones. As you sail away, you can see clearer waters in the distance: a coral reef surrounding a chain of islands. There's wreckage ahead, monuments to sailors who were not as clever as you. Those&#10;vessels might have treasure, and you might even find another ship that's still afloat. Your uneasy alliance with a pirate crew can't last forever. At the first sign of booty, someone might get booted off this ship. Work together, lads and lasses, and loot while the looting's good."/>
-      <property name="Attr2" value="Kelizar the Brine Dragon"/>
-      <property name="Attr3" value="Onwu Azu"/>
-      <property name="Attr4" value="Each character gains a power feat."/>
-    </alternate>
-  </card>
-  <card id="f270605b-72c6-4e75-acbc-7a38f6ce327a" name="0-1D Salvage Operations">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="You've sailed away from a lengthy battle with a relentless brine dragon--a true terror of the deep--but other sailors in the Shackles have not been as lucky. A sharp-eyed sailor in the crow's nest has spotted flotsam ahead. It's slow going for sailing ships here: the beastie you defeated took advantage of a chain of islands and coral reefs as its hunting grounds. Now the waters are clear enough for you to look for the remains of sunken ships.&#10;The captain of your ship planned ahead for her mutiny, but you've been caught unprepared. You're going to need weapons, armor, provisions, and allies if you're going to survive the trip ahead of you.&#10;You might even want a ship of your own... The promise of profit should make life a little easier for the crew you're traveling with. They're in high spirits, enough so that they're willing to cut you a share of the profits of whatever you find. But time and tide wait for no one, so you'll need to get in and get out while the waters are still high enough for you to sail away. If you're caught at low tide, not even all the salvage you've found will be enough to save you from getting stranded in this dangerous area."/>
-    <property name="Attr1" value="Cannibal Isle&#10;Shipwreck Graveyard&#10;Floating Shipyard&#10;Seaside Warehouse&#10;Holy Isle&#10;Fringes of the Eye&#10;Lonely Island&#10;Pinnacle Atoll"/>
-    <property name="Attr2" value="Choose any Class 0 ship as your ship."/>
-    <alternate name="0-1D Salvage Operations" type="B">
-      <property name="Abr" value="1"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development:&#10;You've found plenty of plunder for everyone in the brine dragon's former lair. The former caretakers of these treasures were devoured, but you've found the booty they left behind, including a ship cast adrift. You'll have to choose which vessel you'll sail away on, and when you do, you better make sure you part on good terms with the mates you've left behind. Captain Redclaw's pirates have been watching you closely. Whether they consider you allies or rivals remains to be seen."/>
-      <property name="Attr1" value="After you build each location deck, choose a type of boon other than loot not listed on that location's deck list, then shuffle in 1 random boon of that type.&#10;When you encounter a boon of a type not listed on that location's deck list, if you fail to acquire it, discard the top card of the blessings deck; if you acquire it, you may immediately attempt to close the location that boon came from.&#10;To win this scenario, close all locations."/>
-      <property name="Attr2" value="None"/>
-      <property name="Attr3" value="None"/>
-      <property name="Attr4" value="Randomly choose a type of boon other than loot. Each character draws a random card of that type from the box."/>
-    </alternate>
-  </card>
-  <card id="21173627-2eaa-4d93-89ee-6f3e1312e007" name="0-1E Nature's Wrath">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Days ago, Jemma Redclaw proclaimed herself captain of a merchantman vessel. After leading a mutiny on the ship you hired for a journey to Rahadoum, she seized command and sailed southward. Now she rules her ship with an iron fist... or more precisely, a mechanical hand! But she's not the only one with ideals and aspirations. On land, captains' councils and petty tyrants lay claim to isolated islands, but at sea, the Brinebrood Queen considers these waters her realm. The coral reef surrounding your ship has served as her latest spawning pool.&#10;These warm waters are shallow, a labyrinth of reefs and sandbars that slow sailing down to a crawl. In the waters surrounding your ship, the distant relations of a vast inbred family of grindylow watch you from a distance. The stench of rot and putrefaction wafts on the wind. Grindylows feed on more than f ish, and corpses attract flies--big ones. Before you leave this coral labyrinth, the Brinebrood Queen will be waiting for you. Although the grindylows can't quite muster the courage to attack passing ships in force, their mother is awfully defensive of her offspring."/>
-    <property name="Attr1" value="Jungle&#10;Tempest Cay&#10;Pinnacle Atoll&#10;Mangrove Swamp&#10;Sea Caves&#10;Fringes of the Eye&#10;Rocky Cliff&#10;Beach"/>
-    <property name="Attr2" value="Choose any Class 0 ship as your ship."/>
-    <alternate name="0-1E Nature's Wrath" type="B">
-      <property name="Abr" value="1"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development:&#10;You're heroic. You're dangerous. You're deadlier than the Brinebrood Queen, and more importantly, you're a threat to any pirate who would sail in the same waters as you. Captain Redclaw's crew has been whispering about the reason for this dangerous voyage: they've sailed south in search of treasure. Your uneasy truce can only hold for so long. After your lengthy&#10;voyage, it's only a matter of time before you can reach port, find provisions, and plan out your next expedition, but when that happens, you'll still be surrounded by scoundrels. Some might be willing to sign up with your crew, but others may see you as competition. Jemma Redclaw brought you here, but watch your back. If you get in her way, she may decide to take you out."/>
-      <property name="Attr1" value="The difficulty of checks to defeat banes that have the Animal trait is increased by 4."/>
-      <property name="Attr2" value="Brinebrood Queen"/>
-      <property name="Attr3" value="Botfly Swarms"/>
-      <property name="Attr4" value="Each character gains a random item or ally."/>
-    </alternate>
-  </card>
-  <card id="f01a3f58-c6e2-40fd-901d-105d8f365fe5" name="0-1F The Treasure of Jemma Redclaw">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Land ho! You unknowingly set sail with a gathering of scoundrels and knaves, but an uneasy truce has allowed you to survive long enough to reach Drenchport on the shores of Tempest Cay. Now your fortunes have turned: you're not only free to disembark here, but you have the chance to recruit your own crew and set sail on your own ship!&#10;Your life could be smooth sailing, but only if you can leave your past behind you. The captain of your former ship doesn't like competition. Rumors have been spreading of a treasure hidden on this island, and no doubt she wants to make sure that rumor doesn't spread. The captain might think you're out to steal her crew, her ship, or worse, the reason she sailed back to the Shackles: her plunder. Of course, it's entirely possible that other buccaneers have heard the rumor and started searching as well. Redclaw isn't the only pirate in Drenchport... so gather a crew and set sail before you draw too much attention to yourself."/>
-    <property name="Attr1" value="Tower&#10;Merchant Marina&#10;Docks&#10;Festhall&#10;Alehouse&#10;Harbor&#10;House of Stolen Kisses&#10;Floating Shipyard"/>
-    <property name="Attr2" value="Choose any Class 0 ship as your ship."/>
-    <alternate name="0-1F The Treasure of Jemma Redclaw" type="B">
-      <property name="Abr" value="1"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development:&#10;Captain Jemma Redclaw won't be troubling you any longer. You've shown her what happens when a would-be captain crosses paths with a real pirate. And more importantly, you've stolen the booty she's acquired in Tempest Cay. Even the scoundrels and sailors who supported her mutiny have turned against her... and each other. The surviving pirates from her misadventure still have a ship, but they're in need of leaders, the kind of adventurers who can seize an opportunity and make their own destiny. The wonders and terrors of the Shackles await. Unfurl the mainsail! Trim the topsail! With the wind at your back and fortune ahead, you're ready to set sail for the next adventure."/>
-      <property name="Attr1" value="When you would add villains and henchmen to location decks, set Jemma Redclaw aside. Make a stack of Master Scourge, Mister Plugg, and 2 fewer henchmen than you have locations. Shuffle this stack and put 1 card on top of each location deck, then shuffle each location deck.&#10;To create the blessings deck, shuffle together 10 random blessings from the box to make a stack, put Jemma Redclaw on top of that stack, then shuffle 19 more blessings together and add them to the top of the stack.&#10;When you would defeat Master Scourge or Mister Plugg, display him next to this sheet. If he would escape, shuffle him into the location deck he came from instead.&#10;During this scenario, the difficulty to defeat Jemma Redclaw is increased by 10. For each villain displayed next to this sheet, the difficulty to defeat Jemma Redclaw is reduced by 5.&#10;When you would discard Jemma Redclaw from the blessings deck, display her next to your character card and encounter her. If Jemma Redclaw is undefeated, discard a card from the blessings deck then return her facedown to the top of the blessings deck.&#10;To win the scenario, defeat Jemma Redclaw."/>
-      <property name="Attr2" value="Jemma Redclaw&#10;Master Scourge&#10;Mister Plugg"/>
-      <property name="Attr3" value="Aretta Bansion&#10;Fipps Chumlett&#10;Jaundiced Jape&#10;Maheem&#10;Owlbear Hartshorn&#10;Slippery Syl Lonegan&#10;Buccaneer"/>
-      <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, you may choose 1 player to replace 1 item in her deck with the loot Besmara's Tricorne and another player to replace 1 weapon with the loot Vindictive Harpoon +1. Return both cards to the box at the end of each scenario."/>
-    </alternate>
-  </card>
-  <card id="58920f2a-b6ce-4f31-9439-475aa7005367" name="0-2A Love's Labours Lost">
-    <property name="Abr" value="2"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Heartbreak Hinsin is an honorable man, some say, even though he's gone astray from an honest living. He's earned his share of infamy defeating those who challenge him, but he lacks the wealth and influence a truly terrifying pirate requires. Maybe that's why he's courting Agasta Smithee, the extremely influential Lady of Tidewater Rock. She's been a widow for too long, but the tide is turning.&#10;Now that tales of Lady Smithee's amorous ambitions have spread through every inn, tavern, brothel, and galley for miles around, she's suddenly attracted an entourage of suitors. Apparently, the wealthy dowager just gets more beautiful as she gets older, or perhaps, those who have pitied the widow are now seeing her in a new light. Whatever the truth may be, Hinsin's got a lot of competition lined up. You'll have to fight through a crowd of admirers to get anywhere near his lady love. And then there's Master Scourge. He hated her last husband, so he wants her to die alone and unloved.&#10;Cynical sailors claim that Hinsin has docked his ship in Lady Smithee's port because he really wants Tidewater Rock, but those of a more romantic inclination say that he's in love--really and truly smitten with Smithee. Bards have started writing bawdy ballads.&#10;Maybe if you could help bring these two lovebirds together, you could share in their joy and happiness... and maybe they'd make for fine allies in your times of trouble. After all, if yer going to impress the Pirate's Council, you'll need all the mates you can muster."/>
-    <property name="Attr1" value="Alehouse&#10;Docks&#10;House of Stolen Kisses&#10;Merchant Marina&#10;Seaside Warehouse&#10;Festhall&#10;Harbor"/>
-    <property name="Attr2" value="Your ship is anchored at the Docks.&#10;Choose any class 1 or lower ship as your ship."/>
-    <alternate name="0-2A Love's Labours Lost" type="B">
-      <property name="Abr" value="2"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development: &#10;Ah! Love! True love! The handsome Hinsin and his blushing bride are together at last. Unfortunately, they can't invite you to the wedding. Only the Pirate's Council is invited, and yer not quite on their level of pirate society, but Lady Smithee might find another way to thank you soon enough. Maybe she'll hire you for a bit o' mercenary work, but not right away. You should call on her after... the honeymoon."/>
-      <property name="Attr1" value="Place the ally Heartbreak Hinsin faceup next to this scenario. While Heartbreak Hinsin is next to this scenario, add 2 to any check against henchmen.&#10;When you have cornered and defeated the villain, instead of winning, close the last location, then summon and build the location Tidewater Rock; instead of using the deck list on the location card, add a number of random henchmen to that location deck from the following list equal to the number of characters: Knuckles Grype, Slippery Syl Lonegan, Owlbear Hartshorn, Jaundiced Jape, Maheem, and Aretta Bansion. Put Lady Agasta Smythee on the bottom of that location deck. Defeating a henchman does not allow you to close that location. When you would encounter Lady Agasta Smythee, if there are any other cards in that location deck instead, put Lady Agasta Smythee on the bottom of that location deck, then encounter the top card of that location deck. When Lady Agasta Smythee is the only card in that location deck, place her faceup next to Heartbreak Hinsin; you win the scenario."/>
-      <property name="Attr2" value="Master Scourge"/>
-      <property name="Attr3" value="Buccaneers"/>
-      <property name="Attr4" value="Each character gains a random ally from the box."/>
-    </alternate>
-  </card>
-  <card id="1a9b0c05-bd25-49ab-b084-e058bdff2009" name="0-2B Yo Ho Grindylows">
-    <property name="Abr" value="2"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="Pirate lords and patrons are useful allies when you're sailing in the Shackles. Just recently, you earned the gratitude of Agasta Smithee, the Lady of Tidewater Rock. She's got great wealth, a vast... island fortress, and now, the love of her life, &quot;Heartbreak&quot; Hinsin. Out of gratitude, she's willing to hire you for the occasionall cargo run and perhaps a bit of skullduggery.&#10;Here's the latest haul: An isolated island is in need of supplies--medicine, gunpowder, and of course, more rum--but your mission of mercy has one complication: your port of call has been overrun with a gaggle of grim and ghastly grindylows.&#10;I'll be honest, lads and lasses. Yer ship isn't up to the task. For this mission, you'll need to work with a crew of specialists. Lady Smithee has friends in low places, including an infamous raider known for his stalwart ship, his reckless crew, and his infrequent bouts of kleptomania. He's traded his weidling for a swifter ship, and the sailors aborad her are all goblins. You heart that right! Goblins! Nasty, sneaking, treacherous little goblins. If there's anyone who can deal with grindylows, it's goblins.&#10;Your wealthy patron has intimated that if some of those goblins were to become... expendable, shall we say... she wouldn't shed a tear, as long as that cargo gets delivered. So there ya go: The ransacking goblin has a ship, and you've got a mission. It's time to set sail for your next destination. Damn the grindylows! Fully speed ahead!"/>
-    <property name="Attr1" value="Hatchery&#10;Sea Caves&#10;Jungle&#10;Beach&#10;Ghol-Gan Ruins&#10;Holy Isle&#10;Mangrove Swamp&#10;Coastline"/>
-    <property name="Attr2" value="Choose any Class 1 or lower ship as your ship."/>
-    <alternate name="0-2B Yo Ho Grindylows" type="B">
-      <property name="Abr" value="2"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development:&#10;And so we wave goodbye to the stalwart goblin and his thieving crew. Off ya go, goblins! Ready to ransack anything ya find! Lady Smithee will be pleased. She'll be telling the captains of the Pirate's Council another tale of yer thrilling deeds. Folks drinkin' at the Rusty Bucket say she's planning a party to celebrate her newfound happiness. If she can't get you on the guest list, she might have something else planned for you. But don't you worry: no goblins are invited."/>
-      <property name="Attr1" value="When you encounter a non-villain, non-henchman monster, roll 1d6: &#10;1-2: During the encounter, the difficulty of any checks by characters at your location is increased by 1d4.&#10;3-4: Before you act, each character at your location is dealt 1d4-1 Combat damage.&#10;5-6: During the encounter, characters at other locations may not play cards or use powers."/>
-      <property name="Attr2" value="Brinebrood Queen"/>
-      <property name="Attr3" value="Riptide Grindylows"/>
-      <property name="Attr4" value="Each character gains a skill feat."/>
-    </alternate>
-  </card>
-  <card id="c07c6aa2-513a-4147-8a1c-093e797a1511" name="0-2C Revenge of the Fishfolk">
-    <property name="Abr" value="2"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Story"/>
-    <property name="Subtype" value="Scenario"/>
-    <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="After earning a fair wage from your last job, you've... acquired... another ship, setting sail back to Tidewater Rock. You've seen wonders and terrors in the Shackles, but naught you've seen could prepare you for the horrors ahead. Attend, lads and lasses, and I'll tell ya the tale.&#10;In the Fever Sea, there's a friendly fishfolk who's been birthing her offspring for generations--longer than any old salt can recall. She's the matriarch of her kind, and when she's giving birth, any wise captain gives her lair a wide berth, if ya know what I mean. But some creatures aren't as wise as that. In fact, some have a bit more greed than common sense.&#10;One full moon, sea devils set out to seize this poor matriarch.&#10;They stole her spawn. They off-loaded her offspring. They trapped her, they tormented her, and... hold on to yer grog... they broke both her legs! Aye! Her flipper-finned legs! With the help of some passing sailors who actually had a conscience, the matriarch escaped, but she's mad and she's mangled and she wants her revenge.&#10;Mayhaps yer the salty dogs that can help her. Track down the sea devils who forced her to that fate, and you'll have the everlasting gratitude of the fishfolk matriarch. And take care: Krelloort is the worst of the sea devil lot. His waddling gait and bloated belly make him look less than fearsome, but he's the one who sold the matriarch's little ones. Anyone that cold-blooded deserves a cold serving of revenge. Harr! Make that heartless horror pay!"/>
-    <property name="Attr1" value="Mancatcher Cove&#10;Floating Shipyard&#10;Tempest Cay&#10;Windwar Isle&#10;Pinnacle Atoll&#10;Scar Bay&#10;Cannibal Isle&#10;Sea Fort"/>
-    <property name="Attr2" value="Choose any Class 1 or lower ship as your ship."/>
-    <alternate name="0-2C Revenge of the Fishfolk" type="B">
-      <property name="Abr" value="2"/>
-      <property name="Copyright" value="Yes."/>
-      <property name="Type" value="Story"/>
-      <property name="Subtype" value="Scenario"/>
-      <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Development: &#10;Aye, the matriarch's been reunited with her young'uns now.&#10;It brings a tear to me eye, it does. And those dastardly eggstealin',&#10;leg-breakin', skulking sea devils are no more! I've seen&#10;some loathsome down-and-dirty pirates in my time, but no one&#10;sinks lower than sea devils! 'Tis good to know yer course is on&#10;an even keel."/>
-      <property name="Attr1" value="Each player chooses a type of boon other than loot and adds two random cards of that type from the box facedown to a single treasure stack.&#10;When a monster that has the Aquatic trait is undefeated, banish 1d4 cards from the treasure stack.&#10;When you win the scenario, stash the treasure stack as plunder"/>
-      <property name="Attr2" value="Krelloort"/>
-      <property name="Attr3" value="Sea Devils"/>
-      <property name="Attr4" value="Each character gains a card feat."/>
-    </alternate>
-  </card>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Season of the Shackles" id="068e9053-abfc-42e2-bbb0-b1b1701d2001" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0"><cards>
+   <card id="5cc275ba-4854-42e0-a4b2-b29efab312db" name="Onwu Azu">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="No." />
+    <property name="Type" value="Henchman" />
+    <property name="Subtype" value="Monster" />
+    <property name="Traits" value="Animal&#10;Aquatic" />
+    <property name="Attr1" value="The Onwu Azu may not be evaded.&#10;If defeated, you may discard the top card of your deck to immediately attempt to close the location the henchman came from." />
+    <property name="Attr2" value="Combat" />
+    <property name="Attr3" value="10" />
+   </card>
+   <card id="b426abe0-e9e5-4484-a759-fb7ec0ced3c9" name="A Pirate's Life">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Yo ho! A pirate's life at last! You and your crew can now enjoy the freedom of sailing through the Shackles... but there's more to a pirate's life than rum and gunpowder. Even pirates have a code of what's fair and foul, and in the Shackles, the Pirate's Council enforces it. Just as every shipmate has to follow a captain's orders, every captain has to answer to the council.&#10;Earning a seat on that council could open all sorts of opportunities for you, but that's not an easy feat. For a start, wherever there's power, there's intrigue. The most powerful captains are continually maneuvering for position, like a flotilla of ships on the eve of a great battle. You'll need to set your course carefully: each time you gain a powerful ally, you'll attract a host of powerful enemies.&#10;If you can't earn the patronage of a pirate lord, the Shackles has other wealthy patrons willing to hire a crew that won't ask questions. They've got cargo to deliver, rivals to punish, ports to defend, and all manner of monsters set against them. The most ruthless pirates answer to no one, save for their own whims and ambitions. Yet if you ever need to take arms against a sea of troubles, it never hurts to have a few more captains in your fleet.&#10;According to the scuttlebutt around yer last port of call, a wealthy patron is spending a lot of coin. Agasta Smithee is a widow who inherited everything from Bertram Smithee, the former captain of the Vale. The heartbroken say money can't buy happiness, but she has enough money to ignore them. Just as a shoal of sharks will circle yer ship when there's chum in the water, you'll have no shortage of competition once Lady Smithee starts spreading her wealth around. If you're eager to earn her patronage, then you'd best be ready: close ranks and prepare to repel boarders." />
+   <alternate name="A Pirate's Life" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="0-2A Love's Labours Lost&#10;0-2B Yo Ho Grindylows&#10;0-2C Revenge of the Fishfolk&#10;0-2D Who Rules Hell Harbor?" />
+    <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, you may choose 1 loot card with adventure deck number 2 to replace 1 card of the same type in your deck. If two players choose the same loot card, they should each roll 1d12; the player with the highest result may use the card. Return all loot cards to the same box at the end of each scenario. " />
+   </alternate>
+   </card>
+   <card id="5c21eea7-521e-43fa-8b06-c8af19e73c66" name="Lost at Sea">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Your ocean voyage has taken a turn for the worse. Yesterday, you were serenely sailing to a port in Rahadoum, but in the middle of the night, your ship's crew successfully mutinied against their captain. The merchantman vessel you hired has headed south, and the mutineers have made plans that are significantly different from yours. The ship's new captain, Jemma Redclaw, is willing to let you disembark at the next port with most of your coin. Unfortunately, they've set sail for profit and plunder in the seas of the Shackles.&#10;Redclaw watched as dockhands loaded precious cargo. She waited as conspirators recruited former pirates. And she never expected the captain to take on passengers, but every plan has a few complications. Jemma Redclaw was hired for her skills as a navigator, but in the middle of the night, she reclaimed a job she walked away from years ago: the captain of a pirate vessel.&#10;Now that the old captain's body has been tossed overboard, the crew has revealed their true colors. Captain Redclaw poisoned her conspirators' minds with promises. If you're careful, you could share in their good fortune... or turn on the traitors who claimed this ship.&#10;First, you'll need to survive the voyage. The seas ahead are fraught with danger, from supernatural spirits and sea monsters to rival crews of buccaneers. You can wait for an opportunity to rebel against the mutinous scoundrels who live on this leaky tub, but if you can't survive in the Shackles, you'll never get a chance to regain your freedom. There's rough seas ahead, lads and lasses, so you'd best keep a weather eye on the horizon." />
+   <alternate name="Lost at Sea" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="0-1A Ghosts of the Deep&#10;0-1B The Lone Shark&#10;0-1C Brine Dragon Hunt&#10;0-1D Salvage Operations&#10;0-1E Nature's Wrath&#10;0-1F The Treasure of Jemma Redclaw" />
+    <property name="Attr4" value="Each character gains a card feat. Each player unlocks the ability to play Jirelle from the Skull &amp; Shackles Base Set with the Rogue Class Deck." />
+   </alternate>
+   </card>
+   <card id="38cb1970-724a-4b16-a300-717bbcd1b328" name="Season of the Shackles">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure Path" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Some pirates choose to become scurvy scum, but some are merely heroes who've strayed a bit off course. You could have chosen to live among honest, reputable folk, but through misadventure, you've drifted into the Shackles, a chain of islands off the western coast of Garund, just south of an eternal hurricane called the Eye of Abendego. Power and privilege increase your chances of survival here, so you'll want to gain a ship of your own, recruit a crew you can trust, and seize enough ships to form a fleet. If you're gonna stay here, there's no better path to power than claiming a seat on the Pirate Council. Through courage, conquest, exploration, and a little bit of skullduggery, you'll prove to the council you're dangerous enough to rule beside them... because if they don't, your armada is going to blast their ships to the briny deep. Survive the Shackles, and one day, you could be worthy of setting sail with the Hurricane King himself." />
+   <alternate name="Season of the Shackles" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Adventure Path" />
+    <property name="Subtype2" value="Back" />
+    <property name="Attr1" value="Lost at Sea&#10;A Pirate's Life&#10;Treacherous Waters&#10;Island of the Damned&#10;Run Out the Guns&#10;Hurricane Weather" />
+    <property name="Attr4" value="Each character gains the loot Councilor's Ring." />
+   </alternate>
+   </card>
+   <card id="157bc0ad-2737-4f31-b9e1-90a718bc6220" name="0-0A On the Horizon">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Ahoy there! This is an introductory scenario for the Pathfinder Society Adventure Card Guild Organized Play program. Normally, players in the Pathfinder Adventure Card Guild must use a character from a Class Deck, but for this scenario, they can use one of the characters from the Skull &amp; Shackles Base Set or the Skull &amp; Shackles Character Add-On Deck. If you'd like to start playing quickly, use the Suggested Deck Lists on page 28 of th Skull &amp; Shackles Base Set rulebook; otherwise, see the Build Your Character section on page 4 of those rules. After the scenario, you can prepare for the Season of the Shackles!" />
+    <property name="Attr1" value="Harbor&#10;Floating Shipyard&#10;Docks&#10;Tempest Cay&#10;Fog Bank&#10;Shipwreck Graveyard&#10;Sea Fort&#10;Raker Shoals" />
+    <property name="Attr2" value="Use the Shackles Pirate Ship as your ship." />
+   <alternate name="0-0A On the Horizon" type="B">
+    <property name="Abr" value="B" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="While on a long ocean voyage, you've decided to get some much-needed sleep below decks. The gentle rocking motion of the waves beneath your ship eases your hammock back and forth as you drift into a deep slumber. You should be dreaming of better days, but instead, something has disturbed your rest. You're not sure whether it's the grog you had with your dinner or the cook's unidentifiable slop, but you're experiencing a vision of a very different life, one where you're continually traveling across the ocean. As you squirm in your hammock, you dream of a restless life on the high seas.&#10;Cannonades thunder across the bow of your vessel, and you open your eyes to find yourself on the deck of a pirate ship! If this is a vision of your future, you have no memory of why you're being pursued by scalawags and cutthroats. They're relentless! They'll chase you round the Abendego maelstrom and through Abyssal flames before they give up! As you bark out orders, the crew rushes to carry out your plans. You'll have to outrun these enemy ships, because if you hesitate for a moment, the bloodthirsty pirates are going to get closer. You can already see the wreckage of other vessels that weren't as swift as your Shackles pirate ship.&#10;Eventually, this nightmare will come to an end, but before it does, you may learn a thing or two about the life of a pirate. Of course, you're a respectable adventurer. You'd never take up a life of piracy. Would you? Any sailor worth her salt will tell you that you can never be sure what lies on the horizon." />
+    <property name="Attr1" value="At the end of your move step, if you did not move, bury a card." />
+    <property name="Attr2" value="The Pirate Council" />
+    <property name="Attr3" value="Enemy Ship&#10;Shipwreck&#10;Enemy Ship&#10;Shipwreck&#10;Enemy Ship&#10;Shipwreck&#10;Enemy Ship" />
+    <property name="Attr4" value="None. It was just a dream.. Or was it?" />
+   </alternate>
+   </card>
+   <card id="84b5454d-57a2-42a0-bd6f-821c00643da7" name="0-1A Ghosts of the Deep">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Many have traveled to the Shackles to live the life of a pirate... and some have died. Ill-fated travelers have been eaten by sharks (or worse), killed by their compatriots, or drowned in turbulent waters, consigned to a watery grave. Superstitious sailors claim that the souls of these victims are still sleeping in the watery deeps, a murky realm where Besmara watches over the spirits of the damned.&#10;The mutineers of your merchantman vessel tossed the body of their former captain into the briny deep days ago. They've got blood on their hands, even if their deeds don't weigh heavily on their consciences. If the local ghost stories have any basis in fact, the souls of those other lost sailors may notice the captain's untimely demise. They might even want to take revenge against your treacherous crew. Perhaps you should sleep lightly, because if you're not careful, your soul might get spirited away..." />
+    <property name="Attr1" value="Fog Bank&#10;Raker Shoals&#10;Scar Bay&#10;Rocky Cliff&#10;Riptide Cove&#10;Sea Caves&#10;Mangrove Swamp&#10;Fringed of the Eye" />
+    <property name="Attr2" value="Use the Merchantman as your ship." />
+   <alternate name="0-1A Ghosts of the Deep" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development:&#10;Even the vengeance of the dead cannot stop you! Your quick wits and ready weapons have earned you a bit of trust from the crew of the stolen merchantman. If you're lucky, they might eventually think of you as more than just passengers; if you're not so lucky, they might become deadly rivals. After all, there's profit to be had, and if you're as dangerous as you look, you might decide to seize it for yourself. Something profitable&#10;must have motivated the ship's new captain to seize command. Maybe she's heard rumors of a treasure hidden in the Shackles. Maybe she wants revenge against someone who's found his way to wealth. Or perhaps it's best not to ask too many questions and keep your weapons handy. Until you reach port, the most dangerous enemies you could face could very well be on the ship with you right now." />
+    <property name="Attr1" value="When you encounter the henchman Pirate Shade Haunt, display it next to a random character at your location." />
+    <property name="Attr2" value="Arron Ivy" />
+    <property name="Attr3" value="Pirate Shade Haunts" />
+    <property name="Attr4" value="Each character gains a random weapon or spell." />
+   </alternate>
+   </card>
+   <card id="f5f7b23b-b4e7-43fc-8b85-aa83f95cf5ac" name="0-1B The Lone Shark">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Avast! Sharks sighted on the starboard bow! Something's stirred up a shoal of sharks. You've seen their fins swimming alongside your ship for days, and sharks are as patient as they are hungry. Could it be that someone else is swimming alongside them? Sailors tell tales of adaro and other aquatic terrors commanding legions of sharks. One might be watching your vessel right now. As your ship sails closer to the Shackles, you'll be passing small islands and reefs where refugees, recluses, and reprobates hide from civilization. But in these waters, nowhere is safe, and any traveler can become prey for a lone shark. And those sharks aren't just feeding. They're breeding, and their territory is growing. If someone is herding these hammerheads, you'll need to find their leader and eliminate him, or there's gonna be blood in the water." />
+    <property name="Attr1" value="Lonely Island&#10;Shark Island" />
+    <property name="Attr2" value="Use the Merchantman as your ship." />
+   <alternate name="0-1B The Lone Shark" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development:&#10;You were almost a feast for sharks, but working with the pirate crew, you've fought off the adaro barbarian who commanded them. Some of your shipmates are impressed by the way you handle yourself in a fight... and others are wary of keeping such dangerous passengers aboard. Their new captain, Jemma Redclaw, has said you can disembark at the next port with the coin in your pockets, but pirates have been known to go back on their word. You might want to consider jumping ship for somewhere safer the first chance you get." />
+    <property name="Attr1" value="Put the Shark Island location card in the center of the table. Using the deck list from Shark Island, make a number of Shark Island stacks equal to the number of characters. Treat each of these stacks as a unique Shark Island location deck.&#10;When you defeat the henchman Hammerhead Shark from a location deck, display it next to this scenario. For each such henchman displayed, the difficulty to defeat the villain Adaro Barbarian is increased by 2." />
+    <property name="Attr2" value="Adaro Barbarian" />
+    <property name="Attr3" value="Hammerhead Sharks" />
+    <property name="Attr4" value="Each character gains a skill feat." />
+   </alternate>
+   </card>
+   <card id="b02421af-2695-4665-b798-a191238b05bb" name="0-1C Brine Dragon Hunt">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="For days, you've been traveling as the &quot;guests&quot; of a pirate crew. Captain Redclaw has set a course for the Shackles, a dangerous journey across a sea that's dark and deep and full of terrors. One of those unfathomable horrors is stalking your ship right now, lurking several fathoms below your ship. Nervous crewmen have caught glimpses of a leviathan prowling through these waters. The beastie has only raised its monstrous head for a moment, long enough for the ship's oldest salt to identify it as a brine dragon. A scavenging school of onwu azu swims in its wake, anticipating a feast. The sea monster just needs the right moment to strike.&#10;As you stand on the deck of the ship, Captain Redclaw smirks at you, her mechanical hand held firmly in a fist at her side. &quot;Our oldest sailor has told me this beast has a name,&quot; she says. &quot;They call him Kelizar! He's ancient and greedy, and he demands tribute from any who pass through his realm. He wants our plunder. He wants our gold! But he's not going to get it! I wonder. Should we offer him a few poor souls instead?&quot; She glares at you and smiles cruelly. &quot;Best get your swords and spells ready, heroes. One or two of ya would fit real nice in his belly.&quot; As the captain bellows a hearty laugh at her own jest, the ship lurches, and with a massive thump, the brine dragon rams its head against the side of the merchantman vessel. Any moment now, Kelizar might attack..." />
+    <property name="Attr1" value="Harbor&#10;Fog Bank&#10;Sea Fort&#10;Holy Isle&#10;Coastline&#10;Ghol-Gan Ruins&#10;Raker Shoals&#10;Lonely Island" />
+    <property name="Attr2" value="Use the Merchantman as your ship." />
+   <alternate name="0-1C Brine Dragon Hunt" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development:&#10;You've survived the predations of a brine dragon, and apparently, you're one of the lucky ones. As you sail away, you can see clearer waters in the distance: a coral reef surrounding a chain of islands. There's wreckage ahead, monuments to sailors who were not as clever as you. Those&#10;vessels might have treasure, and you might even find another ship that's still afloat. Your uneasy alliance with a pirate crew can't last forever. At the first sign of booty, someone might get booted off this ship. Work together, lads and lasses, and loot while the looting's good." />
+    <property name="Attr2" value="Kelizar the Brine Dragon" />
+    <property name="Attr3" value="Onwu Azu" />
+    <property name="Attr4" value="Each character gains a power feat." />
+   </alternate>
+   </card>
+   <card id="f270605b-72c6-4e75-acbc-7a38f6ce327a" name="0-1D Salvage Operations">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="You've sailed away from a lengthy battle with a relentless brine dragon--a true terror of the deep--but other sailors in the Shackles have not been as lucky. A sharp-eyed sailor in the crow's nest has spotted flotsam ahead. It's slow going for sailing ships here: the beastie you defeated took advantage of a chain of islands and coral reefs as its hunting grounds. Now the waters are clear enough for you to look for the remains of sunken ships.&#10;The captain of your ship planned ahead for her mutiny, but you've been caught unprepared. You're going to need weapons, armor, provisions, and allies if you're going to survive the trip ahead of you.&#10;You might even want a ship of your own... The promise of profit should make life a little easier for the crew you're traveling with. They're in high spirits, enough so that they're willing to cut you a share of the profits of whatever you find. But time and tide wait for no one, so you'll need to get in and get out while the waters are still high enough for you to sail away. If you're caught at low tide, not even all the salvage you've found will be enough to save you from getting stranded in this dangerous area." />
+    <property name="Attr1" value="Cannibal Isle&#10;Shipwreck Graveyard&#10;Floating Shipyard&#10;Seaside Warehouse&#10;Holy Isle&#10;Fringes of the Eye&#10;Lonely Island&#10;Pinnacle Atoll" />
+    <property name="Attr2" value="Choose any Class 0 ship as your ship." />
+   <alternate name="0-1D Salvage Operations" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development:&#10;You've found plenty of plunder for everyone in the brine dragon's former lair. The former caretakers of these treasures were devoured, but you've found the booty they left behind, including a ship cast adrift. You'll have to choose which vessel you'll sail away on, and when you do, you better make sure you part on good terms with the mates you've left behind. Captain Redclaw's pirates have been watching you closely. Whether they consider you allies or rivals remains to be seen." />
+    <property name="Attr1" value="After you build each location deck, choose a type of boon other than loot not listed on that location's deck list, then shuffle in 1 random boon of that type.&#10;When you encounter a boon of a type not listed on that location's deck list, if you fail to acquire it, discard the top card of the blessings deck; if you acquire it, you may immediately attempt to close the location that boon came from.&#10;To win this scenario, close all locations." />
+    <property name="Attr2" value="None" />
+    <property name="Attr3" value="None" />
+    <property name="Attr4" value="Randomly choose a type of boon other than loot. Each character draws a random card of that type from the box." />
+   </alternate>
+   </card>
+   <card id="21173627-2eaa-4d93-89ee-6f3e1312e007" name="0-1E Nature's Wrath">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Days ago, Jemma Redclaw proclaimed herself captain of a merchantman vessel. After leading a mutiny on the ship you hired for a journey to Rahadoum, she seized command and sailed southward. Now she rules her ship with an iron fist... or more precisely, a mechanical hand! But she's not the only one with ideals and aspirations. On land, captains' councils and petty tyrants lay claim to isolated islands, but at sea, the Brinebrood Queen considers these waters her realm. The coral reef surrounding your ship has served as her latest spawning pool.&#10;These warm waters are shallow, a labyrinth of reefs and sandbars that slow sailing down to a crawl. In the waters surrounding your ship, the distant relations of a vast inbred family of grindylow watch you from a distance. The stench of rot and putrefaction wafts on the wind. Grindylows feed on more than f ish, and corpses attract flies--big ones. Before you leave this coral labyrinth, the Brinebrood Queen will be waiting for you. Although the grindylows can't quite muster the courage to attack passing ships in force, their mother is awfully defensive of her offspring." />
+    <property name="Attr1" value="Jungle&#10;Tempest Cay&#10;Pinnacle Atoll&#10;Mangrove Swamp&#10;Sea Caves&#10;Fringes of the Eye&#10;Rocky Cliff&#10;Beach" />
+    <property name="Attr2" value="Choose any Class 0 ship as your ship." />
+   <alternate name="0-1E Nature's Wrath" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development:&#10;You're heroic. You're dangerous. You're deadlier than the Brinebrood Queen, and more importantly, you're a threat to any pirate who would sail in the same waters as you. Captain Redclaw's crew has been whispering about the reason for this dangerous voyage: they've sailed south in search of treasure. Your uneasy truce can only hold for so long. After your lengthy&#10;voyage, it's only a matter of time before you can reach port, find provisions, and plan out your next expedition, but when that happens, you'll still be surrounded by scoundrels. Some might be willing to sign up with your crew, but others may see you as competition. Jemma Redclaw brought you here, but watch your back. If you get in her way, she may decide to take you out." />
+    <property name="Attr1" value="The difficulty of checks to defeat banes that have the Animal trait is increased by 4." />
+    <property name="Attr2" value="Brinebrood Queen" />
+    <property name="Attr3" value="Botfly Swarms" />
+    <property name="Attr4" value="Each character gains a random item or ally." />
+   </alternate>
+   </card>
+   <card id="f01a3f58-c6e2-40fd-901d-105d8f365fe5" name="0-1F The Treasure of Jemma Redclaw">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Land ho! You unknowingly set sail with a gathering of scoundrels and knaves, but an uneasy truce has allowed you to survive long enough to reach Drenchport on the shores of Tempest Cay. Now your fortunes have turned: you're not only free to disembark here, but you have the chance to recruit your own crew and set sail on your own ship!&#10;Your life could be smooth sailing, but only if you can leave your past behind you. The captain of your former ship doesn't like competition. Rumors have been spreading of a treasure hidden on this island, and no doubt she wants to make sure that rumor doesn't spread. The captain might think you're out to steal her crew, her ship, or worse, the reason she sailed back to the Shackles: her plunder. Of course, it's entirely possible that other buccaneers have heard the rumor and started searching as well. Redclaw isn't the only pirate in Drenchport... so gather a crew and set sail before you draw too much attention to yourself." />
+    <property name="Attr1" value="Tower&#10;Merchant Marina&#10;Docks&#10;Festhall&#10;Alehouse&#10;Harbor&#10;House of Stolen Kisses&#10;Floating Shipyard" />
+    <property name="Attr2" value="Choose any Class 0 ship as your ship." />
+   <alternate name="0-1F The Treasure of Jemma Redclaw" type="B">
+    <property name="Abr" value="1" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development:&#10;Captain Jemma Redclaw won't be troubling you any longer. You've shown her what happens when a would-be captain crosses paths with a real pirate. And more importantly, you've stolen the booty she's acquired in Tempest Cay. Even the scoundrels and sailors who supported her mutiny have turned against her... and each other. The surviving pirates from her misadventure still have a ship, but they're in need of leaders, the kind of adventurers who can seize an opportunity and make their own destiny. The wonders and terrors of the Shackles await. Unfurl the mainsail! Trim the topsail! With the wind at your back and fortune ahead, you're ready to set sail for the next adventure." />
+    <property name="Attr1" value="When you would add villains and henchmen to location decks, set Jemma Redclaw aside. Make a stack of Master Scourge, Mister Plugg, and 2 fewer henchmen than you have locations. Shuffle this stack and put 1 card on top of each location deck, then shuffle each location deck.&#10;To create the blessings deck, shuffle together 10 random blessings from the box to make a stack, put Jemma Redclaw on top of that stack, then shuffle 19 more blessings together and add them to the top of the stack.&#10;When you would defeat Master Scourge or Mister Plugg, display him next to this sheet. If he would escape, shuffle him into the location deck he came from instead.&#10;During this scenario, the difficulty to defeat Jemma Redclaw is increased by 10. For each villain displayed next to this sheet, the difficulty to defeat Jemma Redclaw is reduced by 5.&#10;When you would discard Jemma Redclaw from the blessings deck, display her next to your character card and encounter her. If Jemma Redclaw is undefeated, discard a card from the blessings deck then return her facedown to the top of the blessings deck.&#10;To win the scenario, defeat Jemma Redclaw." />
+    <property name="Attr2" value="Jemma Redclaw&#10;Master Scourge&#10;Mister Plugg" />
+    <property name="Attr3" value="Aretta Bansion&#10;Fipps Chumlett&#10;Jaundiced Jape&#10;Maheem&#10;Owlbear Hartshorn&#10;Slippery Syl Lonegan&#10;Buccaneer" />
+    <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, you may choose 1 player to replace 1 item in her deck with the loot Besmara's Tricorne and another player to replace 1 weapon with the loot Vindictive Harpoon +1. Return both cards to the box at the end of each scenario." />
+   </alternate>
+   </card>
+   <card id="58920f2a-b6ce-4f31-9439-475aa7005367" name="0-2A Love's Labours Lost">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Heartbreak Hinsin is an honorable man, some say, even though he's gone astray from an honest living. He's earned his share of infamy defeating those who challenge him, but he lacks the wealth and influence a truly terrifying pirate requires. Maybe that's why he's courting Agasta Smithee, the extremely influential Lady of Tidewater Rock. She's been a widow for too long, but the tide is turning.&#10;Now that tales of Lady Smithee's amorous ambitions have spread through every inn, tavern, brothel, and galley for miles around, she's suddenly attracted an entourage of suitors. Apparently, the wealthy dowager just gets more beautiful as she gets older, or perhaps, those who have pitied the widow are now seeing her in a new light. Whatever the truth may be, Hinsin's got a lot of competition lined up. You'll have to fight through a crowd of admirers to get anywhere near his lady love. And then there's Master Scourge. He hated her last husband, so he wants her to die alone and unloved.&#10;Cynical sailors claim that Hinsin has docked his ship in Lady Smithee's port because he really wants Tidewater Rock, but those of a more romantic inclination say that he's in love--really and truly smitten with Smithee. Bards have started writing bawdy ballads.&#10;Maybe if you could help bring these two lovebirds together, you could share in their joy and happiness... and maybe they'd make for fine allies in your times of trouble. After all, if yer going to impress the Pirate's Council, you'll need all the mates you can muster." />
+    <property name="Attr1" value="Alehouse&#10;Docks&#10;House of Stolen Kisses&#10;Merchant Marina&#10;Seaside Warehouse&#10;Festhall&#10;Harbor" />
+    <property name="Attr2" value="Your ship is anchored at the Docks.&#10;Choose any class 1 or lower ship as your ship." />
+   <alternate name="0-2A Love's Labours Lost" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development: &#10;Ah! Love! True love! The handsome Hinsin and his blushing bride are together at last. Unfortunately, they can't invite you to the wedding. Only the Pirate's Council is invited, and yer not quite on their level of pirate society, but Lady Smithee might find another way to thank you soon enough. Maybe she'll hire you for a bit o' mercenary work, but not right away. You should call on her after... the honeymoon." />
+    <property name="Attr1" value="Place the ally Heartbreak Hinsin faceup next to this scenario. While Heartbreak Hinsin is next to this scenario, add 2 to any check against henchmen.&#10;When you have cornered and defeated the villain, instead of winning, close the last location, then summon and build the location Tidewater Rock; instead of using the deck list on the location card, add a number of random henchmen to that location deck from the following list equal to the number of characters: Knuckles Grype, Slippery Syl Lonegan, Owlbear Hartshorn, Jaundiced Jape, Maheem, and Aretta Bansion. Put Lady Agasta Smythee on the bottom of that location deck. Defeating a henchman does not allow you to close that location. When you would encounter Lady Agasta Smythee, if there are any other cards in that location deck instead, put Lady Agasta Smythee on the bottom of that location deck, then encounter the top card of that location deck. When Lady Agasta Smythee is the only card in that location deck, place her faceup next to Heartbreak Hinsin; you win the scenario." />
+    <property name="Attr2" value="Master Scourge" />
+    <property name="Attr3" value="Buccaneers" />
+    <property name="Attr4" value="Each character gains a random ally from the box." />
+   </alternate>
+   </card>
+   <card id="1a9b0c05-bd25-49ab-b084-e058bdff2009" name="0-2B Yo Ho Grindylows">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="Pirate lords and patrons are useful allies when you're sailing in the Shackles. Just recently, you earned the gratitude of Agasta Smithee, the Lady of Tidewater Rock. She's got great wealth, a vast... island fortress, and now, the love of her life, &quot;Heartbreak&quot; Hinsin. Out of gratitude, she's willing to hire you for the occasionall cargo run and perhaps a bit of skullduggery.&#10;Here's the latest haul: An isolated island is in need of supplies--medicine, gunpowder, and of course, more rum--but your mission of mercy has one complication: your port of call has been overrun with a gaggle of grim and ghastly grindylows.&#10;I'll be honest, lads and lasses. Yer ship isn't up to the task. For this mission, you'll need to work with a crew of specialists. Lady Smithee has friends in low places, including an infamous raider known for his stalwart ship, his reckless crew, and his infrequent bouts of kleptomania. He's traded his weidling for a swifter ship, and the sailors aborad her are all goblins. You heart that right! Goblins! Nasty, sneaking, treacherous little goblins. If there's anyone who can deal with grindylows, it's goblins.&#10;Your wealthy patron has intimated that if some of those goblins were to become... expendable, shall we say... she wouldn't shed a tear, as long as that cargo gets delivered. So there ya go: The ransacking goblin has a ship, and you've got a mission. It's time to set sail for your next destination. Damn the grindylows! Fully speed ahead!" />
+    <property name="Attr1" value="Hatchery&#10;Sea Caves&#10;Jungle&#10;Beach&#10;Ghol-Gan Ruins&#10;Holy Isle&#10;Mangrove Swamp&#10;Coastline" />
+    <property name="Attr2" value="Choose any Class 1 or lower ship as your ship." />
+   <alternate name="0-2B Yo Ho Grindylows" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development:&#10;And so we wave goodbye to the stalwart goblin and his thieving crew. Off ya go, goblins! Ready to ransack anything ya find! Lady Smithee will be pleased. She'll be telling the captains of the Pirate's Council another tale of yer thrilling deeds. Folks drinkin' at the Rusty Bucket say she's planning a party to celebrate her newfound happiness. If she can't get you on the guest list, she might have something else planned for you. But don't you worry: no goblins are invited." />
+    <property name="Attr1" value="When you encounter a non-villain, non-henchman monster, roll 1d6: &#10;1-2: During the encounter, the difficulty of any checks by characters at your location is increased by 1d4.&#10;3-4: Before you act, each character at your location is dealt 1d4-1 Combat damage.&#10;5-6: During the encounter, characters at other locations may not play cards or use powers." />
+    <property name="Attr2" value="Brinebrood Queen" />
+    <property name="Attr3" value="Riptide Grindylows" />
+    <property name="Attr4" value="Each character gains a skill feat." />
+   </alternate>
+   </card>
+   <card id="c07c6aa2-513a-4147-8a1c-093e797a1511" name="0-2C Revenge of the Fishfolk">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="After earning a fair wage from your last job, you've... acquired... another ship, setting sail back to Tidewater Rock. You've seen wonders and terrors in the Shackles, but naught you've seen could prepare you for the horrors ahead. Attend, lads and lasses, and I'll tell ya the tale.&#10;In the Fever Sea, there's a friendly fishfolk who's been birthing her offspring for generations--longer than any old salt can recall. She's the matriarch of her kind, and when she's giving birth, any wise captain gives her lair a wide berth, if ya know what I mean. But some creatures aren't as wise as that. In fact, some have a bit more greed than common sense.&#10;One full moon, sea devils set out to seize this poor matriarch.&#10;They stole her spawn. They off-loaded her offspring. They trapped her, they tormented her, and... hold on to yer grog... they broke both her legs! Aye! Her flipper-finned legs! With the help of some passing sailors who actually had a conscience, the matriarch escaped, but she's mad and she's mangled and she wants her revenge.&#10;Mayhaps yer the salty dogs that can help her. Track down the sea devils who forced her to that fate, and you'll have the everlasting gratitude of the fishfolk matriarch. And take care: Krelloort is the worst of the sea devil lot. His waddling gait and bloated belly make him look less than fearsome, but he's the one who sold the matriarch's little ones. Anyone that cold-blooded deserves a cold serving of revenge. Harr! Make that heartless horror pay!" />
+    <property name="Attr1" value="Mancatcher Cove&#10;Floating Shipyard&#10;Tempest Cay&#10;Windwar Isle&#10;Pinnacle Atoll&#10;Scar Bay&#10;Cannibal Isle&#10;Sea Fort" />
+    <property name="Attr2" value="Choose any Class 1 or lower ship as your ship." />
+   <alternate name="0-2C Revenge of the Fishfolk" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development: &#10;Aye, the matriarch's been reunited with her young'uns now.&#10;It brings a tear to me eye, it does. And those dastardly eggstealin',&#10;leg-breakin', skulking sea devils are no more! I've seen&#10;some loathsome down-and-dirty pirates in my time, but no one&#10;sinks lower than sea devils! 'Tis good to know yer course is on&#10;an even keel." />
+    <property name="Attr1" value="Each player chooses a type of boon other than loot and adds two random cards of that type from the box facedown to a single treasure stack.&#10;When a monster that has the Aquatic trait is undefeated, banish 1d4 cards from the treasure stack.&#10;When you win the scenario, stash the treasure stack as plunder" />
+    <property name="Attr2" value="Krelloort" />
+    <property name="Attr3" value="Sea Devils" />
+    <property name="Attr4" value="Each character gains a card feat." />
+   </alternate>
+   </card>
  </cards>
 </set>

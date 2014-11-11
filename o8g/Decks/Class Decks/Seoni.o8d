@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="e3afcf51-b55e-46a1-b245-26dfcaf23354">Seoni</card>
+    <card qty="1" id="d57dd44c-ca61-4ba6-a8d2-7ca1439a8b77">Seoni</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="9a95d31c-4989-494c-a9c2-f60d95fd2c67">Lightning Touch</card>
+    <card qty="1" id="40a2c7b6-2067-4cbb-a1ea-ac84c8db0279">Force Missile</card>
+    <card qty="1" id="2227a6e8-8c57-4f81-b1bd-c89c1ac2d9e5">Confusion</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="78f35882-fa8d-43fc-a7a2-9a6be9b8dbe6">Codex</card>
+    <card qty="1" id="99557d3e-6dbc-42e4-826a-eb5fd0f7ee58">Caltrops</card>
+    <card qty="1" id="8010ef37-d827-4bfe-b2b4-6aeab8aab87a">Bracers of Protection</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="0624f22a-004e-4dbd-9bf1-6618958b8584">Sage</card>
+    <card qty="1" id="319225be-628b-411a-be31-88b9ad6a85fe">Turtle</card>
+    <card qty="1" id="6f94fefc-8e66-4a7d-9237-cf65d40fe849">Jinx Eater</card>
+    <card qty="1" id="687d7e3b-2e4f-4fbd-9bf7-ad1d6de61771">Crow</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="5" id="9c9a011a-c260-4336-b5f8-fe325b25e7bf">Blessing of the Gods</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
