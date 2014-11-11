@@ -1906,9 +1906,13 @@ def advanceBlessingDeck():
 			# Out of time - the players have lost
 			gameOver(False)	
 		return
-		
 	pile.top().moveTo(shared.piles['Blessing Discard'])
 	notify("{} advances the Blessing Deck".format(me))
+	#In Treasure of Jemma Redclaw, Jemma is in the blessings deck... move her to the table
+	if shared.piles['Blessing Discard'].top().Name in  ('Jemma Redclaw'):
+		whisper("Moving Jemma Redclaw to the table.")
+		shared.piles['Blessing Discard'].top().moveToTable(PlayerX(len(getPlayers())+1),StoryY)
+		pile.top().moveTo(shared.piles['Blessing Discard'])
 	
 	# Here comes the flood has special end conditions
 	flood = findCardByName(table, 'Here Comes the Flood')
