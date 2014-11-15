@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True">
+    <card qty="1" id="3bbc8a37-ac2d-4b5e-80e2-7c41d4cab3e6">Kraken's Spite</card>
+    <card qty="1" id="0175c00b-a6fb-4336-ad24-110b6b6ac3a7">Cetaceal</card>
+    <card qty="1" id="ea58ab7a-4857-453f-bed4-14c4aaf59433">Burnt Saffron</card>
+    <card qty="1" id="bb66129d-678e-4754-84a9-6a4aaccac4a8">Impervious</card>
+    <card qty="1" id="7e1cdbab-8fcc-4a37-9639-1321a1328ac4">Mark of Yunnarius</card>
+    <card qty="1" id="ea63a0c9-57cb-46d2-9c94-a2d7a248edfd">Ravishing Ruby</card>
+    <card qty="1" id="c49f505e-d9f5-4fdc-8da9-88068d6dd051">Hu-Hazhong</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
   <section name="Story" shared="True">
     <card qty="1" id="b426abe0-e9e5-4484-a759-fb7ec0ced3c9">A Pirate's Life</card>
     <card qty="1" id="5c21eea7-521e-43fa-8b06-c8af19e73c66">Lost at Sea</card>
@@ -22,10 +14,22 @@
     <card qty="1" id="58920f2a-b6ce-4f31-9439-475aa7005367">0-2A Love's Labours Lost</card>
     <card qty="1" id="1a9b0c05-bd25-49ab-b084-e058bdff2009">0-2B Yo Ho Grindylows</card>
     <card qty="1" id="c07c6aa2-513a-4147-8a1c-093e797a1511">0-2C Revenge of the Fishfolk</card>
+    <card qty="1" id="be39c247-a8c0-4bc6-9bcb-a8e7a6f06a8a">0-2D Who Rules Hell Harbor?</card>
   </section>
   <section name="Henchman" shared="True">
     <card qty="1" id="5cc275ba-4854-42e0-a4b2-b29efab312db">Onwu Azu</card>
   </section>
+  <section name="Location" shared="True">
+    <card qty="5" id="3653ffa5-43e2-447a-9eec-bd773942232e">Shark Island</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
   <section name="Monster" shared="True" />
   <section name="Barrier" shared="True" />
   <section name="Armor" shared="True" />
@@ -37,9 +41,6 @@
   <section name="Ship" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
-  <section name="Location" shared="True">
-    <card qty="5" id="3653ffa5-43e2-447a-9eec-bd773942232e">Shark Island</card>
-  </section>
   <section name="Villain" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

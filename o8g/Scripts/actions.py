@@ -1371,7 +1371,9 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	closed = False
 	
 	if defeated: # Normally we close the location the villain came from
-		if villain.Name == 'The Matron':
+		if findScenario(table).Name == '0-1F The Treasure of Jemma Redclaw' and villain.Name == 'Jemma Redclaw':
+			gameOver(True)
+		elif villain.Name == 'The Matron':
 			notify("{} banishes '{}'".format(me, villain))
 			returnToBox(villain)
 			krelloort = findCardByName(shared.piles['Villain'],'Krelloort')
@@ -1415,6 +1417,31 @@ def hideVillain(villain, x=0, y=0, banish=False):
 				location.moveToTable(LocationX(nl+1,nl+1), LocationY)
 				whisper("{} builds location {}".format(me,location))
 			notify("{} banishes '{}'".format(me, villain))
+			returnToBox(villain)
+		elif villain.Name == 'Master Scourge' and findScenario(table).Name == '0-2A Love\'s Labours Lost': 
+			location = findCardByName(shared.piles['Location'],'Tidewater Rock')
+			if location is None:
+				whisper("Failed to find location Tidewater Rock")
+			else:
+				players = len(getPlayers())
+				nl = 0
+				for card in table:
+					if card.Type == 'Location':
+						nl += 1
+				pileName = "Location{}".format(nl+1)
+				location.moveToTable(LocationX(nl+1,nl+1), LocationY)
+				whisper("{} builds location {} with special card list".format(me,location))
+				henchmen = ('Knuckles Grype', 'Slippery Syl Lonegan', 'Owlbear Heartshorn', 'Jaundiced Jape', 'Maheem', 'Aretta Bansion')
+				for i in henchmen:
+					currHench = findCardByName(shared.piles['Henchman'],i)
+					currHench.moveTo(shared.piles['Hidden'])
+				for j in players:
+					addHench = shared.piles['Hidden'].random()
+					addHench.moveTo(location.pile())
+				shuffle(location.pile())
+				ladyAgasta = findCardByName(shared.piles['Loot'],'Lady Agasta Smythee')
+				ladyAgasts.moveToBottom(location.pile())
+			notify("{} banishes '{}'".format(me,villain))
 			returnToBox(villain)
 		elif closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
 			gameOver(True)	
@@ -1774,7 +1801,18 @@ def scenarioSetup(card):
 		devilsPallor = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
 		devilsPallor.moveToTable(PlayerX(-1)+30,StoryY)
 		devilsPallor.sendToBack()
-			
+		
+	#In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
+	if card.Name == '0-2D Who Rules Hell Harbor?':
+		devil = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
+		devil.moveToTable(PlayerX(-1)+15,StoryY)
+		whisper("Make sure to load the special ship deck 'Ships for 0-2D', and place them on the board!")
+		
+	#In Love's Labours Lost, display Heartbreak Hinsin next to the scenario card
+	if card.Name == '0-2A Love\'s Labours Lost':
+		hinsin = findCardByName(shared.piles['Ally'],'Heartbreak Hinsin')
+		hinsin.moveToTable(PlayerX(-1)+15,StoryY)
+	
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	if card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
 		henchmen = card.Attr3.replace(' per Character', '').replace('1 ','').splitlines()

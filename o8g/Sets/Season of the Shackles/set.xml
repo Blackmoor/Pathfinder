@@ -279,5 +279,166 @@
     <property name="Attr4" value="Each character gains a card feat." />
    </alternate>
    </card>
+   <card id="be39c247-a8c0-4bc6-9bcb-a8e7a6f06a8a" name="0-2D Who Rules Hell Harbor?">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Front" />
+    <property name="Flavour" value="The Pirate's Council has almost thirty councilors, and they've been hearing tales of your exploits. You've already earned the patronage of a wealthy dowager: the lovely Lady Smithee, recently betrothed to a handsome scoundrel named Heartbreak Hinsin. Impressing some pirate lords next would be a savvy idead, especially if you've got designs on becoming one of them. There's plenty o' ways to do that, but there's one that everyone knows best: winning the Free Captain's Regatta. The sailor who wins it is the next lucky soul to join the council.&#10;Some pirates seek plunder or infamy, but there's no shortage of ambitious souls who train all year for that one race. Know this: The cronies of the Pirate's Council love to sponsor races. And wealthy aristocrats who've just been wed love to host lavish festivals and parties. It just so happens that Lady Smithee and her husband, Hinsin, are doing both: they're hosting a regatta to celebrate their nuptuals. The winner stands to gain some plunder: a pile o' dubloons and a swift ship.&#10;Most of the competition is the usual rifraff, but you do have one formidable competitor. His name is Gortus Svard. The few who've sailed against him and lived say he'll do anything to win. If he can't take the prize, he'll surely take your lives. Now here's your chance to show the council what a true crew of pirates can do. Gortus Svard's loss could be your gain. Let the race begin!" />
+    <property name="Attr1" value="Floating Shipyard&#10;Riptide Cove&#10;Rocky Cliff&#10;Fog Bank&#10;Shark Island&#10;Shipwreck Graveyard&#10;Tempest Cay&#10;Harbor" />
+   <alternate name="0-2D Who Rules Hell Harbor?" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Story" />
+    <property name="Subtype" value="Scenario" />
+    <property name="Subtype2" value="Back" />
+    <property name="Flavour" value="Development: &#10;What a regatta! I don't quite know who won, but I certainly know who lost: Gortus Svard! He's gonna have to swim to shore, or maybe he's diving to Besmara's watery depths. I knokw one of you faced his ship head-on at the end there, so as far as I'm concerned, you're the winner. No, wait! You've all won! You sing or swim together, like true mates. And best of all, the Pirate's Council saw it all... if they were sober at the party that is. Mayhaps one of them might be taking an interest in you and your crew. If that happens, rest assured: yer next journey won't be as easy. I hear tell there's treacherous waters ahead. Set a course for the next adventure!" />
+    <property name="Attr1" value="At the start of the scenario, display the Devil's Pallor next to this scenario card; each character randomly chooses a ship of Class 3 or lower and stashes a plunder card under that ship; then return the Devil's Pallor to the fleet stack. The ship you randomly choose is your ship. On your turn, you are commanding your own ship. You are the only one on your ship, and you cannot move with another character when she moves during her move step. When your ship is dealt Structural damage, only you can discard cards to reduce damage to your ship. When you would encounter a non-villain monster, roll 1d8 on the table below; summon and encounter that ship instead.&#10;1. a random ship from the fleet stack&#10;2. Burnt Saffron&#10;3. Cetacel&#10;4. Hu-Hazhong&#10;5. Impervious&#10;6. Kraken's Spite&#10;7. Mark of Yunnarius&#10;8. Ravishing Ruby&#10;When you earn a deck upgrace from this scenario, you may choose from either your own plunder or the party's acquired cards." />
+    <property name="Attr2" value="Gortus Svard" />
+    <property name="Attr3" value="Shipwrecks" />
+    <property name="Attr4" value="Each character gains a power feat." />
+   </alternate>
+   </card>
+   <card id="3bbc8a37-ac2d-4b5e-80e2-7c41d4cab3e6" name="Kraken's Spite">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="If defeated, stash an additional plunder." />
+    <property name="Attr2" value="Strength&#10;Melee" />
+    <property name="Attr3" value="12" />
+    <property name="Attr4" value="Wisdom&#10;Survival" />
+    <property name="Attr5" value="10" />
+    <property name="Attr6" value="OR" />
+   <alternate name="Kraken's Spite" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="0175c00b-a6fb-4336-ad24-110b6b6ac3a7" name="Cetaceal">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Before you act, discard any cards that have the Pirate trait from your hand. For each such card discarded, the difficulty of your check to defeat is increased by 3." />
+    <property name="Attr2" value="Dexterity&#10;Acrobatics" />
+    <property name="Attr3" value="8" />
+    <property name="Attr4" value="Wisdom&#10;Perception" />
+    <property name="Attr5" value="10" />
+    <property name="Attr6" value="OR" />
+   <alternate name="Cetaceal" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="ea58ab7a-4857-453f-bed4-14c4aaf59433" name="Burnt Saffron">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Before you act, display all allies from your hand. If undefeated, bury them; otherwise, after you act, return them to your hand." />
+    <property name="Attr2" value="Constitution&#10;Fortitude" />
+    <property name="Attr3" value="10" />
+    <property name="Attr4" value="Wisdom&#10;Survival" />
+    <property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
+   <alternate name="Burnt Saffron" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="bb66129d-678e-4754-84a9-6a4aaccac4a8" name="Impervious">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="If you are the only character at your location and the Impervious woul dbe defeated, it is undefeated instead." />
+    <property name="Attr2" value="Dexterity&#10;Ranged" />
+    <property name="Attr3" value="11" />
+    <property name="Attr4" value="Wisdom&#10;Survival" />
+    <property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
+   <alternate name="Impervious" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="7e1cdbab-8fcc-4a37-9639-1321a1328ac4" name="Mark of Yunnarius">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Before the encounter, a random character at your location summons and encounters the henchman Pirate Shade Haunt." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="10" />
+    <property name="Attr4" value="Divine" />
+    <property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
+   <alternate name="Mark of Yunnarius" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="ea63a0c9-57cb-46d2-9c94-a2d7a248edfd" name="Ravishing Ruby">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="If the check to defeat does not have the Swashbuckling trait, the difficulty is increased by 3." />
+    <property name="Attr2" value="Wisdom&#10;Survival" />
+    <property name="Attr3" value="10" />
+    <property name="Attr4" value="Charisma&#10;Diplomacy" />
+    <property name="Attr5" value="8" />
+    <property name="Attr6" value="OR" />
+   <alternate name="Ravishing Ruby" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
+   <card id="c49f505e-d9f5-4fdc-8da9-88068d6dd051" name="Hu-Hazhong">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Front" />
+    <property name="Attr1" value="Before you act, your ship is dealt 1 Structural damage.&#10;After you act, you are dealt 1 Mental damage." />
+    <property name="Attr2" value="Intelligence&#10;Knowledge" />
+    <property name="Attr3" value="10" />
+    <property name="Attr4" value="Wisdom&#10;Survival" />
+    <property name="Attr5" value="7" />
+    <property name="Attr6" value="OR" />
+   <alternate name="Hu-Hazhong" type="B">
+    <property name="Abr" value="2" />
+    <property name="Copyright" value="Yes." />
+    <property name="Type" value="Ship" />
+    <property name="Subtype" value="Scenario-Specific" />
+    <property name="Subtype2" value="Back" />
+   </alternate>
+   </card>
  </cards>
 </set>
