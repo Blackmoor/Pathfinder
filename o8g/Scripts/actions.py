@@ -1449,7 +1449,7 @@ def hideVillain(villain, x=0, y=0, banish=False):
 					currHench = henchmen.random()
 					addHench = findCardByName(shared.piles['Henchman'],currHench)
 					addHench.moveTo(location.pile())
-					henchmen.del(currHench)
+					henchmen.remove(currHench)
 				shuffle(location.pile())
 				ladyAgasta = findCardByName(shared.piles['Loot'],'Lady Agasta Smythee')
 				ladyAgasts.moveToBottom(location.pile())
