@@ -37,7 +37,9 @@ def toggleDebug(group, x=0, y=0):
 		notify("{} turns off debug".format(me))
 
 def cardFunctionName(card): # Removes special characters from the card name giving a string we can use as a function name
-	return card.Name.replace(' ','').replace('!','').replace("'","")
+	if card[0].isdigit():
+		card = "S{}".format(card)
+	return card.Name.replace(' ','').replace('!','').replace("'","").replace("?","").replace("-","")
 	
 def shuffle(pile, synchronise=False):
 	mute()
@@ -607,6 +609,17 @@ def TheGrindylowandtheWhale(mode): # setup requires each player to move a random
 			if x == 0 and y == 0:
 				c.moveTo(shared.piles['Scenario'])				
 		shuffle(shared.piles['Scenario'])
+		
+def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
+	if mode == 'Setup':
+		devil = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
+		devil.moveToTable(PlayerX(-1)+15,StoryY)
+		whisper("Make sure to load the special ship deck 'Ships for 0-2D', and place them on the board!")
+		
+def S02ALovesLaboursLost(mode):	#In Love's Labours Lost, display Heartbreak Hinsin next to the scenario card
+	if mode == 'Setup':
+		hinsin = findCardByName(shared.piles['Ally'],'Heartbreak Hinsin')
+		hinsin.moveToTable(PlayerX(-1)+15,StoryY)
 
 #Pick a random ally from the player piles, move it to the table and pass control to the supplied player
 def donateAlly(who):
@@ -1791,17 +1804,6 @@ def scenarioSetup(card):
 		devilsPallor = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
 		devilsPallor.moveToTable(PlayerX(-1)+30,StoryY)
 		devilsPallor.sendToBack()
-		
-	#In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
-	if card.Name == '0-2D Who Rules Hell Harbor?':
-		devil = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
-		devil.moveToTable(PlayerX(-1)+15,StoryY)
-		whisper("Make sure to load the special ship deck 'Ships for 0-2D', and place them on the board!")
-		
-	#In Love's Labours Lost, display Heartbreak Hinsin next to the scenario card
-	if card.Name == '0-2A Love\'s Labours Lost':
-		hinsin = findCardByName(shared.piles['Ally'],'Heartbreak Hinsin')
-		hinsin.moveToTable(PlayerX(-1)+15,StoryY)
 	
 	#In The Treasure of Jemma Redclaw, the first villain is set aside and added to the Blessings deck, then two villains are added to decks.
 	if card.Name in ('0-1F The Treasure of Jemma Redclaw'):
