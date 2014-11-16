@@ -1432,12 +1432,11 @@ def hideVillain(villain, x=0, y=0, banish=False):
 				location.moveToTable(LocationX(nl+1,nl+1), LocationY)
 				whisper("{} builds location {} with special card list".format(me,location))
 				henchmen = ('Knuckles Grype', 'Slippery Syl Lonegan', 'Owlbear Heartshorn', 'Jaundiced Jape', 'Maheem', 'Aretta Bansion')
-				for i in henchmen:
-					currHench = findCardByName(shared.piles['Henchman'],i)
-					currHench.moveTo(shared.piles['Hidden'])
-				for j in players:
-					addHench = shared.piles['Hidden'].random()
+				for i in players:
+					currHench = henchmen.random()
+					addHench = findCardByName(shared.piles['Henchman'],currHench)
 					addHench.moveTo(location.pile())
+					henchmen.del(currHench)
 				shuffle(location.pile())
 				ladyAgasta = findCardByName(shared.piles['Loot'],'Lady Agasta Smythee')
 				ladyAgasts.moveToBottom(location.pile())
@@ -1743,15 +1742,9 @@ def scenarioSetup(card):
 		nl = 1
 	elif card.Name == 'The Toll of the Bell':
 		nl = 2
-	elif card.Name == 'The Secret of Mancatcher Cove':
+	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark'):
 		nl -= 1
 		leaveSpace = 1
-	#In the Lone Shark, add a number of Shark Island locations equal to the number of players -1
-	elif card.Name == '0-1B The Lone Shark':
-		addLocs = len(getPlayers())-1	
-		nl += addLocs
-		for q in range(addLocs):
-			locations[q+2] = 'Shark Island'
 		
 	if nl < 1:
 		nl = 1
@@ -1779,9 +1772,6 @@ def scenarioSetup(card):
 			villain = findCardByName(shared.piles['Villain'], v)
 			if villain is None:
 				whisper("Setup error: failed to find '{}'".format(v))
-			#In The Treasure of Jemma Redclaw, the first villain is set aside and added to the Blessings deck, then two villains are added to decks.
-			elif card.Name in ('0-1F The Treasure of Jemma Redclaw') and villain.Name in ('Jemma Redclaw'):
-				ignore = 0
 			else:
 				debug("Moving '{}' to hidden pile".format(villain))
 				villain.moveTo(hidden)
@@ -1812,6 +1802,15 @@ def scenarioSetup(card):
 	if card.Name == '0-2A Love\'s Labours Lost':
 		hinsin = findCardByName(shared.piles['Ally'],'Heartbreak Hinsin')
 		hinsin.moveToTable(PlayerX(-1)+15,StoryY)
+	
+	#In The Treasure of Jemma Redclaw, the first villain is set aside and added to the Blessings deck, then two villains are added to decks.
+	if card.Name in ('0-1F The Treasure of Jemma Redclaw'):
+		jemma = findCardByName(hidden,'Jemma Redclaw')
+		i = 0
+		while i < 10:
+			shared.piles['Blessing'].random().moveTo(shared.piles['Blessing Deck'])
+			i=i+1
+		jemma.moveTo(shared.piles['Blessing Deck'])
 	
 	debug("Hide Henchmen '{}'".format(card.Attr3))
 	if card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
@@ -1882,9 +1881,6 @@ def scenarioSetup(card):
 		dst = shared.piles['Blessing Deck']
 		if card.Name == 'Sandpoint Under Siege':
 			blessings = 25
-		#In Treasure of Jemma Redclaw, add 10 random blessings now
-		elif card.Name == '0-1F The Treasure of Jemma Redclaw':
-			blessings = 10
 		else:
 			blessings = 30
 		blessings += shared.ExtraBlessings
@@ -1892,13 +1888,6 @@ def scenarioSetup(card):
 			blessings = 1
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
-		#In Treasure of Jemma Redclaw, add Jemma and 19 more random blessings now
-		if card.Name == '0-1F The Treasure of Jemma Redclaw':
-			blessings = 30
-			jemma = findCardByName(shared.piles['Villain'], 'Jemma Redclaw')
-			jemma.moveTo(dst)
-			while len(src) > 0 and len(dst) < blessings:
-				src.random().moveTo(dst)
 		
 	notify("{} starts '{}'".format(me, card))
 	return anchorage
