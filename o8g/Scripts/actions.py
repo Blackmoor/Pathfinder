@@ -1431,6 +1431,11 @@ def hideVillain(villain, x=0, y=0, banish=False):
 				whisper("{} builds location {}".format(me,location))
 			notify("{} banishes '{}'".format(me, villain))
 			returnToBox(villain)
+		#In Shore Leave at Port Peril, pull out the Pirate Council and don't end the game yet.
+		elif findScenario(table).Name == 'Shore Leave at Port Peril' and villain.Name == 'Caulky Tarroon':
+			pirateCouncil = findCardByName(shared.piles['Villain'],'The Pirate Council')
+			pirateCouncil.moveToTable(LocationX(nl+1,nl+1), LocationY)
+			whisper("If you defeat The Pirate Council, you earn the Letter of Marque!")
 		elif villain.Name == 'Master Scourge' and findScenario(table).Name == '0-2A Love\'s Labours Lost': 
 			location = findCardByName(shared.piles['Location'],'Tidewater Rock')
 			if location is None:
@@ -1456,6 +1461,14 @@ def hideVillain(villain, x=0, y=0, banish=False):
 			notify("{} banishes '{}'".format(me,villain))
 			returnToBox(villain)
 		elif closed and villain.Name != 'Kelizar the Brine Dragon': # Defeating this villain (Sunken Treasure) doesn't end the game
+			if findScenario(table).Name == 'Shore Leave at Port Peril' and villain.Name == 'The Pirate Council':
+				nl = 0
+				for card in table:
+					if card.Type == 'Location':
+						nl += 1
+				marqueLetter = findCardByName(shared.piles['Loot'],'Letter of Marque')
+				marqueLetter.moveToTable(LocationX(nl+1,nl+1),LocationY)
+				whisper("You've earned the Letter of Marque!")
 			gameOver(True)	
 		else:
 			notify("{} returns {} to the box".format(me, villain))
@@ -1738,7 +1751,7 @@ def scenarioSetup(card):
 	
 	anchorage = None # This is set to the location card if an anchorage is mentioned in attr2 of the scenario.
 	if 'Your ship is anchored at ' in card.attr2:
-		shipSearch = card.attr2.replace('Your ship is anchored at ','')
+		shipSearch = card.attr2.replace('Your ship is anchored at ','').replace('the ','')
 	else:
 		shipSearch = ''
 
@@ -1868,6 +1881,14 @@ def scenarioSetup(card):
 				hidden.bottom().moveTo(pile) # Ensure Villain is in first location
 			else:
 				hidden.random().moveTo(pile)
+		#In The Brine Banshee's Grave and Free Captain's Regatta, add an extra henchman to each location
+		if card.Name in ("The Brine Banshee\'s Grave","The Free Captains\' Regatta"):
+			if card.Name == "The Brine Banshee\'s Grave":
+				exHenchName = "Shipwreck"
+			elif card.Name == "The Free Captains\' Regatta":
+				exHenchName = "Enemy Ship"
+			extraHench = findCardByName(shared.piles['Henchman'],exHenchName)
+			extraHench.moveTo(pile)
 		shuffle(pile)
 		index += 1
 	unlockPile(hidden)

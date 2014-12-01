@@ -817,7 +817,7 @@
   </card>
   <card id="71c04299-7e0a-447f-9660-b3fa1af2a20e" name="Attack on Rickety's Squibs">
     <property name="Abr" value="2"/>
-    <property name="Copyright" value="No."/>
+    <property name="Copyright" value="Yes."/>
     <property name="Type" value="Story"/>
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
@@ -826,7 +826,7 @@
     <property name="Attr2" value="Your ship is anchored at the Merchant Marina."/>
     <alternate name="Attack on Rickety's Squibs" type="B">
       <property name="Abr" value="2"/>
-      <property name="Copyright" value="No."/>
+      <property name="Copyright" value="Yes."/>
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
@@ -858,7 +858,7 @@
   </card>
   <card id="a79c1ce7-6e6d-4de1-b286-a973862fcb02" name="The Lady's Favor">
     <property name="Abr" value="2"/>
-    <property name="Copyright" value="No."/>
+    <property name="Copyright" value="Yes."/>
     <property name="Type" value="Story"/>
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
@@ -866,7 +866,7 @@
     <property name="Attr1" value="Windward Isle&#10;Pinnacle Atoll&#10;Tidewater Rock&#10;Coastline&#10;Fog Bank&#10;Raker Shoals&#10;Tempest Cay&#10;Fringes of the Eye"/>
     <alternate name="The Lady's Favor" type="B">
       <property name="Abr" value="2"/>
-      <property name="Copyright" value="No."/>
+      <property name="Copyright" value="Yes."/>
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
@@ -878,7 +878,7 @@
   </card>
   <card id="953dd3c6-79ca-4688-b35a-1f6c005cffed" name="The Secret of Mancatcher Cove">
     <property name="Abr" value="2"/>
-    <property name="Copyright" value="No."/>
+    <property name="Copyright" value="Yes."/>
     <property name="Type" value="Story"/>
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
@@ -886,7 +886,7 @@
     <property name="Attr1" value="Coastline&#10;Harbor&#10;Beach&#10;Mangrove Swamp&#10;Sea Caves&#10;Jungle&#10;Fishing Village"/>
     <alternate name="The Secret of Mancatcher Cove" type="B">
       <property name="Abr" value="2"/>
-      <property name="Copyright" value="No."/>
+      <property name="Copyright" value="Yes."/>
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
@@ -898,7 +898,7 @@
   </card>
   <card id="096bc82f-b3be-4f56-b20c-94a3f5a3a29b" name="The Toll of the Bell">
     <property name="Abr" value="2"/>
-    <property name="Copyright" value="No."/>
+    <property name="Copyright" value="Yes."/>
     <property name="Type" value="Story"/>
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
@@ -906,7 +906,7 @@
     <property name="Attr1" value="Scar Bay&#10;Fog Bank"/>
     <alternate name="The Toll of the Bell" type="B">
       <property name="Abr" value="2"/>
-      <property name="Copyright" value="No."/>
+      <property name="Copyright" value="Yes."/>
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>

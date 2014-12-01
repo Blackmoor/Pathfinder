@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="038dbd0b-de45-45f3-a5f7-5cff5a59b20f">Tempest Rising</card>
+    <card qty="1" id="db2f9a39-8ef8-4f47-b01b-f8293204edce">Bizarre Love Triangle</card>
+    <card qty="1" id="7cc2a159-a007-48c6-910a-c9bcffede02a">Shore Leave at Port Peril</card>
+    <card qty="1" id="cd87ec62-8d01-4eca-a9fb-c6f924268f0d">Spies Among Us</card>
+    <card qty="1" id="9f65d4ab-1873-43cf-9025-cd399a3d0e2d">The Brine Banshee's Grave</card>
+    <card qty="1" id="6f77523a-8816-4aa3-b0ec-f87dd71331c7">The Free Captains' Regatta</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="6" id="bf7eb2cd-3c61-4d02-b985-a485d9605510">Hurricane Winds</card>
+    <card qty="6" id="c032944a-6611-47dd-8821-665040d729bd">Cryptic Runes</card>
+    <card qty="1" id="769d712c-0e4c-4214-8c63-64ff5f1fab2b">Giles Halmis</card>
+    <card qty="1" id="c28be5a8-b8f5-4d9b-85d6-06d662661bbc">Ormandar</card>
+    <card qty="1" id="87f5b016-602a-468b-8edf-a84f2dcf9101">Shimerae</card>
+    <card qty="1" id="c580202e-3927-4ef1-8c47-228d0cbda448">Lightning Elemental</card>
+    <card qty="1" id="1a3b83c5-536a-4bd8-9c08-51aa4c5f1eae">Vakarla the Wrecker</card>
+    <card qty="1" id="559c63d0-51cf-422c-b4c1-5204d57cbaf2">Fishpork</card>
+    <card qty="1" id="737ccdca-30bd-438f-a0ee-96aac918bbc0">Jalhazar's Curse</card>
+    <card qty="1" id="484b361a-7629-4836-ae0e-047de37c7ad7">Blackwater Charda</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="5098e743-b640-40ba-988e-5cecafdfc0f9">Cannoneer</card>
+    <card qty="2" id="e0be5409-b93e-4394-92dc-fe03c8720f36">Fever Sea Marauder</card>
+    <card qty="1" id="1125ab9b-14cd-428e-bee3-a2b09715dee6">Giant Anaconda</card>
+    <card qty="2" id="cecdadde-7ede-4c11-8322-2b57aa589105">Manticore</card>
+    <card qty="2" id="5f37895d-509d-4a7b-8b79-9539ff80024f">Werecrocodile</card>
+    <card qty="2" id="a73ac715-694b-4e34-ba63-00c07c52b36e">Giant Jellyfish</card>
+    <card qty="2" id="b500f149-3d72-4b6c-8220-dcbd3da864dc">Great White Shark</card>
+    <card qty="2" id="6a537911-30e3-41f7-9f17-1d586007a2d8">Will-o'-Wisp</card>
+    <card qty="2" id="2bc8d76d-fad8-481a-9e07-86aa5e01bf72">Darkforest Anemone</card>
+    <card qty="2" id="c222287b-8f50-495a-bd4e-0f47892c444b">Blood Hag</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="f3daa2f1-002c-4fd0-8167-2ee04e785e57">Sandbar</card>
+    <card qty="1" id="09871f75-f723-4664-b659-a6c2bcc8e3af">Wyvern Blade Trap</card>
+    <card qty="2" id="f8c1343b-2fe3-4e24-bb25-79e5a1ff6ce0">Cannonade</card>
+    <card qty="2" id="f59b059d-47f2-4360-bf55-b52f8599a71f">Jagged Shoals</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="07be09cf-66b9-41e3-80f3-cf7878a3571a">Fortified Shell Armor</card>
+    <card qty="1" id="5222b593-e2d0-4bdd-97eb-76d6c4dbf511">Wilderness Studded Leather</card>
+    <card qty="1" id="c8c4b9cf-dd6f-4bd2-8046-007b7fc9e955">Sniper's Studded Leather</card>
+    <card qty="2" id="3a2c34c3-c4fe-446b-ab5e-05d27b81a848">Besmaran Vestments</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="5f0f4b58-b80f-47b9-bcf8-729a4aac9590">Seaborne Trident +1</card>
+    <card qty="1" id="6b2288ff-fc8e-4238-80c0-2bc499300148">Sharpshooter's Blade</card>
+    <card qty="1" id="806eb655-7e6e-41c7-bc4d-610698ca4c69">Trident +2</card>
+    <card qty="1" id="6c205761-45bc-434f-85be-eaf0e0783307">Navigator Musket +1</card>
+    <card qty="1" id="958a1daf-b95e-41fe-9edc-544a3c8db6bd">Musket +2</card>
+    <card qty="1" id="8e2c0a49-279c-4682-b93a-e5b87dfcff4b">Humanbane Heavy Crossbow +2</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="6d4e89e2-d104-4f9a-8c60-26b84f236b00">Skeleton Crew</card>
+    <card qty="1" id="23d90c37-d308-4faf-83fa-e205fe243f84">Wall of Fire</card>
+    <card qty="1" id="dcbf3864-8eab-461f-ad7a-7dc7569dae67">Animate Water</card>
+    <card qty="2" id="0c8290ad-d0f3-4c2f-8b8b-6e529beee383">Freezing Sphere</card>
+    <card qty="2" id="904c38d8-acca-4cf2-b38c-bf3f61f136c0">Dimension Leap</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="5c9625c8-556a-40aa-b2ea-9e958a108ed8">Sea Tyrant's Patch</card>
+    <card qty="1" id="76b84fef-5a39-42e5-9810-b63eee05c6b4">Powder Keg</card>
+    <card qty="2" id="ca28c120-d540-4e17-9f3a-d6fa3a67d2b0">Potion of the Ocean</card>
+    <card qty="2" id="5798dd59-712c-4970-99ac-1a1e40fc288f">Potion of Flying</card>
+    <card qty="1" id="8f0c4093-1281-4c71-93c4-86a04ab4efd1">Crystal of Healing Hands</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="81fbabd0-3464-4a94-919e-64b47a22682e">Haneilius Fitch</card>
+    <card qty="1" id="1b6e9f91-a4a4-4963-a3e7-f6634b5d1be5">Corlan</card>
+    <card qty="1" id="2cbd23f3-01f2-4e74-9212-12987d52b6f6">Pierce Jerrell</card>
+    <card qty="1" id="79d74192-1510-4c2b-8ac4-e9019c21d860">Slip</card>
+    <card qty="1" id="00ac8f3e-fac0-40aa-b44a-ab7189b685e1">Imp</card>
+    <card qty="1" id="42e2a297-3a3f-4e6a-acb2-aa944a23c971">Tessa Fairwind</card>
+    <card qty="2" id="82818525-47df-4f40-9193-43baec8c7357">Monkey</card>
+    <card qty="1" id="31664edd-04ba-472e-b8d3-e9280ba705e0">Dindreann</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="7a056a64-a8a5-450c-a8c4-73d737366b4d">Blessing of Kelizandri</card>
+  </section>
+  <section name="Ship" shared="True">
+    <card qty="1" id="db0a7194-2892-48f2-9704-dcad830b0f65">Sanbalot</card>
+    <card qty="1" id="ca571f45-886b-439c-b0e8-2b0f4b9541f6">Kraken</card>
+    <card qty="1" id="ca7b1902-6bd0-4794-a5b6-40a3026f01e5">Dowager Queen</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="1" id="2623f5ff-5082-4537-af25-6ee2f1462d64">Pirate's Favor</card>
+    <card qty="1" id="ef7c78e2-75db-4a6a-8e4b-798f20c2a824">Ring of the Iron Skull</card>
+    <card qty="1" id="1f6ebeb6-a180-4ce0-9e3c-3455fe2426a9">Letter of Marque</card>
+    <card qty="1" id="06f5e00b-6ba8-45e4-b1e7-5ec3ce6edf13">Jalhazar's Wheel</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="54108b39-0bf0-4217-86ff-e764c4e0dcfa">Gozreh's Flow</card>
+    <card qty="1" id="6e4a996d-894a-4b09-a236-6bbfa07bd370">Tengu Rookery</card>
+    <card qty="1" id="014cb2f3-e8c8-4fca-b992-43840167de98">Widowmaker Isle</card>
+    <card qty="1" id="4118db59-f45c-489b-bb52-e14934888d2e">Jasperleaf Apothecary</card>
+    <card qty="1" id="cc2a8268-478a-4810-b8a4-3dd741f111d2">Sharkskin Reef</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="2473f2a9-c3ed-4c3d-ab9d-b9089c967d9c">Caulky Tarroon</card>
+    <card qty="1" id="ca747e84-94a6-4ca2-a5f1-caa7f85790c1">Munarei</card>
+    <card qty="1" id="807fc3bf-cdef-4851-87d8-ecda13b816a6">Sarlis</card>
+    <card qty="1" id="849043a1-50fc-4dac-bd6c-600a1581c7ad">Selissa</card>
+    <card qty="1" id="41d72c8e-0a85-432b-95eb-34281b4da40c">Uthiggmaru</card>
+    <card qty="1" id="a34fb680-7007-4b57-b0c8-a68a33ae315e">Zarskia Galembar</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

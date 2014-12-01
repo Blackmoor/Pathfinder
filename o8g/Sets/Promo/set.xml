@@ -115,7 +115,7 @@
   </card>
   <card id="6def1053-007f-4e97-af0a-7686c5438757" name="Birdcruncher Crown">
     <property name="Abr" value="P"/>
-    <property name="Copyright" value="Yes."/>
+    <property name="Copyright" value="No."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Accessory&#10;Magic"/>
@@ -136,6 +136,17 @@
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="6"/>
     <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it."/>
+  </card>
+  <card id="190754ec-0bd3-40f9-a5dc-d9a474372ef1" name="Goblin Pegleg">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;Poison&#10;Swashbuckling"/>
+    <property name="Flavour" value="&quot;Scurvy dogs done ate my leg,&#10;So I got this fancy peg.&#10;Pounded nails all through and through, &#10;Goblin kick now poisons you!&quot;&#10;--Ranzak, goblin pirate"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d10. If you would succeed at the check, reroll the dice. You must take the lower result."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="8"/>
   </card>
   <card id="f2c48d59-07f0-4d98-9b5e-c3bc84ea9558" name="Horsechopper +1">
     <property name="Abr" value="P"/>

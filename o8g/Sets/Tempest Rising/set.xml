@@ -1,0 +1,962 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Tempest Rising" id="2777985a-61a7-490f-9251-70c78984599b" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0">
+ <cards>
+  <card id="f8c1343b-2fe3-4e24-bb25-79e5a1ff6ce0" name="Cannonade">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Skirmish&#10;Veteran"/>
+    <property name="Attr1" value="The difficulty to defeat this barrier is increased by the adventure deck number of the current scenario, if any.&#10;If defeated, your ship is dealt 2 Structural damage; if undefeated, your ship is dealt 1d4+1 Structural damage."/>
+    <property name="Attr2" value="Wisdom&#10;Perception&#10;Survival"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="f59b059d-47f2-4360-bf55-b52f8599a71f" name="Jagged Shoals">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Obstacle&#10;Task&#10;Aquatic"/>
+    <property name="Attr1" value="You may recharge any number of allies; for each ally recharged, add 1d4 to your check to defeat this barrier.&#10;If undefeated, your ship is dealt 1d4+1 Structural damage. Leave this barrier faceup on the location deck; characters at this location encounter this barrier as their first location each turn."/>
+    <property name="Attr2" value="Intelligence&#10;Knowledge&#10;Wisdom&#10;Survival"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="f3daa2f1-002c-4fd0-8167-2ee04e785e57" name="Sandbar">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Task&#10;Aquatic"/>
+    <property name="Attr1" value="Before you act, move each character to this location.&#10;You may recharge any number of allies; for each ally recharged, add 1d4 to your check to defeat this barrier.&#10;If undefeated, your ship is dealt 1d4 Structural damage. Leave this barrier faceup on the location deck. Characters at this location encounter this barrier as their first exploration each turn. No character may move or be moved from this location while this barrier is on top of the location deck."/>
+    <property name="Attr2" value="Strength&#10;Knowledge&#10;Wisdom&#10;Perception"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="09871f75-f723-4664-b659-a6c2bcc8e3af" name="Wyvern Blade Trap">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Trap"/>
+    <property name="Attr1" value="If undefeated, you and 1 random other character, if any, at your location are dealt 1d4 Poison damage."/>
+    <property name="Attr2" value="Dexterity&#10;Disable"/>
+    <property name="Attr3" value="10"/>
+    <property name="Attr4" value="Wisdom&#10;Perception"/>
+    <property name="Attr5" value="12"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="484b361a-7629-4836-ae0e-047de37c7ad7" name="Blackwater Charda">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aberration&#10;Aquatic"/>
+    <property name="Attr1" value="The Blackwater Charda is immune to the Cold and Poison traits.&#10;Before you act, the Blackwater Charda deals 1d4-1 Cold damage to you.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="c032944a-6611-47dd-8821-665040d729bd" name="Cryptic Runes">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Cache&#10;Trap&#10;Alchemical"/>
+    <property name="Attr1" value="If undefeated, discard the top card of your deck; each character at this location is dealt 2d4 Fire damage.&#10;If defeated, examine the top 2 cards of this location deck and return them in any order. You may then immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Intelligence&#10;Craft&#10;Knowledge"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="559c63d0-51cf-422c-b4c1-5204d57cbaf2" name="Fishpork">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant"/>
+    <property name="Attr1" value="Combat damage dealt by Fishpork is dealt to each character at your location. If the check to defeat has the Ranged trait, subtract 1 from each die rolled.&#10;If defeated, you may immediately attempt to close the location this henchman came from.&#10;After you act, Fishpork deals 1 Structural damage to your ship."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="16"/>
+  </card>
+  <card id="769d712c-0e4c-4214-8c63-64ff5f1fab2b" name="Giles Halmis">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Assassin"/>
+    <property name="Attr1" value="Before you act, Giles Halmis deals 1 Ranged Combat damage to you, or 3 if you have the Human trait.&#10;If your character has the Human trait, the difficulty of your check to defeat is increased by 3.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="17"/>
+  </card>
+  <card id="bf7eb2cd-3c61-4d02-b985-a485d9605510" name="Hurricane Winds">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Obstacle&#10;Task&#10;Weather"/>
+    <property name="Attr1" value="You may recharge any number of allies, for each ally recharged, add 1d4 to your check to defeat this barrier.&#10;If undefeated, Hurricane Winds deals 1d4+1 Structural damage to your ship; shuffle this barrier into a random open location.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Intelligence&#10;Knowledge&#10;Wisdom&#10;Survival"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="737ccdca-30bd-438f-a0ee-96aac918bbc0" name="Jalhazar's Curse">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Curse&#10;Trap&#10;Magic"/>
+    <property name="Attr1" value="If undefeated, display this card next to your character card. While displayed, whenever you attempt a check, subtract 1 from each die rolled. If you defeat a bane that has the Pirate or Captain trait, banish this card."/>
+    <property name="Attr2" value="Wisdom"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="c580202e-3927-4ef1-8c47-228d0cbda448" name="Lightning Elemental">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Elemental"/>
+    <property name="Attr1" value="The Lightning Elemental is immune to the Electricity, Mental, and Poison traits. All damage dealt by the Lightning Elemental is Electricity damage.&#10;If undefeated, each character at your location takes 1d4 Electricity damage.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="17"/>
+  </card>
+  <card id="c28be5a8-b8f5-4d9b-85d6-06d662661bbc" name="Ormandar">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Merfolk&#10;Druid&#10;Aquatic"/>
+    <property name="Attr1" value="Ormandar may not be evaded.&#10;Before you act, a random character at your location must summon and encounter a Hammerhead Shark.&#10;If defeated, you may immediately attempt to close the location this henchman came from.&#10;After you act, a random character at your location must summon and encounter a Hammerhead Shark."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="16"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="12"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="87f5b016-602a-468b-8edf-a84f2dcf9101" name="Shimerae">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aberration"/>
+    <property name="Attr1" value="All damage dealt by Shimerae is Poison damage.&#10;During this encounter, other characters at your location may not play cards or use powers.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="1a3b83c5-536a-4bd8-9c08-51aa4c5f1eae" name="Vakarla the Wrecker">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Half-Orc&#10;Illusionist&#10;Pirate"/>
+    <property name="Attr1" value="Before you act, Vakarla the Wrecker deals 4 Structural damage to your ship; characters may recharge cards instead of discarding them to reduce this damage.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="16"/>
+    <property name="Attr4" value="Arcane&#10;Perception"/>
+    <property name="Attr5" value="11"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="c222287b-8f50-495a-bd4e-0f47892c444b" name="Blood Hag">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Hag"/>
+    <property name="Attr1" value="All damage from the Blood Hag is Fire damage. When you are dealt damage by the Blood Hag, you must first choose allies to discard as your damage, if you have any.&#10;Before y ou act, succeed at an Arcane or Divine 8 check or you may not play spells that have the Attack trait.&#10;If defeated, the Blood Hag deals 3 Fire damage to each character at your location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="5098e743-b640-40ba-988e-5cecafdfc0f9" name="Cannoneer">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Human&#10;Pirate&#10;Elite"/>
+    <property name="Attr1" value="All damage the Cannoneer would deal to you is instead dealt as Structural damage to your ship.&#10;Before you act, the Cannoneer deals 1d4-1 Structural damage to your ship.&#10;If the check to defeat has the Swashbuckling trait, add 1d8 to it."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="17"/>
+  </card>
+  <card id="2bc8d76d-fad8-481a-9e07-86aa5e01bf72" name="Darkforest Anemone">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Aquatic"/>
+    <property name="Attr1" value="The Darkforest Anemone is immune to the Mental and Poison traits. All damage from the Darkforest Anemone is Poison damage.&#10;You may succeed at a Wisdom or Perception 10 check to evade the Darkforest Anemone.&#10;If undefeated, recharge your hand; return the Darkforest Anemone to the top of the location deck, if it came from one."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="16"/>
+  </card>
+  <card id="e0be5409-b93e-4394-92dc-fe03c8720f36" name="Fever Sea Marauder">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Human&#10;Pirate&#10;Elite"/>
+    <property name="Attr1" value="After you act, if the check to defeat has the Swashbuckling trait, bury all items in your discard pile after the encounter."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="17"/>
+  </card>
+  <card id="1125ab9b-14cd-428e-bee3-a2b09715dee6" name="Giant Anaconda">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Aquatic&#10;Elite"/>
+    <property name="Attr1" value="If undefeated, bury the top 1d4 cards of your deck; return the Giant Anaconda to the top of the location deck, if it came from one.&#10;If the check to defeat has the Cold trait, add 1d8 to it."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="18"/>
+  </card>
+  <card id="a73ac715-694b-4e34-ba63-00c07c52b36e" name="Giant Jellyfish">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Aquatic"/>
+    <property name="Attr1" value="All damage dealt by the Giant Jellyfish is Poison damage.&#10;If the check to defeat has the Piercing or Slashing trait, add 1d8 to it.&#10;If you do not defeat the Giant Jellyfish by at least 4, shuffle it into a random open location; the Giant Jellyfish still counts as defeated."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="18"/>
+    <property name="Attr4" value="Dexterity&#10;Acrobatics"/>
+    <property name="Attr5" value="11"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="b500f149-3d72-4b6c-8220-dcbd3da864dc" name="Great White Shark">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Aquatic"/>
+    <property name="Attr1" value="The Great White Shark may not be evaded.&#10;If undefeated, put this card under the top card of the location deck, if it came from one."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="16"/>
+  </card>
+  <card id="cecdadde-7ede-4c11-8322-2b57aa589105" name="Manticore">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Aberration&#10;Manticore"/>
+    <property name="Attr1" value="Before you act, the Manticore deals 1d4+1 Ranged Combat damage to a random character."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="5f37895d-509d-4a7b-8b79-9539ff80024f" name="Werecrocodile">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Lycanthrope&#10;Aquatic"/>
+    <property name="Attr1" value="Before you act, if the top card of the blessings discard pile is Blessing of the Gods, the difficulty of the check to defeat is increased by 5.&#10;If undefeated, shuffle this card into a random open location.&#10;If the check to defeat has the Cold trait, add 1d6 to it."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="18"/>
+  </card>
+  <card id="6a537911-30e3-41f7-9f17-1d586007a2d8" name="Will-o'-Wisp">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Aberration"/>
+    <property name="Attr1" value="All damage from the Will-o'-Wisp is Electricity damage.&#10;You may not play spells that have the Attack trait unless they also have the Force trait.&#10;Before you act, succeed at a Wisdom 10 check or recharge 1d4 cards from your hand."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="16"/>
+    <property name="Attr4" value="Wisdom"/>
+    <property name="Attr5" value="14"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="2473f2a9-c3ed-4c3d-ab9d-b9089c967d9c" name="Caulky Tarroon">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Rogue&#10;Human&#10;Pirate"/>
+    <property name="Flavour" value="&quot;There's no surer way to end an argument than with a knife between the ribs.&quot; -- Caulky Tarroon"/>
+    <property name="Attr1" value="Before you act, Caulky Tarroon deals 1 Poison damage to you.&#10;If the check to defeat does not have the Swashbuckling trait, a random character at your location banishes the top card of his deck."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="18"/>
+    <property name="Attr4" value="Dexterity&#10;Stealth"/>
+    <property name="Attr5" value="10"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="ca747e84-94a6-4ca2-a5f1-caa7f85790c1" name="Munarei">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aberration&#10;Naga&#10;Aquatic"/>
+    <property name="Flavour" value="&quot;The Slithering Coasst is no place for the likesss of you, pinkskinsss!&quot; -- Munarei"/>
+    <property name="Attr1" value="All damage from Munarei is Mental damage which may not be reduced.&#10;Before you act, Munarei deals 1d4-1 Mental damage to you.&#10;If you fail a check to defeat Munarei by 3 or more, bury the top card of your deck."/>
+    <property name="Attr2" value="Intelligence&#10;Knowledge"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="807fc3bf-cdef-4851-87d8-ecda13b816a6" name="Sarlis">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aberration&#10;Naga&#10;Aquatic"/>
+    <property name="Flavour" value="&quot;I want my lair back from that snake Munarei -- but don't kill him! We have a history together…&quot; -- Sarlis"/>
+    <property name="Attr1" value="All damage from Sarlis is Force damage.&#10;Before you act, Sarlis deals 1d4-1 Force damage to you.&#10;If you fail a check to defeat Sarlis by 3 or more, bury the top card of your deck."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="849043a1-50fc-4dac-bd6c-600a1581c7ad" name="Selissa">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aberration&#10;Naga&#10;Aquatic"/>
+    <property name="Flavour" value="&quot;Have you sseen how the ssunlight glitterss on his sscaless? He's sso gorgeousss!&quot; -- Selissa, regarding Munarei"/>
+    <property name="Attr1" value="All damage from Selissa is Poison damage.&#10;Before you act, Selissa deals 1d4-1 Poison damage to you.&#10;If you fail a check to defeat Selissa by 3 or more, bury the top card of your deck."/>
+    <property name="Attr2" value="Wisdom&#10;Survival"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="41d72c8e-0a85-432b-95eb-34281b4da40c" name="Uthiggmaru">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aberration&#10;Aquatic"/>
+    <property name="Flavour" value="&quot;One should be wary of what one stirs up from the lightless depths.&quot; -- Uthiggmaru"/>
+    <property name="Attr1" value="Before the encounter, choose a character at your location to summon and encounter the henchman Blackwater Charda.&#10;To defeat Uthiggmaru, succeed at a Combat check equal to 10 plus half the number of cards in the blessings discard pile, rounded up."/>
+    <property name="Attr2" value="See below"/>
+  </card>
+  <card id="a34fb680-7007-4b57-b0c8-a68a33ae315e" name="Zarskia Galembar">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Alchemist&#10;Spymaster"/>
+    <property name="Flavour" value="&quot;Silence those who know too much. When you're done, return to the apothecary in Port Peril. I can provide more toxin along with your payment, if needed. Destroy this after reading. -- Zarskia Galembar's assassination order"/>
+    <property name="Attr1" value="The difficulty of your combat check to defeat is increased by the number of open locations."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="17"/>
+    <property name="Attr4" value="Intelligence&#10;Craft"/>
+    <property name="Attr5" value="11"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="1b6e9f91-a4a4-4963-a3e7-f6634b5d1be5" name="Corlan">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Tengu&#10;Smuggler"/>
+    <property name="Attr1" value="Recharge this card to give a card to another character at any location.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="31664edd-04ba-472e-b8d3-e9280ba705e0" name="Dindreann">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Cleric"/>
+    <property name="Attr1" value="On your turn, discard this card to examine the top card of your location deck. You may then explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="81fbabd0-3464-4a94-919e-64b47a22682e" name="Haneilius Fitch">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Surgeon"/>
+    <property name="Attr1" value="Reveal this card and choose a character at your location. Choose a card from his discard pile and shuffle it into his deck. Then recharge this card.&#10;Recharge this card to explore your location. If you are on a ship, you may move before exploring."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="00ac8f3e-fac0-40aa-b44a-ab7189b685e1" name="Imp">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Outsider&#10;Elite"/>
+    <property name="Attr1" value="Recharge this card to draw a card.&#10;Discard this card to draw 2 cards.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Arcane"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="82818525-47df-4f40-9193-43baec8c7357" name="Monkey">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Elite"/>
+    <property name="Attr1" value="Discard this card to succeed at your check to acquire an item or a weapon.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Wisdom&#10;Survival"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="2cbd23f3-01f2-4e74-9212-12987d52b6f6" name="Pierce Jerrell">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Sorcerer&#10;Captain&#10;Pirate"/>
+    <property name="Attr1" value="Reveal this card and recharge another card to add 2d6 and the Swashbuckling trait to any Diplomacy check or any check to defeat a barrier that has the Task trait.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your non-combat checks during this exploration."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="6"/>
+    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr5" value="9"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="79d74192-1510-4c2b-8ac4-e9019c21d860" name="Slip">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Halfling&#10;Spy"/>
+    <property name="Attr1" value="On your turn, discard this card to examine the top card of your location deck. Succeed at an Intelligence or Knowledge 7 check or put that card on the bottom of the location check. Then explore your location."/>
+    <property name="Attr2" value="Intelligence&#10;Knowledge"/>
+    <property name="Attr3" value="7"/>
+    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr5" value="9"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="42e2a297-3a3f-4e6a-acb2-aa944a23c971" name="Tessa Fairwind">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Half-Elf&#10;Bard&#10;Captain&#10;Pirate"/>
+    <property name="Attr1" value="Reveal this card and recharge another card to add 1d6 and the Swashbuckling trait to any check attempted by a character on a ship.&#10;Discard this card to explore your location. Add the Swashbuckling trait to your combat checks during this exploration."/>
+    <property name="Attr2" value="Dexterity&#10;Stealth"/>
+    <property name="Attr3" value="7"/>
+    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr5" value="9"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="3a2c34c3-c4fe-446b-ab5e-05d27b81a848" name="Besmaran Vestments">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic"/>
+    <property name="Attr1" value="If you are on a ship, you may reveal this card to add 1 to your combat check, or 2 if you have the Divine skill.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="07be09cf-66b9-41e3-80f3-cf7878a3571a" name="Fortified Shell Armor">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic&#10;Aquatic&#10;Elite"/>
+    <property name="Attr1" value="Reveal this card to reduce Combat damage to you by 2, or to add 2 to your Constitution or Fortitude check.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, buty this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="c8c4b9cf-dd6f-4bd2-8046-007b7fc9e955" name="Sniper's Studded Leather">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Elite"/>
+    <property name="Attr1" value="Recharge this card to reduce Combat damage dealt to you by 2, or to add 2 to your Ranged combat or Perception check.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may reduce this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude&#10;Stealth"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="5222b593-e2d0-4bdd-97eb-76d6c4dbf511" name="Wilderness Studded Leather">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Elite"/>
+    <property name="Attr1" value="Recharge this card to reduce Combat damage to you by 2, or to add 2 to your non-combat Wisdom or Survival check.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with light armors, bury this card instead.&#10;If you are proficient with light armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude&#10;Survival"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="7a056a64-a8a5-450c-a8c4-73d737366b4d" name="Blessing of Kelizandri">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Kelizandri"/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any check against a card that has the Aquatic trait.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Constitution&#10;Divine"/>
+    <property name="Attr3" value="5"/>
+  </card>
+  <card id="8f0c4093-1281-4c71-93c4-86a04ab4efd1" name="Crystal of Healing Hands">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic&#10;Divine&#10;Healing"/>
+    <property name="Attr1" value="Reveal this card and choose a character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck, then bury this card.&#10;After playing this card, succeed at a Divine 11 check to recharge this card instaed of burying it."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="5798dd59-712c-4970-99ac-1a1e40fc288f" name="Potion of Flying">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Liquid&#10;Alchemical"/>
+    <property name="Attr1" value="Banish this card and choose a character at your location. That character may move; if it's that character's turn, he may explore his location. Any movement restrictions still apply."/>
+    <property name="Attr2" value="Intelligence&#10;Craft"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="ca28c120-d540-4e17-9f3a-d6fa3a67d2b0" name="Potion of the Ocean">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Liquid&#10;Alchemical"/>
+    <property name="Attr1" value="Banish this card and choose a character at your location to succeed at a check to defeat a bane with the Aquatic trait."/>
+    <property name="Attr2" value="Intelligence&#10;Craft"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="76b84fef-5a39-42e5-9810-b63eee05c6b4" name="Powder Keg">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Alchemical"/>
+    <property name="Attr1" value="When you play a weapon that has the Ranged trait on a combat check; banish this card. For each die that rolls its maximum value, roll an additional die of that type and adds its value to the result. These additional dice do not add more dice."/>
+    <property name="Attr2" value="Intelligence&#10;Craft"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="5c9625c8-556a-40aa-b2ea-9e958a108ed8" name="Sea Tyrant's Patch">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic&#10;Swashbuckling&#10;Elite"/>
+    <property name="Attr1" value="Reveal this card to add 1d6 and the Swashbuckling trait to your check to acqure an ally, or 2d6 if it has the Pirate trait.&#10;Recharge this card to add 1d6 and the Swashbuckling trait to your check to defeat a bane, or 2d6 if it has the Pirate trait."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="06f5e00b-6ba8-45e4-b1e7-5ec3ce6edf13" name="Jalhazar's Wheel">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic"/>
+    <property name="Attr1" value="Reveal this card to add 1d8 to your check to defeat a barrier that has the Trask trait.&#10;At the end of your turn, if your ship is not wrecked, recharge this card to move."/>
+  </card>
+  <card id="1f6ebeb6-a180-4ce0-9e3c-3455fe2426a9" name="Letter of Marque">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Book&#10;Pirate"/>
+    <property name="Attr1" value="If you are at a closed location on your turn, bury this card. Choose a type of boon otherthat blessings and loot. Add 1d4+1 random cards of that type to this location without looking at them, then explore your location."/>
+  </card>
+  <card id="2623f5ff-5082-4537-af25-6ee2f1462d64" name="Pirate's Favor">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Blessing"/>
+    <property name="Traits" value="Pirate&#10;Swashbuckling"/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check. If the check has the Swashbuckling trait, you may play another blessing on this check.&#10;Discard this card to explore your location.&#10;If the top card of the blessings discard pile is Blessing of the Gods or Blessing of Besmara, recharge this card instead of discarding it."/>
+  </card>
+  <card id="ef7c78e2-75db-4a6a-8e4b-798f20c2a824" name="Ring of the Iron Skull">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
+    <property name="Attr1" value="If you defeat a monster by 4 or more, reveal this card to examine the top card of your location deck."/>
+  </card>
+  <card id="dcbf3864-8eab-461f-ad7a-7dc7569dae67" name="Animate Water">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
+    <property name="Attr1" value="Discard this card to reduce the difficulty of any check against a bane that has the Aquatic trait by 2d4. You may play another spell on this check.&#10;Discard this card to evade a bane that has the Aquatic trait.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 12 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="904c38d8-acca-4cf2-b38c-bf3f61f136c0" name="Dimension Leap">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane"/>
+    <property name="Attr1" value="When another character encounters a card, you may discard this card to move yourself to or from that character's location.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, you may succeed at an Arcane 12 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="0c8290ad-d0f3-4c2f-8b8b-6e529beee383" name="Freezing Sphere">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Cold&#10;Attack"/>
+    <property name="Attr1" value="Display this card. While this card is displayed, for your combat check, you may use your Arcane skill + 1d6+1; you may additionally discard this card to add another 2d6+2. This counts as playing a spell. At the end of your turn, if you do not have the Arcane skill, banish this card; otherwise, attempt an Arcane 13 check. If you succeed, recharge this card; if you fail, discard it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="6d4e89e2-d104-4f9a-8c60-26b84f236b00" name="Skeleton Crew">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
+    <property name="Attr1" value="Discard this card to succeed at your check to defeat a barrier that has the Task trait.&#10;Discard this card to add 1d6 to any non-combat Strength or Dexterity check attempted by a character on a ship.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 9 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="23d90c37-d308-4faf-83fa-e205fe243f84" name="Wall of Fire">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Fire"/>
+    <property name="Attr1" value="Display this card on your turn. While displayed, for your combat check, you may use your Arcane or Divine skill + 2d6, or 2d10 if the bane has the undead trait. Any other character at this location who encounters a monster adds 2d4 and the Fire trait to her combat check. At the end of your turn, if you do not have either the Arcane or Divine skill, banish this card; otherwise, attempt an Arcane or Divine 13 check. If you succeed, recharge this card; if you fail, discard it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="8e2c0a49-279c-4682-b93a-e5b87dfcff4b" name="Humanbane Heavy Crossbow +2">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d10+2. Add another 1d8 if the bane has the Human trait.&#10;If you are proficient with weapons, you may discard this card to add 1d4+1 to any combat check at another location, or 1d8 if the check is to defeat a bane that has the Human trait."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="958a1daf-b95e-41fe-9edc-544a3c8db6bd" name="Musket +2">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d10+2; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your deck."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="6c205761-45bc-434f-85be-eaf0e0783307" name="Navigator Musket +1">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Firearm&#10;Ranged&#10;Piercing&#10;2-Handed&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d10+1; you may additionally bury this card to add another 1d10. If you did not bury this card, roll 1d6, or 1d12 if you are proficient with weapons; on a 1, shuffle this card into your deck.&#10;Reveal this card to add 1d6 to your non-combat Wisdom or Perception check."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged&#10;Craft"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="5f0f4b58-b80f-47b9-bcf8-729a4aac9590" name="Seaborne Trident +1">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8+1; you may additionally discard this card to add another 1d8.&#10;Reveal this card to add 1d4 to your non-combat Constitution, Fortitude, Wisdom, or Survival check."/>
+    <property name="Attr2" value="Strength&#10;Melee&#10;Survival"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="6b2288ff-fc8e-4238-80c0-2bc499300148" name="Sharpshooter's Blade">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Knife&#10;Melee&#10;Piercing&#10;Magic&#10;Elite"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d4+1.&#10;When playing another weapon, if it has the Firearm trait, you may reveal this card to add 1d4 and the Magic trait to the combat check."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="806eb655-7e6e-41c7-bc4d-610698ca4c69" name="Trident +2">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8+2; you may additionally discard this card to add another 1d8."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="54108b39-0bf0-4217-86ff-e764c4e0dcfa" name="Gozreh's Flow">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 4&#10;Barrier 3&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 1&#10;Ally 0&#10;Blessing 1"/>
+    <property name="Attr2" value="At the start of your move step, succeed at a Wisdom or Survival 7 check or move all characters at this location to a random other location; then end your move step."/>
+    <property name="Attr3" value="Succeed at a Wisdom or Survival 7 check."/>
+    <property name="Attr4" value="On closing, move all characters at this location to one other random location."/>
+    <alternate name="Gozreh's Flow" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="A rush of powerful ocean currents sweeps along the edge of the Eye of Abendego's eternal hurricane, invisible except to the most experienced sailors. Shipe that can't withstand the strong wind and relentless waves are forced off course. Perhaps that's a merciful fate, as the alternative means drawing closer to the devastating might of a perpetual storm."/>
+    </alternate>
+  </card>
+  <card id="4118db59-f45c-489b-bb52-e14934888d2e" name="Jasperleaf Apothecary">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 1&#10;Barrier 1&#10;Weapon 0&#10;Spell 3&#10;Armor 0&#10;Item 3&#10;Ally 1&#10;Blessing 0"/>
+    <property name="Attr2" value="At the end of your turn, you may recharge an item to shuffle a random card from your discard pile into your deck; if the item has the Liquid trait, you may add the card to your hand instead."/>
+    <property name="Attr3" value="Summon and encounter the henchman Shimerae."/>
+    <property name="Attr4" value="On closing, draw 3 random items from the box. If any have the Liquid or Alchemical trait, add them to your hand; return the rest."/>
+    <alternate name="Jasperleaf Apothecary" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Situated at the corner of Fiddler's Lane and Anchor Way in Port Peril, the Jasperleaf Apothecary has a reputation for being a non-judgmental vendor, selling healing herbs and poison in nearly equal amounts. Rumor has it there's more to the sizable shop than its undersized storefront. Some whisper that all manner of dark deals transpire in its secret back rooms."/>
+    </alternate>
+  </card>
+  <card id="cc2a8268-478a-4810-b8a4-3dd741f111d2" name="Sharkskin Reef">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 4&#10;Barrier 3&#10;Weapon 0&#10;Spell 0&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0"/>
+    <property name="Attr2" value="At the start of your turn, each character at this location must summon and encounter the henchman Hammerhead Shark."/>
+    <property name="Attr3" value="Banish an ally."/>
+    <property name="Attr4" value="No effect."/>
+    <alternate name="Sharkskin Reef" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Named for its jagged and unusually sharp coral protrusions, Sharkskin Reef has a reputation for flensing the sharks that venture into its labyrinthine snarl. The reef's dangerous reputation and proximity to the easily spotted Pinnacle Atoll has made it a waypoint in several past sailings of the Free Captains' Regatta. More than one past participant now feeds its coral bed."/>
+    </alternate>
+  </card>
+  <card id="6e4a996d-894a-4b09-a236-6bbfa07bd370" name="Tengu Rookery">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 2&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 1&#10;Blessing 0"/>
+    <property name="Attr2" value="At the end of your turn, you may examine the top card of another location deck."/>
+    <property name="Attr3" value="Banish an item."/>
+    <property name="Attr4" value="On closing, you may examine the top card of your deck; then you may recharge it or give it to another character."/>
+    <alternate name="Tengu Rookery" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Many pirates consider members of the crow-headed tengu race lucky. As such, several Shackles communities host small tengu neighborhoods that half-clever sorts refer to as &quot;rookeries&quot;."/>
+      <property name="Attr4" value="At the end of your turn, you may examine the top card of another location deck."/>
+    </alternate>
+  </card>
+  <card id="014cb2f3-e8c8-4fca-b992-43840167de98" name="Widowmaker Isle">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 4&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 2"/>
+    <property name="Attr2" value="For each ally in your discard pile, the difficulty of your checks is increased by 1."/>
+    <property name="Attr3" value="Summon and defeat the henchman Enemy Ship."/>
+    <property name="Attr4" value="On closing, you may recharge an ally from your discard pile."/>
+    <alternate name="Widowmaker Isle" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Tales abound of trusting, faithful wives and husbands who wait for their spouses to return from profitable sea voyages. Contemplating the turbulent waters, they pray for the safety of troubled sailors. Yet on treacherous islands like this one, travelers unprepared for the perils of the Shackles soon learn they will never see their loved ones again."/>
+    </alternate>
+  </card>
+  <card id="ca7b1902-6bd0-4794-a5b6-40a3026f01e5" name="Dowager Queen">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Ship"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Class 3"/>
+    <property name="Attr1" value="You may recharge a card that has the Aristocrat or Captain trait to add 3 to your check to defeat the Dowager Queen."/>
+    <property name="Attr2" value="You may discard a card from the blessings deck to add 1d12 to your check if anyone plays an ally on that check."/>
+    <property name="Attr3" value="Wisdom&#10;Survival"/>
+    <property name="Attr4" value="8"/>
+    <property name="Attr5" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr6" value="10"/>
+    <property name="Attr7" value="OR"/>
+    <alternate name="Dowager Queen" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Ship"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Class 3"/>
+      <property name="Flavour" value="This caravel left Cheliax branded with the marque of royalty. She's seen rougher days since then, but &quot;Queenie,&quot; as Captain Irius Trock has dubbed her, is still the proudest merchant ship in the Shackles."/>
+      <property name="Attr2" value="The difficulty of your check to acquire an ally is increased by 2."/>
+      <property name="Attr3" value="Craft"/>
+      <property name="Attr4" value="6"/>
+    </alternate>
+  </card>
+  <card id="ca571f45-886b-439c-b0e8-2b0f4b9541f6" name="Kraken">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Ship"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Class 3"/>
+    <property name="Attr1" value="On your check to defeat the Kraken, replace each die larger than your Strength die with your Strength die; the skill used for the check is unaffected."/>
+    <property name="Attr2" value="Reduce Structural damage to this ship by 2.&#10;You may discard a card from the blessings deck to add 1d12 to your Strength check."/>
+    <property name="Attr3" value="Strength&#10;Melee"/>
+    <property name="Attr4" value="10"/>
+    <property name="Attr5" value="Wisdom&#10;Survival"/>
+    <property name="Attr6" value="8"/>
+    <property name="Attr7" value="OR"/>
+    <alternate name="Kraken" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Ship"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Class 3"/>
+      <property name="Flavour" value="The Master of the Gales commands this xebec. Its imposing name belies his knowledge of the sea. It was he who coined the aphorism, &quot;All unknown islands are Hirgenzosk until proven otherwise.&quot;"/>
+      <property name="Attr2" value="At the start of your turn, succeed at a Constitution or Fortitude 6 check or bury 1d4 cards."/>
+      <property name="Attr3" value="Craft"/>
+      <property name="Attr4" value="6"/>
+    </alternate>
+  </card>
+  <card id="db0a7194-2892-48f2-9704-dcad830b0f65" name="Sanbalot">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Ship"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Class 3"/>
+    <property name="Attr1" value="Before you act, each character at this location is dealt 1d4-1 Ranged Combat damage."/>
+    <property name="Attr2" value="This ship may have no more than 3 plunder cards under it. If you would stash more, ignore them.&#10;At the start of your turn, you may discard 1d4 cards from the blessings deck to add a random plunder card from this ship to your hand."/>
+    <property name="Attr3" value="Dexterity&#10;Stealth"/>
+    <property name="Attr4" value="9"/>
+    <property name="Attr5" value="Wisdom&#10;Survival"/>
+    <property name="Attr6" value="7"/>
+    <property name="Attr7" value="OR"/>
+    <alternate name="Sanbalot" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Ship"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Class 3"/>
+      <property name="Flavour" value="The Sanbalot is a Rahadoumi schooner helmed by Captain Aisha Hamiyaz and her Pure Legion marines. With a trained manticore flying air support, the Sanbalot gets a wide berth."/>
+      <property name="Attr2" value="At the start of your turn, you are dealt 1d4-1 Ranged Combat damage."/>
+      <property name="Attr3" value="Craft"/>
+      <property name="Attr4" value="6"/>
+    </alternate>
+  </card>
+  <card id="038dbd0b-de45-45f3-a5f7-5cff5a59b20f" name="Tempest Rising">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The rulers of the Shackles -- the notorious Pirate Council and their leader, the Hurricane King -- have taken notice. No longer just seaborne bandits, you and your crew have made names for yourselves as buccaneers not to be trifled with. But potential doesn't mean worthiness, and there's much to do before the pirate lords bestow their trust. You've succeeded on the seas, but in Port Peril, the de facto capital of the Shackles, the stakes are higher, the bounties are bigger, and the price of failure is even greater."/>
+    <alternate name="Tempest Rising" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Shore Leave at Port Peril&#10;Bizarre Love Triangle&#10;The Brine Banshee's Grave&#10;Spies Among Us&#10;The Free Captains' Regatta"/>
+      <property name="Attr2" value="Each character chooses a role card and gains a power feat. Gain a Class 3 ship feat."/>
+    </alternate>
+  </card>
+  <card id="db2f9a39-8ef8-4f47-b01b-f8293204edce" name="Bizarre Love Triangle">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The water nagas of the Slithering Coast aren't evil creatures, but they are highly territorial -- even when dealing with others of their own kind. The water nagas want their competitors driven off, but old feelings die hard. They don't want their rivals (or their ex-lovers) hurt."/>
+    <property name="Attr1" value="Jungle&#10;Hatchery&#10;Mangrove Swamp&#10;Ghol-Gan Ruins&#10;Beach&#10;Sea Caves&#10;Sharkskin Reef&#10;Coastline"/>
+    <alternate name="Bizarre Love Triangle" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you would defeat a villain, examine the location deck. If the other two villains are not in the deck, the villain is undefeated. If the villain cannot escape to an open location, shuffle the villain into a random location, opening it.&#10;To win this scenario, defeat any villain."/>
+      <property name="Attr2" value="Sarlis&#10;Selissa&#10;Munarei"/>
+      <property name="Attr3" value="Random monsters"/>
+      <property name="Attr4" value="Each character gains a card feat."/>
+    </alternate>
+  </card>
+  <card id="7cc2a159-a007-48c6-910a-c9bcffede02a" name="Shore Leave at Port Peril">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The busiest pirate port in the Shackles, Port Peril is also the seat of the Pirate Council. Any who would be true pirates in their lands must seek the council's favor, represented by a letter of marque. Elude old enemies, gain the Pirate Council's respect, and survive a trip ashore!"/>
+    <property name="Attr1" value="Docks&#10;Festhall&#10;Harbor&#10;House of Stolen Kisses&#10;Alehouse&#10;Safe House&#10;Tower&#10;Jasperleaf Apothecary"/>
+    <property name="Attr2" value="Your ship is anchored at the Docks."/>
+    <alternate name="Shore Leave at Port Peril" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you would defeat a barrier, stash a plunder card.&#10;When you gain the reward for this scenario, choose a character to summon and encounter the villain The Pirate Council. If The Pirate Council is defeated, you gain the loot Letter of Marque."/>
+      <property name="Attr2" value="Caulky Tarroon"/>
+      <property name="Attr3" value="Fishpork&#10;Ruffians"/>
+      <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="cd87ec62-8d01-4eca-a9fb-c6f924268f0d" name="Spies Among Us">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="Rumors are spreading that the Chelish navy is plotting to take over the Shackles, but insiders who could tell the truth about those plans keep turning up dead. Track down who's killing informants in the Shackles, kill any spies at work, and learn the truth of this rumored invasion."/>
+    <property name="Attr1" value="Harbor&#10;Jasperleaf Apothecary&#10;Tengu Rookery&#10;Alehouse&#10;Festhall&#10;Merchant Marina&#10;Chapel&#10;Tower"/>
+    <property name="Attr2" value="Your ship is anchored at the Harbor."/>
+    <alternate name="Spies Among Us" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="If you fail a check to acquire an ally, the ally deals 1 Poison damage to you.&#10;When you defeat a Cryptic Runes henchman, place it under this card. For each Cryptic Runes under this card, add 2 to your check to defeat Zarskia."/>
+      <property name="Attr2" value="Zarskia Galembar"/>
+      <property name="Attr3" value="Giles Halmis&#10;Cryptic Runes"/>
+      <property name="Attr4" value="Each character gains a skill feat."/>
+    </alternate>
+  </card>
+  <card id="9f65d4ab-1873-43cf-9025-cd399a3d0e2d" name="The Brine Banshee's Grave">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The Brine Banshee might be one of the unluckiest ships to ever sail the Shackles. Lost at sea, the ship went down with a hull full of loot -- treasure all manner of scoundrels now pursue. The Brine Banshee won't rest quietly, though, not with its vicious new monstrous crew."/>
+    <property name="Attr1" value="Widowmaker Isle&#10;Shipwreck Graveyard&#10;Scar Bay&#10;Sharkskin Reef&#10;Cannibal Isle&#10;Tempest Cay&#10;Pinnacle Atoll&#10;Gozreh's Flow"/>
+    <alternate name="The Brine Banshee's Grave" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="After you build the location decks, shuffle a Shipwreck henchman into each one.&#10;If you explore, before you reset your hand, succeed at a Consitution or Fortitude 6 check or bury 1d4-1 cards from your hand."/>
+      <property name="Attr2" value="Uthiggmaru"/>
+      <property name="Attr3" value="Vakarla the Wrecker&#10;Ormandar&#10;Jalhazar's Curse&#10;Buccaneers"/>
+      <property name="Attr4" value="Loot: Jalhazar's Wheel, Ring of the Iron Skull"/>
+    </alternate>
+  </card>
+  <card id="6f77523a-8816-4aa3-b0ec-f87dd71331c7" name="The Free Captains' Regatta">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The most dangerous nautical race in the Shackles is underway! Daring captains risk it all, racing along a route that skirts the edge of an eternal hurricane, the Eye of Abendego. Winners can claim a fantastic reward and the favor of the Pirate Council. Losers are never seen again."/>
+    <property name="Attr1" value="Raker Shoals&#10;Sharkskin Reef&#10;Tempest Cay&#10;Fog Bank&#10;Rocky Cliff&#10;Gozreh's Flow&#10;Fringes of the Eye&#10;Widowmaker Isle"/>
+    <alternate name="The Free Captains' Regatta" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Shuffle an Enemy Ship henchman into each location deck. If you defeat an Enemy Ship, put it on top of its location deck.&#10;After your move step, you may examine the top card of your location deck; you may shuffle that deck. If the blessings deck is empty, examine the top card of each location deck. You win the scenario only if each is an Enemy Ship."/>
+      <property name="Attr2" value="None"/>
+      <property name="Attr3" value="Hirgenzosk&#10;Lightning Elemental&#10;Hurricane Winds"/>
+      <property name="Attr4" value="Each character draws a random blessing from the box. &#10;Loot: Pirate's Favor"/>
+    </alternate>
+  </card>
+ </cards>
+</set>
