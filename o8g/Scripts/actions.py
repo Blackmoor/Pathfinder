@@ -37,9 +37,11 @@ def toggleDebug(group, x=0, y=0):
 		notify("{} turns off debug".format(me))
 
 def cardFunctionName(card): # Removes special characters from the card name giving a string we can use as a function name
-	if card[0].isdigit():
-		card = "S{}".format(card)
-	return card.Name.replace(' ','').replace('!','').replace("'","").replace("?","").replace("-","")
+	if card.Name[0].isdigit():
+		cardName = "S{}".format(card.Name)
+	else:
+		cardName = card.Name
+	return cardName.replace(' ','').replace('!','').replace("'","").replace('?','').replace('-','')
 	
 def shuffle(pile, synchronise=False):
 	mute()
@@ -1433,6 +1435,11 @@ def hideVillain(villain, x=0, y=0, banish=False):
 			returnToBox(villain)
 		#In Shore Leave at Port Peril, pull out the Pirate Council and don't end the game yet.
 		elif findScenario(table).Name == 'Shore Leave at Port Peril' and villain.Name == 'Caulky Tarroon':
+			# Count the number of locations on the table
+			nl = 0 
+			for card in table:
+				if card.Type == 'Location':
+					nl += 1
 			pirateCouncil = findCardByName(shared.piles['Villain'],'The Pirate Council')
 			pirateCouncil.moveToTable(LocationX(nl+1,nl+1), LocationY)
 			whisper("If you defeat The Pirate Council, you earn the Letter of Marque!")
