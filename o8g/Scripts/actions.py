@@ -1388,6 +1388,8 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	if defeated: # Normally we close the location the villain came from
 		if findScenario(table).Name == '0-1F The Treasure of Jemma Redclaw' and villain.Name == 'Jemma Redclaw':
 			gameOver(True)
+		elif findScenario(table).Name == 'Bizarre Love Triangle':
+			gameOver(True)
 		elif villain.Name == 'The Matron':
 			notify("{} banishes '{}'".format(me, villain))
 			returnToBox(villain)
@@ -1765,7 +1767,7 @@ def scenarioSetup(card):
 	locations = card.Attr1.splitlines()
 	nl = numLocations()
 	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
-	if card.Name == 'Rimeskull':
+	if card.Name in ('Rimeskull','The Free Captains\' Regatta'):
 		nl = 8
 	elif card.Name == 'Into the Runeforge':
 		nl -= 1
@@ -1843,6 +1845,12 @@ def scenarioSetup(card):
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per Location', '').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
 		repeat = len(henchmen)		
+	elif 'Random Monsters' in card.Attr3:
+		cardsPerLocation = 1
+		hiddenLen = len(hidden)
+		for i in range(nl-hiddenLen):
+			shared.piles['Monster'].random().moveTo(hidden)
+		repeat = 1
 	elif card.Name == 'Press Ganged!': #For the Press Ganged! scenario, pull one random henchman from the pile and deal it into a new banes pile
 		henchmen = card.Attr3.splitlines()
 		randIndex = int(random()*len(henchmen))
@@ -1895,7 +1903,10 @@ def scenarioSetup(card):
 			elif card.Name == "The Free Captains\' Regatta":
 				exHenchName = "Enemy Ship"
 			extraHench = findCardByName(shared.piles['Henchman'],exHenchName)
-			extraHench.moveTo(pile)
+			if extraHench is None:
+				whisper("Could not find enough extra henchmen!")
+			else:
+				extraHench.moveTo(pile)
 		shuffle(pile)
 		index += 1
 	unlockPile(hidden)
@@ -1958,8 +1969,9 @@ def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
 	pile = shared.piles['Blessing Deck']	
 	if len(pile) == 0:
+		shipCount = 0
 		#If we are playing the adventure "Into the Eye" then there is no blessing deck
-		if findCardByName(table, "Into the Eye") is None:
+		if findCardByName(table, "Into the Eye") is None and findCardByName(table,"The Free Captains\' Regatta") is None:
 			# Out of time - the players have lost
 			gameOver(False)	
 		return
@@ -1995,6 +2007,16 @@ def gameOver(won):
 		loot = [ c for c in shared.piles['Scenario'] ]
 		plunder = [ c for c in shared.piles['Plunder'] ]
 		loot.extend(plunder)
+		scenarioLoot = []
+		scenarios = [ c for c in table if c.Type == 'Scenario']
+		for card in scenarios:
+			if 'Loot' in card.Attr4:
+				foo,items = card.Attr4.split('Loot:',1)
+				items = items.split(',')
+				for item in items:
+					scenarioLoot.append(findCardByName(shared.piles['Loot'],item))
+		if len(scenarioLoot) > 0 :
+			loot.extend(scenarioLoot)
 		
 	cleanupGame()				
 	for p in getPlayers():
