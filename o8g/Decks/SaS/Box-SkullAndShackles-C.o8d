@@ -11,7 +11,6 @@
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True">
     <card qty="2" id="f71129d9-26b6-47e5-aef2-21f75e39b089">Buccaneer</card>
-    <card qty="2" id="259b7901-89e8-4c93-a59d-1606b218a8e5">Enemy Ship</card>
     <card qty="2" id="d4478205-3988-47ec-9925-1ef821c6bb71">Hammerhead Shark</card>
     <card qty="2" id="8312d433-0817-4447-a09c-442edfdc8c81">Ruffian</card>
     <card qty="2" id="6b21cb20-4a16-40b0-9e04-078ce62ff0f4">Shipwreck</card>

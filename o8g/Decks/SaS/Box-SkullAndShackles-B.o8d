@@ -168,7 +168,7 @@
   </section>
   <section name="Henchman" shared="True">
     <card qty="6" id="e8f40ece-8672-4ca8-bba8-f52d70848d3b">Buccaneer</card>
-    <card qty="6" id="91df2cf3-29c8-4c67-bbfa-8954ff6f8df8">Enemy Ship</card>
+    <card qty="8" id="91df2cf3-29c8-4c67-bbfa-8954ff6f8df8">Enemy Ship</card>
     <card qty="5" id="8d9cbaa7-2932-4656-8c98-d64f65b29eec">Hammerhead Shark</card>
     <card qty="1" id="c9f18100-5036-459c-9fd7-99df30650b46">Hirgenzosk</card>
     <card qty="7" id="002fd0ca-9b54-4a42-a2ac-a0be75796852">Pirate Shade Haunt</card>

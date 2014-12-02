@@ -1109,14 +1109,14 @@ def defaultAction(card, x = 0, y = 0):
 			seizeShip(card)
 		else: # Our ship - either wreck or repair it
 			flipCard(card, x, y)
+	elif card.pile() is not None and card.pile() == shared.piles['Blessing Deck']: # Reveal the next blessing
+		advanceBlessingDeck()
 	elif card.pile() is not None and (card.Type == 'Location' or len(card.pile()) > 0):
 		if card.Type == 'Location': # Explore location
 			if len(card.pile()) > 0:
 				exploreLocation(card)
 			else:
 				closePermanently(card)
-		elif card.pile() == shared.piles['Blessing Deck']: # Reveal the next blessing
-			advanceBlessingDeck()
 		else:
 			t = card.pile().top()
 			x, y = card.position
@@ -1897,10 +1897,10 @@ def scenarioSetup(card):
 			else:
 				hidden.random().moveTo(pile)
 		#In The Brine Banshee's Grave and Free Captain's Regatta, add an extra henchman to each location
-		if card.Name in ("The Brine Banshee\'s Grave","The Free Captains\' Regatta"):
-			if card.Name == "The Brine Banshee\'s Grave":
+		if card.Name in ("The Brine Banshee's Grave","The Free Captains' Regatta"):
+			if card.Name == "The Brine Banshee's Grave":
 				exHenchName = "Shipwreck"
-			elif card.Name == "The Free Captains\' Regatta":
+			elif card.Name == "The Free Captains' Regatta":
 				exHenchName = "Enemy Ship"
 			extraHench = findCardByName(shared.piles['Henchman'],exHenchName)
 			if extraHench is None:
@@ -1965,16 +1965,41 @@ def buildLocation(scenario, location, locPile):
 			whisper("Location error: Failed to parse [{}]".format(details[0]))
 		location.link(locPile) # We do this at the end because doing it earlier causes major performance issues
 
+# Check to see if all the locations have the Enemy Ship as the top card
+# Return False if they are not, or True if they are
+def checkFreeCaptains():
+	won = True
+	if lockPile(shared.piles['Internal']):
+		locs = [ c for c in table if c.Type == 'Location' ]
+		for c in locs:
+			if len(c.pile()) == 0:
+				won = False
+			else:
+				card = c.pile().top()
+				card.moveTo(shared.piles['Internal'])
+				if card.Name != 'Enemy Ship':
+					won = False
+				card.moveTo(c.pile())
+		unlockPile(shared.piles['Internal'])
+	return won
+	
 def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
 	pile = shared.piles['Blessing Deck']	
 	if len(pile) == 0:
-		shipCount = 0
-		#If we are playing the adventure "Into the Eye" then there is no blessing deck
-		if findCardByName(table, "Into the Eye") is None and findCardByName(table,"The Free Captains\' Regatta") is None:
-			# Out of time - the players have lost
+		scenario = findScenario(table)
+		if scenario is None:
+			return
+		#If we are playing the adventure "Into the Eye" then there is no blessing deck so we have nothing to do
+		if scenario.Name == "Into the Eye":
+			return
+		#If we are playing The Free Captains Regatta then we win if all the locations have the Enemy Ship as the top card
+		if scenario.Name == "The Free Captains' Regatta":
+			gameOver(checkFreeCaptains())
+		else: # Out of time - the players have lost
 			gameOver(False)	
 		return
+		
 	pile.top().moveTo(shared.piles['Blessing Discard'])
 	notify("{} advances the Blessing Deck".format(me))
 	#In Treasure of Jemma Redclaw, Jemma is in the blessings deck... move her to the table
