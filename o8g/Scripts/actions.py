@@ -2030,18 +2030,17 @@ def advanceBlessingDeck():
 def gameOver(won):
 	if won:
 		loot = [ c for c in shared.piles['Scenario'] ]
+		scenario = findScenario(table)
+		if scenario and 'Loot' in scenario.Attr4:
+			foo,items = scenario.Attr4.split('Loot: ',1)
+			items = items.split(', ')
+			for item in items:
+				lootCard = findCardByName(shared.piles['Loot'],item)
+				lootCard.moveTo(shared.piles['Plunder'])
+				whisper("Adding scenario loot {}".format(item))
+				
 		plunder = [ c for c in shared.piles['Plunder'] ]
 		loot.extend(plunder)
-		scenarioLoot = []
-		scenarios = [ c for c in table if c.Type == 'Scenario']
-		for card in scenarios:
-			if 'Loot' in card.Attr4:
-				foo,items = card.Attr4.split('Loot:',1)
-				items = items.split(',')
-				for item in items:
-					scenarioLoot.append(findCardByName(shared.piles['Loot'],item))
-		if len(scenarioLoot) > 0 :
-			loot.extend(scenarioLoot)
 		
 	cleanupGame()				
 	for p in getPlayers():
