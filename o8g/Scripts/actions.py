@@ -2029,16 +2029,23 @@ def advanceBlessingDeck():
 			
 def gameOver(won):
 	if won:
-		loot = [ c for c in shared.piles['Scenario'] ]
+		#Check to see if scenario rewards the players with loot
 		scenario = findScenario(table)
-		if scenario and 'Loot' in scenario.Attr4:
-			foo,items = scenario.Attr4.split('Loot: ',1)
-			items = items.split(', ')
-			for item in items:
+		if scenario is not None and 'Loot: ' in scenario.Attr4:
+			if scenario.Name == 'Assault on the Pinnacle': # Default parsing fails because loot has a comma in it!
+				lootlist = ['Chellan, Sword of Greed']
+			else:
+				opt,items = scenario.Attr4.split('Loot: ',1)
+				lootlist = items.split(', ')
+			for item in lootlist:
 				lootCard = findCardByName(shared.piles['Loot'],item)
-				lootCard.moveTo(shared.piles['Plunder'])
-				whisper("Adding scenario loot {}".format(item))
-				
+				if lootCard is None:
+					whisper("Failed to find loot {}".format(item))
+				else:
+					lootCard.moveTo(shared.piles['Scenario'])
+					debug("Adding scenario loot {}".format(item))
+		
+		loot = [ c for c in shared.piles['Scenario'] ]
 		plunder = [ c for c in shared.piles['Plunder'] ]
 		loot.extend(plunder)
 		
