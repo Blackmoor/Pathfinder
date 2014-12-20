@@ -1777,7 +1777,7 @@ def scenarioSetup(card):
 		nl = 1
 	elif card.Name == 'The Toll of the Bell':
 		nl = 2
-	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark'):
+	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home'):
 		nl -= 1
 		leaveSpace = 1
 		
@@ -1815,6 +1815,11 @@ def scenarioSetup(card):
 		villain.moveToTable(PlayerX(-4),StoryY)
 		villain.link(shared.piles['Special'])
 		
+	#In Breaking the Dreamstone, pull out the special Role card
+	if card.Name == 'Breaking the Dreamstone':
+		bikendi = findCardByName(shared.piles['Story'],'Bikendi Otongu (Ghost Mage)')
+		bikendi.moveToTable(PlayerX(-1)-15,StoryY)
+	
 	#In 'Give the Devil His Due', display two ships and place plunder under one of them
 	if card.Name == 'Give the Devil His Due':
 		seaChanty = findCardByName(shared.piles['Ship'],'Sea Chanty')
@@ -1922,6 +1927,8 @@ def scenarioSetup(card):
 		dst = shared.piles['Blessing Deck']
 		if card.Name == 'Sandpoint Under Siege':
 			blessings = 25
+		elif card.Name == 'The Feast of Spoils':
+			blessings = 22
 		else:
 			blessings = 30
 		blessings += shared.ExtraBlessings
@@ -1929,6 +1936,18 @@ def scenarioSetup(card):
 			blessings = 1
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
+			
+	#In The Feast of Spoils, the blessings deck gets 8 Shipwreck henchmen.
+	if card.Name in ('The Feast of Spoils'):
+		i = 0
+		while i < 8:
+			shipwreck = findCardByName(shared.piles['Henchman'],"Shipwreck")
+			if shipwreck == None:
+				whisper("Not enough Shipwrecks!")
+				break;
+			shipwreck.moveTo(shared.piles['Blessing Deck'])
+			i=i+1
+		shufflePile(shared.piles['Blessing Deck'])
 		
 	notify("{} starts '{}'".format(me, card))
 	return anchorage

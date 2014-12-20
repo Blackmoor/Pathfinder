@@ -173,7 +173,7 @@
     <card qty="1" id="c9f18100-5036-459c-9fd7-99df30650b46">Hirgenzosk</card>
     <card qty="7" id="002fd0ca-9b54-4a42-a2ac-a0be75796852">Pirate Shade Haunt</card>
     <card qty="5" id="6c58d62e-318b-43a5-98bb-21e8052d7a75">Ruffian</card>
-    <card qty="6" id="832ae756-8467-463c-bc7b-66d4031f9b29">Shipwreck</card>
+    <card qty="8" id="832ae756-8467-463c-bc7b-66d4031f9b29">Shipwreck</card>
   </section>
   <section name="Monster" shared="True">
     <card qty="1" id="36d7f3aa-26ab-4c4b-8b50-d88971d884ac">Bilge Spider Swarm</card>
@@ -227,6 +227,7 @@
   <section name="Ally" shared="False" />
   <section name="Blessing" shared="False" />
   <section name="Feat" shared="False" />
+  <section name="Ship" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <notes><![CDATA[]]></notes>

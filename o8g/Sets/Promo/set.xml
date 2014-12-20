@@ -247,5 +247,29 @@
       <property name="Attr4" value="4"/>
     </alternate>
   </card>
+  <card id="f2a08c33-d98e-43a3-b928-3940df3ae929" name="Magpie Princess">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Ship"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Class 6"/>
+    <property name="Attr1" value="Before you act, each character at this location must bury a card."/>
+    <property name="Attr2" value="Reduce Structural damage to this ship by 1d4; if you roll a 1, bury a card.&#10;If you would fail a combat check by 2 or less, you may discard a card from the blessings deck to succeed."/>
+    <property name="Attr3" value="Dexterity&#10;Disable"/>
+    <property name="Attr4" value="10"/>
+    <property name="Attr5" value="Wisdom&#10;Survival"/>
+    <property name="Attr6" value="8"/>
+    <property name="Attr7" value="OR"/>
+    <alternate name="Magpie Princess" type="B">
+      <property name="Abr" value="P"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Ship"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Years ago, Captain Lanten discovered the location of a legendary treasure. A recent mutiny led by his wife, Varossa Lanteri, has left both this ship and his secret under new ownership."/>
+      <property name="Attr2" value="At the start of your turn, roll 1d4; on a 1, bury a card."/>
+      <property name="Attr3" value="Craft"/>
+      <property name="Attr4" value="6"/>
+    </alternate>
+  </card>
  </cards>
 </set>

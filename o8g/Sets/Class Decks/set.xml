@@ -3252,6 +3252,10 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Knife&#10;Melee&#10;Slashing&#10;Healing&#10;Finesse&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d4+1; you may additionally recharge this card to add another 2d4.&#10;When playing another weapon, you may discard this card to add 1d4 to the combat check.&#10;When a character at your location defeats a monster, you may recharge this card to recharge a random card from your discard pile."/>
+    <property name="Attr2" value="Strength&#10;Melee&#10;Divine"/>
+    <property name="Attr3" value="9"/>
   </card>
   <card id="16d54a30-4640-4236-9fb8-75f931fc5c69" name="Keen Rapier +3">
     <property name="Abr" value="5"/>
