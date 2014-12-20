@@ -611,6 +611,23 @@ def TheGrindylowandtheWhale(mode): # setup requires each player to move a random
 			if x == 0 and y == 0:
 				c.moveTo(shared.piles['Scenario'])				
 		shuffle(shared.piles['Scenario'])
+
+def HomeSweetHome(mode): #In Home Sweet Home, there are 8 Shipwreck Henchmen in the Blessings deck
+	if mode == 'Setup':
+		mute()
+		i = 0
+		while i < 8:
+			shipwreck = findCardByName(shared.piles['Henchman'],"Shipwreck")
+			if shipwreck == None:
+				whisper("Not enough Shipwrecks!")
+			else:
+				shipwreck.moveTo(shared.piles['Blessing Deck'])
+			i=i+1
+		i = 0
+		while i < 22:
+			shared.piles['Blessing'].random().moveTo(shared.piles['Blessing Deck'])
+			i=i+1
+		shuffle(shared.piles['Blessing Deck'])
 		
 def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
 	if mode == 'Setup':
@@ -1343,7 +1360,7 @@ def findScenario(group):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		scenario = findScenario(table)
-		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure' ]: # These scenarios are only won when the last location is closed
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home' ]: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				gameOver(True)
@@ -1927,8 +1944,6 @@ def scenarioSetup(card):
 		dst = shared.piles['Blessing Deck']
 		if card.Name == 'Sandpoint Under Siege':
 			blessings = 25
-		elif card.Name == 'The Feast of Spoils':
-			blessings = 22
 		else:
 			blessings = 30
 		blessings += shared.ExtraBlessings
@@ -1937,17 +1952,6 @@ def scenarioSetup(card):
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
 			
-	#In The Feast of Spoils, the blessings deck gets 8 Shipwreck henchmen.
-	if card.Name in ('The Feast of Spoils'):
-		i = 0
-		while i < 8:
-			shipwreck = findCardByName(shared.piles['Henchman'],"Shipwreck")
-			if shipwreck == None:
-				whisper("Not enough Shipwrecks!")
-				break;
-			shipwreck.moveTo(shared.piles['Blessing Deck'])
-			i=i+1
-		shufflePile(shared.piles['Blessing Deck'])
 		
 	notify("{} starts '{}'".format(me, card))
 	return anchorage
