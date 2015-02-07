@@ -1836,6 +1836,11 @@ def scenarioSetup(card):
 	if card.Name == 'Breaking the Dreamstone':
 		bikendi = findCardByName(shared.piles['Story'],'Bikendi Otongu (Ghost Mage)')
 		bikendi.moveToTable(PlayerX(-1)-15,StoryY)
+		
+	#In the Battle of Empty Eyes, pull out the Wormwood ship
+	if card.Name == 'The Battle of Empty Eyes':
+		wormwood = findCardByName(shared.piles['Ship'],'Wormwood')
+		wormwood.moveToTable(PlayerX(-1)-15,StoryY)
 	
 	#In 'Give the Devil His Due', display two ships and place plunder under one of them
 	if card.Name == 'Give the Devil His Due':
@@ -1960,7 +1965,21 @@ def scenarioSetup(card):
 #Create deck based on location distribution by moving random cards from the box to the location's pile
 def buildLocation(scenario, location, locPile):
 	debug("Processing Location '{}'".format(location))
-	for entry in location.Attr1.splitlines():
+	cardTypes = location.Attr1.splitlines()
+	if scenario.Name == 'Best Served Cold': #Best Served Cold replaces Allies with more Monsters at all locations
+		entry = cardTypes[6]
+		details = entry.split(' ')
+		numAllies = 0
+		if details[0] == 'Ally':
+			numAllies = details[1]
+		entry = cardTypes[0]
+		details = entry.split(' ')
+		numMonsters = 0
+		if details[0] == 'Monster':
+			numMonsters += numAllies
+		cardTypes[0] = 'Monster '+str(numMonsters)
+		cardTypes[6] = 'Ally 0'
+	for entry in cardTypes:
 		details = entry.split(' ') # i.e. Monster 3
 		if len(details) == 2 and details[0] in shared.piles:
 			debug("Adding {} cards of type {}".format(details[1], details[0]))
@@ -2060,6 +2079,10 @@ def gameOver(won):
 			else:
 				opt,items = scenario.Attr4.split('Loot: ',1)
 				lootlist = items.split(', ')
+				if scenario.Name = 'Islands of the Damned':
+					shipwreck = findCardByName(table, 'Shipwreck')
+					if shipwreck is not None:
+						lootlist.append('Alise Grogblud')
 			for item in lootlist:
 				lootCard = findCardByName(shared.piles['Loot'],item)
 				if lootCard is None:
