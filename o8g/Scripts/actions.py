@@ -1794,6 +1794,8 @@ def scenarioSetup(card):
 		nl = 1
 	elif card.Name == 'The Toll of the Bell':
 		nl = 2
+	elif card.Name == 'Best Served Cold':
+		nl += 1
 	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home'):
 		nl -= 1
 		leaveSpace = 1
@@ -1971,7 +1973,7 @@ def buildLocation(scenario, location, locPile):
 		details = entry.split(' ')
 		numAllies = 0
 		if details[0] == 'Ally':
-			numAllies = details[1]
+			numAllies = int(details[1])
 		entry = cardTypes[0]
 		details = entry.split(' ')
 		numMonsters = 0
