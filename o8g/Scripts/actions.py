@@ -2079,7 +2079,7 @@ def gameOver(won):
 			else:
 				opt,items = scenario.Attr4.split('Loot: ',1)
 				lootlist = items.split(', ')
-				if scenario.Name = 'Islands of the Damned':
+				if scenario.Name == 'Island of the Damned':
 					shipwreck = findCardByName(table, 'Shipwreck')
 					if shipwreck is not None:
 						lootlist.append('Alise Grogblud')
