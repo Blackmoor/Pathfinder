@@ -628,6 +628,14 @@ def HomeSweetHome(mode): #In Home Sweet Home, there are 8 Shipwreck Henchmen in 
 			shared.piles['Blessing'].random().moveTo(shared.piles['Blessing Deck'])
 			i=i+1
 		shuffle(shared.piles['Blessing Deck'])
+
+def IslandsoftheDamned(mode):
+	if mode == 'Setup':
+		mute()
+		i = 0
+		while i < 4:
+			shared.piles["Location1"].random().moveTo(shared.piles["Location2"])
+			i = i + 1
 		
 def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
 	if mode == 'Setup':
@@ -1786,7 +1794,7 @@ def scenarioSetup(card):
 	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
 	if card.Name in ('Rimeskull','The Free Captains\' Regatta'):
 		nl = 8
-	elif card.Name == 'Into the Runeforge':
+	elif card.Name in ('Into the Runeforge','Isle of the Black Tower'):
 		nl -= 1
 	elif card.Name == 'Scaling Mhar Massif':
 		nl -= 2
@@ -1794,7 +1802,7 @@ def scenarioSetup(card):
 		nl = 1
 	elif card.Name == 'The Toll of the Bell':
 		nl = 2
-	elif card.Name == 'Best Served Cold':
+	elif card.Name in ('Best Served Cold','Islands of the Damned'):
 		nl += 1
 	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home'):
 		nl -= 1
@@ -1895,7 +1903,8 @@ def scenarioSetup(card):
 		repeat = 1
 		if card.Name == 'Into the Eye':
 			cardsPerLocation += len(getPlayers())
-				
+	if card.Name == 'Isle of the Black Tower': #Isle of the Black Tower needs three extra henchmen
+		nl = nl + 3
 	index = 0
 	while len(hidden) < nl * cardsPerLocation:
 		if henchmen[index] in shared.piles: # A card type has been supplied
@@ -1923,6 +1932,13 @@ def scenarioSetup(card):
 		for i in range(cardsPerLocation):
 			if index == 0 and card.Name in ('Rimeskull', 'Into the Runeforge'):
 				hidden.bottom().moveTo(pile) # Ensure Villain is in first location
+			elif index == 0 and card.Name in ('Isle of the Black Tower'):
+				m = 0
+				while m < 4:
+					hidden.bottom().moveTo(pile)
+					m = m+1
+			elif index == 1 and card.Name in ('Islands of the Damned'):
+				m = 0 #ignore the Little Jaw location, useless declaration for space
 			else:
 				hidden.random().moveTo(pile)
 		#In The Brine Banshee's Grave and Free Captain's Regatta, add an extra henchman to each location
@@ -1978,6 +1994,7 @@ def buildLocation(scenario, location, locPile):
 		details = entry.split(' ')
 		numMonsters = 0
 		if details[0] == 'Monster':
+			numMonsters = int(details[1])
 			numMonsters += numAllies
 		cardTypes[0] = 'Monster '+str(numMonsters)
 		cardTypes[6] = 'Ally 0'

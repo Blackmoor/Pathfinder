@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
   <section name="Story" shared="True">
     <card qty="1" id="6796c2ed-25cb-4724-8e27-9cee659e265f">Best Served Cold</card>
     <card qty="1" id="eb027d7a-33ca-49db-86c0-cce51e6e69bb">Isle of the Black Tower</card>
@@ -88,7 +80,6 @@
   <section name="Ship" shared="True">
     <card qty="1" id="1daaeafd-9be1-4c58-b745-8f7d7cbd7c16">Wanton Wastrel</card>
   </section>
-  <section name="Fleet" shared="True" />
   <section name="Loot" shared="True">
     <card qty="1" id="db4cd6bf-4cbb-482d-865f-da4a404632f5">Alise Grogblud</card>
     <card qty="1" id="387e96b3-9564-4c74-b72a-93b9e54ae3a5">Quickened Ray</card>
@@ -99,6 +90,7 @@
   <section name="Location" shared="True">
     <card qty="1" id="bdf6c014-42d0-4d86-9dfa-e50d5f9b1d4c">Sacred Spring</card>
     <card qty="1" id="b63e562a-7e84-469a-94ed-c290b8fc9787">Torture Pit</card>
+    <card qty="1" id="3f440dab-a30f-456e-ae2d-ae0b1d53018a">Little Jaw</card>
     <card qty="1" id="05810b22-8c9e-4952-9fb1-ffee3594a7b5">Theater of Corruption</card>
     <card qty="1" id="4fa2d71b-9d02-417d-bde3-94dc6490bea5">Shrine to Norgorber</card>
     <card qty="1" id="28d9ba08-b18d-43bb-ab91-2eeedd96c9cf">Dagon's Jaws</card>
@@ -111,5 +103,14 @@
     <card qty="1" id="39c8bda0-4caa-4755-a286-d174d3c1a8b5">Isawyn the Diva</card>
     <card qty="1" id="76484c8f-44a3-428b-8768-bb5195b9e094">Shrouded Queen</card>
   </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Fleet" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

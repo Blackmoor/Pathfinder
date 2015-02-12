@@ -365,7 +365,7 @@
     <property name="Attr5" value="15"/>
     <property name="Attr6" value="OR"/>
   </card>
-  <card id="76484c8f-44a3-428b-8768-bb5195b9e094" name="Shrouded Queen">
+  <card id="76484c8f-44a3-428b-8768-bb5195b9e094" name="The Shrouded Queen">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>
@@ -683,6 +683,20 @@
       <property name="Flavour" value="The high cliffs and natural harbor of Gannet Island make for a perfect pirate sanctuary. Captain Harrigan has raised his allies and their ships into a modest armada. Harrigan's men now keep close watch over the island, assuring that the captain's numerous enemies won't sneak ashore to sabotage his plots."/>
     </alternate>
   </card>
+  <card id="3f440dab-a30f-456e-ae2d-ae0b1d53018a" name="Little Jaw">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 0&#10;Barrier 0&#10;Weapon 0&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 0"/>
+    <alternate name="Little Jaw" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="These wretched isles--known as Big Jaw and Little Jaw--are the site of countless disappearances, murders, and hauntings. The shallow channel and jungle islands that divide them--known to sailors as Dagon's Gullet--take their name from the demon lord of deformity, sea monsters, and the sea. That doesn't really help their vile reputation."/>
+    </alternate>
+  </card>
   <card id="bdf6c014-42d0-4d86-9dfa-e50d5f9b1d4c" name="Sacred Spring">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="No."/>
@@ -844,7 +858,7 @@
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
     <property name="Flavour" value="Thwarted one time too many, Barnabas Harrigan is preparing an attack on the Island of Empty Eyes. Seek out allies to strike back before it's too late! A gang of castaway pirates on Dagon's Jaws includes a few of Harrigan's old enemies. See if anyone there might join the cause."/>
-    <property name="Attr1" value="Dagon's Jaws&#10;Shipwreck Graveyard&#10;Sacred Spring&#10;Sea Caves&#10;Coastline&#10;Fog Bank&#10;Beach&#10;Torture Pit"/>
+    <property name="Attr1" value="Dagon's Jaws&#10;Little Jaw&#10;Shipwreck Graveyard&#10;Sacred Spring&#10;Sea Caves&#10;Coastline&#10;Fog Bank&#10;Beach&#10;Torture Pit"/>
     <alternate name="Islands of the Damned" type="B">
       <property name="Abr" value="5"/>
       <property name="Copyright" value="No."/>
@@ -853,7 +867,7 @@
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="When you defeat a Vrykolakas henchman, draw a random ally from the box and put it under the card. When you defeat the Shipwreck henchman, display it next to this card.&#10;If you win the scenario and the Shipwreck is displayed, add the loot Alise Grogblud to the reward."/>
       <property name="Attr2" value="Incutilis"/>
-      <property name="Attr3" value="Shipwreck, Vrykolakases"/>
+      <property name="Attr3" value="Shipwreck, Vrykolakass"/>
       <property name="Attr4" value="Gain all the allies under this card."/>
     </alternate>
   </card>
@@ -874,7 +888,7 @@
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="When you build location decks, shuffle the villain The Shrouded Queen and the henchmen Breath of Dagon, Eye of Dagon, and Curse of the Flesheaters into the Tower location deck. Shuffle 1 Witch Doctor henchman into each other location deck."/>
       <property name="Attr2" value="The Shrouded Queen"/>
-      <property name="Attr3" value="See below"/>
+      <property name="Attr3" value="Breath of Dagon&#10;Eye of Dagon&#10;Curse of the Flesheaters&#10;Witch Doctors"/>
       <property name="Attr4" value="Each character gains a card feat.&#10;Loot: Aiger's Kiss, Quickened Ray"/>
     </alternate>
   </card>
