@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Story" shared="True">
+    <card qty="1" id="6796c2ed-25cb-4724-8e27-9cee659e265f">Best Served Cold</card>
+    <card qty="1" id="eb027d7a-33ca-49db-86c0-cce51e6e69bb">Isle of the Black Tower</card>
+    <card qty="1" id="44161d6c-9a8e-4b69-89d3-4b79e6fb6621">Islands of the Damned</card>
+    <card qty="1" id="49a8c346-ca29-433b-bfa8-f2fec40c8b5e">The Battle of Empty Eyes</card>
+    <card qty="1" id="5d6cfa45-3f2e-4d86-8df6-a9f7ea23f2ea">The Price of Infamy</card>
+    <card qty="1" id="eab1b89f-bca0-4d8c-bf82-fb472f77a2f1">An Unforgivable Act</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="8150b404-896e-4471-a9d2-3a70da3cdc86">Curse of the Flesheaters</card>
+    <card qty="4" id="2cb9f441-2b08-4ffa-85ec-a345680434de">Erinyes Devil</card>
+    <card qty="1" id="7789aafb-7b72-44a4-8099-09672dba2849">Gilbrok the Tongue</card>
+    <card qty="1" id="14312579-4826-4573-b531-7eb01003842e">Kipper</card>
+    <card qty="1" id="c8bd8d51-4a22-443b-a6b9-a230f0bf7cbc">Riaris Krine</card>
+    <card qty="6" id="58f58c81-13c4-42a4-a074-69a13319099e">Vrykolakas</card>
+    <card qty="6" id="0a99be92-bac8-4dac-b582-28ab1f9f7e73">Witch Doctor</card>
+    <card qty="5" id="090a11f9-c15d-4ded-8ecf-30f84e914709">Sentinel Devil</card>
+    <card qty="1" id="461e0040-ea46-4cfb-a5d5-a51032c7b0f8">Jakaw Razorbeak</card>
+    <card qty="1" id="bc103eba-7393-4e46-b81c-f30c30cda77a">Luccaria</card>
+    <card qty="1" id="2d9d0fa4-17f0-4578-ac8c-a8b9deca610c">Lady Nightshade</card>
+    <card qty="1" id="efd20428-c1a8-43f9-a971-dd3bc24851fa">Gorebeard Trench</card>
+    <card qty="1" id="68bc89d8-67ee-44a2-bf0c-d8d5ef29e6fc">Eye of Dagon</card>
+    <card qty="1" id="5728ef7d-7553-4103-96c2-99d30fd02a02">Breath of Dagon</card>
+    <card qty="1" id="6af33c25-0b49-4702-be99-2b344e7098a3">Abyssal Scavenger</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="f2baa952-55aa-4d6e-8f5b-472a534f9a98">Insanity Demon</card>
+    <card qty="2" id="1267f164-959b-4f21-8e1a-38e5bcf79763">Norgorber Cultist</card>
+    <card qty="1" id="48f1b5f9-5e1d-4638-8f22-62fd3525e63b">Spiny Eurypterid</card>
+    <card qty="1" id="4bcf716b-5bb6-48c0-ae99-955e72fadb80">Tetrolimus</card>
+    <card qty="1" id="1ba5767c-069e-48b5-a00b-c2eed7c97d42">Voidstick Zombie</card>
+    <card qty="2" id="3e076a14-a67a-4318-bcf0-c2673bfd264f">Sea Troll</card>
+    <card qty="1" id="925552ad-95a8-417d-a7fc-04a9e6d048f6">Sea Serpent</card>
+    <card qty="1" id="82141190-ed96-4efa-b5a2-ea195de483e8">Kapre</card>
+    <card qty="2" id="e5a3af1e-eb8f-4b2a-b9b7-f5cb9aba0f60">Giant Sea Anemone</card>
+    <card qty="2" id="a124e044-fc48-49d8-b1fa-59ed26a134dc">Galvo</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="99cf54a9-e70e-4c9c-bcba-07ff94a1ae95">Albatross Soup</card>
+    <card qty="1" id="c1e2e3d9-a66f-42d0-8f56-03aa16ce6813">Social Niceties</card>
+    <card qty="2" id="04673da3-3e7f-4874-80d1-0379a578bd1f">Sabotage</card>
+    <card qty="1" id="dcd5be90-77ac-431d-a73c-81272a22a6a7">Phantom Fog</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="d2c57435-fd0d-4f96-a51d-71b395bab6c9">Reflecting Buckler</card>
+    <card qty="1" id="b8b5aa67-39a3-4603-886d-b793c561181a">Breastplate of the Deep</card>
+    <card qty="2" id="a4ce46c0-274b-4281-b154-c391b63f474a">Fortified Breastplate</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="2" id="f395f2b2-fd37-4427-ae93-0358e9de4b71">Flaming Longbow +2</card>
+    <card qty="2" id="33a6863a-5b05-4d20-8551-60e2bf2eab1b">Keen Rapier +3</card>
+    <card qty="1" id="a8cc7ef1-417c-452e-b796-a667d83e50ad">Humanbane Gladius +2</card>
+    <card qty="1" id="c0effec9-da26-414a-9d86-71ebbc36f4ce">Grayflame Mace +2</card>
+    <card qty="1" id="530e85a5-68fd-405e-9bcd-8859b96df86e">Flaming Falcata +3</card>
+    <card qty="2" id="16c4081d-61f0-4d91-90ff-51faaaf8f5a3">Blasting Pistol +2</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="077df0e6-ac89-4585-92df-7dee6c74b552">Seamantle</card>
+    <card qty="2" id="a87b27fc-9109-43c6-a7a3-6d72e88ac711">Wall of Blades</card>
+    <card qty="2" id="db1a1a26-3327-42bc-94a0-0f10984ae602">Raise Dead</card>
+    <card qty="2" id="4a427e20-74cd-4f11-9a65-0a2b12701787">Righteousness</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="50210eeb-084f-4942-8a3e-1f017adf9322">Ring of the Sea Strider</card>
+    <card qty="1" id="496d3f98-361f-4852-bf1c-ca475a487321">Wizard's Hook</card>
+    <card qty="1" id="95ddcf60-a12c-430f-b2f1-b4ca890e3e1f">Ring of Regeneration</card>
+    <card qty="2" id="ee1d82d0-fb2c-40ed-a35c-f18478b3b013">Bottled Lightning</card>
+    <card qty="1" id="1bbc3193-335c-4612-a5ee-8c07517b97ba">Gloves of Dueling</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="6561837c-77f7-45dd-9ee9-b7a1ccbcc3c7">Barracuda Aiger</card>
+    <card qty="2" id="8ac2caa9-a055-4582-9997-0afe8b274134">Albatross</card>
+    <card qty="1" id="3662e827-81f9-4dbd-b6ff-97d887d6110a">Arronax Endymion</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="352d6539-271f-47e3-85dc-659b36a5a698">Blessing of Norgorber</card>
+  </section>
+  <section name="Ship" shared="True">
+    <card qty="1" id="1daaeafd-9be1-4c58-b745-8f7d7cbd7c16">Wanton Wastrel</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="db4cd6bf-4cbb-482d-865f-da4a404632f5">Alise Grogblud</card>
+    <card qty="1" id="387e96b3-9564-4c74-b72a-93b9e54ae3a5">Quickened Ray</card>
+    <card qty="1" id="628587c6-5296-4065-8cde-31a6bf153c03">Skyrocket Crossbow</card>
+    <card qty="1" id="7398d3c0-b7d0-448f-9166-852a0c2a5151">Howling Skull Armor</card>
+    <card qty="1" id="8c7e65de-ae4e-4b56-9aa5-0be7b48b1af0">Aiger's Kiss</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="bdf6c014-42d0-4d86-9dfa-e50d5f9b1d4c">Sacred Spring</card>
+    <card qty="1" id="b63e562a-7e84-469a-94ed-c290b8fc9787">Torture Pit</card>
+    <card qty="1" id="3f440dab-a30f-456e-ae2d-ae0b1d53018a">Little Jaw</card>
+    <card qty="1" id="05810b22-8c9e-4952-9fb1-ffee3594a7b5">Theater of Corruption</card>
+    <card qty="1" id="4fa2d71b-9d02-417d-bde3-94dc6490bea5">Shrine to Norgorber</card>
+    <card qty="1" id="28d9ba08-b18d-43bb-ab91-2eeedd96c9cf">Dagon's Jaws</card>
+    <card qty="1" id="96939e0b-a422-4a08-89b3-a8ceb851d952">Gannet Island</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="dccc7e2e-679a-4af4-a651-fb275a64004c">Adelita Doloruso</card>
+    <card qty="1" id="d91466cc-92b9-4d38-b3e6-fd304076106f">Barnabas Harrigan</card>
+    <card qty="1" id="6fbe6fce-634a-4ad1-aaec-e77a7afb2466">Incutilis</card>
+    <card qty="1" id="39c8bda0-4caa-4755-a286-d174d3c1a8b5">Isawyn the Diva</card>
+    <card qty="1" id="76484c8f-44a3-428b-8768-bb5195b9e094">Shrouded Queen</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Fleet" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

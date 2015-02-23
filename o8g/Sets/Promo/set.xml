@@ -247,7 +247,7 @@
       <property name="Attr4" value="4"/>
     </alternate>
   </card>
-  <card id="f2a08c33-d98e-43a3-b928-3940df3ae929" name="Magpie Princess">
+  <card id="cc588e2b-c01c-4228-a1ed-84121bc201dd" name="Magpie Princess">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Ship"/>
@@ -265,10 +265,36 @@
       <property name="Copyright" value="No."/>
       <property name="Type" value="Ship"/>
       <property name="Subtype2" value="Back"/>
-      <property name="Flavour" value="Years ago, Captain Lanten discovered the location of a legendary treasure. A recent mutiny led by his wife, Varossa Lanteri, has left both this ship and his secret under new ownership."/>
+      <property name="Traits" value="Class 6"/>
+      <property name="Flavour" value="Years ago, Captain Lantern discovered the location of a legendary treasure. A recent mutiny led by his wife, Varossa Lantern, has left both this ship and his secret under new ownership"/>
       <property name="Attr2" value="At the start of your turn, roll 1d4; on a 1, bury a card."/>
       <property name="Attr3" value="Craft"/>
       <property name="Attr4" value="6"/>
+    </alternate>
+  </card>
+  <card id="1807c919-39c4-4fa4-a371-989d1bcda304" name="Mistmourn">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Ship"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Class 5"/>
+    <property name="Attr1" value="If any character would discard any cards during the check to defeat the Mistmourn, bury those cards instead."/>
+    <property name="Attr2" value="Reduce Structural damage to this ship by 2.&#10;You may discard a card from the blessings deck to evade a bane."/>
+    <property name="Attr3" value="Dexterity&#10;Acrobatics"/>
+    <property name="Attr4" value="11"/>
+    <property name="Attr5" value="Wisdom&#10;Survival"/>
+    <property name="Attr6" value="9"/>
+    <property name="Attr7" value="OR"/>
+    <alternate name="Mistmourn" type="B">
+      <property name="Abr" value="P"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Ship"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Class 5"/>
+      <property name="Flavour" value="The Mordant Spire elves speak in hushed tones of a dragon ship that ransacked many treasures of lore. Word is that an elven armada sank the beast, but word is often unreliable in the Shackles"/>
+      <property name="Attr2" value="Whenever you banish cards, banish 1 additional card from your hand."/>
+      <property name="Attr3" value="Craft"/>
+      <property name="Attr4" value="7"/>
     </alternate>
   </card>
  </cards>

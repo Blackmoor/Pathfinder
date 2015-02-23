@@ -628,6 +628,14 @@ def HomeSweetHome(mode): #In Home Sweet Home, there are 8 Shipwreck Henchmen in 
 			shared.piles['Blessing'].random().moveTo(shared.piles['Blessing Deck'])
 			i=i+1
 		shuffle(shared.piles['Blessing Deck'])
+
+def IslandsoftheDamned(mode):
+	if mode == 'Setup':
+		mute()
+		i = 0
+		while i < 4:
+			shared.piles["Location1"].random().moveTo(shared.piles["Location2"])
+			i = i + 1
 		
 def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
 	if mode == 'Setup':
@@ -1786,7 +1794,7 @@ def scenarioSetup(card):
 	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
 	if card.Name in ('Rimeskull','The Free Captains\' Regatta'):
 		nl = 8
-	elif card.Name == 'Into the Runeforge':
+	elif card.Name in ('Into the Runeforge','Isle of the Black Tower'):
 		nl -= 1
 	elif card.Name == 'Scaling Mhar Massif':
 		nl -= 2
@@ -1794,6 +1802,8 @@ def scenarioSetup(card):
 		nl = 1
 	elif card.Name == 'The Toll of the Bell':
 		nl = 2
+	elif card.Name in ('Best Served Cold','Islands of the Damned'):
+		nl += 1
 	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home'):
 		nl -= 1
 		leaveSpace = 1
@@ -1836,6 +1846,11 @@ def scenarioSetup(card):
 	if card.Name == 'Breaking the Dreamstone':
 		bikendi = findCardByName(shared.piles['Story'],'Bikendi Otongu (Ghost Mage)')
 		bikendi.moveToTable(PlayerX(-1)-15,StoryY)
+		
+	#In the Battle of Empty Eyes, pull out the Wormwood ship
+	if card.Name == 'The Battle of Empty Eyes':
+		wormwood = findCardByName(shared.piles['Ship'],'Wormwood')
+		wormwood.moveToTable(PlayerX(-1)-15,StoryY)
 	
 	#In 'Give the Devil His Due', display two ships and place plunder under one of them
 	if card.Name == 'Give the Devil His Due':
@@ -1888,7 +1903,8 @@ def scenarioSetup(card):
 		repeat = 1
 		if card.Name == 'Into the Eye':
 			cardsPerLocation += len(getPlayers())
-				
+	if card.Name == 'Isle of the Black Tower': #Isle of the Black Tower needs three extra henchmen
+		nl = nl + 3
 	index = 0
 	while len(hidden) < nl * cardsPerLocation:
 		if henchmen[index] in shared.piles: # A card type has been supplied
@@ -1916,6 +1932,13 @@ def scenarioSetup(card):
 		for i in range(cardsPerLocation):
 			if index == 0 and card.Name in ('Rimeskull', 'Into the Runeforge'):
 				hidden.bottom().moveTo(pile) # Ensure Villain is in first location
+			elif index == 0 and card.Name in ('Isle of the Black Tower'):
+				m = 0
+				while m < 4:
+					hidden.bottom().moveTo(pile)
+					m = m+1
+			elif index == 1 and card.Name in ('Islands of the Damned'):
+				m = 0 #ignore the Little Jaw location, useless declaration for space
 			else:
 				hidden.random().moveTo(pile)
 		#In The Brine Banshee's Grave and Free Captain's Regatta, add an extra henchman to each location
@@ -1960,7 +1983,22 @@ def scenarioSetup(card):
 #Create deck based on location distribution by moving random cards from the box to the location's pile
 def buildLocation(scenario, location, locPile):
 	debug("Processing Location '{}'".format(location))
-	for entry in location.Attr1.splitlines():
+	cardTypes = location.Attr1.splitlines()
+	if scenario.Name == 'Best Served Cold': #Best Served Cold replaces Allies with more Monsters at all locations
+		entry = cardTypes[6]
+		details = entry.split(' ')
+		numAllies = 0
+		if details[0] == 'Ally':
+			numAllies = int(details[1])
+		entry = cardTypes[0]
+		details = entry.split(' ')
+		numMonsters = 0
+		if details[0] == 'Monster':
+			numMonsters = int(details[1])
+			numMonsters += numAllies
+		cardTypes[0] = 'Monster '+str(numMonsters)
+		cardTypes[6] = 'Ally 0'
+	for entry in cardTypes:
 		details = entry.split(' ') # i.e. Monster 3
 		if len(details) == 2 and details[0] in shared.piles:
 			debug("Adding {} cards of type {}".format(details[1], details[0]))
@@ -2060,6 +2098,10 @@ def gameOver(won):
 			else:
 				opt,items = scenario.Attr4.split('Loot: ',1)
 				lootlist = items.split(', ')
+				if scenario.Name == 'Island of the Damned':
+					shipwreck = findCardByName(table, 'Shipwreck')
+					if shipwreck is not None:
+						lootlist.append('Alise Grogblud')
 			for item in lootlist:
 				lootCard = findCardByName(shared.piles['Loot'],item)
 				if lootCard is None:
