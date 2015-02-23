@@ -867,7 +867,7 @@
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="When you defeat a Vrykolakas henchman, draw a random ally from the box and put it under the card. When you defeat the Shipwreck henchman, display it next to this card.&#10;If you win the scenario and the Shipwreck is displayed, add the loot Alise Grogblud to the reward."/>
       <property name="Attr2" value="Incutilis"/>
-      <property name="Attr3" value="Shipwreck, Vrykolakass"/>
+      <property name="Attr3" value="Shipwreck&#10;Vrykolakass"/>
       <property name="Attr4" value="Gain all the allies under this card."/>
     </alternate>
   </card>
