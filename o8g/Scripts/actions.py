@@ -1882,7 +1882,7 @@ def scenarioSetup(card):
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per Location', '').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
 		repeat = len(henchmen)		
-	elif 'Random Monsters' in card.Attr3:
+	elif 'Random Monsters' in card.Attr3 or 'Random monsters' in card.Attr3 or 'random monsters' in card.Attr3:
 		cardsPerLocation = 1
 		hiddenLen = len(hidden)
 		for i in range(nl-hiddenLen):
