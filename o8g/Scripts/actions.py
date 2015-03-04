@@ -652,11 +652,11 @@ def TheArmada(mode):
 		mute()
 		fleet = shared.piles['Fleet'].random()
 		fleet.moveToTable(PlayerX(-1)+15,StoryY)
-		fleet.link(shared.piles['Internal']
+		fleet.link(shared.piles['Internal'])
 		i = 0
 		while i < 3:
 			newShip = shared.piles['Fleet'].random()
-			if newShip = None:
+			if newShip == None:
 				whisper("Not enough ships in fleet!")
 			else:
 				newShip.moveTo(shared.piles['Internal'])
