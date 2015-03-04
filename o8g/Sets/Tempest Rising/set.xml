@@ -870,7 +870,7 @@
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="When you would defeat a villain, examine the location deck. If the other two villains are not in the deck, the villain is undefeated. If the villain cannot escape to an open location, shuffle the villain into a random location, opening it.&#10;To win this scenario, defeat any villain."/>
+      <property name="Attr1" value="If a villain cannot escape to an open location, shuffle the villain into a random location, opening it.&#10;To win the scenario, defeat any villain while all three villains are in the same location deck."/>
       <property name="Attr2" value="Sarlis&#10;Selissa&#10;Munarei"/>
       <property name="Attr3" value="Random monsters"/>
       <property name="Attr4" value="Each character gains a card feat."/>

@@ -224,23 +224,32 @@
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
-		  <link block="CheckTypeM">
+		  <link block="CheckTypeL">
 		   <property name="Attr2" />
 		  </link>
-		  <link block="CheckValueM">
+		  <link block="CheckValueL">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="CheckJoinR">
+		  <link block="CheckJoinM">
 		   <property name="Attr6" />
 		  </link>
-		  <link block="CheckTypeR">
+		  <link block="CheckTypeM">
 		   <property name="Attr4" />
 		  </link>
-		  <link block="CheckValueR">
+		  <link block="CheckValueM">
 		   <property name="Attr5" />
 		  </link>
 		  <link block="Text">
 		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr9" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr7" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr8" />
 		  </link>
 		  <link block="Flavour">
 		   <property name="Flavour" />
@@ -271,23 +280,32 @@
 		  <link block="Traits">
 		   <property name="Traits" />
 		  </link>
-		  <link block="CheckTypeM">
+		  <link block="CheckTypeL">
 		   <property name="Attr2" />
 		  </link>
-		  <link block="CheckValueM">
+		  <link block="CheckValueL">
 		   <property name="Attr3" />
 		  </link>
-		  <link block="CheckJoinR">
+		  <link block="CheckJoinM">
 		   <property name="Attr6" />
 		  </link>
-		  <link block="CheckTypeR">
+		  <link block="CheckTypeM">
 		   <property name="Attr4" />
 		  </link>
-		  <link block="CheckValueR">
+		  <link block="CheckValueM">
 		   <property name="Attr5" />
 		  </link>
 		  <link block="Text">
 		   <property name="Attr1" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr9" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr7" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr8" />
 		  </link>
 		  <link block="Flavour">
 		   <property name="Flavour" />

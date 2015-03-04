@@ -629,12 +629,37 @@ def HomeSweetHome(mode): #In Home Sweet Home, there are 8 Shipwreck Henchmen in 
 			i=i+1
 		shuffle(shared.piles['Blessing Deck'])
 
+def InsideLucrehold(mode): #In Inside Lucrehold, Brinebones is shuffled into the blessings deck
+	if mode == 'Setup':
+		mute()
+		brinebones = findCardByName(shared.piles['Villain'],"Brinebones")
+		if brinebones == None:
+			whisper("Cannot find Brinebones!")
+		else:
+			brinebones.moveTo(shared.piles['Blessing Deck'])
+			shuffle(shared.piles['Blessing Deck'])
+		
 def IslandsoftheDamned(mode):
 	if mode == 'Setup':
 		mute()
 		i = 0
 		while i < 4:
 			shared.piles["Location1"].random().moveTo(shared.piles["Location2"])
+			i = i + 1
+		
+def TheArmada(mode):
+	if mode == 'Setup':
+		mute()
+		fleet = shared.piles['Fleet'].random()
+		fleet.moveToTable(PlayerX(-1)+15,StoryY)
+		fleet.link(shared.piles['Internal']
+		i = 0
+		while i < 3:
+			newShip = shared.piles['Fleet'].random()
+			if newShip = None:
+				whisper("Not enough ships in fleet!")
+			else:
+				newShip.moveTo(shared.piles['Internal'])
 			i = i + 1
 		
 def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
@@ -1413,8 +1438,6 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	if defeated: # Normally we close the location the villain came from
 		if findScenario(table).Name == '0-1F The Treasure of Jemma Redclaw' and villain.Name == 'Jemma Redclaw':
 			gameOver(True)
-		elif findScenario(table).Name == 'Bizarre Love Triangle':
-			gameOver(True)
 		elif villain.Name == 'The Matron':
 			notify("{} banishes '{}'".format(me, villain))
 			returnToBox(villain)
@@ -2061,6 +2084,8 @@ def advanceBlessingDeck():
 			gameOver(False)	
 		return
 		
+	if scenario.Name == "Inside Lucrehold" and pile.top().Name == 'Brinebones':
+		pile.top().moveToTable(PlayerX(len(getPlayers())+1),StoryY)	
 	pile.top().moveTo(shared.piles['Blessing Discard'])
 	notify("{} advances the Blessing Deck".format(me))
 	#In Treasure of Jemma Redclaw, Jemma is in the blessings deck... move her to the table
