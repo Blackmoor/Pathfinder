@@ -866,7 +866,7 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="5"/>
   </card>
-  <card id="83089fd9-b1af-41c3-85d0-4d4ee717e4a9" name="Damiel (Chirurgeon)">
+  <card id="83089fd9-b1af-41c3-85d0-4d4ee717e4a9" name="Damiel (Chirurgeon)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -887,7 +887,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="ee14c0ee-709a-437d-a1f4-cd6c21bb1742" name="Damiel (Grenadier)">
+  <card id="ee14c0ee-709a-437d-a1f4-cd6c21bb1742" name="Damiel (Grenadier)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -908,7 +908,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="358ba300-5abd-4988-8695-e488289b510a" name="Feiya (Hexer)">
+  <card id="358ba300-5abd-4988-8695-e488289b510a" name="Feiya (Hexer)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -929,7 +929,7 @@
       <property name="Attr4" value="None"/>
     </alternate>
   </card>
-  <card id="e8cca8bc-aec8-40d6-b8de-218082b1e277" name="Feiya (Sea Witch)">
+  <card id="e8cca8bc-aec8-40d6-b8de-218082b1e277" name="Feiya (Sea Witch)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -950,7 +950,7 @@
       <property name="Attr4" value="None"/>
     </alternate>
   </card>
-  <card id="fec143ed-5f38-439f-a93b-bda03e73a937" name="Lini (Aquamancer)">
+  <card id="fec143ed-5f38-439f-a93b-bda03e73a937" name="Lini (Aquamancer)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -971,7 +971,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="22d17fbe-75b4-4ada-bf1f-c63ef35e891d" name="Lini (Feral Druid)">
+  <card id="22d17fbe-75b4-4ada-bf1f-c63ef35e891d" name="Lini (Feral Druid)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -992,7 +992,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="69e640bd-32f2-49cd-a6b5-059dcb98bf62" name="Oloch (Battle Chaplain)">
+  <card id="69e640bd-32f2-49cd-a6b5-059dcb98bf62" name="Oloch (Battle Chaplain)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1013,7 +1013,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="b35e951e-d068-46cb-8213-057f53b5fa7b" name="Oloch (Shield of Gorum)">
+  <card id="b35e951e-d068-46cb-8213-057f53b5fa7b" name="Oloch (Shield of Gorum)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1034,7 +1034,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="ae4a1a62-b8e1-4401-a74d-a6932b5501c0" name="Damiel">
+  <card id="ae4a1a62-b8e1-4401-a74d-a6932b5501c0" name="Damiel" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1055,7 +1055,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="e9798c26-3f1d-45ac-a8ae-fd61e6136c0e" name="Feiya">
+  <card id="e9798c26-3f1d-45ac-a8ae-fd61e6136c0e" name="Feiya" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1076,7 +1076,7 @@
       <property name="Attr4" value="None"/>
     </alternate>
   </card>
-  <card id="e1b55e74-2c2c-43c7-84fb-cd3a7de242cd" name="Lini">
+  <card id="e1b55e74-2c2c-43c7-84fb-cd3a7de242cd" name="Lini" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1097,7 +1097,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="69073fb2-8247-4f6f-94f7-406e41bb54b7" name="Oloch">
+  <card id="69073fb2-8247-4f6f-94f7-406e41bb54b7" name="Oloch" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
