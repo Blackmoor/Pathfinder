@@ -2079,10 +2079,11 @@ def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
 	pile = shared.piles['Blessing Deck']	
 	scenario = findScenario(table)
+	if scenario is None:
+		return
+	
 	if len(pile) == 0:
 
-		if scenario is None:
-			return
 		#If we are playing the adventure "Into the Eye" then there is no blessing deck so we have nothing to do
 		if scenario.Name == "Into the Eye":
 			return
