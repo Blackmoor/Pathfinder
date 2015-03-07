@@ -1,6 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Season of the Shackles" id="068e9053-abfc-42e2-bbb0-b1b1701d2001" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0">
  <cards>
+  <card id="b47ec535-25f5-4ba4-b1f1-d5717dae10ff" name="Allosaurus">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="Damage dealt by the Allosaurus is increased by 3.&#10;If undefeated, a random other character at your location summons and encounters the Allosaurus.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="21"/>
+    <property name="Attr4" value="Wisdom&#10;Survival"/>
+    <property name="Attr5" value="14"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="57e799ad-216f-494e-abc6-16b7d40fee8d" name="Kraken">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Aquatic"/>
+    <property name="Attr1" value="Before you act, your ship is dealt 2d4 Structural damage.&#10;Combat damage dealt by the Kraken is dealt to each character at your location and at one other random occupied location.&#10;If undefeated, your ship is wrecked."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="14"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="23"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="44e986db-0925-4458-a2e5-48f64fc8d162" name="Mokele-Mbembe">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="Before you act, succeed at a Constitution or Fortitude 9 check or reset your hand and end your turn, and Mokele-Mbembe is undefeated."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="22"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="22"/>
+    <property name="Attr6" value="THEN"/>
+    <property name="Attr7" value="Wisdom&#10;Survival"/>
+    <property name="Attr8" value="15"/>
+    <property name="Attr9" value="OR"/>
+  </card>
   <card id="5cc275ba-4854-42e0-a4b2-b29efab312db" name="Onwu Azu">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="No."/>
@@ -168,6 +213,38 @@
       <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, you may choose 1 loot card with adventure deck number 2 to replace 1 card of the same type in your deck. If two players choose the same loot card, they should each roll 1d12; the player with the highest result may use the card. Return all loot cards to the same box at the end of each scenario. "/>
     </alternate>
   </card>
+  <card id="8d6bbdfd-5b61-4259-b0e8-bdcc560c4a88" name="Hurricane Weather">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <alternate name="Hurricane Weather" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="0-6A Get a Clue&#10;0-6B The Battle of Abendego&#10;0-6C The Monster Mash&#10;0-6D The Pirate Party&#10;0-6E Into the Maelstrom&#10;0-6F Lost in the Storm"/>
+      <property name="Attr4" value="Each player unlocks the ability to play Enora from the Wrath of the Righteous Base Set with the Wizard Class Deck."/>
+    </alternate>
+  </card>
+  <card id="176aa1d2-d607-4468-8001-97a75f4e9458" name="Island of the Damned">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <alternate name="Island of the Damned" type="B">
+      <property name="Abr" value="4"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="0-4A A Tale of Two Alchemists&#10;0-4B DINOSAURS!&#10;0-4C By Rum and Thunder&#10;0-4D The Impossible Bottle"/>
+      <property name="Attr4" value="Each character gains a power feat.&#10;For the rest of the Adventure Path, when setting up each scenario, you may choose 1 character to temporarily replace 1 item in her deck with the loot Letter of Marque and another character to temporarily replace 1 blessing with the loot Pirate's Favor. Return both cards to the box at the end of the scenario."/>
+    </alternate>
+  </card>
   <card id="5c21eea7-521e-43fa-8b06-c8af19e73c66" name="Lost at Sea">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
@@ -183,6 +260,38 @@
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="0-1A Ghosts of the Deep&#10;0-1B The Lone Shark&#10;0-1C Brine Dragon Hunt&#10;0-1D Salvage Operations&#10;0-1E Nature's Wrath&#10;0-1F The Treasure of Jemma Redclaw"/>
       <property name="Attr4" value="Each character gains a card feat. Each player unlocks the ability to play Jirelle from the Skull &amp; Shackles Base Set with the Rogue Class Deck."/>
+    </alternate>
+  </card>
+  <card id="90371768-2c6a-488a-9d5d-0307561f2680" name="Run Out the Guns">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <alternate name="Run Out the Guns" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="0-5A Meanwhile, in the Shackles…&#10;0-5B The Play's the Thing&#10;0-5C Release the Obligatory Kraken&#10;0-5D A Crew Divided"/>
+      <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="1f84a12e-56f6-4a3b-a846-61e725084390" name="Treacherous Waters">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <alternate name="Treacherous Waters" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="0-3A Wrecking Ball&#10;0-3B On Top of the World&#10;0-3C Jungle Boogie&#10;0-3D Going Under"/>
+      <property name="Attr4" value="Each character chooses a role card and gains a power feat. For the rest of the Adventure Path, when setting up each scenario, choose 1 character to temporarily replace 1 item in her deck with the loot Letter of Marque and another character to replace 1 blessing with the loot Pirate's Favor. Return both cards to the box at the end of the scenario."/>
     </alternate>
   </card>
   <card id="38cb1970-724a-4b16-a300-717bbcd1b328" name="Season of the Shackles">
@@ -440,6 +549,266 @@
       <property name="Attr2" value="Gortus Svard"/>
       <property name="Attr3" value="Shipwrecks"/>
       <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="f9622e43-df44-423a-a978-5f0457851feb" name="0-3A Wrecking Ball">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Beach&#10;Widowmaker Isle&#10;Jasperleaf Apothecary&#10;Seaside Warehouse&#10;Sharkskin Reef&#10;Cannibal Isle&#10;Tengu Rookery&#10;Raker Shoals"/>
+    <property name="Attr2" value="Munarei"/>
+    <property name="Attr3" value="Vakarla the Wrecker&#10;Cryptic Runess"/>
+    <alternate name="0-3A Wrecking Ball" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Vakarla the Wrecker gains this power: &quot;Before you act, a random other character summons and encounters the henchman Giles Halmis. If Giles Halmis is undefeated, a random other character who has not encountered Giles Halmis this turn summons and encounters Giles Halmis. If Giles Halmis is defeated, or if all other characters have encountered Giles Halmis this turn, banish Giles Halmis. Then continue your encounter with Vakarla the Wrecker.&quot;"/>
+      <property name="Attr2" value="Choose any Class 2 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character gains a skill feat."/>
+    </alternate>
+  </card>
+  <card id="a7e5e6c6-e32c-4226-b64c-a538383127af" name="0-3B On Top of the World">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Pinnacle Atoll"/>
+    <property name="Attr2" value="Sarlis"/>
+    <property name="Attr3" value="Buccaneer"/>
+    <alternate name="0-3B On Top of the World" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Display the henchman Lightning Elemental next to the scenario card. Treat the henchman Buccaneer as if it is the henchman Lightning Elemental.&#10;Using the deck list from Pinnacle Atoll, build a number of Pinnacle Atoll locations equal to the number of characters plus 1. When you close a location, do not flip the Pinnacle Atoll card over.&#10;When you would shuffle the henchman Hirgenzosk into a location deck, if it is already in a location deck, shuffle the henchman Buccaneer into that location instead.&#10;If Hirgenzosk is undefeated, banish it and shuffle the location deck it came from."/>
+      <property name="Attr2" value="Choose any Class 2 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character chooses weapon or spell and draws a random card of that type from the box."/>
+    </alternate>
+  </card>
+  <card id="258e83e9-18fb-4df1-baa2-7406c48c5061" name="0-3C Jungle Boogie">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Jungle&#10;Widowmaker Isle&#10;Ghol-Gan Ruins&#10;Mangrove Swamp&#10;Rocky Cliff&#10;Scar Bay&#10;Sea Fort&#10;Tempest Cay"/>
+    <property name="Attr2" value="Selissa"/>
+    <property name="Attr3" value="Scurvy Zombie"/>
+    <alternate name="0-3C Jungle Boogie" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you would banish a Scurvy Zombie, summon and encounter the henchman Fishpork instead. If Fishpork is defeated, banish the Scurvy Zombie; otherwise, shuffle the Scurvy Zombie into a random other location deck, and if that location is closed, open it."/>
+      <property name="Attr2" value="Choose any Class 2 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character gains a card feat."/>
+    </alternate>
+  </card>
+  <card id="38283127-1cd1-4fed-ad3d-afcf03a9fa80" name="0-3D Going Under">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Shipwreck Graveyard&#10;Sea Caves&#10;Fog Bank&#10;Riptide Cove&#10;Mancatcher Cove&#10;Coastline&#10;Raker Shoals&#10;Beach"/>
+    <property name="Attr2" value="Uthiggmaru"/>
+    <property name="Attr3" value="Blackwater Charda&#10;Ormandar&#10;Jalhazar's Curse&#10;Ancient Mariner&#10;Shipwreck"/>
+    <alternate name="0-3D Going Under" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When setting up the scenario, set aside all loot cards with an adventure deck number of 2 or lower that characters haven't chosen. Choose the same number of characters to each temporarily add 1 of those loot cards to his deck, replacing a card of the same type. Return the loot cards to the box at the end of the scenario.&#10;If any character has not successfully completed Scenario 0-3A: Wrecking Ball, Uthiggmaru gains this power: &quot;Beofre you act, each character is dealt 2 Mental damage.&quot;&#10;If any character has not successfully completed Scenario 0-3B: On Top of the World, Uthiggmaru gains this power: &quot;Before you act, each character recharges a card.&quot;&#10;If any character has not successfully completed Scenario 0-3C: Jungle Boogie, Uthiggmaru gains this power: &quot;Before you act, each character at your location summons and encounters the henchman Scurvy Zombie.&quot;"/>
+      <property name="Attr2" value="Choose any Class 2 or lower ship as your ship.&#10;Your ship is anchored at the Shipwreck Graveyard."/>
+      <property name="Attr4" value="Each character chooses a type of boon other than loot and draws a random card of that type from the box. &#10;Each player chooses one of her Pathfinder Society RPG characters. That character may purchase potions of water breathing as though their market price were 375gp."/>
+    </alternate>
+  </card>
+  <card id="220674be-aa68-4ddb-afe0-56098ceb2c21" name="0-4A A Tale of Two Alchemists">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Teleportation Chamber&#10;Jungle&#10;Great Stone Bridge&#10;Eye of Serenity&#10;Dinosaur Corral&#10;Hall of Champions&#10;Ruined Amphitheater&#10;Mangrove Swamp"/>
+    <property name="Attr2" value="The Eel&#10;Zarskia Galembar"/>
+    <property name="Attr3" value="Cyclops Savage"/>
+    <alternate name="0-4A A Tale of Two Alchemists" type="B">
+      <property name="Abr" value="4"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="The first time you defeat a villain during this scenario, do not check to see if it escapes; instead, place it next to this scenario card. To win the scenario, corner and defeat the second villain while the first villain is displayed next to this card.&#10;When you encounter a card that has the Alchemical or Alchemist trait, before you act, summon and encounter the henchman Cryptic Runes."/>
+      <property name="Attr2" value="Choose any Class 3 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character gains a skill feat and, during any one encounter in this Adventure Path, gains 1 skill feat. (Note the use of this reward on your Chronicle sheet for the scenario in which the feat was gained.)"/>
+    </alternate>
+  </card>
+  <card id="99a2da49-e808-4bef-a098-76b9df78da94" name="0-4B DINOSAURS!">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Dinosaur Corral&#10;Ghol-Gan Ruins&#10;Coastline&#10;Scar Bay&#10;Sea Caves&#10;Beach&#10;Rocky Cliff&#10;Tower"/>
+    <property name="Attr2" value="Mokele-Mbembe"/>
+    <property name="Attr3" value="Allosauruss"/>
+    <alternate name="0-4B DINOSAURS!" type="B">
+      <property name="Abr" value="4"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When attempting a check against a bane that has the Animal trait, you may bury an ally to add 2d6."/>
+      <property name="Attr2" value="Choose any Class 3 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character chooses weapon or ally and draws a random card of the chosen type."/>
+    </alternate>
+  </card>
+  <card id="f1431a64-7682-4044-915f-fd1c050f513b" name="0-4C By Rum and Thunder">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Docks&#10;Widowmaker Isle&#10;Lonely Island&#10;Harbor&#10;Shark Island&#10;Holy Isle&#10;Cannibal Isle&#10;Fog Bank"/>
+    <property name="Attr2" value="Fargo Vitterande"/>
+    <property name="Attr3" value="Daughter of Imerta"/>
+    <alternate name="0-4C By Rum and Thunder" type="B">
+      <property name="Abr" value="4"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Before building the location decks, set aside both copies of the item Rum Bottle (or, if you're using the Character Add-On Deck, all 3 copies); when you deal items into the location decks, include those Rum Bottles.&#10;The difficulty to defeat Fargo Vitterande is increased by 15.&#10;When you acquire or would play a Rum Bottle, place it next to the scenario instead. The difficulty to defeat Fargo Vitterande is decreased by 5 times the number of Rum Bottle cards next to this scenario card."/>
+      <property name="Attr2" value="Choose any Class 3 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="817051cd-98e7-4b90-ab67-d28c489274ef" name="0-4D The Impossible Bottle">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Gozreh's Flow&#10;Cannibal Isle&#10;House of Stolen Kisses&#10;Tengu Rookery&#10;Greaet Stone Bridge&#10;Wishing Well&#10;Jasperleaf Apothecary&#10;Ghol-Gan Ruins"/>
+    <property name="Attr2" value="None"/>
+    <property name="Attr3" value="Ruffians"/>
+    <alternate name="0-4D The Impossible Bottle" type="B">
+      <property name="Abr" value="4"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Display the henchman Animate Dream next to the scenario card. Treat the henchman Ruffian as the henchman Animate Dream.&#10;After you add henchmen to the location decks, divide each deck in half to create two decks for each location card. Treat each as a separate location. When you close a location, banish both of its location decks. You win the scenario when all locations are closed."/>
+      <property name="Attr2" value="Choose any Class 3 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character gains a card feat.&#10;For the rest of the Adventure Path, when setting up each scenario, you may choose 1 character to temporarily replace 1 item in her deck with the loot Impossible Bottle; return it to the box at the end of the scenario."/>
+    </alternate>
+  </card>
+  <card id="d27607aa-d02e-4e0e-9497-60df139e93f7" name="0-5A Meanwhile, in the Shackles…">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Gannet Island&#10;Holy Isle&#10;Widowmaker Isle&#10;Tempest Cay&#10;Cannibal Isle&#10;Windward Isle&#10;Sharkskin Reef&#10;Riptide Cove"/>
+    <property name="Attr2" value="Adelita Doloruso"/>
+    <property name="Attr3" value="Enemy Ship&#10;Gilbrok the Tongue&#10;Enemy Ship&#10;Jakaw Razorbeak&#10;Enemy Ship&#10;Kipper&#10;Riaris Krine"/>
+    <alternate name="0-5A Meanwhile, in the Shackles…" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you fail a check to defeat a bane that has the Pirate trait, bury the top card of your deck."/>
+      <property name="Attr2" value="Choose any Class 5 or lower ship other than the Wormwood as your ship."/>
+      <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="91de246d-d2d4-4d04-9a46-b7c94bfffd26" name="0-5B The Play's the Thing">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Theater of Corruption&#10;Alehouse&#10;House of Stolen Kisses&#10;Torture Pit&#10;Festhall&#10;Tengu Rookery&#10;Merchant Marina&#10;Chapel"/>
+    <property name="Attr2" value="Isawyn the Diva"/>
+    <property name="Attr3" value="Gorebeard Trench&#10;Lady Nightshade&#10;Sentinel Devils"/>
+    <alternate name="0-5B The Play's the Thing" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you acquire an ally from a location deck, put it under this card."/>
+      <property name="Attr2" value="Your ship is anchored at the Theater of Corruption."/>
+      <property name="Attr4" value="All the allies under this card.&#10;Each character draws an ally that has an adventure deck number of 5 or lower from the box."/>
+    </alternate>
+  </card>
+  <card id="1817c9e2-5ce3-4b6b-b904-1da43c654a58" name="0-5C Release the Obligatory Kraken">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Dagon's Jaws&#10;Little Jaw&#10;Sacred Spring&#10;Wishing Well&#10;Sharkskin Reef&#10;Shark Island&#10;Shrine to Norgorber&#10;Ghol-Gan Ruins&#10;Holy Isle"/>
+    <property name="Attr2" value="Kraken"/>
+    <property name="Attr3" value="Breath of Dagon&#10;Witch Doctor&#10;Curse of the Flesheaters&#10;Witch Doctor&#10;Eye of Dagon&#10;Witch Doctors"/>
+    <alternate name="0-5C Release the Obligatory Kraken" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Treat the henchman Pirate Shade Haunt as if it also has the barrier type and the Curse trait."/>
+      <property name="Attr2" value="Choose any Class 5 or lower ship as your ship."/>
+      <property name="Attr4" value="Each character gains a skill feat.&#10;For the rest of the Adventure Path, when setting up each scenario, 1 player may temporarily replace 1 armor in her deck with the loot Howling Skull Armor. At the end of each scenario, return the loot to the game box."/>
+    </alternate>
+  </card>
+  <card id="ed6d7957-a44a-48c9-8bd8-76a5b2505325" name="0-5D A Crew Divided">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Fishing Village&#10;Scar Bay&#10;Tower&#10;Coastline&#10;Shrine to Norgorber&#10;Great Stone Bridge&#10;Jungle&#10;Torture Pit"/>
+    <property name="Attr2" value="Incutilis&#10;Shrouded Queen"/>
+    <property name="Attr3" value="Vrykolakass&#10;Blink Spiders"/>
+    <alternate name="0-5D A Crew Divided" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When setting out locations, divide them into two groups as indicated. When you add villains and henchmen, put the Group 1 ones into the Group 1 locations and the Group 2 ones into the Group 2 locations.&#10;Characters and cards at locations in one group treat characters and cards at locations in the other group (including those location cards) as if they do not exist, except that on your move step, you may move to a location in the other group; if you do, other characters may not choose to move with you. You cannot reduce damage to a ship commanded by a character at a location in the other group.&#10;When you corner and defeat the first villain, exhcnage all of the cards in the blessings deck with 5 blessings from the box. To win the scenario, corner and defeat both villains."/>
+      <property name="Attr2" value="Choose 2 class 5 or lower ships and stash 1 plunder card under each. One is your ship when commanded at a Group 1 location; the other when commanded at a Group 2 location."/>
+      <property name="Attr4" value="Each character gains a card feat. For the rest of the Adventure Path, when setting up each scenario, 1 player may temporarily replace 1 weapon in her deck with the loot Aiger's Kiss and another player may temporarily replace 1 spell with the loot Quickened Ray. At the end of each scenario, return both loot cards to the game box."/>
+    </alternate>
+  </card>
+  <card id="be138daf-0e50-4a02-8064-cf9750de71f8" name="0-6A Get a Clue">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Ghol-Gan Ruins&#10;Sacred Spring&#10;Tempest Cay&#10;Lucrehold&#10;Jungle&#10;Mancatcher Cove&#10;Fort Hazard&#10;Riptide Cove"/>
+    <property name="Attr2" value="Brinebones"/>
+    <property name="Attr3" value="Cryptic Runes"/>
+    <alternate name="0-6A Get a Clue" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Cut the prophecy handout into a number of pieces equal to the number of Cryptic Runes henchmen.&#10;When you defeat a Cryptic Runes henchman, put that card in a henchman pile next to this scenario and get a piece of the prophecy handout.&#10;When you encounter the villain Brinebones, you may shuffle it and a henchman from the henchman pile into a random open location to evade Brinebones."/>
+      <property name="Attr2" value="Choose any Class 5 or lower ship as your ship."/>
+      <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, 1 player may temporarily replace 1 ally in her deck with the loot Alise Grogblud. At the end of the scenario, return the loot to the game box."/>
     </alternate>
   </card>
  </cards>

@@ -77,6 +77,19 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Divine"/>
     <property name="Attr3" value="7"/>
   </card>
+  <card id="0f05e0a0-0e8e-45a1-a877-9d213fae5bd7" name="Goblin Buckler Gun">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Firearm"/>
+    <property name="Attr1" value="For your combat check, bury this card to use your Dexterity or Ranged skill + 1d8 and add the Fire and Ranged traits; this counts as playing a weapon instead of an armor. You may additionally choose to be dealt 2 Fire damage to add another 1d8.&#10;Recharge this card to reduce Combat or Fire damage dealt to you by 2. If you are proficient with light armors, you may play another armor on this check."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="9"/>
+    <property name="Attr4" value="Constitution&#10;Fortitude"/>
+    <property name="Attr5" value="9"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
   <card id="432183f3-52d6-402c-af34-0effcc7f9f7a" name="Goblin Plate +1">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="Yes."/>
@@ -125,6 +138,17 @@
     <property name="Attr3" value="8"/>
     <property name="Recharge" value="None"/>
   </card>
+  <card id="338d151c-1e91-40dc-8a1a-8e45bc39f6b3" name="Goblin Lockpick">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Tool&#10;Alchemical"/>
+    <property name="Flavour" value="&quot;Found a prize that's locked up tight?&#10;Goblin lockpick makes it right!k&#10;Found a door that's vexing you?&#10;Goblin lockpick lets you through!&quot;&#10;--Mogmurch, goblin alchemist"/>
+    <property name="Attr1" value="Reveal this card to add 1 die to your Disable check.&#10;Bury this card to defeat a barrier; you are dealt 2d4 Fire damage."/>
+    <property name="Attr2" value="Dexterity&#10;Disable&#10;Craft"/>
+    <property name="Attr3" value="6"/>
+  </card>
   <card id="b6c26b73-1882-446d-acb5-6f8f61221d9b" name="Fire Sneeze">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -136,6 +160,16 @@
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="6"/>
     <property name="Recharge" value="Succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it."/>
+  </card>
+  <card id="f0f2ff49-3604-4978-a1e4-fe957f86dccf" name="Vomit Twin">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane"/>
+    <property name="Attr1" value="Display this card next to a location. When you encounter a card, you may evade it and move to this location. Move this card next to your previous location. Each character at that location must succeed at a Constitution or Fortitude 9 check or recharge a card from his hand. At the end of the scenario, if you do not have the Arcane skill, banish this card."/>
+    <property name="Attr2" value="Constutition&#10;Fortitude"/>
+    <property name="Attr3" value="6"/>
   </card>
   <card id="190754ec-0bd3-40f9-a5dc-d9a474372ef1" name="Goblin Pegleg">
     <property name="Abr" value="P"/>
@@ -159,7 +193,7 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="9"/>
   </card>
-  <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)">
+  <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)" size="Role">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -180,7 +214,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="fcef875d-f9ab-44cc-a4eb-be539aa9a2cd" name="Ranzak (Wrecker)">
+  <card id="fcef875d-f9ab-44cc-a4eb-be539aa9a2cd" name="Ranzak (Wrecker)" size="Role">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -201,7 +235,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak">
+  <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak" size="Character">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -295,6 +329,26 @@
       <property name="Attr2" value="Whenever you banish cards, banish 1 additional card from your hand."/>
       <property name="Attr3" value="Craft"/>
       <property name="Attr4" value="7"/>
+    </alternate>
+  </card>
+  <card id="652c1e75-dc75-4d89-a1be-c56ddc729ead" name="The Land of the Blind">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="To the denizens of a port city, there's no sight in the harbor more troubling than a ship full of undead cyclopes looking to smash everything they see. The navigator has an eye patch, so he has no idea where they're going, but they're still coming to your town."/>
+    <property name="Attr1" value="Harbor&#10;Riptide Cove&#10;Ghol-Gan Ruins&#10;Docks&#10;Floating Shipyard&#10;Coastline&#10;Merchant Marina&#10;Seaside Warehouse"/>
+    <alternate name="The Land of the Blind" type="B">
+      <property name="Abr" value="P"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Shuffle 6 Gholdako henchmen into the blessings deck. After you advance the blessings deck, if the top card of the blessings discard pile is a Gholdako, put it on top of a random open location deck. When you would banish a Gholdako, display it next to this card instead. To win the scenario, all 6 Gholdakos must be next to this card."/>
+      <property name="Attr2" value="None"/>
+      <property name="Attr3" value="Shipwrecks"/>
+      <property name="Attr4" value="Gain a ship feat in a class in which you have checked off a ship."/>
     </alternate>
   </card>
  </cards>

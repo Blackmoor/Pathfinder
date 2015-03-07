@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.112.250"
-		version="2.1.7.1"
+		version="2.1.8.1"
 		markersize="10"
 		tags="Pathfinder"
 		description="In the Pathfinder Adventure Card Game, your party of adventurers races against time on a quest to defeat a dangerous villain. Each player has a deck of cards representing her character. In most scenarios, your characters explore a variety of locations as you try to hunt down the villain. You need to clean out or protect these locations so that you can corner the villain and defeat him before time runs out. As you play more games, you will complete scenarios, improve your deck, customize your character, and take on more and more powerful challenges."
@@ -61,7 +61,9 @@
     <property name="Attr9" type="String" hidden="True" ignoreText="False" />
 	<property name="Flavour" type="String" hidden="True" ignoreText="False" />
 	<property name="Recharge" type="String" hidden="True" ignoreText="False" />
-  </card>
+	<size name="Character" back="Resources/card.jpg" front="Resources/card.jpg" width="88" height="63" cornerRadius="3"/>
+	<size name="Role" back="Resources/card.jpg" front="Resources/card.jpg" width="88" height="63" cornerRadius="3"/>
+ </card>
   <table name="Table" visibility="undefined" ordered="False" width="700" height="300" background="Resources/background.jpg" backgroundStyle="uniformToFill">
     <groupaction menu="Pick Scenario" default="False" execute="pickScenario" />
 	<groupaction menu="Next Turn" default="False" shortcut="ctrl+N" execute="nextTurn" />
@@ -137,7 +139,7 @@
 	<cardaction menu="Default Action" default="True" shortcut="Enter" execute="defaultAction" />
   </table>
   <player summary="Hand {#Hand} Deck {#Deck} Discard {#Discarded}">
-    <hand name="Hand" visibility="all" ordered="False" width="63" height="88" icon="Resources/hand.png">
+    <hand name="Hand" visibility="all" ordered="False" width="63" height="100" icon="Resources/hand.png">
 	  <groupaction menu="Draw Up" default="False" execute="drawUp" />
 	  <groupaction menu="Discard Random Card" default="False" execute="discardRandom" />
       <cardaction menu="Reveal" default="True" execute="revealCard" />
@@ -147,11 +149,11 @@
 	  <cardaction menu="Bury" default="False" shortcut="ctrl+B" execute="buryCard" />
 	  <cardaction menu="Banish" default="False" shortcut="Shift+Del" execute="banishCard" />
     </hand>
-    <group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="Resources/player.png" collapsed="False">
+    <group name="Deck" visibility="none" ordered="True" width="63" height="100" icon="Resources/player.png" collapsed="False">
 	  <groupaction menu="Draw" default="True" execute="drawCard" />
 	  <groupaction menu="Shuffle" default="False" shortcut="ctrl+S" execute="shufflePile" />
     </group>
-    <group name="Discarded" visibility="all" ordered="True" width="63" height="88" icon="Resources/discard.png" collapsed="False">
+    <group name="Discarded" visibility="all" ordered="True" width="63" height="100" icon="Resources/discard.png" collapsed="False">
       <groupaction menu="Recharge Random Card" default="True" execute="rechargeRandom" />
 	  <groupaction menu="Bury Random Card" default="False" execute="buryRandom" />
     </group>

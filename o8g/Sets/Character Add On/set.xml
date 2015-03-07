@@ -919,7 +919,7 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="6"/>
   </card>
-  <card id="ef1e6700-c6c2-46fc-ad69-6665086d828c" name="Amiri (Berserker)">
+  <card id="ef1e6700-c6c2-46fc-ad69-6665086d828c" name="Amiri (Berserker)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -942,7 +942,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="4bbf3b1e-28a8-4d46-86ec-7b91833b75f8" name="Amiri (Juggernaut)">
+  <card id="4bbf3b1e-28a8-4d46-86ec-7b91833b75f8" name="Amiri (Juggernaut)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -965,7 +965,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="2fdcacde-fbac-484c-9463-be7838ee478a" name="Lini (Shapeshifter)">
+  <card id="2fdcacde-fbac-484c-9463-be7838ee478a" name="Lini (Shapeshifter)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -988,7 +988,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="51684557-7d58-427b-a011-8878a56da49c" name="Lini (Wild Warden)">
+  <card id="51684557-7d58-427b-a011-8878a56da49c" name="Lini (Wild Warden)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1011,7 +1011,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="d4ada5ec-206f-4b61-942f-0f078eaa9f5e" name="Sajan (Drunken Master)">
+  <card id="d4ada5ec-206f-4b61-942f-0f078eaa9f5e" name="Sajan (Drunken Master)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1034,7 +1034,7 @@
       <property name="Attr4" value="[ ] Weapons"/>
     </alternate>
   </card>
-  <card id="e25cdddc-f044-4ef3-a05e-8cdbf3053057" name="Sajan (Zen Archer)">
+  <card id="e25cdddc-f044-4ef3-a05e-8cdbf3053057" name="Sajan (Zen Archer)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1057,7 +1057,7 @@
       <property name="Attr4" value="[ ] Weapons"/>
     </alternate>
   </card>
-  <card id="d379fb1b-52da-403a-b1a5-22a3b8325289" name="Seelah (Crusader)">
+  <card id="d379fb1b-52da-403a-b1a5-22a3b8325289" name="Seelah (Crusader)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1080,7 +1080,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="6d50ed2e-b1bd-4114-83b8-8a0997048f5d" name="Seelah (Hospitaler)">
+  <card id="6d50ed2e-b1bd-4114-83b8-8a0997048f5d" name="Seelah (Hospitaler)" size="Role">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1103,7 +1103,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="f24e8e24-d3e6-4099-b732-f984d4e0d3e4" name="Amiri">
+  <card id="f24e8e24-d3e6-4099-b732-f984d4e0d3e4" name="Amiri" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1124,7 +1124,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="5fa1844b-6b8c-4066-8758-c1954b797a58" name="Lini">
+  <card id="5fa1844b-6b8c-4066-8758-c1954b797a58" name="Lini" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1145,7 +1145,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="d0c63ffc-2123-48ec-8c82-79f52730318a" name="Sajan">
+  <card id="d0c63ffc-2123-48ec-8c82-79f52730318a" name="Sajan" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1165,7 +1165,7 @@
       <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
     </alternate>
   </card>
-  <card id="38b5c3c2-424f-486d-9e8f-1bab780d66e7" name="Seelah">
+  <card id="38b5c3c2-424f-486d-9e8f-1bab780d66e7" name="Seelah" size="Character">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
