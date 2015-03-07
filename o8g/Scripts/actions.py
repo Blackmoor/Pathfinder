@@ -646,26 +646,6 @@ def IslandsoftheDamned(mode):
 			shared.piles["Location1"].random().moveTo(shared.piles["Location2"])
 			i = i + 1
 		
-def TheArmada(mode):
-	if mode == 'Setup':
-		mute()
-		fleet = eval(getGlobalVariable('Fleet'))
-		fleetShip = findCardByName(shared.piles['Ship'],fleet[int(random()*len(fleet))])
-		if fleetShip == None:
-			whisper("Failed to find ships in loaded Fleet pile")
-		else:
-			fleetShip.moveToTable(PlayerX(-1)+30,StoryY)
-			fleetShip.link(shared.piles['Special'])
-			i = 0
-			while i < 3:
-				newShip = findCardByName(shared.piles['Ship'],fleet[int(random()*(len(fleet)-i))])
-				if newShip == None:
-					whisper("Not enough ships in fleet!")
-					return
-				else:
-					newShip.moveTo(shared.piles['Special'])
-				i = i + 1
-		
 def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
 	if mode == 'Setup':
 		devil = findCardByName(shared.piles['Ship'],'Devil\'s Pallor')
@@ -950,6 +930,7 @@ def pickScenario(group=table, x=0, y=0):
 			else:
 				choice = askChoice("Choose Your Ship", fleet)
 			ship = findCardByName(shared.piles['Ship'], fleet[choice-1])
+			fleet.pop(choice-1)
 			ship.moveToTable(PlayerX(-1), StoryY)
 			ship.link(shared.piles['Plunder'])
 			addPlunder(ship)
@@ -957,9 +938,28 @@ def pickScenario(group=table, x=0, y=0):
 				x, y = anchorage.position
 				ship.moveToTable(x+3*anchorage.width()/4, y-anchorage.height()/4)
 				ship.setIndex(0) # Move underneath the location and slightly offset
-
-
-		
+				
+		if scenario.Name == "The Armada": #In The Armada, make a new fleet deck after placing your ship
+			newShipName = fleet[int(random()*len(fleet))]
+			fleetShip = findCardByName(shared.piles['Ship'],newShipName)
+			fleet.remove(newShipName)
+			if fleetShip == None:
+				whisper("Failed to find ships in loaded Fleet pile")
+			else:
+				fleetShip.moveToTable(PlayerX(-5),StoryY)
+				fleetShip.link(shared.piles['Special'])
+				i = 0
+				while i < 3:
+					newShipName = fleet[int(random()*(len(fleet)-i))]
+					newShip = findCardByName(shared.piles['Ship'],newShipName)
+					fleet.remove(newShipName)
+					if newShip == None:
+						whisper("Not enough ships in fleet!")
+						return
+					else:
+						newShip.moveTo(shared.piles['Special'])
+					i = i + 1
+			whisper("Remember to summon ships one-by-one! Do not choose 'Reveal random cards' for ships!")		
 def nextTurn(group=table, x=0, y=0):
 	mute()
 	# Only the current active player can do this
@@ -997,12 +997,19 @@ def randomCards(group=table, x=0, y=0):
 	choice = askChoice("How many?", quantity)
 	if choice <= 0:
 		return
+	isHidden = askChoice("Hide cards?",["Yes", "No"])
 	pile, trait = cardTypePile()
 	if pile is None: return
 	if pile.controller != me:
-		remoteCall(pile.controller, "randomCardN", [me, pile, trait, x, y, choice])
+		if isHidden == 1:
+			remoteCall(pile.controller, "randomCardN", [me, pile, trait, x, y, choice, True])
+		else:
+			remoteCall(pile.controller, "randomCardN", [me, pile, trait, x, y, choice])
 	else:
-		randomCardN(me, pile, trait, x, y, choice)
+		if isHidden == 1:
+			randomCardN(me, pile, trait, x, y, choice, True)
+		else: 
+			randomCardN(me, pile, trait, x, y, choice)
 
 def hasTrait(card, trait):
 	if card is None:
@@ -1021,7 +1028,7 @@ def randomCardN(who, pile, trait, x, y, n, hide=False):
 	while n > 0 and len(cards) > 0:
 		card = cards[int(random()*len(cards))]
 		cards.remove(card)
-		card.moveToTable(x, y, hide or n > 1)
+		card.moveToTable(x, y, hide)
 		if who != me:
 			card.setController(who)
 		x = x + 10
@@ -1414,6 +1421,14 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	mute()
 	if villain.Subtype != 'Villain':
 		notify("This is not a Villain ...")
+		return
+		
+	#In Inside Lucrehold, Brinebones keeps going back to the blessing deck
+	if villain.Name == 'Brinebones' and findScenario(table).Name == 'Inside Lucrehold':
+		villain.moveTo(shared.piles['Blessing Deck'])
+		shuffle(shared.piles['Blessing Deck'])
+		advanceBlessingDeck()
+		whisper("Brinebones is moves back into the Blessing Deck after advancing it.")
 		return
 	
 	choices = [ 'Evaded', 'Defeated', 'Undefeated' ]
@@ -1996,6 +2011,8 @@ def scenarioSetup(card):
 		dst = shared.piles['Blessing Deck']
 		if card.Name == 'Sandpoint Under Siege':
 			blessings = 25
+		elif card.Name == 'Inside Lucrehold': #Brinebones is added to the deck
+			blessings = 31
 		else:
 			blessings = 30
 		blessings += shared.ExtraBlessings
@@ -2004,7 +2021,7 @@ def scenarioSetup(card):
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
 			
-		if card.Name == 'Inside Lucrehold':
+		if card.Name == 'Inside Lucrehold': #shuffle Brinebones into the deck (he's currently on the bottom)
 			shuffle(dst)
 		
 	notify("{} starts '{}'".format(me, card))
@@ -2095,7 +2112,7 @@ def advanceBlessingDeck():
 		return
 		
 	if scenario.Name == "Inside Lucrehold" and pile.top().Name == 'Brinebones':
-		pile.top().moveToTable(PlayerX(len(getPlayers())+1),StoryY)	
+		pile.top().moveToTable(PlayerX(-1),StoryY)	
 	else:
 		pile.top().moveTo(shared.piles['Blessing Discard'])
 	notify("{} advances the Blessing Deck".format(me))
