@@ -1672,7 +1672,7 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="7"/>
   </card>
-  <card id="5d3b25a1-75a6-47cd-81fc-2586b198a05c" name="Alahazra (Stargazer)">
+  <card id="5d3b25a1-75a6-47cd-81fc-2586b198a05c" name="Alahazra (Stargazer)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1693,7 +1693,7 @@
       <property name="Attr4" value="[ ] Light Armors"/>
     </alternate>
   </card>
-  <card id="65764ea5-0208-48c6-b568-e7773dae4c4d" name="Alahazra (Tempest)">
+  <card id="65764ea5-0208-48c6-b568-e7773dae4c4d" name="Alahazra (Tempest)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1714,7 +1714,7 @@
       <property name="Attr4" value="[ ] Light Armors"/>
     </alternate>
   </card>
-  <card id="b6f9a3fb-eaaf-4e13-ac21-3452bd3728f6" name="Jirelle (Duelist)">
+  <card id="b6f9a3fb-eaaf-4e13-ac21-3452bd3728f6" name="Jirelle (Duelist)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1735,7 +1735,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="b893008d-faa2-4121-9017-36cc190588c8" name="Jirelle (Pirate Queen)">
+  <card id="b893008d-faa2-4121-9017-36cc190588c8" name="Jirelle (Pirate Queen)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1756,7 +1756,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="e00ced34-f486-4b3a-94c2-4182fd680b4e" name="Lem (Freebooter)">
+  <card id="e00ced34-f486-4b3a-94c2-4182fd680b4e" name="Lem (Freebooter)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1777,7 +1777,7 @@
       <property name="Attr4" value="[ ] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="1e66305b-71ed-4ee5-bdbf-78111a2471ca" name="Lem (Sea Singer)">
+  <card id="1e66305b-71ed-4ee5-bdbf-78111a2471ca" name="Lem (Sea Singer)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1798,7 +1798,7 @@
       <property name="Attr4" value="[ ] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="d0bc0011-c48e-4c20-ac9e-bad0ac547f28" name="Lirianne (Deadeye)">
+  <card id="d0bc0011-c48e-4c20-ac9e-bad0ac547f28" name="Lirianne (Deadeye)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1819,7 +1819,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="f5420a98-bc52-4ea2-a185-3cf7a29d1b6c" name="Lirianne (Musketeer)">
+  <card id="f5420a98-bc52-4ea2-a185-3cf7a29d1b6c" name="Lirianne (Musketeer)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1840,7 +1840,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="20e9f3d0-cfc8-47a1-afc0-f76b26461131" name="Merisiel (Shadow)">
+  <card id="20e9f3d0-cfc8-47a1-afc0-f76b26461131" name="Merisiel (Shadow)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1861,7 +1861,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="214bb28a-bd4b-46bf-b2f8-e5940fbca01d" name="Merisiel (Smuggler)">
+  <card id="214bb28a-bd4b-46bf-b2f8-e5940fbca01d" name="Merisiel (Smuggler)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1882,7 +1882,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="621b95a3-61e5-46e1-b13e-dd84c680c3e1" name="Seltyiel (Marauder)">
+  <card id="621b95a3-61e5-46e1-b13e-dd84c680c3e1" name="Seltyiel (Marauder)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1903,7 +1903,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="767ced19-1e51-4107-befe-e7a9e81238e6" name="Seltyiel (Spellblade)">
+  <card id="767ced19-1e51-4107-befe-e7a9e81238e6" name="Seltyiel (Spellblade)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1924,7 +1924,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="8977ea8a-8dbf-4d05-ba9e-b9f8d6188b48" name="Valeros (Corsair)">
+  <card id="8977ea8a-8dbf-4d05-ba9e-b9f8d6188b48" name="Valeros (Corsair)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1945,7 +1945,7 @@
       <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="7105069e-e314-4be2-9313-9d93423e4962" name="Valeros (Tactician)">
+  <card id="7105069e-e314-4be2-9313-9d93423e4962" name="Valeros (Tactician)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1966,7 +1966,7 @@
       <property name="Attr4" value="[X] Light Armors, [X], Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="c1c48f4d-abe4-49d3-8c9e-515fc55e203d" name="Alahazra">
+  <card id="c1c48f4d-abe4-49d3-8c9e-515fc55e203d" name="Alahazra" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1987,7 +1987,7 @@
       <property name="Attr4" value="[ ] Light Armors"/>
     </alternate>
   </card>
-  <card id="d0f660ce-b8c9-4daf-9416-5fa5d5dc6515" name="Jirelle">
+  <card id="d0f660ce-b8c9-4daf-9416-5fa5d5dc6515" name="Jirelle" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2008,7 +2008,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="30362e92-3dfb-4ae3-bdc9-463f23f0382b" name="Lem">
+  <card id="30362e92-3dfb-4ae3-bdc9-463f23f0382b" name="Lem" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2029,7 +2029,7 @@
       <property name="Attr4" value="[ ] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="78c344db-eb01-4a9a-ae38-5bc16895b0d4" name="Lirianne">
+  <card id="78c344db-eb01-4a9a-ae38-5bc16895b0d4" name="Lirianne" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2050,7 +2050,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="d37d47a4-138e-4a99-bf6a-232cbdf8e01c" name="Merisiel">
+  <card id="d37d47a4-138e-4a99-bf6a-232cbdf8e01c" name="Merisiel" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2071,7 +2071,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="9a197178-3bad-4fae-b466-b271bf7f8fda" name="Seltyiel">
+  <card id="9a197178-3bad-4fae-b466-b271bf7f8fda" name="Seltyiel" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2092,7 +2092,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="a7ba6976-458e-4799-a931-abf3bf6ea72f" name="Valeros">
+  <card id="a7ba6976-458e-4799-a931-abf3bf6ea72f" name="Valeros" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>

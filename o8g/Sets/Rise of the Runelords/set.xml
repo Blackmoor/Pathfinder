@@ -1676,7 +1676,7 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="9"/>
   </card>
-  <card id="c9655d7a-9be4-4d80-b1e0-cae6a77f1657" name="Ezren (Evoker)">
+  <card id="c9655d7a-9be4-4d80-b1e0-cae6a77f1657" name="Ezren (Evoker)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1698,7 +1698,7 @@
       <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9"/>
     </alternate>
   </card>
-  <card id="4a6f9a14-5b9a-4752-ae5d-12b61eed1637" name="Ezren (Illusionist)">
+  <card id="4a6f9a14-5b9a-4752-ae5d-12b61eed1637" name="Ezren (Illusionist)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1720,7 +1720,7 @@
       <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
     </alternate>
   </card>
-  <card id="ed2db87f-75a0-4fde-96af-016ff59efd88" name="Harsk (Sniper)">
+  <card id="ed2db87f-75a0-4fde-96af-016ff59efd88" name="Harsk (Sniper)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1743,7 +1743,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="04b42adf-977c-4d55-88b1-0c493853a1ca" name="Harsk (Tracker)">
+  <card id="04b42adf-977c-4d55-88b1-0c493853a1ca" name="Harsk (Tracker)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1766,7 +1766,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="79132ead-25cd-4635-b049-43dcfddcd0a8" name="Kyra (Exorcist)">
+  <card id="79132ead-25cd-4635-b049-43dcfddcd0a8" name="Kyra (Exorcist)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1789,7 +1789,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="a4590a15-49b1-4bda-b91b-7cddb4e1b22a" name="Kyra (Healer)">
+  <card id="a4590a15-49b1-4bda-b91b-7cddb4e1b22a" name="Kyra (Healer)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1812,7 +1812,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="59182689-0e8c-4abe-8037-3cc4934f9455" name="Lem (Charlatan)">
+  <card id="59182689-0e8c-4abe-8037-3cc4934f9455" name="Lem (Charlatan)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1835,7 +1835,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="5427e72b-198e-4880-9cbc-ae0e2fb900b4" name="Lem (Virtuoso)">
+  <card id="5427e72b-198e-4880-9cbc-ae0e2fb900b4" name="Lem (Virtuoso)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1858,7 +1858,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="d8da9030-696e-489e-a7cf-708bf515168a" name="Merisiel (Acrobat)">
+  <card id="d8da9030-696e-489e-a7cf-708bf515168a" name="Merisiel (Acrobat)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1881,7 +1881,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="1ea6cb2b-9459-4af5-9b0b-23ecfa653de8" name="Merisiel (Thief)">
+  <card id="1ea6cb2b-9459-4af5-9b0b-23ecfa653de8" name="Merisiel (Thief)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1904,7 +1904,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="a0f9e3c6-ed74-4999-a16b-b7f5fed79bde" name="Seoni (Abyssal Sorcerer)">
+  <card id="a0f9e3c6-ed74-4999-a16b-b7f5fed79bde" name="Seoni (Abyssal Sorcerer)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1926,7 +1926,7 @@
       <property name="Attr3" value="6  [ ] 7"/>
     </alternate>
   </card>
-  <card id="7b54591e-86a2-4d26-8f79-360ebeb25ac0" name="Seoni (Celestial Sorcerer)">
+  <card id="7b54591e-86a2-4d26-8f79-360ebeb25ac0" name="Seoni (Celestial Sorcerer)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1948,7 +1948,7 @@
       <property name="Attr3" value="6  [ ] 7"/>
     </alternate>
   </card>
-  <card id="b89d0652-188f-4db8-81a0-e8fc13a2af99" name="Valeros (Guardian)">
+  <card id="b89d0652-188f-4db8-81a0-e8fc13a2af99" name="Valeros (Guardian)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1971,7 +1971,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="d5e149ee-1d4b-4420-ab55-917176428017" name="Valeros (Weapon Master)">
+  <card id="d5e149ee-1d4b-4420-ab55-917176428017" name="Valeros (Weapon Master)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -1994,7 +1994,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="41d4311b-9aa7-4887-aafb-432185bf5500" name="Ezren">
+  <card id="41d4311b-9aa7-4887-aafb-432185bf5500" name="Ezren" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2014,7 +2014,7 @@
       <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
     </alternate>
   </card>
-  <card id="e1719d19-1acc-41b6-b6a8-a7559d61071f" name="Harsk">
+  <card id="e1719d19-1acc-41b6-b6a8-a7559d61071f" name="Harsk" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2035,7 +2035,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="a235a0c4-b734-427c-b7cb-17e29c8cae83" name="Kyra">
+  <card id="a235a0c4-b734-427c-b7cb-17e29c8cae83" name="Kyra" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2056,7 +2056,7 @@
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="462be7f7-5262-40b5-a8af-5c9f2feaffd7" name="Lem">
+  <card id="462be7f7-5262-40b5-a8af-5c9f2feaffd7" name="Lem" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2077,7 +2077,7 @@
       <property name="Attr4" value="[ ] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="bec82ff2-b72b-439c-ad3c-998bf1c8a339" name="Merisiel">
+  <card id="bec82ff2-b72b-439c-ad3c-998bf1c8a339" name="Merisiel" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2098,7 +2098,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Weapons"/>
     </alternate>
   </card>
-  <card id="083b2669-d940-44eb-a5a1-a79cdd35dc44" name="Seoni">
+  <card id="083b2669-d940-44eb-a5a1-a79cdd35dc44" name="Seoni" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -2118,7 +2118,7 @@
       <property name="Attr3" value="6  [ ] 7"/>
     </alternate>
   </card>
-  <card id="6e690cea-cfb4-4e63-b1ea-ed7eb60f3bef" name="Valeros">
+  <card id="6e690cea-cfb4-4e63-b1ea-ed7eb60f3bef" name="Valeros" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>

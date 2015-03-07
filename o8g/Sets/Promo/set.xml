@@ -193,7 +193,7 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="9"/>
   </card>
-  <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)">
+  <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)" size="Role">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -214,7 +214,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="fcef875d-f9ab-44cc-a4eb-be539aa9a2cd" name="Ranzak (Wrecker)">
+  <card id="fcef875d-f9ab-44cc-a4eb-be539aa9a2cd" name="Ranzak (Wrecker)" size="Role">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
@@ -235,7 +235,7 @@
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
     </alternate>
   </card>
-  <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak">
+  <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak" size="Character">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
