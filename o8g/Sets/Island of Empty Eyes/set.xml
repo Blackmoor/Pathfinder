@@ -92,16 +92,6 @@
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="18"/>
   </card>
-  <card id="410f9fb1-9610-4146-8a1d-8308d3af4c16" name="Ghol-Gan Obelisk">
-    <property name="Abr" value="4"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Bane"/>
-    <property name="Subtype" value="Henchman"/>
-    <property name="Subtype2" value="Barrier"/>
-    <property name="Traits" value="Obstacle"/>
-    <property name="Attr1" value="Before you act, shuffle the henchman Daughter of Imerta into a random open location deck.&#10;To defeat the Ghol-Gan Obelisk, bury a card with the Magic trait; otherwise, it is undefeated.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
-    <property name="Attr2" value="See Below"/>
-  </card>
   <card id="363462f6-bfa6-4c6e-a6c2-a0e350c372c4" name="Gholdako">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
@@ -112,6 +102,16 @@
     <property name="Attr1" value="Damage dealt by the Gholdako is dealt to each character at your location.&#10;If the check to defeat has the Attack or Ranged trait, the difficulty is increased by 10.&#10;If undefeated, examine the top 3 cards of your deck. Recharge 1, discard 1, and bury 1.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="22"/>
+  </card>
+  <card id="410f9fb1-9610-4146-8a1d-8308d3af4c16" name="Ghol-Gan Obelisk">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Obstacle"/>
+    <property name="Attr1" value="Before you act, shuffle the henchman Daughter of Imerta into a random open location deck.&#10;To defeat the Ghol-Gan Obelisk, bury a card with the Magic trait; otherwise, it is undefeated.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="See Below"/>
   </card>
   <card id="57e0eb3c-d52f-4e19-afff-960d6ecd7568" name="Rampaging Triceratops">
     <property name="Abr" value="4"/>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="b36385e5-11b6-41cb-a962-9ea6eb3add3f">Inside Lucrehold</card>
+    <card qty="1" id="9d054905-95e7-41fc-bdcf-5945c5d1cdf0">Last Stand of the Hurricane King</card>
+    <card qty="1" id="5be0bb2d-3fa1-4a48-b00c-c82c5a1a6fd7">The Armada</card>
+    <card qty="1" id="957cc297-3d70-4b79-985e-9c302c72cb91">Storming Fort Hazard</card>
+    <card qty="1" id="24225914-6ab4-47ba-a443-62f69f5e069f">Danse Magaav</card>
+    <card qty="1" id="06e87131-7055-4bf1-a62c-6b016cfd3486">From Hell's Heart</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="163e48d9-fb9d-4ecc-ab60-a5d300b3e14e">Drowning Devil</card>
+    <card qty="1" id="691456af-05e1-4a0f-9a94-9e265df004ca">Paralictor Valeria Asperixus</card>
+    <card qty="7" id="7cd15e05-6d78-44cc-86d9-8bbe79d14c48">Magaav Assassin</card>
+    <card qty="7" id="ff0ffd12-0dfb-4c89-b2ed-8285ebef6951">Draugr Captain</card>
+    <card qty="6" id="9486d48d-2209-45a0-85f4-97fcce68bd96">Wereshark Pirate</card>
+    <card qty="6" id="8ba3c99f-16f4-4911-a419-eb815f3100bc">Chelish Marine Captain</card>
+    <card qty="1" id="7a4ec168-855c-4c45-aad4-a8bba99d3ca4">Cannon Golem</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="217e32f8-11f8-495f-8afa-2a043d5afad1">Chelish Marine</card>
+    <card qty="1" id="3a56ca5a-627f-49d0-802f-342b3daa60be">Lorelei</card>
+    <card qty="2" id="9af2f516-b01b-4c41-8ada-ba488ac0a44e">Pirate Bomber</card>
+    <card qty="1" id="cde1273e-60cb-4fc3-8440-6ed1e0b9e264">Gargiya</card>
+    <card qty="2" id="9817f5f3-f333-4aff-82bd-c60ea77226a2">Seaweed Siren</card>
+    <card qty="2" id="f2140664-960f-443a-b70c-f109bbd7b5d1">Pirate Sniper</card>
+    <card qty="1" id="99917768-cd6a-4d5c-bcd0-11f17b6d58ea">Lusca</card>
+    <card qty="1" id="36485aec-9176-4a9a-b54d-a36055718cbb">Bakekujira</card>
+    <card qty="2" id="9e6c426e-10b2-4762-8fe7-a4cce597d3ad">Dweller in the Deeps</card>
+    <card qty="1" id="5916b719-7bd2-4436-9d19-4ee90f5c4ca8">Addu</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="b67cbef6-c8f6-4f38-8d0e-ad0952a50c33">Teleportation Trap</card>
+    <card qty="2" id="a0554290-360f-467e-a0cb-4bca0e8de713">Assassination Attempt</card>
+    <card qty="2" id="18941ea9-470d-4996-b3ee-fcd0bb47add9">Firedrake Trap</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="def1bd42-5952-46d3-ad6c-b15a786f7d84">Flaming Buckler Gun</card>
+    <card qty="1" id="523f35c1-6269-4d7e-9482-6c99a7ec2e1c">Hellknight Armor</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="5d2c55f5-fa1b-4752-b5c9-6d93028b7ae1">Enervating Pistol +3</card>
+    <card qty="2" id="a783a912-7624-4d5a-905d-f1b10e2ae276">Flaming Musket +2</card>
+    <card qty="1" id="ece93dd4-71fc-4008-a73e-caf31c17cc10">Old Salt's Rapier +2</card>
+    <card qty="2" id="b0224b80-82a7-405a-acb2-bd2a43c9d977">Venomous Pike +2</card>
+    <card qty="1" id="39e597ee-2fdf-4236-9522-078187a2d493">Falchion +3</card>
+    <card qty="1" id="cf1b7d23-38a2-4400-881d-87f7af31d9c6">Furious Broadsword +2</card>
+    <card qty="1" id="22e6b6ed-ca66-4ddf-9c60-ef9b14c0b6fb">Adamantine Trident +3</card>
+    <card qty="1" id="21c1627f-9ec9-474a-8c26-08aeb19020c5">Distance Musket +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="206975f6-5829-4586-848c-1a59d8a189df">Tsunami</card>
+    <card qty="1" id="628407eb-5648-4e30-88ba-dc35a10f8cd6">World Wave</card>
+    <card qty="2" id="fda7b2c2-61c7-4f76-a5fe-be60c818d9e5">Vengeful Storm</card>
+    <card qty="2" id="6b241fef-64e4-4769-acd1-e225f148e13a">Shapechange</card>
+    <card qty="2" id="53549db8-9053-4b35-8889-408a62e96abb">Recast</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="6543dc3f-da6c-45eb-a3eb-b7d732bac7e9">Staff of Weather</card>
+    <card qty="2" id="59e682d1-cdbe-4d34-a6c4-14886b5d6b3d">Fuse Grenade</card>
+    <card qty="2" id="1f2e781c-1958-4219-a740-7038a55559e5">Pearl of Magic</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="2" id="4cf6eeab-f0d8-4ef0-be1a-0f9f0caf6bb2">Baby Triceratops</card>
+    <card qty="1" id="cb792267-7ca0-47a9-9286-87c4e4cc8b7d">Master of the Gales</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="d2d1f6ad-d202-4998-a044-403a3b4ca77a">Blessing of Geryon</card>
+  </section>
+  <section name="Ship" shared="True">
+    <card qty="1" id="db411914-868f-46f1-b5db-6dcd0284189a">Abrogail's Fury</card>
+    <card qty="1" id="b8565160-390f-4c43-8af4-e8e7784af7f8">Filthy Lucre</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="1" id="9a35c1aa-1c71-4cf0-b99b-b94ae19fdfd4">Hurricane Crown</card>
+    <card qty="1" id="001d25eb-efdd-4aa7-bf74-31d0df7f38dc">Crossbow of Retribution</card>
+    <card qty="1" id="17f0dc84-f6ba-48eb-9c01-345828cf6164">Doubleshot Pepperbox</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="445e124f-fc90-475a-b4fc-6887a6b907b1">Shrine to Besmara</card>
+    <card qty="1" id="b127b693-3415-4c02-b6db-96b44801ec9a">Murder Hole</card>
+    <card qty="1" id="b6948ee2-ce70-402a-97a6-31ec7b1e1305">Fort Hazard</card>
+    <card qty="1" id="67c9cf8b-075d-423d-a24e-4e7d0ab54081">Lucrehold</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="26211324-0c26-46e1-82f8-cc53cf255d9f">Captain Horrus Riptooth</card>
+    <card qty="1" id="ef591b90-0d01-4afb-a25b-33f892b79cce">Kerdak Bonefist</card>
+    <card qty="1" id="eb0a920f-321f-4f68-9eb7-b392380f747e">Powderpot</card>
+    <card qty="1" id="e2504868-7655-443b-bc50-45d978ff7125">Tsadok Goldtooth</card>
+    <card qty="1" id="b0e26ab4-089b-489a-a1ad-148603164ccc">Sweetlips and Scurvy</card>
+    <card qty="1" id="e6a1a4e6-0690-4b1d-94a7-d96b739b2571">Omara Culverin</card>
+    <card qty="1" id="f79ba58b-79fd-4a5b-b15c-fbfc40ca20df">Magaav Commander</card>
+    <card qty="1" id="9d45cea3-5464-447b-8f7b-7c04ee0099dd">Hyapatia</card>
+    <card qty="1" id="ec881fcc-a9b7-44d4-a701-5346fe1cf34d">Admiral Druvalia Thrune</card>
+    <card qty="1" id="9763488e-0e64-4c84-99f4-45500fa3111e">Brinebones</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -637,7 +637,6 @@ def InsideLucrehold(mode): #In Inside Lucrehold, Brinebones is shuffled into the
 			whisper("Cannot find Brinebones!")
 		else:
 			brinebones.moveTo(shared.piles['Blessing Deck'])
-			shuffle(shared.piles['Blessing Deck'])
 		
 def IslandsoftheDamned(mode):
 	if mode == 'Setup':
@@ -650,17 +649,22 @@ def IslandsoftheDamned(mode):
 def TheArmada(mode):
 	if mode == 'Setup':
 		mute()
-		fleet = shared.piles['Fleet'].random()
-		fleet.moveToTable(PlayerX(-1)+15,StoryY)
-		fleet.link(shared.piles['Internal'])
-		i = 0
-		while i < 3:
-			newShip = shared.piles['Fleet'].random()
-			if newShip == None:
-				whisper("Not enough ships in fleet!")
-			else:
-				newShip.moveTo(shared.piles['Internal'])
-			i = i + 1
+		fleet = eval(getGlobalVariable('Fleet'))
+		fleetShip = findCardByName(shared.piles['Ship'],fleet[int(random()*len(fleet))])
+		if fleetShip == None:
+			whisper("Failed to find ships in loaded Fleet pile")
+		else:
+			fleetShip.moveToTable(PlayerX(-1)+30,StoryY)
+			fleetShip.link(shared.piles['Special'])
+			i = 0
+			while i < 3:
+				newShip = findCardByName(shared.piles['Ship'],fleet[int(random()*(len(fleet)-i))])
+				if newShip == None:
+					whisper("Not enough ships in fleet!")
+					return
+				else:
+					newShip.moveTo(shared.piles['Special'])
+				i = i + 1
 		
 def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
 	if mode == 'Setup':
@@ -953,7 +957,9 @@ def pickScenario(group=table, x=0, y=0):
 				x, y = anchorage.position
 				ship.moveToTable(x+3*anchorage.width()/4, y-anchorage.height()/4)
 				ship.setIndex(0) # Move underneath the location and slightly offset
-					
+
+
+		
 def nextTurn(group=table, x=0, y=0):
 	mute()
 	# Only the current active player can do this
@@ -1998,6 +2004,8 @@ def scenarioSetup(card):
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
 			
+		if card.Name == 'Inside Lucrehold':
+			shuffle(dst)
 		
 	notify("{} starts '{}'".format(me, card))
 	return anchorage
@@ -2070,8 +2078,9 @@ def checkFreeCaptains():
 def advanceBlessingDeck():
 	#Move the top card of the Blessing deck to the discard pile	
 	pile = shared.piles['Blessing Deck']	
+	scenario = findScenario(table)
 	if len(pile) == 0:
-		scenario = findScenario(table)
+
 		if scenario is None:
 			return
 		#If we are playing the adventure "Into the Eye" then there is no blessing deck so we have nothing to do
@@ -2086,7 +2095,8 @@ def advanceBlessingDeck():
 		
 	if scenario.Name == "Inside Lucrehold" and pile.top().Name == 'Brinebones':
 		pile.top().moveToTable(PlayerX(len(getPlayers())+1),StoryY)	
-	pile.top().moveTo(shared.piles['Blessing Discard'])
+	else:
+		pile.top().moveTo(shared.piles['Blessing Discard'])
 	notify("{} advances the Blessing Deck".format(me))
 	#In Treasure of Jemma Redclaw, Jemma is in the blessings deck... move her to the table
 	if shared.piles['Blessing Discard'].top().Name in  ('Jemma Redclaw'):
