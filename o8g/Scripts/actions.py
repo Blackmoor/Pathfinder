@@ -7,7 +7,7 @@ plus = ("+", "1b08a785-f745-4c93-b0f1-cdd64c89d95d")
 minus = ("-", "b442c012-023f-42d1-9d28-e85168a4401a")
 timer = ("Timer", "d59b44ba-cddf-49f9-88f5-1176a305f3d3")
 
-BoardWidth = 700
+BoardWidth = 850
 BoardHeight = 300
 StoryY = -BoardHeight/2
 LocationY = StoryY + 190
@@ -612,7 +612,7 @@ def TheGrindylowandtheWhale(mode): # setup requires each player to move a random
 				c.moveTo(shared.piles['Scenario'])				
 		shuffle(shared.piles['Scenario'])
 
-def HomeSweetHome(mode): #In Home Sweet Home, there are 8 Shipwreck Henchmen in the Blessings deck
+def TheFeastofSpoils(mode): #In Feast of Spoils, there are 8 Shipwreck Henchmen in the Blessings deck
 	if mode == 'Setup':
 		mute()
 		i = 0
