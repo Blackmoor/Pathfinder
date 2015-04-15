@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Wrath of the Righteous" id="513cb5f0-6419-4bc4-b739-99fb9fac5ad0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="3.0.0.0">
+ <cards>
+  <card id="8937f143-f6d6-4efb-8441-d2b5f8ba2bb1" name="Khorramzadeh">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Mythic"/>
+    <property name="Attr1" value="Khorramzadeh may not be evaded and immune to the Electricity, Fire, and Poison traits.&#10;Before you act, each character at your location attempts a Consitution or Fortitude 12 check. Each characer that fails is dealt 2d4 Fire damage and moves to a random location.&#10;If you fail a check to defeat Khorramzadeh, you die.&#10;If defeated, Khorramzadeh deals 2d4 Fire damage to each character at your location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="50"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="50"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="eb4aacb6-3873-4467-b3c7-91db1768b259" name="Corroded Helm">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Corrupted&#10;Elite"/>
+    <property name="Attr1" value="If this card has the Corrupted trait, bury a random card from your discard pile or you may not play this card.&#10;Recharge this card to reduce Combat damage dealt to you by 2; you may play another armor on this check. If proficient with heavy armors, you may reveal this card instead of recharging it."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="3"/>
+  </card>
+  <card id="986a99de-80ae-4193-aff3-8064bf44e5e7" name="Donahan">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Cohort"/>
+    <property name="Traits" value="Animal&#10;Mount&#10;Veteran"/>
+    <property name="Attr1" value="Reveal this card to move at the end of your turn; if you have a role card, you may move another character to your location.&#10;Put this card on top of your deck to add 1d8 plus the scenario's adventure deck number to your combat check that has the Melee trait.&#10;When you reset your hand, you may shuffle this card into your deck."/>
+    <property name="Attr2" value="Owner: Alain"/>
+  </card>
+  <card id="c2f77832-71b3-47d7-8cbe-366ea5a3da02" name="Mythic Archmage" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Intelligence or Charisma check. Then you may expend 1 or more charges. If you do, ignore a bane's immunities on this check, and when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20.&#10;Expend 5 mythic charges to examine all the cards in a location, character, or blessing deck; you may shuffle that deck."/>
+  </card>
+  <card id="0a295833-d861-4dfb-a778-00382cc9d9d5" name="Mythic Guardian" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Strength or Constitution check. Then you may expend 1 or more charges. If you do, when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20 and you may reroll any dice that rolled a value of 1; take the new result.&#10;When a character is attempting to close your location, you may expend 5 mythic charges; that character does not need to fulfill the When Closing requirement and automatically closes the location."/>
+  </card>
+  <card id="a8ec1562-7702-42af-9fd2-1ed614f3a412" name="Alain" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
+    <property name="Attr4" value="Donahan"/>
+    <alternate name="Alain" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
+      <property name="Attr1" value="You may discard a card to add 1 ([ ] 2) plus its adventure deck number to your check to defeat a non-villain monster. If undefeated, return it to the top of its location deck. Other characters may not play cards or use powers on this check.&#10;At the end of your turn, you may recharge any number of weapons ([ ] or allies or items)."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="9ee2207f-7559-4270-9600-509f0c1fdf54" name="Abyssal Rift">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype" value="NeverClosed"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Abyssal"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 2&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 2"/>
+    <property name="Attr2" value="Begin the scenario with this side up. Blessings played by characters at this location add d4 instead of the normal die. At the end of your turn, flip this card."/>
+    <property name="Attr3" value="This side of this location is always open. Bury a blessing to flip this card."/>
+    <property name="Attr4" value="This location is never permanently closed."/>
+    <alternate name="Abyssal Rift" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype" value="NeverClosed"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr2" value="Blessings played by characters at this location add d12 instead of the normal die. At the end of your turn, or when this location is not occupied, flip this card."/>
+      <property name="Attr3" value="This side of this location is always temporarily closed."/>
+      <property name="Attr4" value="This location is never permanently closed."/>
+    </alternate>
+  </card>
+  <card id="a09de55e-38da-4036-8992-752355b9cc84" name="The Elven Entanglement">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The road to the Worldwound has pockets of deep forest laden with entanglements. &quot;Uprooter&quot; elves use the twisted forest to their advantage. An eager toad demon has greater ambitions, so the elves and satyrs must seek aid from outlanders."/>
+    <property name="Attr1" value="Dark Forest&#10;Watchtower&#10;Wounded Lands&#10;Cemetery&#10;Abyssal River&#10;Guardpost&#10;Cavern&#10;Molten Pool"/>
+    <property name="Attr2" value="Cohort: Cecilla the Uprooter"/>
+    <alternate name="The Elven Entanglement" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Instead of the first exploration of your turn, you may summon and encounter the henchman Fiendish Tree; if you defeat it, draw the cohort Vinst from the box.&#10;If you would encounter a card that has the Animal trait, summon and encounter the henchman Carnivorous Stump instead."/>
+      <property name="Attr2" value="Fihralaz"/>
+      <property name="Attr3" value="Vescavor Swarm&#10;Tangle Traps"/>
+      <property name="Attr4" value="Each character draws a random weapon or spell from the box."/>
+    </alternate>
+  </card>
+  <card id="137c36be-7376-41e2-9384-eec7111a1e55" name="WotR Test Scenario">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Abyssal Rift&#10;Abyssal Rift&#10;Abyssal Rift&#10;Abyssal Rift"/>
+    <property name="Attr2" value="Cohort: Cecilla the Uprooter"/>
+    <alternate name="WotR Test Scenario" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Rules Text"/>
+      <property name="Attr2" value="Khorramzadeh"/>
+      <property name="Attr3" value="Demonling&#10;Derakni&#10;Fiendish Minotaur"/>
+      <property name="Attr4" value="Reward Text"/>
+    </alternate>
+  </card>
+ </cards>
+</set>

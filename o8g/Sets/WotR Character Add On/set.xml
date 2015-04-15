@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="WotR Character Add On" id="4db0d3bc-f639-4c90-938c-db54dedfd30a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="3.0.0.0">
+ <cards>
+  <card id="97bea13f-2639-48fd-b130-b4f384b12fc7" name="Monkey's Paw">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Gambling&#10;Corrupted"/>
+    <property name="Attr1" value="You may use any skill in your check to acquire this item; roll 1d20 to determine the difficulty of the check. If you fail to acquire this card, and it has the Corrupted trait, bury a card.&#10;Shuffle this card into your deck to add 1d20 to your check; the difficulty of the check is increased by 1d20. If you fail the check, banish this card."/>
+    <property name="Attr2" value="See Below"/>
+  </card>
+ </cards>
+</set>

@@ -181,11 +181,18 @@ def moveCard(card, pile, index):
 def isOpen(card):
 	if card is None or card.Type != 'Location':
 		return False
+	if card.Subtype in ('NeverClosed'):
+		if card.alternate == "B":
+			return True
+		else:
+			return False
 	return (card.orientation == Rot0 and card.alternate != "B")
 	
 def isNotPermanentlyClosed(card):
 	if card is None or card.Type != 'Location':
 		return False
+	if card.Subtype in ('NeverClosed'):
+		return True
 	return card.alternate != "B"
 	
 #Any card loaded into the player area must be removed from the box otherwise we end up with duplicates
@@ -408,9 +415,15 @@ def getHandSize(p=me):
 	
 def storeFavoured(f):
 	me.setGlobalVariable('Favoured', str(f))
+	
+def storeCohort(c):
+	me.setGlobalVariable('Cohort',str(c))
 
 def getFavoured():
 	return eval(me.getGlobalVariable('Favoured'))
+
+def getCohort():
+	return eval(me.getGlobalVariable('Cohort'))
 	
 def storeCards(s):
 	me.setGlobalVariable('Cards', s)
@@ -628,6 +641,23 @@ def TheFeastofSpoils(mode): #In Feast of Spoils, there are 8 Shipwreck Henchmen 
 			shared.piles['Blessing'].random().moveTo(shared.piles['Blessing Deck'])
 			i=i+1
 		shuffle(shared.piles['Blessing Deck'])
+		
+def TheLandoftheBlind(mode): #In The Land of the Blind, there are 6 Gholdakos in the blessings deck, and when one is found, it is added to a random open location
+	if mode == 'Setup':
+		mute()
+		i = 0
+		while i < 6:
+			gholdako = findCardByName(shared.piles['Henchman'],"Gholdako")
+			if gholdako == None:
+				whisper("Not enough Gholdakos!")
+			else:
+				gholdako.moveTo(shared.piles['Blessing Deck'])
+				i = i+1
+		i = 0
+		while i < 30:
+			shared.piles['Blessing'].random().moveTo(shared.piles['BlessingDeck'])
+			i = i+1
+		shuffle(shared.piles['Blessing Deck'])
 
 def InsideLucrehold(mode): #In Inside Lucrehold, Brinebones is shuffled into the blessings deck
 	if mode == 'Setup':
@@ -771,6 +801,14 @@ def playerReady(card):
 	#Move the rest of the cards into the deck
 	for card in me.Discarded:
 		card.moveTo(me.deck)
+	
+	cohort = getCohort()
+	if cohort is not None:
+		cohortCard = findCardByName(shared.piles['Cohort'],cohort)
+		if cohortCard == None:
+			notify("Could not find cohort {}".format(cohort))
+		else:
+			cohortCard.moveTo(me.hand)
 	
 	sync()
 	#The first player to drag to the table becomes the active player
@@ -921,10 +959,11 @@ def pickScenario(group=table, x=0, y=0):
 	if choice > 0:
 		scenario = findCardByName(shared.piles['Story'], scenarios[choice-1])
 		scenario.moveToTable(PlayerX(-2),StoryY)
-		anchorage = scenarioSetup(scenario)	
+		scenarioSpecific = scenarioSetup(scenario)	
 		#If we loaded a fleet then pick a ship		
 		fleet = eval(getGlobalVariable('Fleet'))
 		if len(fleet) > 0:
+			anchorage = scenarioSpecific{'anchorage'}
 			if len(fleet) == 1:
 				choice = 1
 			else:
@@ -959,7 +998,17 @@ def pickScenario(group=table, x=0, y=0):
 					else:
 						newShip.moveTo(shared.piles['Special'])
 					i = i + 1
-			whisper("Remember to summon ships one-by-one! Do not choose 'Reveal random cards' for ships!")		
+			whisper("Remember to summon ships one-by-one! Do not choose 'Reveal random cards' for ships!")
+	
+		#Handle a scenario-specific cohort if there is one
+		i = 1
+		elif scenarioSpecific{'cohort1'} is not None:
+			while scenarioSpecific{'cohort{}'.format(i)} is not None:
+				cohort = scenarioSpecific{'cohort{}'.format(i)}
+				cohortCard = findCardByName(shared.piles['Cohort'],cohort)
+				cohortCard.moveToTable(PlayerX(-5)+i,StoryY)
+			whisper("Please choose one scenario-specific cohort per player (at most) and move it to your hand.")
+		
 def nextTurn(group=table, x=0, y=0):
 	mute()
 	# Only the current active player can do this
@@ -1740,6 +1789,7 @@ def playerSetup():
 	
 	handSize = 4
 	favoured = []
+	cohort = None
 	cardTypes = [ 'Weapon', 'Spell', 'Armor', 'Item', 'Ally', 'Blessing' ]
 	minC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
 	maxC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
@@ -1747,11 +1797,15 @@ def playerSetup():
 	#Move Character Card to the table
 	for card in me.hand:
 		if card.Type == 'Character':
+			if card.Subtype == 'Mythic Path':
+				card.moveToTable(PlayerX(id),StoryY)
 			if card.Subtype != 'Token': # Extract information about the hand size and favoured card type
 				custom = card.name == 'Custom'
 				if len(card.Attr3) > 0 and card.Attr3 != 'None':
 					favoured = card.Attr3.split(' or ')
 					debug("Favoured = {}".format(favoured))
+				if len(card.Attr4) > 0:
+					cohort = card.Attr4
 				#Store Card counts
 				for line in card.Attr2.splitlines():
 					type, rest = line.split(':',1)
@@ -1811,6 +1865,7 @@ def playerSetup():
 	
 	storeHandSize(handSize)
 	storeFavoured(favoured)
+	storeCohort(cohort)
 	storeCards(dist)
 	eliminated(me, False)
 	debug("HandSize {}, Favoured type {}".format(handSize, favoured))
@@ -1827,11 +1882,23 @@ def scenarioSetup(card):
 	hidden = shared.piles['Internal']
 	if not lockPile(hidden): return None
 	
-	anchorage = None # This is set to the location card if an anchorage is mentioned in attr2 of the scenario.
+	scenarioSpecific = %{}
+	scenarioSpecific{'anchorage'} = None # This is set to the location card if an anchorage is mentioned in attr2 of the scenario.
 	if 'Your ship is anchored at ' in card.attr2:
 		shipSearch = card.attr2.replace('Your ship is anchored at ','').replace('the ','')
 	else:
 		shipSearch = ''
+	if 'Cohort' in card.attr2:
+		cohort = card.attr2.replace('Cohort: ','').replace('Cohorts: ','')
+		cohortList = []
+		if ',' in cohort:
+			cohortList = cohort.split(', ')
+		else:
+			cohortList.push(cohort)
+		j = 1
+		for c in cohortList:
+			scenarioSpecific{'cohort{}'.format(j)} = str(c)
+			j = j+1
 
 	locations = card.Attr1.splitlines()
 	nl = numLocations()
@@ -1866,7 +1933,7 @@ def scenarioSetup(card):
 			buildLocation(card, location, shared.piles[pileName])
 			location.moveToTable(LocationX(i+1, nl+leaveSpace), LocationY)
 			if location.Name in shipSearch:
-				anchorage = location
+				scenarioSpecific{'anchorage'} = location
 			if location.Name == 'The Leng Device':
 				location.markers[timer] = 12
 			
@@ -2013,6 +2080,8 @@ def scenarioSetup(card):
 			blessings = 25
 		elif card.Name == 'Inside Lucrehold': #Brinebones is added to the deck
 			blessings = 31
+		elif card.Name == 'The Land of the Blind': #6 gholdakos are added to the deck
+			blessings = 36
 		else:
 			blessings = 30
 		blessings += shared.ExtraBlessings
@@ -2025,7 +2094,7 @@ def scenarioSetup(card):
 			shuffle(dst)
 		
 	notify("{} starts '{}'".format(me, card))
-	return anchorage
+	return scenarioSpecific
 
 	
 #Create deck based on location distribution by moving random cards from the box to the location's pile
@@ -2121,6 +2190,13 @@ def advanceBlessingDeck():
 		whisper("Moving Jemma Redclaw to the table.")
 		shared.piles['Blessing Discard'].top().moveToTable(PlayerX(len(getPlayers())+1),StoryY)
 		pile.top().moveTo(shared.piles['Blessing Discard'])
+	#In The Land of the Blind, when you encounter a Gholdako in the blessings deck, move it to the top of a random open location
+	if shared.piles['BlessingDiscard'].top().Name in ('Gholdako'):
+		whisper("Moving Gholdako to a random open location.")
+		locs = [ c for c in table if isOpen(c) ]
+		loc = locs[int(random()*len(locs))]
+		shared.piles['BlessingDiscard'].top().moveTo(loc)
+		whisper("Moved Gholdako to {}".format(loc.Name))
 	
 	# Here comes the flood has special end conditions
 	flood = findCardByName(table, 'Here Comes the Flood')
