@@ -1,6 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Wrath of the Righteous" id="513cb5f0-6419-4bc4-b739-99fb9fac5ad0" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="3.0.0.0">
  <cards>
+  <card id="53c95f02-256e-446d-8996-3ce216a77502" name="Demonling">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Servitor"/>
+    <property name="Flavour" value="Serving as a familiar is humiliating. If a demonling outlives his master, he'll seek others to humiliate."/>
+    <property name="Attr1" value="The Demonling is immune to the Electricity and Poison traits. Before you act, succeed at a Wisdom or Perception 7 check or the Demonling may not be evaded, and the difficulty of checks to defeat the Demonling is increased by 3.&#10;If undefeated, move to a random location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="22d96ff2-ebfa-43b3-9b15-05b2a2c4430f" name="Derakni">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon"/>
+    <property name="Attr1" value="The Derakni is immune to the Electricity and Poison traits. If you succeed at an Intelligence or Knowledge 9 check, or if the check has the Force trait, add 5 to your checks against it.&#10;Before you act, each character at your location attempts a Wisdom 5 check. For each character that fails, a random character at her location is dealt 2 Combat damage.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="a959012b-e24c-4a44-bbe2-f4f2b92c0671" name="Fiendish Minotaur">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Minotaur&#10;Veteran"/>
+    <property name="Attr1" value="The difficulty of checks against the Fiendish Minotaur are increased by twice the scenario's adventure deck number. If you succeed at an Intelligence or Knowledge 7 check, or if the check has the Acid, Electricity, or Force trait, add 3 to your check to defeat the Fiendish Minotaur.&#10;Before you act, if this is the first exploration of your turn, the Fiendish Minotaur deals you 1d4-1 Combat damage.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="12"/>
+  </card>
   <card id="8937f143-f6d6-4efb-8441-d2b5f8ba2bb1" name="Khorramzadeh">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
@@ -72,7 +106,6 @@
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Location"/>
-    <property name="Subtype" value="NeverClosed"/>
     <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Abyssal"/>
     <property name="Attr1" value="Monster 3&#10;Barrier 2&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 2"/>
@@ -83,7 +116,6 @@
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Location"/>
-      <property name="Subtype" value="NeverClosed"/>
       <property name="Subtype2" value="Back"/>
       <property name="Attr2" value="Blessings played by characters at this location add d12 instead of the normal die. At the end of your turn, or when this location is not occupied, flip this card."/>
       <property name="Attr3" value="This side of this location is always temporarily closed."/>
