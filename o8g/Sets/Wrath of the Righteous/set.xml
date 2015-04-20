@@ -58,6 +58,14 @@
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="3"/>
   </card>
+  <card id="ea58dfcd-973e-4c10-bb15-745ef6479a7e" name="Cecilla the Uprooter">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Cohort"/>
+    <property name="Traits" value="Elf&#10;Ranger"/>
+    <property name="Attr1" value="When you encounter a bane that may be evaded, recharge this card to evade it or to add 1d4 to your checks to defeat it.&#10;Bury this card to explore your location. During this exploration, you may evade any monster you encounter."/>
+  </card>
   <card id="986a99de-80ae-4193-aff3-8064bf44e5e7" name="Donahan">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
@@ -149,7 +157,7 @@
     <property name="Type" value="Story"/>
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Abyssal Rift&#10;Abyssal Rift&#10;Abyssal Rift&#10;Abyssal Rift"/>
+    <property name="Attr1" value="Abyssal Rift&#10;General Store&#10;Farmhouse&#10;Prison&#10;Mountain Peak&#10;Temple&#10;Guard Tower&#10;Shrine to Lamashtu"/>
     <property name="Attr2" value="Cohort: Cecilla the Uprooter"/>
     <alternate name="WotR Test Scenario" type="B">
       <property name="Abr" value="B"/>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="ff9b07a9-1a79-42a3-b325-e1f81d6f72f7">Alian</card>
+    <card qty="1" id="a8ec1562-7702-42af-9fd2-1ed614f3a412">Alain</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="5917a3ad-78d7-4e28-8d3e-4d2365682b96">Warhammer</card>
+    <card qty="1" id="6e6d558e-9cc5-4139-b5cc-7dae4332c61a">Mace</card>
+    <card qty="1" id="adf27119-ddfc-45b6-9c8c-37a3d808fda5">Battleaxe</card>
+    <card qty="1" id="e26d7290-2b2a-45f6-a244-720e88f80ec2">Glaive</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False">
+    <card qty="2" id="5e39d28b-012f-4086-95f1-1d306cb76051">Half-Plate</card>
+    <card qty="1" id="99ee0127-5165-4698-82b1-504bd93151dd">Magic Shield</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="dd91c65b-12a2-42dd-8f79-3d3d8df49852">Spyglass</card>
+    <card qty="1" id="4c9debdc-f4df-4911-b851-3051ebd72e23">Crowbar</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="59c61997-8989-4043-9b37-d26dc048ec86">Troubadour</card>
+    <card qty="1" id="d68cc571-6a18-485e-8c2f-5b14a0486f54">Soldier</card>
+    <card qty="1" id="17c8ca55-24d0-4453-912f-997336e0e143">Night Watch</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="1" id="6df83e5d-b0dc-465e-a562-606b2d12dbf7">Blessing of Gorum</card>
+    <card qty="2" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

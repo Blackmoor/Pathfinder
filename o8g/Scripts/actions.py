@@ -186,7 +186,7 @@ def isOpen(card):
 def isNotPermanentlyClosed(card):
 	if card is None or card.Type != 'Location':
 		return False
-	if card.Name == 'Abyssal Rift':
+	if card.Name in ('Abyssal Rift'):
 		return True
 	return card.alternate != "B"
 	
@@ -251,7 +251,7 @@ def rollDice(card): #Roll the dice based on the number of tokens
 def findCardByName(group, name):
 	debug("Looking for '{}' in '{}'".format(name, group.name))
 	for card in group:
-		if card.Name == Name:
+		if card.Name == name:
 			return card
 	return None
 		
@@ -412,7 +412,7 @@ def storeFavoured(f):
 	me.setGlobalVariable('Favoured', str(f))
 	
 def storeCohort(c):
-	me.setGlobalVariable('Cohort',str(c))
+	me.setGlobalVariable('Cohort', str(c))
 
 def getFavoured():
 	return eval(me.getGlobalVariable('Favoured'))
@@ -992,16 +992,17 @@ def pickScenario(group=table, x=0, y=0):
 	
 		#Handle a scenario-specific cohort if there is one
 		i = 1
-		cohort = scenarioSpecific['cohort{}'.format(i)]
-		while cohort is not None:
+		cohortNum = int(scenarioSpecific['cohortNum'])
+		if cohortNum > 1:
+			whisper("Please choose one scenario-specific cohort per player (at most) and move it to your hand.")
+		
+		while i <= cohortNum:
+			cohort = str(scenarioSpecific['cohort{}'.format(i)])
 			cohortCard = findCardByName(shared.piles['Cohort'],cohort)
 			cohortCard.moveToTable(PlayerX(-5)+i,StoryY)
 			i = i + 1
-			cohort = scenarioSpecific['cohort{}'.format(i)]
 			
-		if i > 1:
-			whisper("Please choose one scenario-specific cohort per player (at most) and move it to your hand.")
-		
+
 def nextTurn(group=table, x=0, y=0):
 	mute()
 	# Only the current active player can do this
@@ -1798,7 +1799,7 @@ def playerSetup():
 					favoured = card.Attr3.split(' or ')
 					debug("Favoured = {}".format(favoured))
 				if len(card.Attr4) > 0:
-					cohort = card.Attr4
+					cohort = str(card.Attr4).replace('Cohort: ','')
 				#Store Card counts
 				for line in card.Attr2.splitlines():
 					type, rest = line.split(':',1)
@@ -1886,7 +1887,7 @@ def scenarioSetup(card):
 		for c in card.attr2.replace('Cohort: ','').replace('Cohorts: ','').split(', '):
 			scenarioSpecific['cohort{}'.format(j)] = str(c)
 			j = j+1
-
+		scenarioSpecific['cohortNum'] = j-1
 	locations = card.Attr1.splitlines()
 	nl = numLocations()
 	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
