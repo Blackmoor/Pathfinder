@@ -412,13 +412,13 @@ def storeFavoured(f):
 	me.setGlobalVariable('Favoured', str(f))
 	
 def storeCohort(c):
-	me.setGlobalVariable('Cohort', str(c))
+	me.setGlobalVariable('Cohort', c)
 
 def getFavoured():
 	return eval(me.getGlobalVariable('Favoured'))
 
 def getCohort():
-	return eval(me.getGlobalVariable('Cohort'))
+	return me.getGlobalVariable('Cohort')
 	
 def storeCards(s):
 	me.setGlobalVariable('Cards', s)
@@ -795,7 +795,7 @@ def playerReady(card):
 	cohort = getCohort()
 	if cohort is not None:
 		cohortCard = findCardByName(shared.piles['Cohort'],cohort)
-		if cohortCard == None:
+		if cohortCard is None:
 			notify("Could not find cohort {}".format(cohort))
 		else:
 			cohortCard.moveTo(me.hand)
@@ -1799,7 +1799,7 @@ def playerSetup():
 					favoured = card.Attr3.split(' or ')
 					debug("Favoured = {}".format(favoured))
 				if len(card.Attr4) > 0:
-					cohort = str(card.Attr4).replace('Cohort: ','')
+					cohort = card.Attr4.replace('Cohort: ','')
 				#Store Card counts
 				for line in card.Attr2.splitlines():
 					type, rest = line.split(':',1)
@@ -2179,7 +2179,7 @@ def advanceBlessingDeck():
 		shared.piles['Blessing Discard'].top().moveToTable(PlayerX(len(getPlayers())+1),StoryY)
 		pile.top().moveTo(shared.piles['Blessing Discard'])
 	#In The Land of the Blind, when you encounter a Gholdako in the blessings deck, move it to the top of a random open location
-	if shared.piles['BlessingDiscard'].top().Name in ('Gholdako'):
+	if shared.piles['Blessing Discard'].top().Name in ('Gholdako'):
 		whisper("Moving Gholdako to a random open location.")
 		locs = [ c for c in table if isOpen(c) ]
 		loc = locs[int(random()*len(locs))]
