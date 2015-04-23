@@ -402,6 +402,50 @@
 	  </conditional>
 	 </textblocks>
   </template> 
+  <template src="Proxy/Ally.jpg">
+	<matches>
+	  <match name="Subtype" value="Cohort" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Subtype" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <conditional>
+		<if property="Copyright" contains="No">
+		  <link block="Traits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="CheckTypeM">
+		   <property name="Attr2" />
+		  </link>
+		  <link block="CheckValueM">
+		   <property name="Attr3" />
+		  </link>
+		  <link block="CheckJoinR">
+		   <property name="Attr6" />
+		  </link>
+		  <link block="CheckTypeR">
+		   <property name="Attr4" />
+		  </link>
+		  <link block="CheckValueR">
+		   <property name="Attr5" />
+		  </link>
+		  <link block="Text">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="Flavour">
+		   <property name="Flavour" />
+		  </link>
+		</if>
+	  </conditional>
+	 </textblocks>
+  </template> 
   <template src="Proxy/Weapon.jpg">
 	<matches>
 	  <match name="Subtype" value="Weapon" />
@@ -924,7 +968,10 @@
 	  <link block="Subtype">
 	   <property name="Subtype" />
 	  </link>
-	  <link block="StatBlock">
+	  <link block="Villain">
+	   <property name="Attr2"/>
+	  </link>
+	  <link block="HighText">
 	   <property name="Attr1" />
 	  </link>
 	  <link block="Flavour">
@@ -1007,8 +1054,11 @@
 	  <link block="Deck">
 	   <property name="Attr2" />
 	  </link>
-	  <link block="Text">
+	  <link block="HighText">
 	   <property name="Attr3" format="Favoured Card: {}" />
+	  </link>
+	  <link block="Text">
+	   <property name="Attr4" format="Cohort: {}" />
 	  </link>
 	  <link block="Flavour">
 	   <property name="Flavour" />

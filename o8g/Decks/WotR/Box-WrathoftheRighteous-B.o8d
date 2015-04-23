@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Story" shared="True">
+    <card qty="1" id="137c36be-7376-41e2-9384-eec7111a1e55">WotR Test Scenario</card>
+    <card qty="1" id="a09de55e-38da-4036-8992-752355b9cc84">The Elven Entanglement</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="a959012b-e24c-4a44-bbe2-f4f2b92c0671">Fiendish Minotaur</card>
+    <card qty="1" id="53c95f02-256e-446d-8996-3ce216a77502">Demonling</card>
+    <card qty="1" id="22d96ff2-ebfa-43b3-9b15-05b2a2c4430f">Derakni</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="9ee2207f-7559-4270-9600-509f0c1fdf54">Abyssal Rift</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="eb4aacb6-3873-4467-b3c7-91db1768b259">Corroded Helm</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="9ee2207f-7559-4270-9600-509f0c1fdf54">Abyssal Rift</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="8937f143-f6d6-4efb-8441-d2b5f8ba2bb1">Khorramzadeh</card>
+  </section>
+  <section name="Cohort" shared="True">
+    <card qty="1" id="ea58dfcd-973e-4c10-bb15-745ef6479a7e">Cecilla the Uprooter</card>
+    <card qty="1" id="986a99de-80ae-4193-aff3-8064bf44e5e7">Donahan</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Barrier" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
