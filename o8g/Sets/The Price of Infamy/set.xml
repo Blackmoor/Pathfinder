@@ -365,7 +365,7 @@
     <property name="Attr5" value="15"/>
     <property name="Attr6" value="OR"/>
   </card>
-  <card id="76484c8f-44a3-428b-8768-bb5195b9e094" name="The Shrouded Queen">
+  <card id="76484c8f-44a3-428b-8768-bb5195b9e094" name="Shrouded Queen">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>
@@ -816,7 +816,7 @@
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
     <property name="Flavour" value="The Pirate Council is impressed! They've welcomed you as their newest councilors. Soon thereafter, Arronax Endymion is accused of serving as an agent of Cheliax. The veteran council member insists he's innocent. Investigate the Theater of Corruption and uncover the truth!"/>
-    <property name="Attr1" value="Merchant Marina&#10;Theater of Corruption&#10;Torture Pit&#10;Shrine to Norgorber&#10;Safehouse&#10;Festhall&#10;House of Stolen Kisses&#10;Seaside Warehouse"/>
+    <property name="Attr1" value="Merchant Marina&#10;Theater of Corruption&#10;Torture Pit&#10;Shrine to Norgorber&#10;Safe House&#10;Festhall&#10;House of Stolen Kisses&#10;Seaside Warehouse"/>
     <property name="Attr2" value="Your ship is anchored at the Merchant Marina."/>
     <alternate name="An Unforgivable Act" type="B">
       <property name="Abr" value="5"/>

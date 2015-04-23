@@ -89,6 +89,52 @@
     <property name="Subtype" value="Mythic Path"/>
     <property name="Attr1" value="Add your number of mythic charges to your Strength or Constitution check. Then you may expend 1 or more charges. If you do, when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20 and you may reroll any dice that rolled a value of 1; take the new result.&#10;When a character is attempting to close your location, you may expend 5 mythic charges; that character does not need to fulfill the When Closing requirement and automatically closes the location."/>
   </card>
+  <card id="50014b67-4c4c-4494-aa2c-5b3b50b738ba" name="Seelah (Inheritor's Blade)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2  [ ] 3&#10;Armor: 3  [ ] 4&#10;Item: 1&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6  [ ] 7"/>
+    <property name="Attr3" value="Blessing"/>
+    <alternate name="Seelah (Inheritor's Blade)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+      <property name="Flavour" value="Iomedae's most trusted champions serve the inheritor with a zeal unmatched in Golarion."/>
+      <property name="Attr1" value="When you attempt a check before you act, you may use your Charisma skill instead of any listed skill.&#10;You may discard the top card of your deck to add 1d6 ([ ] +1) to any check by a character at your location. ([ ] If that character defeats a monster on that check, he may draw a card.) ([ ] If the top card has the Heavy Armor or Sword trait, recharge it instead of discarding it.)&#10;When you acquire a boon that has the Corrupted trait, bury it. ([ ] If it does not have that trait, you may give it to a character at your location.)&#10;[ ] You may be dealt 1 Combat damage to reduce Combat ([ ] or any type of) damage dealt to a character at your location by 1 ([ ] 2) ([ ] 3).&#10;When you play a Blessing of Iomedae, a character at your location may shuffle an ally in their discard pile into his deck."/>
+      <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +1&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +1"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="52b04cdb-73d2-42c8-af58-a2e81ceb088d" name="Seelah (Wardstone Sentry)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2  [ ] 3&#10;Armor: 3  [ ] 4&#10;Item: 1&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6  [ ] 7"/>
+    <property name="Attr3" value="Blessing"/>
+    <alternate name="Seelah (Wardstone Sentry)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+      <property name="Flavour" value="Guard the wardstones, the sentries are told. Should they fail, seek out more wardstones."/>
+      <property name="Attr1" value="When you attempt a check before you act, you may use your Charisma ([ ] +2) ([ ] +4) skill instead of any listed skill.&#10;You may discard the top card of your deck to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) to any check by a character at your location. ([ ] If that character defeats a monster on that check he may draw a card.)&#10;When you acquire a boon that has the Corrupted trait, bury it. ([ ] If it is not your turn, you may then explore again.)&#10;[ ] You may add 1d8 and the Magic trait to your check to defeat a bane that has the Demon ([ ] or Undead) trait.&#10;[ ] When another character encounters a monster that has the Cultist or Demon trait, you may immediately move to his location."/>
+      <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +1&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +1"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
   <card id="a8ec1562-7702-42af-9fd2-1ed614f3a412" name="Alain" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
@@ -106,6 +152,26 @@
       <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
       <property name="Attr1" value="You may discard a card to add 1 ([ ] 2) plus its adventure deck number to your check to defeat a non-villain monster. If undefeated, return it to the top of its location deck. Other characters may not play cards or use powers on this check.&#10;At the end of your turn, you may recharge any number of weapons ([ ] or allies or items)."/>
       <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="bae0fb94-2473-47ed-b7c8-4103abb2e5c2" name="Seelah" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 1  [ ] 2  [ ] 3&#10;Armor: 3  [ ] 4&#10;Item: 1&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6  [ ] 7"/>
+    <property name="Attr3" value="Blessing"/>
+    <alternate name="Seelah" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+      <property name="Attr1" value="When you attempt a check before you act, you may use your Charisma skill instead of any listed skill.&#10;You may discard the top card of your deck to add 1d6 ([ ] +1) to any check by a character at your location. ([ ] If that character defeats a monster on that check, he may draw a card.)&#10;When you acquire a boon that has the Corrupted trait, bury it."/>
+      <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +1&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +1"/>
       <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
       <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>

@@ -999,7 +999,7 @@ def pickScenario(group=table, x=0, y=0):
 		while i <= cohortNum:
 			cohort = str(scenarioSpecific['cohort{}'.format(i)])
 			cohortCard = findCardByName(shared.piles['Cohort'],cohort)
-			cohortCard.moveToTable(PlayerX(-5)+i,StoryY)
+			cohortCard.moveToTable(PlayerX(-1)+i,StoryY)
 			i = i + 1
 			
 
@@ -1882,6 +1882,7 @@ def scenarioSetup(card):
 		shipSearch = card.attr2.replace('Your ship is anchored at ','').replace('the ','')
 	else:
 		shipSearch = ''
+	scenarioSpecific['cohortNum'] = 0
 	if 'Cohort' in card.attr2:
 		j = 1
 		for c in card.attr2.replace('Cohort: ','').replace('Cohorts: ','').split(', '):

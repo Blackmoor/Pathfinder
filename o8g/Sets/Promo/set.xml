@@ -28,6 +28,16 @@
     <property name="Attr5" value="6"/>
     <property name="Attr6" value="OR"/>
   </card>
+  <card id="012a7f02-13a5-485c-8563-62d409dab478" name="Temptation of Big Die">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Temptation&#10;Mythic"/>
+    <property name="Flavour" value="Roll 'em bigger, hurt 'em worse&#10;Don't you worry 'bout the curse!&#10;Giant boulder rumbles fine&#10;'Specially when death's on the line!&quot;&#10;--Plarg's song"/>
+    <property name="Attr1" value="Display this card next to your deck; the barrier is defeated.&#10;You may banish this card to roll 2d20. Add the higher result to your check, then bury a number of card from your hand, discard pile, and deck equal to the lower result."/>
+    <property name="Attr2" value="None"/>
+  </card>
   <card id="105c00b1-6f05-49f0-9fef-94f256930559" name="Grindylow">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
