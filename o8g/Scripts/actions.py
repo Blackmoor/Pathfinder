@@ -689,11 +689,17 @@ def donateAlly(who):
 		ally.moveToTable(0, 0, True) # Move face down to the centre of the table
 		ally.setController(who)
 
+def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
+	checkMovementAll(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, False, highlight, markers)
+	
+def checkScriptMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
+	checkMovementAll(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, True, highlight, markers)
+		
 #
 #Card Move Event
 # Enforce game logic for ships, avatars and blessing deck
 #
-def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
+def checkMovementAll(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight, markers, faceup=None):
 	mute()
 	bd = shared.piles['Blessing Discard']
 	if fromGroup == bd or toGroup == bd or me.isActivePlayer: #Check to see if the current blessing card needs to change
