@@ -5,15 +5,13 @@
 # We extend the Card class to make the code more readable
 #------------------------------------------------------------	
 remaining = ("cards", "9aef0beb-22e6-49d8-a8a0-4069d50f528e")
-
-def globalName(self):
-	return "Pile{}".format(self._id)
 	
 def getPile(self):
 	mute()
-	pileName = getGlobalVariable(globalName(self))
-	if len(pileName) == 0:
+	cardPiles = eval(getGlobalVariable("cardPiles"))
+	if self._id not in cardPiles:
 		return None
+	pileName = cardPiles[self._id]
 	for p in me.piles:
 		if p == pileName:
 			return me.piles[pileName]
@@ -23,16 +21,21 @@ def getPile(self):
 	return None
 	
 def isAPile(self):
-	return len(getGlobalVariable(globalName(self))) > 0
+	cardPiles = eval(getGlobalVariable("cardPiles"))
+	return self._id in cardPiles
 	
 def linkPile(self, pile):
 	mute()
+	cardPiles = eval(getGlobalVariable("cardPiles"))
 	if pile is None:
-		setGlobalVariable(globalName(self), None)
+		if self._id in cardPiles:
+			del cardPiles[self._id]
+			setGlobalVariable("cardPiles", str(cardPiles))
 		self.markers[remaining] = 0
 	else:
-		setGlobalVariable(globalName(self), pile.name)
+		cardPiles[self._id] = pile.name
 		self.markers[remaining] = len(pile)
+		setGlobalVariable("cardPiles", str(cardPiles))
 
 def updatePile(self):
 	mute()
@@ -44,6 +47,12 @@ def updatePile(self):
 
 #Event trigged by card movement - needs to be registered in your definition.xml
 def cardPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):	
+	cardPileMove(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, False, highlight, markers)
+
+def cardScriptPile(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):	
+	cardPileMove(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, True, highlight, markers)
+
+def cardPileMove(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None, faceup=None):	
 	mute()
 	#Get a list of cards acting as piles - order by their index (0=bottom = last in list)
 	piles = sorted([ c for c in table if c.controller == me and isAPile(c) ], key=lambda c: -c.getIndex)

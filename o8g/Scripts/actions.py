@@ -558,6 +558,15 @@ def startOfTurn(player, turn):
 # The function must be named exactly as the Scenario card with the spaces removed
 #
 def HereComestheFlood(mode):
+	if mode == 'Setup':
+		locs = [c for c in table if c.Type == 'Location']
+		for loc in locs:
+			randBlessing = shared.piles['Blessing'].random()
+			randBlessing.moveTo(loc.pile())
+			randAlly = shared.piles['Ally'].random()
+			randAlly.moveTo(loc.pile())
+			shuffle(loc.pile())
+
 	if mode == 'StartOfTurn':
 		mute()
 		#Pick a random location
@@ -689,11 +698,17 @@ def donateAlly(who):
 		ally.moveToTable(0, 0, True) # Move face down to the centre of the table
 		ally.setController(who)
 
+def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
+	checkMovementAll(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, False, highlight, markers)
+	
+def checkScriptMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
+	checkMovementAll(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, True, highlight, markers)
+		
 #
 #Card Move Event
 # Enforce game logic for ships, avatars and blessing deck
 #
-def checkMovement(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight=None, markers=None):
+def checkMovementAll(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight, markers, faceup=None):
 	mute()
 	bd = shared.piles['Blessing Discard']
 	if fromGroup == bd or toGroup == bd or me.isActivePlayer: #Check to see if the current blessing card needs to change
@@ -1974,9 +1989,14 @@ def scenarioSetup(card):
 		jemma.moveTo(shared.piles['Blessing Deck'])
 	
 	debug("Hide Henchmen '{}'".format(card.Attr3))
+	henchmen = []
 	if card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
 		henchmen = card.Attr3.replace(' per Character', '').replace('1 ','').splitlines()
 		cardsPerLocation = (1+len(getPlayers()))/2
+		repeat = 1
+	elif card.Name == 'Here Comes the Flood':
+		henchmen = 'Nightbelly Boas'.split(',')
+		cardsPerLocation = 1
 		repeat = 1
 	elif 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3 or ' per Location' in card.Attr3: # Special instructions for this one
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per Location', '').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
