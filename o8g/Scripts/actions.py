@@ -558,6 +558,15 @@ def startOfTurn(player, turn):
 # The function must be named exactly as the Scenario card with the spaces removed
 #
 def HereComestheFlood(mode):
+	if mode == 'Setup':
+		locs = [c for c in table if c.Type == 'Location']
+		for loc in locs:
+			randBlessing = shared.piles['Blessing'].random()
+			randBlessing.moveTo(loc.pile())
+			randAlly = shared.piles['Ally'].random()
+			randAlly.moveTo(loc.pile())
+			shuffle(loc.pile())
+
 	if mode == 'StartOfTurn':
 		mute()
 		#Pick a random location
@@ -1980,9 +1989,14 @@ def scenarioSetup(card):
 		jemma.moveTo(shared.piles['Blessing Deck'])
 	
 	debug("Hide Henchmen '{}'".format(card.Attr3))
+	henchmen = []
 	if card.Name == 'The Toll of the Bell': #The Toll of the Bell puts half the henchmen (rounded up) into one deck and the rest in the other
 		henchmen = card.Attr3.replace(' per Character', '').replace('1 ','').splitlines()
 		cardsPerLocation = (1+len(getPlayers()))/2
+		repeat = 1
+	elif card.Name == 'Here Comes the Flood':
+		henchmen = 'Nightbelly Boas'.split(',')
+		cardsPerLocation = 1
 		repeat = 1
 	elif 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3 or ' per Location' in card.Attr3: # Special instructions for this one
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per Location', '').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
