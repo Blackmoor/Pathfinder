@@ -28,7 +28,7 @@ def linkPile(self, pile):
 	mute()
 	cardPiles = eval(getGlobalVariable("cardPiles"))
 	if pile is None:
-		if self._id in cardPile:
+		if self._id in cardPiles:
 			del cardPiles[self._id]
 			setGlobalVariable("cardPiles", str(cardPiles))
 		self.markers[remaining] = 0
