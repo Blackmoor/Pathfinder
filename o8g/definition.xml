@@ -66,7 +66,7 @@
     <property name="Attr9" type="String" hidden="True" ignoreText="False" />
 	<property name="Flavour" type="String" hidden="True" ignoreText="False" />
 	<property name="Recharge" type="String" hidden="True" ignoreText="False" />
-	<size name="Character" back="Resources/card.jpg" front="Resources/card.jpg" width="88" height="63" cornerRadius="3"/>
+	<size name="Character" back="Resources/card.jpg" front="Resources/card.jpg" width="63" height="88" cornerRadius="3"/>
 	<size name="Role" back="Resources/card.jpg" front="Resources/card.jpg" width="88" height="63" cornerRadius="3"/>
  </card>
   <table name="Table" visibility="undefined" ordered="False" width="700" height="300" background="Resources/background.jpg" backgroundStyle="uniformToFill">

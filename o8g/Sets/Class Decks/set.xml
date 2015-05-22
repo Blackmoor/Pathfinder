@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Class Decks" id="daee2ba5-77b0-4f97-ab27-6cfcd798f346" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.0.0.1">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Class Decks" id="daee2ba5-77b0-4f97-ab27-6cfcd798f346" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0">
  <cards>
   <card id="bef13f9d-b961-4cc9-ada2-69306e85288b" name="Acolyte">
     <property name="Abr" value="B"/>

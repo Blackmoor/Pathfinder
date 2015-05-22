@@ -887,7 +887,7 @@
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="When you build location decks, shuffle the villain The Shrouded Queen and the henchmen Breath of Dagon, Eye of Dagon, and Curse of the Flesheaters into the Tower location deck. Shuffle 1 Witch Doctor henchman into each other location deck."/>
-      <property name="Attr2" value="The Shrouded Queen"/>
+      <property name="Attr2" value="Shrouded Queen"/>
       <property name="Attr3" value="Breath of Dagon&#10;Eye of Dagon&#10;Curse of the Flesheaters&#10;Witch Doctors"/>
       <property name="Attr4" value="Each character gains a card feat.&#10;Loot: Aiger's Kiss, Quickened Ray"/>
     </alternate>

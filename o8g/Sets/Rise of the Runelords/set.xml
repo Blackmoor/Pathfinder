@@ -2010,7 +2010,7 @@
       <property name="Subtype2" value="Back"/>
       <property name="Traits" value="Male&#10;Human&#10;Wizard"/>
       <property name="Attr1" value="After you play a spell with the Arcane trait, you may examine the top card of your deck; if it's a spell, you may put it in your hand.&#10;If you acquire a card with the Magic trait during an exploration, you may immediately explore again.&#10;[ ] Add 1 ([ ] 2) to your check to recharge a card."/>
-      <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6   [ ] +1&#10;  Survival: Wisdom +3&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr2" value="Strength: d6 [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d4  [ ] +1  [ ] +2&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d8  [ ] +1  [ ] +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3"/>
       <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
     </alternate>
   </card>
@@ -2051,7 +2051,7 @@
       <property name="Subtype2" value="Back"/>
       <property name="Traits" value="Female&#10;Human&#10;Cleric"/>
       <property name="Attr1" value="Instead of your first exploration on a turn, you may reveal a card with the Divine trait to choose a character at your location. Shuffle 1d4+1 ([ ]+2) random cards from his discard pile into his deck, then discard the card you revealed.&#10;Add 1d8 ([ ]+1) with the Magic trait to your check to defeat a bane with the Undead trait."/>
-      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +3&#10;Constitution: d12  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom+2&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1"/>
+      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +3&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2"/>
       <property name="Attr3" value="5  [ ] 6"/>
       <property name="Attr4" value="[X] Light Armors, [X] Heavy Armors, [ ] Weapons"/>
     </alternate>

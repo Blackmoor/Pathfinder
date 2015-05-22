@@ -89,6 +89,50 @@
     <property name="Subtype" value="Mythic Path"/>
     <property name="Attr1" value="Add your number of mythic charges to your Strength or Constitution check. Then you may expend 1 or more charges. If you do, when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20 and you may reroll any dice that rolled a value of 1; take the new result.&#10;When a character is attempting to close your location, you may expend 5 mythic charges; that character does not need to fulfill the When Closing requirement and automatically closes the location."/>
   </card>
+  <card id="f3d1fed9-d9d4-4c77-b965-8ad0e972dbef" name="Enora (Eldritch Savant)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9 &#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Enora (Eldritch Savant)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+      <property name="Flavour" value="Eldritch savants revel in unearthing the deepest secrets of spellcasters long departed."/>
+      <property name="Attr1" value="When you attempt a check to acquire a spell ([ ] or an item), you may use your Knowledge skill in place of any listed skill.&#10;After you play a spell, you may recharge a random spell from your discard pile ([ ] or shuffle it into your deck).&#10;Discard ([ ] or recharge) a spell to reduce Cold or Fire ([ ] or Acid, Electricity, or Force) damage dealt to you ([ ] or to any character at your location) to 0.&#10;[ ] You may discard a card to examine the top card of your deck ([ ] and you may recharge the examined card); if it is a spell, you may add it to your hand.&#10;[ ] When you play a spell that has the Cold or Fire ([ ] or Acid, Electricity, or Force) traits, you may replace any one of those traits with another of those traits."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d4  [ ] +1&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +1&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9"/>
+    </alternate>
+  </card>
+  <card id="76aeb6c7-8437-4c34-8996-c2fe7d9c2ce5" name="Enora (Occularium Scholar)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9 &#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Enora (Occularium Scholar)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+      <property name="Flavour" value="The scholars of the Occularium welcome all to their libraries, but they would prefer you keep it down."/>
+      <property name="Attr1" value="When you attempt a check to acquire a spell ([ ] or an item) ([ ] or you attempt to defeat a barrier), you may use your Knowledge skill in place of any listed skill.&#10;After you play a spell, you may recharge a random spell from your discard pile.&#10;Discard a spell ([ ] or a boon that has the Book trait) to reduce Cold or Fire ([ ] or Acid, Electricity, or Force) damage dealt to you ([ ] or to any character at your location) to 0.&#10;[ ] You may reveal a boon that has the Book trait to add 1d4 ([ ] +1) ([ ] +2) to your check.&#10;[ ] At the start of your turn, you may recharge a boon that has the Book trait to examine the top 3 cards of your location deck, or recharge a spell to examine the top 3 cards of your deck. ([ ] Put them back in any order.)"/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d4  [ ] +1&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +1&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
+    </alternate>
+  </card>
   <card id="50014b67-4c4c-4494-aa2c-5b3b50b738ba" name="Seelah (Inheritor's Blade)" size="Role">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
@@ -154,6 +198,25 @@
       <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +3"/>
       <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
       <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="fb882f92-3b22-491b-a9fa-fcd481c6e1e7" name="Enora" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9 &#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Enora" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+      <property name="Attr1" value="When you attempt a check to acquire a spell ([ ] or an item), you may use your Knowledge skill in place of any listed skill.&#10;After you play a spell, you may recharge a random spell from your discard pile.&#10;Discard a spell to reduce Cold or Fire ([ ] or Acid, Electricity, or Force) damage dealt to you ([ ] or to any character at your location) to 0."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d4  [ ] +1&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +1&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="6  [ ] 7"/>
     </alternate>
   </card>
   <card id="bae0fb94-2473-47ed-b7c8-4103abb2e5c2" name="Seelah" size="Character">
