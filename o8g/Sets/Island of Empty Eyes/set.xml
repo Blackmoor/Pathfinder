@@ -14,7 +14,7 @@
     <property name="Attr5" value="10"/>
     <property name="Attr6" value="OR"/>
   </card>
-  <card id="3d520c20-59b5-48bd-8bf7-3112fe2952e0" name="Electriticy Arc Trap">
+  <card id="3d520c20-59b5-48bd-8bf7-3112fe2952e0" name="Electricity Arc Trap">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>

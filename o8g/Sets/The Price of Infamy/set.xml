@@ -229,7 +229,7 @@
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="20"/>
   </card>
-  <card id="f2baa952-55aa-4d6e-8f5b-472a534f9a98" name="Insanity Demon">
+  <card id="f2baa952-55aa-4d6e-8f5b-472a534f9a98" name="Insanity Daemon">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>
@@ -289,7 +289,7 @@
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="21"/>
   </card>
-  <card id="4bcf716b-5bb6-48c0-ae99-955e72fadb80" name="Tetrolimus">
+  <card id="4bcf716b-5bb6-48c0-ae99-955e72fadb80" name="Tetrolimulus">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>

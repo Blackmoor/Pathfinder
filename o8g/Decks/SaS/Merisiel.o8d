@@ -9,13 +9,12 @@
     <card qty="1" id="7d10b3fc-5eb7-4ff6-a47c-eb58a98ac56c">Pistol</card>
     <card qty="1" id="71d8a5a4-8f85-4cd9-b5f5-0888b9ce821c">Shortbow</card>
   </section>
-  <section name="Spell" shared="False" />
   <section name="Armor" shared="False">
     <card qty="1" id="cac9a9e3-75d9-46d5-973c-6554f1e8d786">Leather Armor</card>
   </section>
   <section name="Item" shared="False">
     <card qty="1" id="5b8a87e6-8ffa-45bf-afa0-19b320cbb926">Amulet of Life</card>
-    <card qty="1" id="7d9e3d18-5d17-4387-be6f-7e290daee6c8">Conch Shell</card>
+    <card qty="1" id="e1e540b7-f7fd-4453-b78f-9916e8731ac2">Footpad's Boots</card>
     <card qty="1" id="c6350fe9-947f-4480-a641-ba004ced330b">Eye Patch</card>
     <card qty="2" id="bb311329-1659-47eb-9d89-86c367d00a09">Thieves' Tools</card>
   </section>
@@ -26,6 +25,7 @@
   <section name="Blessing" shared="False">
     <card qty="4" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
   </section>
+  <section name="Spell" shared="False" />
   <section name="Feat" shared="False" />
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
@@ -38,6 +38,7 @@
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
   <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />

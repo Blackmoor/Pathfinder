@@ -17,12 +17,12 @@
     <card qty="1" id="58f21fb4-58ca-462e-bee2-aa90db8f0992">Wooden Armor</card>
   </section>
   <section name="Item" shared="False">
-    <card qty="1" id="87c46154-a9be-4564-8ae2-02acd21e06ea">Noxious Bomb</card>
+    <card qty="1" id="de775b3e-7884-43bb-80f1-2f8f62d261db">Bag of Sticks</card>
   </section>
   <section name="Ally" shared="False">
     <card qty="1" id="9033c717-a26e-4a30-8722-70df8148c748">Dwarf Caiman</card>
     <card qty="1" id="b148583e-4291-4a59-b44e-604e234cabc2">Fox</card>
-    <card qty="1" id="b31665aa-c3db-49e0-a13b-514f1bfc38cf">Master-at-Arms</card>
+    <card qty="1" id="bb274b83-19c7-4459-b9bf-6fbbfc62937b">Droogami</card>
     <card qty="1" id="851f5154-782f-4003-8c77-1eb6d1b02ba1">Turtle</card>
   </section>
   <section name="Blessing" shared="False">
@@ -41,6 +41,7 @@
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
   <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />

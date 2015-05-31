@@ -618,7 +618,7 @@
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="11"/>
   </card>
-  <card id="8e2c0a49-279c-4682-b93a-e5b87dfcff4b" name="Humanbane Heavy Crossbow +2">
+  <card id="8e2c0a49-279c-4682-b93a-e5b87dfcff4b" name="Humanbane Crossbow +2">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>

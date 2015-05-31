@@ -62,6 +62,54 @@
     <property name="Attr5" value="15"/>
     <property name="Attr6" value="THEN"/>
   </card>
+  <card id="63081139-d74a-4d7d-85c4-12a8584a1308" name="Rogue Eidolon">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Eidolon&#10;Veteran"/>
+    <property name="Attr1" value="If you do not have the Summoner trait, increase the difficulty to defeat by the adventure deck number of the current scenario, if any.&#10;If undefeated, after you act, the Rogue Eidolon deals 1 point of Combat damage to each character at your location.&#10;If defeated, you may add this card to your hand. Banish the Rogue Eidolon from your hand to explore your location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="214db5fd-26c1-430a-a348-ea79cccb8544" name="Biter">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Flavour" value="&quot;Ow! Darn it, Biter. Let go!&quot; - Harsk"/>
+    <property name="Owner" value="Owner: Harsk"/>
+    <property name="Attr1" value="Discard this card on your turn to examine the top card of your location deck. If the examined card is a monster, immediately encounter it; add 1d6 to your check to defeat it."/>
+    <property name="Attr2" value="Wisdom&#10;Survival"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="78a2a8b2-d62a-46eb-aa79-6bcd5a74cd95" name="Chuffy Lickwound">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Goblin&#10;Rogue&#10;Veteran"/>
+    <property name="Flavour" value="&quot;Chuffy's face might make you sick,&#10;But Chuffy's knife is awful quick.&#10;And if you are his stabby pick,&#10;Then knife goes in you-stick stick stick!&quot; - Chuffy's song"/>
+    <property name="Attr1" value="Reveal this card and discard any number of cards from the top of your deck; for each card discarded, add 1d6 to your check to defeat a barrier.&#10;Discard this card to explore your location. If you are the only character at your location, add 1d6 plus the scenario's adventure deck number to your combat checks during this exploration."/>
+    <property name="Attr2" value="Dexterity&#10;Acrobatics"/>
+    <property name="Attr3" value="8"/>
+    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr5" value="7"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="bb274b83-19c7-4459-b9bf-6fbbfc62937b" name="Droogami">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Flavour" value="&quot;Droogami's what we call good friends. We're friends, right?&quot; - Lini"/>
+    <property name="Owner" value="Owner: Lini"/>
+    <property name="Attr1" value="Recharge this card to add 1d8 to your Perception or Stealth check.&#10;Discard this card on your turn to move to another location; you may immediately explore that location."/>
+    <property name="Attr2" value="Wisdom&#10;Survival"/>
+    <property name="Attr3" value="11"/>
+  </card>
   <card id="e9e3cae1-1423-4a60-9517-3bd960be3d71" name="Mogmurch">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -87,6 +135,18 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Divine"/>
     <property name="Attr3" value="7"/>
   </card>
+  <card id="15b549d3-97e3-472d-b185-75f2a9e237ae" name="Splendiferous Hat">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Accessory"/>
+    <property name="Flavour" value="&quot;No, I'm not talking to you. I'm talking to my hat!&quot; - Balazar"/>
+    <property name="Owner" value="Owner: Balazar"/>
+    <property name="Attr1" value="Recharge this card to add 1d6 to your Intelligence or Knowledge check.&#10;Discard this card to explore your location. The difficulty of your Diplomacy checks during this exploration is increased by 2."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="8"/>
+  </card>
   <card id="0f05e0a0-0e8e-45a1-a877-9d213fae5bd7" name="Goblin Buckler Gun">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -110,6 +170,31 @@
     <property name="Attr1" value="Recharge this card to reduce Combat or Fire damage dealt to you by 3. &#10;Banish this card to reduce all damage dealt to you to 0; a random character at your location is dealt 1 Combat damage. If you are proficient with heavy armors, bury this card instead of banishing it.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="7"/>
+  </card>
+  <card id="6f26096e-c7c4-494b-92b4-390193dcfb6f" name="Paladin's Helm">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
+    <property name="Owner" value="Owner: Seelah"/>
+    <property name="Attr1" value="Recharge this card to reduce damage dealt to you by 2; you may play another armor on this check. If you have the Paladin trait, you may reveal this card instead of recharging it.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="788c3eb3-5e8a-4123-8553-277882ec2f4c" name="Blessing of the Dawnflower">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Sarenrae"/>
+    <property name="Owner" value="Owner: Kyra"/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check, or to add 2 dice to any non-combat Constitution check. If you have the Cleric trait, you may play another blessing on this check.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Constitution"/>
+    <property name="Attr3" value="5"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="OR"/>
   </card>
   <card id="f2aa27e7-a000-48b8-b981-4f100006e58f" name="Blessing of Zarongel">
     <property name="Abr" value="P"/>
@@ -136,6 +221,50 @@
     <property name="Attr2" value="Dexterity&#10;Stealth&#10;Divine"/>
     <property name="Attr3" value="5"/>
   </card>
+  <card id="417d211b-3082-4980-9d3d-fe6efe3aace6" name="Alchemy Lab">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory"/>
+    <property name="Owner" value="Owner: Damiel"/>
+    <property name="Attr1" value="Bury this card to add a random item that has the Alchemical trait from the box to your hand."/>
+    <property name="Attr2" value="Intelligence&#10;Craft"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="9c26dc31-ec6e-4a1c-9e0b-40b2ae730c27" name="Arcane Robes">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Clothing&#10;Magic"/>
+    <property name="Owner" value="Owner: Ezren"/>
+    <property name="Attr1" value="Bury this card to use your Arcane skill instead of any listed skill for your non-combat check.&#10;After playing this card, you may succeed at an Arcane 8 check to recharge this card instead of burying it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="21958215-3c4d-456b-9701-3fea0d075593" name="Arcane Staff">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Staff&#10;Magic"/>
+    <property name="Owner" value="Owner: Seoni"/>
+    <property name="Attr1" value="If you succeed on a combat check that has the Arcane and Attack rolls, recharge this card to examine the top card of your location deck."/>
+    <property name="Attr2" value="Charisma&#10;Arcane"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="de775b3e-7884-43bb-80f1-2f8f62d261db" name="Bag of Sticks">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object"/>
+    <property name="Owner" value="Owner: Lini"/>
+    <property name="Attr1" value="Reveal this card to add 2 to your Survival check or to your check to close a location.&#10;Discard this card to add an ally that has the Animal trait from your discard pile to your hand."/>
+    <property name="Attr2" value="Wisdom&#10;Survival"/>
+    <property name="Attr3" value="8"/>
+  </card>
   <card id="6def1053-007f-4e97-af0a-7686c5438757" name="Birdcruncher Crown">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -148,6 +277,17 @@
     <property name="Attr3" value="8"/>
     <property name="Recharge" value="None"/>
   </card>
+  <card id="e1e540b7-f7fd-4453-b78f-9916e8731ac2" name="Footpad's Boots">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Clothing"/>
+    <property name="Owner" value="Owner: Merisiel"/>
+    <property name="Attr1" value="Recharge this card to add 1 die to your Stealth or Acrobatics check.&#10;Discard this card to add an item from your discard pile to your hand."/>
+    <property name="Attr2" value="Dexterity&#10;Acrobatics&#10;Stealth"/>
+    <property name="Attr3" value="7"/>
+  </card>
   <card id="338d151c-1e91-40dc-8a1a-8e45bc39f6b3" name="Goblin Lockpick">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -157,6 +297,50 @@
     <property name="Flavour" value="&quot;Found a prize that's locked up tight?&#10;Goblin lockpick makes it right!k&#10;Found a door that's vexing you?&#10;Goblin lockpick lets you through!&quot;&#10;--Mogmurch, goblin alchemist"/>
     <property name="Attr1" value="Reveal this card to add 1 die to your Disable check.&#10;Bury this card to defeat a barrier; you are dealt 2d4 Fire damage."/>
     <property name="Attr2" value="Dexterity&#10;Disable&#10;Craft"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="d5f43bea-89e4-48c9-bab1-dc65e1a1cf18" name="Mysterious Disk">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic"/>
+    <property name="Owner" value="Owner: Imrijka"/>
+    <property name="Attr1" value="If you fail a check, bury this card to reroll 1 die; if you have the Inquisitor trait, add another die of the type you are rerolling. You must take the second result."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="882fe12f-84f3-475e-83a4-1806f7044814" name="Seer's Headdress">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory"/>
+    <property name="Owner" value="Owner: Alahazra"/>
+    <property name="Attr1" value="When you examine the top card of any deck, recharge this card to examine the bottom card of that deck.&#10;When you examine the bottom card of any deck, recharge this card to examine the top card of that deck."/>
+    <property name="Attr2" value="Wisdom"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="63b6f9b6-ddf7-4f9f-9587-e38ad05b20af" name="Tankard">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object"/>
+    <property name="Owner" value="Owner: Valeros"/>
+    <property name="Attr1" value="Reveal this card to add 1 plus the current adventure deck number, if any, to your non-combat Constitution or Fortitude check.&#10;When you would banish a card that has the Liquid trait, recharge this card to recharge that card instead."/>
+    <property name="Attr2" value="Fortitude&#10;Craft"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="ade8f714-2505-4cc2-b591-43b997b2a2c0" name="Teapot">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object"/>
+    <property name="Owner" value="Owner: Harsk"/>
+    <property name="Attr1" value="Discard this card to add 1d6 to any Diplomacy or Perception check by a character at your location.&#10;When you play a boon that has the Liquid trait, reveal this card to examine the top card of your location deck."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>
   <card id="b6c26b73-1882-446d-acb5-6f8f61221d9b" name="Fire Sneeze">
@@ -181,6 +365,17 @@
     <property name="Attr2" value="Constutition&#10;Fortitude"/>
     <property name="Attr3" value="6"/>
   </card>
+  <card id="b509ed1d-841e-479e-bae7-5f00f5fd2fdb" name="Frost Giant's Sword +1">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic"/>
+    <property name="Owner" value="Owner: Amiri"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d10+1; you may additionally discard this card to add 2d6 and the Cold trait.&#10;If you aren't proficient with weapons, the difficulty of this check is increased by 4."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="11"/>
+  </card>
   <card id="190754ec-0bd3-40f9-a5dc-d9a474372ef1" name="Goblin Pegleg">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -202,6 +397,28 @@
     <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+1. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you fail a combat check using this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result."/>
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="9"/>
+  </card>
+  <card id="17e1f31c-b8d0-43d1-b7c3-5120e7c8a2b4" name="Temple Sword +1">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic"/>
+    <property name="Owner" value="Owner: Sajan"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength, Dexterity, or Melee skill + 1d8+1; you may additionally recharge a blessing to add your Dexterity die. If you don't have the Monk trait, the difficulty of this check is increased by 4."/>
+    <property name="Attr2" value="Strength&#10;Melee&#10;Dexterity"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="872aafa0-7226-4bc7-a49e-5b3ffcdbe00f" name="Veteran's Longspear">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Spear&#10;Melee&#10;Piercing&#10;2-Handed&#10;Veteran"/>
+    <property name="Owner" value="Owner: Alain"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8 plus the adventure deck number of the current scenario, if any.&#10;If you fail a combat check with this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result. If you fail the second time, reduce the damage dealt to you by 1."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="8"/>
   </card>
   <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)" size="Role">
     <property name="Abr" value="P"/>

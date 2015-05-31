@@ -11,13 +11,12 @@
     <card qty="1" id="039372e8-0ee3-4bc4-9c04-11a401336898">Mace</card>
     <card qty="1" id="fab086de-bc4f-4283-b1eb-19bfb2d4006a">Short Sword</card>
   </section>
-  <section name="Spell" shared="False" />
   <section name="Armor" shared="False">
     <card qty="1" id="d7709442-d4ac-4d40-99de-bd68ea611508">Buckler</card>
     <card qty="1" id="f93261a5-80a5-4c94-b0d8-bacf15569c83">Chain Shirt</card>
   </section>
   <section name="Item" shared="False">
-    <card qty="1" id="11bf459d-08b5-41ff-98db-437fc42c8402">Potion of Fortitude</card>
+    <card qty="1" id="63b6f9b6-ddf7-4f9f-9587-e38ad05b20af">Tankard</card>
     <card qty="1" id="dcf17c6b-4b20-4289-9eb1-507fcdfb69c6">Potion of Glibness</card>
   </section>
   <section name="Ally" shared="False">
@@ -28,6 +27,7 @@
   <section name="Blessing" shared="False">
     <card qty="3" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
   </section>
+  <section name="Spell" shared="False" />
   <section name="Feat" shared="False" />
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
@@ -40,6 +40,7 @@
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
   <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />

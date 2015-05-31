@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
     <card qty="1" id="6e690cea-cfb4-4e63-b1ea-ed7eb60f3bef">Valeros</card>
     <card qty="1" id="c1e43f04-d52d-46a0-b676-8f0bbf3a5079">Valeros</card>
@@ -15,8 +15,8 @@
     <card qty="2" id="ab1d7d2a-4693-47ae-9baa-e2c7a97b5625">Wooden Shield</card>
   </section>
   <section name="Item" shared="False">
+    <card qty="1" id="63b6f9b6-ddf7-4f9f-9587-e38ad05b20af">Tankard</card>
     <card qty="1" id="97221011-9191-43b9-8510-2bcb7400838a">Mattock</card>
-    <card qty="1" id="25f325ff-310e-4fcf-8486-170cf87d676a">Potion of Hiding</card>
   </section>
   <section name="Ally" shared="False">
     <card qty="1" id="17c8ca55-24d0-4453-912f-997336e0e143">Night Watch</card>
@@ -25,4 +25,23 @@
   <section name="Blessing" shared="False">
     <card qty="3" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
   </section>
+  <section name="Spell" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
 </deck>

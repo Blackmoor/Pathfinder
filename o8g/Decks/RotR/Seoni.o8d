@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
     <card qty="1" id="083b2669-d940-44eb-a5a1-a79cdd35dc44">Seoni</card>
     <card qty="1" id="d57dd44c-ca61-4ba6-a8d2-7ca1439a8b77">Seoni</card>
@@ -10,9 +10,9 @@
     <card qty="1" id="c108c625-6c18-4539-b572-262ef990a462">Invisibility</card>
   </section>
   <section name="Item" shared="False">
+    <card qty="1" id="21958215-3c4d-456b-9701-3fea0d075593">Arcane Staff</card>
     <card qty="1" id="50883d35-8770-4004-8b21-3f41c32313d0">Blast Stone</card>
     <card qty="1" id="67006c3c-e958-4bb4-8073-e802b1a03628">Bracers of Protection</card>
-    <card qty="1" id="8f68c6bf-b2ff-4236-b219-74e2233dfaac">Potion of Fortitude</card>
   </section>
   <section name="Ally" shared="False">
     <card qty="1" id="56729519-50fd-49d9-bcbe-98fdce7c61d5">Guard</card>
@@ -35,6 +35,9 @@
   <section name="Item" shared="True" />
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

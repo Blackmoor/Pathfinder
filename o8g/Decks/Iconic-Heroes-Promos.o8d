@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True">
+    <card qty="1" id="63081139-d74a-4d7d-85c4-12a8584a1308">Rogue Eidolon</card>
+  </section>
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True">
+    <card qty="1" id="6f26096e-c7c4-494b-92b4-390193dcfb6f">Paladin's Helm</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="872aafa0-7226-4bc7-a49e-5b3ffcdbe00f">Veteran's Longspear</card>
+    <card qty="1" id="b509ed1d-841e-479e-bae7-5f00f5fd2fdb">Frost Giant's Sword +1</card>
+    <card qty="1" id="17e1f31c-b8d0-43d1-b7c3-5120e7c8a2b4">Temple Sword +1</card>
+  </section>
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True">
+    <card qty="1" id="e1e540b7-f7fd-4453-b78f-9916e8731ac2">Footpad's Boots</card>
+    <card qty="1" id="417d211b-3082-4980-9d3d-fe6efe3aace6">Alchemy Lab</card>
+    <card qty="1" id="882fe12f-84f3-475e-83a4-1806f7044814">Seer's Headdress</card>
+    <card qty="1" id="9c26dc31-ec6e-4a1c-9e0b-40b2ae730c27">Arcane Robes</card>
+    <card qty="1" id="63b6f9b6-ddf7-4f9f-9587-e38ad05b20af">Tankard</card>
+    <card qty="1" id="ade8f714-2505-4cc2-b591-43b997b2a2c0">Teapot</card>
+    <card qty="1" id="21958215-3c4d-456b-9701-3fea0d075593">Arcane Staff</card>
+    <card qty="1" id="d5f43bea-89e4-48c9-bab1-dc65e1a1cf18">Mysterious Disk</card>
+    <card qty="1" id="de775b3e-7884-43bb-80f1-2f8f62d261db">Bag of Sticks</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="214db5fd-26c1-430a-a348-ea79cccb8544">Biter</card>
+    <card qty="1" id="15b549d3-97e3-472d-b185-75f2a9e237ae">Splendiferous Hat</card>
+    <card qty="1" id="bb274b83-19c7-4459-b9bf-6fbbfc62937b">Droogami</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="1" id="788c3eb3-5e8a-4123-8553-277882ec2f4c">Blessing of the Dawnflower</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

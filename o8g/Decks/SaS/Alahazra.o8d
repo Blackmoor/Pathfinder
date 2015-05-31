@@ -4,7 +4,6 @@
     <card qty="1" id="c1c48f4d-abe4-49d3-8c9e-515fc55e203d">Alahazra</card>
     <card qty="1" id="c2414567-7d8f-4657-8c49-ea63886561b6">Alahazra</card>
   </section>
-  <section name="Weapon" shared="False" />
   <section name="Spell" shared="False">
     <card qty="1" id="933d5f1d-81e0-4490-99ef-adb733478c22">Black Spot</card>
     <card qty="1" id="71f201a6-ae7f-44b6-bfd6-b57cb40f955f">Cure</card>
@@ -12,9 +11,8 @@
     <card qty="1" id="b98d3108-71f5-4432-9e8c-816d620b3e67">Inflict</card>
     <card qty="1" id="2ca3c457-992b-45fc-a308-a68c09124e52">Strength</card>
   </section>
-  <section name="Armor" shared="False" />
   <section name="Item" shared="False">
-    <card qty="1" id="df23d3e9-5929-44cd-ac5b-168f79eb6865">Caltrops</card>
+    <card qty="1" id="882fe12f-84f3-475e-83a4-1806f7044814">Seer's Headdress</card>
     <card qty="1" id="2137d0a7-5f92-47b4-97b3-9d404e4c915b">Rum Bottle</card>
   </section>
   <section name="Ally" shared="False">
@@ -25,6 +23,8 @@
   <section name="Blessing" shared="False">
     <card qty="5" id="a7ac4340-2e69-4e6b-a626-78c9fb28c0d6">Blessing of the Gods</card>
   </section>
+  <section name="Weapon" shared="False" />
+  <section name="Armor" shared="False" />
   <section name="Feat" shared="False" />
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
@@ -37,6 +37,7 @@
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
   <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
