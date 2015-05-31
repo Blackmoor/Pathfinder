@@ -26,6 +26,10 @@
 		<location x="26" y="126" />
 		<text color="#000000" size="16" font="Resources/dax-blackcaps.ttf" />
 	</block>
+	<block type="text" id="Owner">
+	    <location x="26" y="230" />
+		<text color="#000000" size="16" font="Resources/dax-blackcaps.ttf" />
+	</block>
 	<block type="text" id="Deck">
 		<location x="126" y="126" />
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
@@ -33,7 +37,7 @@
 	<block type="text" id="StatBlock">
 		<location x="26" y="126" />
 		<text color="#000000" size="12" font="Resources/dax.ttf" />
-		<wordwrap height="120" width="370" />
+		<wordwrap height="130" width="370" />
 	</block>
 	<block type="text" id="Villain">
 		<location x="26" y="126" />
@@ -398,6 +402,9 @@
 		  <link block="Flavour">
 		   <property name="Flavour" />
 		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
+		  </link>
 		</if>
 	  </conditional>
 	 </textblocks>
@@ -442,6 +449,9 @@
 		  <link block="Flavour">
 		   <property name="Flavour" />
 		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
+		  </link>
 		</if>
 	  </conditional>
 	 </textblocks>
@@ -485,6 +495,9 @@
 		  </link>
 		  <link block="Flavour">
 		   <property name="Flavour" />
+		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
 		  </link>
 		</if>
 	  </conditional>
@@ -533,6 +546,9 @@
 		  <link block="Recharge">
 		   <property name="Recharge" />
 		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
+		  </link>
 		</if>
 	  </conditional>
 	 </textblocks>
@@ -579,6 +595,9 @@
 		  </link>
 		  <link block="Recharge">
 		   <property name="Recharge" />
+		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
 		  </link>
 		</if>
 	  </conditional>
@@ -627,6 +646,9 @@
 		  <link block="Recharge">
 		   <property name="Recharge" />
 		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
+		  </link>
 		</if>
 	  </conditional>
 	 </textblocks>
@@ -674,6 +696,9 @@
 		  <link block="Recharge">
 		   <property name="Recharge" />
 		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
+		  </link>
 		</if>
 	  </conditional>
 	 </textblocks>
@@ -717,6 +742,9 @@
 		  </link>
 		  <link block="Flavour">
 		   <property name="Flavour" />
+		  </link>
+		  <link block="Owner">
+		   <property name="Owner" />
 		  </link>
 		</if>
 	  </conditional>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
     <card qty="1" id="bec82ff2-b72b-439c-ad3c-998bf1c8a339">Merisiel</card>
     <card qty="1" id="4632c480-525b-4e9d-a8ab-ff249979aad2">Merisiel</card>
@@ -13,7 +13,7 @@
   </section>
   <section name="Item" shared="False">
     <card qty="1" id="d36556a5-181f-4aa3-95bc-9b1790bb753a">Caltrops</card>
-    <card qty="1" id="4c9debdc-f4df-4911-b851-3051ebd72e23">Crowbar</card>
+    <card qty="1" id="e1e540b7-f7fd-4453-b78f-9916e8731ac2">Footpad's Boots</card>
     <card qty="1" id="c1b5c3cb-b91a-4fd5-8bae-591c0e07eb93">Potion of Glibness</card>
     <card qty="1" id="8e56174d-1d86-47d0-bc9f-43fd422a3834">Potion of Vision</card>
     <card qty="2" id="5ac1fe86-2d16-47bd-a97c-88f402e09f06">Thieve's Tools</card>
@@ -25,4 +25,23 @@
   <section name="Blessing" shared="False">
     <card qty="4" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
   </section>
+  <section name="Spell" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
 </deck>

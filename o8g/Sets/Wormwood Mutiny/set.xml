@@ -215,7 +215,7 @@
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="11"/>
   </card>
-  <card id="ade52ec1-e307-417a-931f-0496bc16e6e8" name="Tigershark">
+  <card id="ade52ec1-e307-417a-931f-0496bc16e6e8" name="Tiger Shark">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>
@@ -319,7 +319,7 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="6"/>
   </card>
-  <card id="1d6b9696-acf5-41e3-bd0e-384aa70f9b01" name="Conchobar Turlach Shortstone">
+  <card id="1d6b9696-acf5-41e3-bd0e-384aa70f9b01" name="Conchobhar Turlach Shortstone">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>

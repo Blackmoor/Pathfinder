@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
     <card qty="1" id="38b5c3c2-424f-486d-9e8f-1bab780d66e7">Seelah</card>
     <card qty="1" id="0aae02bf-54ff-4fe2-b5fc-b07b0aec378b">Seelah</card>
@@ -10,7 +10,7 @@
     <card qty="1" id="a7335f7d-5b10-4daa-9973-623a7ff2fe9a">Longsword</card>
   </section>
   <section name="Armor" shared="False">
-    <card qty="1" id="ab1d7d2a-4693-47ae-9baa-e2c7a97b5625">Wooden Shield</card>
+    <card qty="1" id="6f26096e-c7c4-494b-92b4-390193dcfb6f">Paladin's Helm</card>
     <card qty="1" id="179a095a-b1f9-45c2-b323-57f29723c2af">Chain Mail</card>
     <card qty="1" id="c60f5449-1d16-4ebc-9e6b-25b167e5efaf">Chain Mail</card>
   </section>
@@ -24,4 +24,23 @@
   <section name="Spell" shared="False">
     <card qty="1" id="75419742-cdbc-4e65-89a2-725a835201fc">Cure</card>
   </section>
+  <section name="Item" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
 </deck>

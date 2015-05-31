@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
     <card qty="1" id="a235a0c4-b734-427c-b7cb-17e29c8cae83">Kyra</card>
     <card qty="1" id="5e3e72cf-d81b-4c4a-99cd-42ac702cf73d">Kyra</card>
@@ -24,6 +24,25 @@
     <card qty="1" id="56729519-50fd-49d9-bcbe-98fdce7c61d5">Guard</card>
   </section>
   <section name="Blessing" shared="False">
-    <card qty="6" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+    <card qty="5" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+    <card qty="1" id="788c3eb3-5e8a-4123-8553-277882ec2f4c">Blessing of the Dawnflower</card>
   </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
 </deck>

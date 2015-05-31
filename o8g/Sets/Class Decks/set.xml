@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Class Decks" id="daee2ba5-77b0-4f97-ab27-6cfcd798f346" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.0.0.1">
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Class Decks" id="daee2ba5-77b0-4f97-ab27-6cfcd798f346" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="2.0.0.0">
  <cards>
   <card id="bef13f9d-b961-4cc9-ada2-69306e85288b" name="Acolyte">
     <property name="Abr" value="B"/>
@@ -84,6 +84,12 @@
     <property name="Attr5" value="6"/>
     <property name="Attr6" value="OR"/>
   </card>
+  <card id="74873861-7ecc-469c-ba24-1113cc7bf150" name="Carver">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+  </card>
   <card id="3a77a966-0c85-4609-a1e8-e2d06d75f9e5" name="Cat">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
@@ -93,6 +99,12 @@
     <property name="Attr1" value="Reveal this card to add 2 to your check to recharge a spell.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Wisdom&#10;Survival&#10;Intelligence&#10;Arcane"/>
     <property name="Attr3" value="8"/>
+  </card>
+  <card id="788de1dc-a105-4c01-b527-f5b1a8ed762d" name="Chameleon">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
   </card>
   <card id="8e5a7047-f912-4842-bece-a6b732f78d90" name="Charmed Red Dragon">
     <property name="Abr" value="5"/>
@@ -415,12 +427,6 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="7"/>
   </card>
-  <card id="29ed982a-83e8-4fee-8ce3-b1109e50ca2f" name="Phantasmal Minion">
-    <property name="Abr" value="B"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Ally"/>
-  </card>
   <card id="316f8fe6-1895-4473-9070-d7fdbffbbb7d" name="Princeling">
     <property name="Abr" value="6"/>
     <property name="Copyright" value="Yes."/>
@@ -719,12 +725,6 @@
   </card>
   <card id="11fa897d-e44f-4cc9-a393-61159a2d9b9c" name="Arrow Catching Studded Leather">
     <property name="Abr" value="2"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Armor"/>
-  </card>
-  <card id="3afe6092-a038-4ea4-b727-0d3011280abb" name="Beast Skin">
-    <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
@@ -2025,6 +2025,12 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
   </card>
+  <card id="8ca1ee4d-687e-4308-877e-cdd70aadf10b" name="Net of Snaring">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+  </card>
   <card id="dab57dd1-a355-4ae0-9422-026bb0c3fb7d" name="Pearl of Magic">
     <property name="Abr" value="6"/>
     <property name="Copyright" value="Yes."/>
@@ -2311,6 +2317,12 @@
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>
+  <card id="3afe6092-a038-4ea4-b727-0d3011280abb" name="Beast Skin">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+  </card>
   <card id="ed223118-217f-478a-9bf2-64afbfe982a6" name="Bewilder">
     <property name="Abr" value="6"/>
     <property name="Copyright" value="Yes."/>
@@ -2343,12 +2355,6 @@
   </card>
   <card id="846b443f-b69a-457d-8a51-6a10c8ba89b6" name="Call Weapon">
     <property name="Abr" value="B"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Spell"/>
-  </card>
-  <card id="788de1dc-a105-4c01-b527-f5b1a8ed762d" name="Chameleon">
-    <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
@@ -2628,7 +2634,7 @@
     <property name="Attr3" value="6"/>
   </card>
   <card id="cfe13231-47f8-4e51-8fe3-f135348e255e" name="Incendiary Cloud">
-    <property name="Abr" value="2"/>
+    <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
@@ -2741,6 +2747,12 @@
     <property name="Attr1" value="Discard this card to evade a non-villain monster; put it on the top or bottom of the location deck it came from.&#10;After playing this card, if you do not have the Arcane or Divine skill, banish it; otherwise, succeed at an Arcane or a Divine 10 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="8"/>
+  </card>
+  <card id="29ed982a-83e8-4fee-8ce3-b1109e50ca2f" name="Phantasmal Minion">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
   </card>
   <card id="586bdd1a-5e24-46ad-a453-7d386a95c44e" name="Poison Blast">
     <property name="Abr" value="4"/>
@@ -3010,12 +3022,6 @@
     <property name="Subtype" value="Weapon"/>
   </card>
   <card id="9a406950-55af-4d9a-b132-d036dd76a359" name="Bastard Sword">
-    <property name="Abr" value="B"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Weapon"/>
-  </card>
-  <card id="74873861-7ecc-469c-ba24-1113cc7bf150" name="Carver">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
@@ -3354,12 +3360,6 @@
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Mace&#10;Melee&#10;Piercing&#10;Magic&#10;Elite"/>
     <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8+1; you may additionally discard this card to add another 1d4.&#10;You may play this card as if it has the Bludgeoning trait instead of the Piercing trait."/>
-  </card>
-  <card id="8ca1ee4d-687e-4308-877e-cdd70aadf10b" name="Net of Snaring">
-    <property name="Abr" value="4"/>
-    <property name="Copyright" value="Yes."/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Weapon"/>
   </card>
   <card id="2f7d144f-f65f-4109-ad76-61943712fcde" name="Quarterstaff">
     <property name="Abr" value="B"/>

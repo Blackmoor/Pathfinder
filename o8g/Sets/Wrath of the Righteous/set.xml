@@ -72,8 +72,27 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Cohort"/>
     <property name="Traits" value="Animal&#10;Mount&#10;Veteran"/>
+    <property name="Owner" value="Owner: Alain"/>
     <property name="Attr1" value="Reveal this card to move at the end of your turn; if you have a role card, you may move another character to your location.&#10;Put this card on top of your deck to add 1d8 plus the scenario's adventure deck number to your combat check that has the Melee trait.&#10;When you reset your hand, you may shuffle this card into your deck."/>
-    <property name="Attr2" value="Owner: Alain"/>
+  </card>
+  <card id="1659e32d-eef0-434c-9e53-804f87f91af3" name="Padrig">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Cohort"/>
+    <property name="Traits" value="Outsider&#10;Eidolon&#10;Arcane&#10;Veteran"/>
+    <property name="Owner" value="Owner: Balazar"/>
+    <property name="Attr1" value="Display this card. While displayed, when you attempt a Strength check and do not play a weapon, you may put a card on top of your deck to add your Arcane skill plus the scenario's adventure deck number to that check. You may banish any number of monsters; for each monster banished, add 1d4 to the check, or 1d6 if you have a role card. If you are encountering a monster, add another 1d6 for each monster banished that shares a trait other than Basic or Elite with the monster you are encountering."/>
+  </card>
+  <card id="8429f15b-acb9-479f-bc52-97718f79d1a7" name="Demon Hunter's Handbook">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Book&#10;Veteran"/>
+    <property name="Attr1" value="Recharge this card to add 1d4 plus the bane's adventure deck number to your check against a bane that has the Cultist or Demon trait. After playing this card, you may succeed at an Intelligence or Knowledge check with a difficulty of 5 plus twice the bane's adventure deck number to reveal this card instead of recharging it."/>
+    <property name="Attr2" value="Intelligence&#10;Knowledge"/>
+    <property name="Attr3" value="9"/>
   </card>
   <card id="c2f77832-71b3-47d7-8cbe-366ea5a3da02" name="Mythic Archmage" size="Character">
     <property name="Abr" value="B"/>
@@ -82,12 +101,318 @@
     <property name="Subtype" value="Mythic Path"/>
     <property name="Attr1" value="Add your number of mythic charges to your Intelligence or Charisma check. Then you may expend 1 or more charges. If you do, ignore a bane's immunities on this check, and when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20.&#10;Expend 5 mythic charges to examine all the cards in a location, character, or blessing deck; you may shuffle that deck."/>
   </card>
+  <card id="b05f57b3-00b0-4eff-99a3-ac9b78b16d03" name="Mythic Champion" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Strength or Dexterity check. Then you may expend 1 or more charges. If you do, ignore effects that increase the difficulty of the check, and when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20.&#10;Expend 5 mythic charges to ignore the powers on a non-villain monster you encounter; if the monster is a henchman from a location deck and is defeated, you may attempt to close the location."/>
+  </card>
   <card id="0a295833-d861-4dfb-a778-00382cc9d9d5" name="Mythic Guardian" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Mythic Path"/>
     <property name="Attr1" value="Add your number of mythic charges to your Strength or Constitution check. Then you may expend 1 or more charges. If you do, when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20 and you may reroll any dice that rolled a value of 1; take the new result.&#10;When a character is attempting to close your location, you may expend 5 mythic charges; that character does not need to fulfill the When Closing requirement and automatically closes the location."/>
+  </card>
+  <card id="45a8a7fc-41b5-4809-be33-c91f9162d3c4" name="Mythic Hierophant" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Wisdom or Charisma check. Then you may expend 1 or more charges. If you do, when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20, and after the check, a character at your location may shuffle 1 card from her discard pile into her deck.&#10;Expend 5 mythic charges to allow a dead character to shuffle 10 of his buried cards at random into his character deck and draw a new hand. That character is no longer dead."/>
+  </card>
+  <card id="057001d4-ae4b-4ac2-9263-6b39eba04a50" name="Mythic Marshal" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Strength or Charisma check. Then you may expend 1 or more charges. If you do, after you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20, and if you succeed at the check, choose another character at your location to get a charge.&#10;When a character at your location encounters a card, you may give 5 of your mythic charges to other characters at your location, you choose how to distribute them."/>
+  </card>
+  <card id="54d4ee64-dde3-4e75-b543-a492a41e0943" name="Mythic Trickster" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Dexterity or Intelligence check. Then you may expend 1 or more charges. If you do, after you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20, and after the encounter, you may move, ignoring any movement restrictions.&#10;Expend 5 mythic charges to evade a bane, ignoring any effects that prevent you from evading. If it is your turn, you may immediately explore your location."/>
+  </card>
+  <card id="456bd0c2-40cd-4290-9c91-9d065eb2c83f" name="Alain (Glory Hound)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
+    <property name="Attr4" value="Donahan"/>
+    <alternate name="Alain (Glory Hound)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
+      <property name="Flavour" value="Given everything the glory hounds say they've done, it's a wonder so much remains to be done."/>
+      <property name="Attr1" value="You may discard a card to add 1 ([ ] 2) ([ ] 3) plus its adventure deck number to your check to defeat a non-villain monster. If undefeated, return it to the top ([ ] or under the top card) of its location deck. Other characters may not play cards or use powers on this check.&#10;At the end of your turn, you may recharge any number of weapons ([ ] or allies or items).&#10;[ ] When you play an ally to explore your location, you may add your Diplomacy skill and the Mental trait to your Melee checks ([ ] or checks to acquire items) during that exploration.&#10;[ ] When another character at your location would encounter a monster ([ ] or a weapon), discard ([ ] or recharge) a card; you encounter it instead."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="f0d4a9ba-acc2-47c4-85e1-b2a2b274e804" name="Alain (Lancer)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6  [ ] 7&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
+    <property name="Attr4" value="Donahan"/>
+    <alternate name="Alain (Lancer)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
+      <property name="Flavour" value="When they're on horseback, lancers cannot be unseated. When they're not, watch out for their hourses."/>
+      <property name="Attr1" value="You may discard a card to add 1 ([ ] 2) plus its adventure deck number to your check to defeat a non-villain monster. If undefeated, return it to the top of its location deck. Other characters may not play cards or use powers on this check. ([ ] If desired, recharge a random card from your discard pile.)&#10;At the end of your turn, you may recharge any number of weapons ([ ] or allies or items).&#10;[ ] Recharge a card ([ ] or put it on top of your deck) to search your deck or discard pile for a card that has the Mount trait and add it to your hand.&#10;[ ] When you would discard a weapon that has the Polearm or Spear trait for its power, recharge it instead ([ ] or shuffle it into your deck) ([ ] or put it on top of your deck).&#10;[ ] On your turn, discard a card that has the Mount trait ([ ] or put it on the top of your deck) to move to another location and examine the top card of that location deck. If it is a monster, you may encounter it."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="769ec374-b186-420c-93da-c26e969c7fa8" name="Balazar (Eidolomancer)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Gnome&#10;Summoner"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 5  [ ] 6  [ ] 7  [ ] 8 &#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5  [ ] 6&#10;Blessing: 4  [ ] 5"/>
+    <property name="Attr3" value="Spell"/>
+    <property name="Attr4" value="Padrig"/>
+    <alternate name="Balazar (Eidolomancer)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Gnome&#10;Summoner"/>
+      <property name="Flavour" value="Eidolomancers shape their eidolons into bizarre creations. Sometimes they ride inside them."/>
+      <property name="Attr1" value="After you play a spell that has the Attack trait, banish it.&#10;You may discard a spell to draw a random monster from the box.&#10;When you defeat a monster and would banish it, you may add it to your hand ([ ] and you may draw a card) instead. You may banish a monster from your hand to draw a card ([ ] or add 1d4 to any check to defeat a barrier) ([ ] or to any check to acquire a weapon, an armor, or an item) ([ ] or move after an encounter) ([ ] or reroll your failed combat check).&#10;[ ] While you are displaying a cohort that has the Eidolon trait, you may use your Strength skill instead of your Constitution or Fortitude ([ ] or Dexterity or Stealth) skill on your checks.&#10;[ ] When a character plays a blessing on your Strength check, you may add 1d12 instead of the normal die. ([ ] If the blessing has the Basic trait, it may be recharged instead of discarded.)"/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +2"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9"/>
+      <property name="Attr4" value="Light Armors"/>
+    </alternate>
+  </card>
+  <card id="3a2ffcec-8837-4562-afd3-1fefa33154b8" name="Balazar (Tyrannomancer)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Gnome&#10;Summoner"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 5  [ ] 6  [ ] 7  [ ] 8 &#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5  [ ] 6&#10;Blessing: 4  [ ] 5"/>
+    <property name="Attr3" value="Spell"/>
+    <property name="Attr4" value="Padrig"/>
+    <alternate name="Balazar (Tyrannomancer)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Gnome&#10;Summoner"/>
+      <property name="Flavour" value="When monsters gather, tyrannomancers gather monsters."/>
+      <property name="Attr1" value="After you play a spell that has the Attack trait, banish it. ([ ] After you play a spell that does not have the Attack trait, you may draw a card.)&#10;You may discard ([ ] or recharge) a spell to draw a random monster from the box.&#10;When you defeat a monster and would banish it, you may add it to your hand ([ ] and you may shuffle a random monster from the box into your deck) instead. You may banish a monster from your hand ([ ] or discard pile) to draw a card ([ ] or add 1d4 to any check to defeat a barrier) ([ ] or to any check to acquire a weapon, an armor, or an item) ([ ] or reduce damage dealt to a character at your location by 3) ([ ] or add 1d6 to any combat check by a character at your location).&#10;[ ] Add 1d8 to any check by a character at your location against a summoned monster. ([ ] When you defeat a summoned monster, you may draw a random monster from the box.)"/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +2"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Light Armors"/>
+    </alternate>
+  </card>
+  <card id="f3d1fed9-d9d4-4c77-b965-8ad0e972dbef" name="Enora (Eldritch Savant)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9 &#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Enora (Eldritch Savant)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+      <property name="Flavour" value="Eldritch savants revel in unearthing the deepest secrets of spellcasters long departed."/>
+      <property name="Attr1" value="When you attempt a check to acquire a spell ([ ] or an item), you may use your Knowledge skill in place of any listed skill.&#10;After you play a spell, you may recharge a random spell from your discard pile ([ ] or shuffle it into your deck).&#10;Discard ([ ] or recharge) a spell to reduce Cold or Fire ([ ] or Acid, Electricity, or Force) damage dealt to you ([ ] or to any character at your location) to 0.&#10;[ ] You may discard a card to examine the top card of your deck ([ ] and you may recharge the examined card); if it is a spell, you may add it to your hand.&#10;[ ] When you play a spell that has the Cold or Fire ([ ] or Acid, Electricity, or Force) traits, you may replace any one of those traits with another of those traits."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d4  [ ] +1&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +1&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8  [ ] 9"/>
+    </alternate>
+  </card>
+  <card id="76aeb6c7-8437-4c34-8996-c2fe7d9c2ce5" name="Enora (Occularium Scholar)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9 &#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Enora (Occularium Scholar)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+      <property name="Flavour" value="The scholars of the Occularium welcome all to their libraries, but they would prefer you keep it down."/>
+      <property name="Attr1" value="When you attempt a check to acquire a spell ([ ] or an item) ([ ] or you attempt to defeat a barrier), you may use your Knowledge skill in place of any listed skill.&#10;After you play a spell, you may recharge a random spell from your discard pile.&#10;Discard a spell ([ ] or a boon that has the Book trait) to reduce Cold or Fire ([ ] or Acid, Electricity, or Force) damage dealt to you ([ ] or to any character at your location) to 0.&#10;[ ] You may reveal a boon that has the Book trait to add 1d4 ([ ] +1) ([ ] +2) to your check.&#10;[ ] At the start of your turn, you may recharge a boon that has the Book trait to examine the top 3 cards of your location deck, or recharge a spell to examine the top 3 cards of your deck. ([ ] Put them back in any order.)"/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d4  [ ] +1&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +1&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
+    </alternate>
+  </card>
+  <card id="02907251-e384-47d2-ab33-61591122fff0" name="Harsk (Abyssal Walker)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Dwarf&#10;Ranger"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Harsk (Abyssal Walker)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Dwarf&#10;Ranger"/>
+      <property name="Flavour" value="Abyssal walkers are willing to go where no rational parson would go. And then they'll go even farther."/>
+      <property name="Attr1" value="You may evade a bane you encounter that has the Animal or Vermin ([ ] or Demon) trait; otherwise, add 1d4 ([ ] 2d4) to your checks against it.&#10;When you would bury or discard a weapon that has the Ranged trait for its power, you may recharge it instead.&#10;[ ] At the start ([ ] or end) of your turn, you may examine the top card ([ ] or 2 cards) of the location deck ([ ] and you may move to a location that has the Abyssal trait).&#10;[ ] When you close ([ ] or a character at your location closes) a location that has the Abyssal trait, you may acquire a boon from your location deck.&#10;[ ] On your turn, if you are at a location that has the Abyssal trait, you may discard the top card of your deck ([ ] or a card from your hand) to ignore your location's At This Location power until the end of the turn."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3 [ ] +4&#10;  Ranged: Dexterity +3&#10;  Stealth: Dexterity +2&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1 [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="6678133a-89c6-4c39-9da7-ebbba8e6d959" name="Harsk (Demonslayer)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Dwarf&#10;Ranger"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Harsk (Demonslayer)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Dwarf&#10;Ranger"/>
+      <property name="Flavour" value="The demonslayers of the Worldwound have one goal: to be put out of work."/>
+      <property name="Attr1" value="You may evade a bane you encounter that has the Animal or Vermin ([ ] or Demon) trait ([ ] and you may put it on top of its location deck); otherwise, add 1d4 ([ ] 2d4) ([ ] 2d6) to your checks against it.&#10;When you would bury or discard a weapon that has the Ranged trait for its power, you may recharge it instead.&#10;[ ] When you attempt a Knowledge check against a monster, you may use your Survival skill instead of your Knowledge skill.&#10;[ ] If you would fail a check against a bane that has the Demon trait, you may reroll 1 die; take the new result.&#10;[ ] On your first exploration, if you defeat a bane that has the Demon trait, you may explore again.&#10;[ ] You may recharge a card to add 1d4 ([ ] +1) to another character's check to defeat a bane that has the Demon trait."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3 [ ] +4&#10;  Ranged: Dexterity +3&#10;  Stealth: Dexterity +2&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1 [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="622de7fe-3639-4894-b0e5-b0c44b218d94" name="Imrijka (Cold Iron Warden)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Half-orc&#10;Inquisitor"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7&#10;Spell: 1  [ ] 2  [ ] 3&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3&#10;Ally: 1  [ ] 2&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
+    <property name="Attr3" value="Weapon or Blessing"/>
+    <alternate name="Imrijka (Cold Iron Warden)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Half-orc&#10;Inquisitor"/>
+      <property name="Flavour" value="The crazed cultists of the Worldwound fear cold iron wardens. They're crazed, not stupid."/>
+      <property name="Attr1" value="[ ] You gain the skill Perception: Wisdom +2.&#10;You may recharge ([ ] or reveal) a card that has the Divine or Ranged trait to add 1d4 and the Divine and Magic traits to your check against a monster ([ ] If that monster has the Cultist trait, add another 1d8.).&#10;When you defeat a monster on your turn, ([ ] you may examine the top card of your location deck, and if it is not a monster, put it on the bottom of the location deck, then) you may roll d6; on a ([ ] 3,) 4, 5, or 6, explore your location.&#10;[ ] When you attempt a Diplomacy check, you may use your Strength skill instead of your Diplomacy skill.&#10;[ ] When you play a Blessing of Pharasma on any check to defeat a bane, you may recharge it ([ ] or put it on top of your deck) instead of discarding it.&#10;[ ] You may evade a barrier you encounter ([ ] and you may put it on the bottom of its location deck)."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Strength +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Wisdom +2&#10;  Divine: Wisdom +1&#10;Charisma: d6  [ ] +1"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="21c1cc03-746f-447b-a442-452568eb2421" name="Imrijka (Wandering Judge)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Half-orc&#10;Inquisitor"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7&#10;Spell: 1  [ ] 2  [ ] 3&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3&#10;Ally: 1  [ ] 2&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
+    <property name="Attr3" value="Weapon or Blessing"/>
+    <alternate name="Imrijka (Wandering Judge)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Half-orc&#10;Inquisitor"/>
+      <property name="Flavour" value="When the wandering judges visit, you'd better be a really good liar or a really good truth either."/>
+      <property name="Attr1" value="[ ] You gain the skill Perception: Wisdom +2.&#10;You may recharge ([ ] or reveal) a card that has the Divine or Ranged trait to add 1d4 and the Divine and Magic traits to your check against a monster.&#10;When you defeat a monster on your turn, you may roll d6; on a ([ ] 3,) 4, 5, or 6, explore your location ([ ] and before you explore, you may draw a card). ([ ] Add 1d4 to your checks during this exploration.)&#10;[ ] Recharge a card that has the Ranged or Divine trait to add 1d4 ([ ] +1) ([ ] +2) to a combat check at another location.&#10;[ ] When you play a blessing that matches the top card of the blessings discard pile into the blessings deck.&#10;[ ] Add 2 to your check to acquire an ally or a blessing.."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Strength +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Wisdom +2&#10;  Divine: Wisdom +1&#10;Charisma: d6  [ ] +1"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="0e79c0c8-898e-48cb-bf3a-22c4fee5d8b6" name="Kyra (Dawnflower's Flare)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Cleric"/>
+    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 5  [ ] 6  [ ] 7&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Kyra (Dawnflower's Flare)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Cleric"/>
+      <property name="Flavour" value="Dawnflower's flares are servitors of Sarenrae who cleanse the world with truth and fire. Mostly fire."/>
+      <property name="Attr1" value="For your check to defeat a bane that has the Demon or Undead trait, you may recharge ([ ] or shuffle into your deck) a spell ([ ] or blessing) to use your Divine skill + 1d8 ([ ] 2d8) and add the Attack, Divine, and Magic traits. ([ ] You may add an additional 1d8 and the Fire trait.)&#10;When you use the above power or play a blessing that does not have the Corrupted trait on another character's ([ ] or your) check to defeat, a character at your location may shuffle 1 random card from his discard pile into his deck after the check.&#10;[ ] When you play a blessing on your check to defeat a bane that has the Demon or Undead trait, you may recharge that blessing.&#10;[ ] Add 1d4 ([ ] +2) to your check to recharge a card that has the Attack trait.&#10;[ ] When another character plays a Blessing of Sarenrae on your check, that character may recharge it ([ ] and a random card from her discard pile)."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, [ ] Weapons"/>
+    </alternate>
+  </card>
+  <card id="4116d22f-9eed-47df-8ddb-1f63fb80932f" name="Kyra (Everlight's Grace)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Cleric"/>
+    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 5  [ ] 6  [ ] 7&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Kyra (Everlight's Grace)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Cleric"/>
+      <property name="Flavour" value="Everlight's graces gather the infirm and downtrodden, turning them into champions of justice."/>
+      <property name="Attr1" value="For your check to defeat a bane that has the Demon or Undead trait, you may recharge a spell ([ ] or blessing) to use your Divine skill + 1d8 ([ ] 2d6) and add the Attack, Divine, and Magic traits.&#10;When you use the above power or play a blessing that does not have the Corrupted trait on another character's ([ ] or your) check to defeat, a character at your location may shuffle 1 random card ([ ] of a type of your choice) from his discard pile into his deck after the check.&#10;[ ] When you play a boon that has the Healing trait on a character, any armors ([ ] or allies) that would be shuffled into that character's deck may be put into that character's hand instead. ([ ] Then you may recharge the boon.)&#10;[ ] When you ([ ] or a character at your location) would bury an armor for its powers, that character may discard it instead."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, [ ] Weapons"/>
+    </alternate>
   </card>
   <card id="50014b67-4c4c-4494-aa2c-5b3b50b738ba" name="Seelah (Inheritor's Blade)" size="Role">
     <property name="Abr" value="B"/>
@@ -150,10 +475,116 @@
       <property name="Type" value="Character"/>
       <property name="Subtype2" value="Back"/>
       <property name="Traits" value="Male&#10;Human&#10;Cavalier"/>
+      <property name="Flavour" value="Alain learned at an early age that his gifts lent themselves equally well to the pursuits of physical prowess and physical pleasure. Since his boring life in a settled house of minor nobility promised no great quantity of either opportunity, the youth gathered his personal effects and styled himself a sellsword, willing to dispense death on the battlefield for the right price. Astride his trusty steed Donahan, Alain commands soldiers and serving maids alike with cool authority."/>
       <property name="Attr1" value="You may discard a card to add 1 ([ ] 2) plus its adventure deck number to your check to defeat a non-villain monster. If undefeated, return it to the top of its location deck. Other characters may not play cards or use powers on this check.&#10;At the end of your turn, you may recharge any number of weapons ([ ] or allies or items)."/>
       <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +3"/>
       <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
       <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="6209b1b4-2d3c-4340-8101-59f1c3209fd0" name="Balazar" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Gnome&#10;Summoner"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 5  [ ] 6  [ ] 7  [ ] 8 &#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5  [ ] 6&#10;Blessing: 4  [ ] 5"/>
+    <property name="Attr3" value="Spell"/>
+    <property name="Attr4" value="Padrig"/>
+    <alternate name="Balazar" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Gnome&#10;Summoner"/>
+      <property name="Flavour" value="Balazar was taken from his family at a young age. To fulfill an esoteric prophecy, he was put to work studying magic in an arcane academy. After pulling off too many glorious pranks, his instructors exiled him to the fleshforges and forced him to literally stare into the Abyss. As he contemplated his demise, Balazar made contact with an eidolon who offered aid in exchange for a solid form. Now Balazar roams the world, learning new things and causing trouble."/>
+      <property name="Attr1" value="After you play a spell that has the Attack trait, banish it.&#10;You may discard a spell to draw a random monster from the box.&#10;When you defeat a monster and would banish it, you may add it to your hand instead. You may banish a monster from your hand to draw a card ([ ] or add 1d4 to any check to defeat a barrier) ([ ] or to any check to acquire a weapon, an armor, or an item)."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +2"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Light Armors"/>
+    </alternate>
+  </card>
+  <card id="fb882f92-3b22-491b-a9fa-fcd481c6e1e7" name="Enora" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 6  [ ] 7  [ ] 8  [ ] 9 &#10;Armor: -&#10;Item: 3  [ ] 4  [ ] 5  [ ] 6&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Enora" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Arcanist"/>
+      <property name="Flavour" value="Like many halflings, Enora is driven by a combination of curiosity and luck. Her work on artifact analysis at the Occularium has led her to the worship of Nethys, god of magic, whose worship is forbidden in her homeland. Fortunately, her love of adventure has lessened the strain of her wayfaring lifestyle. Armed with her magical training and a few good books, Enora is always on the lookout for new nuggets of esoteric lore."/>
+      <property name="Attr1" value="When you attempt a check to acquire a spell ([ ] or an item), you may use your Knowledge skill in place of any listed skill.&#10;After you play a spell, you may recharge a random spell from your discard pile.&#10;Discard a spell to reduce Cold or Fire ([ ] or Acid, Electricity, or Force) damage dealt to you ([ ] or to any character at your location) to 0."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d4  [ ] +1&#10;Intelligence: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Intelligence +1&#10;  Craft: Intelligence +1&#10;  Knowledge: Intelligence +3&#10;Wisdom: d6  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="6  [ ] 7"/>
+    </alternate>
+  </card>
+  <card id="fc3f3149-c274-4a5f-92e1-7562539cfa4a" name="Harsk" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Dwarf&#10;Ranger"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Harsk" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Dwarf&#10;Ranger"/>
+      <property name="Flavour" value="Harska has always been an unusual sort of dwarf, preferring open skies to cramped underground halls, the flexibility of a crossbow to the sturdiness of an axe, and tea to ale-it keeps his senses sharp. A gruff and driven dwarf, he left his home to fulfill a vow of justice to avenge his brother's death at the hands of raiding giants. He has since learned much of the world, its lands, its beasts, and its fast array of people and places worth protecting."/>
+      <property name="Attr1" value="You may evade a bane you encounter that has the Animal or Vermin ([ ] or Demon) trait; otherwise, add 1d4 ([ ] 2d4) to your checks against it.&#10;When you would bury or discard a weapon that has the Ranged trait for its power, you may recharge it instead."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3 [ ] +4&#10;  Ranged: Dexterity +3&#10;  Stealth: Dexterity +2&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d6  [ ] +1 [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +1&#10;  Survival: Wisdom +2&#10;Charisma: d4  [ ] +1"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="c8cb5f95-079f-4f99-b2e6-d8314e1a3776" name="Imrijka" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Half-orc&#10;Inquisitor"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7&#10;Spell: 1  [ ] 2  [ ] 3&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3&#10;Ally: 1  [ ] 2&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
+    <property name="Attr3" value="Weapon or Blessing"/>
+    <alternate name="Imrijka" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Half-orc&#10;Inquisitor"/>
+      <property name="Flavour" value="Half-orc orphans aren't a common sight in the church of Pharasma, goddess of fate and death. But Imrijka isn't a common half-orc. Taken in by the church's high exorcist and trained as an inquisitor, Imrijka brings judgment to all who would violate the laws of life and death, keeping close a mysterious disk that might hold the key to the truth of her parentage. Imrijka's seen it all. She faces the future with courage and faith."/>
+      <property name="Attr1" value="[ ] You gain the skill Perception: Wisdom +2.&#10;You may recharge ([ ] or reveal) a card that has the Divine or Ranged trait to add 1d4 and the Divine and Magic traits to your check against a monster.&#10;When you defeat a monster on your turn, you may roll d6; on a ([ ] 3,) 4, 5, or 6, explore your location."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Strength +1&#10;Dexterity: d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Wisdom +2&#10;  Divine: Wisdom +1&#10;Charisma: d6  [ ] +1"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="00967f6b-ee03-40c3-93ca-405610454e1e" name="Kyra" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Cleric"/>
+    <property name="Attr2" value="Weapon: 1  [ ] 2&#10;Spell: 5  [ ] 6  [ ] 7&#10;Armor: 1  [ ] 2&#10;Item: 1  [ ] 2&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Kyra" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Cleric"/>
+      <property name="Flavour" value="Kyra and her family grea up near a small temple to Sarenrae, the goddess of healing, honesty, redemption, and the sun. When bandits attacked Kyra's village, Sarenrae's priestesses defended the innocent, driving off the raiders at the cost of their lives and their sanctuary. Standing in the burned ruin of the temple, young Kyra sword her life and sword arm to the goddess, promising mercy to the deserving and a quick death to those who spread darkness."/>
+      <property name="Attr1" value="For your check to defeat a bane that has the Demon or Undead trait, you may recharge a spell ([ ] or blessing) to use your Divine skill + 1d8 and add the Attack, Divine, and Magic traits.&#10;When you use the above power or play a blessing that does not have the Corrupted trait on another character's ([ ] or your) check to defeat, a character at your location may shuffle 1 random card from his discard pile into his deck after the check."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d4  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2&#10;  Knowledge: Intelligence +2&#10;Wisdom: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, [ ] Weapons"/>
     </alternate>
   </card>
   <card id="bae0fb94-2473-47ed-b7c8-4103abb2e5c2" name="Seelah" size="Character">
@@ -170,6 +601,7 @@
       <property name="Type" value="Character"/>
       <property name="Subtype2" value="Back"/>
       <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+      <property name="Flavour" value="As a starving young orphan, Seelah encountered a paladin and became fascinated by her shining helm. She stole the helmet, an act that led to the paladin's death in a subsequent battle. In the aftermath, the guilt-stricken girl climbed onto the holy warrior's pyre, only to be saved by the other paladins, who took her in and made her one of them. At first, Seelah fought to atone for her deeds, but she has since become a full and devout champion of Iomedae, goddess of justice."/>
       <property name="Attr1" value="When you attempt a check before you act, you may use your Charisma skill instead of any listed skill.&#10;You may discard the top card of your deck to add 1d6 ([ ] +1) to any check by a character at your location. ([ ] If that character defeats a monster on that check, he may draw a card.)&#10;When you acquire a boon that has the Corrupted trait, bury it."/>
       <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d4  [ ] +1&#10;Constitution: d8  [ ] +1  [ ] +2&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +1&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +1"/>
       <property name="Attr3" value="4  [ ] 5  [ ] 6"/>

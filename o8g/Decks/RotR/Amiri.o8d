@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
     <card qty="1" id="f24e8e24-d3e6-4099-b732-f984d4e0d3e4">Amiri</card>
     <card qty="1" id="8fd8ad5d-f765-4671-947b-3abedc2feec0">Amiri</card>
@@ -7,7 +7,7 @@
   <section name="Weapon" shared="False">
     <card qty="1" id="2a4d88cf-f482-43c9-95b4-79392202dffd">Longspear</card>
     <card qty="1" id="a7335f7d-5b10-4daa-9973-623a7ff2fe9a">Longsword</card>
-    <card qty="1" id="dacdc5d5-32fa-4a8d-8fce-aa1ffd5dc5bd">Quarterstaff</card>
+    <card qty="1" id="b509ed1d-841e-479e-bae7-5f00f5fd2fdb">Frost Giant's Sword +1</card>
     <card qty="1" id="2e232eff-6a33-4f3e-89da-e8cfc3759579">Short Sword</card>
     <card qty="1" id="70f48d89-506e-4400-b7e6-1b11d563db13">Short Sword</card>
   </section>
@@ -38,6 +38,9 @@
   <section name="Item" shared="True" />
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.112.250"
-		version="2.1.10.6"
+		version="2.1.10.9"
 		scriptVersion="3.1.0.1"
 		markersize="10"
 		tags="Pathfinder"
@@ -65,8 +65,9 @@
 	<property name="Attr8" type="String" hidden="True" ignoreText="False" />
     <property name="Attr9" type="String" hidden="True" ignoreText="False" />
 	<property name="Flavour" type="String" hidden="True" ignoreText="False" />
+	<property name="Owner" type="String" hidden="True" ignoreText="False" />
 	<property name="Recharge" type="String" hidden="True" ignoreText="False" />
-	<size name="Character" back="Resources/card.jpg" front="Resources/card.jpg" width="88" height="63" cornerRadius="3"/>
+	<size name="Character" back="Resources/card.jpg" front="Resources/card.jpg" width="63" height="88" cornerRadius="3"/>
 	<size name="Role" back="Resources/card.jpg" front="Resources/card.jpg" width="88" height="63" cornerRadius="3"/>
  </card>
   <table name="Table" visibility="undefined" ordered="False" width="700" height="300" background="Resources/background.jpg" backgroundStyle="uniformToFill">

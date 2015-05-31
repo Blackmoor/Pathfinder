@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="WotR Character Add On" id="4db0d3bc-f639-4c90-938c-db54dedfd30a" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="3.0.0.0">
  <cards>
+  <card id="7aa317a6-554a-4120-ab18-e640b68e3050" name="Kolo">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Cohort"/>
+    <property name="Traits" value="Animal&#10;Spirit&#10;Divine&#10;Veteran"/>
+    <property name="Owner" value="Owner: Shardra"/>
+    <property name="Attr1" value="Reveal this card to add 3 to your Knowledge check.&#10;Recharge this card to add 1d8 plus the scenario's adventure deck number to a check by a character at your location to defeat a barrier or close a location."/>
+  </card>
+  <card id="8d83895c-abee-444e-90c0-93124f1c3c8f" name="Leryn">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Cohort"/>
+    <property name="Traits" value="Animal&#10;Veteran"/>
+    <property name="Owner" value="Owner: Adowyn"/>
+    <property name="Attr1" value="Display this card to examine the top card of your location deck; if you have a role card, you may examine the top 2 cards.&#10;While displayed, shuffle this card into your deck to add 1d8 plus the scenario's adventure deck number to your combat check that has the Ranged trait.&#10;While displayed, recharge another card to put this card in your hand."/>
+  </card>
   <card id="97bea13f-2639-48fd-b130-b4f384b12fc7" name="Monkey's Paw">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="No."/>
@@ -9,6 +27,277 @@
     <property name="Traits" value="Object&#10;Gambling&#10;Corrupted"/>
     <property name="Attr1" value="You may use any skill in your check to acquire this item; roll 1d20 to determine the difficulty of the check. If you fail to acquire this card, and it has the Corrupted trait, bury a card.&#10;Shuffle this card into your deck to add 1d20 to your check; the difficulty of the check is increased by 1d20. If you fail the check, banish this card."/>
     <property name="Attr2" value="See Below"/>
+  </card>
+  <card id="2b0e302e-296a-4d8d-bbab-a593b447ce4e" name="Adowyn (Blight Scout)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Hunter"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5  [ ] 6&#10;Spell: 2  [ ] 3&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5"/>
+    <property name="Attr3" value="Ally"/>
+    <property name="Attr4" value="Leryn"/>
+    <alternate name="Adowyn (Blight Scout)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Hunter"/>
+      <property name="Flavour" value="Someone has to lead the way into the most fearsome places. And then someone has to lead the way out."/>
+      <property name="Attr1" value="At the start of your turn, you may search your deck or your discard pile for a cohort ([ ] or a card that has the Animal trait) ([ ] or a weapon) and put it into your hand, then recharge a card.&#10;You may recharge a card to evade a summoned bane ([ ] or discard a card to allow another character to do so).&#10;[ ] You may recharge a card to reduce damage dealt to you before you act to 1 ([ ] 0).&#10;[ ] You may shuffle a cohort into your deck to add your Stealth skill to your combat check.&#10;[ ] When you examine the top of a location deck, you may recharge a card to examine an additional card.&#10;[ ] Add 1d4 ([ ] 1d8) to your non-combat check if you are at a location that has the Abyssal trait."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +1&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +1&#10;  Survival: Wisdom +3&#10;Charisma: d4"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="2835e28f-cbc5-4112-8ca8-dcf7f67b5297" name="Adowyn (Pack Leader)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Hunter"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5  [ ] 6&#10;Spell: 2  [ ] 3&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5"/>
+    <property name="Attr3" value="Ally"/>
+    <property name="Attr4" value="Leryn"/>
+    <alternate name="Adowyn (Pack Leader)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Hunter"/>
+      <property name="Flavour" value="These hunters know that everyone's in a pack, but they're the top dogs."/>
+      <property name="Attr1" value="At the start of your turn, you may search your deck or your discard pile for a cohort ([ ] or a card that has the Animal trait) and put it into your hand, then recharge a card.&#10;You may recharge a card to evade a summoned bane ([ ] or discard a card to allow another character to do so).&#10;[ ] Before you would discard an ally for its power, you may recharge a random card ([ ] or a random card that has the Animal trait) from your discard pile.&#10;[ ] You may reveal a card that has the Animal trait to add 1d4 ([ ] +1) ([ ] +2) to your combat check ([ ] or your check).&#10;[ ] You may recharge a card that has the Animal trait to reduce Combat damage dealt to you by 2, or bury ([ ] or discard) a card that has the Animal trait to reduce all damage dealt to you to 0."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +1&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +1&#10;  Survival: Wisdom +3&#10;Charisma: d4"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="00360b94-8b9b-4f64-a5a9-9aef5a07514a" name="Crowe (Mauler)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Bloodrager"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: -  [ ] 1  [ ] 2&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Crowe (Mauler)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Bloodrager"/>
+      <property name="Flavour" value="If you get into a fight, the maulers will get you out of it, one way or another."/>
+      <property name="Attr1" value="You may bury a card to add 1d10 ([ ] +1) ([ ] +2) ([ ] +3) and the Electricity or Force trait to your Strength, Melee, or Arcane check; if the check ([ ] or the card) has the Attack trait, you may recharge the card instead.&#10;When you defeat a monster, you may move or put the bottom card of your deck on top of your deck, then end your turn.&#10;[ ] You gain the skill Arcane: Charisma +3.&#10;[ ] Before you act, you may deal 2 Electricity or Force damage to all characters at your location to add 1d8 and the Magic and Electricity or Force traits to your combat check.&#10;[ ] Reduce damage dealt to you before you act by 1 ([ ] 2).&#10;[ ] When you discard a weapon that has the 2-handed trait for its power, you may draw a card."/>
+      <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +1&#10;Dexterity: d6  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Survival: Wisdom +3&#10;Charisma: D8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="d8d8ec9a-0e6f-4c3b-b8ee-263b26a1c090" name="Crowe (Spellrager)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Bloodrager"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: -  [ ] 1  [ ] 2&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Crowe (Spellrager)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Bloodrager"/>
+      <property name="Flavour" value="Spellcasting requires rigid concentration, especially for those who can only concentration on the blood behind their eyes."/>
+      <property name="Attr1" value="You may bury a card to add 1d10 ([ ] +1) and the Electricity or Force trait to your Strength, Melee, or Arcane check; if the check has the Attack trait, you may recharge the card ([ ] or shuffle it into your deck) instead.&#10;When you defeat a monster ([ ] or acquire a spell), you may move or put the bottom card of your deck on top of your deck, then end your turn.&#10;[ ] You gain the skill Arcane: Charisma +3. ([ ] Add 1d6 to your check to recharge a spell.)&#10;[ ] When you defeat a non-summoned henchman or villain, you may draw a random spell that has the Arcane and Attack traits from the box.&#10;[ ] You may discard a boon that does not have the Attack trait to recharge a card from your discard pile that has the Attack trait ([ ] and draw a card)."/>
+      <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +1&#10;Dexterity: d6  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Survival: Wisdom +3&#10;Charisma: D8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="e107b202-44f6-4df8-a3f7-0e330dcb8d69" name="Seoni (Corruptor)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Sorcerer"/>
+    <property name="Attr2" value="Weapon: -  [ ] 1&#10;Spell: 5  [ ] 6  [ ] 7 &#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Seoni (Corruptor)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Sorcerer"/>
+      <property name="Flavour" value="All power corrupts. And all corruption is power."/>
+      <property name="Attr1" value="Before your combat check, you may discard a card to draw a card that has the Arcane ([ ] or Magic) ([ ] or Corrupted) trait from your discard pile.&#10;You may automatically succeed at your check to recharge a spell ([ ] or an item) that has the Attack trait.&#10;When you acquire an ally ([ ] or a spell) ([ ] or a card that has the Corrupted trait), you may draw a card.&#10;[ ] You may treat a card in your hand that has the Corrupted trait as if it has the same powers as the top ([ ] or any) card in the blessings discard pile. This counts as playing a blessing.&#10;[ ] After your first exploration, you may examine the top card ([ ] and bottom card) of your location deck. ([ ] You may encounter 1 such card that has the Arcane or Corrupted trait.)"/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Perception: Wisdom +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +2"/>
+      <property name="Attr3" value="6  [ ] 7"/>
+    </alternate>
+  </card>
+  <card id="ffba7c28-4858-4f5e-b172-ee301059fc5e" name="Seoni (Element Master)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Sorcerer"/>
+    <property name="Attr2" value="Weapon: -  [ ] 1&#10;Spell: 5  [ ] 6  [ ] 7 &#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Seoni (Element Master)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Sorcerer"/>
+      <property name="Flavour" value="Element masters command their surroundings, which will soon become your surroundings."/>
+      <property name="Attr1" value="For your power feat, you may check any 1 of the traits below. That trait applies in any power that uses the word &quot;mastered&quot;.&#10;[ ] Acid  [ ] Cold  [ ] Electricity  [ ] Fire&#10;Before your combat check, you may discard a card to draw a card that has the Arcane ([ ] or Magic) trait from your discard pile.&#10;You may automatically succeed at your check to recharge a spell ([ ] or an item) that has the Attack trait.&#10;When you acquire a card that has a mastered trait or an ally ([ ] or a spell), you may draw a card.&#10;[ ] Add 4 to your check that has a mastered trait.&#10;Reduce damage of a mastered type dealt to you by 2 ([ ] 4)."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Perception: Wisdom +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +2"/>
+      <property name="Attr3" value="6  [ ] 7  [ ] 8"/>
+    </alternate>
+  </card>
+  <card id="dfd4dea1-c26c-4faf-a7c1-f3e9c0d7971f" name="Shardra (Spirit Guide)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Dwarf&#10;Shaman"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 5  [ ] 6  [ ] 7  [ ] 8 &#10;Armor: 1  [ ] 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: 2  [ ] 3&#10;Blessing: 5  [ ] 6  [ ] 7"/>
+    <property name="Attr3" value="Spell"/>
+    <property name="Attr4" value="Kolo"/>
+    <alternate name="Shardra (Spirit Guide)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Dwarf&#10;Shaman"/>
+      <property name="Flavour" value="There is no guidance more challenging to gain than those of spirits, and thus of spirit guides."/>
+      <property name="Attr1" value="When a character at your location would fail a check to defeat a bane, you may recharge a spell to allow that character to reroll the check; that character takes the new result.&#10;When you succeed at a Knowledge check, you may examine the top card ([ ] or 2 cards) of your ([ ]  or any) location deck.&#10;[ ] You gain the skill Arcane: Wisdom +1.&#10;[ ] Discard a card to add 1d6 ([ ] +2) ([ ] +4) and the Mental trait to your combat check to defeat a monster.&#10;[ ] When you defeat a bane, you may recharge a spell from your discard pile ([ ] and draw a card).&#10;[ ] When you play a blessing on a check to defeat a monster by another character at your location, add d12 instead of the normal die."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +3&#10;  Knowledge: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors, [ ] Weapons"/>
+    </alternate>
+  </card>
+  <card id="28b43170-0e0e-4763-9963-3896bca95186" name="Shardra (Visionary)" size="Role">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Dwarf&#10;Shaman"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 5  [ ] 6  [ ] 7  [ ] 8 &#10;Armor: 1  [ ] 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: 2  [ ] 3&#10;Blessing: 5  [ ] 6  [ ] 7"/>
+    <property name="Attr3" value="Spell"/>
+    <property name="Attr4" value="Kolo"/>
+    <alternate name="Shardra (Visionary)" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Dwarf&#10;Shaman"/>
+      <property name="Flavour" value="Visionaries can share vast knowledge, but only to those willing to know."/>
+      <property name="Attr1" value="When a character at your location would fail a check to defeat a bane, you may recharge a spell to allow that character to reroll the check; that character takes the new result.&#10;When you succeed at a Knowledge check, you may examine the top card ([ ] or 2 cards) of your ([ ]  or any) location deck. ([ ] If an examined card is a boon, you may exchange it for a random card of that type from the box without looking at it and put it on top of the location deck.)&#10;[ ] When you ([ ] or a character at your location) attempt(s) a check to defeat a barrier ([ ] or close a location), you may use your Knowledge skill instead of the listed skill.&#10;[ ] Characters may gain the skill Knowledge: Wisdom +2 ([ ] or Fortitude: Constitution +2) ([ ] or Divine: Wisdom +3) while at your location."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +3&#10;  Knowledge: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors"/>
+    </alternate>
+  </card>
+  <card id="66d8e43b-33c5-42cf-843d-a1e0bc395608" name="Adowyn" size="Character">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Hunter"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4  [ ] 5  [ ] 6&#10;Spell: 2  [ ] 3&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5"/>
+    <property name="Attr3" value="Ally"/>
+    <property name="Attr4" value="Leryn"/>
+    <alternate name="Adowyn" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Hunter"/>
+      <property name="Flavour" value="Born to skilled woodworkers near an ancient forest, Adowyn is known more for her skill with a bow than with a carver's chisel. After losing her father to the depredation of a diseased bear during a supply run, Adowyn picked up her father's bow and quiver and learned to survive in the deep woods. She saved an injured gray wolf and nursed him back to health, and now the faithful Leryn ranges alongside the young hunter, tracking prey and bounties with skill and savagery."/>
+      <property name="Attr1" value="At the start of your turn, you may search your deck or your discard pile for a cohort ([ ] or a card that has the Animal trait) and put it into your hand, then recharge a card.&#10;You may recharge a card to evade a summoned bane ([ ] or discard a card to allow another character to do so)."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +1&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +1&#10;  Survival: Wisdom +3&#10;Charisma: d4"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="1b3e0cc5-dd9a-4c19-b386-40ca08227461" name="Crowe" size="Character">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Bloodrager"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: -  [ ] 1  [ ] 2&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Crowe" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Bloodrager"/>
+      <property name="Flavour" value="Born into a nomadic tribe of horse trainers and sellers, Crowe proved he was physically gifted at an early age. Unfortunately, his occasional blackouts, which seemed to always coincide with violent outbursts, earned him few friends among his people. After a terrible accident left his family and their horses dead, Crowe fled his people in disgrace. Now he fights for coin with a mixture of ferocious weapon strikes and the chaotic magic that seethes in his blood"/>
+      <property name="Attr1" value="You may bury a card to add 1d10 ([ ] +1) and the Electricity or Force trait to your Strength, Melee, or Arcane check; if the check has the Attack trait, you may recharge the card instead.&#10;When you defeat a monster, you may move or put the bottom card of your deck on top of your deck, then end your turn.&#10;[ ] You gain the skill Arcane: Charisma +3."/>
+      <property name="Attr2" value="Strength: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +1&#10;Dexterity: d6  [ ] +1&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Survival: Wisdom +3&#10;Charisma: D8  [ ] +1  [ ] +2  [ ] +3  [ ] +4"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="84c2c113-7f18-4f3d-8427-3b42a60b4f08" name="Seoni" size="Character">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Sorcerer"/>
+    <property name="Attr2" value="Weapon: -  [ ] 1&#10;Spell: 5  [ ] 6  [ ] 7 &#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Spell"/>
+    <alternate name="Seoni" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Sorcerer"/>
+      <property name="Flavour" value="Born into a clan of nomadic wanderers, Seoni wears dozens of runic tattoos that tell the ancient stories of her people and aid her in drawing upon their arcane powers. Quick thinking and with a plan for every situation, she proudly exhibits the marks of her people and endlessly seeks new understanding of her magical abilities. She travels the world, dispelling myths that her people are nothing more than liars and thieves by righting injustices wherever she finds them."/>
+      <property name="Attr1" value="Before your combat check, you may discard a card to draw a card that has the Arcane ([ ] or Magic) trait from your discard pile.&#10;You may automatically succeed at your check to recharge a spell ([ ] or an item) that has the Attack trait.&#10;When you acquire an ally ([ ] or a spell), you may draw a card."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Perception: Wisdom +2&#10;Charisma: d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Arcane: Charisma +2"/>
+      <property name="Attr3" value="6  [ ] 7"/>
+    </alternate>
+  </card>
+  <card id="3d425cbc-2e5e-479d-99c1-34463f995682" name="Shardra" size="Character">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Dwarf&#10;Shaman"/>
+    <property name="Attr2" value="Weapon: -&#10;Spell: 5  [ ] 6  [ ] 7  [ ] 8 &#10;Armor: 1  [ ] 2  [ ] 3&#10;Item: 2  [ ] 3&#10;Ally: 2  [ ] 3&#10;Blessing: 5  [ ] 6  [ ] 7"/>
+    <property name="Attr3" value="Spell"/>
+    <property name="Attr4" value="Kolo"/>
+    <alternate name="Shardra" type="B">
+      <property name="Abr" value="C"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Dwarf&#10;Shaman"/>
+      <property name="Flavour" value="Shardra forged the truth of her identity through suffering and study. After narrowly avoiding death in an accidental fall, she learned to accept the spirits whose voices called her from safety. The spirits' knowledge allowed Shardra to bring her mind and body into harmony. Now she speaks with creatures of fire and rock. The crag tuatara Kolo travels on her shoulder. Together, they explore the world's mysteries, discovering the true faces of the entities they encounter."/>
+      <property name="Attr1" value="When a character at your location would fail a check to defeat a bane, you may recharge a spell to allow that character to reroll the check; that character takes the new result.&#10;When you succeed at a Knowledge check, you may examine the top card ([ ] or 2 cards) of your ([ ]  or any) location deck."/>
+      <property name="Attr2" value="Strength: d6  [ ] +1  [ ] +2&#10;Dexterity: d4  [ ] +1&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +3&#10;  Knowledge: Wisdom +2&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors"/>
+    </alternate>
   </card>
  </cards>
 </set>

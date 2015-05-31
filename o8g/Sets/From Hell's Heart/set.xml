@@ -469,6 +469,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
     <property name="Traits" value="Accessory&#10;Magic"/>
     <property name="Attr1" value="Reveal this card to add 6 to your check against a card that has the Aquatic, Pirate, or Swashbuckling trait."/>
   </card>

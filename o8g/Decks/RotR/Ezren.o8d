@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40">
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
     <card qty="1" id="41d4311b-9aa7-4887-aafb-432185bf5500">Ezren</card>
     <card qty="1" id="ef589ee9-f97e-411f-92f5-e43b96adb256">Ezren</card>
@@ -17,7 +17,7 @@
     <card qty="2" id="39cc532a-cdaa-44be-8991-ae9f189933ec">Lightning Touch</card>
   </section>
   <section name="Item" shared="False">
-    <card qty="1" id="50883d35-8770-4004-8b21-3f41c32313d0">Blast Stone</card>
+    <card qty="1" id="9c26dc31-ec6e-4a1c-9e0b-40b2ae730c27">Arcane Robes</card>
     <card qty="1" id="67006c3c-e958-4bb4-8073-e802b1a03628">Bracers of Protection</card>
     <card qty="1" id="809f456c-a81b-4715-9bcf-53192b1d7faa">Codex</card>
   </section>
@@ -39,6 +39,9 @@
   <section name="Item" shared="True" />
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

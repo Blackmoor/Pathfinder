@@ -1162,7 +1162,7 @@
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="5"/>
   </card>
-  <card id="abdadd44-9fd5-4994-bb88-8b32f9a1694c" name="Topaz of Strengh">
+  <card id="abdadd44-9fd5-4994-bb88-8b32f9a1694c" name="Topaz of Strength">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
