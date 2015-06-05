@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="6209b1b4-2d3c-4340-8101-59f1c3209fd0">Balazar</card>
+    <card qty="1" id="dd02ff63-fb25-469c-badb-a426e00ee8ee">Balazar</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False">
+    <card qty="1" id="ecd4ef14-a865-4071-a6f9-1ad1b79bf005">Enchanted Fang</card>
+    <card qty="1" id="7deca297-572b-45cc-911d-efb1cc11cc73">Glibness</card>
+    <card qty="1" id="05e7f876-385c-4263-866f-2e2da31377a9">Create Pit</card>
+    <card qty="1" id="9cc278d4-4d1d-4cb4-832c-9eb2cd3cfd6d">Brilliance</card>
+    <card qty="1" id="022f42e8-bc94-441e-b43a-4c02a545513f">Agility</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="2ce1e474-5bb6-4ebe-b278-d640d964a00f">Padded Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="9bb92562-8d13-4a20-8feb-e391068d612b">Potion of Beast Skin</card>
+    <card qty="1" id="c38039b6-9736-4ba4-97d6-67a148903e26">Blood Periapt</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="15b549d3-97e3-472d-b185-75f2a9e237ae">Splendiferous Hat</card>
+    <card qty="1" id="a6632c35-6d2c-45cc-86b6-d71e45c80faa">Vulture</card>
+    <card qty="1" id="181d0452-719d-4057-a74d-60da50590ed6">Blackwing Librarian</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Story" shared="True">
+    <card qty="1" id="9197dcf0-4ae3-41ab-9a38-346a65000f59">The Worldwound Incursion</card>
+    <card qty="1" id="b2d8a1af-8590-44cc-8302-c86765b9c2c0">The Fall of Kenabres</card>
+    <card qty="1" id="2a90311e-d25b-4927-98bf-1e839e146a3d">Under the Broken City</card>
+    <card qty="1" id="a7d6c616-a270-4b05-9ec2-7fe7285b5c54">Lair of the Vile and Vicious</card>
+    <card qty="1" id="320ad3a2-94b6-49e6-9f60-8d0af27c2315">Tracking Down Templars</card>
+    <card qty="1" id="75061a99-ce52-4583-aeee-37aa3057cf23">The Wardstone Legacy</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="6" id="b8638bf7-0012-4e23-b8d5-5808cf77caab">Mongrel Traitor</card>
+    <card qty="1" id="2977fa56-99a0-4906-969a-b24e4b0373cc">Othirubo</card>
+    <card qty="1" id="9c69f49a-1061-4799-ae53-8e0d972279b8">Uziel</card>
+    <card qty="1" id="d61ba5e1-8d17-456a-841c-5fca070e7e78">Wenduag</card>
+    <card qty="1" id="96c00f53-ba7a-48cc-87ec-65e3528f83fd">Sloth Demon</card>
+    <card qty="1" id="7f2b108a-f881-407e-aa74-68e1d6530b6e">Vagorg</card>
+    <card qty="7" id="e5bcb4d3-7094-40d0-903e-7cf2c5793979">Giant Bat</card>
+    <card qty="7" id="717662ad-4e3c-44f7-b8f4-93639f9357f2">Cultist of Deskari</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="c7fa1d42-85c7-4a55-b9c6-1f04e1272bee">Mad Knight</card>
+    <card qty="2" id="140c759f-2608-4dda-a0e2-30236925a60e">Wreacker Demon</card>
+    <card qty="1" id="aa3ad596-75bb-4920-895b-42008162cb2a">Peryton</card>
+    <card qty="1" id="c004b70d-54c7-4234-9bd3-59541c57b2ac">Mandragora</card>
+    <card qty="2" id="eee6d085-338c-4f8c-844e-6697da81ae6a">Demonic Fly</card>
+    <card qty="1" id="f97d458a-e32b-4513-a105-9150a0f4e756">Accursed Priest</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="02329478-af88-4c7a-af85-4d1b8e458e3e">Poison Spiked Pit Trap</card>
+    <card qty="1" id="51204e45-5e30-46a5-bf19-8080ef49c0c4">Sin Seeker</card>
+    <card qty="1" id="66338d31-9081-43e8-b74a-9bc9d5197d0e">Crazed Cultists</card>
+    <card qty="1" id="4f5eba08-b389-496d-bf5d-f29e414baedc">Bilious Bottle</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="07d971f9-80f7-4d90-8061-1da38a665048">Ghoul Hide</card>
+    <card qty="1" id="924e7fe8-a717-4978-beec-342daff4e545">Helm of the Valkyrie</card>
+    <card qty="2" id="d3254816-23dd-4799-8435-3476ea62e536">Spellcaster's Shield</card>
+    <card qty="1" id="e1fa9e6e-f5ee-4ab7-893e-644e9d213c5f">Eagle Knight Dress Uniform</card>
+    <card qty="1" id="20b8137b-294c-4226-972a-89ffe0eb08b5">Elven Chain Shirt</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="2" id="72bd1072-38bb-43c2-9fa7-1d12fe8b6d67">Force Shortbow +1</card>
+    <card qty="1" id="9f7ab3d3-18a0-4abc-94f3-b0534da6fa70">Ranseur of the Gargoyle</card>
+    <card qty="1" id="0f64405d-0410-4fc5-b83a-b1cf1ac734dc">Lance +1</card>
+    <card qty="2" id="97f4e7fd-ccb8-4b4e-a4aa-8ef62b0b0cd5">Cold Iron Longsword</card>
+    <card qty="1" id="8e02932f-d6c1-4ea5-b304-338de60fcbf9">Demonbane Light Crossbow +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="932b1404-5264-47f5-bff9-47fe0e67d934">Protect</card>
+    <card qty="1" id="6a6006a3-2763-4389-90ca-c542eb8168b3">Weapon of Awe</card>
+    <card qty="1" id="76eaf7ad-25dd-4014-aa45-99441ced578a">Scorching Ray</card>
+    <card qty="2" id="67310b5f-939b-43f2-b2c5-7795fdd0f0b5">Life Drain</card>
+    <card qty="1" id="b11c271a-34dc-4cd5-8922-13c1794bd471">Flames of the Faithful</card>
+    <card qty="1" id="175bd2e8-c91f-4be7-849c-a5fc20fb8eec">Bloodscent</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="2" id="04c4e556-ea8c-4b9d-b1ca-c4b7b41999da">Manual of War</card>
+    <card qty="2" id="55ad4540-1a21-45cb-bc0a-4dbbbbf40c44">Potion of Restoration</card>
+    <card qty="1" id="73841b35-6a66-4203-8b23-0c641c068afc">Wand of Cancellation</card>
+    <card qty="1" id="08926851-e90e-4ecc-a844-10fde182284f">Mist Horn</card>
+    <card qty="1" id="29b44689-bc75-4752-a5c1-f85d3151d689">Almanac</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="2e7e00ce-2c93-4faf-8d3a-74f62aac115f">Druid of the Flame</card>
+    <card qty="1" id="ae42adc1-a2c2-45c4-8065-cfc2c3b3e2e8">Riftwarden</card>
+    <card qty="1" id="98c54ebb-af9e-4eb6-aa3d-24c394a9d492">Mongrel Archer</card>
+    <card qty="2" id="ac5c51b9-2a20-4f55-952a-386cc3935aa8">Wolverine</card>
+    <card qty="1" id="d0fe5822-0e41-4c05-b02e-7bc895e6a0f0">Quadnys Orlun</card>
+    <card qty="1" id="9d76c08d-cc38-4f99-b1cb-e66c90c9c9e9">Kimroth Otai</card>
+    <card qty="1" id="0eefd720-d401-448c-ac70-f402a679d35c">Lann</card>
+    <card qty="1" id="e53e2beb-78c6-4d69-b907-81565f07e9c5">Fortune-Teller</card>
+    <card qty="1" id="d4b5de17-4f6a-4d81-8a2b-edda18e46d29">Chief Sull</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="6" id="f03c10b3-bafa-4b16-8a3e-f441a9b9ce2e">Blessing of Deskari</card>
+  </section>
+  <section name="Cohort" shared="True">
+    <card qty="1" id="eca2d59d-b28a-48ef-92dc-8504beb23ce3">Aron Kir</card>
+    <card qty="1" id="55bcf59c-af12-4d6a-9df8-7c8b71d2d6c3">Irabeth Tirabade</card>
+    <card qty="1" id="26d20a2c-3455-435e-a1fc-0ec0b41e1e85">Sosiel Vaenic</card>
+    <card qty="1" id="c815f162-c0b8-4833-84a9-2d409f9de0e4">Horgus Gwerm</card>
+    <card qty="1" id="3ce414e4-54c8-49df-9bd0-bab8a6fe60a5">Aravashnial</card>
+    <card qty="1" id="c96e9d42-d3bf-4954-99cb-c3b5c44eed4b">Anevia Tirabade</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="2e4c1b1f-e7af-4687-b095-8a8ced01b6dc">Scale of Disguise</card>
+    <card qty="1" id="b629a076-1a6a-4962-a8fa-075446e49c1c">Wardstone Fragment</card>
+    <card qty="1" id="5842efdd-b48a-43e1-bb97-b39dd3f8f795">Scale of Sacred Weaponry</card>
+    <card qty="1" id="ec86401b-e992-4948-803b-1cb50d65c378">Scale of Resistance</card>
+    <card qty="1" id="cde79b36-4008-4285-9af6-46ac7f52cd5d">Radiance</card>
+    <card qty="1" id="19fd350e-f99e-4ecc-bbda-ae6ac84f6c8c">Scale of Cloudwalking</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="1c407e87-6bb1-4ea4-9b47-f5d075a623bb">Mongrel Village</card>
+    <card qty="1" id="806b15ac-6f42-4fd8-bea8-9c8cf53536a1">Tower of Estrod</card>
+    <card qty="1" id="2977e44e-d6a0-4125-9a3f-0ee735a0d5cf">Wardstone Chamber</card>
+    <card qty="1" id="a46fd985-ba36-4a54-89d6-5d820dc2db24">Occult Library</card>
+    <card qty="1" id="d194922d-c772-4bb8-a734-15a93674c845">Gray Garrison</card>
+    <card qty="1" id="3fca210f-7253-4e44-8605-b33210e81f62">Defender's Heart</card>
+    <card qty="1" id="05a6f348-fba9-49d1-a527-d3b7a898db37">Collapsing Bridge</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="f4906d34-e886-4f2a-8b83-12b12de7e357">Faxon</card>
+    <card qty="1" id="ebb73093-b533-47b1-a977-d4a74abfe483">Hosilla</card>
+    <card qty="1" id="69905e20-e1c1-417b-b5c0-bd9432782503">Millorn</card>
+    <card qty="1" id="c5ff774d-1b7a-4de6-bd7b-0020233b415c">Jeslyn</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

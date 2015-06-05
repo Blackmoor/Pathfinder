@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="c8cb5f95-079f-4f99-b2e6-d8314e1a3776">Imrijka</card>
+    <card qty="1" id="67cfd8ee-df23-455b-8d6f-a6d86e67b02f">Imrijka</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="3458d221-4200-4fa4-bd33-ab8a635b5afe">Heavy Pick</card>
+    <card qty="1" id="17191d77-3798-4b6d-8a2e-d4dde70d4091">Sickle</card>
+    <card qty="1" id="89b0e748-b069-4b44-b359-61e58c371e08">Javelin</card>
+    <card qty="1" id="80cb1ccf-2ad1-4eec-80be-a37b7efc9e4d">Mace</card>
+    <card qty="1" id="e0590828-1f5e-4a76-b4f1-a023695bb0ed">Shortbow</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="1fba7194-3245-4a7b-9c33-291300572e82">Detect Demon</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="7db9c05a-5b78-4bd7-9c02-ecd5391bcef3">Hide Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="6604f83e-8b96-4ce7-a87d-8d1927ff54ce">Caltrop Bead</card>
+    <card qty="1" id="965d607a-0bae-42e4-bf14-b7593cdce5fb">Sage's Journal</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="57ae3ab1-0b34-4bf2-92db-da49f5a49b70">Researcher</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="5" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

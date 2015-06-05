@@ -6,10 +6,12 @@
     <marker id="4165d32c-7b07-4040-8e57-860a95a0dc69" name="d8" />
     <marker id="3b7cbb3a-4f52-4445-a4a5-65d5dfd9fa23" name="d10" />
     <marker id="53d1f6b4-03f6-4b8b-8065-d0759309e00d" name="d12" />
+	<marker id="8d139365-b97c-441c-ac1a-34d280352b7a" name="d20" />
 	<marker id="1b08a785-f745-4c93-b0f1-cdd64c89d95d" name="+" />
 	<marker id="b442c012-023f-42d1-9d28-e85168a4401a" name="-" />
 	<marker id="9aef0beb-22e6-49d8-a8a0-4069d50f528e" name="Cards" />
 	<marker id="d59b44ba-cddf-49f9-88f5-1176a305f3d3" name="Timer" />
+	<marker id="4848acb5-6664-422d-bb65-86a0130212bd" name="MythicCharge" />
   </markers>
   <cards>
    <card id="841f9b4d-489e-4afe-bae9-82a4d0128283" name="Custom">
@@ -22,6 +24,12 @@
     <property name="Subtype2" value="Back" />
     <property name="Attr2" value="Strength: &#10;Dexterity: &#10;Constitution: &#10;Intelligence: &#10;Wisdom: &#10;Charisma: " />
    </alternate>
+   </card>
+   
+   <card id="3e685767-b0f0-4608-ba4d-4efa6ac383f9" name="Adowyn">
+    <property name="Abr" value="CD" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
    </card>
    
    <card id="4f22c636-be34-45cb-84e2-91b4eb5b5cf0" name="Agna">
@@ -71,6 +79,12 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
+   
+   <card id="d43ed1bd-480a-4dd7-b48b-42bb019ba787" name="Crowe">
+    <property name="Abr" value="C" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
   
    <card id="fb812675-d929-4dac-9fdb-03148c328d77" name="Damiel">
     <property name="Abr" value="C" />
@@ -80,6 +94,12 @@
    
    <card id="49ac6d6d-e4c1-4335-82fd-3ea62ba8d853" name="Darago">
     <property name="Abr" value="CD" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+  
+   <card id="3676669d-12f2-41d8-aa16-c21e737380ee" name="Enora">
+    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -98,6 +118,12 @@
    
    <card id="e5bc29da-d799-4e99-8d70-eef92d873ee9" name="Flenta">
     <property name="Abr" value="CD" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+  
+   <card id="c3c54b62-84a5-463f-bb45-31f08e8b47b0" name="Hakon">
+    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -131,7 +157,13 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>  
-  
+
+   <card id="33183cc6-f797-4b1e-a05d-7e0af54d4b90" name="Kess">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
    <card id="5e3e72cf-d81b-4c4a-99cd-42ac702cf73d" name="Kyra">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
@@ -198,6 +230,12 @@
     <property name="Subtype" value="Token" />
    </card>
    
+   <card id="7b1ee661-1710-4570-8a00-c5f8345fb523" name="Quinn">
+    <property name="Abr" value="O" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
    <card id="20b454ee-9991-4b89-9eb8-5c0c062653e8" name="Radillo">
     <property name="Abr" value="CD" />
     <property name="Type" value="Character" />
@@ -236,6 +274,12 @@
    
    <card id="d57dd44c-ca61-4ba6-a8d2-7ca1439a8b77" name="Seoni">
     <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
+   <card id="287be37f-0ff5-43fd-855e-643fe4febd89" name="Shardra">
+    <property name="Abr" value="C" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -284,6 +328,12 @@
    
    <card id="34f1dae6-8438-4f8a-80b4-21c2469c5e13" name="Wu Shen">
     <property name="Abr" value="CD" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
+   <card id="e20b5397-c633-48a3-97b2-75ccf08d0733" name="Zadim">
+    <property name="Abr" value="O" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>

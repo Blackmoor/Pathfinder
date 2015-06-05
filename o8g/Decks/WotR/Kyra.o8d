@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="00967f6b-ee03-40c3-93ca-405610454e1e">Kyra</card>
+    <card qty="1" id="5e3e72cf-d81b-4c4a-99cd-42ac702cf73d">Kyra</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="17191d77-3798-4b6d-8a2e-d4dde70d4091">Sickle</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="408e1e0f-0123-4d89-a0a7-f5bb64a243f8">Fireblade</card>
+    <card qty="1" id="e2b299ac-77ad-4d77-9a9d-696f79342248">Frigid Blast</card>
+    <card qty="1" id="1fba7194-3245-4a7b-9c33-291300572e82">Detect Demon</card>
+    <card qty="1" id="e77201fc-851d-4f4f-8301-b042f61cad99">Cure</card>
+    <card qty="1" id="0ffe55f9-6510-4192-801b-2be0d523f202">Burst Bonds</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="6ac726d7-0a70-4d9c-b38a-77b5579960b2">Scale Mail</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="5c9d9f3c-4b99-4e17-a41e-6e8d401a1998">Holy Water Grenade</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="181d0452-719d-4057-a74d-60da50590ed6">Blackwing Librarian</card>
+    <card qty="1" id="57ae3ab1-0b34-4bf2-92db-da49f5a49b70">Researcher</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+    <card qty="1" id="788c3eb3-5e8a-4123-8553-277882ec2f4c">Blessing of the Dawnflower</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

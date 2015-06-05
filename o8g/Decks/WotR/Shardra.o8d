@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="287be37f-0ff5-43fd-855e-643fe4febd89">Shardra</card>
+    <card qty="1" id="3d425cbc-2e5e-479d-99c1-34463f995682">Shardra</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="e77201fc-851d-4f4f-8301-b042f61cad99">Cure</card>
+    <card qty="1" id="408e1e0f-0123-4d89-a0a7-f5bb64a243f8">Fireblade</card>
+    <card qty="1" id="599847ac-f634-4e95-85c9-b74d3ef08a30">Sanctuary</card>
+    <card qty="1" id="2067b9f3-49e1-41ac-be3f-310ef5d2c043">Sagacity</card>
+    <card qty="1" id="2ee56fc3-8967-4510-a809-1009c1c5742d">Viper Strike</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="7db9c05a-5b78-4bd7-9c02-ecd5391bcef3">Hide Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="f3fb62f7-8f7c-44aa-bfb3-432fef9f174c">Book of the Loremaster</card>
+    <card qty="1" id="965d607a-0bae-42e4-bf14-b7593cdce5fb">Sage's Journal</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="9103bde3-2164-44e4-a089-b1617a87c009">Athlete</card>
+    <card qty="1" id="08264424-ea7c-4c50-b2c5-32f96d1a5e2c">Recruit</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="5" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
