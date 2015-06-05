@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="fc3f3149-c274-4a5f-92e1-7562539cfa4a">Harsk</card>
+    <card qty="1" id="b6cffe82-e805-4b47-ae24-20279095e075">Harsk</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="89b0e748-b069-4b44-b359-61e58c371e08">Javelin</card>
+    <card qty="2" id="e0590828-1f5e-4a76-b4f1-a023695bb0ed">Shortbow</card>
+    <card qty="1" id="8698685a-813b-47b3-a745-2fbd245876d3">Bolas</card>
+    <card qty="1" id="0ee0412d-c2ee-454d-bad4-1c70f6717c41">Hand Crossbow</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False">
+    <card qty="1" id="9caad6c1-8aa9-418d-a017-6c8a07db2cbd">Leather Armor</card>
+    <card qty="1" id="a8b87791-384f-4b7d-8ba2-00aa8b65d770">Wooden Shield</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="73e88695-6978-4c61-9fa0-7b86f3ae9947">Trapsmith Gloves</card>
+    <card qty="1" id="ade8f714-2505-4cc2-b591-43b997b2a2c0">Teapot</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="24902214-8faf-43e8-9a20-9e214e53af3b">Frog</card>
+    <card qty="1" id="214db5fd-26c1-430a-a348-ea79cccb8544">Biter</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

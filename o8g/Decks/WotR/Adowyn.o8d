@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="66d8e43b-33c5-42cf-843d-a1e0bc395608">Adowyn</card>
+    <card qty="1" id="3e685767-b0f0-4608-ba4d-4efa6ac383f9">Adowyn</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="0ee0412d-c2ee-454d-bad4-1c70f6717c41">Hand Crossbow</card>
+    <card qty="1" id="8698685a-813b-47b3-a745-2fbd245876d3">Bolas</card>
+    <card qty="1" id="5bad33c4-bebe-4751-8089-132608c9d8cc">Aklys</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="022f42e8-bc94-441e-b43a-4c02a545513f">Agility</card>
+    <card qty="1" id="ecd4ef14-a865-4071-a6f9-1ad1b79bf005">Enchanted Fang</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="9caad6c1-8aa9-418d-a017-6c8a07db2cbd">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="0f3dd4e2-67dc-46e1-bba3-f4f1656b7f4d">Potion of Striding</card>
+    <card qty="1" id="73e88695-6978-4c61-9fa0-7b86f3ae9947">Trapsmith Gloves</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="a6632c35-6d2c-45cc-86b6-d71e45c80faa">Vulture</card>
+    <card qty="1" id="141cf57f-4f0c-4941-9cf2-d59acd836329">Frilled Lizard</card>
+    <card qty="1" id="24902214-8faf-43e8-9a20-9e214e53af3b">Frog</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

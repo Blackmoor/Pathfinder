@@ -5,28 +5,28 @@
     <card qty="1" id="a8ec1562-7702-42af-9fd2-1ed614f3a412">Alain</card>
   </section>
   <section name="Weapon" shared="False">
-    <card qty="1" id="5917a3ad-78d7-4e28-8d3e-4d2365682b96">Warhammer</card>
-    <card qty="1" id="6e6d558e-9cc5-4139-b5cc-7dae4332c61a">Mace</card>
-    <card qty="1" id="adf27119-ddfc-45b6-9c8c-37a3d808fda5">Battleaxe</card>
-    <card qty="1" id="e26d7290-2b2a-45f6-a244-720e88f80ec2">Glaive</card>
+    <card qty="1" id="f273b262-3daa-48fe-bd86-b771fcd47ca3">Longspear</card>
+    <card qty="1" id="17191d77-3798-4b6d-8a2e-d4dde70d4091">Sickle</card>
+    <card qty="1" id="52189fa9-31af-48f3-a0cf-a765d9a85d26">Longsword</card>
+    <card qty="1" id="3458d221-4200-4fa4-bd33-ab8a635b5afe">Heavy Pick</card>
   </section>
   <section name="Spell" shared="False" />
   <section name="Armor" shared="False">
-    <card qty="2" id="5e39d28b-012f-4086-95f1-1d306cb76051">Half-Plate</card>
-    <card qty="1" id="99ee0127-5165-4698-82b1-504bd93151dd">Magic Shield</card>
+    <card qty="1" id="a8b87791-384f-4b7d-8ba2-00aa8b65d770">Wooden Shield</card>
+    <card qty="1" id="6ac726d7-0a70-4d9c-b38a-77b5579960b2">Scale Mail</card>
+    <card qty="1" id="2938a949-81a6-4b42-b7b3-00316e20da1b">Helm</card>
   </section>
   <section name="Item" shared="False">
-    <card qty="1" id="dd91c65b-12a2-42dd-8f79-3d3d8df49852">Spyglass</card>
-    <card qty="1" id="4c9debdc-f4df-4911-b851-3051ebd72e23">Crowbar</card>
+    <card qty="1" id="27789869-13bf-4c54-8492-d6209b50e56c">Ring of Climbing</card>
+    <card qty="1" id="6604f83e-8b96-4ce7-a87d-8d1927ff54ce">Caltrop Bead</card>
   </section>
   <section name="Ally" shared="False">
-    <card qty="1" id="59c61997-8989-4043-9b37-d26dc048ec86">Troubadour</card>
-    <card qty="1" id="d68cc571-6a18-485e-8c2f-5b14a0486f54">Soldier</card>
-    <card qty="1" id="17c8ca55-24d0-4453-912f-997336e0e143">Night Watch</card>
+    <card qty="1" id="08264424-ea7c-4c50-b2c5-32f96d1a5e2c">Recruit</card>
+    <card qty="1" id="acf0fd86-17a1-4f90-b4fa-973931c07ac7">Riding Horse</card>
+    <card qty="1" id="9103bde3-2164-44e4-a089-b1617a87c009">Athlete</card>
   </section>
   <section name="Blessing" shared="False">
-    <card qty="1" id="6df83e5d-b0dc-465e-a562-606b2d12dbf7">Blessing of Gorum</card>
-    <card qty="2" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+    <card qty="3" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
   </section>
   <section name="Feat" shared="False" />
   <section name="Story" shared="True" />
@@ -40,6 +40,7 @@
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
   <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />

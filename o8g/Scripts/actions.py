@@ -3,9 +3,11 @@ d6 = ("d6", "1f1a643b-2aea-48b2-91c8-96f0dffaad48")
 d8 = ("d8", "4165d32c-7b07-4040-8e57-860a95a0dc69")
 d10 = ("d10", "3b7cbb3a-4f52-4445-a4a5-65d5dfd9fa23")
 d12 = ("d12", "53d1f6b4-03f6-4b8b-8065-d0759309e00d")
+d20 = ("d20", "8d139365-b97c-441c-ac1a-34d280352b7a")
 plus = ("+", "1b08a785-f745-4c93-b0f1-cdd64c89d95d")
 minus = ("-", "b442c012-023f-42d1-9d28-e85168a4401a")
 timer = ("Timer", "d59b44ba-cddf-49f9-88f5-1176a305f3d3")
+mythicCharge = ("MythicCharge" , "4848acb5-6664-422d-bb65-86a0130212bd")
 
 BoardWidth = 850
 BoardHeight = 300
@@ -179,7 +181,7 @@ def moveCard(card, pile, index):
 	card.moveTo(pile, index)
 	
 def isOpen(card):
-	if card is None or card.Type != 'Location':
+	if card is None or card.Type != 'Location' or card.Name in ['Middle of Nowhere']:
 		return False
 	return (card.orientation == Rot0 and card.alternate != "B")
 	
@@ -217,7 +219,7 @@ def rollDice(card): #Roll the dice based on the number of tokens
 	rolled = 0
 	dice = ""
 	detail = ""
-	for die in [ d12, d10, d8, d6, d4 ]:
+	for die in [ d20, d12, d10, d8, d6, d4 ]:
 		count = card.markers[die]
 		if count > 0:
 			dice += " + {}{}".format(count, die[0])
@@ -254,7 +256,19 @@ def findCardByName(group, name):
 		if card.Name == name:
 			return card
 	return None
-		
+	
+def mythicChargeAdd(card, x=0, y=0):
+	addToken(card, mythicCharge)
+	
+def mythicChargeSub(card, x=0, y=0):
+	subToken(card, mythicCharge)
+	
+def d20Add(card, x=0, y=0):
+	addToken(card, d20)
+	
+def d20Sub(card, x=0, y=0):
+	subToken(card, d20)
+	
 def d12Add(card, x=0, y=0):
 	addToken(card, d12)
 
@@ -378,7 +392,7 @@ def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 				card.moveTo(me.hand)
 			elif cleanupStory or card.Type != 'Story':
 				returnToBox(card)
-
+				
 	for i in range(8): # Loop through 8 location decks
 		pile = shared.piles["Location{}".format(i+1)]
 		if pile.controller == me:
@@ -644,7 +658,6 @@ def TheFeastofSpoils(mode): #In Feast of Spoils, there are 8 Shipwreck Henchmen 
 		while i < 22:
 			shared.piles['Blessing'].random().moveTo(shared.piles['Blessing Deck'])
 			i=i+1
-		shuffle(shared.piles['Blessing Deck'])
 		
 def TheLandoftheBlind(mode): #In The Land of the Blind, there are 6 Gholdakos in the blessings deck, and when one is found, it is added to a random open location
 	if mode == 'Setup':
@@ -658,6 +671,15 @@ def TheLandoftheBlind(mode): #In The Land of the Blind, there are 6 Gholdakos in
 			gholdako.moveTo(shared.piles['Blessing Deck'])
 			i = i+1
 
+def TheFallofKenabres(mode): #In The Fall of Kenabres, add Khorramzadeh to the blessings deck, and when he's found, he deals damage to all players and re-shuffles
+	if mode == 'Setup':
+		mute()
+		khorramzadeh = findCardByName(shared.piles['Villain'],"Khorramzadeh")
+		if khorramzadeh == None:
+			whisper("Could not find Khorramzadeh to add him to the Blessings Deck!")
+			return
+		khorramzadeh.moveTo(shared.piles['Blessing Deck'])
+			
 def InsideLucrehold(mode): #In Inside Lucrehold, Brinebones is shuffled into the blessings deck
 	if mode == 'Setup':
 		mute()
@@ -845,7 +867,7 @@ def passDice(player, src, dst, targeted):
 	if targeted and dst.controller == me:	
 		whisper("dst controller is {}".format(dst.controller))
 		dice=""
-		for m in [ d12, d10, d8, d6, d4 ]:
+		for m in [ d20, d12, d10, d8, d6, d4 ]:
 			if src.markers[m] > 0:
 				dice = "{} + {}{}".format(dice, src.markers[m], m[0])
 				dst.markers[m] += src.markers[m]
@@ -865,9 +887,15 @@ def passDice(player, src, dst, targeted):
 def clearDice(card):
 	mute()
 	whisper("Clearing dice on {}".format(card))
-	for m in [ d12, d10, d8, d6, d4, plus, minus ]:
+	for m in [ d20, d12, d10, d8, d6, d4, plus, minus ]:
 		if card.markers[m] > 0:
 			card.markers[m] = 0	
+			
+def clearMythCharges(card):
+	mute()
+	whisper("Clearing mythic charges on {}".format(card))
+	if card.markers[mythicCharge] > 0:
+		card.markers[mythicCharge] = 0
 		
 #---------------------------------------------------------------------------
 # Table group actions
@@ -929,7 +957,7 @@ def pickScenario(group=table, x=0, y=0):
 		adventures.append("None")
 	else:
 		path = findCardByName(shared.piles['Story'], paths[choice-1])
-		autobanish = path.Name in ['Rise of the Runelords', 'Skull and Shackles']
+		autobanish = path.Name in ['Rise of the Runelords', 'Skull and Shackles','Wrath of the Righteous']
 		path.moveToTable(PlayerX(-4),StoryY)
 		flipCard(path)
 		loaded = [ card.Name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
@@ -1015,7 +1043,7 @@ def pickScenario(group=table, x=0, y=0):
 			cohort = str(scenarioSpecific['cohort{}'.format(i)])
 			cohortCard = findCardByName(shared.piles['Cohort'],cohort)
 			cohortCard.moveToTable(PlayerX(-1)+i,StoryY)
-			i = i + 1
+			i = i + 10
 			
 
 def nextTurn(group=table, x=0, y=0):
@@ -1123,6 +1151,12 @@ def isPile(cards):
 		if c.pile() is None:
 			return False
 	return True
+	
+def isMythPath(cards):
+	for c in cards:
+		if c.Subtype != 'Mythic Path':
+			return False
+	return True
 
 def isLocation(cards):
 	for c in cards:
@@ -1181,11 +1215,16 @@ def isBoxed(cards):
 def hasDice(cards):
 	for c in cards:
 		count = 0
-		for die in [ d12, d10, d8, d6, d4 ]:
+		for die in [ d20, d12, d10, d8, d6, d4 ]:
 			count += c.markers[die]
 		if count == 0:
 			return False
 	return True
+	
+def hasMythCharges(card):
+	if card.markers[mythicCharge] > 0:
+		return True
+	return False
 
 def usePlunder(groups):
 	#Check to see if the group contains a ship
@@ -1464,7 +1503,7 @@ def findScenario(group):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		scenario = findScenario(table)
-		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home' ]: # These scenarios are only won when the last location is closed
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres' ]: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				gameOver(True)
@@ -1539,11 +1578,18 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
 		returnToBox(villain)
-		#In the Secret of Mancatcher Cove, if you defeat Isabella, build a new location and bring in the Matron
-		if villain.Name == 'Isabella "Inkskin" Locke' and findScenario(table).Name == 'The Secret of Mancatcher Cove':
-			location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
+		#In the Secret of Mancatcher Cove and Vengeance at Sundered Crag, if you defeat the main villain, build a new location and bring in another villain
+		if villain.Name in ['Thurl and Inhaz','Isabella "Inkskin" Locke'] and findScenario(table).Name in ['The Secret of Mancatcher Cove','Vengeance at Sundered Crag']:
+			location = None
+			newVillain = None
+			if findScenario(table).Name == 'Vengeance at Sundered Crag':
+				location = findCardByName(shared.piles['Location'],'Watchtower')
+				newVillain = findCardByName(shared.piles['Villain'],'Tancred Desimire')
+			else:
+				location = findCardByName(shared.piles['Location'],'Mancatcher Cove')
+				newVillain = findCardByName(shared.piles['Villain'],'The Matron')
 			if location is None:
-				whisper("Failed to find location Mancatcher Cove")
+				whisper("Failed to find location {}".format(location.Name))
 			else:
 				# Count the number of locations on the table
 				nl = 0 
@@ -1552,11 +1598,10 @@ def hideVillain(villain, x=0, y=0, banish=False):
 						nl += 1
 				pileName = "Location{}".format(nl+1)
 				buildLocation(findScenario(table), location, shared.piles[pileName])
-				matron = findCardByName(shared.piles['Villain'],'The Matron')
-				if matron is None:
-					whisper("Failed to find The Matron in the box")
+				if newVillain is None:
+					whisper("Failed to find villain in the box")
 				else:
-					matron.moveTo(location.pile())
+					newVillain.moveTo(location.pile())
 				shuffle(location.pile())
 				location.moveToTable(LocationX(nl+1,nl+1), LocationY)
 				whisper("{} builds location {}".format(me,location))
@@ -1808,7 +1853,7 @@ def playerSetup():
 		if card.Type == 'Character':
 			if card.Subtype == 'Mythic Path':
 				card.moveToTable(PlayerX(id),StoryY)
-			if card.Subtype != 'Token': # Extract information about the hand size and favoured card type
+			elif card.Subtype != 'Token': # Extract information about the hand size and favoured card type
 				custom = card.Name == 'Custom'
 				if len(card.Attr3) > 0 and card.Attr3 != 'None':
 					favoured = card.Attr3.split(' or ')
@@ -1828,6 +1873,8 @@ def playerSetup():
 					handSize = num(card.Attr3[0])
 					debug("Hand Size = {}".format(handSize))
 				notify("{} places {} on the table".format(me, card))
+		elif card.Subtype == 'Cohort':
+			returnToBox(card)
 		else:
 			whisper("Unexpected card '{}' loaded into hand".format(card))
 	
@@ -1919,7 +1966,7 @@ def scenarioSetup(card):
 		nl = 2
 	elif card.Name in ('Best Served Cold','Islands of the Damned'):
 		nl += 1
-	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home'):
+	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home','Vengeance at Sundered Crag'):
 		nl -= 1
 		leaveSpace = 1
 		
@@ -2087,7 +2134,7 @@ def scenarioSetup(card):
 		dst = shared.piles['Blessing Deck']
 		if card.Name == 'Sandpoint Under Siege':
 			blessings = 25
-		elif card.Name == 'Inside Lucrehold': #Brinebones is added to the deck
+		elif card.Name in ['Inside Lucrehold','The Fall of Kenabres']: #Villain is added to the deck
 			blessings = 31
 		elif card.Name == 'The Land of the Blind': #6 gholdakos are added to the deck
 			blessings = 36
@@ -2099,9 +2146,24 @@ def scenarioSetup(card):
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
 			
-		if card.Name == 'Inside Lucrehold': #shuffle Brinebones into the deck (he's currently on the bottom)
+		if card.Name in ['Inside Lucrehold', 'The Fall of Kenabres', 'The Land of the Blind','The Feast of Spoils']: #shuffle extra cards into the deck
 			shuffle(dst)
-		
+
+	mythPaths = [ c for c in table if c.Subtype == 'Mythic Path']
+	for m in mythPaths:
+		if hasMythCharges(m):
+			clearMythCharges(m)
+		i = 0
+		if card.Abr in ['1','2','3','4','5','6','7','8','9']:
+			deckNum = int(card.Abr)
+			if deckNum > 9 or deckNum is None:
+				whisper("Could not determine correct number of mythic tokens. Please add manually.")
+			else:
+				while i < deckNum:
+					mythicChargeAdd(m)
+					i = i + 1
+	
+	
 	notify("{} starts '{}'".format(me, card))
 	return scenarioSpecific
 
@@ -2188,23 +2250,25 @@ def advanceBlessingDeck():
 		else: # Out of time - the players have lost
 			gameOver(False)	
 		return
-		
-	if scenario.Name == "Inside Lucrehold" and pile.top().Name == 'Brinebones':
-		pile.top().moveToTable(PlayerX(-1),StoryY)	
-	else:
-		pile.top().moveTo(shared.piles['Blessing Discard'])
+
 	notify("{} advances the Blessing Deck".format(me))
-	#In Treasure of Jemma Redclaw, Jemma is in the blessings deck... move her to the table
-	if shared.piles['Blessing Discard'].top().Name in  ('Jemma Redclaw'):
-		whisper("Moving Jemma Redclaw to the table.")
+	pile.top().moveTo(shared.piles['Blessing Discard'])
+	#In Treasure of Jemma Redclaw and Fall of Kenabres, villain is in the blessings deck... move it to the table
+	if shared.piles['Blessing Discard'].top().Name in [ 'Jemma Redclaw','Brinebones','Khorramzadeh' ]:
+		whisper("Moving villain to the table.")
 		shared.piles['Blessing Discard'].top().moveToTable(PlayerX(len(getPlayers())+1),StoryY)
-		pile.top().moveTo(shared.piles['Blessing Discard'])
+		if len(pile) > 0:
+			pile.top().moveTo(shared.piles['Blessing Discard'])
+		else:
+			gameOver(False)
+		
 	#In The Land of the Blind, when you encounter a Gholdako in the blessings deck, move it to the top of a random open location
 	if shared.piles['Blessing Discard'].top().Name in ('Gholdako'):
 		whisper("Moving Gholdako to a random open location.")
 		locs = [ c for c in table if isOpen(c) ]
-		loc = locs[int(random()*len(locs))]
-		shared.piles['BlessingDiscard'].top().moveTo(loc)
+		loc = locs[int(random()*len(locs))-1]
+		shared.piles['Blessing Discard'].top().moveTo(loc.pile())
+		shuffle(loc.pile())
 		whisper("Moved Gholdako to {}".format(loc.Name))
 	
 	# Here comes the flood has special end conditions
@@ -2233,6 +2297,11 @@ def gameOver(won):
 		if scenario is not None and 'Loot: ' in scenario.Attr4:
 			if scenario.Name == 'Assault on the Pinnacle': # Default parsing fails because loot has a comma in it!
 				lootlist = ['Chellan, Sword of Greed']
+			elif scenario.Name in ['The Fall of Kenabres', 'Under the Broken City', 'Lair of the Vile and Vicious', 'Tracking Down Templars']: #These scenarios have special loot options
+				lootlist = ['Scale of Cloudwalking','Scale of Disguise','Scale of Resistance','Scale of Sacred Weaponry']
+				if scenario.Name == 'Lair of the Vile and Vicious':
+					lootlist.append('Radiance')
+				notify("ATTENTION: Be sure to choose ONE Loot Scale from those placed on the board; banish the rest.")
 			else:
 				opt,items = scenario.Attr4.split('Loot: ',1)
 				lootlist = items.split(', ')
@@ -2276,6 +2345,9 @@ def displayHand(who):
 		for c in pile:
 			if c.Type == 'Feat':
 				c.moveTo(me.Buried)
+			elif c.Subtype == 'Cohort':
+				returnToBox(c)
+				whisper("Returning cohort {} to the box.".format(c.Name))
 			else:
 				c.moveTo(me.Discarded)
 				

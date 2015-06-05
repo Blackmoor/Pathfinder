@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="3676669d-12f2-41d8-aa16-c21e737380ee">Enora</card>
+    <card qty="1" id="fb882f92-3b22-491b-a9fa-fcd481c6e1e7">Enora</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="e2b299ac-77ad-4d77-9a9d-696f79342248">Frigid Blast</card>
+    <card qty="1" id="297aa741-5365-4014-a987-6e24cc120f98">Lightning Touch</card>
+    <card qty="1" id="e5bb2ea8-f3f2-433b-87eb-7c15a218972a">Viper Strike</card>
+    <card qty="1" id="05e7f876-385c-4263-866f-2e2da31377a9">Create Pit</card>
+    <card qty="1" id="15f9c879-798c-46be-b16f-6a6c013de77f">Dazzle</card>
+    <card qty="1" id="9cc278d4-4d1d-4cb4-832c-9eb2cd3cfd6d">Brilliance</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="c91ea17f-6b6b-4186-a016-dfe4cff99b1e">Codex</card>
+    <card qty="1" id="965d607a-0bae-42e4-bf14-b7593cdce5fb">Sage's Journal</card>
+    <card qty="1" id="f3fb62f7-8f7c-44aa-bfb3-432fef9f174c">Book of the Loremaster</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="cfbe3f7f-5ef1-490d-9314-cd6caa89b285">Teamster</card>
+    <card qty="1" id="57ae3ab1-0b34-4bf2-92db-da49f5a49b70">Researcher</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

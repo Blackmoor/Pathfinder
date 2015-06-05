@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.112.250"
-		version="2.1.10.9"
+		version="3.0.0.1"
 		scriptVersion="3.1.0.1"
 		markersize="10"
 		tags="Pathfinder"
@@ -68,7 +68,7 @@
 	<property name="Owner" type="String" hidden="True" ignoreText="False" />
 	<property name="Recharge" type="String" hidden="True" ignoreText="False" />
 	<size name="Character" back="Resources/card.jpg" front="Resources/card.jpg" width="63" height="88" cornerRadius="3"/>
-	<size name="Role" back="Resources/card.jpg" front="Resources/card.jpg" width="88" height="63" cornerRadius="3"/>
+	<size name="Role" back="Resources/card.jpg" front="Resources/card.jpg" width="63" height="88" cornerRadius="3"/>
  </card>
   <table name="Table" visibility="undefined" ordered="False" width="700" height="300" background="Resources/background.jpg" backgroundStyle="uniformToFill">
     <groupaction menu="Pick Scenario" default="False" execute="pickScenario" />
@@ -123,6 +123,7 @@
 	</cardactions>
 	<cardaction menu="Banish Random Plunder" showIf="hasPlunder" default="False" execute="banishRandomPlunder" />
 	<cardactions menu="Add Dice">
+	  <cardaction menu="d20" shortcut="alt+F10" execute="d20Add" />
 	  <cardaction menu="d12" shortcut="F12" execute="d12Add" />
 	  <cardaction menu="d10" shortcut="F10" execute="d10Add" />
 	  <cardaction menu="d8" shortcut="F8" execute="d8Add" />
@@ -133,6 +134,7 @@
 	  <cardaction menu="+1" shortcut="F1" execute="plusOne" />
 	</cardactions>
 	<cardactions menu="Remove Dice">
+	  <cardaction menu="d20" shortcut="shift+alt+F10" execute="d20Sub" />
 	  <cardaction menu="d12" shortcut="shift+F12" execute="d12Sub" />
 	  <cardaction menu="d10" shortcut="shift+F10" execute="d10Sub" />
 	  <cardaction menu="d8" shortcut="shift+F8" execute="d8Sub" />
@@ -142,6 +144,8 @@
 	  <cardaction menu="+2" shortcut="shift+F2" execute="minusTwo" />
 	  <cardaction menu="+1" shortcut="shift+F1" execute="minusOne" />
 	</cardactions>
+	<cardaction menu="Add Mythic Charge" showIf="isMythPath" default="False" execute="mythicChargeAdd" />
+	<cardaction menu="Remove Mythic Charge" showIf="isMythPath" default="False" execute="mythicChargeSub" />
 	<cardaction menu="Default Action" default="True" shortcut="Enter" execute="defaultAction" />
   </table>
   <player summary="Hand {#Hand} Deck {#Deck} Discard {#Discarded}">

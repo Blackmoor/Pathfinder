@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="d43ed1bd-480a-4dd7-b48b-42bb019ba787">Crowe</card>
+    <card qty="1" id="1b3e0cc5-dd9a-4c19-b386-40ca08227461">Crowe</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="80cb1ccf-2ad1-4eec-80be-a37b7efc9e4d">Mace</card>
+    <card qty="1" id="17191d77-3798-4b6d-8a2e-d4dde70d4091">Sickle</card>
+    <card qty="1" id="a5499e4c-5273-4abf-822b-b8202b56e7de">Quarterstaff</card>
+    <card qty="1" id="3458d221-4200-4fa4-bd33-ab8a635b5afe">Heavy Pick</card>
+    <card qty="1" id="f273b262-3daa-48fe-bd86-b771fcd47ca3">Longspear</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="bafa7f24-4717-48f6-ab31-69a9eaa1de82">Lightning Touch</card>
+    <card qty="1" id="bbc662b9-1014-4eef-af6f-24236d4f2d44">Force Missile</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="7db9c05a-5b78-4bd7-9c02-ecd5391bcef3">Hide Armor</card>
+    <card qty="1" id="9caad6c1-8aa9-418d-a017-6c8a07db2cbd">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="c38039b6-9736-4ba4-97d6-67a148903e26">Blood Periapt</card>
+    <card qty="1" id="0f3dd4e2-67dc-46e1-bba3-f4f1656b7f4d">Potion of Striding</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+  </section>
+  <section name="Ally" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
