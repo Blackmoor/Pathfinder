@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Story" shared="True">
+    <card qty="1" id="99e1e880-f64d-4df4-bb37-0e15603ced4a">1-1A Cloven Trail</card>
+    <card qty="1" id="e9b8428c-dae5-4786-8f48-df4974d9a381">1-0A Demonic Politics</card>
+    <card qty="1" id="b556c8e4-79e3-4685-b06d-7df92f051c7b">1-1C Get to Fort Clearwater</card>
+    <card qty="1" id="e79228f1-6752-48ad-85b1-2249700251ca">1-1D Crusaders Assemble</card>
+    <card qty="1" id="ff96d386-4cef-4bbd-b14f-46a9f0c460d0">1-1B Instant Inquisition</card>
+    <card qty="1" id="990a78d8-a3bb-4085-b487-dd9552a278a3">Season of the Righteous</card>
+    <card qty="1" id="d92cb1f4-4969-4d8b-aab9-bf3cda0c950b">Herald's Chosen</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="7" id="918da75f-d9e1-4f4a-85f6-54eb3708d404">Corrupted Soldier</card>
+    <card qty="7" id="6776aa3c-5a3a-4104-863a-812e07fdb0fc">Fiendish Minotaur</card>
+  </section>
+  <section name="Cohort" shared="True">
+    <card qty="1" id="9b4f658b-6297-411f-aa15-d1f730407a12">Herald of Iomedae</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="ba67b983-4fdf-4768-968b-4ac16fd4a3f0">Carrock</card>
+    <card qty="1" id="e831ec79-a5a6-4c4f-b768-068d4cea5ae0">Ylyda Svyn</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

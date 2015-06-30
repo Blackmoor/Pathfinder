@@ -350,15 +350,6 @@ def closeLocation(card, perm):
 	for c in villain:
 		notify("You find {} while attempting to close this location".format(c))
 		c.moveTo(pile)
-		
-	for c in visible: #Banish the remaining cards (unless we are at the Garrison)
-		debug("Unexplored ... '{}'".format(c))
-		if len(villain) == 0 and card.Name == 'Garrison' and c.Subtype in ['Weapon','Armor']:
-			c.moveTo(pile)
-		else:
-			banishCard(c)
-	
-	unlockPile(visible)
 				
 	if len(pile) > 1:
 		shuffle(pile)
@@ -366,6 +357,72 @@ def closeLocation(card, perm):
 	if len(villain) > 0: # Close fails - we temporarily close it instead
 		card.orientation = Rot90 
 		return False
+	
+	justBuilt = None	
+	
+	if findScenario(table).Name == 'The Siege of Drezen': #This scenario makes you build the locations one at a time.
+		players = len(getPlayers())
+		locNum = 1
+		if card.Name == 'Paradise Hill' and players > 1:
+			nextLoc = 'Celestial Beacon'
+			locNum = 2
+		elif card.Name == 'Celestial Beacon' and players > 2:
+			nextLoc = 'Armory'
+			locNum = 3
+		elif card.Name == 'Armory' and players > 3:
+			nextLoc = 'Watchtower'
+			locNum = 4
+		elif card.Name == 'Watchtower' and players > 4:
+			nextLoc = 'Guardpost'
+			locNum = 5
+		elif card.Name == 'Guardpost' and players >5:
+			nextLoc = 'Cemetery'
+			locNum = 6
+		else:
+			nextLoc = 'Citadel'
+			locNum = 7
+	
+		if nextLoc == 'Citadel':
+			citadel = findCardByName(shared.piles['Location'],'Citadel')
+			if citadel is not None:
+				citadel.moveToTable(cardX(card),cardY(card)+10)
+				citadel.link(shared.piles['Location7'])
+				soltengrebbe = findCardByName(shared.piles['Villain'],'Soltengrebbe')
+				if soltengrebbe is not None:
+					soltengrebbe.moveTo(shared.piles['Location7'])
+				m = 0
+				while m < players:
+					brimorak = findCardByName(shared.piles['Henchman'],'Brimorak')
+					if brimorak is not None:
+						brimorak.moveTo(shared.piles['Location7'])
+					m = m + 1
+				shuffle(shared.piles['Location7'])
+				justBuilt = None
+		elif nextLoc is not None:
+			nextLocCard = findCardByName(shared.piles['Location'])
+			pileName = 'Location{}'.format(locNum)
+			buildLocation(findScenario(table),nextLocCard,shared.piles[pileName])
+			cadre = findCardByName(shared.piles['Henchman'],'Worldwound Cadre')
+			if cadre is not None:
+				cadre.moveTo(shared.piles[pileName])
+				shuffle(shared.piles[pileName])
+			justBuilt = shared.piles[pileName]
+			
+	
+	for c in visible: #Banish the remaining cards (unless we are at the Garrison)
+		debug("Unexplored ... '{}'".format(c))
+		if len(villain) == 0 and card.Name == 'Garrison' and c.Subtype in ['Weapon','Armor']:
+			c.moveTo(pile)
+		elif findScenario(table).Name == 'The Siege of Drezen': #put all leftover cards into the new location just built
+			if justBuilt is not None:
+				c.moveTo(justBuilt)
+		else:
+			banishCard(c)
+			
+	if justBuilt is not None:
+		shuffle(justBuilt)
+	
+	unlockPile(visible)	
 	
 	notify("{} permanently closes '{}'".format(me, card))
 	if len(card.Attr4) > 0 and card.Attr4 != "No effect.":
@@ -399,7 +456,7 @@ def cleanupPiles(cleanupStory=False): #Clean up the cards that we control
 			for card in pile:
 				returnToBox(card)
 
-	for p in [ 'Blessing Deck', 'Blessing Discard', 'Special', 'Scenario', 'Plunder' ]:
+	for p in [ 'Blessing Deck', 'Blessing Discard', 'Special', 'Scenario', 'Plunder', 'Internal' ]:
 		pile = shared.piles[p]
 		if pile.controller == me:
 			for card in pile:
@@ -965,6 +1022,18 @@ def pickScenario(group=table, x=0, y=0):
 		for o in path.Attr1.splitlines(): # Build up a list of options that have been loaded and in the order given
 			if o in loaded:
 				adventures.append(o)
+				
+		if path.Name == "Wrath of the Righteous":
+			redemption = findCardByName(shared.piles['Support'],"Redemption")
+			if redemption is not None:
+				redemption.moveToTable(PlayerX(-5),StoryY)
+				q = 5
+				for p in redemption.Attr1.splitlines():
+					foundRedemption = findCardByName(shared.piles['Support'],p)
+					if foundRedemption is not None:
+						foundRedemption.moveToTable(PlayerX(-5),StoryY+q)
+						q = q + 5
+	
 	if len(adventures) < 2:
 		choice = len(adventures)
 	else:
@@ -995,7 +1064,7 @@ def pickScenario(group=table, x=0, y=0):
 		scenarioSpecific = scenarioSetup(scenario)	
 		#If we loaded a fleet then pick a ship		
 		fleet = eval(getGlobalVariable('Fleet'))
-		if len(fleet) > 0:
+		if len(fleet) > 0 and scenario.Name not in ['0-6B The Battle of Abendego','0-6F Lost in the Storm']:
 			anchorage = scenarioSpecific['anchorage']
 			if len(fleet) == 1:
 				choice = 1
@@ -1042,9 +1111,23 @@ def pickScenario(group=table, x=0, y=0):
 		while i <= cohortNum:
 			cohort = str(scenarioSpecific['cohort{}'.format(i)])
 			cohortCard = findCardByName(shared.piles['Cohort'],cohort)
-			cohortCard.moveToTable(PlayerX(-1)+i,StoryY)
-			i = i + 10
+			cohortCard.moveToTable(PlayerX(-1)+(i*10),StoryY)
+			i = i + 1
 			
+		#Handle troop placement if there is one
+		troop = scenarioSpecific['troopName']
+		if troop != '':
+			troopCard = findCardByName(shared.piles['Support'],troop)
+			if troopCard is not None:
+				troopCard.moveToTable(PlayerX(-1),StoryY)
+				j = 5
+				for n in troopCard.attr1.splitlines():
+					medal = findCardByName(shared.piles['Support'],n)
+					if medal is not None:
+						medal.moveToTable(PlayerX(-1),StoryY+j)
+					j = j + 5
+			else: 
+				notify("Could not find troop card {}!".format(troop))
 
 def nextTurn(group=table, x=0, y=0):
 	mute()
@@ -1503,11 +1586,41 @@ def findScenario(group):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		scenario = findScenario(table)
-		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres' ]: # These scenarios are only won when the last location is closed
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble' ]: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
-				gameOver(True)
-				return True, True
+				if scenario.Name in ['1-1D Crusaders Assemble']: #In Crusaders Assemble, after you close the last location, build Laboratory
+					foundLaboratory = False
+					for card in table: 
+						if card.Type == 'Location' and card.Name == 'Laboratory':
+							foundLaboratory = True
+					if foundLaboratory == True:
+						gameOver(True)
+						return True, True
+					else:
+						location = findCardByName(shared.piles['Location'],'Laboratory')
+						newVillain = findCardByName(shared.piles['Villain'],'Ylyda Svyn')
+						if location is None:
+							whisper("Failed to find location {}".format(location.Name))
+						else:
+							# Count the number of locations on the table
+							nl = 0 
+							for card in table:
+								if card.Type == 'Location':
+									nl += 1
+							pileName = "Location{}".format(nl+1)
+							buildLocation(findScenario(table), location, shared.piles[pileName])
+							if newVillain is None:
+								whisper("Failed to find villain in the box")
+							else:
+								newVillain.moveTo(location.pile())
+								shuffle(location.pile())
+								location.moveToTable(LocationX(nl+1,nl+1), LocationY)
+							whisper("{} builds location {}".format(me,location))
+						return True, False
+				else:	
+					gameOver(True)
+					return True, True
 		return True, False
 	return False, False
 
@@ -1527,6 +1640,22 @@ def hideVillain(villain, x=0, y=0, banish=False):
 		advanceBlessingDeck()
 		whisper("Brinebones is moves back into the Blessing Deck after advancing it.")
 		return
+		
+	if villain.Name == 'Nulkineth' and findScenario(table).Name == 'The Fifth Crusade':
+		location = overPile(villain, True)
+		returnToBox(villain)
+		if isOpen(location): # Ensure location is closed
+			closed, done = closePermanently(location)
+		maugla = findCardByName(shared.piles['Villain'],"Maugla")
+		if maugla is not None:
+			locs = [c for c in table if c.Type == 'Location']
+			randIndex = int(random()*len(locs))
+			randLoc = locs[randIndex]
+			maugla.moveTo(randLoc.pile())
+			if not isOpen(randLoc):
+				flipCard(randLoc)
+			shuffle(randLoc.pile())
+			return
 	
 	choices = [ 'Evaded', 'Defeated', 'Undefeated' ]
 	if banish:
@@ -1939,28 +2068,41 @@ def scenarioSetup(card):
 	if not lockPile(hidden): return None
 	
 	scenarioSpecific = {}
+	attr2Lines = card.attr2.splitlines()
+	
 	scenarioSpecific['anchorage'] = None # This is set to the location card if an anchorage is mentioned in attr2 of the scenario.
 	if 'Your ship is anchored at ' in card.attr2:
-		shipSearch = card.attr2.replace('Your ship is anchored at ','').replace('the ','')
+		for l in attr2Lines:
+			if 'Your ship is anchored at ' in l:
+				shipSearch = card.attr2.replace('Your ship is anchored at ','').replace('the ','')
 	else:
 		shipSearch = ''
 	scenarioSpecific['cohortNum'] = 0
 	if 'Cohort' in card.attr2:
-		j = 1
-		for c in card.attr2.replace('Cohort: ','').replace('Cohorts: ','').split(', '):
-			scenarioSpecific['cohort{}'.format(j)] = str(c)
-			j = j+1
-		scenarioSpecific['cohortNum'] = j-1
+		for l in attr2Lines:
+			if 'Cohort' in l:
+				j = 1
+				for c in l.replace('Cohort: ','').replace('Cohorts: ','').split(', '):
+					scenarioSpecific['cohort{}'.format(j)] = str(c)
+					j = j+1
+				scenarioSpecific['cohortNum'] = j-1
+	scenarioSpecific['troopName'] = ''
+	if 'Display the troop' in card.attr2:
+		for l in attr2Lines:
+			if 'Display the troop' in l:
+				troopName = l.replace('Display the troop ','').replace('.','')
+				scenarioSpecific['troopName'] = troopName
+		
 	locations = card.Attr1.splitlines()
 	nl = numLocations()
 	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
 	if card.Name in ('Rimeskull','The Free Captains\' Regatta'):
 		nl = 8
-	elif card.Name in ('Into the Runeforge','Isle of the Black Tower'):
+	elif card.Name in ('Into the Runeforge','Isle of the Black Tower','0-6B The Battle of Abendego'):
 		nl -= 1
-	elif card.Name == 'Scaling Mhar Massif':
+	elif card.Name in ['Scaling Mhar Massif','0-6E Into the Maelstrom']:
 		nl -= 2
-	elif card.Name == 'Press Ganged!':
+	elif card.Name in ['Press Ganged!','0-6F Lost in the Storm']:
 		nl = 1
 	elif card.Name == 'The Toll of the Bell':
 		nl = 2
@@ -1968,6 +2110,12 @@ def scenarioSetup(card):
 		nl += 1
 	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home','Vengeance at Sundered Crag'):
 		nl -= 1
+		leaveSpace = 1
+	elif card.Name in ('1-1D Crusaders Assemble'):
+		nl -= 2
+		leaveSpace = 1
+	elif card.Name in ('The Siege of Drezen'):
+		nl = 1
 		leaveSpace = 1
 		
 	if nl < 1:
@@ -2068,8 +2216,10 @@ def scenarioSetup(card):
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
 		repeat = 1
-		if card.Name == 'Into the Eye':
+		if card.Name in ['Into the Eye','0-6F Lost in the Storm']:
 			cardsPerLocation += len(getPlayers())
+			if card.Name == '0-6F Lost in the Storm':
+				cardsPerLocation += 1
 	if card.Name == 'Isle of the Black Tower': #Isle of the Black Tower needs three extra henchmen
 		nl = nl + 3
 	index = 0
@@ -2122,6 +2272,21 @@ def scenarioSetup(card):
 		shuffle(pile)
 		index += 1
 	unlockPile(hidden)
+	
+	if card.Name == 'The Gibbering Swarm':
+		locs = [c for c in table if c.Type == 'Location']
+		for loc in locs:
+			cardTypes = loc.Attr1.splitlines()
+			if cardTypes is not None:
+				details = cardTypes[0].split(' ')
+				if details[0] == 'Monster':
+					cards = num(details[1])
+					for count in range(cards):
+						c = shared.piles['Monster'].random()
+						if c is None:
+							whisper("No more {} cards to deal to location {}".format(details[0], loc))
+							break
+						c.moveTo(loc.pile())
 	
 	# Perform scenario specific actions
 	fn = cardFunctionName(card)
@@ -2198,6 +2363,8 @@ def buildLocation(scenario, location, locPile):
 				cards += 5
 			if details[0] == 'Spell' and scenario.Name == 'The Black Tower':
 				cards += 1
+			if details[0] == 'Monster' and scenario.Name == 'The Gibbering Swarm':
+				cards = 0
 			if scenario.Name == 'The Toll of the Bell':
 				if details[0] == 'Ally' and location.Name == 'Fog Bank':
 					cards += 2*len(getPlayers())

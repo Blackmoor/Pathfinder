@@ -92,6 +92,14 @@ def saveBox(group, x=0, y=0): #table
 			whisper("Failed to save Fleet")
 		else:
 			notify("{} saves the Fleet to {}".format(me, filename))
+			
+	if len(shared.piles['Support']) > 0: #Save the Support deck too
+		sections = { "Support":{}}
+		filename = savePiles('Support-saved.o8d',sections, piles, getSection, True)
+		if filename is None: 
+			whisper("Failed to save Support")
+		else: 
+			notify("{} saves the Support deck to {}".format(me, filename))
 		
 
 # Generic deck saver

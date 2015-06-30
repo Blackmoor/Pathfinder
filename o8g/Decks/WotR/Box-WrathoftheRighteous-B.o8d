@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
   <section name="Story" shared="True">
     <card qty="1" id="a09de55e-38da-4036-8992-752355b9cc84">The Elven Entanglement</card>
     <card qty="1" id="1e38cf16-bd63-485d-9cb5-5ad70694e40c">The Godless Ones</card>
@@ -99,7 +91,7 @@
     <card qty="3" id="e0590828-1f5e-4a76-b4f1-a023695bb0ed">Shortbow</card>
     <card qty="2" id="80cb1ccf-2ad1-4eec-80be-a37b7efc9e4d">Mace</card>
     <card qty="1" id="d5f7cc93-e038-4b91-807f-3eb1a0d3f35b">Scythe</card>
-    <card qty="2" id="8698685a-813b-47b3-a745-2fbd245876d3">Bolas</card>
+    <card qty="1" id="8698685a-813b-47b3-a745-2fbd245876d3">Bolas</card>
     <card qty="1" id="a5499e4c-5273-4abf-822b-b8202b56e7de">Quarterstaff</card>
     <card qty="2" id="624d8c4e-55ff-4abc-abb4-e12c1c90256b">Corrosive Dagger +1</card>
     <card qty="2" id="52189fa9-31af-48f3-a0cf-a765d9a85d26">Longsword</card>
@@ -188,7 +180,6 @@
     <card qty="3" id="45f2be3c-adad-4922-a2e3-7b795661bc3d">Blessing of Iomedae</card>
     <card qty="5" id="206540e9-fe49-4378-95f5-2982f34de1e7">Blessing of Abraxas</card>
   </section>
-  <section name="Ship" shared="True" />
   <section name="Cohort" shared="True">
     <card qty="1" id="1659e32d-eef0-434c-9e53-804f87f91af3">Padrig</card>
     <card qty="1" id="d2468f74-1cf5-48c7-b7cb-3bf089613558">Sir Ilivan</card>
@@ -196,7 +187,6 @@
     <card qty="1" id="986a99de-80ae-4193-aff3-8064bf44e5e7">Donahan</card>
     <card qty="1" id="ea58dfcd-973e-4c10-bb15-745ef6479a7e">Cecilla the Uprooter</card>
   </section>
-  <section name="Fleet" shared="True" />
   <section name="Loot" shared="True">
     <card qty="1" id="9f56a373-04b5-4ab9-a32e-d4a80f0aa66d">Sacred Prism</card>
   </section>
@@ -239,5 +229,16 @@
     <card qty="1" id="a69fa814-25e1-489a-9e94-e25be88f998f">Sophini</card>
     <card qty="1" id="196f3684-842d-482d-b7a8-a156a4f6fc7b">Thurl and Inhaz</card>
   </section>
+  <section name="Support" shared="True" />
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
