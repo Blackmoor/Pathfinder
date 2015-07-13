@@ -510,15 +510,15 @@ def lockPile(pile):
 	if pile is None: return False
 	# Attempt to lock the shared pile
 	# Write the player name and count into a global named after the pile
-	who, count = lockInfo(pile)
-	if who != None and who != me.name:
-		whisper("{} has temporarily locked the game - please try again".format(who))
-		return False
-		
-	if pile.controller != me:
-		pile.setController(me)
-		sync()
-	setGlobalVariable(pile.name, "{} {}".format(me.name, count+1))
+	#who, count = lockInfo(pile)
+	#if who != None and who != me.name:
+	#	whisper("{} has temporarily locked the game - please try again".format(who))
+	#	return False
+	#	
+	#if pile.controller != me:
+	#	pile.setController(me)
+	#	sync()
+	#setGlobalVariable(pile.name, "{} {}".format(me.name, count+1))
 	return True
 
 def unlockPile(pile):
@@ -1640,7 +1640,8 @@ def hideVillain(villain, x=0, y=0, banish=False):
 		advanceBlessingDeck()
 		whisper("Brinebones is moves back into the Blessing Deck after advancing it.")
 		return
-		
+	
+	#In the Fifth Crusade, defeating Nulkineth causes a new location with Maugla to be created
 	if villain.Name == 'Nulkineth' and findScenario(table).Name == 'The Fifth Crusade':
 		location = overPile(villain, True)
 		returnToBox(villain)
