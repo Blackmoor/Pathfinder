@@ -2,7 +2,11 @@
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Story" shared="True">
     <card qty="1" id="b426abe0-e9e5-4484-a759-fb7ec0ced3c9">A Pirate's Life</card>
+    <card qty="1" id="8d6bbdfd-5b61-4259-b0e8-bdcc560c4a88">Hurricane Weather</card>
+    <card qty="1" id="176aa1d2-d607-4468-8001-97a75f4e9458">Island of the Damned</card>
     <card qty="1" id="5c21eea7-521e-43fa-8b06-c8af19e73c66">Lost at Sea</card>
+    <card qty="1" id="90371768-2c6a-488a-9d5d-0307561f2680">Run Out the Guns</card>
+    <card qty="1" id="1f84a12e-56f6-4a3b-a846-61e725084390">Treacherous Waters</card>
     <card qty="1" id="38cb1970-724a-4b16-a300-717bbcd1b328">Season of the Shackles</card>
     <card qty="1" id="157bc0ad-2737-4f31-b9e1-90a718bc6220">0-0A On the Horizon</card>
     <card qty="1" id="84b5454d-57a2-42a0-bd6f-821c00643da7">0-1A Ghosts of the Deep</card>
@@ -15,12 +19,57 @@
     <card qty="1" id="1a9b0c05-bd25-49ab-b084-e058bdff2009">0-2B Yo Ho Grindylows</card>
     <card qty="1" id="c07c6aa2-513a-4147-8a1c-093e797a1511">0-2C Revenge of the Fishfolk</card>
     <card qty="1" id="be39c247-a8c0-4bc6-9bcb-a8e7a6f06a8a">0-2D Who Rules Hell Harbor?</card>
+    <card qty="1" id="a7e5e6c6-e32c-4226-b64c-a538383127af">0-3B On Top of the World</card>
+    <card qty="1" id="258e83e9-18fb-4df1-baa2-7406c48c5061">0-3C Jungle Boogie</card>
+    <card qty="1" id="38283127-1cd1-4fed-ad3d-afcf03a9fa80">0-3D Going Under</card>
+    <card qty="1" id="220674be-aa68-4ddb-afe0-56098ceb2c21">0-4A A Tale of Two Alchemists</card>
+    <card qty="1" id="f1431a64-7682-4044-915f-fd1c050f513b">0-4C By Rum and Thunder</card>
+    <card qty="1" id="817051cd-98e7-4b90-ab67-d28c489274ef">0-4D The Impossible Bottle</card>
+    <card qty="1" id="d27607aa-d02e-4e0e-9497-60df139e93f7">0-5A Meanwhile, in the Shackles…</card>
+    <card qty="1" id="91de246d-d2d4-4d04-9a46-b7c94bfffd26">0-5B The Play's the Thing</card>
+    <card qty="1" id="1817c9e2-5ce3-4b6b-b904-1da43c654a58">0-5C Release the Obligatory Kraken</card>
+    <card qty="1" id="ed6d7957-a44a-48c9-8bd8-76a5b2505325">0-5D A Crew Divided</card>
+    <card qty="1" id="d982edc9-7a84-48dd-a4ce-11837c2a0ad9">0-6B The Battle of Abendego</card>
+    <card qty="1" id="1788a009-eba2-43b8-998a-00db9e75417d">0-6D The Pirate Party</card>
+    <card qty="1" id="026aba0a-300f-4377-b4b8-0b3af42698c5">0-6C The Monster Marsh</card>
+    <card qty="1" id="91509337-663e-4394-a2f7-79ac1964ebf3">0-6F Lost in the Storm</card>
+    <card qty="1" id="9b3d9a07-a868-4c82-a126-b960e6f2d186">0-6E Into the Maelstrom</card>
+    <card qty="1" id="be138daf-0e50-4a02-8064-cf9750de71f8">0-6A Get a Clue</card>
+    <card qty="1" id="99a2da49-e808-4bef-a098-76b9df78da94">0-4B DINOSAURS!</card>
+    <card qty="1" id="f9622e43-df44-423a-a978-5f0457851feb">0-3A Wrecking Ball</card>
   </section>
   <section name="Henchman" shared="True">
-    <card qty="1" id="5cc275ba-4854-42e0-a4b2-b29efab312db">Onwu Azu</card>
+    <card qty="1" id="2a7460a2-14ac-47d4-aaf1-71e5dcef91d0">Barnabas Harrigan</card>
+    <card qty="1" id="1c90205a-64ad-4199-8821-04ee81f5c563">Kerdak Bonefist</card>
+    <card qty="1" id="d2839be8-721f-4265-b33a-a90df0adb082">Captain Horrus Riptooth</card>
+    <card qty="1" id="dbe695ce-bb24-43a9-92b2-f6904f41dc4b">Powderpot</card>
+    <card qty="1" id="23e3d445-1000-4aff-9b09-1de588ccf44b">Omara Culverin</card>
+    <card qty="1" id="016015f6-ae13-4c23-8fea-3772ba225f3e">Tsadok Goldtooth</card>
+    <card qty="6" id="ffc766d5-7d9c-494a-86a4-8e1558568c03">Karkinoi</card>
+    <card qty="7" id="951c5f4f-0f93-49c2-8761-a78d2778e1d8">Brineborn Giant</card>
+    <card qty="1" id="1ca0d708-88da-46a2-b39f-4502bda83bef">Hyapatia</card>
+    <card qty="7" id="b47ec535-25f5-4ba4-b1f1-d5717dae10ff">Allosaurus</card>
+    <card qty="7" id="5cc275ba-4854-42e0-a4b2-b29efab312db">Onwu Azu</card>
   </section>
   <section name="Location" shared="True">
+    <card qty="1" id="c5ecc903-7b01-4a5b-ba4d-a76921fa01bf">Bow</card>
+    <card qty="1" id="aecf4248-d250-485d-bfd4-5c981eb5a581">Cargo Hold</card>
+    <card qty="1" id="55668c04-fb84-4805-8dba-8758e715cf43">Crow's Nest</card>
+    <card qty="1" id="4719ecfa-8c15-487c-9ac4-d8c043c8aac8">Galley</card>
+    <card qty="1" id="499aade5-39e9-487d-8c4a-252ebcddf768">Helm</card>
+    <card qty="1" id="5b28692e-4ce2-4d58-a65b-8ca21f31647f">Lost in the Storm</card>
+    <card qty="1" id="c5916974-3221-4991-91eb-23693ed123bb">Rigging</card>
     <card qty="5" id="3653ffa5-43e2-447a-9eec-bd773942232e">Shark Island</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="6" id="4e5fb0b1-cb74-46f9-a65e-7f41127d19f1">Councilor's Ring</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="e82fa250-857a-4824-8fe4-6724419cf826">Avatar of Dagon</card>
+    <card qty="1" id="44e986db-0925-4458-a2e5-48f64fc8d162">Mokele-Mbembe</card>
+    <card qty="1" id="e540f85d-92e2-434b-812f-c17008ee5c6d">Mugslup</card>
+    <card qty="1" id="57e799ad-216f-494e-abc6-16b7d40fee8d">Kraken</card>
   </section>
   <section name="Character" shared="False" />
   <section name="Weapon" shared="False" />
@@ -38,9 +87,7 @@
   <section name="Item" shared="True" />
   <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
-  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
-  <section name="Loot" shared="True" />
-  <section name="Villain" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

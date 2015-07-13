@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Story" shared="True">
+    <card qty="1" id="99a4d738-11f5-4d02-9ff1-0a1d4645fed1">Into the Citadel</card>
+    <card qty="1" id="e0cd5903-6dd2-4082-8680-444c6b65c438">The Fifth Crusade</card>
+    <card qty="1" id="84d18cca-888f-48dc-b87d-f341a2ec569a">The Siege of Drezen</card>
+    <card qty="1" id="fb368bd5-bfdb-4832-a0e6-877c02298024">The Gibbering Swarm</card>
+    <card qty="1" id="26a53ec9-cf89-4196-b109-ab1e0cfb25fc">Gauntlet of Ruin</card>
+    <card qty="1" id="608ab5aa-c777-4bd2-bda9-8f52b6740af7">Sword of Valor</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="f2d18562-777c-49c7-877d-fa3dd78fd122">Ilzek and Jadiss</card>
+    <card qty="6" id="964180da-8160-4e0e-b340-fb5ee1b17e3a">Worldwound Cadre</card>
+    <card qty="6" id="adf0f4e9-0916-427e-993a-d9d1f7daf51d">Undead Company</card>
+    <card qty="1" id="4d56a971-5378-4e96-9136-34147926fede">Janeamine</card>
+    <card qty="1" id="c22392b4-ce67-465e-87b3-d1a432259ee0">Theruk Nul</card>
+    <card qty="1" id="e163616a-2993-4df7-acca-9efb3b72d14d">Kiranda</card>
+    <card qty="1" id="902babf0-0de0-48ea-bc94-c7b3dfc7be6c">Joram Vhane</card>
+    <card qty="1" id="5ba24359-6e6f-4143-b2cc-0a9bd9b15f2e">Jestak</card>
+    <card qty="1" id="008f8003-1954-444a-9cf3-addf2e481687">Demonic Platoon</card>
+    <card qty="1" id="9d758976-cdeb-40f0-960f-74d850069a9c">Chorussina</card>
+    <card qty="1" id="74e04485-6e86-460b-a22c-3844d8ef072c">Blood Demon</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="614e6330-90d5-44a6-bffd-580d9c5c1bac">Gargoyle</card>
+    <card qty="2" id="7be817ee-5dd5-4c5e-9084-a5d0cc842819">Cultist Archer</card>
+    <card qty="2" id="b8485ece-6c86-4ff4-8b11-53646930427b">Spectre</card>
+    <card qty="2" id="2f2ddf39-600a-468b-888e-26836c562ec0">Incubus</card>
+    <card qty="2" id="6ffba8bf-a02d-409a-a9fc-64fb07ddc876">Salamander</card>
+    <card qty="2" id="443be1c7-37ab-49b9-9209-f2f50497bb7a">Betrayal Demon</card>
+    <card qty="1" id="b71046f8-de02-4000-be8d-b21caf23eb2f">Berbalang</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="ad612c53-a484-4199-9d3b-0fe586b94a19">Blood of Eustoyriax</card>
+    <card qty="1" id="c45d68df-9be2-4161-974b-141450faca93">Death of Righteousness</card>
+    <card qty="2" id="d6889a5f-879e-4b4d-83ff-364a45c74fdc">Telekinesis Trap</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="d10f66fd-6f00-4984-b7b3-a49516f4243d">Armor of the Pious</card>
+    <card qty="2" id="b323a2c5-aafe-402e-8cc3-85cc36e99d6e">Imperial Army Greathelm</card>
+    <card qty="2" id="33bd40a1-c60a-482c-87be-e90d3d5fc6d5">Spiny Shield</card>
+    <card qty="2" id="bb2ba0ab-ce48-4b8e-ae12-31a9379cb90a">Gossamer Shrouds</card>
+    <card qty="1" id="ea1678ff-67c3-49ce-8573-6fbecf834b1a">Commander's Field Plate</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="493a4c17-6468-4c3b-9eef-831fe59e40e9">Javelin of Lightning</card>
+    <card qty="2" id="e66f8247-70a2-4cfa-a9a7-cdab059b07a9">Unholy Aspergillum +3</card>
+    <card qty="2" id="81b83503-1b55-43d3-83b0-aa9d935b3a28">Marksman's Bow</card>
+    <card qty="1" id="da079314-7b44-48db-9f76-98db477f047b">Flaming Spear +1</card>
+    <card qty="2" id="1b8f6105-da27-48d4-9833-aaa0bff66214">Cold Iron Mace +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="4fdf982b-d5fe-4f22-8c33-81a790aebdbf">Paralyze</card>
+    <card qty="2" id="37a0d68e-dd88-42ec-afc2-b49b3a771783">Dismissal</card>
+    <card qty="2" id="32da6768-a892-430f-9853-4dca1ec9ebcb">Unearthly Aim</card>
+    <card qty="1" id="fc762aaf-7eac-47e4-8d13-6bd8196480e0">Heat Metal</card>
+    <card qty="1" id="ca0be58a-9eb4-43f5-be68-2c2b9d8c042b">Consecrate</card>
+    <card qty="2" id="8321b2d2-14e3-4cac-9e53-28107dffe59f">Charm Monster</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="36611e13-c5ce-4e16-928e-fcfd56b99260">Wand of Sacred Weapon</card>
+    <card qty="2" id="de7dc720-05a3-411f-8049-8772252fa21f">Nahyndrian Elixer</card>
+    <card qty="1" id="f159bc23-a823-40bb-9b55-fe516fdb0850">Planar Tuning Fork</card>
+    <card qty="2" id="fdc08d0c-d7b5-4c5e-99af-4aca37a3b4d7">Knight's Pennon</card>
+    <card qty="1" id="83de6d86-5567-4001-a5e8-5c7c24860b97">Lymirin Discourses</card>
+    <card qty="2" id="a7672194-0a0f-41da-93e4-3b2e5ef03a22">Horn of Assured Victory</card>
+    <card qty="1" id="9962f551-b4b2-404f-bc64-852983390275">Dawnflower's Light</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="1d83c93d-1dcd-4921-afeb-c15296f3f250">Kamilo Dann</card>
+    <card qty="2" id="f5d2c9f2-ce2a-4e1b-84a5-27335c2bf4cf">Wolf</card>
+    <card qty="1" id="5188911f-8a87-4ef2-86cd-72b1a3a9a130">Scribe</card>
+    <card qty="2" id="410b72c6-f597-4a14-a826-ab77c42f071b">Warhorse</card>
+    <card qty="2" id="ee680039-7650-470d-8984-a64455277c66">Minotaur Mercenary</card>
+    <card qty="1" id="d5e0817b-50d3-4ee8-87b2-038b00b67bcd">Druid of the Storm</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="4" id="d3ac4d90-c167-4a8f-bef2-8409761d08e2">Blessing of Nethys</card>
+  </section>
+  <section name="Cohort" shared="True">
+    <card qty="1" id="e2f9848a-049a-4366-8dcb-beb76067ee6b">Nurah Dendiwhar</card>
+    <card qty="1" id="c6b72dc2-6111-47e7-a55c-86d78ff1471e">Queen Galfrey</card>
+  </section>
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="1" id="beff7767-1860-4f7b-b3a8-a8e0a46bbe88">Soulshear</card>
+    <card qty="1" id="139522d2-34c3-4275-b34e-04d3d0f8c460">Ring of Forcefangs</card>
+    <card qty="1" id="7cfc4919-9be5-49f9-a772-cdd797076e03">Banner of Valor</card>
+    <card qty="1" id="1c48c147-ab37-44ed-8c7a-9bb01482e841">Barding of Pleated Light</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="7304a0b8-93f1-49c0-afc7-835bfcd4208f">Paradise Hill</card>
+    <card qty="1" id="091c83af-8be8-4607-bdfa-69bf3595e16a">Corruption Forge</card>
+    <card qty="1" id="4bc9e39c-036f-4afb-aa00-38b55c49278c">Celestial Beacon</card>
+    <card qty="1" id="518c20f3-fd90-4994-b08a-79403c9c32a4">Chasm of Shadows</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="9f66c7bc-0f42-438a-9bf5-355d2e810cc1">Eustoyriax</card>
+    <card qty="1" id="72c35a9f-21e3-476d-8b67-1f33957bdfba">Soltengrebbe</card>
+    <card qty="1" id="cf682cb5-ec1c-45a0-98b1-bb45d58c89ec">Vescavor Queen</card>
+    <card qty="1" id="8b91aa3e-a763-47cd-970b-ed26c2e8071d">Staunton Vhane</card>
+    <card qty="1" id="7ef1aaec-6652-4140-8f00-0231c2f7386a">Nulkineth</card>
+    <card qty="1" id="162a9829-268e-4773-8d74-05bd45160f6c">Maugla</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

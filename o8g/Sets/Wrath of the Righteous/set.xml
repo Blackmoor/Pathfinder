@@ -300,7 +300,7 @@
     <property name="Subtype" value="Henchman"/>
     <property name="Subtype2" value="Monster"/>
     <property name="Traits" value="Undead&#10;Wight"/>
-    <property name="Attr1" value="The Wight is immune to the Mental and Poison traits.&#10;Before you act, the Wight deals 1 Cold damage to a random character at your location; when that character is dealth damage, she buries those cards isntead of discarding them.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr1" value="The Wight is immune to the Mental and Poison traits.&#10;Before you act, the Wight deals 1 Cold damage to a random character at your location; when that character is dealt damage, she buries those cards instead of discarding them.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="10"/>
     <property name="Attr4" value="Wisdom&#10;Divine"/>
@@ -2323,6 +2323,168 @@
       <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
+  <card id="bf0f1529-8442-48bf-bcc5-07527aa181de" name="Amulet of the Abyss">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="832fbfbf-6a9c-4b33-8559-07c5cc370be8" name="Anarchy Hammer">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="19e62517-0171-4ef1-a3c8-6bc16615732c" name="Black Robe">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="23c69379-7ddd-453d-8e1f-5e5154548ed9" name="Blackaxe">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="eb0ba362-851c-4712-8efb-8f8c9140130d" name="Book of the Damned">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="72267ec2-084d-47b3-b19f-4ce5c1513884" name="Corroded Helm">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="1f9d906c-4af5-4b08-8256-3d2d68d97f68" name="Fasciculus Labyrinthum">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="00c45d47-a82b-441f-ab55-a2088c4a1a30" name="Ghoul Hide">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="eb144f89-c8d6-41b6-80c1-bc82b93c5b86" name="Helm of the Serpent King">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="98ea2427-bfd2-407e-9299-b7b5e66740f2" name="Horns of Naraga">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="51c95e1c-eb3c-4eeb-8fe8-54cf1c1a39eb" name="Lexicon of Paradox">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="32914e09-0e2d-40d1-a40a-956fb40545e2" name="Monkey's Paw">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="35918f98-bafb-4b14-87cd-bfafaaac3331" name="Nahyndrian Elixir">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="56e5bf68-283d-4a8d-b7e7-97877061aade" name="Righteous Medal of Agility">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+    <property name="Attr1" value="Dexterity"/>
+  </card>
+  <card id="8eb8170a-6c7d-4cd1-817b-55e5e01a6548" name="Righteous Medal of Clarity">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+    <property name="Attr1" value="Intelligence"/>
+  </card>
+  <card id="d26cdff5-76d8-4bc9-b0d8-fe1610db0820" name="Righteous Medal of Command">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+    <property name="Attr1" value="Charisma"/>
+  </card>
+  <card id="783ade6f-527e-43ce-81cd-c115308341ef" name="Righteous Medal of Spirit">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+    <property name="Attr1" value="Wisdom"/>
+  </card>
+  <card id="711e6a73-8f25-4283-b9b7-f3ea3c2e149b" name="Righteous Medal of Valor">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+    <property name="Attr1" value="Strength"/>
+  </card>
+  <card id="0151983f-0bcb-463d-90c6-74c6fe68f057" name="Righteous Medal of Vigor">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+    <property name="Attr1" value="Constitution"/>
+  </card>
+  <card id="9075ff37-beee-4724-8702-77c863b63508" name="Robe of the Rifts">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="f127c5b1-fcbb-44df-a480-d6f0c1cd97c1" name="Rod of the Viper">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="c3ba6e97-dfa5-45de-9346-6584c5b1ab3d" name="Skinstitcher's Manual">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="9f91f6b1-dd58-4282-95ea-2919c0655d9e" name="Soulshear">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="2386164e-04ab-4603-994a-089161348fcd" name="Stalker's Crossbow">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="9095de24-5b50-4a88-b635-b1a7e5d81afd" name="Traitor's Blade">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
+  <card id="c1fbaa75-0f0c-4a5c-8564-8ecc4bd18c00" name="Unholy Aspergillum +3">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Feat"/>
+    <property name="Subtype" value="Support"/>
+  </card>
   <card id="7adecc76-de71-4b33-82c7-f1562b718516" name="Abattoir">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -2953,6 +3115,22 @@
       <property name="Attr3" value="Unfettered Eidolons"/>
       <property name="Attr4" value="Each character chooses a type of boon other than loot and draws a random non-Basic card of that type from the box."/>
     </alternate>
+  </card>
+  <card id="85b166e3-f451-42cd-bace-dbe7b8b987b4" name="Redemption">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Support"/>
+    <property name="Subtype" value="Redemption"/>
+    <property name="Attr1" value="Amulet of the Abyss&#10;Anarchy Hammer&#10;Black Robe&#10;Blackaxe&#10;Book of the Damned&#10;Corroded Helm&#10;Fasciculus Labyrinthum&#10;Ghoul Hide&#10;Helm of the Serpent King&#10;Horns of Naraga&#10;Lexicon of Paradox&#10;Monkey's Paw&#10;Nahyndrian Elixir&#10;Robe of the Rifts&#10;Rod of the Viper&#10;Skinstitcher's Manual&#10;Soulshear&#10;Stalker's Crossbow&#10;Traitor's Blade&#10;Unholy Aspergillum +3"/>
+    <property name="Attr2" value="After you redeem a boon, it no longer has the Corrupted trait."/>
+  </card>
+  <card id="524facc9-53b4-42e0-b39c-8cf5e06e34f5" name="Knights of Kenabres">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Support"/>
+    <property name="Subtype" value="Troop"/>
+    <property name="Attr1" value="Righteous Medal of Valor&#10;Righteous Medal of Agility&#10;Righteous Medal of Vigor&#10;Righteous Medal of Clarity&#10;Righteous Medal of Spirit&#10;Righteous Medal of Command"/>
+    <property name="Attr2" value="While displayed, any character may add 1d6 to a check to defeat a barrier that has the Army trait that uses one of the following checked skills:"/>
   </card>
  </cards>
 </set>

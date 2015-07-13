@@ -1037,22 +1037,6 @@
 	  </link>
 	 </textblocks>
   </template>
-  <template src="Proxy/Character.jpg">
-	<matches>
-	  <match name="Type" value="Feat" />
-	</matches>
-	<textblocks>
-	  <link block="Abr">
-	   <property name="Abr" />
-	  </link>
-	  <link block="Name">
-	   <property name="Name" />
-	  </link>
-	  <link block="Traits">
-	   <property name="Subtype" />
-	  </link>
-	 </textblocks>
-  </template>
   <template src="Proxy/Silhouette.png">
 	<matches>
 	  <match name="Type" value="Character" />
@@ -1117,5 +1101,41 @@
 	   <property name="Flavour" />
 	  </link>
 	 </textblocks>
+  </template>
+  <template src="Proxy/LocationBack.jpg" default="True">
+	<matches>
+		<match name="Type" value="Support" />
+	</matches>
+	<textblocks>
+		<link block="Abr">
+			<property name="Abr" />
+		</link>
+		<link block="Name">
+			<property name="Name" />
+		</link>
+		<link block="Text" separator="&#10;">
+			<property name="Attr2" />
+			<property name="Attr1" />
+		</link>
+	</textblocks>
+  </template>
+  <template src="Proxy/Feat.jpg" default="True">
+	<matches>
+		<match name="Type" value="Feat" />
+	</matches>
+	<textblocks>
+		<link block="Abr">
+			<property name="Abr" />
+		</link>
+		<link block="Name">
+			<property name="Name" />
+		</link>
+		<link block="Traits">
+			<property name="Attr1" />
+		</link>
+		<link block="Subtype">
+			<property name="Subtype" />
+		</link>
+	</textblocks>
   </template>
 </templates>

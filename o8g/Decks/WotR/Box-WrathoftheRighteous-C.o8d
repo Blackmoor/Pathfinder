@@ -1,14 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
-  <section name="Story" shared="True" />
   <section name="Henchman" shared="True">
     <card qty="2" id="18ad661f-ad58-45b9-be6b-70e3521eee31">Derakni</card>
     <card qty="2" id="d2d7b1c2-5bb6-42dc-9287-b35f28111a09">Tangle Trap</card>
@@ -49,6 +40,7 @@
     <card qty="1" id="bfdf7280-be1c-43c0-a2dd-4727feafcc7e">Composite Bow</card>
     <card qty="1" id="e5131b7a-9f93-4ae5-bcf4-4c7a23295ab8">Scizore</card>
     <card qty="1" id="a0bedcf1-d340-46b4-9f84-06be126b369c">Scythe</card>
+    <card qty="1" id="b458169d-4f34-45f9-83a9-371e18ea5aad">Bolas</card>
     <card qty="1" id="0757a124-3c4c-4c4b-af3a-1d88e3318741">Quarterstaff</card>
     <card qty="1" id="9bf0696b-643d-4a4b-9e3d-0d8cf137b63e">Hand Crossbow</card>
     <card qty="1" id="1b9399c5-6c6a-481b-bfa2-e0d2ab4879b0">Heavy Crossbow</card>
@@ -103,11 +95,20 @@
     <card qty="1" id="d58c2dc1-80b6-4c32-8746-c28b9bc3ad1f">Blessing of Abraxas</card>
     <card qty="1" id="801cbccc-5ce2-45b8-b946-8eb09cc2846b">Blessing of Abadar</card>
   </section>
-  <section name="Ship" shared="True" />
   <section name="Cohort" shared="True">
     <card qty="1" id="8d83895c-abee-444e-90c0-93124f1c3c8f">Leryn</card>
     <card qty="1" id="7aa317a6-554a-4120-ab18-e640b68e3050">Kolo</card>
   </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Ship" shared="True" />
   <section name="Fleet" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />

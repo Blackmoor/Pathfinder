@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Season of the Righteous" id="8fa06646-93fa-4183-910d-a548497fed89" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="3.0.0.0">
+ <cards>
+  <card id="918da75f-d9e1-4f4a-85f6-54eb3708d404" name="Corrupted Soldier">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Soldier&#10;Veteran"/>
+    <property name="Attr1" value="The difficulty of checks to defeat the Corrupted Soldier is increased by twice the scenario's adventure deck number.&#10;If undefeated, the Corrupted Soldier does not deal damage as normal; instead it deals Combat damage equal to 2 plus the scenario's adventure deck number.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="9"/>
+    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="6776aa3c-5a3a-4104-863a-812e07fdb0fc" name="Fiendish Minotaur">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Minotaur&#10;Veteran"/>
+    <property name="Attr1" value="The difficulty of checks against the Fiendish Minotaur is increased by twice the scenario's adventure deck number. Add 3 to your checks against this henchman if you succeed at an Intelligence or Knowledge 7 check, or if the check has the Acid, Electricity, or Force trait.&#10;Before you act, if this is your first exploration of the turn, the Fiendish Minotaur deals you 1d4-1 Combat damage.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="ba67b983-4fdf-4768-968b-4ac16fd4a3f0" name="Carrock">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Plant&#10;Demon&#10;Druid"/>
+    <property name="Attr1" value="Carrock is immune to the Mental and Poison traits. If the check to defeat has the Fire trait, add 1d8. &#10;Before you act, Carrock deals 1 Ranged Combat damage to you.&#10;After you act, Carrock deals 1 Ranged Combat damage to you."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="e831ec79-a5a6-4c4f-b768-068d4cea5ae0" name="Ylyda Svyn">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Alchemist"/>
+    <property name="Flavour" value="&quot;You'll not be allowed to disrupt my work. Therefore, I'm afraid you must die!&quot; - Ylyda Svyn"/>
+    <property name="Attr1" value="When Ylyda Svyn is evaded, each other character is dealt 1 Acid damage and 1 Fire damage.&#10;Add the number of closed locations to your checks to defeat Ylyda Svyn."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="12"/>
+    <property name="Attr4" value="Craft"/>
+    <property name="Attr5" value="12"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="9b4f658b-6297-411f-aa15-d1f730407a12" name="Herald of Iomedae">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Cohort"/>
+    <property name="Traits" value="Outsider"/>
+    <property name="Attr1" value="Display this card next to the blessings deck; banish it at the end of the scenario.&#10;While displayed, at the end of any character's turn, that character may shuffle 1d4+1 random cards from his discard pile into his deck; if he does, a character must either bury a blessing or discard the top card of the blessings deck."/>
+  </card>
+  <card id="0648c41c-6aa6-46f8-8f96-4355ea1aa30c" name="Guardpost">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 0&#10;Weapon 2&#10;Spell 0&#10;Armor 2&#10;Item 0&#10;Ally 2&#10;Blessing 0"/>
+    <property name="Attr2" value="At the start of your turn, summon and encounter the henchman Corrupted Soldier."/>
+    <property name="Attr3" value="Summon and defeat the henchman Corrupted Soldier."/>
+    <property name="Attr4" value="On closing, draw a random armor from the box."/>
+    <alternate name="Guardpost" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Mongrels crawl through the tunnels of their hidden civilization. Mutants and madmen patrol subterranean kingdoms like the one beneath the city of Kenabres. The gods have forsaken them, so they must remain vigilant in the darkness. Yet for any who can survive the patrols of corrupted soldiers stalking in the surrounding tunnels, a hidden village is ready to accept them. The town that lies beyond this guardpost tenaciously endures like the ideals of a lost generation - dreams upheld by the descendents of crusaders nearly forgotten by history."/>
+    </alternate>
+  </card>
+  <card id="d92cb1f4-4969-4d8b-aab9-bf3cda0c950b" name="Herald's Chosen">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <alternate name="Herald's Chosen" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="1-1A Cloven Trail&#10;1-1B Instant Inquisition&#10;1-1C Get to Fort Clearwater&#10;1-1D Crusaders Assemble&#10;1-1E Ladies Who Lunch… with Demons"/>
+      <property name="Attr2" value="Each character gains a skill feat."/>
+      <property name="Attr3" value="The servitor demon is the henchman Demonling."/>
+    </alternate>
+  </card>
+  <card id="990a78d8-a3bb-4085-b487-dd9552a278a3" name="Season of the Righteous">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure Path"/>
+    <property name="Subtype2" value="Front"/>
+    <alternate name="Season of the Righteous" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure Path"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Herald's Chosen&#10;Adventure 2&#10;Adventure 3&#10;Adventure 4&#10;Adventure 5&#10;Adventure 6"/>
+      <property name="Attr2" value="Each player chooses one of his Pathfinder Society Adventure Card Guild characters. That character may treat the loot Scale of Remembrance as if it is in his Class Deck box."/>
+      <property name="Attr3" value="After you begin Adventure 2, choose a mythic path card. For the rest of the Adventure Path, when you play a scenario in Adventure 2 or higher, the card you chose is your mythic path card.&#10;After you begin Adventure 3, when you would banish a bane that has the Basic trait, remove it from the game. After you begin Adventure 5, do the same for cards that have the Elite trait."/>
+    </alternate>
+  </card>
+  <card id="e9b8428c-dae5-4786-8f48-df4974d9a381" name="1-0A Demonic Politics">
+    <property name="Abr" value="0"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Canyon&#10;Citadel&#10;Temple of Iomedae&#10;Dark Forest&#10;Watchtower&#10;Collapsing Bridge"/>
+    <property name="Attr2" value="Cohort: Cecilla the Uprooter"/>
+    <alternate name="1-0A Demonic Politics" type="B">
+      <property name="Abr" value="0"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Each character chooses a mythic path card and gets 1 mythic charge. Treat the adventure deck number of this scenario as if it is 1.&#10;Any character may recharge a blessing to reduce Cold or Fire damage dealt to any character by 1."/>
+      <property name="Attr2" value="Savash"/>
+      <property name="Attr3" value="Brimorak&#10;Wights"/>
+      <property name="Attr4" value="Earn a deck upgrade for one Pathfinder Adventure Card Guild character."/>
+    </alternate>
+  </card>
+  <card id="99e1e880-f64d-4df4-bb37-0e15603ced4a" name="1-1A Cloven Trail">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Guardpost&#10;Maze&#10;Watchtower&#10;Forsaken Cloister&#10;Wounded Lands&#10;Cavern&#10;Abyssal Rift&#10;Canyon"/>
+    <property name="Attr2" value="Cohort: Herald of Iomedae"/>
+    <alternate name="1-1A Cloven Trail" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="During the first exploration of each turn, damage dealt is decreased by 1."/>
+      <property name="Attr2" value="Faxon"/>
+      <property name="Attr3" value="Fiendish Minotaur"/>
+      <property name="Attr4" value="Each player chooses weapon, spell, or item, then draws a random card of that type from the box."/>
+    </alternate>
+  </card>
+  <card id="ff96d386-4cef-4bbd-b14f-46a9f0c460d0" name="1-1B Instant Inquisition">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Befouled Altar&#10;Defender's Heart&#10;Marketplace&#10;Armory&#10;Manor House&#10;Temple of Iomedae&#10;Family Tomb&#10;Cathedral of St. Clydwell"/>
+    <property name="Attr2" value="Cohort: Sosiel Vaenic"/>
+    <alternate name="1-1B Instant Inquisition" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When a character would play an ally, roll 1d6. On a 1 or 2, bury that ally; that character instead summons and encounters the henchman Demonling."/>
+      <property name="Attr2" value="Tancred Desimire"/>
+      <property name="Attr3" value="Blackfire Adept&#10;Cultist of Baphomets"/>
+      <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, 1 player may temporarily replace 1 item in her deck with the loot Scale of Disguise. At the end of each scenario, return the loot to the game box."/>
+    </alternate>
+  </card>
+  <card id="b556c8e4-79e3-4685-b06d-7df92f051c7b" name="1-1C Get to Fort Clearwater">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Cavern&#10;Cemetery&#10;Dark Forest&#10;Collapsing Bridge&#10;Abyssal River&#10;Wounded Lands&#10;Canyon&#10;Forsaken Cloister"/>
+    <property name="Attr2" value="Cohorts: Anevia Tirabade, Aron Kir"/>
+    <alternate name="1-1C Get to Fort Clearwater" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When a character defeats a barrier during an exploration, that character may immediately explore again.&#10;When a barrier is undefeated, discard the top card of the blessings deck."/>
+      <property name="Attr2" value="Carrock"/>
+      <property name="Attr3" value="Giant Bats"/>
+      <property name="Attr4" value="Each player chooses armor or ally, then draws a random card of that type from the box."/>
+    </alternate>
+  </card>
+  <card id="e79228f1-6752-48ad-85b1-2249700251ca" name="1-1D Crusaders Assemble">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Guardpost&#10;Guardpost&#10;Guardpost&#10;Guardpost&#10;Guardpost&#10;Guardpost"/>
+    <property name="Attr2" value="Cohorts: Horgus Gwerm, Anevia Tirabade"/>
+    <alternate name="1-1D Crusaders Assemble" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Using the deck list from Guardpost, build a number of Guardpost locations equal to the number of characters.&#10;When you acquire a boon from the location deck, put it facebown in a boon pile next to the scenario. When you defeat a Corrupted Soldier henchman, draw a random armor or weapon from the box and put it in the boon pile. When you fail to permanently close a location or defeat a henchman, banish a random card from the boon pile; if the boon pile is empty, instead banish the top card of the blessings deck.&#10;When you permanently close the last location, summon and build the location Laboratory, and shuffle Ylyda Svyn into its location deck. If Ylyda Svyn is undefeated, banish her; the next character summons and encounters Ylyda Svyn as the first exploration of his turn. To win the scenario, defeat Ylyda Svyn."/>
+      <property name="Attr2" value="None"/>
+      <property name="Attr3" value="Corrupted Soldier"/>
+      <property name="Attr4" value="Each character may choose one of the boons in the boon pile and use it as a bonus deck upgrade."/>
+    </alternate>
+  </card>
+ </cards>
+</set>

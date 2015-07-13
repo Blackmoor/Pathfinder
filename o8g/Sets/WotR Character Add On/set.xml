@@ -734,6 +734,16 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="6"/>
   </card>
+  <card id="b458169d-4f34-45f9-83a9-371e18ea5aad" name="Bolas">
+    <property name="Abr" value="C"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Chain&#10;Ranged&#10;Bludgeoning&#10;Basic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d4-1; you may additionally discard this card to add another 1d4-1. If you fail this check against a non-villain monster and are proficient with weapons, you may put the monster on top of its location deck.&#10;Discard this card to evade a monster you encounter whose highest difficulty to defeat is 12 or lower."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="5"/>
+  </card>
   <card id="bfdf7280-be1c-43c0-a2dd-4727feafcc7e" name="Composite Bow">
     <property name="Abr" value="C"/>
     <property name="Copyright" value="Yes."/>

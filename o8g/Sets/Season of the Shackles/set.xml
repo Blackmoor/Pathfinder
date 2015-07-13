@@ -15,9 +15,153 @@
     <property name="Attr5" value="14"/>
     <property name="Attr6" value="OR"/>
   </card>
+  <card id="2a7460a2-14ac-47d4-aaf1-71e5dcef91d0" name="Barnabas Harrigan">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Rogue&#10;Captain&#10;Pirate"/>
+    <property name="Attr1" value="When you encounter Barnabas Harrigan, succeed at a Wisdom or Perception 14 check or the difficulty of the checks to defeat are increased by 6 and he may not be evaded.&#10;Before you attempt any check to defeat, recharge 1 armor or 1d4 other cards, or discard them if you aren't the only character at your location.&#10;After you act, discard the top 1d4 cards of the blessings deck; if any check to defeat included the Swashbuckling trait, discard the top card of the blessings deck instead."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="22"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="22"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="951c5f4f-0f93-49c2-8761-a78d2778e1d8" name="Brineborn Giant">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aquatic&#10;Giant"/>
+    <property name="Attr1" value="If you aren't the only character at your location, before you act, a random character at your location is dealt Combat damage equal to the number of cards in your hand that are weapons or have the Attack trait.&#10;Damage dealt by the Brineborn Giant is dealt to each character at your location.&#10;If defeated, you may immedaitely attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="22"/>
+  </card>
+  <card id="d2839be8-721f-4265-b33a-a90df0adb082" name="Captain Horrus Riptooth">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Lycanthrope&#10;Barbarian&#10;Captain&#10;Pirate&#10;Aquatic"/>
+    <property name="Attr1" value="Captain Horrus Riptooth may not be evaded.&#10;Before you act, if the top card of the blessings discard pile is not Blessing of the Gods, the difficulty of the check to defeat is increased by 6. &#10;Before attempting each check, randomly choose another character at your location to recharge a card. The difficulty of the check to defeat Captain Horrus Riptooth is increased by that character's Strength die. Damage dealt by Captain Horrus Riptooth is also dealt to that character."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="28"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="32"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="1ca0d708-88da-46a2-b39f-4502bda83bef" name="Hyapatia">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Lamia&#10;Sorcerer"/>
+    <property name="Attr1" value="If you aren't the only character at your location, a random character at your location takes Combat damage equal to the number of cards that have the Attack trait and weapons in your hand; then Hyapatia is evaded.&#10;If undefeated, Hyapatia deals no damage; instead, discard a number of cards equal to your hand size from the top of your deck."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="28"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="28"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="ffc766d5-7d9c-494a-86a4-8e1558568c03" name="Karkinoi">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aquatic&#10;Veteran"/>
+    <property name="Attr1" value="The difficulty to defeat is increased by the adventure deck number of the current scenario.&#10;If Karkinoi would be defeated, reroll the dice. Karkinio is defeat or undefeated based solely on the result of the second die roll.&#10;If the check to defeat does not include the Attack trait, after you act, the Karkinio deals 2 Combat damge to you.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="25"/>
+  </card>
+  <card id="1c90205a-64ad-4199-8821-04ee81f5c563" name="Kerdak Bonefist">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Captain&#10;Pirate"/>
+    <property name="Attr1" value="If your check to defeat has the Ranged trait, the difficulty of the check to defeat is increased by 10.&#10;Before a character plays a card that has the Pirate or Swashbuckling trait in a check to defeat Kerdak Bonefist, that character must first recharge a card.&#10;Damage dealt by Kerdak Bonefist is dealt to all characters."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="40"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="40"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="23e3d445-1000-4aff-9b09-1de588ccf44b" name="Omara Culverin">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Human&#10;Gunslinger"/>
+    <property name="Attr1" value="Before you act, succeed at a Wisdom or Perception 15 check or Omara Culverin deals 1d4-1 Ranged Combat damage to you, then 1d4-1 Ranged Combat damage to you, then 1d4-1 Ranged Combat damage to you.&#10;If your check to defeat has the Ranged trait, add 1d8 to it.&#10;After you act, Omara Culverin deals 1d4 Ranged Combat damage to you."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="32"/>
+    <property name="Attr4" value="Diplomacy"/>
+    <property name="Attr5" value="16"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="5cc275ba-4854-42e0-a4b2-b29efab312db" name="Onwu Azu">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Aquatic"/>
+    <property name="Attr1" value="The Onwu Azu may not be evaded.&#10;If defeated, you may discard the top card of your deck to immediately attempt to close the location the henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="dbe695ce-bb24-43a9-92b2-f6904f41dc4b" name="Powderpot">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Charau-ka&#10;Alchemist&#10;Pirate"/>
+    <property name="Attr1" value="Before you act, Powderpot deals 1d6 Fire damage to each character at your location.&#10;If defeated, a character of your choice at your location must succeed at a Craft 11 check or each character at your location must discard the top card of her deck and take 2d4 Fire damage.&#10;After you act, Powderpot deals 1d4 Poison damage to each character at a random occupied open location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="32"/>
+  </card>
+  <card id="016015f6-ae13-4c23-8fea-3772ba225f3e" name="Tsadok Goldtooth">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Half-Orc&#10;Barbarian&#10;Pirate"/>
+    <property name="Attr1" value="Before you act, Tsadok deals 1d4+1 Ranged Combat damage to 2 random characters at your location.&#10;If the check to defeat has the Arcane or Divine trait, its difficulty is increased by 5.&#10;After you act, Tsadok deals 1d4+1 Ranged Combat damage to 2 random characters at your location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="26"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="30"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="e82fa250-857a-4824-8fe4-6724419cf826" name="Avatar of Dagon">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Aberration&#10;Aquatic"/>
+    <property name="Attr1" value="Before you act, if there are other cards in the location deck, put Avater of Dagon on the bottom of the location deck.&#10;If you fail a check to defeat Avatar of Dagon, succeed at a Constitution or Fortitude 17 check or bury the top 1d6+1 cards of your deck."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="42"/>
+    <property name="Attr4" value="Combat 42"/>
+    <property name="Attr5" value="THEN"/>
+    <property name="Attr6" value="Divine"/>
+    <property name="Attr7" value="24"/>
+    <property name="Attr8" value="OR"/>
+  </card>
   <card id="57e799ad-216f-494e-abc6-16b7d40fee8d" name="Kraken">
     <property name="Abr" value="5"/>
-    <property name="Copyright" value="Yes."/>
+    <property name="Copyright" value="No."/>
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Villain"/>
     <property name="Subtype2" value="Monster"/>
@@ -46,15 +190,138 @@
     <property name="Attr8" value="15"/>
     <property name="Attr9" value="OR"/>
   </card>
-  <card id="5cc275ba-4854-42e0-a4b2-b29efab312db" name="Onwu Azu">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="No."/>
-    <property name="Type" value="Henchman"/>
-    <property name="Subtype" value="Monster"/>
-    <property name="Traits" value="Animal&#10;Aquatic"/>
-    <property name="Attr1" value="The Onwu Azu may not be evaded.&#10;If defeated, you may discard the top card of your deck to immediately attempt to close the location the henchman came from."/>
+  <card id="e540f85d-92e2-434b-812f-c17008ee5c6d" name="Mugslup">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Giant&#10;Oracle"/>
+    <property name="Attr1" value="Before you act, each character at your location examines the top 2 cards of her deck, then recharges 1 and buries 1.&#10;Damage dealt by Mugslup is dealt to each character at your location."/>
     <property name="Attr2" value="Combat"/>
-    <property name="Attr3" value="10"/>
+    <property name="Attr3" value="30"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="30"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="4e5fb0b1-cb74-46f9-a65e-7f41127d19f1" name="Councilor's Ring">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Attr1" value="Bury this card to add 1d20 to your check. If you fail the check, discard this card instead."/>
+  </card>
+  <card id="c5ecc903-7b01-4a5b-ba4d-a76921fa01bf" name="Bow">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 1&#10;Spell 0&#10;Armor 0&#10;Item 2&#10;Ally 2&#10;Blessing 0"/>
+    <property name="Attr2" value="At the start of your turn, you may examine the top card of this location deck."/>
+    <property name="Attr3" value="Succeed at an Intelligence 30 check."/>
+    <property name="Attr4" value="On closing, you may shuffle to top 1d4+1 cards of the blessings discard pile into the blessings deck."/>
+    <alternate name="Bow" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="aecf4248-d250-485d-bfd4-5c981eb5a581" name="Cargo Hold">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 0&#10;Weapon 2&#10;Spell 0&#10;Armor 1&#10;Item 4&#10;Ally 0&#10;Blessing 0"/>
+    <property name="Attr2" value="When you acquire a boon, draw a random boon of that type from the box. Choose 1 and put it in your hand; banish the other."/>
+    <property name="Attr3" value="Succeed at an Intelligence 30 check."/>
+    <property name="Attr4" value="On closing, you may shuffle to top 1d4+1 cards of the blessings discard pile into the blessings deck."/>
+    <alternate name="Cargo Hold" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="55668c04-fb84-4805-8dba-8758e715cf43" name="Crow's Nest">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 3&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0"/>
+    <property name="Attr2" value="At the start of your turn, you may examine the top card of a random location deck."/>
+    <property name="Attr3" value="Succeed at a Wisdom 30 check."/>
+    <property name="Attr4" value="On closing, you may shuffle to top 1d4+1 cards of the blessings discard pile into the blessings deck."/>
+    <alternate name="Crow's Nest" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="4719ecfa-8c15-487c-9ac4-d8c043c8aac8" name="Galley">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 1&#10;Armor 0&#10;Item 1&#10;Ally 2&#10;Blessing 1"/>
+    <property name="Attr2" value="You may discard a card to add 1 die to your check to defeat a bane."/>
+    <property name="Attr3" value="Succeed at a Dexterity 30 check."/>
+    <property name="Attr4" value="On closing, you may shuffle to top 1d4+1 cards of the blessings discard pile into the blessings deck."/>
+    <alternate name="Galley" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="499aade5-39e9-487d-8c4a-252ebcddf768" name="Helm">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 3&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0"/>
+    <property name="Attr2" value="At the start of your turn, a character at another location may move to this location."/>
+    <property name="Attr3" value="Succeed at a Wisdom 30 check."/>
+    <property name="Attr4" value="On closing, you may shuffle the top 1d4+1 cards of the blessings discard pile into the blessings deck."/>
+    <alternate name="Helm" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="5b28692e-4ce2-4d58-a65b-8ca21f31647f" name="Lost in the Storm">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 5&#10;Barrier 5&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 1"/>
+    <property name="Attr2" value="At the start of your turn, bury a card."/>
+    <property name="Attr3" value="This location cannot be closed."/>
+    <alternate name="Lost in the Storm" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="c5916974-3221-4991-91eb-23693ed123bb" name="Rigging">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 3&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 1"/>
+    <property name="Attr2" value="You may recharge a card to evade your encounter."/>
+    <property name="Attr3" value="Succeed at a Dexterity 30 check."/>
+    <property name="Attr4" value="On closing, you may shuffle to top 1d4+1 cards of the blessings discard pile into the blessings deck."/>
+    <alternate name="Rigging" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
   </card>
   <card id="ea58ab7a-4857-453f-bed4-14c4aaf59433" name="Burnt Saffron">
     <property name="Abr" value="2"/>
@@ -225,7 +492,7 @@
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Adventure"/>
       <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="0-6A Get a Clue&#10;0-6B The Battle of Abendego&#10;0-6C The Monster Mash&#10;0-6D The Pirate Party&#10;0-6E Into the Maelstrom&#10;0-6F Lost in the Storm"/>
+      <property name="Attr1" value="0-6A Get a Clue&#10;0-6B The Battle of Abendego&#10;0-6C The Monster Marsh&#10;0-6D The Pirate Party&#10;0-6E Into the Maelstrom&#10;0-6F Lost in the Storm"/>
       <property name="Attr4" value="Each player unlocks the ability to play Enora from the Wrath of the Righteous Base Set with the Wizard Class Deck."/>
     </alternate>
   </card>
@@ -809,6 +1076,106 @@
       <property name="Attr1" value="Cut the prophecy handout into a number of pieces equal to the number of Cryptic Runes henchmen.&#10;When you defeat a Cryptic Runes henchman, put that card in a henchman pile next to this scenario and get a piece of the prophecy handout.&#10;When you encounter the villain Brinebones, you may shuffle it and a henchman from the henchman pile into a random open location to evade Brinebones."/>
       <property name="Attr2" value="Choose any Class 5 or lower ship as your ship."/>
       <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, 1 player may temporarily replace 1 ally in her deck with the loot Alise Grogblud. At the end of the scenario, return the loot to the game box."/>
+    </alternate>
+  </card>
+  <card id="d982edc9-7a84-48dd-a4ce-11837c2a0ad9" name="0-6B The Battle of Abendego">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Pinnacle Atoll&#10;Scar Bay&#10;Lonely Island&#10;Fringes of the Eye&#10;Raker Shoals&#10;Shark Island&#10;Coastline"/>
+    <property name="Attr2" value="None"/>
+    <property name="Attr3" value="Enemy Ships"/>
+    <alternate name="0-6B The Battle of Abendego" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you would choose your party's ship, each character instead randomly chooses a class 6 or lower ship and stashes a plunder card under it. On your turn, you ar commanding your own ship. You are only on your ship, and you cannot move with another character when she moves during her move step. When your ship is dealt Structural damage, only you can reduce damage to your ship.&#10;The difficulty to defeat ships is increased by the number of open locations.&#10;If your ship is wrecked at the end of your move step, put it in a defeated pile next to the scenario and choose another ship from the box to be your ship. If there are more ships in the defeated pile than the number of characters, you lose the scenario.&#10;To win the scenario, close all locations.&#10;When you earn a deck upgrade from this scenario, you may choose from either your own plunder or the party's acquired cards."/>
+      <property name="Attr2" value="The party does not have a ship"/>
+      <property name="Attr4" value="Each character gains a card feat."/>
+    </alternate>
+  </card>
+  <card id="026aba0a-300f-4377-b4b8-0b3af42698c5" name="0-6C The Monster Marsh">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Ghol-Gan Ruins&#10;Ruined Amphitheater&#10;Teleportation Chamber&#10;Hall of Champions&#10;Great Stone Bridge&#10;Eye of Serenity&#10;Scar Bay&#10;Sacred Spring"/>
+    <property name="Attr2" value="Mugslup"/>
+    <property name="Attr3" value="Brineborn Giants"/>
+    <alternate name="0-6C The Monster Marsh" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you defeat a bane that has the Giant trait, you may shuffle 1 random card from your discard pile into your deck."/>
+      <property name="Attr2" value="Choose any Class 6 or lower ship as your ship."/>
+      <property name="Attr4" value="For the rest of the Adventure Path, when setting up each scenario, 1 player may temporarily replace 1 weapon in her deck with the loot Scoundrel's Sword Cane and another player may temporarily replace 1 weapon in her deck with the loot Crossbow of Retribution. At the end of each scenario, return the loot to the game box."/>
+    </alternate>
+  </card>
+  <card id="1788a009-eba2-43b8-998a-00db9e75417d" name="0-6D The Pirate Party">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Fort Hazard&#10;Lucrehold&#10;Murder Hole&#10;Shrine to Besmara&#10;Sea Fort&#10;Torture Pit&#10;Seaside Warehouse&#10;Shrine to Norgorber"/>
+    <property name="Attr2" value="Sweetlips and Scurvy"/>
+    <property name="Attr3" value="Kerdak Bonefist&#10;Captain Horrus Riptooth&#10;Hyapatia&#10;Omara Culverin&#10;Powderpot&#10;Tsadok Goldtooth&#10;Barnabas Harrigan"/>
+    <alternate name="0-6D The Pirate Party" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Trat the villains in the henchman list as henchmen. If a henchman is undefeated, banish it. When you defeat a henchman, put it in a henchman pile next to this scenario. If you win the scenario, note on your Chronicle sheet which cards are in the henchman pile. (This note will be referenced in 6F: Lost in the Storm.)&#10;To win the scenario, defeat and corner the villain Sweetlips and Scurvy."/>
+      <property name="Attr2" value="Choose any Class 6 or lower ship as your ship.&#10;Your ship is anchored at Fort Hazard."/>
+      <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="9b3d9a07-a868-4c82-a126-b960e6f2d186" name="0-6E Into the Maelstrom">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Helm&#10;Bow&#10;Rigging&#10;Crow's Nest&#10;Cargo Hold&#10;Galley"/>
+    <property name="Attr2" value="None"/>
+    <property name="Attr3" value="Hurricane Winds&#10;Lightning Elemental&#10;Hurricane Winds&#10;Lightning Elemental&#10;Hurricane Winds&#10;Lightning Elemental"/>
+    <alternate name="0-6E Into the Maelstrom" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="At the start of each character's turn, the party must collectively discard a number of cards equal to the number of unoccupied locations.&#10;The difficulty of checks to close locations is decreased by the number of cards in the blessings discard pile.&#10;To win the scenario, close all locations."/>
+      <property name="Attr2" value="The party does not have a ship"/>
+      <property name="Attr4" value="Each character gains a skill feat."/>
+    </alternate>
+  </card>
+  <card id="91509337-663e-4394-a2f7-79ac1964ebf3" name="0-6F Lost in the Storm">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Lost in the Storm"/>
+    <property name="Attr2" value="Avatar of Dagon"/>
+    <property name="Attr3" value="Karkinoi"/>
+    <alternate name="0-6F Lost in the Storm" type="B">
+      <property name="Abr" value="6"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Treat the adventure deck number of this scenario as 7.&#10;This scenario has no blessings deck. When adding henchman, shuffle a number of henchmen equal to the number of players into the location deck.&#10;Display each villain listed on any character's Chronicle sheet from Scenario 0-6D: The Pirate Party next to the scenario. Any character may banish one of them to reduce damgae deal to that character by 6, to add 1 die to any check attempted by that character, or to explore that character's location."/>
+      <property name="Attr2" value="Choose any class 6 or lower ship as your ship.&#10;Your ship is anchored at Lost in the Storm."/>
+      <property name="Attr4" value="For any subsequent scenario played in the Season of the Shackles, after setting up each scenario, you may temporarily replace 1 card in your deck with a loot card of the same type. At the end of each scenario, return the loot to the game box."/>
     </alternate>
   </card>
  </cards>
