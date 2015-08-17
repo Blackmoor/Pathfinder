@@ -68,6 +68,7 @@ def saveBox(group, x=0, y=0): #table
 				"Ally":{},
 				"Blessing":{},
 				"Loot":{},
+				"Cohort":{},
 				"Location":{},
 				"Villain":{} }
 	piles = [ shared.piles[p] for p in shared.piles if p != 'Internal' ]

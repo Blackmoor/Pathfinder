@@ -27,6 +27,9 @@
   </section>
   <section name="Weapon" shared="False" />
   <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False">
+    <card qty="1" id="7aa317a6-554a-4120-ab18-e640b68e3050">Kolo</card>
+  </section>
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
   <section name="Monster" shared="True" />
@@ -40,6 +43,7 @@
   <section name="Ship" shared="True" />
   <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

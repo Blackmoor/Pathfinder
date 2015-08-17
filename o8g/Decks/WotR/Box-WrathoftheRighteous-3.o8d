@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="b263e516-6554-4c2e-a5ae-74c22a4a0199">The Demon's Redoubt</card>
+    <card qty="1" id="f7c50393-d74b-46d0-8e3e-658b356a9c8c">The Fallen Fane</card>
+    <card qty="1" id="e29c24fd-4b19-40b1-bd7a-892ed96d37d2">The Ivory Sanctum</card>
+    <card qty="1" id="65704044-9a5e-480b-ac7a-c7e08839a6de">Wintersun</card>
+    <card qty="1" id="90ae4971-5f5b-4f1a-be4e-72d840a3f5d4">Crusader's Legacy</card>
+    <card qty="1" id="9a2be2db-1d11-47fa-aa28-f24affadf771">Demon's Heresy</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="7" id="d23ca6da-c6bd-4b2e-8e16-5414b5affefa">Ivory Templar</card>
+    <card qty="7" id="95d86c42-c173-426f-8231-72b927e695f1">Grimslake</card>
+    <card qty="1" id="39b0caaf-4200-4bec-9f89-45ac227173b6">Shadow Demon</card>
+    <card qty="1" id="838be0f6-04e8-43d7-a223-e04ffd75e8bb">Scorizscar</card>
+    <card qty="1" id="219c0240-2aed-4f79-a019-67a1e4b4817a">Beverach</card>
+    <card qty="7" id="cbcc32f0-3183-47fe-b12e-0ad3af9b59f6">Barbarian Horde</card>
+    <card qty="1" id="4aafea52-6ffd-43b0-a2de-10d5053f688a">Alrys Harnaste</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="a04ef722-7456-43c0-825c-906565b0c4a8">Drake Rider</card>
+    <card qty="1" id="32b289a5-7e19-4e6d-9edc-e4fc9a4f4e1f">Will-O'-Wisp</card>
+    <card qty="1" id="678db7fd-6467-436b-a845-970ae1cc768b">Dominion Scientist</card>
+    <card qty="1" id="630f1673-6f0b-4915-8652-fd0abd7bfc38">Spite Demon</card>
+    <card qty="1" id="768c283e-5d70-4463-99f1-6af54d428dcb">Mist Horror</card>
+    <card qty="1" id="db723089-a372-4604-b40b-2150c8c78acb">Warmonger Wasp</card>
+    <card qty="3" id="5d5c42b4-d9b1-4eb6-b78f-56f4178a13e2">Toad Demon</card>
+    <card qty="1" id="fa8af8f6-3195-4e15-8370-5efd847fe89a">Lost Soul</card>
+    <card qty="1" id="d074a6f7-daac-49b1-a4df-74d6d071e8bd">Drocha Swarm</card>
+    <card qty="1" id="9443f5d9-e491-41f7-b83e-f833f60af53e">Locust Demon</card>
+    <card qty="1" id="a331cda6-dfc7-4363-9fc2-1b6fc787f317">Demon Eater</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="6bee02c9-91de-419b-b8bc-0b073ef09e2d">Symbol of Insanity</card>
+    <card qty="1" id="9cb15e5b-5ddb-4fc4-9a29-1a133155762b">Temptation of Sorcery</card>
+    <card qty="1" id="ad4a6426-2f44-47ee-8965-9a3991ae2c69">Temptation of Favor</card>
+    <card qty="1" id="8498c3f9-19c1-4ea1-afc3-8679550daaea">Compelling Offer</card>
+    <card qty="1" id="77bb9a6c-b131-4374-af72-7ce9afe5d863">Glimmer of Hope</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="ca04555b-f6c3-45de-aab0-06a256732192">Sniper's Studded Leather</card>
+    <card qty="2" id="26adeac4-e690-4950-b508-c9c0282886d1">Celestial Armor</card>
+    <card qty="2" id="6ed881c3-2e84-4593-89b9-d35e1c0d9dcc">Spiked Plate</card>
+    <card qty="1" id="4918897f-9569-41d3-aca2-e9c73c45c162">Bejeweled Helm</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="2" id="f355c362-8939-4d3c-9344-203c6bf0eddc">Skirmishing Spear</card>
+    <card qty="1" id="98b992c6-afa5-42c0-9b83-97e23ec94179">Spirit Blade</card>
+    <card qty="1" id="a1699a83-adc4-4d6e-9725-182781214e9f">Sawtooth Sabre +2</card>
+    <card qty="2" id="160437ca-8aa2-4563-a74e-c9e6b3a484cd">Rod of the Viper</card>
+    <card qty="1" id="d99fe49f-8359-4487-8135-b0f7c2f9a16b">Shocking Lance +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="280271ca-d6d0-4276-8558-0d60582486e2">Create Spiked Pit</card>
+    <card qty="1" id="01327462-7df8-4881-8070-a24b035e7891">Restore Mythic Power</card>
+    <card qty="1" id="ae868832-39a8-4f77-aa69-562a6068e6ea">Steal Soul</card>
+    <card qty="1" id="3c647bdd-9d9b-4a07-9e4f-bf1eb0ad0140">Refuge</card>
+    <card qty="2" id="395dd9bd-9447-4372-81b6-07a3efda1795">Ice Strike</card>
+    <card qty="1" id="7a0ca76a-f668-46a2-968b-8c5c7598e38f">Hellmouth Lash</card>
+    <card qty="1" id="adbf48b4-11b0-4e14-bc83-d18291ff9b40">Fire Shield</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="2" id="703fe5ac-4f61-4ade-88e1-b809e6a8acd4">Pure Holy Water</card>
+    <card qty="1" id="a7ea91e0-9533-4829-8978-b2424bad9ef3">Pauper's Thighbone</card>
+    <card qty="1" id="378793bf-ae90-48f5-96f6-bec36f0b744c">Swarmlord's Jar</card>
+    <card qty="1" id="d2ba787f-6fa8-4e63-b764-c5f675c4c25c">Tome of Mental Prowess</card>
+    <card qty="1" id="faa30cb0-2e98-4517-b6c3-24e3c0d803a4">Talisman of Good</card>
+    <card qty="1" id="2338f53c-3c7c-4288-aecd-27e920a2cb69">Spellbottle</card>
+    <card qty="1" id="c060f37a-f5ad-4cbe-be27-ba2934e49eec">Fortune's Arrow</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="9d5ece60-f46e-4eac-873b-d8099a883b85">Pegasus</card>
+    <card qty="1" id="6945b35a-9c17-4a63-a0eb-5158319be575">Redeemer Blacksmith</card>
+    <card qty="1" id="c07fbdb5-47f6-4584-bbb0-6dc3a63e274c">Druid of the Leaf</card>
+    <card qty="2" id="8c5f45b8-a4f2-4083-b37d-0642ced076ee">Unfettered Imp</card>
+    <card qty="2" id="8df955b4-5212-4d7e-8ccf-131ad87d62d1">Thylacine</card>
+    <card qty="1" id="1c661124-1f78-4fa1-b701-4ecf5c3b8407">Jesker Helton</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="4" id="57b9bb31-38df-4fad-b825-9496311c5c29">Blessing of the Starsong</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True">
+    <card qty="1" id="3a94c21d-4445-4c88-9c50-25e7e2bf00c3">Arueshalae's Gift</card>
+    <card qty="1" id="2a3f7408-c09b-441d-bdcc-deb436d39b01">Grillixbee</card>
+    <card qty="1" id="0dff6e92-7643-4726-afe9-a0295cc40369">Jerribeth</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="1" id="6b575378-2d6a-4866-8a27-cba22bff6c21">Starbow</card>
+    <card qty="1" id="d92efe51-3c8a-4ab9-a290-b5206bc6d8f1">Spherewalker Staff</card>
+    <card qty="1" id="3a3da34c-309f-457a-8c82-e29166f47d15">Swallowtail Bracers</card>
+    <card qty="1" id="aafe4553-58e3-4946-9b31-f8c43c305de9">Black Robe</card>
+    <card qty="1" id="8d851f94-d394-423a-b2a6-a119e2c3bbd9">Fiendsplitter</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="adabea87-05d9-473d-ba85-76d4dd2cf3de">Tower of the Fourth Sphere</card>
+    <card qty="1" id="1a58247c-c4d4-4f56-b68b-a48e20a72589">Woundwyrm's Lair</card>
+    <card qty="1" id="1693b451-d708-43cb-bccd-97de7e23a9b2">Wintersun Hall</card>
+    <card qty="1" id="f4e28db3-76cc-4975-a802-7d1ecc74044e">Cathedral of Chaos</card>
+    <card qty="1" id="2de3843e-45dc-4c98-9516-608b83869dee">Eagle Rock</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="8e3290a9-a656-48ff-a8f0-d7bbcd03f9ce">Jaruunicka</card>
+    <card qty="1" id="f5c5044f-2655-4150-a937-2611007238f7">Marhevok Wintersun</card>
+    <card qty="1" id="f7a8daaa-c769-437b-aa5a-bc3d7283ad3e">Skulgrym</card>
+    <card qty="1" id="b6218269-4d30-44a0-9661-32d1e95af574">Xanthir Vang</card>
+    <card qty="1" id="b59925e9-3daf-4cc9-bbca-128da0b38fdf">Zanedra and Svennarobeth</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

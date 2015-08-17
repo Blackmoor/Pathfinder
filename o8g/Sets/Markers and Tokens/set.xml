@@ -44,6 +44,12 @@
     <property name="Subtype" value="Token" />
    </card>
    
+   <card id="2ebe2108-370b-4302-aa44-79c41913f097" name="Arueshalae">
+	<property name="Abr" value="3" />
+	<property name="Type" value="Character" />
+	<property name="Subtype" value="Token" />
+   </card>
+   
    <card id="4a458c7a-92d0-4cf0-a372-7d9a87b896ab" name="Amaryllis">
     <property name="Abr" value="CD" />
     <property name="Type" value="Character" />

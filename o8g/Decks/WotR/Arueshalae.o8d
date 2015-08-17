@@ -1,29 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
-  <section name="Barrier" shared="True">
-    <card qty="1" id="012a7f02-13a5-485c-8563-62d409dab478">Temptation of Big Die</card>
+  <section name="Character" shared="False">
+    <card qty="1" id="2ebe2108-370b-4302-aa44-79c41913f097">Arueshalae</card>
+    <card qty="1" id="5281d655-56ec-4162-8091-3e4ed2776d3c">Arueshalae</card>
   </section>
-  <section name="Ally" shared="True">
-    <card qty="1" id="78a2a8b2-d62a-46eb-aa79-6bcd5a74cd95">Chuffy Lickwound</card>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="6b575378-2d6a-4866-8a27-cba22bff6c21">Starbow</card>
   </section>
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
   <section name="Spell" shared="False" />
   <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
+  <section name="Item" shared="False">
+    <card qty="1" id="3a3da34c-309f-457a-8c82-e29166f47d15">Swallowtail Bracers</card>
+    <card qty="1" id="d92efe51-3c8a-4ab9-a290-b5206bc6d8f1">Spherewalker Staff</card>
+  </section>
   <section name="Ally" shared="False" />
   <section name="Blessing" shared="False" />
   <section name="Feat" shared="False" />
-  <section name="Cohort" shared="False" />
+  <section name="Cohort" shared="False">
+    <card qty="1" id="3a94c21d-4445-4c88-9c50-25e7e2bf00c3">Arueshalae's Gift</card>
+  </section>
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
   <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
   <section name="Armor" shared="True" />
   <section name="Weapon" shared="True" />
   <section name="Spell" shared="True" />
-  <section name="Item" shared="True">
-    <card qty="1" id="5576e19c-e39e-4d8a-b771-624a94833c5d">Goblin Skull Bomb</card>
-  </section>
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
   <section name="Blessing" shared="True" />
   <section name="Ship" shared="True" />
   <section name="Cohort" shared="True" />
