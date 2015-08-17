@@ -28,6 +28,9 @@
   <section name="Blessing" shared="False">
     <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
   </section>
+  <section name="Cohort" shared="False">
+    <card qty="1" id="8d83895c-abee-444e-90c0-93124f1c3c8f">Leryn</card>
+  </section>
   <section name="Feat" shared="False" />
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
@@ -42,6 +45,7 @@
   <section name="Ship" shared="True" />
   <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

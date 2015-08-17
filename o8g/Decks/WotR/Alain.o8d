@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
   <section name="Character" shared="False">
-    <card qty="1" id="ff9b07a9-1a79-42a3-b325-e1f81d6f72f7">Alian</card>
+    <card qty="1" id="ff9b07a9-1a79-42a3-b325-e1f81d6f72f7">Alain</card>
     <card qty="1" id="a8ec1562-7702-42af-9fd2-1ed614f3a412">Alain</card>
   </section>
   <section name="Weapon" shared="False">
@@ -10,7 +10,6 @@
     <card qty="1" id="52189fa9-31af-48f3-a0cf-a765d9a85d26">Longsword</card>
     <card qty="1" id="3458d221-4200-4fa4-bd33-ab8a635b5afe">Heavy Pick</card>
   </section>
-  <section name="Spell" shared="False" />
   <section name="Armor" shared="False">
     <card qty="1" id="a8b87791-384f-4b7d-8ba2-00aa8b65d770">Wooden Shield</card>
     <card qty="1" id="6ac726d7-0a70-4d9c-b38a-77b5579960b2">Scale Mail</card>
@@ -28,7 +27,11 @@
   <section name="Blessing" shared="False">
     <card qty="3" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
   </section>
+  <section name="Spell" shared="False" />
   <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False">
+    <card qty="1" id="986a99de-80ae-4193-aff3-8064bf44e5e7">Donahan</card>
+  </section>
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
   <section name="Monster" shared="True" />
@@ -42,6 +45,7 @@
   <section name="Ship" shared="True" />
   <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

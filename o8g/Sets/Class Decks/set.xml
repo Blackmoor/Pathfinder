@@ -3777,12 +3777,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Fighter"/>
+    <property name="Flavour" value="These fighters fool others into believing they've seen powerful spellcasting.&#10;&#10;Flenta always wanted to be a wizard.  She studied, memorized, and practiced, but she still couldn't cast spells.  Now she passes herself off as a fighter with sorcerous skills, pretending to cast spells while activating magic items and performing slight of hand.  True wizards might thumb their noses at her methods, but she gets the job done.  Deep down, Flenta hopes to unlock the magical poetential she's sure she possesses, whatever it takes."/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 1  [ ] 2  [ ] 3&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon or Spell"/>
     <alternate name="Flenta (Arcane Pretender)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Fighter"/>
+      <property name="Attr1" value="After you play a spell that has the Arcane trait for its power, draw a random spell from the box that does not have an adventure deck number and hasthe Arcane trait and recharge it.&#10;When you would discard a weapon for its power, you may recharge it instead.&#10;[ ] For your combat check that has the Attack traint, you may use the skill Arcane: Intelligence +2.&#10;[ ] After you reset your hand, you may discard 1 weapon or spell from your hand then draw 1 weapon from your discard pile.&#10;[ ] You may recharge a spell ([ ] or an item that has the Magic trait) to add 1 plus its adventure deck number, if any, to your combat ([ ] or non-combat) check.&#10;[ ] You automatically succeed at your check to recharge ([ ] or acquire) an item that has the Magic trait.&#10;[ ] When you play a blessing to add to an Intelligence check, you may add a d12 instead of the normal die."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="927fe349-2bfc-4870-a48e-362991ea9c7e" name="Flenta (Martial Adept)" size="Role">
@@ -3791,12 +3800,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Fighter"/>
+    <property name="Flavour" value="A touch of magic makes even the lowliest fighters great.&#10;&#10;Flenta always wanted to be a wizard.  She studied, memorized, and practiced, but she still couldn't cast spells.  Now she passes herself off as a fighter with sorcerous skills, pretending to cast spells while activating magic items and performing slight of hand.  True wizards might thumb their noses at her methods, but she gets the job done.  Deep down, Flenta hopes to unlock the magical poetential she's sure she possesses, whatever it takes."/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 1  [ ] 2  [ ] 3&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon or Spell"/>
     <alternate name="Flenta (Martial Adept)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Fighter"/>
+      <property name="Attr1" value="After you play a spell that has the Arcane trait for its power, draw a random spell from the box that does not have an adventure deck number and hasthe Arcane trait and recharge it.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or shuffle it into your deck) instead.&#10;[ ] For your combat check that has the Attack traint, you may use the skill Arcane: Intelligence +2.&#10;[ ] Add 1d4 ([ ] +1)([ ] +2) to a combat check by a character at your location.&#10;[ ] Add 2 ([ ] 4) to your check to recharge ([ ] or acquire) a boon that has the Magic trait.&#10;[ ] When you play a blessing to add to a Strength check, you may add a d12 instead of the normal die."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="57d26cd3-d8f8-4850-a5c5-36aff846d882" name="Harsk (Arbalist)" size="Role">
@@ -4361,12 +4379,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Gnome&#10;Fighter"/>
+    <property name="Flavour" value="Give these gnomes a polearm and a place to stand, and they can move the earth.&#10;&#10;Tontelizi's rough-and-tumble past began with a stint as an enforcer in his family's shady business.  Because of his short stature, som mocked him with the nickname &quot;Legbreaker.&quot;  They soon found their ability to walk severely compromised.  After the health of the family patriarch failed, all other aspirants to the status of crime lord mysteriously fell from contention.  Now in semi-retirement, Tontelizi brings his special skills to the world of adventure.  Woe betide those who cross him."/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 2  [ ] 3&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
     <alternate name="Tontelizi (Halberdier)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Gnome&#10;Fighter"/>
+      <property name="Attr1" value="Add 1d4 ([ ] +1) ([ ] +2) to a combat check by another character at your location.&#10;When you would discard a weapon that has the Polearm trait for its power, you may recharge it instead ([ ] and add 1 die to your check).&#10;[ ] You may recharge a weapon to add 1d4 ([ ] +1)([ ] +2) to a combat check by a character at another location.&#10;[ ] If a power allows you to reroll dice on your check, you may add 1d4 ([ ] 2d4) to the new result.&#10;[ ] Reduce Combat damage dealt to ([ ] you or) another character at your location by 1."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="1631fb65-5ede-4265-8219-0cee1d583820" name="Tontelizi (Legbreaker)" size="Role">
@@ -4375,12 +4402,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Gnome&#10;Fighter"/>
+    <property name="Flavour" value="When they're on your side, these warriors are great friends to have.  Wehn you cross them...&#10;&#10;Tontelizi's rough-and-tumble past began with a stint as an enforcer in his family's shady business.  Because of his short stature, som mocked him with the nickname &quot;Legbreaker.&quot;  They soon found their ability to walk severely compromised.  After the health of the family patriarch failed, all other aspirants to the status of crime lord mysteriously fell from contention.  Now in semi-retirement, Tontelizi brings his special skills to the world of adventure.  Woe betide those who cross him."/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 2  [ ] 3&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
     <alternate name="Tontelizi (Legbreaker)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Gnome&#10;Fighter"/>
+      <property name="Attr1" value="Add 1d4 ([ ] +1)([ ] +2) to a combat check by another character at your location.&#10;When you would discard a weapon that has the Polearm trait for its power, you may recharge it instead ([ ] and add 1 die to your check).&#10;[ ] When you defeat a monster, you may recharge an ally from your discard pile; if the ally has an adventure deck number, it must be lower than that of the current scenario.&#10;[ ] When you would fail a check to acquire an ally, you may bury a card to succeed.&#10;[ ] At the start of your turn, you may bury ([ ] or discard) an ally to draw 3 cards.&#10;[ ] You may discard an ally to add 1 die to your check to defeat a monster ([ ] or barrier) ([ ] or to close a location)."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="fe6e6080-6fa2-4fb8-a583-4d2957b2aef8" name="Valendron (Lightning Reaver)" size="Role">
@@ -4435,12 +4471,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Fighter"/>
+    <property name="Flavour" value="When daredevils come to battle, they throw themselves directly in a monster's path.  You'll have to scramble to get your licks in.&#10;&#10;Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer's daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there's nothing better than &quot;an evening of hard drinking and soft company.&quot;"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon or Ally"/>
     <alternate name="Valeros (Daredevil)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Fighter"/>
+      <property name="Attr1" value="Reveal an ally from your hand to add 1d6 ([ ] +1)([ ] +2)([ ] +3) to a combat check by another character at your location.&#10;When you would discard a weapon ([ ] or armor) for its power, you may recharge it ([ ] or shuffle it into your deck) instead.&#10;[ ] When another character at your location is dealt damage, you may reduce that damage by 1 ([ ] 2).&#10;[ ] When another character at your location encounters a monster, you may bury a card.  That character evades the monster; you encounter it instead.&#10;[ ] When you play Blessing of Cayden Cailean, you may add a d12 in place of the normal die ([ ] and you may recharge the blessing instead of discarding it)."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ]  6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="76575353-a9f5-4335-aa5b-241d055e2de0" name="Valeros (Liberator)" size="Role">
@@ -4449,12 +4494,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Fighter"/>
+    <property name="Flavour" value="Should the innocent be restrained, the liberators' will shall conquer.&#10;&#10;Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer's daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there's nothing better than &quot;an evening of hard drinking and soft company.&quot;"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon or Ally"/>
     <alternate name="Valeros (Liberator)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Fighter"/>
+      <property name="Attr1" value="Reveal an ally from your hand to add 1d6 ([ ] +1)([ ] +2)([ ] +3) to a combat check by another character at your location.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or shuffle it into your deck) instead.&#10;[ ] You may discard a weapon ([ ] or armor) to recharge a random ally from your discard pile.&#10;[ ] Before you are dealt damage, you may display 1 ([ ] 2)([ ] any number of) allies; after you are dealt damage, return them to your hand.&#10;[ ] AFter you banish an ally, bury a random ally from the box."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ]  6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="6970e33f-9924-472b-bbde-06ce2e51ac36" name="Vika (Blacksmith)" size="Role">
@@ -4463,12 +4517,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Half-Elf&#10;Fighter"/>
+    <property name="Flavour" value="Blacksmiths are your source for weapons and armor.  They also know how to wield what they create.&#10;&#10;Apprenticed to a blacksmith growing up in Greegold, Vika quit her trade for the life of an adventurer.  After a cache of tomes taught her how to smelt steel and cast magic, she found that a hammer is just as effective ast forging a sward as it is at forging a crevasse in an orc's skull.  She hopes to retire to her shop when her adventuring days are done.  Until then, the sound of metal on metal rings out through the dungeons she explores."/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 3  [ ] 4&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon"/>
     <alternate name="Vika (Blacksmith)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Half-Elf&#10;Fighter"/>
+      <property name="Attr1" value="Recharge a card that has the Bludgeoning trait to add 1d6 ([ ] +1)([ ] +2) to a combat check by another character at your location. ([ ] You may draw a card.)&#10;When you would discard a weapon ([ ] or armor) for its power, you may recharge it ([ ] or another card of the same type in your discard pile) instead.&#10;[ ] When you would bury an armor or weapon, you may discard it instead.&#10;[ ] Add 2 to any check to acquire a weapon or armor by ([ ] you or) another character at your location.&#10;[ ] Reveal an armor to reduce all damage dealt to you by 1 ([ ] 2)."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Strength +1&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Disable: Dexterity +2&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2 [ ] +3&#10;Charisma: d4  [ ] +1&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ]  6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="d4650af2-d4ca-4962-a8ea-e8c56080c388" name="Vika (Pulverizer)" size="Role">
@@ -4477,12 +4540,21 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Half-Elf&#10;Fighter"/>
+    <property name="Flavour" value="Should a mighty waall stand in these fighters' way, it will crumble before them... along with anything else that stands there.&#10;&#10;Apprenticed to a blacksmith growing up in Greegold, Vika quit her trade for the life of an adventurer.  After a cache of tomes taught her how to smelt steel and cast magic, she found that a hammer is just as effective ast forging a sward as it is at forging a crevasse in an orc's skull.  She hopes to retire to her shop when her adventuring days are done.  Until then, the sound of metal on metal rings out through the dungeons she explores."/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 3  [ ] 4&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon"/>
     <alternate name="Vika (Pulverizer)" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Half-Elf&#10;Fighter"/>
+      <property name="Attr1" value="Recharge a card that has the Bludgeoning trait to add 1d6 ([ ] +1)([ ] +2) to a combat check by ([ ] you or) another character at your location. ([ ] You may draw a card.)&#10;When you would discard a weapon ([ ] or armor) for its power, you may recharge it instead.&#10;[ ] Add 2 ([ ] 4) to your check to acquire a weapon.&#10;[ ] When you attempt to defeat a barrier that has the Lock or Obstacle trait, you may recharge a card to use your Strength or Melee skill in place of any listed skill for your check.&#10;[ ] You automatically succeed at your check to close an empty location."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Strength +1&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Disable: Dexterity +2&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2 [ ] +3&#10;Charisma: d4  [ ] +1&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5  [ ]  6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="5586629f-9442-4ad5-bc8f-c800007f963e" name="Wrathack (Doombringer)" size="Role">
@@ -4688,11 +4760,20 @@
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Halfling&#10;Fighter"/>
+    <property name="Flavour" value="Flenta always wanted to be a wizard.  She studied, memorized, and practiced, but she still couldn't cast spells.  Now she passes herself off as a fighter with sorcerous skills, pretending to cast spells while activating magic items and performing slight of hand.  True wizards might thumb their noses at her methods, but she gets the job done.  Deep down, Flenta hopes to unlock the magical poetential she's sure she possesses, whatever it takes."/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 1  [ ] 2  [ ] 3&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon or Spell"/>
     <alternate name="Flenta" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Halfling&#10;Fighter"/>
+      <property name="Attr1" value="After you play a spell that has the Arcane trait for its power, draw a random spell from the box that does not have an adventure deck number and hasthe Arcane trait and recharge it.&#10;When you would discard a weapon for its power, you may recharge it instead.&#10;[ ] For your combat check that has the Attack traint, you may use the skill Arcane: Intelligence +2."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, [ ] Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="8991aae5-3a32-4a4f-be16-b6d12081f0a6" name="Harsk" size="Character">
@@ -4959,11 +5040,20 @@
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Gnome&#10;Fighter"/>
+    <property name="Flavour" value="Tontelizi's rough-and-tumble past began with a stint as an enforcer in his family's shady business.  Because of his short stature, som mocked him with the nickname &quot;Legbreaker.&quot;  They soon found their ability to walk severely compromised.  After the health of the family patriarch failed, all other aspirants to the status of crime lord mysteriously fell from contention.  Now in semi-retirement, Tontelizi brings his special skills to the world of adventure.  Woe betide those who cross him."/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 2  [ ] 3&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
     <alternate name="Tontelizi" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Gnome&#10;Fighter"/>
+      <property name="Attr1" value="Add 1d4 ([ ] +1) to a combat check by another character at your location.&#10;When you would discard a weapon that has the Polearm trait for its power, you may recharge it instead ([ ] and add 1 die to your check)."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Acrobatics: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Knowledge: Intelligence +2&#10;Wisdom: d6  [ ] +1&#10;Charisma: d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="1eb5e0de-0d48-4bb7-98ca-1b24dd60da29" name="Valendron" size="Character">
@@ -4991,11 +5081,20 @@
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Human&#10;Fighter"/>
+    <property name="Flavour" value="Valeros is a good-hearted former mercenary whose longing for adventure convinced him to flee an arranged betrothal to a farmer's daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fights for those in need. Though noble of heart and fiercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently observing that there's nothing better than &quot;an evening of hard drinking and soft company.&quot;"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 2  [ ] 3  [ ] 4&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon or Ally"/>
     <alternate name="Valeros" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Human&#10;Fighter"/>
+      <property name="Attr1" value="Reveal an ally from your hand to add 1d6 ([ ] +1)([ ] +2) to a combat check by another character at your location.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or shuffle it into your deck) instead."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +3&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: d6  [ ] +1&#10;Wisdom: d4  [ ] +1  [ ] +2&#10;Charisma: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="7b96d148-a6ce-4947-91c8-2e4b2ffabc26" name="Vika" size="Character">
@@ -5003,11 +5102,20 @@
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Half-Elf&#10;Fighter"/>
+    <property name="Flavour" value="Apprenticed to a blacksmith growing up in Greegold, Vika quit her trade for the life of an adventurer.  After a cache of tomes taught her how to smelt steel and cast magic, she found that a hammer is just as effective ast forging a sward as it is at forging a crevasse in an orc's skull.  She hopes to retire to her shop when her adventuring days are done.  Until then, the sound of metal on metal rings out through the dungeons she explores."/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3  [ ] 4&#10;Item: 3  [ ] 4&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 3  [ ] 4"/>
+    <property name="Attr3" value="Weapon"/>
     <alternate name="Vika" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Half-Elf&#10;Fighter"/>
+      <property name="Attr1" value="Recharge a card that has the Bludgeoning trait to add 1d6 ([ ] +1)([ ] +2) to a combat check by another character at your location.&#10;When you would discard a weapon ([ ] or armor) for its power, you may recharge it instead."/>
+      <property name="Attr2" value="Strength: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Strength +1&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;  Disable: Dexterity +2&#10;Constitution: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude: Constitution +1&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2 [ ] +3&#10;Charisma: d4  [ ] +1&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="4  [ ] 5"/>
+      <property name="Attr4" value="Light Armors, Heavy Armors, Weapons"/>
     </alternate>
   </card>
   <card id="79ce353a-a4d1-41f9-805f-a4f1626c17e4" name="Wrathack" size="Character">

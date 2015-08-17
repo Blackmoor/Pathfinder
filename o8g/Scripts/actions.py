@@ -385,7 +385,7 @@ def closeLocation(card, perm):
 		if nextLoc == 'Citadel':
 			citadel = findCardByName(shared.piles['Location'],'Citadel')
 			if citadel is not None:
-				citadel.moveToTable(cardX(card),cardY(card)+10)
+				citadel.moveToTable(cardX(card)+10,cardY(card))
 				citadel.link(shared.piles['Location7'])
 				soltengrebbe = findCardByName(shared.piles['Villain'],'Soltengrebbe')
 				if soltengrebbe is not None:
@@ -399,8 +399,10 @@ def closeLocation(card, perm):
 				shuffle(shared.piles['Location7'])
 				justBuilt = None
 		elif nextLoc is not None:
-			nextLocCard = findCardByName(shared.piles['Location'])
+			nextLocCard = findCardByName(shared.piles['Location'],nextLoc)
+			nextLocCard.moveToTable(cardX(card)+10,cardY(card))
 			pileName = 'Location{}'.format(locNum)
+			nextLocCard.link(shared.piles[pileName])
 			buildLocation(findScenario(table),nextLocCard,shared.piles[pileName])
 			cadre = findCardByName(shared.piles['Henchman'],'Worldwound Cadre')
 			if cadre is not None:
@@ -428,6 +430,31 @@ def closeLocation(card, perm):
 	if len(card.Attr4) > 0 and card.Attr4 != "No effect.":
 		notify(card.Attr4)
 	flipCard(card)
+	
+	if findScenario(table).Name in ('The Demon\'s Redoubt','The Ivory Sanctum'): #Demon's Redoubt has you build a new location after two locations are closed, and Ivory Sanctum summons two cohorts after first location is closed
+		open = [ c for c in table if isNotPermanentlyClosed(c) ]
+		openNum = len(open)
+		players = len(getPlayers())
+
+		if openNum == players-1 and findScenario(table).Name == 'The Demon\'s Redoubt':
+			fourthSphere = findCardByName(table,"Tower of the Fourth Sphere")
+			if fourthSphere is not None:
+				foo = 0
+			else:
+				fourthSphere = findCardByName(shared.piles['Location'],"Tower of the Fourth Sphere")
+				locNum = len(getPlayers()) + 2
+				pileName = 'Location{}'.format(locNum)
+				fourthSphere.moveToTable(cardX(card)+50,cardY(card))
+				buildLocation(findScenario(table),fourthSphere,shared.piles[pileName])
+				notify("Building Tower of the Fourth Sphere location!")
+		elif openNum == players+1 and findScenario(table).Name == 'The Ivory Sanctum':
+			grillixbee = findCardByName(shared.piles['Cohort'],"Grillixbee")
+			jerribeth = findCardByName(shared.piles['Cohort'],"Jerribeth")
+			if grillixbee is not None and jerribeth is not None:
+				grillixbee.moveToTable(PlayerX(-1)+15,StoryY)
+				jerribeth.moveToTable(PlayerX(-1)+25,StoryY)
+			else:
+				notify("Could not find Grillixbee and Jerribeth. Please retrieve them manually.")
 	return True
 	
 def cleanupGame(cleanupStory=False):
@@ -753,6 +780,14 @@ def IslandsoftheDamned(mode):
 		while i < 4:
 			shared.piles["Location1"].random().moveTo(shared.piles["Location2"])
 			i = i + 1
+		
+def TheDemonsRedoubt(mode):
+	if mode == 'Setup':
+		notify("In Demon's Redoubt Function!")
+		locs = [card for card in table if card.Type == "Location"]
+		for card in locs:
+			grimslake = findCardByName(shared.piles['Henchman'],"Grimslake")
+			grimslake.moveTo(card.pile())
 		
 def S02DWhoRulesHellHarbor(mode): #In Who Rules Hell's Harbor, display the Devil's Pallor so that it can't be chosen by a player
 	if mode == 'Setup':
@@ -2099,7 +2134,7 @@ def scenarioSetup(card):
 	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
 	if card.Name in ('Rimeskull','The Free Captains\' Regatta'):
 		nl = 8
-	elif card.Name in ('Into the Runeforge','Isle of the Black Tower','0-6B The Battle of Abendego'):
+	elif card.Name in ('Into the Runeforge','Isle of the Black Tower',"The Demon's Redoubt",'0-6B The Battle of Abendego'):
 		nl -= 1
 	elif card.Name in ['Scaling Mhar Massif','0-6E Into the Maelstrom']:
 		nl -= 2

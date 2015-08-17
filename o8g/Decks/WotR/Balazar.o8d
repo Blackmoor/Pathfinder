@@ -4,7 +4,6 @@
     <card qty="1" id="6209b1b4-2d3c-4340-8101-59f1c3209fd0">Balazar</card>
     <card qty="1" id="dd02ff63-fb25-469c-badb-a426e00ee8ee">Balazar</card>
   </section>
-  <section name="Weapon" shared="False" />
   <section name="Spell" shared="False">
     <card qty="1" id="ecd4ef14-a865-4071-a6f9-1ad1b79bf005">Enchanted Fang</card>
     <card qty="1" id="7deca297-572b-45cc-911d-efb1cc11cc73">Glibness</card>
@@ -27,7 +26,11 @@
   <section name="Blessing" shared="False">
     <card qty="4" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
   </section>
+  <section name="Weapon" shared="False" />
   <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False">
+    <card qty="1" id="1659e32d-eef0-434c-9e53-804f87f91af3">Padrig</card>
+  </section>
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
   <section name="Monster" shared="True" />
@@ -41,6 +44,7 @@
   <section name="Ship" shared="True" />
   <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

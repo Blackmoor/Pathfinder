@@ -310,6 +310,19 @@
     <property name="Attr2" value="Dexterity&#10;Disable&#10;Craft"/>
     <property name="Attr3" value="6"/>
   </card>
+  <card id="5576e19c-e39e-4d8a-b771-624a94833c5d" name="Goblin Skull Bomb">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Alchemical&#10;Attack&#10;Mythic"/>
+    <property name="Flavour" value="Can't put it back together, but you can get a new skull."/>
+    <property name="Attr1" value="Banish this card to add 1d20 to your combat check. You may additionally expend any number of mythic charges; for each charge expended, add 1d20. If you defeat the bane by at least 5, each character at your location is dealt 1d6 Fire damage. If you have the Goblin trait, bury this card instead of banishing it."/>
+    <property name="Attr2" value="Intelligence&#10;Craft"/>
+    <property name="Attr3" value="11"/>
+    <property name="Attr4" value="Bury an Ally"/>
+    <property name="Attr6" value="OR"/>
+  </card>
   <card id="d5f43bea-89e4-48c9-bab1-dc65e1a1cf18" name="Mysterious Disk">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
