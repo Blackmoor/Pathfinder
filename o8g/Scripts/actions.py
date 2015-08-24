@@ -329,14 +329,13 @@ def closeLocation(card, perm):
 	if card.Type != 'Location':
 		notify("This is not a location ...")
 		return False
-		
-	if card.Name in ('Abyssal Rift'): # This location cannot be manually closed - its state is determined by the side showing
-		return False
 
 	if perm == False:
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
 		return True
+	elif card.Name in ('Abyssal Rift'): # This location cannot be permanently closed
+		return False
 		
 	# Move cards from location pile back to box
 	# If we find the Villain then the location is not closed and the Villain is displayed
