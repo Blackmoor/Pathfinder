@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Cohort" shared="True">
+    <card qty="1" id="c96e9d42-d3bf-4954-99cb-c3b5c44eed4b">Anevia Tirabade</card>
+    <card qty="1" id="3ce414e4-54c8-49df-9bd0-bab8a6fe60a5">Aravashnial</card>
+    <card qty="1" id="eca2d59d-b28a-48ef-92dc-8504beb23ce3">Aron Kir</card>
+    <card qty="1" id="3a94c21d-4445-4c88-9c50-25e7e2bf00c3">Arueshalae's Gift</card>
+    <card qty="1" id="7ecbbe60-9f7e-4367-999e-8ba3b10ec669">Brutalized Flesh Golem</card>
+    <card qty="1" id="ea58dfcd-973e-4c10-bb15-745ef6479a7e">Cecilla the Uprooter</card>
+    <card qty="1" id="2a3f7408-c09b-441d-bdcc-deb436d39b01">Grillixbee</card>
+    <card qty="1" id="c815f162-c0b8-4833-84a9-2d409f9de0e4">Horgus Gwerm</card>
+    <card qty="1" id="55bcf59c-af12-4d6a-9df8-7c8b71d2d6c3">Irabeth Tirabade</card>
+    <card qty="1" id="0dff6e92-7643-4726-afe9-a0295cc40369">Jerribeth</card>
+    <card qty="1" id="e2f9848a-049a-4366-8dcb-beb76067ee6b">Nurah Dendiwhar</card>
+    <card qty="1" id="c6b72dc2-6111-47e7-a55c-86d78ff1471e">Queen Galfrey</card>
+    <card qty="1" id="d2468f74-1cf5-48c7-b7cb-3bf089613558">Sir Ilivan</card>
+    <card qty="1" id="26d20a2c-3455-435e-a1fc-0ec0b41e1e85">Sosiel Vaenic</card>
+    <card qty="1" id="2251f156-be79-4dcd-8bc4-38c623e53a98">The Fulsome Queen</card>
+    <card qty="1" id="15c50349-0ad8-4788-b605-9e31765960e5">Vinst</card>
+    <card qty="1" id="41805db5-ef9f-4c19-b777-a51035fc52ee">Yaniel</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="d10f66fd-6f00-4984-b7b3-a49516f4243d">Armor of the Pious</card>
+    <card qty="1" id="4918897f-9569-41d3-aca2-e9c73c45c162">Bejeweled Helm</card>
+    <card qty="2" id="78e3bddd-5d5a-41db-9dfa-273798a550c1">Black Dragonhide Breastplate</card>
+    <card qty="2" id="26adeac4-e690-4950-b508-c9c0282886d1">Celestial Armor</card>
+    <card qty="1" id="ea1678ff-67c3-49ce-8573-6fbecf834b1a">Commander's Field Plate</card>
+    <card qty="3" id="eb4aacb6-3873-4467-b3c7-91db1768b259">Corroded Helm</card>
+    <card qty="1" id="3ee2c8b7-7ad1-447b-a2f7-9947e4f9e221">Decemvirate Helm</card>
+    <card qty="1" id="e1fa9e6e-f5ee-4ab7-893e-644e9d213c5f">Eagle Knight Dress Uniform</card>
+    <card qty="1" id="60aada2a-d988-41b9-98bc-74213ddf3292">Ebon Thorn</card>
+    <card qty="1" id="20b8137b-294c-4226-972a-89ffe0eb08b5">Elven Chain Shirt</card>
+    <card qty="2" id="5bc36a60-5bd3-4a18-8bde-c9423ae87bd3">Expeditious Chain Mail</card>
+    <card qty="2" id="3663c459-77c4-4ec5-b3a1-0c55d079e418">Full Plate</card>
+    <card qty="1" id="07d971f9-80f7-4d90-8061-1da38a665048">Ghoul Hide</card>
+    <card qty="2" id="bb2ba0ab-ce48-4b8e-ae12-31a9379cb90a">Gossamer Shrouds</card>
+    <card qty="1" id="924e7fe8-a717-4978-beec-342daff4e545">Helm of the Valkyrie</card>
+    <card qty="2" id="b323a2c5-aafe-402e-8cc3-85cc36e99d6e">Imperial Army Greathelm</card>
+    <card qty="1" id="9caad6c1-8aa9-418d-a017-6c8a07db2cbd">Leather Armor</card>
+    <card qty="1" id="df1420e1-b315-4e3c-a39c-55b78fc84b7d">Magic Half-Plate</card>
+    <card qty="1" id="5cde24ac-c1bd-4914-b824-6da1ec191c54">Magic Padded Armor</card>
+    <card qty="2" id="dc2e837c-8801-4d9b-846c-dd790057efa9">Magic Padded Armor</card>
+    <card qty="1" id="84388089-c856-4a39-bd2d-efc718d65318">Magic Scale Mail</card>
+    <card qty="1" id="68017853-b576-40f9-8316-43d72b20b999">Magic Shield</card>
+    <card qty="1" id="ca04555b-f6c3-45de-aab0-06a256732192">Sniper's Studded Leather</card>
+    <card qty="2" id="d3254816-23dd-4799-8435-3476ea62e536">Spellcaster's Shield</card>
+    <card qty="2" id="6ed881c3-2e84-4593-89b9-d35e1c0d9dcc">Spiked Plate</card>
+    <card qty="2" id="33bd40a1-c60a-482c-87be-e90d3d5fc6d5">Spiny Shield</card>
+    <card qty="1" id="08ad57b9-3c73-4dae-9434-5fdecf6ed492">Steel Shield</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="7cfc4919-9be5-49f9-a772-cdd797076e03">Banner of Valor</card>
+    <card qty="1" id="1c48c147-ab37-44ed-8c7a-9bb01482e841">Barding of Pleated Light</card>
+    <card qty="1" id="aafe4553-58e3-4946-9b31-f8c43c305de9">Black Robe</card>
+    <card qty="1" id="610f621e-90b4-4edb-bc9e-b428bd03c28e">Blancher</card>
+    <card qty="6" id="21dc0e56-2e90-4cb9-8ee6-1a9023ecea7a">Blessing of Nocticula</card>
+    <card qty="1" id="76e319cc-56d0-4924-a538-d4d5f1bc586f">Fasciculus Labyrinthum</card>
+    <card qty="1" id="8d851f94-d394-423a-b2a6-a119e2c3bbd9">Fiendsplitter</card>
+    <card qty="1" id="60f1ba2a-89e9-4582-9a90-cfc3ee7725d1">Firebow</card>
+    <card qty="1" id="428ddf7b-80e6-4ffc-b1f2-b6befc3467dc">Holy Radiance</card>
+    <card qty="1" id="cde79b36-4008-4285-9af6-46ac7f52cd5d">Radiance</card>
+    <card qty="1" id="139522d2-34c3-4275-b34e-04d3d0f8c460">Ring of Forcefangs</card>
+    <card qty="1" id="9f56a373-04b5-4ab9-a32e-d4a80f0aa66d">Sacred Prism</card>
+    <card qty="1" id="19fd350e-f99e-4ecc-bbda-ae6ac84f6c8c">Scale of Cloudwalking</card>
+    <card qty="1" id="2e4c1b1f-e7af-4687-b095-8a8ced01b6dc">Scale of Disguise</card>
+    <card qty="1" id="ec86401b-e992-4948-803b-1cb50d65c378">Scale of Resistance</card>
+    <card qty="1" id="5842efdd-b48a-43e1-bb97-b39dd3f8f795">Scale of Sacred Weaponry</card>
+    <card qty="1" id="beff7767-1860-4f7b-b3a8-a8e0a46bbe88">Soulshear</card>
+    <card qty="1" id="d92efe51-3c8a-4ab9-a290-b5206bc6d8f1">Spherewalker Staff</card>
+    <card qty="1" id="6b575378-2d6a-4866-8a27-cba22bff6c21">Starbow</card>
+    <card qty="1" id="3a3da34c-309f-457a-8c82-e29166f47d15">Swallowtail Bracers</card>
+    <card qty="1" id="519ce348-c890-4451-869c-8481f9793121">Talisman of True Faith</card>
+    <card qty="1" id="c0faaa44-a1d0-4f66-b42f-0744f48c4a70">Transmogrify</card>
+    <card qty="1" id="b629a076-1a6a-4962-a8fa-075446e49c1c">Wardstone Fragment</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="7adecc76-de71-4b33-82c7-f1562b718516">Abattoir</card>
+    <card qty="1" id="9ee2207f-7559-4270-9600-509f0c1fdf54">Abyssal Rift</card>
+    <card qty="1" id="b87e544a-3741-40fc-ae25-f628db766bfb">Abyssal River</card>
+    <card qty="1" id="a310bd9c-a6a4-4e08-895d-e632610149b3">Armory</card>
+    <card qty="6" id="c3a06229-c3d2-41a9-ae6f-bfe0acdecdeb">Battlebliss</card>
+    <card qty="1" id="ff39b8b7-2df7-45f9-aeda-46c711f30a8c">Befouled Altar</card>
+    <card qty="1" id="8aadecc0-6e60-417e-81c3-0f9293ae9b15">Canyon</card>
+    <card qty="1" id="f4e28db3-76cc-4975-a802-7d1ecc74044e">Cathedral of Chaos</card>
+    <card qty="1" id="f83fc40d-c917-4482-bc49-4734716f8dd6">Cathedral of St. Clydwell</card>
+    <card qty="1" id="817e224e-00a6-467f-87f8-d069bda17d49">Cavern</card>
+    <card qty="1" id="4bc9e39c-036f-4afb-aa00-38b55c49278c">Celestial Beacon</card>
+    <card qty="1" id="6321ac21-20be-4904-8736-7fc67926b95c">Cell</card>
+    <card qty="1" id="94ce703c-fa4f-4bd9-8d95-eea5852967ce">Cemetery</card>
+    <card qty="1" id="518c20f3-fd90-4994-b08a-79403c9c32a4">Chasm of Shadows</card>
+    <card qty="1" id="28fa83db-6d41-46a1-a9cb-5a20e8dc3d1b">Citadel</card>
+    <card qty="1" id="05a6f348-fba9-49d1-a527-d3b7a898db37">Collapsing Bridge</card>
+    <card qty="1" id="091c83af-8be8-4607-bdfa-69bf3595e16a">Corruption Forge</card>
+    <card qty="1" id="a99fc91b-ac0a-4f09-bc4e-bb98e117d89a">Dark Forest</card>
+    <card qty="1" id="3fca210f-7253-4e44-8605-b33210e81f62">Defender's Heart</card>
+    <card qty="1" id="2de3843e-45dc-4c98-9516-608b83869dee">Eagle Rock</card>
+    <card qty="1" id="ad156cba-ee63-4e48-a713-f7fc88f80717">Family Tomb</card>
+    <card qty="1" id="90ed1e3e-c985-4a85-aa02-89fe24e422a7">Forsaken Cloister</card>
+    <card qty="1" id="d194922d-c772-4bb8-a734-15a93674c845">Gray Garrison</card>
+    <card qty="1" id="93f46bfc-6649-44ec-a8f6-16d724177403">Great Hall</card>
+    <card qty="1" id="dc5d3d77-8326-4a5b-9607-2c39eea5b409">Grinder</card>
+    <card qty="1" id="3a779ed5-61a1-4927-8fc8-5a6beb0b697d">Guardpost</card>
+    <card qty="1" id="04d96094-9437-49d9-865b-32b21f9b4dea">Harem of Ardent Dreams</card>
+    <card qty="1" id="084f066a-e5e6-45ea-8867-63e91499549b">Harvester's Pit</card>
+    <card qty="1" id="329eb15e-e5ec-4117-a7c9-a4d77872bb61">Laboratory</card>
+    <card qty="1" id="bd4bdfb1-9843-4f68-ac99-20fa58230976">Locust Shrine</card>
+    <card qty="1" id="d68325bd-ef5e-4c05-b153-4400ca67de33">Manor House</card>
+    <card qty="1" id="80f2aa0d-f6cd-4b5b-8a57-295b0a02af5e">Marketplace</card>
+    <card qty="1" id="f330f69c-d924-4d47-ad4d-bef92d7715cc">Maze</card>
+    <card qty="1" id="c6bfb42b-8c7c-4fe9-8f78-7dc0f6db3e38">Middle of Nowhere</card>
+    <card qty="1" id="772e2d7c-fcfb-4a54-842c-c55ae704e507">Molten Pool</card>
+    <card qty="1" id="1c407e87-6bb1-4ea4-9b47-f5d075a623bb">Mongrel Village</card>
+    <card qty="1" id="a46fd985-ba36-4a54-89d6-5d820dc2db24">Occult Library</card>
+    <card qty="1" id="7304a0b8-93f1-49c0-afc7-835bfcd4208f">Paradise Hill</card>
+    <card qty="1" id="d92a30c9-6034-45f6-9f3b-50f7f166c742">Qlippoth Runestone</card>
+    <card qty="1" id="5f10b672-1b1c-417b-b1a1-60e2dce13b08">Rapture of Rupture</card>
+    <card qty="1" id="b2b7557b-9b8b-4489-af2f-d09205cb3c02">Sacristy</card>
+    <card qty="1" id="92cc88fb-a1d8-4daa-b953-02cb1f456a7e">Sanctum</card>
+    <card qty="1" id="e0bf439f-8bcd-40ca-af1d-2b5a1a8cb4bb">Temple of Iomedae</card>
+    <card qty="1" id="e24107a4-2365-4b35-8008-aae3c5a3c282">Torture Chamber</card>
+    <card qty="1" id="806b15ac-6f42-4fd8-bea8-9c8cf53536a1">Tower of Estrod</card>
+    <card qty="1" id="adabea87-05d9-473d-ba85-76d4dd2cf3de">Tower of the Fourth Sphere</card>
+    <card qty="1" id="2977e44e-d6a0-4125-9a3f-0ee735a0d5cf">Wardstone Chamber</card>
+    <card qty="1" id="bce42ed5-635e-4603-bc7e-54ffcc261798">Watchtower</card>
+    <card qty="1" id="1693b451-d708-43cb-bccd-97de7e23a9b2">Wintersun Hall</card>
+    <card qty="1" id="591b59d1-52eb-4e25-ae68-46c9c2a9996c">Wounded Lands</card>
+    <card qty="1" id="1a58247c-c4d4-4f56-b68b-a48e20a72589">Woundwyrm's Lair</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="f97d458a-e32b-4513-a105-9150a0f4e756">Accursed Priest</card>
+    <card qty="1" id="b71046f8-de02-4000-be8d-b21caf23eb2f">Berbalang</card>
+    <card qty="2" id="443be1c7-37ab-49b9-9209-f2f50497bb7a">Betrayal Demon</card>
+    <card qty="1" id="58b8de0d-d9b7-48d2-8e6b-35ea9788a42f">Blasphemous Priest</card>
+    <card qty="2" id="cbc67a94-98bf-4a68-8b75-dbfeaff3dc50">Blasphemy Demon</card>
+    <card qty="1" id="49e844af-cfec-4621-8a9e-0aa7e247db04">Bunyip</card>
+    <card qty="2" id="006da3bf-26ee-4a97-9eb5-2fb56f31dc1d">Cambion</card>
+    <card qty="2" id="f31341af-7e5b-4597-86cf-ba4319f035be">Cambion</card>
+    <card qty="2" id="56f3a470-64cc-42f0-b206-14693ff47aca">Carrion Golem</card>
+    <card qty="1" id="660cda8c-140d-4c2b-9be3-27877e46de93">Carrion Golem</card>
+    <card qty="1" id="a6926c54-0d69-4463-89a3-b36a117a8901">Constrictor Snake</card>
+    <card qty="1" id="94a868dc-9e89-4e6b-ad77-5c0301edd3bd">Crocodile</card>
+    <card qty="2" id="7be817ee-5dd5-4c5e-9084-a5d0cc842819">Cultist Archer</card>
+    <card qty="1" id="ee96c43c-ada5-4545-aa85-04db91e65869">Deacon of Death</card>
+    <card qty="1" id="a331cda6-dfc7-4363-9fc2-1b6fc787f317">Demon Eater</card>
+    <card qty="2" id="eee6d085-338c-4f8c-844e-6697da81ae6a">Demonic Fly</card>
+    <card qty="1" id="678db7fd-6467-436b-a845-970ae1cc768b">Dominion Scientist</card>
+    <card qty="1" id="a04ef722-7456-43c0-825c-906565b0c4a8">Drake Rider</card>
+    <card qty="1" id="d074a6f7-daac-49b1-a4df-74d6d071e8bd">Drocha Swarm</card>
+    <card qty="2" id="fb7644e2-af21-43ac-8593-82bddf1c6fff">Filth Demon</card>
+    <card qty="2" id="614e6330-90d5-44a6-bffd-580d9c5c1bac">Gargoyle</card>
+    <card qty="1" id="7d04efd6-0b69-4fc8-a1b3-de366d27d8f0">Ghost</card>
+    <card qty="1" id="d3b99a7f-77e6-4e8e-85ed-756ed35eb0f5">Ghoul</card>
+    <card qty="1" id="808a788d-0666-43c7-b5bf-2a2872e4b507">Giant Amoeba</card>
+    <card qty="2" id="e699d53d-f93c-46de-a7c1-0103bcc14416">Giant Fly</card>
+    <card qty="1" id="f82d8138-4eb5-4ebf-b8e0-37ada90600b2">Greater Shadow</card>
+    <card qty="2" id="c13903a5-3f4e-4778-9707-c2e4506ff2e7">Horned Demon</card>
+    <card qty="2" id="2f2ddf39-600a-468b-888e-26836c562ec0">Incubus</card>
+    <card qty="1" id="9443f5d9-e491-41f7-b83e-f833f60af53e">Locust Demon</card>
+    <card qty="1" id="fa8af8f6-3195-4e15-8370-5efd847fe89a">Lost Soul</card>
+    <card qty="1" id="c7fa1d42-85c7-4a55-b9c6-1f04e1272bee">Mad Knight</card>
+    <card qty="1" id="05849a10-47fb-439c-a763-7c8126162796">Man-Eating Aurochs</card>
+    <card qty="1" id="c004b70d-54c7-4234-9bd3-59541c57b2ac">Mandragora</card>
+    <card qty="1" id="17e9b7fc-3975-4bb8-837d-6920b82b56e8">Mercenary</card>
+    <card qty="1" id="af7a14ac-1471-4b4e-a265-e2a4cdc962a3">Mercenary</card>
+    <card qty="1" id="768c283e-5d70-4463-99f1-6af54d428dcb">Mist Horror</card>
+    <card qty="2" id="7d7bf05f-3d72-44ce-ac4e-ec74b57dc38f">Mongrel Ranger</card>
+    <card qty="1" id="aceffb39-1814-41f5-8b19-f00c6ee2e8f3">Mongrel Ranger</card>
+    <card qty="1" id="e371df3f-f57b-4792-a366-c96c555f5d42">Mongrel Wizard</card>
+    <card qty="2" id="e850e412-88a7-4cd2-b532-80f7d33e6289">Mongrel Wizard</card>
+    <card qty="1" id="aa3ad596-75bb-4920-895b-42008162cb2a">Peryton</card>
+    <card qty="1" id="ad4aa7c4-ff9d-472b-9c66-9ea0237c03b7">Pitborn Scoundrel</card>
+    <card qty="2" id="d50f6efe-f041-4910-9fb1-46781b901e12">Pitborn Scoundrel</card>
+    <card qty="1" id="3add28f2-01a6-4fd8-8d9e-af58877dddc1">Putrid Ooze</card>
+    <card qty="1" id="3e9ff84b-ac79-4dfe-a16a-0a964e336784">Rat Swarm</card>
+    <card qty="2" id="6ffba8bf-a02d-409a-a9fc-64fb07ddc876">Salamander</card>
+    <card qty="2" id="b8485ece-6c86-4ff4-8b11-53646930427b">Spectre</card>
+    <card qty="1" id="630f1673-6f0b-4915-8652-fd0abd7bfc38">Spite Demon</card>
+    <card qty="1" id="ef6aaa18-f563-49d2-af4c-7227d82b4249">Stone Golem</card>
+    <card qty="3" id="5d5c42b4-d9b1-4eb6-b78f-56f4178a13e2">Toad Demon</card>
+    <card qty="1" id="70d8b85b-e2a3-4a85-b23b-d26e1287d301">Umbral Dragon</card>
+    <card qty="1" id="05d131b0-c646-40c5-b527-425545fc911d">Urannag</card>
+    <card qty="1" id="9aa05ecb-b24d-49d9-b2ff-ec4e7d0c5498">Vampire Spawn</card>
+    <card qty="1" id="db723089-a372-4604-b40b-2150c8c78acb">Warmonger Wasp</card>
+    <card qty="1" id="32b289a5-7e19-4e6d-9edc-e4fc9a4f4e1f">Will-O'-Wisp</card>
+    <card qty="1" id="40fbca26-3e13-4b96-9214-c0676cb8d9e6">Worm Demon</card>
+    <card qty="2" id="fae6d7a0-9220-4921-8a44-aa9ec3c34d8c">Worm Demon</card>
+    <card qty="2" id="140c759f-2608-4dda-a0e2-30236925a60e">Wreacker Demon</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="022f42e8-bc94-441e-b43a-4c02a545513f">Agility</card>
+    <card qty="1" id="175bd2e8-c91f-4be7-849c-a5fc20fb8eec">Bloodscent</card>
+    <card qty="1" id="05078477-454b-41e9-bbb6-24f45cb3dbb6">Cape of Wasps</card>
+    <card qty="2" id="8321b2d2-14e3-4cac-9e53-28107dffe59f">Charm Monster</card>
+    <card qty="1" id="ca0be58a-9eb4-43f5-be68-2c2b9d8c042b">Consecrate</card>
+    <card qty="1" id="280271ca-d6d0-4276-8558-0d60582486e2">Create Spiked Pit</card>
+    <card qty="1" id="9f1cad21-6ddd-415c-9581-bee7be975a02">Cure</card>
+    <card qty="3" id="e77201fc-851d-4f4f-8301-b042f61cad99">Cure</card>
+    <card qty="2" id="1fba7194-3245-4a7b-9c33-291300572e82">Detect Demon</card>
+    <card qty="2" id="37a0d68e-dd88-42ec-afc2-b49b3a771783">Dismissal</card>
+    <card qty="2" id="423cf3c6-8cfd-455a-a4c9-c98d41722694">Divine Blaze</card>
+    <card qty="1" id="c9fe873d-96b0-4432-8e37-5fcb73f2a075">Dragon's Breath</card>
+    <card qty="1" id="ecd4ef14-a865-4071-a6f9-1ad1b79bf005">Enchanted Fang</card>
+    <card qty="1" id="0d487a99-9e4f-4647-b074-c5583e8d9f53">Fiery Glare</card>
+    <card qty="2" id="4de2c9a3-12e4-4f58-94de-d7e2a7bbb92e">Fiery Glare</card>
+    <card qty="1" id="adbf48b4-11b0-4e14-bc83-d18291ff9b40">Fire Shield</card>
+    <card qty="1" id="b11c271a-34dc-4cd5-8922-13c1794bd471">Flames of the Faithful</card>
+    <card qty="1" id="74665918-b82a-442a-ae79-deeafaa8b66a">Ghost Wolf</card>
+    <card qty="2" id="c5f8d414-cf35-4ea1-9f90-ae8eab1e2068">Good Omen</card>
+    <card qty="1" id="fc762aaf-7eac-47e4-8d13-6bd8196480e0">Heat Metal</card>
+    <card qty="1" id="7a0ca76a-f668-46a2-968b-8c5c7598e38f">Hellmouth Lash</card>
+    <card qty="2" id="395dd9bd-9447-4372-81b6-07a3efda1795">Ice Strike</card>
+    <card qty="1" id="b5ebc7ef-064d-41b7-a2f0-ee786f1662ba">Lend Mythic Path</card>
+    <card qty="2" id="67310b5f-939b-43f2-b2c5-7795fdd0f0b5">Life Drain</card>
+    <card qty="1" id="6dcb1643-2d70-45f9-bb1f-6fad4dc1b224">Mirror Image</card>
+    <card qty="1" id="4fdf982b-d5fe-4f22-8c33-81a790aebdbf">Paralyze</card>
+    <card qty="2" id="94e42a68-9278-4910-a538-ab4f877e6a25">Pillar of Life</card>
+    <card qty="1" id="932b1404-5264-47f5-bff9-47fe0e67d934">Protect</card>
+    <card qty="1" id="3c647bdd-9d9b-4a07-9e4f-bf1eb0ad0140">Refuge</card>
+    <card qty="1" id="01327462-7df8-4881-8070-a24b035e7891">Restore Mythic Power</card>
+    <card qty="2" id="18d9d5b4-302a-4e54-a2e0-c7543ccee11e">Sacred Weapon</card>
+    <card qty="1" id="76eaf7ad-25dd-4014-aa45-99441ced578a">Scorching Ray</card>
+    <card qty="2" id="729cde4c-4a2a-4e93-91ab-6e4691a19c7f">Skitter</card>
+    <card qty="1" id="ae868832-39a8-4f77-aa69-562a6068e6ea">Steal Soul</card>
+    <card qty="1" id="57b6bb6e-2ff9-41d3-9fd7-b775cc7d0460">Terraform</card>
+    <card qty="2" id="32da6768-a892-430f-9853-4dca1ec9ebcb">Unearthly Aim</card>
+    <card qty="1" id="6a6006a3-2763-4389-90ca-c542eb8168b3">Weapon of Awe</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="78e7a5e4-7be0-4638-b3dd-8449c9121ddb">Abyssal Traveler's Kit</card>
+    <card qty="1" id="29b44689-bc75-4752-a5c1-f85d3151d689">Almanac</card>
+    <card qty="1" id="44246e93-f288-4161-88b3-d1f21dc29e0d">Archer's Bracers</card>
+    <card qty="1" id="3716ddcc-e5d4-462f-adcd-1f664cbba3b6">Belt of Charging</card>
+    <card qty="1" id="6c57756d-966b-4912-a902-c10e4ba32801">Boomcrown</card>
+    <card qty="1" id="a5b7a8d4-80a1-4691-860b-c4e66770b497">Climber's Gloves</card>
+    <card qty="1" id="9962f551-b4b2-404f-bc64-852983390275">Dawnflower's Light</card>
+    <card qty="1" id="145fc130-0e3b-45b2-973b-1066d88c004e">Demon Hunter's Handbook</card>
+    <card qty="2" id="50f60ae2-782b-4031-aa15-3be79e4f49d6">Demon Hunter's Handbook</card>
+    <card qty="1" id="2fcf8ac7-d72b-4c97-93d0-64020cfbc7fb">Exorcism Kit</card>
+    <card qty="1" id="c060f37a-f5ad-4cbe-be27-ba2934e49eec">Fortune's Arrow</card>
+    <card qty="1" id="d0109ee9-6994-4c00-8c42-a02fc8ebb74b">Holy Phylactery</card>
+    <card qty="2" id="a7672194-0a0f-41da-93e4-3b2e5ef03a22">Horn of Assured Victory</card>
+    <card qty="1" id="f9e6dde6-14c2-40e4-93b1-92685cf9707a">Horn of Battle Clarity</card>
+    <card qty="2" id="fdc08d0c-d7b5-4c5e-99af-4aca37a3b4d7">Knight's Pennon</card>
+    <card qty="1" id="83de6d86-5567-4001-a5e8-5c7c24860b97">Lymirin Discourses</card>
+    <card qty="1" id="065847f4-4872-4a80-bc3a-4fcea068f886">Lyre of Storms</card>
+    <card qty="2" id="04c4e556-ea8c-4b9d-b1ca-c4b7b41999da">Manual of War</card>
+    <card qty="1" id="08926851-e90e-4ecc-a844-10fde182284f">Mist Horn</card>
+    <card qty="1" id="af42b8b5-f552-4af6-92bb-d75f71d13685">Monkey's Paw</card>
+    <card qty="2" id="de7dc720-05a3-411f-8049-8772252fa21f">Nahyndrian Elixer</card>
+    <card qty="2" id="092a90ae-423e-461f-8606-dfe585e83e62">Nectar of the Gods</card>
+    <card qty="1" id="a7ea91e0-9533-4829-8978-b2424bad9ef3">Pauper's Thighbone</card>
+    <card qty="1" id="f159bc23-a823-40bb-9b55-fe516fdb0850">Planar Tuning Fork</card>
+    <card qty="1" id="880ef98b-3864-40f7-ac48-19ec988fab89">Portable Altar</card>
+    <card qty="1" id="0fd8f8c2-4648-4a51-887c-b568044939fa">Potion of Healing</card>
+    <card qty="2" id="d886300f-51c9-43e7-b949-082b3ca5c5cf">Potion of Nightvision</card>
+    <card qty="2" id="55ad4540-1a21-45cb-bc0a-4dbbbbf40c44">Potion of Restoration</card>
+    <card qty="1" id="0f3dd4e2-67dc-46e1-bba3-f4f1656b7f4d">Potion of Striding</card>
+    <card qty="2" id="703fe5ac-4f61-4ade-88e1-b809e6a8acd4">Pure Holy Water</card>
+    <card qty="1" id="ce3a3ae0-9415-4e6b-8ece-b47c53e27dd4">Ring of Reflection</card>
+    <card qty="1" id="17afef83-612c-4de5-b33a-afc050a62b66">Silver Raven Figurine</card>
+    <card qty="2" id="ca0b677a-194d-4762-8f79-eda18fea7189">Skinstitcher's Manual</card>
+    <card qty="1" id="2338f53c-3c7c-4288-aecd-27e920a2cb69">Spellbottle</card>
+    <card qty="1" id="378793bf-ae90-48f5-96f6-bec36f0b744c">Swarmlord's Jar</card>
+    <card qty="1" id="faa30cb0-2e98-4517-b6c3-24e3c0d803a4">Talisman of Good</card>
+    <card qty="1" id="d2ba787f-6fa8-4e63-b764-c5f675c4c25c">Tome of Mental Prowess</card>
+    <card qty="1" id="1182cec3-c04c-4dd6-9c30-2d328bac86ef">Tome of Physical Might</card>
+    <card qty="1" id="73e88695-6978-4c61-9fa0-7b86f3ae9947">Trapsmith Gloves</card>
+    <card qty="1" id="73841b35-6a66-4203-8b23-0c641c068afc">Wand of Cancellation</card>
+    <card qty="1" id="08d328f9-d41a-4fd3-a91b-994b7a10e949">Wand of Paralyze</card>
+    <card qty="1" id="36611e13-c5ce-4e16-928e-fcfd56b99260">Wand of Sacred Weapon</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="4aafea52-6ffd-43b0-a2de-10d5053f688a">Alrys Harnaste</card>
+    <card qty="6" id="2d57bf6f-4ddb-4910-b85c-04b6f32813bf">Ash Giant Thug</card>
+    <card qty="7" id="cbcc32f0-3183-47fe-b12e-0ad3af9b59f6">Barbarian Horde</card>
+    <card qty="1" id="219c0240-2aed-4f79-a019-67a1e4b4817a">Beverach</card>
+    <card qty="1" id="97d78513-83ac-4903-8235-d2ee9bb40d19">Blackfire Adept</card>
+    <card qty="1" id="74e04485-6e86-460b-a22c-3844d8ef072c">Blood Demon</card>
+    <card qty="2" id="50442184-0b99-4d55-b36e-082b3c956f3a">Brimorak</card>
+    <card qty="5" id="d9f0e3c1-5cb6-44b7-a790-864eb4f44dc0">Brimorak</card>
+    <card qty="1" id="eadcfc2c-1dce-4bbb-837d-11d5876b67ca">Carnivorous Stump</card>
+    <card qty="1" id="3e761f3c-4c75-4edc-954e-df017377974e">Ceustodaemon</card>
+    <card qty="1" id="9d758976-cdeb-40f0-960f-74d850069a9c">Chorussina</card>
+    <card qty="1" id="e41d6211-0d30-4c68-9e48-b5e525cb885e">Corrupted Soldier</card>
+    <card qty="5" id="8d10170e-09e0-4de1-bbad-fed1bd50749e">Cultist of Baphomet</card>
+    <card qty="2" id="d018bc01-360e-4a03-b767-5aa4c897fcb3">Cultist of Baphomet</card>
+    <card qty="7" id="717662ad-4e3c-44f7-b8f4-93639f9357f2">Cultist of Deskari</card>
+    <card qty="7" id="7ae6606a-c80e-44bd-9c24-78d6c26423ea">Demoniac of Baphomet</card>
+    <card qty="1" id="008f8003-1954-444a-9cf3-addf2e481687">Demonic Platoon</card>
+    <card qty="1" id="abf56406-547f-4998-b97f-9bb9af2d4978">Demonling</card>
+    <card qty="2" id="18ad661f-ad58-45b9-be6b-70e3521eee31">Derakni</card>
+    <card qty="5" id="4f348f2f-7070-49a9-af2d-5cf5cc4a7991">Derakni</card>
+    <card qty="2" id="59f6342e-7533-4299-8745-c3d50c1ba66f">Fiendish Minotaur</card>
+    <card qty="3" id="7e3ecb2f-35e4-4c91-b9a5-62694ba24945">Fiendish Minotaur</card>
+    <card qty="1" id="daae353a-7a64-40f7-8b8a-47c221c03a22">Fiendish Tree</card>
+    <card qty="1" id="c31ee6db-7f94-4efe-b424-efeb0fae99f1">Ghalcor</card>
+    <card qty="7" id="e5bcb4d3-7094-40d0-903e-7cf2c5793979">Giant Bat</card>
+    <card qty="7" id="95d86c42-c173-426f-8231-72b927e695f1">Grimslake</card>
+    <card qty="1" id="867e1b31-966d-4437-bb33-c019bab11a4d">Harvester</card>
+    <card qty="1" id="f2d18562-777c-49c7-877d-fa3dd78fd122">Ilzek and Jadiss</card>
+    <card qty="7" id="d23ca6da-c6bd-4b2e-8e16-5414b5affefa">Ivory Templar</card>
+    <card qty="1" id="4d56a971-5378-4e96-9136-34147926fede">Janeamine</card>
+    <card qty="1" id="5ba24359-6e6f-4143-b2cc-0a9bd9b15f2e">Jestak</card>
+    <card qty="1" id="902babf0-0de0-48ea-bc94-c7b3dfc7be6c">Joram Vhane</card>
+    <card qty="1" id="e2db7274-dcea-4c25-80d8-6589b7413a78">Kestoglyr Mantiel</card>
+    <card qty="1" id="e163616a-2993-4df7-acca-9efb3b72d14d">Kiranda</card>
+    <card qty="1" id="253b8a66-212f-4b19-a474-9a511ffc63d7">Kralisq</card>
+    <card qty="1" id="e9862bb5-ee1a-4be9-b34b-9d3a574ea0d0">Lust Demon</card>
+    <card qty="1" id="26af5eda-3d7b-4b5e-a800-ca7fbcc880eb">Melazmera</card>
+    <card qty="1" id="ddf3f8d3-718b-4341-a0b2-03f8d9e8a77c">Minagho</card>
+    <card qty="6" id="b8638bf7-0012-4e23-b8d5-5808cf77caab">Mongrel Traitor</card>
+    <card qty="1" id="ee9970b5-14bb-4cd9-971a-f6549d389825">Mutasafen</card>
+    <card qty="1" id="a6d1545a-1db9-4adf-aca6-c3005d162dbf">Nezirrius</card>
+    <card qty="1" id="2977fa56-99a0-4906-969a-b24e4b0373cc">Othirubo</card>
+    <card qty="1" id="838be0f6-04e8-43d7-a223-e04ffd75e8bb">Scorizscar</card>
+    <card qty="1" id="39b0caaf-4200-4bec-9f89-45ac227173b6">Shadow Demon</card>
+    <card qty="1" id="65d2d43b-6436-4cef-9b45-c4962ab5fade">Shamira</card>
+    <card qty="1" id="96c00f53-ba7a-48cc-87ec-65e3528f83fd">Sloth Demon</card>
+    <card qty="4" id="049e2bf5-ccbc-473f-9965-8168f745e815">Tangle Trap</card>
+    <card qty="2" id="d2d7b1c2-5bb6-42dc-9287-b35f28111a09">Tangle Trap</card>
+    <card qty="1" id="c22392b4-ce67-465e-87b3-d1a432259ee0">Theruk Nul</card>
+    <card qty="6" id="0c9ed406-d61f-4be3-9740-3cceedd213e3">Ulkreth</card>
+    <card qty="2" id="42d05941-a426-43d9-b645-f4c09ad6281a">Ulkreth</card>
+    <card qty="6" id="adf0f4e9-0916-427e-993a-d9d1f7daf51d">Undead Company</card>
+    <card qty="4" id="401ae3e2-e6d6-4fbf-87f5-3693cd4a9b21">Unfettered Eidolon</card>
+    <card qty="2" id="af2366fa-c981-4ad9-9531-4b055eae55b3">Unfettered Eidolon</card>
+    <card qty="1" id="1d35cf39-021f-472f-ae41-de7a3e0d2ca1">Ursathella</card>
+    <card qty="1" id="9c69f49a-1061-4799-ae53-8e0d972279b8">Uziel</card>
+    <card qty="1" id="7f2b108a-f881-407e-aa74-68e1d6530b6e">Vagorg</card>
+    <card qty="5" id="72111be6-e73e-4b1d-bc8a-5d192808e547">Vescavor Swarm</card>
+    <card qty="2" id="9d83ad9c-6aac-4399-928c-c02a34ddccfd">Vescavor Swarm</card>
+    <card qty="1" id="951f3dfd-8b8d-41c1-81b8-2c120505030b">Vulture Demon</card>
+    <card qty="1" id="d61ba5e1-8d17-456a-841c-5fca070e7e78">Wenduag</card>
+    <card qty="5" id="58e8ca0f-681a-46ff-b32f-cdceb58725b3">Wight</card>
+    <card qty="2" id="80936cf3-a9ca-44b5-955c-43bebca263e7">Wight</card>
+    <card qty="6" id="964180da-8160-4e0e-b340-fb5ee1b17e3a">Worldwound Cadre</card>
+  </section>
+  <section name="Story" shared="True">
+    <card qty="1" id="cb332766-f4c4-487c-bfde-49d890e1ea03">Demondome</card>
+    <card qty="1" id="3c0274d7-a48e-4ae8-8a90-a0101a1f0825">Landfall on Colyphyr</card>
+    <card qty="1" id="0f8b7674-f40f-4c0d-b6f3-d05d5180ad40">Nocticula's Attention</card>
+    <card qty="1" id="b75cac99-e16d-4cae-a113-3068d5b8d8b8">The Abyss Gazes Also</card>
+    <card qty="1" id="ae575b49-e248-41e8-9978-ecdb8b393e64">The Midnight Isles</card>
+    <card qty="1" id="5e6afdf2-f645-46cf-9416-8f0eaea9474e">The Nahyndrian Mine</card>
+    <card qty="1" id="17debe82-6a66-4bee-bb21-f4ea6e32a96e">Wrath of the Righteous</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="7bbaf615-a23b-4110-9992-b56c147bb465">Abyssal Shortcut</card>
+    <card qty="2" id="d3ab3a72-1175-4d63-89d4-8918a7df1066">Arboreal Blight</card>
+    <card qty="1" id="e5b5d7c4-c649-41b9-96e8-088db83793cd">Arboreal Blight</card>
+    <card qty="2" id="9211d87d-88b6-469f-a720-478a1654e2ef">Baleful Shadows</card>
+    <card qty="1" id="4f5eba08-b389-496d-bf5d-f29e414baedc">Bilious Bottle</card>
+    <card qty="2" id="ad612c53-a484-4199-9d3b-0fe586b94a19">Blood of Eustoyriax</card>
+    <card qty="1" id="8498c3f9-19c1-4ea1-afc3-8679550daaea">Compelling Offer</card>
+    <card qty="1" id="66338d31-9081-43e8-b74a-9bc9d5197d0e">Crazed Cultists</card>
+    <card qty="1" id="c45d68df-9be2-4161-974b-141450faca93">Death of Righteousness</card>
+    <card qty="2" id="47643916-6d66-47fe-a9f3-837c1e43caf8">Demonic Horde</card>
+    <card qty="1" id="82bb9862-55d9-4343-aca3-f837aa01f4d8">Demonic Horde</card>
+    <card qty="2" id="c8c029ff-645b-4b9e-8716-6ad7e2722510">Explosive Runes</card>
+    <card qty="1" id="28dc466f-523d-4def-a4d0-dced08b1780d">Gift of Nocticula</card>
+    <card qty="1" id="b73881d3-d6db-4d2f-95c7-1ecdad957201">Gift of Shamira</card>
+    <card qty="1" id="77bb9a6c-b131-4374-af72-7ce9afe5d863">Glimmer of Hope</card>
+    <card qty="1" id="2da8df8d-40a0-423e-bf34-9346e789aa96">Greed</card>
+    <card qty="1" id="78a5ff3a-adfc-4886-8210-41f8c24c7f38">Mythic Glyph</card>
+    <card qty="2" id="02329478-af88-4c7a-af85-4d1b8e458e3e">Poison Spiked Pit Trap</card>
+    <card qty="2" id="0b279633-d8b9-4569-a547-7bc8f8c18ed6">Rallying Cry</card>
+    <card qty="1" id="dbb692af-69cf-42bb-ab31-489072df6f25">Rallying Cry</card>
+    <card qty="1" id="51204e45-5e30-46a5-bf19-8080ef49c0c4">Sin Seeker</card>
+    <card qty="2" id="3ae70c63-bf69-491c-82d3-3670496fbd1f">Spiked Pit Trap</card>
+    <card qty="1" id="ff496cbe-f71b-4ea4-ab49-4c5796453d41">Spiked Pit Trap</card>
+    <card qty="1" id="6bee02c9-91de-419b-b8bc-0b073ef09e2d">Symbol of Insanity</card>
+    <card qty="2" id="d6889a5f-879e-4b4d-83ff-364a45c74fdc">Telekinesis Trap</card>
+    <card qty="1" id="01c25721-c918-4aaf-b4e6-86095a4b8a5e">Temptation of Arms</card>
+    <card qty="1" id="0a90bf2f-51ce-4836-972e-71e3e0a0b74b">Temptation of Arms</card>
+    <card qty="1" id="e7201a56-a9b9-4dc8-b880-9bb982bc769c">Temptation of Attraction</card>
+    <card qty="1" id="ad4a6426-2f44-47ee-8965-9a3991ae2c69">Temptation of Favor</card>
+    <card qty="1" id="2593f47f-3100-4ada-9b33-7538da39bbc3">Temptation of Invincibility</card>
+    <card qty="1" id="1ce100c7-d848-495a-8e0f-4d5dae9200b1">Temptation of Lucre</card>
+    <card qty="1" id="c7f71d0d-3efc-4571-a53c-e0cbddd67d19">Temptation of Lucre</card>
+    <card qty="1" id="9cb15e5b-5ddb-4fc4-9a29-1a133155762b">Temptation of Sorcery</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="7fd3ea0a-6d5b-439e-b87e-a4f65c324a00">Animal Tamer</card>
+    <card qty="2" id="50939e06-362f-442a-a8ed-000d514b57fe">Apprentice</card>
+    <card qty="1" id="25343d9d-23e7-4df8-ad04-13853f8a3f4e">Bat</card>
+    <card qty="2" id="70d7bd8b-270b-48ec-bfb5-626b3598b61a">Bat</card>
+    <card qty="1" id="797cc9ac-95f5-44d7-a2ac-cd04e7d05b80">Belthis Loumis</card>
+    <card qty="2" id="66032350-4675-4d2c-8884-418bea469551">Caravan Guard</card>
+    <card qty="1" id="64bb46f6-121d-4745-abf4-db93bf44618a">Carbuncle</card>
+    <card qty="2" id="67761bb3-1c8f-4328-9d02-0aceadbe107b">Celestial Unicorn</card>
+    <card qty="1" id="d4b5de17-4f6a-4d81-8a2b-edda18e46d29">Chief Sull</card>
+    <card qty="2" id="0badd7f6-fc0b-4ce1-81fb-d6d0e6864092">Demon Hunter</card>
+    <card qty="1" id="2e7e00ce-2c93-4faf-8d3a-74f62aac115f">Druid of the Flame</card>
+    <card qty="1" id="c07fbdb5-47f6-4584-bbb0-6dc3a63e274c">Druid of the Leaf</card>
+    <card qty="1" id="d5e0817b-50d3-4ee8-87b2-038b00b67bcd">Druid of the Storm</card>
+    <card qty="1" id="e53e2beb-78c6-4d69-b907-81565f07e9c5">Fortune-Teller</card>
+    <card qty="1" id="141cf57f-4f0c-4941-9cf2-d59acd836329">Frilled Lizard</card>
+    <card qty="1" id="24902214-8faf-43e8-9a20-9e214e53af3b">Frog</card>
+    <card qty="1" id="00c22605-5083-4845-b47c-5f0817f3f337">Grizzled Mercenary</card>
+    <card qty="1" id="dc4e1609-ddac-4faf-a395-3d765726ced0">Interrogator</card>
+    <card qty="1" id="1c661124-1f78-4fa1-b701-4ecf5c3b8407">Jesker Helton</card>
+    <card qty="1" id="1d83c93d-1dcd-4921-afeb-c15296f3f250">Kamilo Dann</card>
+    <card qty="1" id="9d76c08d-cc38-4f99-b1cb-e66c90c9c9e9">Kimroth Otai</card>
+    <card qty="1" id="0eefd720-d401-448c-ac70-f402a679d35c">Lann</card>
+    <card qty="1" id="dafaf038-64de-41cb-90b6-37fc50946afa">Mastiff</card>
+    <card qty="2" id="b7978d47-276d-45cc-bdc3-afd596cd99a3">Mendevian Crusader</card>
+    <card qty="2" id="4ffe782b-b732-4dde-963d-9e3971a966a9">Merchant Lord</card>
+    <card qty="2" id="ee680039-7650-470d-8984-a64455277c66">Minotaur Mercenary</card>
+    <card qty="1" id="98c54ebb-af9e-4eb6-aa3d-24c394a9d492">Mongrel Archer</card>
+    <card qty="1" id="9d5ece60-f46e-4eac-873b-d8099a883b85">Pegasus</card>
+    <card qty="2" id="edf03889-08a5-44c4-8a6f-f3b44796032d">Pit Gladiator</card>
+    <card qty="1" id="d0fe5822-0e41-4c05-b02e-7bc895e6a0f0">Quadnys Orlun</card>
+    <card qty="1" id="4c023e02-9f7e-426b-bba4-eae88652b775">Raconteur</card>
+    <card qty="1" id="6945b35a-9c17-4a63-a0eb-5158319be575">Redeemer Blacksmith</card>
+    <card qty="2" id="dea21e05-59d0-40ce-a482-3ea4ae9f2bd8">Retainer</card>
+    <card qty="1" id="ae42adc1-a2c2-45c4-8065-cfc2c3b3e2e8">Riftwarden</card>
+    <card qty="1" id="5188911f-8a87-4ef2-86cd-72b1a3a9a130">Scribe</card>
+    <card qty="2" id="8df955b4-5212-4d7e-8ccf-131ad87d62d1">Thylacine</card>
+    <card qty="2" id="8c5f45b8-a4f2-4083-b37d-0642ced076ee">Unfettered Imp</card>
+    <card qty="1" id="a6632c35-6d2c-45cc-86b6-d71e45c80faa">Vulture</card>
+    <card qty="2" id="410b72c6-f597-4a14-a826-ab77c42f071b">Warhorse</card>
+    <card qty="2" id="f5d2c9f2-ce2a-4e1b-84a5-27335c2bf4cf">Wolf</card>
+    <card qty="2" id="ac5c51b9-2a20-4f55-952a-386cc3935aa8">Wolverine</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="9f66c7bc-0f42-438a-9bf5-355d2e810cc1">Eustoyriax</card>
+    <card qty="1" id="f4906d34-e886-4f2a-8b83-12b12de7e357">Faxon</card>
+    <card qty="1" id="dc6a7b4b-4f21-471c-8d0d-7e415a3d6128">Fihralaz</card>
+    <card qty="1" id="12e82054-33d8-4b34-a794-c6ed353035fb">Gelderfang</card>
+    <card qty="1" id="0413cbaf-5bc4-4779-a5a9-f10057e9539c">Heart of the Fane</card>
+    <card qty="1" id="00092f61-3c20-4935-9001-942ed4f02261">Hepzamirah</card>
+    <card qty="1" id="ebb73093-b533-47b1-a977-d4a74abfe483">Hosilla</card>
+    <card qty="1" id="8e3290a9-a656-48ff-a8f0-d7bbcd03f9ce">Jaruunicka</card>
+    <card qty="1" id="c5ff774d-1b7a-4de6-bd7b-0020233b415c">Jeslyn</card>
+    <card qty="1" id="05c5350f-6e26-422e-91ca-b8ee91e5a8cc">Karsos</card>
+    <card qty="1" id="d9a3e7e7-0781-4777-b5d3-55cf6bff3b68">Khorramzadeh</card>
+    <card qty="1" id="f5c5044f-2655-4150-a937-2611007238f7">Marhevok Wintersun</card>
+    <card qty="1" id="162a9829-268e-4773-8d74-05bd45160f6c">Maugla</card>
+    <card qty="1" id="69905e20-e1c1-417b-b5c0-bd9432782503">Millorn</card>
+    <card qty="1" id="7ef1aaec-6652-4140-8f00-0231c2f7386a">Nulkineth</card>
+    <card qty="1" id="174cdcbc-c4d7-4fcb-b878-5d8fd76301a4">Savash</card>
+    <card qty="1" id="f7a8daaa-c769-437b-aa5a-bc3d7283ad3e">Skulgrym</card>
+    <card qty="1" id="72c35a9f-21e3-476d-8b67-1f33957bdfba">Soltengrebbe</card>
+    <card qty="1" id="a69fa814-25e1-489a-9e94-e25be88f998f">Sophini</card>
+    <card qty="1" id="8b91aa3e-a763-47cd-970b-ed26c2e8071d">Staunton Vhane</card>
+    <card qty="1" id="75f7dc85-5f63-43f7-a6a2-f11bca71cb76">Tancred Desimire</card>
+    <card qty="1" id="1e6cb1bb-731e-46d8-8699-394ad844f358">The Defiled One</card>
+    <card qty="1" id="196f3684-842d-482d-b7a8-a156a4f6fc7b">Thurl and Inhaz</card>
+    <card qty="1" id="31585fdc-848a-4171-84ae-36d2da1b5508">Vellexia</card>
+    <card qty="1" id="cf682cb5-ec1c-45a0-98b1-bb45d58c89ec">Vescavor Queen</card>
+    <card qty="1" id="b6218269-4d30-44a0-9661-32d1e95af574">Xanthir Vang</card>
+    <card qty="1" id="b59925e9-3daf-4cc9-bbca-128da0b38fdf">Zanedra and Svennarobeth</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="5bad33c4-bebe-4751-8089-132608c9d8cc">Aklys</card>
+    <card qty="1" id="cc66302a-cc2b-4e2f-84fc-610be6ccaf7a">Anarchy Hammer</card>
+    <card qty="1" id="aecd4a86-a01c-475f-88df-917f316aa349">Battle Aspergillum</card>
+    <card qty="1" id="fbd3432b-6de6-4fe4-a18b-024c87998f84">Blackaxe</card>
+    <card qty="1" id="8698685a-813b-47b3-a745-2fbd245876d3">Bolas</card>
+    <card qty="2" id="97f4e7fd-ccb8-4b4e-a4aa-8ef62b0b0cd5">Cold Iron Longsword</card>
+    <card qty="2" id="1b8f6105-da27-48d4-9833-aaa0bff66214">Cold Iron Mace +1</card>
+    <card qty="1" id="bfdf7280-be1c-43c0-a2dd-4727feafcc7e">Composite Bow</card>
+    <card qty="2" id="624d8c4e-55ff-4abc-abb4-e12c1c90256b">Corrosive Dagger +1</card>
+    <card qty="1" id="8e02932f-d6c1-4ea5-b304-338de60fcbf9">Demonbane Light Crossbow +1</card>
+    <card qty="1" id="f456bc08-a296-4519-a1e0-bec821f2db81">Demonbane Longsword +2</card>
+    <card qty="1" id="7d52960f-ef9d-4f85-ba70-5fbfbe66a444">Flaming Heavy Pick +1</card>
+    <card qty="1" id="da079314-7b44-48db-9f76-98db477f047b">Flaming Spear +1</card>
+    <card qty="2" id="72bd1072-38bb-43c2-9fa7-1d12fe8b6d67">Force Shortbow +1</card>
+    <card qty="1" id="854ad702-b5a5-4670-add0-ec147816da23">Glaive +1</card>
+    <card qty="1" id="0ee0412d-c2ee-454d-bad4-1c70f6717c41">Hand Crossbow</card>
+    <card qty="1" id="1b9399c5-6c6a-481b-bfa2-e0d2ab4879b0">Heavy Crossbow</card>
+    <card qty="2" id="a906909f-e7ee-4bc3-a80b-aec91df6f3af">Heavy Crossbow</card>
+    <card qty="1" id="6c23f61d-cf53-4835-9538-4f9f6fb0cfdb">Heavy Pick +2</card>
+    <card qty="1" id="493a4c17-6468-4c3b-9eef-831fe59e40e9">Javelin of Lightning</card>
+    <card qty="2" id="37a44a48-b357-45dc-aea5-4bc414440bbc">Lance</card>
+    <card qty="1" id="0f64405d-0410-4fc5-b83a-b1cf1ac734dc">Lance +1</card>
+    <card qty="2" id="81b83503-1b55-43d3-83b0-aa9d935b3a28">Marksman's Bow</card>
+    <card qty="1" id="d22c0dac-a14e-4342-b486-ef9584f9dcff">Quarterstaff of Vaulting</card>
+    <card qty="1" id="9f7ab3d3-18a0-4abc-94f3-b0534da6fa70">Ranseur of the Gargoyle</card>
+    <card qty="2" id="160437ca-8aa2-4563-a74e-c9e6b3a484cd">Rod of the Viper</card>
+    <card qty="1" id="a1699a83-adc4-4d6e-9725-182781214e9f">Sawtooth Sabre +2</card>
+    <card qty="1" id="e5131b7a-9f93-4ae5-bcf4-4c7a23295ab8">Scizore</card>
+    <card qty="1" id="ef4d5271-ecfe-4b6b-a7fd-79cabb3f998d">Scizore +3</card>
+    <card qty="1" id="a0bedcf1-d340-46b4-9f84-06be126b369c">Scythe</card>
+    <card qty="1" id="d5f7cc93-e038-4b91-807f-3eb1a0d3f35b">Scythe</card>
+    <card qty="1" id="d99fe49f-8359-4487-8135-b0f7c2f9a16b">Shocking Lance +1</card>
+    <card qty="2" id="f355c362-8939-4d3c-9344-203c6bf0eddc">Skirmishing Spear</card>
+    <card qty="1" id="98b992c6-afa5-42c0-9b83-97e23ec94179">Spirit Blade</card>
+    <card qty="2" id="cdeb4e55-fa4f-4035-b15d-429ff59cb7a2">Stalker's Crossbow</card>
+    <card qty="1" id="b8806904-5b08-4b41-82af-5de68fc6345c">Swordbreaker</card>
+    <card qty="2" id="e66f8247-70a2-4cfa-a9a7-cdab059b07a9">Unholy Aspergillum +3</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="3" id="22d54a9e-1016-401e-a619-cb0e392e46a8">Blessing of Abadar</card>
+    <card qty="1" id="801cbccc-5ce2-45b8-b946-8eb09cc2846b">Blessing of Abadar</card>
+    <card qty="5" id="206540e9-fe49-4378-95f5-2982f34de1e7">Blessing of Abraxas</card>
+    <card qty="1" id="d58c2dc1-80b6-4c32-8746-c28b9bc3ad1f">Blessing of Abraxas</card>
+    <card qty="35" id="16db2abd-3965-43a2-8050-91ae08171e1e">Blessing of Ascension</card>
+    <card qty="5" id="7d1869a6-a491-45c8-8765-ebacd5130c4c">Blessing of Ascension</card>
+    <card qty="5" id="8a831f27-e716-4519-bc22-3f4a6beb6ca0">Blessing of Baphomet</card>
+    <card qty="1" id="8ee37a00-c589-427a-af13-5b800641a171">Blessing of Baphomet</card>
+    <card qty="6" id="f03c10b3-bafa-4b16-8a3e-f441a9b9ce2e">Blessing of Deskari</card>
+    <card qty="3" id="45f2be3c-adad-4922-a2e3-7b795661bc3d">Blessing of Iomedae</card>
+    <card qty="1" id="7a41cce5-ef8f-4702-ab5d-3e4f8585f9d4">Blessing of Iomedae</card>
+    <card qty="4" id="d3ac4d90-c167-4a8f-bef2-8409761d08e2">Blessing of Nethys</card>
+    <card qty="3" id="3dc137ee-6893-42ea-a4af-a094a7c516f8">Blessing of Pulura</card>
+    <card qty="1" id="fb495de7-6fc2-4e01-8faf-01e7c9450422">Blessing of Pulura</card>
+    <card qty="1" id="51ff27cb-9c54-42e6-b7c1-f43db1346cca">Blessing of Sarenrae</card>
+    <card qty="3" id="854aff83-542f-4803-87dc-d95dd01f1478">Blessing of Sarenrae</card>
+    <card qty="5" id="028b7c59-dd70-4763-9261-3a534bd35b2c">Blessing of Shax</card>
+    <card qty="1" id="13eee39c-e6c4-4d01-8ad7-fc46b5d21841">Blessing of Shax</card>
+    <card qty="1" id="6344aa10-afef-4735-9e63-3c7a90cca35b">Blessing of Shelyn</card>
+    <card qty="3" id="ee3b687b-ba30-48b3-bc38-d33a2fb42621">Blessing of Shelyn</card>
+    <card qty="1" id="0638f076-afd3-43b2-aeab-f818e0ebbbd2">Blessing of Torag</card>
+    <card qty="3" id="e9ada9d9-c34e-4395-862f-329aa2c883f8">Blessing of Torag</card>
+    <card qty="4" id="57b9bb31-38df-4fad-b825-9496311c5c29">Blessing of the Starsong</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

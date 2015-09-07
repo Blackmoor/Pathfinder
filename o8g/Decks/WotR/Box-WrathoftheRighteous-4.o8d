@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="3c0274d7-a48e-4ae8-8a90-a0101a1f0825">Landfall on Colyphyr</card>
+    <card qty="1" id="0f8b7674-f40f-4c0d-b6f3-d05d5180ad40">Nocticula's Attention</card>
+    <card qty="1" id="5e6afdf2-f645-46cf-9416-8f0eaea9474e">The Nahyndrian Mine</card>
+    <card qty="1" id="b75cac99-e16d-4cae-a113-3068d5b8d8b8">The Abyss Gazes Also</card>
+    <card qty="1" id="ae575b49-e248-41e8-9978-ecdb8b393e64">The Midnight Isles</card>
+    <card qty="1" id="cb332766-f4c4-487c-bfde-49d890e1ea03">Demondome</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="867e1b31-966d-4437-bb33-c019bab11a4d">Harvester</card>
+    <card qty="1" id="ee9970b5-14bb-4cd9-971a-f6549d389825">Mutasafen</card>
+    <card qty="1" id="e2db7274-dcea-4c25-80d8-6589b7413a78">Kestoglyr Mantiel</card>
+    <card qty="1" id="1d35cf39-021f-472f-ae41-de7a3e0d2ca1">Ursathella</card>
+    <card qty="1" id="951f3dfd-8b8d-41c1-81b8-2c120505030b">Vulture Demon</card>
+    <card qty="1" id="65d2d43b-6436-4cef-9b45-c4962ab5fade">Shamira</card>
+    <card qty="1" id="a6d1545a-1db9-4adf-aca6-c3005d162dbf">Nezirrius</card>
+    <card qty="1" id="e9862bb5-ee1a-4be9-b34b-9d3a574ea0d0">Lust Demon</card>
+    <card qty="1" id="ddf3f8d3-718b-4341-a0b2-03f8d9e8a77c">Minagho</card>
+    <card qty="1" id="26af5eda-3d7b-4b5e-a800-ca7fbcc880eb">Melazmera</card>
+    <card qty="1" id="253b8a66-212f-4b19-a474-9a511ffc63d7">Kralisq</card>
+    <card qty="6" id="2d57bf6f-4ddb-4910-b85c-04b6f32813bf">Ash Giant Thug</card>
+    <card qty="7" id="7ae6606a-c80e-44bd-9c24-78d6c26423ea">Demoniac of Baphomet</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="f82d8138-4eb5-4ebf-b8e0-37ada90600b2">Greater Shadow</card>
+    <card qty="2" id="c13903a5-3f4e-4778-9707-c2e4506ff2e7">Horned Demon</card>
+    <card qty="1" id="ef6aaa18-f563-49d2-af4c-7227d82b4249">Stone Golem</card>
+    <card qty="1" id="05d131b0-c646-40c5-b527-425545fc911d">Urannag</card>
+    <card qty="1" id="70d8b85b-e2a3-4a85-b23b-d26e1287d301">Umbral Dragon</card>
+    <card qty="1" id="3add28f2-01a6-4fd8-8d9e-af58877dddc1">Putrid Ooze</card>
+    <card qty="2" id="fb7644e2-af21-43ac-8593-82bddf1c6fff">Filth Demon</card>
+    <card qty="1" id="ee96c43c-ada5-4545-aa85-04db91e65869">Deacon of Death</card>
+    <card qty="2" id="cbc67a94-98bf-4a68-8b75-dbfeaff3dc50">Blasphemy Demon</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="78a5ff3a-adfc-4886-8210-41f8c24c7f38">Mythic Glyph</card>
+    <card qty="1" id="b73881d3-d6db-4d2f-95c7-1ecdad957201">Gift of Shamira</card>
+    <card qty="1" id="2da8df8d-40a0-423e-bf34-9346e789aa96">Greed</card>
+    <card qty="1" id="28dc466f-523d-4def-a4d0-dced08b1780d">Gift of Nocticula</card>
+    <card qty="1" id="7bbaf615-a23b-4110-9992-b56c147bb465">Abyssal Shortcut</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="60aada2a-d988-41b9-98bc-74213ddf3292">Ebon Thorn</card>
+    <card qty="2" id="78e3bddd-5d5a-41db-9dfa-273798a550c1">Black Dragonhide Breastplate</card>
+    <card qty="2" id="5bc36a60-5bd3-4a18-8bde-c9423ae87bd3">Expeditious Chain Mail</card>
+    <card qty="1" id="3ee2c8b7-7ad1-447b-a2f7-9947e4f9e221">Decemvirate Helm</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="2" id="cdeb4e55-fa4f-4035-b15d-429ff59cb7a2">Stalker's Crossbow</card>
+    <card qty="1" id="f456bc08-a296-4519-a1e0-bec821f2db81">Demonbane Longsword +2</card>
+    <card qty="1" id="ef4d5271-ecfe-4b6b-a7fd-79cabb3f998d">Scizore +3</card>
+    <card qty="1" id="6c23f61d-cf53-4835-9538-4f9f6fb0cfdb">Heavy Pick +2</card>
+    <card qty="1" id="fbd3432b-6de6-4fe4-a18b-024c87998f84">Blackaxe</card>
+    <card qty="1" id="cc66302a-cc2b-4e2f-84fc-610be6ccaf7a">Anarchy Hammer</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="c9fe873d-96b0-4432-8e37-5fcb73f2a075">Dragon's Breath</card>
+    <card qty="1" id="57b6bb6e-2ff9-41d3-9fd7-b775cc7d0460">Terraform</card>
+    <card qty="1" id="74665918-b82a-442a-ae79-deeafaa8b66a">Ghost Wolf</card>
+    <card qty="1" id="b5ebc7ef-064d-41b7-a2f0-ee786f1662ba">Lend Mythic Path</card>
+    <card qty="2" id="423cf3c6-8cfd-455a-a4c9-c98d41722694">Divine Blaze</card>
+    <card qty="1" id="05078477-454b-41e9-bbb6-24f45cb3dbb6">Cape of Wasps</card>
+    <card qty="2" id="94e42a68-9278-4910-a538-ab4f877e6a25">Pillar of Life</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="a5b7a8d4-80a1-4691-860b-c4e66770b497">Climber's Gloves</card>
+    <card qty="1" id="1182cec3-c04c-4dd6-9c30-2d328bac86ef">Tome of Physical Might</card>
+    <card qty="2" id="ca0b677a-194d-4762-8f79-eda18fea7189">Skinstitcher's Manual</card>
+    <card qty="1" id="065847f4-4872-4a80-bc3a-4fcea068f886">Lyre of Storms</card>
+    <card qty="1" id="ce3a3ae0-9415-4e6b-8ece-b47c53e27dd4">Ring of Reflection</card>
+    <card qty="1" id="3716ddcc-e5d4-462f-adcd-1f664cbba3b6">Belt of Charging</card>
+    <card qty="1" id="6c57756d-966b-4912-a902-c10e4ba32801">Boomcrown</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="2" id="edf03889-08a5-44c4-8a6f-f3b44796032d">Pit Gladiator</card>
+    <card qty="2" id="4ffe782b-b732-4dde-963d-9e3971a966a9">Merchant Lord</card>
+    <card qty="2" id="67761bb3-1c8f-4328-9d02-0aceadbe107b">Celestial Unicorn</card>
+  </section>
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True">
+    <card qty="1" id="41805db5-ef9f-4c19-b777-a51035fc52ee">Yaniel</card>
+    <card qty="1" id="2251f156-be79-4dcd-8bc4-38c623e53a98">The Fulsome Queen</card>
+    <card qty="1" id="7ecbbe60-9f7e-4367-999e-8ba3b10ec669">Brutalized Flesh Golem</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="1" id="428ddf7b-80e6-4ffc-b1f2-b6befc3467dc">Holy Radiance</card>
+    <card qty="1" id="610f621e-90b4-4edb-bc9e-b428bd03c28e">Blancher</card>
+    <card qty="1" id="519ce348-c890-4451-869c-8481f9793121">Talisman of True Faith</card>
+    <card qty="1" id="c0faaa44-a1d0-4f66-b42f-0744f48c4a70">Transmogrify</card>
+    <card qty="1" id="60f1ba2a-89e9-4582-9a90-cfc3ee7725d1">Firebow</card>
+    <card qty="1" id="76e319cc-56d0-4924-a538-d4d5f1bc586f">Fasciculus Labyrinthum</card>
+    <card qty="6" id="21dc0e56-2e90-4cb9-8ee6-1a9023ecea7a">Blessing of Nocticula</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="d92a30c9-6034-45f6-9f3b-50f7f166c742">Qlippoth Runestone</card>
+    <card qty="1" id="5f10b672-1b1c-417b-b1a1-60e2dce13b08">Rapture of Rupture</card>
+    <card qty="1" id="04d96094-9437-49d9-865b-32b21f9b4dea">Harem of Ardent Dreams</card>
+    <card qty="1" id="bd4bdfb1-9843-4f68-ac99-20fa58230976">Locust Shrine</card>
+    <card qty="1" id="084f066a-e5e6-45ea-8867-63e91499549b">Harvester's Pit</card>
+    <card qty="1" id="dc5d3d77-8326-4a5b-9607-2c39eea5b409">Grinder</card>
+    <card qty="6" id="c3a06229-c3d2-41a9-ae6f-bfe0acdecdeb">Battlebliss</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="00092f61-3c20-4935-9001-942ed4f02261">Hepzamirah</card>
+    <card qty="1" id="0413cbaf-5bc4-4779-a5a9-f10057e9539c">Heart of the Fane</card>
+    <card qty="1" id="31585fdc-848a-4171-84ae-36d2da1b5508">Vellexia</card>
+    <card qty="1" id="1e6cb1bb-731e-46d8-8699-394ad844f358">The Defiled One</card>
+    <card qty="1" id="12e82054-33d8-4b34-a794-c6ed353035fb">Gelderfang</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

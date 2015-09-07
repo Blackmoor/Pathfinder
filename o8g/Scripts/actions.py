@@ -727,6 +727,15 @@ def TheGrindylowandtheWhale(mode): # setup requires each player to move a random
 				c.moveTo(shared.piles['Scenario'])				
 		shuffle(shared.piles['Scenario'])
 
+def LandfallonColyphyr(mode):
+	if mode == 'Setup':
+		mute()
+		abyssalRiver = findCardByName(table,"Abyssal River")
+		kestoglyr = findCardByName(shared.piles['Henchman'],"Kestoglyr Mantiel")
+		if abyssalRiver is not None and kestoglyr is not None:
+			kestoglyr.moveTo(abyssalRiver.pile())
+			shufflePile(abyssalRiver.pile())
+		
 def TheFeastofSpoils(mode): #In Feast of Spoils, there are 8 Shipwreck Henchmen in the Blessings deck
 	if mode == 'Setup':
 		mute()
@@ -754,7 +763,11 @@ def TheLandoftheBlind(mode): #In The Land of the Blind, there are 6 Gholdakos in
 				return
 			gholdako.moveTo(shared.piles['Blessing Deck'])
 			i = i+1
-
+def NocticulasAttention(mode):
+	if mode == 'Setup':
+		mute()
+		setGlobalVariable('nocticula',0)
+		
 def TheFallofKenabres(mode): #In The Fall of Kenabres, add Khorramzadeh to the blessings deck, and when he's found, he deals damage to all players and re-shuffles
 	if mode == 'Setup':
 		mute()
@@ -1374,6 +1387,28 @@ def exploreLocation(card, x=0, y=0):
 		whisper("Location is fully explored")
 		return
 	x, y = card.position
+	if findScenario(table).Name == 'Demondome' and pile.top().Name == 'Gelderfang':
+		locNum = len(getPlayers())+1
+		rapture = findCardByName(table,"Rapture of Rupture")
+		if rapture is None:
+			rupture = findCardByName(shared.piles['Location'],"Rapture of Rupture")
+			buildLocation(findScenario(table), rupture, shared.piles['Location{}'.format(locNum)])
+			pile.top().moveTo(shared.piles['Location{}'.format(locNum)])
+			rupture.moveToTable(LocationX(locNum,locNum), LocationY)
+			notify("Villain Gelderfang was found, was shuffled into the Rapture of Rupture.")
+			return
+	elif pile.top().Name == 'Deacon of Death':
+		choices = ["Yes","No"]
+		choice = askChoice("Do you want to bury a card to evade the Deacon of Death?",choices)
+		if choice == 0:
+			locNum = 0
+			if len(getPlayers()) < 6:
+				locNum = len(getPlayers())+3
+			else:
+				locNum = 8
+			nowhere = findCardByName(shared.piles['Location'],"Middle of Nowhere")
+			buildLocation(findScenario(table),nowhere, shared.piles['Location{}'].format(locNum))
+			nowhere.moveToTable(LocationX(locNum,locNum), LocationY)
 	pile.top().moveToTable(x, y+14)
 	
 def defaultAction(card, x = 0, y = 0):
@@ -1673,7 +1708,7 @@ def hideVillain(villain, x=0, y=0, banish=False):
 		villain.moveTo(shared.piles['Blessing Deck'])
 		shuffle(shared.piles['Blessing Deck'])
 		advanceBlessingDeck()
-		whisper("Brinebones is moves back into the Blessing Deck after advancing it.")
+		whisper("Brinebones is moved back into the Blessing Deck after advancing it.")
 		return
 	
 	#In the Fifth Crusade, defeating Nulkineth causes a new location with Maugla to be created
@@ -1728,6 +1763,19 @@ def hideVillain(villain, x=0, y=0, banish=False):
 			krelloort.moveTo(location.pile())
 			shuffle(location.pile())
 			notify("{} shuffles Krelloort into {}".format(me, location))
+			return
+		elif villain.Name == 'Vellexia' and findScenario(table).Name == "Nocticula's Attention":
+			shuffleCard(villain,x,y)
+			blessingNocticula = findCardByName(shared.piles['Loot'],"Blessing of Nocticula")
+			if blessingNocticula is not None:
+				blessingNocticula.moveToTable(PlayerX(-4),StoryY)
+			else:
+				notify("Not enough Blessings of Nocticula to display!")
+			nocticula = eval(getGlobalVariable('nocticula'))
+			nocticula = nocticula + 1
+			if len(getPlayers()) <= nocticula:
+				gameOver(True) #If the number of blessings of Nocticula equals the number of players, you win!
+			setGlobalVariable('nocticula',nocticula)
 			return
 		if location is None or location.Type != 'Location': # Not sure which location to close
 			if not confirm("Did you close the location?"):
@@ -2147,7 +2195,7 @@ def scenarioSetup(card):
 	elif card.Name in ('The Secret of Mancatcher Cove','0-1B The Lone Shark','Home Sweet Home','Vengeance at Sundered Crag'):
 		nl -= 1
 		leaveSpace = 1
-	elif card.Name in ('1-1D Crusaders Assemble'):
+	elif card.Name in ('Demondome','1-1D Crusaders Assemble'):
 		nl -= 2
 		leaveSpace = 1
 	elif card.Name in ('The Siege of Drezen'):

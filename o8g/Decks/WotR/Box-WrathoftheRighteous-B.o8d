@@ -181,10 +181,8 @@
     <card qty="5" id="206540e9-fe49-4378-95f5-2982f34de1e7">Blessing of Abraxas</card>
   </section>
   <section name="Cohort" shared="True">
-    <card qty="1" id="1659e32d-eef0-434c-9e53-804f87f91af3">Padrig</card>
     <card qty="1" id="d2468f74-1cf5-48c7-b7cb-3bf089613558">Sir Ilivan</card>
     <card qty="1" id="15c50349-0ad8-4788-b605-9e31765960e5">Vinst</card>
-    <card qty="1" id="986a99de-80ae-4193-aff3-8064bf44e5e7">Donahan</card>
     <card qty="1" id="ea58dfcd-973e-4c10-bb15-745ef6479a7e">Cecilla the Uprooter</card>
   </section>
   <section name="Loot" shared="True">
@@ -229,7 +227,6 @@
     <card qty="1" id="a69fa814-25e1-489a-9e94-e25be88f998f">Sophini</card>
     <card qty="1" id="196f3684-842d-482d-b7a8-a156a4f6fc7b">Thurl and Inhaz</card>
   </section>
-  <section name="Support" shared="True" />
   <section name="Character" shared="False" />
   <section name="Weapon" shared="False" />
   <section name="Spell" shared="False" />
@@ -238,7 +235,9 @@
   <section name="Ally" shared="False" />
   <section name="Blessing" shared="False" />
   <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
   <section name="Ship" shared="True" />
   <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
