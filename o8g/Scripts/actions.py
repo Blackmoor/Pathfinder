@@ -330,7 +330,6 @@ def closeLocation(card, perm):
 	if card.Type != 'Location':
 		notify("This is not a location ...")
 		return False
-	
 
 	if perm == False:
 		card.orientation = Rot90
@@ -1440,7 +1439,6 @@ def defaultAction(card, x = 0, y = 0):
 		if card.Type == 'Location': # Explore location
 			if len(card.pile()) > 0:
 				exploreLocation(card)
-			else:
 			elif isOpen(card):
 				closePermanently(card)
 		else:
@@ -1708,7 +1706,6 @@ def closePermanently(card, x=0, y=0):
 	return False, False
 
 def closeTemporarily(card, x=0, y=0):
-	closeLocation(card, False)
 	if isOpen(card):
 		closeLocation(card, False)
 	
