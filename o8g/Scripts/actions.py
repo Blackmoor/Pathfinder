@@ -763,6 +763,14 @@ def TheLandoftheBlind(mode): #In The Land of the Blind, there are 6 Gholdakos in
 				return
 			gholdako.moveTo(shared.piles['Blessing Deck'])
 			i = i+1
+	elif mode == 'StartOfTurn':
+		i = 0
+		for c in table:
+			if c.Name == 'Gholdako':
+				i = i + 1
+		if i > 5:
+			gameOver(True)
+		
 def NocticulasAttention(mode):
 	if mode == 'Setup':
 		mute()
@@ -2519,7 +2527,6 @@ def advanceBlessingDeck():
 		locs = [ c for c in table if isOpen(c) ]
 		loc = locs[int(random()*len(locs))-1]
 		shared.piles['Blessing Discard'].top().moveTo(loc.pile())
-		shuffle(loc.pile())
 		whisper("Moved Gholdako to {}".format(loc.Name))
 	
 	# Here comes the flood has special end conditions
