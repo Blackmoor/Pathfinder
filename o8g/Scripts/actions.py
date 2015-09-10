@@ -188,7 +188,6 @@ def isOpen(card):
 def isNotPermanentlyClosed(card):
 	if card is None or card.Type != 'Location':
 		return False
-	if card.Name in ('Abyssal Rift'):
 	if card.Name in ('Abyssal Rift'): # This location can never be permanently closed
 		return True
 	return card.alternate != "B"
