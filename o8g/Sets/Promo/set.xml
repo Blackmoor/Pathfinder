@@ -73,6 +73,23 @@
     <property name="Attr5" value="15"/>
     <property name="Attr6" value="THEN"/>
   </card>
+  <card id="b79217ee-0336-469e-88e3-ff71e5a8f8d1" name="Pig from Hell">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Demon&#10;Mythic&#10;Veteran"/>
+    <property name="Flavour" value="Don't go back to Munchmeat Farm."/>
+    <property name="Attr1" value="The difficulty of checks to defeat the Pig from Hell is increased by three times the scenario's adventure deck number.&#10;All damage dealt by the Pig from Hell is Fire damage.&#10;If defeated, you may draw a random non-Basic armor from the box."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="6"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="THEN"/>
+    <property name="Attr7" value="Combat"/>
+    <property name="Attr8" value="6"/>
+    <property name="Attr9" value="THEN"/>
+  </card>
   <card id="63081139-d74a-4d7d-85c4-12a8584a1308" name="Rogue Eidolon">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -444,6 +461,52 @@
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="8"/>
   </card>
+  <card id="70a0b5b5-2bbc-46b1-bebe-bf8c2b230c2a" name="Ekkie (Guttersnipe)" size="Role">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Goblin&#10;Cutpurse"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4   [ ] 5&#10;Spell: -&#10;Armor: 1  [ ] 2  [ ] 3&#10;Item: 4  [ ] 5  [ ] 6&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Item"/>
+    <alternate name="Ekkie (Guttersnipe)" type="B">
+      <property name="Abr" value="P"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Goblin&#10;Cutpurse"/>
+      <property name="Flavour" value="Clean out your gutters, or get sniped."/>
+      <property name="Attr1" value="For your check that has or is against a card that has the Animal or Basic trait ([ ] or has an adventure deck number less than the current scenario), add 1d4 ([ ] 1d6) to your check.&#10;You may evade your encounter; shuffle the evaded card into a random open location, if it came from one. ([ ] Then youmay examine the top ard of your location.) ([ ] Then you may move.)&#10;When you discard ([ ] or bury) 1 or more cards,  you may draw a card. ([ ] Then you may recharge a card.)&#10;[ ] When you attempt  check before youact against a bane ([ ] or to close a location), discard a card ouse your Stealth skill instead of any listed skill.&#10;[ ] During your give a card step, another character at your location may give you a card.&#10;[ ] When a bane or boon would cause you to draw more than 1 random boon from the box, draw 1 ([ ] or 2) more."/>
+      <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d4&#10;Charisma: d8   [ ] +1  [ ] +2  [ ] +3"/>
+      <property name="Attr3" value="6"/>
+      <property name="Attr4" value="[ ] Light Armors, Weapons"/>
+    </alternate>
+  </card>
+  <card id="588c6f73-cca9-4e6c-9a00-aff72faf8480" name="Ekkie (Poodlekiller)" size="Role">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Goblin&#10;Cutpurse"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4   [ ] 5&#10;Spell: -&#10;Armor: 1  [ ] 2  [ ] 3&#10;Item: 4  [ ] 5  [ ] 6&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Item"/>
+    <alternate name="Ekkie (Poodlekiller)" type="B">
+      <property name="Abr" value="P"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Goblin&#10;Cutpurse"/>
+      <property name="Flavour" value="Pretty much guaranteed to have rabies."/>
+      <property name="Attr1" value="For your check that has or is against a card that has the Animal or Basic trait ([ ] or has an adventure deck number less than the current scenario), add 1d4 ([ ] 1d6) ([ ] 1d8) ([ ] 1d10) to your check. ([ ] If you acquire a card that has the Animal trait, you may banish it to shuffle 1d4 random cards from your discard pile into your deck.)&#10;You may evade your encounter; shuffle the evaded card into ([ ] or place it on top of) a random open location, if it came from one.&#10;When you discard ([ ] or bury) 1 or more cards,  you may draw a card.&#10;[ ] You may discard ([ ] or recharge) a weapon that has the Slashing trai to allow a character at your location to reroll 1 die ([ ] or 2 dice) on a combat check; that character takes the new result."/>
+      <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d4&#10;Charisma: d8   [ ] +1  [ ] +2  [ ] +3"/>
+      <property name="Attr3" value="6"/>
+      <property name="Attr4" value="[ ] Light Armors, [ ] Heavy Armors, Weapons"/>
+    </alternate>
+  </card>
   <card id="9bf4fb00-0aa0-4db1-858e-1655d4bf6396" name="Ranzak (Kleptomaniac)" size="Role">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -484,6 +547,26 @@
       <property name="Attr2" value="Strength: d4  [ ] +1  [ ] +2  [ ] +3&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Disable +1, Stealth +1&#10;Constitution d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Fortitude +1&#10;Intelligence: d4&#10;Wisdom: d4  [ ]+1  [ ] +2  [ ] +3&#10;  Survival +3&#10;Charisma: d6  [ ] +1  [ ] +2"/>
       <property name="Attr3" value="7  [ ] 8  [ ] 9  [ ] 10  [ ] 11"/>
       <property name="Attr4" value="[X] Light Armors, [ ] Heavy Armors, [X] Weapons"/>
+    </alternate>
+  </card>
+  <card id="ee4e7eb9-284f-40a5-bdd0-1e554d63475d" name="Ekkie" size="Character">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Goblin&#10;Cutpurse"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4   [ ] 5&#10;Spell: -&#10;Armor: 1  [ ] 2  [ ] 3&#10;Item: 4  [ ] 5  [ ] 6&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Item"/>
+    <alternate name="Ekkie" type="B">
+      <property name="Abr" value="P"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Goblin&#10;Cutpurse"/>
+      <property name="Attr1" value="For your check that has or is against a card that has the Animal or Basic trait ([ ] or has an adventure deck number less than the current scenario), add 1d4 ([ ] 1d6) to your check.&#10;You may evade your encounter; shuffle the evaded card into a random open location, if it came from one.&#10;When you discard ([ ] or bury) 1 or more cards,  you may draw a card."/>
+      <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +2&#10;  Stealth: Dexterity +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d6  [ ] +1  [ ] +2&#10;Wisdom: d4&#10;Charisma: d8   [ ] +1  [ ] +2  [ ] +3"/>
+      <property name="Attr3" value="6"/>
+      <property name="Attr4" value="[ ] Light Armors, Weapons"/>
     </alternate>
   </card>
   <card id="ec917fa8-ecef-499a-978c-12af6f678cea" name="Ranzak" size="Character">

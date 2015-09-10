@@ -20,18 +20,9 @@
   <section name="Weapon" shared="True">
     <card qty="1" id="190754ec-0bd3-40f9-a5dc-d9a474372ef1">Goblin Pegleg</card>
   </section>
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
   <section name="Story" shared="True">
     <card qty="1" id="652c1e75-dc75-4d89-a1be-c56ddc729ead">The Land of the Blind</card>
   </section>
-  <section name="Henchman" shared="True" />
   <section name="Armor" shared="True">
     <card qty="1" id="0f05e0a0-0e8e-45a1-a877-9d213fae5bd7">Goblin Buckler Gun</card>
   </section>
@@ -41,7 +32,21 @@
   <section name="Item" shared="True">
     <card qty="1" id="338d151c-1e91-40dc-8a1a-8e45bc39f6b3">Goblin Lockpick</card>
   </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Henchman" shared="True">
+    <card qty="8" id="363462f6-bfa6-4c6e-a6c2-a0e350c372c4">Gholdako</card>
+  </section>
+  <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
   <section name="Loot" shared="True" />
   <section name="Location" shared="True" />
   <section name="Villain" shared="True" />

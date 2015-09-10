@@ -104,6 +104,12 @@
     <property name="Subtype" value="Token" />
    </card>
   
+   <card id="e1480d6b-b6de-4a68-99ee-ffd93ffb34db" name="Ekkie">
+    <property name="Abr" value="P" />
+	<property name="Type" value="Character" />
+	<property name="Subtype" value="Token" />
+   </card>
+  
    <card id="3676669d-12f2-41d8-aa16-c21e737380ee" name="Enora">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />

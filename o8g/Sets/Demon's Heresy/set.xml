@@ -726,7 +726,7 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
-    <property name="Attr2" value="Weapon 4&#10;Spell -&#10;Armor 1&#10;Item 3&#10;Ally 2&#10;Blessing 5"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
     <property name="Attr3" value="Blessing"/>
     <property name="Attr4" value="Arueshalae's Gift"/>
   </card>
@@ -748,7 +748,7 @@
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
     <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
-    <property name="Attr2" value="Weapon 4&#10;Spell -&#10;Armor 1&#10;Item 3&#10;Ally 2&#10;Blessing 5"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
     <property name="Attr3" value="Blessing"/>
     <property name="Attr4" value="Arueshalae's Gift"/>
   </card>
@@ -770,7 +770,7 @@
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
-    <property name="Attr2" value="Weapon 4&#10;Spell -&#10;Armor 1&#10;Item 3&#10;Ally 2&#10;Blessing 5"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
     <property name="Attr3" value="Blessing"/>
     <property name="Attr4" value="Arueshalae's Gift"/>
     <alternate name="Arueshalae" type="B">

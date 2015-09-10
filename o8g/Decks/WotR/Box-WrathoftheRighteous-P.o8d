@@ -6,6 +6,9 @@
   <section name="Ally" shared="True">
     <card qty="1" id="78a2a8b2-d62a-46eb-aa79-6bcd5a74cd95">Chuffy Lickwound</card>
   </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="5576e19c-e39e-4d8a-b771-624a94833c5d">Goblin Skull Bomb</card>
+  </section>
   <section name="Character" shared="False" />
   <section name="Weapon" shared="False" />
   <section name="Spell" shared="False" />
@@ -17,13 +20,12 @@
   <section name="Cohort" shared="False" />
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
-  <section name="Monster" shared="True" />
+  <section name="Monster" shared="True">
+    <card qty="1" id="b79217ee-0336-469e-88e3-ff71e5a8f8d1">Pig from Hell</card>
+  </section>
   <section name="Armor" shared="True" />
   <section name="Weapon" shared="True" />
   <section name="Spell" shared="True" />
-  <section name="Item" shared="True">
-    <card qty="1" id="5576e19c-e39e-4d8a-b771-624a94833c5d">Goblin Skull Bomb</card>
-  </section>
   <section name="Blessing" shared="True" />
   <section name="Ship" shared="True" />
   <section name="Cohort" shared="True" />

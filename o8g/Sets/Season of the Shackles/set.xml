@@ -350,11 +350,11 @@
     <property name="Subtype" value="Scenario-Specific"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Before you act, discard any cards that have the Pirate trait from your hand. For each such card discarded, the difficulty of your check to defeat is increased by 3."/>
-    <property name="Attr2" value="Dexterity&#10;Acrobatics"/>
-    <property name="Attr3" value="8"/>
-    <property name="Attr4" value="Wisdom&#10;Perception"/>
-    <property name="Attr5" value="10"/>
-    <property name="Attr6" value="OR"/>
+    <property name="Attr3" value="Dexterity&#10;Acrobatics"/>
+    <property name="Attr4" value="8"/>
+    <property name="Attr5" value="Wisdom&#10;Perception"/>
+    <property name="Attr6" value="10"/>
+    <property name="Attr7" value="OR"/>
     <alternate name="Cetaceal" type="B">
       <property name="Abr" value="2"/>
       <property name="Copyright" value="Yes."/>
@@ -370,11 +370,11 @@
     <property name="Subtype" value="Scenario-Specific"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Before you act, your ship is dealt 1 Structural damage.&#10;After you act, you are dealt 1 Mental damage."/>
-    <property name="Attr2" value="Intelligence&#10;Knowledge"/>
-    <property name="Attr3" value="10"/>
-    <property name="Attr4" value="Wisdom&#10;Survival"/>
-    <property name="Attr5" value="7"/>
-    <property name="Attr6" value="OR"/>
+    <property name="Attr3" value="Intelligence&#10;Knowledge"/>
+    <property name="Attr4" value="10"/>
+    <property name="Attr5" value="Wisdom&#10;Survival"/>
+    <property name="Attr6" value="7"/>
+    <property name="Attr7" value="OR"/>
     <alternate name="Hu-Hazhong" type="B">
       <property name="Abr" value="2"/>
       <property name="Copyright" value="Yes."/>
@@ -390,11 +390,11 @@
     <property name="Subtype" value="Scenario-Specific"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="If you are the only character at your location and the Impervious woul dbe defeated, it is undefeated instead."/>
-    <property name="Attr2" value="Dexterity&#10;Ranged"/>
-    <property name="Attr3" value="11"/>
-    <property name="Attr4" value="Wisdom&#10;Survival"/>
-    <property name="Attr5" value="8"/>
-    <property name="Attr6" value="OR"/>
+    <property name="Attr3" value="Dexterity&#10;Ranged"/>
+    <property name="Attr4" value="11"/>
+    <property name="Attr5" value="Wisdom&#10;Survival"/>
+    <property name="Attr6" value="8"/>
+    <property name="Attr7" value="OR"/>
     <alternate name="Impervious" type="B">
       <property name="Abr" value="2"/>
       <property name="Copyright" value="Yes."/>
@@ -410,11 +410,11 @@
     <property name="Subtype" value="Scenario-Specific"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="If defeated, stash an additional plunder."/>
-    <property name="Attr2" value="Strength&#10;Melee"/>
-    <property name="Attr3" value="12"/>
-    <property name="Attr4" value="Wisdom&#10;Survival"/>
-    <property name="Attr5" value="10"/>
-    <property name="Attr6" value="OR"/>
+    <property name="Attr3" value="Strength&#10;Melee"/>
+    <property name="Attr4" value="12"/>
+    <property name="Attr5" value="Wisdom&#10;Survival"/>
+    <property name="Attr6" value="10"/>
+    <property name="Attr7" value="OR"/>
     <alternate name="Kraken's Spite" type="B">
       <property name="Abr" value="2"/>
       <property name="Copyright" value="Yes."/>
@@ -430,11 +430,11 @@
     <property name="Subtype" value="Scenario-Specific"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Before the encounter, a random character at your location summons and encounters the henchman Pirate Shade Haunt."/>
-    <property name="Attr2" value="Wisdom&#10;Survival"/>
-    <property name="Attr3" value="10"/>
-    <property name="Attr4" value="Divine"/>
-    <property name="Attr5" value="8"/>
-    <property name="Attr6" value="OR"/>
+    <property name="Attr3" value="Wisdom&#10;Survival"/>
+    <property name="Attr4" value="10"/>
+    <property name="Attr5" value="Divine"/>
+    <property name="Attr6" value="8"/>
+    <property name="Attr7" value="OR"/>
     <alternate name="Mark of Yunnarius" type="B">
       <property name="Abr" value="2"/>
       <property name="Copyright" value="Yes."/>
@@ -450,11 +450,11 @@
     <property name="Subtype" value="Scenario-Specific"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="If the check to defeat does not have the Swashbuckling trait, the difficulty is increased by 3."/>
-    <property name="Attr2" value="Wisdom&#10;Survival"/>
-    <property name="Attr3" value="10"/>
-    <property name="Attr4" value="Charisma&#10;Diplomacy"/>
-    <property name="Attr5" value="8"/>
-    <property name="Attr6" value="OR"/>
+    <property name="Attr3" value="Wisdom&#10;Survival"/>
+    <property name="Attr4" value="10"/>
+    <property name="Attr5" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr6" value="8"/>
+    <property name="Attr7" value="OR"/>
     <alternate name="Ravishing Ruby" type="B">
       <property name="Abr" value="2"/>
       <property name="Copyright" value="Yes."/>
