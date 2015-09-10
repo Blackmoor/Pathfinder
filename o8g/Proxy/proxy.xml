@@ -26,6 +26,10 @@
 		<location x="26" y="126" />
 		<text color="#000000" size="16" font="Resources/dax-blackcaps.ttf" />
 	</block>
+	<block type="text" id="LocTraits">
+		<location x="300" y="126" />
+		<text color="#000000" size="16" font="Resources/dax-blackcaps.ttf" />
+	</block>
 	<block type="text" id="Owner">
 	    <location x="26" y="230" />
 		<text color="#000000" size="16" font="Resources/dax-blackcaps.ttf" />
@@ -767,6 +771,44 @@
 	  </link>
 	  <conditional>
 		<if property="Copyright" contains="No">
+		  <link block="LocTraits">
+		   <property name="Traits" />
+		  </link>
+		  <link block="StatBlock">
+		   <property name="Attr1" />
+		  </link>
+		  <link block="AtLocation">
+		   <property name="Attr2"/>
+		  </link>
+		  <link block="WhenClosing">
+		   <property name="Attr3"/>
+		  </link>
+		  <link block="WhenClosed">
+		   <property name="Attr4"/>
+		  </link>
+		</if>
+	  </conditional>
+	 </textblocks>
+  </template>
+  <template src="Proxy/LocationFront.jpg">
+	<matches>
+	  <match name="Name" value="Abyssal Rift" />
+	</matches>
+	<textblocks>
+	  <link block="Abr">
+	   <property name="Abr" />
+	  </link>
+	  <link block="Subtype">
+	   <property name="Type" />
+	  </link>
+	  <link block="Name">
+	   <property name="Name" />
+	  </link>
+	  <conditional>
+		<if property="Copyright" contains="No">
+		  <link block="LocTraits">
+		   <property name="Traits" />
+		  </link>
 		  <link block="StatBlock">
 		   <property name="Attr1" />
 		  </link>

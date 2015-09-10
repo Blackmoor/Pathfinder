@@ -189,6 +189,7 @@ def isNotPermanentlyClosed(card):
 	if card is None or card.Type != 'Location':
 		return False
 	if card.Name in ('Abyssal Rift'):
+	if card.Name in ('Abyssal Rift'): # This location can never be permanently closed
 		return True
 	return card.alternate != "B"
 	
@@ -330,10 +331,13 @@ def closeLocation(card, perm):
 		notify("This is not a location ...")
 		return False
 	
+
 	if perm == False:
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
 		return True
+	elif card.Name in ('Abyssal Rift'): # This location cannot be permanently closed
+		return False
 		
 	# Move cards from location pile back to box
 	# If we find the Villain then the location is not closed and the Villain is displayed
@@ -1437,6 +1441,7 @@ def defaultAction(card, x = 0, y = 0):
 			if len(card.pile()) > 0:
 				exploreLocation(card)
 			else:
+			elif isOpen(card):
 				closePermanently(card)
 		else:
 			t = card.pile().top()
@@ -1704,6 +1709,8 @@ def closePermanently(card, x=0, y=0):
 
 def closeTemporarily(card, x=0, y=0):
 	closeLocation(card, False)
+	if isOpen(card):
+		closeLocation(card, False)
 	
 def hideVillain(villain, x=0, y=0, banish=False):
 	mute()
