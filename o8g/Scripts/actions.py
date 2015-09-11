@@ -1758,6 +1758,19 @@ def hideVillain(villain, x=0, y=0, banish=False):
 		returnToBox(villain)
 		return
 	
+	if choices[choice-1] == 'Undefeated': #handle any villain-specific undefeated conditions
+		if villain.Name == 'Karsos':
+			maze = findCardByName(shared.piles['Location'],"Maze")
+			# Count the number of locations on the table
+			nl = 0 
+			for card in table:
+				if card.Type == 'Location':
+					nl += 1
+			pileName = "Location{}".format(nl+1)
+			buildLocation(findScenario(table),maze,shared.piles[pileName])
+			maze.moveToTable(LocationX(nl+1,nl+1), LocationY)
+			whisper("{} builds the Maze and must move there.".format(me))
+	
 	# We need to hide the villain in an open location
 	defeated = choices[choice-1] == 'Defeated'		
 	blessing = shared.piles['Blessing'] if defeated else shared.piles['Blessing Deck']		
