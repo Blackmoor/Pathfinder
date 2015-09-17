@@ -897,7 +897,7 @@ def playerReady(card):
 		for c in pile:
 			if c.Type == 'Character':
 				c.moveTo(me.hand)
-			elif c.Type == 'Feat':
+			elif c.Type in ('Feat','Cohort'):
 				c.moveTo(me.Buried)
 			else:
 				c.moveTo(me.Discarded)
@@ -948,7 +948,16 @@ def playerReady(card):
 	if cohort is not None:
 		cohortCard = findCardByName(shared.piles['Cohort'],cohort)
 		if cohortCard is None:
-			notify("Could not find cohort {}".format(cohort))
+			notify("Could not find cohort {} in cohort pile, checking your cards!".format(cohort))
+			cohortCard = findCardByName(me.buried,cohort)
+			if cohortCard is None:
+				cohortCard = findCardByName(me.deck,cohort)
+				if cohortCard is None:
+					notify("Cohort {} is not in your cards either, did you banish it?".format(cohort))
+				else:
+					cohortCard.moveTo(me.hand)
+			else:
+				cohortCard.moveTo(me.hand)
 		else:
 			cohortCard.moveTo(me.hand)
 	
@@ -2619,7 +2628,7 @@ def displayHand(who):
 		for c in pile:
 			if c.Type == 'Feat':
 				c.moveTo(me.Buried)
-			elif c.Subtype == 'Cohort':
+			elif c.Subtype == 'Cohort' and c.Name != getCohort():
 				returnToBox(c)
 				whisper("Returning cohort {} to the box.".format(c.Name))
 			else:
