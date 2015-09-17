@@ -725,44 +725,48 @@
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
     <property name="Attr2" value="Weapon: 4  [ ] 5&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
     <property name="Attr3" value="Blessing"/>
     <property name="Attr4" value="Arueshalae's Gift"/>
-  </card>
-  <card id="641e37ce-a823-4b42-95dc-e6bdb2ec4060" name="Arueshalae (Fallen)" size="Role">
-    <property name="Abr" value="3"/>
-    <property name="Copyright" value="No."/>
-    <property name="Type" value="Character"/>
-    <property name="Subtype" value="Role"/>
-    <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
-    <property name="Flavour" value="If being bad is wrong, succubi don't want to be right."/>
-    <property name="Attr1" value="Electricity, Fire, and Poison damage dealt to you is reduced by 3  ([ ] 5).&#10;You may evade your encounter ([ ] then if it is your turn, you may move).&#10;When the cohort Arueshalae's Gift is displayed next to a character's deck, add 1d4 ([ ] +1) ([ ] +2) to his checks that use the marked skill. At the start of your ([ ] or any) turn, you may add Arueshalae's Gift to your hand.&#10;[ ] When you defeat a monster, you may recharge ([ ] or reveal) a card that has the Corrupted trait to recharge a random card from your discard pile.&#10;[ ] When another character fails a check to acquire an ally, you may discard ([ ] or recharge) a card to automatically acquire that ally.&#10;[ ] When you play a card, you may ignore the Corrupted trait on any card ([ ] and you may treat the top card of the blessings discard pile as if it has the Corrupted trait)."/>
-    <property name="Attr2" value="Strength d6  [ ] +1&#10;Dexterity d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;  Disable: Dexterity +2&#10;Constitution d6  [ ] +1  [ ] +2&#10;Intelligence d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom d4  [ ] +1&#10;Charisma d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Charisma +1&#10;  Diplomacy: Charisma +3"/>
-    <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
-    <property name="Attr4" value="Light Armors, Weapons"/>
+    <alternate name="Arueshalae (Fallen)" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
+      <property name="Flavour" value="If being bad is wrong, succubi don't want to be right."/>
+      <property name="Attr1" value="Electricity, Fire, and Poison damage dealt to you is reduced by 3  ([ ] 5).&#10;You may evade your encounter ([ ] then if it is your turn, you may move).&#10;When the cohort Arueshalae's Gift is displayed next to a character's deck, add 1d4 ([ ] +1) ([ ] +2) to his checks that use the marked skill. At the start of your ([ ] or any) turn, you may add Arueshalae's Gift to your hand.&#10;[ ] When you defeat a monster, you may recharge ([ ] or reveal) a card that has the Corrupted trait to recharge a random card from your discard pile.&#10;[ ] When another character fails a check to acquire an ally, you may discard ([ ] or recharge) a card to automatically acquire that ally.&#10;[ ] When you play a card, you may ignore the Corrupted trait on any card ([ ] and you may treat the top card of the blessings discard pile as if it has the Corrupted trait)."/>
+      <property name="Attr2" value="Strength d6  [ ] +1&#10;Dexterity d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;  Disable: Dexterity +2&#10;Constitution d6  [ ] +1  [ ] +2&#10;Intelligence d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom d4  [ ] +1&#10;Charisma d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Charisma +1&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
   </card>
   <card id="4aff2d7f-e634-4238-a2ec-5b879c56b618" name="Arueshalae (Redeemed)" size="Role">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
     <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
     <property name="Attr2" value="Weapon: 4  [ ] 5&#10;Spell: -  [ ] 1&#10;Armor: 1  [ ] 2&#10;Item: 3  [ ] 4  [ ] 5&#10;Ally: 2  [ ] 3  [ ] 4&#10;Blessing: 5  [ ] 6  [ ] 7  [ ] 8"/>
     <property name="Attr3" value="Blessing"/>
     <property name="Attr4" value="Arueshalae's Gift"/>
-  </card>
-  <card id="1af7fe8b-31a5-4c70-99e8-1df984f4d357" name="Arueshalae (Redeemed)" size="Role">
-    <property name="Abr" value="3"/>
-    <property name="Copyright" value="No."/>
-    <property name="Type" value="Character"/>
-    <property name="Subtype" value="Role"/>
-    <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
-    <property name="Flavour" value="No one knows how powerful temptations can be better than a succubus redeemed."/>
-    <property name="Attr1" value="Electricity, Fire, and Poison damage dealt to you is reduced by 3  ([ ] 5).&#10;You may evade your encounter ([ ] then if it is your turn, you may move).&#10;When the cohort Arueshalae's Gift is displayed next to a character's deck, add 1d4 ([ ] +1) ([ ] +2) to his checks that use the marked skill. At the start of your ([ ] or any) turn, you may add Arueshalae's Gift to your hand.&#10;[ ] Instead of your first exploration on a turn, you may reveal a card that has the Desna trait or a blessing to choose a character at your location. Shuffle 1d4+1 ([ ] +2) random cards from his discard pile into his deck, then discard the card you revealed ([ ] and that character may draw a card).&#10;[ ] At the start of your turn you may examine the top card of your location deck. If it is a boon, ([ ] you may) put it on the bottom of the deck."/>
-    <property name="Attr2" value="Strength d6  [ ] +1&#10;Dexterity d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;  Disable: Dexterity +2&#10;Constitution d6  [ ] +1  [ ] +2&#10;Intelligence d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom d4  [ ] +1&#10;Charisma d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Charisma +1&#10;  Diplomacy: Charisma +3"/>
-    <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
-    <property name="Attr4" value="Light Armors, Weapons"/>
+    <alternate name="Arueshalae (Redeemed)" type="B">
+      <property name="Abr" value="3"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Outsider&#10;Spy&#10;Succubus"/>
+      <property name="Flavour" value="No one knows how powerful temptations can be better than a succubus redeemed."/>
+      <property name="Attr1" value="Electricity, Fire, and Poison damage dealt to you is reduced by 3  ([ ] 5).&#10;You may evade your encounter ([ ] then if it is your turn, you may move).&#10;When the cohort Arueshalae's Gift is displayed next to a character's deck, add 1d4 ([ ] +1) ([ ] +2) to his checks that use the marked skill. At the start of your ([ ] or any) turn, you may add Arueshalae's Gift to your hand.&#10;[ ] Instead of your first exploration on a turn, you may reveal a card that has the Desna trait or a blessing to choose a character at your location. Shuffle 1d4+1 ([ ] +2) random cards from his discard pile into his deck, then discard the card you revealed ([ ] and that character may draw a card).&#10;[ ] At the start of your turn you may examine the top card of your location deck. If it is a boon, ([ ] you may) put it on the bottom of the deck."/>
+      <property name="Attr2" value="Strength d6  [ ] +1&#10;Dexterity d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;  Disable: Dexterity +2&#10;Constitution d6  [ ] +1  [ ] +2&#10;Intelligence d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom d4  [ ] +1&#10;Charisma d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Knowledge: Charisma +1&#10;  Diplomacy: Charisma +3"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Light Armors, Weapons"/>
+    </alternate>
   </card>
   <card id="5281d655-56ec-4162-8091-3e4ed2776d3c" name="Arueshalae" size="Character">
     <property name="Abr" value="3"/>

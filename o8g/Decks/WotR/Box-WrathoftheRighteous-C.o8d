@@ -95,7 +95,6 @@
     <card qty="1" id="d58c2dc1-80b6-4c32-8746-c28b9bc3ad1f">Blessing of Abraxas</card>
     <card qty="1" id="801cbccc-5ce2-45b8-b946-8eb09cc2846b">Blessing of Abadar</card>
   </section>
-  <section name="Cohort" shared="True" />
   <section name="Character" shared="False" />
   <section name="Weapon" shared="False" />
   <section name="Spell" shared="False" />
@@ -107,6 +106,10 @@
   <section name="Cohort" shared="False" />
   <section name="Story" shared="True" />
   <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True">
+    <card qty="1" id="7aa317a6-554a-4120-ab18-e640b68e3050">Kolo</card>
+    <card qty="1" id="8d83895c-abee-444e-90c0-93124f1c3c8f">Leryn</card>
+  </section>
   <section name="Fleet" shared="True" />
   <section name="Support" shared="True" />
   <section name="Loot" shared="True" />
