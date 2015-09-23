@@ -1887,14 +1887,14 @@ def hideVillain(villain, x=0, y=0, banish=False):
 		elif findScenario(table).Name == 'Redeeming the Herald' and villain.Name == 'Corrupted Herald':
 			choices = ("I WILL DESTROY HIM!","NO WAY!")
 			choice = askChoice("Would you like to attempt to kill Baphomet?",choices)
-				if choice == 1:
-					baphomet = findCardByName(shared.piles['Villain'],"Baphomet")
-					baphomet.moveToTable(PlayerX(-1),StoryY)
-					whisper("You have challenged the Demon Lord Baphomet! FEAR HIM!")
-					return
-				elif choice == 2:
-					gameOver(true)
-					return
+			if choice == 1:
+				baphomet = findCardByName(shared.piles['Villain'],"Baphomet")
+				baphomet.moveToTable(PlayerX(-1),StoryY)
+				whisper("You have challenged the Demon Lord Baphomet! FEAR HIM!")
+				return
+			elif choice == 2:
+				gameOver(true)
+				return
 		#In Shore Leave at Port Peril, pull out the Pirate Council and don't end the game yet.
 		elif findScenario(table).Name == 'Shore Leave at Port Peril' and villain.Name == 'Caulky Tarroon':
 			# Count the number of locations on the table
