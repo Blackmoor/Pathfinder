@@ -190,6 +190,8 @@ def isNotPermanentlyClosed(card):
 		return False
 	if card.Name in ('Abyssal Rift'): # This location can never be permanently closed
 		return True
+	if card.Name in ('Middle of Nowhere'): #This location is always permanently closed
+		return False
 	return card.alternate != "B"
 	
 #Any card loaded into the player area must be removed from the box otherwise we end up with duplicates
@@ -459,14 +461,20 @@ def closeLocation(card, perm):
 				notify("Could not find Grillixbee and Jerribeth. Please retrieve them manually.")
 	
 	if findScenario(table).Name in ('Twisty Passages'):
-		locs = [ c for c in table if c.Type == "Location"]
+		locs = [ c for c in table if c.Type == "Location" and isNotPermanentlyClosed(c)]
+		positions = []
+		i = 0
 		for location in locs:
+			x = cardX(location)
+			y = cardY(location)
+			positions.append([x,y])
 			location.moveTo(shared.piles['Internal'])
+			i = i + 1
 		shuffle(shared.piles['Internal'])
-		i = 1
+		i = 0
 		for card in shared.piles['Internal']:
-			card.moveToTable(LocationX(i,i),LocationY)
-			card.link(shared.piles['Location{}'.format(i)])
+			card.moveToTable(positions[i][0],positions[i][1])
+			card.link(shared.piles['Location{}'.format(i+1)])
 			i = i+1
 		notify("The locations have been shuffled, leaving their piles in the same spots!")
 	return True
@@ -1765,6 +1773,19 @@ def hideVillain(villain, x=0, y=0, banish=False):
 				flipCard(randLoc)
 			shuffle(randLoc.pile())
 			return
+	#In Audience with the Inheritor, Lady of Valor goes back into the blessings deck unless you choose to win
+	elif villain.Name == 'Lady of Valor' and findScenario(table).Name == 'Audience with the Inheritor':
+		choices = ("Yes","No")
+		win = askChoice("Would you like to win the game?",choices)
+		if win == 1:
+			gameOver(True)
+			return
+		else:
+			villain.moveTo(shared.piles['Blessing Deck'])
+			shuffle(shared.piles['Blessing Deck'])
+			advanceBlessingDeck()
+			whisper("Lady of Valor was shuffled into the blessings deck.")
+			return
 	
 	choices = [ 'Evaded', 'Defeated', 'Undefeated' ]
 	if banish:
@@ -1837,19 +1858,7 @@ def hideVillain(villain, x=0, y=0, banish=False):
 			closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
 			if done:
 				return
-		#In Audience with the Inheritor, Lady of Valor goes back into the blessings deck unless you choose to win
-		elif villain.Name == 'Lady of Valor' and findScenario(table).Name == 'Audience with the Inheritor':
-			choices = ("Yes","No")
-			win = askChoice("Would you like to win the game?",choices)
-			if win == 1:
-				gameOver(true)
-				return
-			else:
-				advanceBlessingDeck()
-				villain.moveTo(shared.piles['Blessing Deck'])
-				shuffle(shared.piles['Blessing Deck'])
-				whisper("Lady of Valor was shuffled into the blessings deck.")
-				return
+
 	#If there are no open locations the villain has been cornered
 	open = [ card for card in table if isOpen(card) ]
 	if len(open) == 0:
@@ -2472,7 +2481,7 @@ def scenarioSetup(card):
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
 			
-		if card.Name in ['Inside Lucrehold', 'The Fall of Kenabres', 'The Land of the Blind','The Feast of Spoils']: #shuffle extra cards into the deck
+		if card.Name in ['Inside Lucrehold', 'The Fall of Kenabres', 'The Land of the Blind','The Feast of Spoils','Audience with the Inheritor']: #shuffle extra cards into the deck
 			shuffle(dst)
 
 	mythPaths = [ c for c in table if c.Subtype == 'Mythic Path']
