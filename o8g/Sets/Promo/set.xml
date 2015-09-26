@@ -249,6 +249,14 @@
     <property name="Attr2" value="Dexterity&#10;Stealth&#10;Divine"/>
     <property name="Attr3" value="5"/>
   </card>
+  <card id="dba4edf9-772b-4a4b-99a7-ffae866e0ef8" name="Valais Durant">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Cohort"/>
+    <property name="Traits" value="Outsider&#10;Arcane&#10;Eidolon&#10;Veteran"/>
+    <property name="Attr1" value="If the current scenario lists cohorts, treat this cohort as if it were on that list.&#10;If the top card of the blessings discard pile has the Corrupted trait, bury this card to add 2d4 to your combat check; if you succeed, you are dealt 2 Fire damage. If the top card of the blessings deck does not have the Corrupted trait, recharge this card to add 2d4 to your non-combat check; if you succeed, recharge 1 random card from your discard pile."/>
+  </card>
   <card id="417d211b-3082-4980-9d3d-fe6efe3aace6" name="Alchemy Lab">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -438,6 +446,17 @@
     <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d10+1. If you aren't proficient with weapons, the difficulty of this check is increased by 4.&#10;If you fail a combat check using this weapon, you may discard this card to ignore the result and reroll the dice. You must take the second result."/>
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="9"/>
+  </card>
+  <card id="9e76933e-44a4-475d-91a5-ec8928275971" name="Improvised Dinosaur">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Dinosaur&#10;Bludgeoning&#10;2-Handed&#10;Mythic"/>
+    <property name="Flavour" value="Throwing a dinosaur is one way to stop a fight-or to start one!"/>
+    <property name="Attr1" value="For your combat check, bury this card to use your Strength skill + 1d20. You may additionally expend any number of mythic charges; for each charge expended, add 1d20. Discard your hand and end your turn.&#10;After playing this card, you may succeed at a Strength or Survival 20 check to recharge this card instead of burying it."/>
+    <property name="Attr2" value="Strength&#10;Survival"/>
+    <property name="Attr3" value="18"/>
   </card>
   <card id="17e1f31c-b8d0-43d1-b7c3-5120e7c8a2b4" name="Temple Sword +1">
     <property name="Abr" value="P"/>

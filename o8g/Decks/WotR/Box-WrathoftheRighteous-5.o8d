@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="c5efb4e7-2d8a-43a9-bb91-57e28c3a0a7c">The Ineluctable Prison</card>
+    <card qty="1" id="0a3497da-42ee-4585-98de-f21072454ef0">Redeeming the Herald</card>
+    <card qty="1" id="ca641ac4-1ba3-4c6b-8888-615e0fc84a02">Twisty Passages</card>
+    <card qty="1" id="4638a824-bdd9-4aa6-a5de-933d2a4604bb">Welcome to Blackburgh</card>
+    <card qty="1" id="00d6d69b-92e5-4d6b-8f74-f7ebe9c06432">Herald of the Ivory Labyrinth</card>
+    <card qty="1" id="7249f4b3-02ac-4b58-b76f-e8524e548e21">Audience with the Inheritor</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="6" id="7fe595a8-e35f-4dd1-a778-e085e215ab31">Labyrinth Minotaur</card>
+    <card qty="6" id="4683a73e-d203-4be6-bfc1-65d5eea965aa">Rite of Heraldry</card>
+    <card qty="6" id="eb646e1a-02b3-497c-bc3d-f5c664653b0d">Stringy Fiend</card>
+    <card qty="1" id="9012dfae-fef9-4032-80d0-e266702235b8">Svendack</card>
+    <card qty="1" id="2226a565-f098-4837-b6ae-c54b5a0fc270">Treachery Demon</card>
+    <card qty="1" id="0d6bcd2a-da71-4237-bb62-08519830461c">Inger-Maggor</card>
+    <card qty="1" id="450ed957-aa8c-44d1-96f4-146b7b9d1237">Herald's Heart</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="adc59bb5-1737-46c7-b0ee-307c91dabc17">Tarry Fiend</card>
+    <card qty="2" id="780705fe-09a2-4ad9-a537-45a1cf5b6957">Xenarth</card>
+    <card qty="1" id="0f1020c8-5f93-4f25-9025-1ae904d4a88b">Upasunda</card>
+    <card qty="1" id="a9cb9da9-2815-4144-ae2c-abae609f3e37">Slimy Fiend</card>
+    <card qty="2" id="232ec25c-7fcf-4925-8e4b-4c9c865c62fd">Demonic Cyclops</card>
+    <card qty="2" id="bf8cf42c-0548-42be-a748-5a9a2ca3d1d1">Alderpash's Ghoul</card>
+    <card qty="2" id="a20c9776-4e22-4f74-8e57-306f6136a846">Corruption Demon</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="b01ba650-8836-4e78-bb90-1a052d84ded3">Maze Tapestry</card>
+    <card qty="2" id="a2ecca40-4220-408e-a5cd-a80271bf1c43">Magic Ray Fusillade</card>
+    <card qty="2" id="a22dc8dd-9afc-46a7-8fe7-6df373818721">Groaning Gate</card>
+    <card qty="1" id="98465b21-cee2-4551-9540-b3379b0f2ca2">Deal with a Demon</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="5715fcfe-946b-4643-9888-25f92d6293fc">Demon Armor</card>
+    <card qty="1" id="707918d3-edfc-4d97-b157-55f07177029e">Pauldrons of Unflinching Fortitude</card>
+    <card qty="2" id="05b30b8d-5af5-4040-85c0-2d247940683d">Spiritwalk Armor</card>
+    <card qty="1" id="71dd7444-4ddc-459f-9210-117e467d006c">Helm of the Serpent King</card>
+    <card qty="1" id="ce81074c-c4ca-4057-a383-7440ab525cb1">Bastion of the Inheritor</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="9b560d52-da08-458a-8092-4be7a6fad132">Traitor's Blade</card>
+    <card qty="1" id="86742e7e-a544-4f53-b647-5a1a17b4419f">Sword of Subtlety</card>
+    <card qty="1" id="91f98233-f8c1-41e4-9335-09a6597e1992">Keen Scythe +2</card>
+    <card qty="1" id="b002285e-b88a-46b6-96b3-f29fd24cea73">Rapier of Puncturing</card>
+    <card qty="1" id="12411b31-fa50-415c-bbbd-ae63081eb48c">Spellbreaker</card>
+    <card qty="1" id="f6669512-226f-4d75-9d26-109dc6828a97">Disrupting Warhammer</card>
+    <card qty="2" id="aa52f179-6dc1-45d5-9701-f6975ade3d86">Planar Crossbow +2</card>
+    <card qty="1" id="e66d05ea-37c1-4f2f-bdb8-697b1360bfbb">Holy Glaive of Speed</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="2e1c13d1-7604-44e5-8263-71602863df37">Elemental Bombardment</card>
+    <card qty="1" id="3a1f1fed-5eb1-4c7a-9a6d-4093921b7320">Rune of Jandelay</card>
+    <card qty="1" id="7eb9a71f-e84f-4438-aeb9-dc544cbeb78b">Steal Mythic Power</card>
+    <card qty="1" id="b89d848e-46c5-46c7-be51-c57d159134d4">Icy Prison</card>
+    <card qty="2" id="1ec83ede-587f-48a9-8a79-b30ccfbbc112">Breath of Life</card>
+    <card qty="2" id="513fe5c5-4075-400e-85ec-be175b418706">Death's Touch</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="77465ac6-c3c1-4dc4-9f1b-7f246da74ea4">Iron Shackles</card>
+    <card qty="2" id="20231a45-0a87-42e6-80da-b2450e2598d3">Torc of the Heavens</card>
+    <card qty="2" id="e95798a4-1eba-4fef-bc9f-627b220cdd4b">Book of the Damned</card>
+    <card qty="1" id="e80f19f9-6150-4575-b66c-de437b105b81">Evocation Staff</card>
+    <card qty="2" id="a1ab482d-d635-41f1-9437-5d15686a2f5f">Chaos Stone</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="70e06699-6a73-4bc7-820a-da565c904f74">Orengofta</card>
+    <card qty="1" id="54b6e827-da87-4282-88d8-fcea8b586bb8">Suurlahetas</card>
+    <card qty="1" id="5607fcb7-7e9a-4e27-941b-b5d809e29cea">Waxberry</card>
+    <card qty="1" id="1adf8345-b2cd-4a3e-a98e-7d56544a0623">Verbovezzor</card>
+    <card qty="1" id="743ff6df-712f-4841-9856-eda2a61c81bd">Runelord Alderpash</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="3" id="0115e472-77d6-4150-9508-26eaee9da659">Blessing of Xoveron</card>
+    <card qty="3" id="9368a966-343a-4485-90d4-f7194ffdc014">Blessing of Sifkesh</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="1" id="49b1f8ee-a033-4eac-8522-db187ae5a4e9">Dawnflower's Kiss</card>
+    <card qty="1" id="66b6e5be-3dd1-4823-b8dc-ecf0fa4bd9ab">Stole of the Inheritor</card>
+    <card qty="1" id="46e7dc1b-984f-4bc2-9234-76d4840cdde0">Amuet of the Abyss</card>
+    <card qty="1" id="b3955042-a486-4619-b093-793d706898ff">Ball of Twine</card>
+    <card qty="1" id="b8474533-9f65-4459-b39a-6b21ff5d89d5">Chalice of Ozem</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="97897e8d-46e5-4c8a-b0a1-2865ecbc74e6">Ivory Labyrinth</card>
+    <card qty="1" id="277ced0d-efec-4e10-b9a7-f57b009c1079">Prison Vault</card>
+    <card qty="1" id="a5692007-d13b-4e0d-b94b-1c0f02f19bf9">Shrine to Baphomet</card>
+    <card qty="1" id="71322016-b816-4295-82b3-7853646c821d">Lightless Maze</card>
+    <card qty="1" id="c10c272f-ad77-4850-aaba-8efb2f5fa4b3">Heaven</card>
+    <card qty="1" id="59af0c07-3f27-4968-af82-c807fce0c66b">Blackburgh</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="4bec03f2-27a1-43e1-b2ea-2ac355085807">Odeenka</card>
+    <card qty="1" id="06b73fe2-9c26-4b1f-84da-b09998566b77">Ylleshka</card>
+    <card qty="1" id="6aa346ce-a1bb-489b-af1a-9947e1f84e79">The Father of Worms</card>
+    <card qty="1" id="90f81748-10ae-4d7d-b018-527711f00ead">Baphomet</card>
+    <card qty="1" id="f3dfd61d-5848-4292-99c2-93cf8796e7a4">Corrupted Herald</card>
+    <card qty="1" id="c0cc5fe2-92e1-46a4-9084-06e5b9f0b7cc">Lady of Valor</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

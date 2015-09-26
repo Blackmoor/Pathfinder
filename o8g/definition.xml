@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.112.250"
-		version="3.0.3.7"
+		version="3.0.4.1"
 		scriptVersion="3.1.0.1"
 		markersize="10"
 		tags="Pathfinder"
@@ -77,6 +77,7 @@
 	<groupaction menu="Reveal Random Card" default="False" execute="randomCard" />	
 	<groupaction menu="Reveal Random Cards" default="False" execute="randomCards" />
 	<groupaction menu="Hidden Random Card" default="False" execute="randomHiddenCard" />
+	<groupaction menu="Build A Location" default="False" execute="buildNewLocation" />
 	<groupaction menu="Save Deck" default="False" execute="saveDeck" />	
 	<groupaction menu="Save Box" default="False" execute="saveBox" />	
 	<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
@@ -191,16 +192,37 @@
 	<group name="Location4" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False">
 	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
 	</group>
-	<group name="Location5" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False">
+	<group name="Location5" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
 	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
 	</group>
-	<group name="Location6" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False">
+	<group name="Location6" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
 	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
 	</group>
-	<group name="Location7" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False">
+	<group name="Location7" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
 	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
 	</group>
-	<group name="Location8" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="False">
+	<group name="Location8" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
+	<group name="Location9" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
+	<group name="Location10" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
+	<group name="Location11" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
+	<group name="Location12" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
+	<group name="Location13" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
+	<group name="Location14" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
+	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
+	</group>
+	<group name="Location15" visibility="none" ordered="False" width="63" height="88" icon="Resources/location.png" collapsed="True">
 	  <groupaction menu="Shuffle" default="True" shortcut="ctrl+S" execute="shufflePile" />
 	</group>
 	<group name="Villain" visibility="all" ordered="True" width="63" height="88" icon="Resources/villain.png" collapsed="True" />
