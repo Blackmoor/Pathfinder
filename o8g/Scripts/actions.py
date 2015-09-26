@@ -463,18 +463,21 @@ def closeLocation(card, perm):
 	if findScenario(table).Name in ('Twisty Passages'):
 		locs = [ c for c in table if c.Type == "Location" and isNotPermanentlyClosed(c)]
 		positions = []
+		pileNames = []
 		i = 0
 		for location in locs:
 			x = cardX(location)
 			y = cardY(location)
 			positions.append([x,y])
+			locName = getPileName(location)
+			pileNames.append(locName)
 			location.moveTo(shared.piles['Internal'])
 			i = i + 1
 		shuffle(shared.piles['Internal'])
 		i = 0
 		for card in shared.piles['Internal']:
 			card.moveToTable(positions[i][0],positions[i][1])
-			card.link(shared.piles['Location{}'.format(i+1)])
+			card.link(shared.piles[pileNames[i]])
 			i = i+1
 		notify("The locations have been shuffled, leaving their piles in the same spots!")
 	return True

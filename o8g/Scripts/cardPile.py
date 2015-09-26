@@ -19,6 +19,14 @@ def getPile(self):
 		if p == pileName:
 			return shared.piles[pileName]
 	return None
+
+def getPileName(self):
+	mute()
+	cardPiles = eval(getGlobalVariable("cardPiles"))
+	if self._id not in cardPiles:
+		return None
+	pileName = cardPiles[self._id]
+	return pileName
 	
 def isAPile(self):
 	cardPiles = eval(getGlobalVariable("cardPiles"))
