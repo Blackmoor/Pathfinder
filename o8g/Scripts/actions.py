@@ -379,7 +379,7 @@ def closeLocation(card, perm):
 		elif card.Name == 'Watchtower' and players > 4:
 			nextLoc = 'Guardpost'
 			locNum = 5
-		elif card.Name == 'Guardpost' and players >5:
+		elif card.Name == 'Guardpost' and players > 5:
 			nextLoc = 'Cemetery'
 			locNum = 6
 		else:
@@ -419,7 +419,7 @@ def closeLocation(card, perm):
 		debug("Unexplored ... '{}'".format(c))
 		if len(villain) == 0 and card.Name == 'Garrison' and c.Subtype in ['Weapon','Armor']:
 			c.moveTo(pile)
-		elif findScenario(table).Name == 'The Siege of Drezen': #put all leftover cards into the new location just built
+		elif findScenario(table).Name == 'The Siege of Drezen' and justBuilt is not None: #put all leftover cards into the new location just built
 			if justBuilt is not None:
 				c.moveTo(justBuilt)
 		else:
@@ -978,20 +978,24 @@ def playerReady(card):
 	
 	cohort = getCohort()
 	if cohort is not None:
-		cohortCard = findCardByName(shared.piles['Cohort'],cohort)
-		if cohortCard is None:
-			notify("Could not find cohort {} in cohort pile, checking your cards!".format(cohort))
-			cohortCard = findCardByName(me.buried,cohort)
+		cohortCard = findCardByName(me.hand,cohort)
+		if cohortCard is not None:
+			whisper("You already have your cohort in your hand!")
+		else:
+			cohortCard = findCardByName(shared.piles['Cohort'],cohort)
 			if cohortCard is None:
-				cohortCard = findCardByName(me.deck,cohort)
+				notify("Could not find cohort {} in cohort pile, checking your cards!".format(cohort))
+				cohortCard = findCardByName(me.buried,cohort)
 				if cohortCard is None:
-					notify("Cohort {} is not in your cards either, did you banish it?".format(cohort))
+					cohortCard = findCardByName(me.deck,cohort)
+					if cohortCard is None:
+						notify("Cohort {} is not in your cards either, did you banish it?".format(cohort))
+					else:
+						cohortCard.moveTo(me.hand)
 				else:
 					cohortCard.moveTo(me.hand)
 			else:
 				cohortCard.moveTo(me.hand)
-		else:
-			cohortCard.moveTo(me.hand)
 	
 	sync()
 	#The first player to drag to the table becomes the active player
@@ -1812,15 +1816,18 @@ def hideVillain(villain, x=0, y=0, banish=False):
 	if choices[choice-1] == 'Undefeated': #handle any villain-specific undefeated conditions
 		if villain.Name == 'Karsos':
 			maze = findCardByName(shared.piles['Location'],"Maze")
-			# Count the number of locations on the table
-			nl = 0 
-			for card in table:
-				if card.Type == 'Location':
-					nl += 1
-			pileName = "Location{}".format(nl+1)
-			buildLocation(findScenario(table),maze,shared.piles[pileName])
-			maze.moveToTable(LocationX(nl+1,nl+1), LocationY)
-			whisper("{} builds the Maze and must move there.".format(me))
+			if maze is not None:
+				# Count the number of locations on the table
+				nl = 0 
+				for card in table:
+					if card.Type == 'Location':
+						nl += 1
+				pileName = "Location{}".format(nl+1)
+				buildLocation(findScenario(table),maze,shared.piles[pileName])
+				maze.moveToTable(LocationX(nl+1,nl+1), LocationY)
+				whisper("{} builds the Maze and must move there.".format(me))
+			else:
+				whisper("Could not find location Maze... Maze was not built!")
 	
 	# We need to hide the villain in an open location
 	defeated = choices[choice-1] == 'Defeated'		
