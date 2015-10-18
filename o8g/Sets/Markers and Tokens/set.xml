@@ -176,6 +176,12 @@
     <property name="Subtype" value="Token" />
    </card>
    
+   <card id="efbedd51-3fcf-4f7b-adcd-9f0c698b2fe0" name="Koren">
+    <property name="Abr" value="CD" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
    <card id="5e3e72cf-d81b-4c4a-99cd-42ac702cf73d" name="Kyra">
     <property name="Abr" value="B" />
     <property name="Type" value="Character" />
@@ -260,6 +266,12 @@
     <property name="Subtype" value="Token" />
    </card>
   
+   <card id="590dc72c-10f2-49fc-8b14-e173669a600c" name="Raz">
+    <property name="Abr" value="CD" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
    <card id="13af4439-859c-48be-ac3a-2f84254b1d71" name="Reiko">
     <property name="Abr" value="O" />
     <property name="Type" value="Character" />
