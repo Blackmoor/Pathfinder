@@ -9,6 +9,9 @@
   <section name="Item" shared="True">
     <card qty="1" id="5576e19c-e39e-4d8a-b771-624a94833c5d">Goblin Skull Bomb</card>
   </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="b79217ee-0336-469e-88e3-ff71e5a8f8d1">Pig from Hell</card>
+  </section>
   <section name="Character" shared="False" />
   <section name="Weapon" shared="False" />
   <section name="Spell" shared="False" />
@@ -20,13 +23,14 @@
   <section name="Cohort" shared="False" />
   <section name="Story" shared="True" />
   <section name="Henchman" shared="True" />
-  <section name="Monster" shared="True">
-    <card qty="1" id="b79217ee-0336-469e-88e3-ff71e5a8f8d1">Pig from Hell</card>
-  </section>
   <section name="Armor" shared="True" />
   <section name="Weapon" shared="True" />
-  <section name="Spell" shared="True" />
-  <section name="Blessing" shared="True" />
+  <section name="Spell" shared="True">
+    <card qty="1" id="9e6b46f1-4b75-4fe2-866a-efe6c3bf797a">Blast Vortex</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="1" id="ed6fc3c2-f908-48b7-87db-8df298110796">Blessing of Terendelev</card>
+  </section>
   <section name="Ship" shared="True" />
   <section name="Cohort" shared="True" />
   <section name="Fleet" shared="True" />
