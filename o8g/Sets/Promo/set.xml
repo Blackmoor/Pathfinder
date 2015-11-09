@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promo" id="b37bbdfc-5106-4b17-a077-259f3405cda1" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.1.1.0">
  <cards>
-  <card id="526dad37-28f3-4746-ab30-c488de0d5379" name="Sweet Dragon Costume">
-    <property name="Abr" value="P"/>
-    <property name="Copyright" value="No."/>
-    <property name="Type" value="Armor"/>
-    <property name="Traits" value="Light Armor&#10;Dragon&#10;Mythic"/>
-    <property name="Flavour" value="&quot;Rawr! I'm a scary dragon!&quot; - Goblin in kobold costume"/>
-    <property name="Attr1" value="Reveal this card to reduce Fire damage dealt to you to 0, then roll 1d12. On a 1, banish this card.&#10;Bury this card and expend a mythic charge to add 1d20 to your check to defeat a monster.&#10;Banish this card to reduce all damage dealt to you to 0; if proficient in light armors, bury this card instead."/>
-    <property name="Attr2" value="Constitution"/>
-    <property name="Attr3" value="Fortitude"/>
-    <property name="Attr4" value="5"/>
-  </card>
   <card id="796b4fdf-3251-46c8-bdd8-6cff6d07c4c0" name="Dance with Squealy Nord">
     <property name="Abr" value="P"/>
     <property name="Copyright" value="No."/>
@@ -209,6 +198,18 @@
     <property name="Attr1" value="Recharge this card to reduce damage dealt to you by 2; you may play another armor on this check. If you have the Paladin trait, you may reveal this card instead of recharging it.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="6"/>
+  </card>
+  <card id="526dad37-28f3-4746-ab30-c488de0d5379" name="Sweet Dragon Costume">
+    <property name="Abr" value="P"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Dragon&#10;Mythic"/>
+    <property name="Flavour" value="&quot;Rawr! I'm a scary dragon!&quot; - Goblin in kobold costume"/>
+    <property name="Attr1" value="Reveal this card to reduce Fire damage dealt to you to 0, then roll 1d12. On a 1, banish this card.&#10;Bury this card and expend a mythic charge to add 1d20 to your check to defeat a monster.&#10;Banish this card to reduce all damage dealt to you to 0; if proficient in light armors, bury this card instead."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="5"/>
+    <property name="Attr4" value="5"/>
   </card>
   <card id="ed6fc3c2-f908-48b7-87db-8df298110796" name="Blessing of Terendelev">
     <property name="Abr" value="P"/>
