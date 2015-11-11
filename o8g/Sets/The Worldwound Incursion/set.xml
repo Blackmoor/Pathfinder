@@ -191,7 +191,7 @@
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="14"/>
   </card>
-  <card id="140c759f-2608-4dda-a0e2-30236925a60e" name="Wreacker Demon">
+  <card id="140c759f-2608-4dda-a0e2-30236925a60e" name="Wrecker Demon">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>
