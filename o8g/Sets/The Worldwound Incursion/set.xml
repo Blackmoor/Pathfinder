@@ -191,7 +191,7 @@
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="14"/>
   </card>
-  <card id="140c759f-2608-4dda-a0e2-30236925a60e" name="Wreacker Demon">
+  <card id="140c759f-2608-4dda-a0e2-30236925a60e" name="Wrecker Demon">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Bane"/>
@@ -915,7 +915,7 @@
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="After you draw starting hands, each character buries 1d4+1 cards from the top of her deck.&#10;When you move, any other characters at your location may move with you; if you move from an open location on your turn, shufle a random monster from the box into that location.&#10;At the end of your turn, recharge a random card from your discard pile."/>
-      <property name="Attr2" value="Thurl and Inhaz"/>
+      <property name="Attr2" value="Millorn"/>
       <property name="Attr3" value="Giant Bats"/>
       <property name="Attr4" value="Loot: 1 Scale of your choice"/>
     </alternate>
