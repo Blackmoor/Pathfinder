@@ -1715,7 +1715,7 @@ def findScenario(group):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		scenario = findScenario(table)
-		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble' ]: # These scenarios are only won when the last location is closed
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble','The Big Bonfire' ]: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				if scenario.Name in ['1-1D Crusaders Assemble']: #In Crusaders Assemble, after you close the last location, build Laboratory
@@ -2293,9 +2293,9 @@ def scenarioSetup(card):
 		nl -= 1
 	elif card.Name in ['Scaling Mhar Massif','The Pleasure Center','0-6E Into the Maelstrom']:
 		nl -= 2
-	elif card.Name in ['Press Ganged!','Justifiable Deicide','0-6F Lost in the Storm']:
+	elif card.Name in ['Press Ganged!','Justifiable Deicide','0-6F Lost in the Storm','The Big Bonfire']:
 		nl = 1
-	elif card.Name == 'The Toll of the Bell':
+	elif card.Name in ['The Toll of the Bell','The Old Shipwreck']:
 		nl = 2
 	elif card.Name in ('Best Served Cold','Islands of the Damned'):
 		nl += 1
@@ -2346,6 +2346,33 @@ def scenarioSetup(card):
 	#In Justifiable Deicide, Deskari goes on the bottom of the deck
 	if card.Name == 'Justifiable Deicide':
 		villain.moveTo(shared.piles['Special'])
+	
+	#In The Big Bonfire, add several barriers to the Licktoad Camp
+	if card.Name == 'The Big Bonfire':
+		licktoad = findCardByName(table,"Licktoad Camp")
+		if licktoad is not None:
+			eatSlugs = findCardByName(shared.piles['Barrier'],"Eat A Bag Of Slugs Real Quick")
+			if eatSlugs is not None:
+				eatSlugs.moveTo(licktoad.pile())
+			hideClubbed = findCardByName(shared.piles['Barrier'],"Hide or Get Clubbed")
+			if hideClubbed is not None:
+				hideClubbed.moveTo(licktoad.pile())
+			rustyBiter = findCardByName(shared.piles['Barrier'],"The Rusty Earbiter")
+			if rustyBiter is not None:
+				rustyBiter.moveTo(licktoad.pile())
+			fermentedApples = findCardByName(shared.piles['Barrier'],"Eat the Fermented Apples")
+			if fermentedApples is not None:
+				fermentedApples.moveTo(licktoad.pile())
+			squealy = findCardByName(shared.piles['Barrier'],"Dance With Squealy Nord")
+			if squealy is not None:
+				squealy.moveTo(licktoad.pile())
+			playerNum = len(getPlayers())
+			i = 0
+			while i < playerNum:
+				c = shared.piles['Barrier'].random()
+				c.moveTo(licktoad.pile())
+				i = i + 1
+		
 	
 	#In Breaking the Dreamstone, pull out the special Role card
 	if card.Name == 'Breaking the Dreamstone':

@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="We Be Goblins" id="90508f40-17f3-4f58-a377-b84a3492b607" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="1.0.0.0">
+ <cards>
+  <card id="3d804604-7dc2-4966-b4df-062886bf11a5" name="Eat a Bag of Slugs Real Quick">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Dare&#10;Task"/>
+    <property name="Attr1" value="If defeated, recharge one card from your discard pile.&#10;If undefeated, bury the top card of your deck."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="5"/>
+    <property name="Attr4" value="Constitution&#10;Fortitude"/>
+    <property name="Attr5" value="5"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="df8e96b0-0df2-4b53-a71a-752b5d4a1aed" name="Eat the Fermented Apples">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Dare&#10;Task"/>
+    <property name="Attr1" value="If undefeated, display this card next to your deck and end your turn. While displayed, at the beginning of your turn, you may succeed at a Constitution/Fortitude 8 check to banish this barrier. If unsuccessful, end your turn and banish this barrier."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="8"/>
+  </card>
+  <card id="9570f462-6b76-4d8f-a64d-d36972e7b873" name="Hide or Get Clubbed">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Dare&#10;Task&#10;Skirmish"/>
+    <property name="Attr1" value="If defeated, you may immediately explore your location.&#10;If undefeated, you are dealt 1d4-1 Combat damage."/>
+    <property name="Attr2" value="Dexterity&#10;Stealth"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="f8fbb735-a971-4a10-8301-51cea074207c" name="Ranger Trap">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Trap&#10;Obstacle&#10;Elite"/>
+    <property name="Attr1" value="If defeated, you may immediately explore your location.&#10;If undefeated, you are dealt 1d4 combat damage."/>
+    <property name="Attr2" value="Dexterity&#10;Acrobatics"/>
+    <property name="Attr3" value="9"/>
+    <property name="Attr4" value="Perception"/>
+    <property name="Attr5" value="7"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="ff695dca-609d-422a-8be6-529e58dac5b9" name="The Rusty Earbiter">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Dare&#10;Task&#10;Obstacle"/>
+    <property name="Attr1" value="If undefeated, you are dealt 1d4-2 Combat damage, and then you are dealt 1 Poison damage."/>
+    <property name="Attr2" value="Dexterity&#10;Acrobatics"/>
+    <property name="Attr3" value="6"/>
+    <property name="Attr4" value="Bury an&#10;armor "/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="d9a28f10-6d3b-4cb1-9510-258950ab6bd7" name="Cuddles">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="If undefeated, reset your hand and end your turn immediately.&#10;If defeated, you may immediately attempt to close the location this card came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="ddb36599-dfe9-41b8-8fe2-306c625d8cdc" name="Longshanks Ranger Trap">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Trap"/>
+    <property name="Attr1" value="If defeated, you may add this card to your hand, then you may immediately attempt to close the location this card came from. Banish this card to add 1d4 to your check to defeat a bane with the Human, Half-elf or Elf trait.&#10;If undefeated, roll 1d6:&#10;On a 1 or 2: You are dealt 1d4-1 Bludgeoning damage.&#10;On a 3, 4, or 5: You are dealt 1d4-1 Poison damage&#10;On a 6: Summon and encounter a Bandit henchman."/>
+    <property name="Attr2" value="Dexterity&#10;Acrobatics"/>
+    <property name="Attr3" value="8"/>
+    <property name="Attr4" value="Perception"/>
+    <property name="Attr5" value="10"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="42fc0aa0-8bf2-4fbb-8a59-c8dac0a7dd80" name="Lord Longtung">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="Before you act, succeed at a Dexterity or Acrobatics 7 check or be dealt 1d4 Combat damage."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="e0e11614-a2ea-4d22-854c-478380aafd21" name="Stomp">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Mount"/>
+    <property name="Attr1" value="Before you act, Stomp deals 1d4 Combat damage with the Bludgeoning trait to each character at your location.&#10;If defeated, you may immediately attempt to close the location this card came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="561159cd-4a41-4bb7-8661-6c7f5d67edc7" name="Dog">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Basic"/>
+    <property name="Attr1" value="If undefeated, move to a random location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="5244cc5d-5c0c-48ec-9f33-8e915d68fb11" name="Horse">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Animal&#10;Mount"/>
+    <property name="Attr1" value="Damage dealt by the Horse is dealt to each character at your location."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="02842d9d-5d05-494a-b122-4920cbe412d5" name="Lotslegs Eat Goblings Many">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Vermin"/>
+    <property name="Attr1" value="Before you act, succeed at a Dexterity or Acrobatics 8 check or discard the top card of your deck.&#10;After you act, succeed at a Constitution or Fortitude 8 check or discard the top card of your deck."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="11"/>
+    <property name="Attr4" value="Stealth"/>
+    <property name="Attr5" value="14"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="9d6648cf-4b05-4a90-99da-ab075b21d2ac" name="Vorka">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Goblin&#10;Ranger"/>
+    <property name="Flavour" value="&quot;Vorka think you taste real good&#10;Vorka cook you just like food&#10;If you fight, then you might sweat&#10;But in Vorka's belly you will get!&quot; - Vorka's song"/>
+    <property name="Attr1" value="Before you act, summon and encounter the henchman Lord Longtung; if you do not defeat Lord Longtung, Vorka is evaded."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="85ecbd2a-1cba-40b1-b24d-ed4c56d4352a" name="Bruthazmus">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Bugbear&#10;Ranger&#10;Goblin"/>
+    <property name="Attr1" value="Recharge this card to add 2d4 to a combat check at another location.&#10;Discard this card to explore your location; add 3d4 to your checks against cards with the Human or Animal traits during this exploration."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="12"/>
+    <property name="Attr4" value="Ranged"/>
+    <property name="Attr5" value="9"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="db45c618-ca9b-4fac-8ce7-1a342c4c10a9" name="Chief Gutwad">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Goblin&#10;Ranger&#10;Chieftan"/>
+    <property name="Flavour" value="&quot;Tomorrow you fetch me fireworks. If you meet men, you make them dead. If you meet dogs, you make them dead. If you meet horses, you make them dead. If you meet Lotslegs Eat Goblin Babies Many, you maybe should run.&quot; -- Chief Gutwad"/>
+    <property name="Attr1" value="Discard this card to add 2d6 to a Diplomacy check against a card with the Goblin trait.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="8"/>
+    <property name="Attr4" value="Fortitude"/>
+    <property name="Attr5" value="7"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="3f7b721a-8b36-407a-8a3f-b5777a451023" name="Goblin Dog">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal"/>
+    <property name="Attr1" value="Discard this card to add 1d6 to a Combat check at your location.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Wisdom&#10;Survival"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="8863a176-2aaa-46ca-839a-1d1117cfe764" name="Goblin Pyro">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Goblin&#10;Sorcerer&#10;Elite"/>
+    <property name="Attr1" value="Recharge this card to add 1d4 and the Fire trait to your combat check.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="9"/>
+  </card>
+  <card id="cc0743cb-0807-4a21-8d7a-89846631f865" name="Goblin Raider">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Goblin"/>
+    <property name="Attr1" value="Discard this card to add 1d4 to your Combat check.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="99851679-ee97-4cfd-b84c-5bae8bb717a8" name="Goblin Warchanter">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Goblin&#10;Bard&#10;Elite"/>
+    <property name="Attr1" value="Recharge this card to add 1d4 to your check.&#10;Discard this card to explore your location; add 1d4 to your Combat checks during this exploration."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="7"/>
+  </card>
+  <card id="d7b831c1-e834-4896-bbe0-774176420c7f" name="Gogmurt and Tangletooth">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Goblin&#10;Druid&#10;AND&#10;Animal"/>
+    <property name="Flavour" value="&quot;Longshanks stay away from Nettlewood or Gogmurt burn and Tangletooth eat!&quot; -- Gogmurt"/>
+    <property name="Attr1" value="Discard this card to add 2d4 and the Fire trait to your check against a bane.&#10;Discard this card at the end of your turn to move.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="9"/>
+    <property name="Attr4" value="Wisdom&#10;Survival"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="18377007-f388-4596-9cec-6c0828cbd250" name="Plarg">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Goblin&#10;Spirit&#10;Undead"/>
+    <property name="Flavour" value="&quot;Plarg, why you get eated by pudl? Should have knowed better. Stupid Plarg.&quot; -- Ekkie"/>
+    <property name="Owner" value="Owner: Ekkie"/>
+    <property name="Attr1" value="Reveal this card to add 1d6 to a Perception or Diplomacy check.&#10;When you would draw 1 or more cards from the box, bury this card to draw 1 more card of that type, with all the same restrictions.&#10;Discard an item and shuffle this card into your deck to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="5"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="4d876bd6-1248-4be9-88d2-1764e689b97e" name="Wolf">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Elite"/>
+    <property name="Attr1" value="Discard this card to add 1d8 to a check against a card with the Animal trait.&#10;Discard this card to explore your location."/>
+    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
+    <property name="Attr3" value="6"/>
+  </card>
+  <card id="b2ed31f1-7ce2-4ce5-b86b-545bb6c9b418" name="Blessing of Goblin Mischief">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Goblin&#10;Corrupted"/>
+    <property name="Attr1" value="Discard this card to add a die to any check.&#10;Discard this card to add two dice to a check to defeat a barrier with the Task trait or to increase the difficulty of a check by another character at your location by 1d8.&#10;If this card has the Corrupted trait and you do not have the Goblin trait, bury the top card of your deck after you play it."/>
+    <property name="Attr2" value="Acrobatics&#10;Stealth"/>
+    <property name="Attr3" value="8"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="6"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="994d85bd-2198-4e40-8830-2a10e72a4767" name="Desnan Candle">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Firework&#10;Alchemical&#10;Ranged&#10;Fire"/>
+    <property name="Attr1" value="Display this card when you encounter a bane. While displayed, for your combat check, use your Dexterity or Ranged skill + 1d4-1. At the end of your turn, banish this card."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="9"/>
+    <property name="Attr4" value="Craft"/>
+    <property name="Attr5" value="7"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="f1693e8d-dae1-468d-89c2-b4ea27e4690c" name="Skyrocket">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Firework&#10;Alchemical&#10;Ranged&#10;Fire"/>
+    <property name="Attr1" value="For your combat check, banish this card to use your Dexterity or Ranged skill + 2d6."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="12"/>
+    <property name="Attr4" value="Craft"/>
+    <property name="Attr5" value="9"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="7fee93c4-5f82-4908-b21c-2ab8ad141497" name="Bag of Slugs">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Object&#10;Vermin&#10;Veteran"/>
+    <property name="Flavour" value="&quot;Longshanks really hate these slugs. Me no know why!&quot; -- Reta"/>
+    <property name="Attr1" value="Bury this card to defeat a monster which does not have the Animal, Goblin, or Aberration trait whose highest difficulty to defeat is 16 or lower. &#10;Discard this card to add 1d6 plus the scenario’s adventure deck number and the Poison trait to a check to defeat a monster which does not have the Animal, Goblin, or Aberration trait."/>
+  </card>
+  <card id="32388f33-3aef-4f08-bdb0-4b270e2260f2" name="Chief's Robe That is Useful">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Clothing&#10;Magic"/>
+    <property name="Flavour" value="&quot;Name on this card-thingy wrong!&#10;Is Chief's Personal Very Useful Robe That Is Useful!&#10;Get it right, Longshanks!&quot; -- Chief Gutwad"/>
+    <property name="Attr1" value="Bury this card to add 1d8 to your check to close a location or defeat a monster that has the Mount trait."/>
+  </card>
+  <card id="9553cb0d-f859-4e01-833b-19cffc2c9ae4" name="Dragon Brew Gourd">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Liquid&#10;Alchemical&#10;Fire&#10;Magic"/>
+    <property name="Flavour" value="&quot;Dragon gourd make for firebelly, which become fire spew. Good for burn longshanks and dogs!&quot; -- Chief Gutwad"/>
+    <property name="Attr1" value="Display this card when you encounter a bane. While displayed, for your combat check, you may use your Constitution, Fortitude, Ranged, or Craft skill + 4d6. At the end of your turn, banish this card. After playing this card, you may succeed at a Craft 9 check to bury it instead of banishing it."/>
+  </card>
+  <card id="0a6558c6-9476-40f4-b786-dd21b65796f7" name="Gorge of Gluttons">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6+1; you may additionally discard this card to add another 1d6. If your check is against a monster that has the Animal and Mount traits, add another 2d6. &#10;If any d6 rolled using this weapon is a 1, count it as a 3, then discard this card."/>
+  </card>
+  <card id="9d9cd7db-3ddc-4732-8918-4dca8440fe8e" name="Ring that Lets You Climb Real Good">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
+    <property name="Flavour" value="&quot;Chuffy normally climb good. With this, Chuffy climb even better! Chuffy best at climbing!&quot; --Chuffy"/>
+    <property name="Attr1" value="Reveal this card to add 1d6 to your check to defeat a barrier with the Task trait.&#10;Recharge this card to add 1d6 to your check to defeat a non-villain monster."/>
+  </card>
+  <card id="b110424f-94b7-4f6c-9431-808fb2aca75f" name="Squealy Nord">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Veteran"/>
+    <property name="Flavour" value="&quot;Squealy is fearsome boar! Poog will tame him!&quot; -- Poog"/>
+    <property name="Attr1" value="Recharge this card to add 1d6 to your check to close a location.&#10;Discard this card to move at the end of your turn.&#10;Discard this card to explore your location; add 1d4 plus the adventure deck number of the current scenario to your checks to defeat banes during this exploration."/>
+  </card>
+  <card id="b2dc29b3-7dbb-44cd-93da-5fec6c578784" name="Chuffy Lickwound (Diseased Dretch)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Rogue"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7&#10;Ally: 3  [ ] 4&#10;Blessing: 2  [ ] 3  [ ] 4"/>
+    <property name="Attr3" value="Item"/>
+    <alternate name="Chuffy Lickwound (Diseased Dretch)" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Goblin&#10;Rogue"/>
+      <property name="Attr1" value="For your check that has or is against a card that has the Finesse ([ ] or Sword) trait, gain the skill Melee: Dexterity +1.&#10;You may bury a card to evade a bane ([ ] and move). ([ ] If the bane is a monster, you may place it on the bottom of its location deck instead of shuffling it in.)&#10;You may discard a card to use your Stealth skill in place of your check to acquire an item ([ ] or armor or weapon).&#10;[ ] Reduce Acid ([ ] and Poison) damage dealt to you by 1 ([ ] 2) ([ ] 3).&#10;[ ] When you would be dealt damage before or after you act, you may discard the top card of your deck to reduce that damage to 0; each other character at your location is dealt 1 Acid damage."/>
+      <property name="Attr2" value="Strength: 1d4  [ ] +1  [ ] +2&#10;Dexterity: 1d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +1&#10;  Ranged: Dexterity +1&#10;  Stealth: Dexterity +3&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: 1d4"/>
+      <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Weapons, Light Armors"/>
+    </alternate>
+  </card>
+  <card id="1d867f1c-e705-4d49-aaef-5b72b4905f92" name="Chuffy Lickwound Stealthy Stabber)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Rogue"/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7&#10;Ally: 3  [ ] 4&#10;Blessing: 2  [ ] 3  [ ] 4"/>
+    <property name="Attr3" value="Item"/>
+  </card>
+  <card id="ec31c76f-5860-471d-9f05-ce8c4960e4a1" name="Chuffy Lickwound Stealthy Stabber)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Rogue"/>
+    <property name="Attr1" value="For your check that has or is against a card that has the Finesse ([ ] or Sword) ([ ] or Piercing) trait, gain the skill Melee: Dexterity +1.&#10;You may bury ([ ] or discard) a card to evade a bane ([ ] and move).&#10;You may discard a card to use your Stealth skill in place of your check to acquire an item ([ ] or armor or weapon) ([ ] or your check to defeat a barrier with the Task or Skirmih trait) ([ ]  or any barrier).&#10;[ ] When another character at your location encounters a monster, you may discard a card to encounter that card instead ([ ] and add your Stealth skill to your combat checks against that bane).&#10;[ ] Gain the skill Survival: Stealth."/>
+    <property name="Attr2" value="Strength: 1d4  [ ] +1  [ ] +2&#10;Dexterity: 1d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +1&#10;  Ranged: Dexterity +1&#10;  Stealth: Dexterity +3&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: 1d4"/>
+    <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+    <property name="Attr4" value="Weapons, Light Armors"/>
+  </card>
+  <card id="f8613462-049e-4637-b9a2-7cec20966efb" name="Mogmurch (Healy Bomber)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Item"/>
+  </card>
+  <card id="6ff8d7e8-1483-4ff0-add8-1dc3d924d593" name="Mogmurch (Healy Bomber)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
+    <property name="Attr1" value="When you would banish a card with the Alchemical or Liquid trait ([ ] or a spell), discard it instead.&#10;For your combat check, discard a card to use your Ranged skill + 1d6 with the Fire trait. ([ ] If you succeed, you may recharge a card with the Alchemical or Liquid trait from your discard pile) ([ ] and each other character at your location may recharge a random card from her discard pile).&#10;When you are dealt damage by a barrier, reduce that damage by 1d4.&#10;[ ] Bury a card to choose a character at your location to shuffle 1d4+1 ([ ] +2) ([ ] +3) random cards from her discard pile into her hand.&#10;[ ] Recharge a card with the Divine trait to add 2d4 and the Magic trait to your combat checks against a bane with the Undead trait; ([ ] ignore that bane's immunity to Fire for this check).&#10;[ ] When you play a spell with the Healing trait, gain the Arcane and Divine skills equal to your Craft skill until the end of the turn; ([ ] characters at your location may recharge 1 buried card.)"/>
+    <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: 1d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: 1d4&#10;Charisma: 1d6  [ ] +1  [ ] +2"/>
+    <property name="Attr3" value="5  [ ] 6"/>
+    <property name="Attr4" value="[ ] Weapons, Light Armors"/>
+  </card>
+  <card id="ecbac764-38e7-4ef8-9fd1-f846aa46fa72" name="Mogmurch (Potion Glutton)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Item"/>
+  </card>
+  <card id="b912702d-0ab5-4b90-8c20-dfccba6d7713" name="Mogmurch (Potion Glutton)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
+    <property name="Attr1" value="When you would banish a card with the Alchemical or Liquid trait ([ ] or a spell), discard it instead.&#10;For your combat check, discard a card to use your Ranged skill + 1d6 with the Fire trait. ([ ] If you succeed, you may recharge a card with the Alchemical or Liquid trait from your discard pile.)&#10;When you are dealt damage by a barrier, reduce that damage by 1d4 ([ or reveal a card with the Liquid or Alchemical trait to reduce the damage by 2d4+1).&#10;[ ] Discard a card to add your Fortitude skill to your Strength or Melee check ([ ] or your check to defeat a barrier) ([ ] or your check to close a location) if you did not play a weapon on the check.&#10;[ ] On your turn, bury a card with the Liquid trait to shuffle 1d4+1 cards from your discard pile into your deck, then examine the top card of your location. ([ ] If that card is an item, you may banish that card to draw and attempt to acquire a random item with the Alchemical or Liquid trait from the box; if you fail to acquire it, return it to the box.)"/>
+    <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: 1d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: 1d4&#10;Charisma: 1d6  [ ] +1  [ ] +2"/>
+    <property name="Attr3" value="5  [ ] 6  [ ] 7"/>
+    <property name="Attr4" value="[ ] Weapons, Light Armors, [ ] Heavy Armors"/>
+  </card>
+  <card id="c2a3bbf2-08c5-4d03-ae87-c2ab194e180c" name="Poog of Zarongel (Ally to Animals)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Cleric"/>
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Blessing"/>
+    <alternate name="Poog of Zarongel (Ally to Animals)" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Goblin&#10;Cleric"/>
+      <property name="Attr1" value="For your combat check against a monster which does not have the Undead trait, you may discard a card with the Divine trait ([ ] or any card) to use your Charisma skill + 1d6 ([ ] +1) with the Magic and Fire traits. This counts as playing a spell.&#10;When you would discard an ally with the Animal trait for its power, you may recharge the card ([ ] or put it on top of your deck) instead of discarding it.&#10;[ ] You may recharge an ally with the Animal trait to add 2d6 to your Melee combat check ([ ] or to your check to close a location) ([ ] or to your check before you act).&#10;[ ] Gain the skill Diplomacy: Survival +2&#10;[ ] You may banish an ally that does not have the Animal trait to draw a random ally from the box which has the Animal trait."/>
+      <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;  Melee: Strength +3&#10;Dexterity: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: 1d6  [ ] +1  [ ] +2&#10;Intelligence: 1d4  [ ] +1&#10;Wisdom: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;  Survival: Wisdom +1&#10;Charisma: 1d8  [ ] +1  [ ] +2  [ ] +3"/>
+      <property name="Attr3" value="5  [ ] 6 [ ] 7  [ ] 8"/>
+      <property name="Attr4" value="Light Armors  [ ] Heavy Armors"/>
+    </alternate>
+  </card>
+  <card id="ce803e39-4456-4c52-885f-87eae0afda0b" name="Poog of Zarongel (Fire Flinger)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Cleric"/>
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Blessing"/>
+    <alternate name="Poog of Zarongel (Fire Flinger)" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Goblin&#10;Cleric"/>
+      <property name="Attr1" value="For your combat check against a monster which does not have the Undead trait, you may discard a card with the Divine trait ([ ] or any card) to use your Charisma skill + 1d6 ([ ] +1) ([ ] +2) with the Magic and Fire traits. This counts as playing a spell.&#10;When you would discard an ally with the Animal trait for its power, you may recharge the card instead of discarding it.&#10;[ ] You may recharge a spell ([ ] or blessing) to add 2d4 and the Fire trait to another character's check against a barrier with the Obstacle or Lock trait ([ ] or to your check against any bane).&#10;[ ] When you would discard a blessing for its power to add dice to a check that has the Fire trait, you may recharge that blessing instead of discarding it ([ ] and ad your Wisdom skill to the check).&#10;[ ] When you play a spell with the Fire trait and would fail a check to recharge that spell, you may discard a blessing to recharge that spell instead of discarding it."/>
+      <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;  Melee: Strength +3&#10;Dexterity: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: 1d6  [ ] +1  [ ] +2&#10;Intelligence: 1d4  [ ] +1&#10;Wisdom: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;  Survival: Wisdom +1&#10;Charisma: 1d8  [ ] +1  [ ] +2  [ ] +3"/>
+      <property name="Attr3" value="5  [ ] 6 [ ] 7"/>
+      <property name="Attr4" value="Light Armors  [ ] Heavy Armors"/>
+    </alternate>
+  </card>
+  <card id="d246bd80-c0eb-49e4-9102-6cb9edc91815" name="Reta Bigbad (Risk Taker)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Goblin&#10;Fighter"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 3  [ ] 4&#10;Ally: 2  [ ] 3&#10;Blessing: 2  [ ] 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Reta Bigbad (Risk Taker)" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Goblin&#10;Fighter"/>
+      <property name="Attr1" value="Add 1d4 ([ ] +1) ([ ] +2) to your combat checks against banes with the Animal trait ([ ] or any Henchman or Villain).&#10;When you would discard a weapon for its power, you may recharge it ([ ] or put it on top of your deck) instead.&#10;You may reveal a weapon with the Melee trait to add 1d4 ([ ] +1) to a combat check by another character at your location. ([ ] If that charater fails the check, reduce the damage she is dealt by half (round down) and you are dealt an equal amount of Combat damage.)&#10;[ ] You may bury the top card of your deck to add 1d12 ([ ] +2) ([ ] +4) to your combat check against a bane."/>
+      <property name="Attr2" value="Strength: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;  Melee: Strength +1&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: 1d4  [ ] +1&#10;Wisdom: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +3&#10;Charisma: 1d4  [ ] +1"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6  [ ] 7"/>
+      <property name="Attr4" value="Weapons, Light Armors, Heavy Armors"/>
+    </alternate>
+  </card>
+  <card id="cf1f4fc8-9045-4c77-b02e-6da2c723954b" name="Reta Bigbad (Weapon Hurler)" size="Role">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Goblin&#10;Fighter"/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 3  [ ] 4&#10;Ally: 2  [ ] 3&#10;Blessing: 2  [ ] 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Reta Bigbad (Weapon Hurler)" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Goblin&#10;Fighter"/>
+      <property name="Attr1" value="Add 1d4 ([ ] +1) to your combat checks against banes with the Animal trait.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or put it on top of your deck) ([ ] or give it to a character at another location) instead.&#10;You may reveal a weapon with the Melee trait to add 1d4 ([ ] +1) ([ ] +2) to a combat check by another character at your location ([ ] or another location).&#10;[ ] You may treat a weapon with the Melee trait as if it had the Ranged trait ([ ] and gain the skill Melee: Ranged +1 when using such weapons).&#10;[ ] You may bury ([ ] or discard) a weapon with the Melee trait to gain the skill Disable: Ranged +1 until the end of your turn."/>
+      <property name="Attr2" value="Strength: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;  Melee: Strength +1&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: 1d4  [ ] +1&#10;Wisdom: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +3&#10;Charisma: 1d4  [ ] +1"/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+      <property name="Attr4" value="Weapons, Light Armors, Heavy Armors"/>
+    </alternate>
+  </card>
+  <card id="3c1006ed-315f-4c46-959b-4482c6de6c17" name="Chuffy Lickwound" size="Character">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Rogue"/>
+    <property name="Flavour" value="Sadistic Chuffy is horrible indeed. He loves to sneak up on his enemies and stab them. If he gets the chance, he also likes to light fires—lighting fires is Chuffy’s idea of great fun, almost as enjoyable as causing big explosions."/>
+    <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7&#10;Ally: 3  [ ] 4&#10;Blessing: 2  [ ] 3  [ ] 4"/>
+    <property name="Attr3" value="Item"/>
+    <alternate name="Chuffy Lickwound" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Goblin&#10;Rogue"/>
+      <property name="Attr1" value="For your check that has or is against a card that has the Finesse ([ ] or Sword) trait, gain the skill Melee: Dexterity +1.&#10;You may bury a card to evade a bane ([ ] and move).&#10;You may discard a card to use your Stealth skill in place of your check to acquire an item ([ ] or armor or weapon)."/>
+      <property name="Attr2" value="Strength: 1d4  [ ] +1  [ ] +2&#10;Dexterity: 1d12  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Acrobatics: Dexterity +1&#10;  Ranged: Dexterity +1&#10;  Stealth: Dexterity +3&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;Wisdom: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;Charisma: 1d4"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Weapons, Light Armors"/>
+    </alternate>
+  </card>
+  <card id="ecb5fbc9-a377-44d5-bb7d-1c86cdaa5d95" name="Mogmurch" size="Character">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
+    <property name="Flavour" value="Ten-year-old Mogmurch is deranged. Mogmurch lives with his mate Rempty, who has an irritating habit of licking his face clean in public (especially when he leaves the village). She thinks his use of alchemy is very clever, and while she loves the flavor Mogmurch’s experiments leave on his face, she worries that he’ll some day blow himself up when she’s not around to watch. "/>
+    <property name="Attr2" value="Weapon: 3  [ ] 4&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Item"/>
+  </card>
+  <card id="519f047e-6d05-4836-a8e9-8448f1cecd10" name="Mogmurch" size="Character">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
+    <property name="Attr1" value="When you would banish a card with the Alchemical or Liquid trait ([ ] or a spell), discard it instead.&#10;For your combat check, discard a card to use your Ranged skill + 1d6 with the Fire trait. ([ ] If you succeed, you may recharge a card with the Alchemical or Liquid trait from your discard pile.)&#10;When you are dealt damage by a barrier, reduce that damage by 1d4."/>
+    <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: 1d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: 1d4&#10;Charisma: 1d6  [ ] +1  [ ] +2"/>
+    <property name="Attr3" value="5  [ ] 6"/>
+    <property name="Attr4" value="[ ] Weapons, Light Armors"/>
+  </card>
+  <card id="9f782479-a83b-4bc4-881b-74c2909824f1" name="Poog of Zarongel" size="Character">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Goblin&#10;Cleric"/>
+    <property name="Flavour" value="Poog is a frightening little cleric of the goblin deity Zarongel, the sacred god of dog-killing, fire, and most holy mounted combat. That Poog isn’t very good at mounted combat is his not-so-secret shame, so he funnels most of his energy into attempts to overachieve at his god’s other sacred teachings— killing dogs (although he hasn’t yet killed one, he hopes to do so some day) and lighting fires (something that Poog is already pretty good at). "/>
+    <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
+    <property name="Attr3" value="Blessing"/>
+    <alternate name="Poog of Zarongel" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Goblin&#10;Cleric"/>
+      <property name="Attr1" value="For your combat check against a monster which does not have the Undead trait, you may discard a card with the Divine trait ([ ] or any card) to use your Charisma skill + 1d6 ([ ] +1) with the Magic and Fire traits. This counts as playing a spell.&#10;When you would discard an ally with the Animal trait for its power, you may recharge the card instead of discarding it."/>
+      <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;  Melee: Strength +3&#10;Dexterity: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;Constitution: 1d6  [ ] +1  [ ] +2&#10;Intelligence: 1d4  [ ] +1&#10;Wisdom: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Divine: Wisdom +2&#10;  Survival: Wisdom +1&#10;Charisma: 1d8  [ ] +1  [ ] +2  [ ] +3"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="Light Armors  [ ] Heavy Armors"/>
+    </alternate>
+  </card>
+  <card id="a4daa822-ac9c-4c43-a16d-01e6c1019b94" name="Reta Bigbad" size="Character">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Goblin&#10;Fighter"/>
+    <property name="Flavour" value="Reta likes to torment small, harmless animals and usually has a pocket full of such creatures in case she gets bored. She finds it hard not to shout when she speaks, and loves taking risks in combat to scare her enemies. "/>
+    <property name="Attr2" value="Weapon: 5  [ ] 6  [ ] 7  [ ] 8&#10;Spell: -&#10;Armor: 3  [ ] 4  [ ] 5&#10;Item: 3  [ ] 4&#10;Ally: 2  [ ] 3&#10;Blessing: 2  [ ] 3  [ ] 4  [ ] 5"/>
+    <property name="Attr3" value="Weapon"/>
+    <alternate name="Reta Bigbad" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Goblin&#10;Fighter"/>
+      <property name="Attr1" value="Add 1d4 ([ ] +1) to your combat checks against banes with the Animal trait.&#10;When you would discard a weapon for its power, you may recharge it ([ ] or put it on top of your deck) instead.&#10;You may reveal a weapon with the Melee trait to add 1d4 ([ ] +1) to a combat check by another character at your location."/>
+      <property name="Attr2" value="Strength: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;  Melee: Strength +1&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d8  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +1&#10;Intelligence: 1d4  [ ] +1&#10;Wisdom: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Perception: Wisdom +3&#10;Charisma: 1d4  [ ] +1"/>
+      <property name="Attr3" value="4  [ ] 5"/>
+      <property name="Attr4" value="Weapons, Light Armors, Heavy Armors"/>
+    </alternate>
+  </card>
+  <card id="706dd8d4-c3eb-4543-b10a-6e275f73324c" name="Horse Pen">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 2&#10;Spell 0&#10;Armor 1&#10;Item 2&#10;Ally 0&#10;Blessing 0"/>
+    <property name="Attr2" value="The difficulty to defeat banes with the Mount trait is increased by 2."/>
+    <property name="Attr3" value="Succeed at a Dexterity or Acrobatics 7 check."/>
+    <property name="Attr4" value="No effect."/>
+    <alternate name="Horse Pen" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="The horse held in this pen is feral and mangy, but still a dangerous adversary. Proceed with caution, noble gobs!"/>
+    </alternate>
+  </card>
+  <card id="cf445393-d421-4085-b67e-ac52259d6887" name="Licktoad Camp">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster1&#10;Barrier 2&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 1"/>
+    <property name="Attr2" value="You may bury an ally to add 1d6 to your check to defeat a bane."/>
+    <property name="Attr3" value="Succeed at a Charisma/Diplomacy 6 check or banish an item."/>
+    <property name="Attr4" value="For the rest of the scenario, add 1d8 to all checks to defeat banes with the Human, Half-elf or Elf traits."/>
+    <alternate name="Licktoad Camp" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="Goblins are fickle creatures, and when they're not killing dogs, eating anything that resembles food, or sleeping, they need to be entertained. Chief Gutwad has decreed that you must entertain him and the rest of the goblins of the Licktoad tribe. Entertainment for goblins can involve anything from lauging at someone who falls down, to laughing at someone who gets smacked in the head, to laughing at someone who gets his head chopped clean off. Can you win the favor of the mighty Gutwad and gain the treasures he is offering as prizes in these goblin games?"/>
+    </alternate>
+  </card>
+  <card id="5abf12da-c4ed-419d-aa48-acb46c23468f" name="Ship's Cabin">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 0&#10;Weapon 1&#10;Spell 2&#10;Armor 1&#10;Item 2&#10;Ally 0&#10;Blessing 1"/>
+    <property name="Attr2" value="If you play a card with the Fire trait, you are dealt 1d4 Fire damage."/>
+    <property name="Attr3" value="Discard a spell with the Fire trait or succeed at a Strength 9 check."/>
+    <property name="Attr4" value="No effect."/>
+    <alternate name="Ship's Cabin" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="de7dca14-9671-4d37-ac24-c1ac057e6fa6" name="Ship's Deck">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 4&#10;Barrier 2&#10;Weapon 1&#10;Spell 0&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 0"/>
+    <property name="Attr2" value="Add 1d6 to any check with the Swashbuckling trait."/>
+    <property name="Attr3" value="Reveal a card with the Swashbuckling trait or bury 2 cards."/>
+    <property name="Attr4" value="No effect."/>
+    <alternate name="Ship's Deck" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="3b118208-37bc-4b9b-b995-ef14d30fa4e7" name="We Be Goblins">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="When the goblins of the Licktoad tribe in Brinestump Marsh discovered that one of their own could write, they had no choice—they ran him out of town, tore down his hut, and burned all of his stuff. Writing, after all, is bad mojo, since it can steal words out of your head and thus snatch away your soul. Yet while even the exiled goblin’s name is now taboo (he’s known today only as “Scribbleface,” after the Licktoads branded some of his precious words onto his forehead and cheeks as punishment), the wonders the goblins found in his house were significant. For Scribbleface had kept more secrets than his writing.&#10;Before Scribbleface’s home was burned, the other goblins found a large trunk containing several items. To most, it was the cache of exotic fireworks in the trunk that was the most impressive, but to the leaders of the tribe, it was the intriguing map (one that contained no writing—only nice, safe drawings and dotted lines). This map showed the extent of Brinestump Marsh, including the route from the Licktoad village to an old shipwreck near the coastline that—according to the drawings on the map—contained many more crates of fireworks. How Scribbleface had come into possession the map and this knowledge was irrelevant to the goblins, for if the spot marked on the map were to indeed lead to more fireworks, the Licktoads would be unstoppable! &#10;Or, if not unstoppable, at least they’d be more firework-rich! Think of all the longshank houses they could burn down with a big supply of fireworks! "/>
+    <alternate name="We Be Goblins" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="The Big Bonfire&#10;Into Brinestump&#10;The Old Shipwreck"/>
+      <property name="Attr2" value="Gain a special goblin-themed boon!"/>
+      <property name="Attr3" value="During this adventure, you may discard a blessing to increase the difficulty of another character’s check to defeat a barrier by 4. This counts as playing a blessing."/>
+    </alternate>
+  </card>
+  <card id="7c33b102-65b2-4ff4-839f-c2b8d22c8eaa" name="Into Brinestump">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Woods&#10;The Old Light&#10;Warrens&#10;Treacherous Cave&#10;Garrison&#10;Guard Tower&#10;Mountain Peak&#10;Shrine to Lamashtu"/>
+    <alternate name="Into Brinestump" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="The difficulty to defeat banes with the Human or Vermin trait is increased by 4."/>
+      <property name="Attr2" value="Lotslegs Eat Goblings Many"/>
+      <property name="Attr3" value="Bandits"/>
+      <property name="Attr4" value="Each character gains a skill feat and a random item from the box."/>
+    </alternate>
+  </card>
+  <card id="8757e73f-de52-4de6-a0cb-274aeac70c13" name="The Big Bonfire">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The goblins of the Licktoad tribe are enjoying themselves and getting into all sorts of shenanigans… some of which might be deadly."/>
+    <property name="Attr1" value="Licktoad Camp"/>
+    <alternate name="The Big Bonfire" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When building the location Licktoad Camp, add all barriers with the Dare trait, as well as the barrier Dance with Squealy Nord. Then add a number of random barriers to the deck equal to the number of players. When you defeat a barrier, place it in a pile next to your character card. To win the scenario, close the location Licktoad Camp. "/>
+      <property name="Attr2" value="None"/>
+      <property name="Attr3" value="None"/>
+      <property name="Attr4" value="Loot: Bag of Slugs, Chief's Robe That is Useful, Dragon Brew Gourd, Gorge of Gluttons, Ring That Lets You Climb Real Good, Squealy Nord"/>
+    </alternate>
+  </card>
+  <card id="8dcf1b62-d19b-4a36-8469-54bc8d5d2b64" name="The Old Shipwreck">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The cannibalistic druid Vorka makes this old wreck of a ship her home. The fireworks are stored somewhere inside… go get 'em, gobs!"/>
+    <property name="Attr1" value="Horse Pen&#10;Ship's Deck"/>
+    <alternate name="The Old Shipwreck" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="After permanently closing the locations Horse Pen and Ship's Deck, summon and build the location Ship's Cabin. Add Vorka along with a number of monsters equal to the number of players.&#10;If you would defeat Vorka and there are cards left in the location Ship's Cabin, shuffle Vorka in with the remaining cards; she is undefeated."/>
+      <property name="Attr2" value="None"/>
+      <property name="Attr3" value="Stomp&#10;Cuddles"/>
+      <property name="Attr4" value="Each character gains a power feat and a random ally with the Animal trait from the box."/>
+    </alternate>
+  </card>
+ </cards>
+</set>
