@@ -1715,7 +1715,7 @@ def findScenario(group):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		scenario = findScenario(table)
-		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble','The Big Bonfire' ]: # These scenarios are only won when the last location is closed
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble','The Big Bonfire','The Old Shipwreck' ]: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				if scenario.Name in ['1-1D Crusaders Assemble']: #In Crusaders Assemble, after you close the last location, build Laboratory
@@ -1730,7 +1730,7 @@ def closePermanently(card, x=0, y=0):
 						location = findCardByName(shared.piles['Location'],'Laboratory')
 						newVillain = findCardByName(shared.piles['Villain'],'Ylyda Svyn')
 						if location is None:
-							whisper("Failed to find location {}".format(location.Name))
+							whisper("Failed to find location Laboratory")
 						else:
 							# Count the number of locations on the table
 							nl = 0 
@@ -1747,6 +1747,45 @@ def closePermanently(card, x=0, y=0):
 								location.moveToTable(LocationX(nl+1,nl+1), LocationY)
 							whisper("{} builds location {}".format(me,location))
 						return True, False
+				if scenario.Name in ['The Old Shipwreck']:
+					foundCabin = False
+					openLoc = False
+					for card in table:
+						if card.Type == 'Location' and card.Name == "Ship's Cabin":
+							foundCabin = True
+						if card.Type == 'Location' and isOpen(card):
+							openLoc = True
+					if foundCabin == True and openLoc == False:
+						gameOver(True)
+						return True, True
+					else:
+						location = findCardByName(shared.piles['Location'],"Ship's Cabin")
+						newVillain = findCardByName(shared.piles['Villain'],'Vorka')
+						if location is None:
+							whisper("Failed to find location Ship's Cabin")
+						else:
+							#Count the number of locations on the table
+							nl = 0
+							for card in table:
+								if card.Type == 'Location':
+									nl += 1
+							pileName = "Location{}".format(nl+1)
+							buildLocation(findScenario(table),location,shared.piles[pileName])
+							if newVillain is None:
+								whisper("Failed to find villain in the box")
+							else:
+								newVillain.moveTo(location.pile())
+								numPlayers = len(getPlayers())
+								i = 0
+								while i < numPlayers:
+									newMonster = shared.piles['Monster'].random()
+									newMonster.moveTo(location.pile())
+									i = i + 1
+								shuffle(location.pile())
+								location.moveToTable(LocationX(nl+1,nl+1), LocationY)
+							whisper("{} builds location {}".format(me,location))
+						return True, False
+							
 				else:	
 					gameOver(True)
 					return True, True
@@ -2363,7 +2402,7 @@ def scenarioSetup(card):
 			fermentedApples = findCardByName(shared.piles['Barrier'],"Eat the Fermented Apples")
 			if fermentedApples is not None:
 				fermentedApples.moveTo(licktoad.pile())
-			squealy = findCardByName(shared.piles['Barrier'],"Dance With Squealy Nord")
+			squealy = findCardByName(shared.piles['Barrier'],"Dance with Squealy Nord")
 			if squealy is not None:
 				squealy.moveTo(licktoad.pile())
 			playerNum = len(getPlayers())

@@ -336,7 +336,7 @@
     <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Magic"/>
     <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6+1; you may additionally discard this card to add another 1d6. If your check is against a monster that has the Animal and Mount traits, add another 2d6. &#10;If any d6 rolled using this weapon is a 1, count it as a 3, then discard this card."/>
   </card>
-  <card id="9d9cd7db-3ddc-4732-8918-4dca8440fe8e" name="Ring that Lets You Climb Real Good">
+  <card id="9d9cd7db-3ddc-4732-8918-4dca8440fe8e" name="Ring That Lets You Climb Real Good">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Boon"/>
@@ -551,20 +551,22 @@
     <property name="Abr" value="1"/>
     <property name="Copyright" value="No."/>
     <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
     <property name="Flavour" value="Ten-year-old Mogmurch is deranged. Mogmurch lives with his mate Rempty, who has an irritating habit of licking his face clean in public (especially when he leaves the village). She thinks his use of alchemy is very clever, and while she loves the flavor Mogmurch’s experiments leave on his face, she worries that he’ll some day blow himself up when she’s not around to watch. "/>
     <property name="Attr2" value="Weapon: 3  [ ] 4&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 3  [ ] 4  [ ] 5"/>
     <property name="Attr3" value="Item"/>
-  </card>
-  <card id="519f047e-6d05-4836-a8e9-8448f1cecd10" name="Mogmurch" size="Character">
-    <property name="Abr" value="1"/>
-    <property name="Copyright" value="No."/>
-    <property name="Type" value="Character"/>
-    <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
-    <property name="Attr1" value="When you would banish a card with the Alchemical or Liquid trait ([ ] or a spell), discard it instead.&#10;For your combat check, discard a card to use your Ranged skill + 1d6 with the Fire trait. ([ ] If you succeed, you may recharge a card with the Alchemical or Liquid trait from your discard pile.)&#10;When you are dealt damage by a barrier, reduce that damage by 1d4."/>
-    <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: 1d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: 1d4&#10;Charisma: 1d6  [ ] +1  [ ] +2"/>
-    <property name="Attr3" value="5  [ ] 6"/>
-    <property name="Attr4" value="[ ] Weapons, Light Armors"/>
+    <alternate name="Mogmurch" type="B">
+      <property name="Abr" value="1"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
+      <property name="Attr1" value="When you would banish a card with the Alchemical or Liquid trait ([ ] or a spell), discard it instead.&#10;For your combat check, discard a card to use your Ranged skill + 1d6 with the Fire trait. ([ ] If you succeed, you may recharge a card with the Alchemical or Liquid trait from your discard pile.)&#10;When you are dealt damage by a barrier, reduce that damage by 1d4."/>
+      <property name="Attr2" value="Strength: 1d6  [ ] +1  [ ] +2&#10;Dexterity: 1d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Ranged: Dexterity +2&#10;Constitution: 1d6  [ ] +1  [ ] +2  [ ] +3&#10;  Fortitude: Constitution +2&#10;Intelligence: 1d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Craft: Intelligence +3&#10;Wisdom: 1d4&#10;Charisma: 1d6  [ ] +1  [ ] +2"/>
+      <property name="Attr3" value="5  [ ] 6"/>
+      <property name="Attr4" value="[ ] Weapons, Light Armors"/>
+    </alternate>
   </card>
   <card id="9f782479-a83b-4bc4-881b-74c2909824f1" name="Poog of Zarongel" size="Character">
     <property name="Abr" value="1"/>
@@ -630,7 +632,7 @@
     <property name="Copyright" value="No."/>
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster1&#10;Barrier 2&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 1"/>
+    <property name="Attr1" value="Monster 1&#10;Barrier 2&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 1"/>
     <property name="Attr2" value="You may bury an ally to add 1d6 to your check to defeat a bane."/>
     <property name="Attr3" value="Succeed at a Charisma/Diplomacy 6 check or banish an item."/>
     <property name="Attr4" value="For the rest of the scenario, add 1d8 to all checks to defeat banes with the Human, Half-elf or Elf traits."/>
