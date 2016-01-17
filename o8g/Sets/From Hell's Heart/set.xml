@@ -829,7 +829,7 @@
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
     <property name="Flavour" value="The Chelish armada begins its attack! Admiral Druvalia Thrune is a merciless commander with the might of Cheliax's nearly invincible navy at her command. Prove your mettle against one of the deadliest fleets on the waves, or you'll see the Shackles fall to the devilish invaders!"/>
-    <property name="Attr1" value="Cannibal Isle&#10;Scar Bay&#10;Pinnacle Atoll&#10;Lonely Island&#10;Fringed of the Eye&#10;Raker Shoals&#10;Shark Island&#10;Coastline"/>
+    <property name="Attr1" value="Cannibal Isle&#10;Scar Bay&#10;Pinnacle Atoll&#10;Lonely Island&#10;Fringes of the Eye&#10;Raker Shoals&#10;Shark Island&#10;Coastline"/>
     <alternate name="The Armada" type="B">
       <property name="Abr" value="6"/>
       <property name="Copyright" value="No."/>

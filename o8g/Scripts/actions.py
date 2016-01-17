@@ -190,6 +190,8 @@ def isNotPermanentlyClosed(card):
 		return False
 	if card.Name in ('Abyssal Rift'): # This location can never be permanently closed
 		return True
+	if card.Name in ('Middle of Nowhere'): #This location is always permanently closed
+		return False
 	return card.alternate != "B"
 	
 #Any card loaded into the player area must be removed from the box otherwise we end up with duplicates
@@ -334,7 +336,8 @@ def closeLocation(card, perm):
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
 		return True
-	elif card.Name in ('Abyssal Rift'): # This location cannot be permanently closed
+	elif card.Name in ('Abyssal Rift','Gate of the Worldwound'): # This location cannot be permanently closed
+		notify("This location cannot be permanently closed!")
 		return False
 		
 	# Move cards from location pile back to box
@@ -377,7 +380,7 @@ def closeLocation(card, perm):
 		elif card.Name == 'Watchtower' and players > 4:
 			nextLoc = 'Guardpost'
 			locNum = 5
-		elif card.Name == 'Guardpost' and players >5:
+		elif card.Name == 'Guardpost' and players > 5:
 			nextLoc = 'Cemetery'
 			locNum = 6
 		else:
@@ -417,9 +420,12 @@ def closeLocation(card, perm):
 		debug("Unexplored ... '{}'".format(c))
 		if len(villain) == 0 and card.Name == 'Garrison' and c.Subtype in ['Weapon','Armor']:
 			c.moveTo(pile)
-		elif findScenario(table).Name == 'The Siege of Drezen': #put all leftover cards into the new location just built
+		elif findScenario(table).Name == 'The Siege of Drezen' and justBuilt is not None: #put all leftover cards into the new location just built
 			if justBuilt is not None:
 				c.moveTo(justBuilt)
+		elif findScenario(table).Name == 'Onslaught on Drezen' and c.Type == 'Bane':
+			c.moveTo(pile)
+			notify("Move all cards left at the closed location to the Sanctum. Build the Sanctum and add the villain Aponavicius if necessary.")
 		else:
 			banishCard(c)
 			
@@ -457,6 +463,27 @@ def closeLocation(card, perm):
 				jerribeth.moveToTable(PlayerX(-1)+25,StoryY)
 			else:
 				notify("Could not find Grillixbee and Jerribeth. Please retrieve them manually.")
+	
+	if findScenario(table).Name in ('Twisty Passages'):
+		locs = [ c for c in table if c.Type == "Location" and isNotPermanentlyClosed(c)]
+		positions = []
+		pileNames = []
+		i = 0
+		for location in locs:
+			x = cardX(location)
+			y = cardY(location)
+			positions.append([x,y])
+			locName = getPileName(location)
+			pileNames.append(locName)
+			location.moveTo(shared.piles['Internal'])
+			i = i + 1
+		shuffle(shared.piles['Internal'])
+		i = 0
+		for card in shared.piles['Internal']:
+			card.moveToTable(positions[i][0],positions[i][1])
+			card.link(shared.piles[pileNames[i]])
+			i = i+1
+		notify("The locations have been shuffled, leaving their piles in the same spots!")
 	return True
 	
 def cleanupGame(cleanupStory=False):
@@ -796,6 +823,15 @@ def InsideLucrehold(mode): #In Inside Lucrehold, Brinebones is shuffled into the
 		else:
 			brinebones.moveTo(shared.piles['Blessing Deck'])
 		
+def AudiencewiththeInheritor(mode): #In Audience with the Inheritor, Lady of Valor is shuffled into the blessings deck
+	if mode == 'Setup':
+		mute()
+		inheritor = findCardByName(shared.piles['Villain'],"Lady of Valor")
+		if inheritor == None:
+			whisper("Cannot find Lady of Valor!")
+		else:
+			inheritor.moveTo(shared.piles['Blessing Deck'])
+		
 def IslandsoftheDamned(mode):
 	if mode == 'Setup':
 		mute()
@@ -897,7 +933,7 @@ def playerReady(card):
 		for c in pile:
 			if c.Type == 'Character':
 				c.moveTo(me.hand)
-			elif c.Type == 'Feat':
+			elif c.Type in ('Feat','Cohort'):
 				c.moveTo(me.Buried)
 			else:
 				c.moveTo(me.Discarded)
@@ -946,11 +982,24 @@ def playerReady(card):
 	
 	cohort = getCohort()
 	if cohort is not None:
-		cohortCard = findCardByName(shared.piles['Cohort'],cohort)
-		if cohortCard is None:
-			notify("Could not find cohort {}".format(cohort))
+		cohortCard = findCardByName(me.hand,cohort)
+		if cohortCard is not None:
+			whisper("You already have your cohort in your hand!")
 		else:
-			cohortCard.moveTo(me.hand)
+			cohortCard = findCardByName(shared.piles['Cohort'],cohort)
+			if cohortCard is None:
+				notify("Could not find cohort {} in cohort pile, checking your cards!".format(cohort))
+				cohortCard = findCardByName(me.buried,cohort)
+				if cohortCard is None:
+					cohortCard = findCardByName(me.deck,cohort)
+					if cohortCard is None:
+						notify("Cohort {} is not in your cards either, did you banish it?".format(cohort))
+					else:
+						cohortCard.moveTo(me.hand)
+				else:
+					cohortCard.moveTo(me.hand)
+			else:
+				cohortCard.moveTo(me.hand)
 	
 	sync()
 	#The first player to drag to the table becomes the active player
@@ -1169,7 +1218,10 @@ def pickScenario(group=table, x=0, y=0):
 		while i <= cohortNum:
 			cohort = str(scenarioSpecific['cohort{}'.format(i)])
 			cohortCard = findCardByName(shared.piles['Cohort'],cohort)
-			cohortCard.moveToTable(PlayerX(-1)+(i*10),StoryY)
+			if cohortCard is not None:
+				cohortCard.moveToTable(PlayerX(-1)+(i*10),StoryY)
+			else:
+				whisper("Could not find cohort {}".format(cohortCard))
 			i = i + 1
 			
 		#Handle troop placement if there is one
@@ -1238,6 +1290,25 @@ def randomCards(group=table, x=0, y=0):
 		else: 
 			randomCardN(me, pile, trait, x, y, choice)
 
+def buildNewLocation(group=table, x=0, y=0):
+	scenario = findScenario(table)
+	locName = askString("Please enter the location name.","Loc")
+	if locName == None: 
+		whisper("You did not enter a location name. No location was built.")
+		return
+	else:
+		location = findCardByName(shared.piles['Location'],locName)
+		if location == None:
+			whisper("Could not find location {}. No location was built.".format(locName))
+			return
+		else:
+			cards = [ c for c in table if c.Type == "Location" ]
+			numLocs = len(cards)
+			locNum = numLocs + 1
+			buildLocation(scenario,location,shared.piles['Location{}'.format(locNum)])
+			location.moveToTable(x,y)
+			whisper("{} was built as location {}.".format(locName,locNum))
+			
 def hasTrait(card, trait):
 	if card is None:
 		return False
@@ -1397,28 +1468,6 @@ def exploreLocation(card, x=0, y=0):
 		whisper("Location is fully explored")
 		return
 	x, y = card.position
-	if findScenario(table).Name == 'Demondome' and pile.top().Name == 'Gelderfang':
-		locNum = len(getPlayers())+1
-		rapture = findCardByName(table,"Rapture of Rupture")
-		if rapture is None:
-			rupture = findCardByName(shared.piles['Location'],"Rapture of Rupture")
-			buildLocation(findScenario(table), rupture, shared.piles['Location{}'.format(locNum)])
-			pile.top().moveTo(shared.piles['Location{}'.format(locNum)])
-			rupture.moveToTable(LocationX(locNum,locNum), LocationY)
-			notify("Villain Gelderfang was found, was shuffled into the Rapture of Rupture.")
-			return
-	elif pile.top().Name == 'Deacon of Death':
-		choices = ["Yes","No"]
-		choice = askChoice("Do you want to bury a card to evade the Deacon of Death?",choices)
-		if choice == 0:
-			locNum = 0
-			if len(getPlayers()) < 6:
-				locNum = len(getPlayers())+3
-			else:
-				locNum = 8
-			nowhere = findCardByName(shared.piles['Location'],"Middle of Nowhere")
-			buildLocation(findScenario(table),nowhere, shared.piles['Location{}'].format(locNum))
-			nowhere.moveToTable(LocationX(locNum,locNum), LocationY)
 	pile.top().moveToTable(x, y+14)
 	
 def defaultAction(card, x = 0, y = 0):
@@ -1738,6 +1787,19 @@ def hideVillain(villain, x=0, y=0, banish=False):
 				flipCard(randLoc)
 			shuffle(randLoc.pile())
 			return
+	#In Audience with the Inheritor, Lady of Valor goes back into the blessings deck unless you choose to win
+	elif villain.Name == 'Lady of Valor' and findScenario(table).Name == 'Audience with the Inheritor':
+		choices = ("Yes","No")
+		win = askChoice("Would you like to win the game?",choices)
+		if win == 1:
+			gameOver(True)
+			return
+		else:
+			villain.moveTo(shared.piles['Blessing Deck'])
+			shuffle(shared.piles['Blessing Deck'])
+			advanceBlessingDeck()
+			whisper("Lady of Valor was shuffled into the blessings deck.")
+			return
 	
 	choices = [ 'Evaded', 'Defeated', 'Undefeated' ]
 	if banish:
@@ -1757,6 +1819,22 @@ def hideVillain(villain, x=0, y=0, banish=False):
 		notify("{} banishes '{}'".format(me, villain))
 		returnToBox(villain)
 		return
+	
+	if choices[choice-1] == 'Undefeated': #handle any villain-specific undefeated conditions
+		if villain.Name == 'Karsos':
+			maze = findCardByName(shared.piles['Location'],"Maze")
+			if maze is not None:
+				# Count the number of locations on the table
+				nl = 0 
+				for card in table:
+					if card.Type == 'Location':
+						nl += 1
+				pileName = "Location{}".format(nl+1)
+				buildLocation(findScenario(table),maze,shared.piles[pileName])
+				maze.moveToTable(LocationX(nl+1,nl+1), LocationY)
+				whisper("{} builds the Maze and must move there.".format(me))
+			else:
+				whisper("Could not find location Maze... Maze was not built!")
 	
 	# We need to hide the villain in an open location
 	defeated = choices[choice-1] == 'Defeated'		
@@ -1797,9 +1875,13 @@ def hideVillain(villain, x=0, y=0, banish=False):
 			closed, done = closePermanently(location) # If Villain(s) found in pile game is not over
 			if done:
 				return
-		
+
 	#If there are no open locations the villain has been cornered
 	open = [ card for card in table if isOpen(card) ]
+	for c in open:
+		if c.Name in ('Abyssal Rift','Gate of the Worldwound'):
+			open.remove(c)
+			closed = True
 	if len(open) == 0:
 		returnToBox(villain)
 		#In the Secret of Mancatcher Cove and Vengeance at Sundered Crag, if you defeat the main villain, build a new location and bring in another villain
@@ -1831,6 +1913,18 @@ def hideVillain(villain, x=0, y=0, banish=False):
 				whisper("{} builds location {}".format(me,location))
 			notify("{} banishes '{}'".format(me, villain))
 			returnToBox(villain)
+		#In Redeeming the Herald, give the player the option to summon and defeat Baphomet
+		elif findScenario(table).Name == 'Redeeming the Herald' and villain.Name == 'Corrupted Herald':
+			choices = ("I WILL DESTROY HIM!","NO WAY!")
+			choice = askChoice("Would you like to attempt to kill Baphomet?",choices)
+			if choice == 1:
+				baphomet = findCardByName(shared.piles['Villain'],"Baphomet")
+				baphomet.moveToTable(PlayerX(-1),StoryY)
+				whisper("You have challenged the Demon Lord Baphomet! FEAR HIM!")
+				return
+			elif choice == 2:
+				gameOver(true)
+				return
 		#In Shore Leave at Port Peril, pull out the Pirate Council and don't end the game yet.
 		elif findScenario(table).Name == 'Shore Leave at Port Peril' and villain.Name == 'Caulky Tarroon':
 			# Count the number of locations on the table
@@ -1874,7 +1968,7 @@ def hideVillain(villain, x=0, y=0, banish=False):
 				marqueLetter = findCardByName(shared.piles['Loot'],'Letter of Marque')
 				marqueLetter.moveToTable(LocationX(nl+1,nl+1),LocationY)
 				whisper("You've earned the Letter of Marque!")
-			gameOver(True)	
+			gameOver(True)
 		else:
 			notify("{} returns {} to the box".format(me, villain))
 		return
@@ -2193,11 +2287,13 @@ def scenarioSetup(card):
 	leaveSpace = 0 # We need to leave a space for 1 more location in some scenarios
 	if card.Name in ('Rimeskull','The Free Captains\' Regatta'):
 		nl = 8
-	elif card.Name in ('Into the Runeforge','Isle of the Black Tower',"The Demon's Redoubt",'0-6B The Battle of Abendego'):
+	elif card.Name in ('Audience with the Inheritor'):
+		nl = 6
+	elif card.Name in ('Into the Runeforge','Isle of the Black Tower',"The Demon's Redoubt",'Onslaught on Drezen','0-6B The Battle of Abendego'):
 		nl -= 1
-	elif card.Name in ['Scaling Mhar Massif','0-6E Into the Maelstrom']:
+	elif card.Name in ['Scaling Mhar Massif','The Pleasure Center','0-6E Into the Maelstrom']:
 		nl -= 2
-	elif card.Name in ['Press Ganged!','0-6F Lost in the Storm']:
+	elif card.Name in ['Press Ganged!','Justifiable Deicide','0-6F Lost in the Storm']:
 		nl = 1
 	elif card.Name == 'The Toll of the Bell':
 		nl = 2
@@ -2246,7 +2342,11 @@ def scenarioSetup(card):
 	if villain is not None and card.Name in ('Here Comes the Flood', 'The Road through Xin-Shalast','The Lady\'s Favor'):
 		villain.moveToTable(PlayerX(-4),StoryY)
 		villain.link(shared.piles['Special'])
-		
+
+	#In Justifiable Deicide, Deskari goes on the bottom of the deck
+	if card.Name == 'Justifiable Deicide':
+		villain.moveTo(shared.piles['Special'])
+	
 	#In Breaking the Dreamstone, pull out the special Role card
 	if card.Name == 'Breaking the Dreamstone':
 		bikendi = findCardByName(shared.piles['Story'],'Bikendi Otongu (Ghost Mage)')
@@ -2288,6 +2388,16 @@ def scenarioSetup(card):
 		henchmen = 'Nightbelly Boas'.split(',')
 		cardsPerLocation = 1
 		repeat = 1
+	elif card.Name == 'Justifiable Deicide':
+		cardsPerLocation = (len(players)*6)
+		henchCards = [c for c in shared.piles['Henchman'] if c.Abr in ('5','6')]
+		for m in henchCards:
+			m.moveTo(shared.piles['Location15'])
+		i = 0
+		while i < cardsPerLocation:
+			shared.piles['Location15'].random().moveTo(hidden)
+			i = i + 1
+		repeat = 1
 	elif 'Per Location: ' in card.Attr3 or ' per location' in card.Attr3 or ' per Location' in card.Attr3: # Special instructions for this one
 		henchmen = card.Attr3.replace('Per Location: ','').replace(' per Location', '').replace(' per location', '').replace('1 ','').replace('Random ','').split(', ')
 		cardsPerLocation = len(henchmen)
@@ -2307,6 +2417,13 @@ def scenarioSetup(card):
 		repeat = 1
 		# Move the Random henchman to the banes pile (this is our scenario pile) 
 		randHench.moveTo(shared.piles['Scenario'])	
+	elif card.Name == 'Death of the Storm King': #This scenario includes a cohort as a henchman, so that cohort is added to the hidden pile
+		cardsPerLocation = 1
+		henchmen = ('Flayed Man', 'Lord Stillborn', 'Abyssal Armys')
+		suture = findCardByName(shared.piles['Cohort'],"The Suture")
+		suture.moveTo(hidden)
+		repeat = 1
+		nl = nl - 1
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
@@ -2368,6 +2485,17 @@ def scenarioSetup(card):
 		index += 1
 	unlockPile(hidden)
 	
+	if card.Name == 'Justifiable Deicide': #In this scenario, the villain ends up on the bottom of the only location deck
+		deskari = findCardByName(shared.piles['Special'],"Deskari")
+		if deskari is not None:
+			deskari.moveToBottom(shared.piles['Location1'])
+		else:
+			deskari = findCardByName(shared.piles['Villain'],"Deskari")
+			if deskari is not None:
+				deskari.moveToBottom(shared.piles['Location1'])
+			else:
+				notify("Could not find the Villain!!")
+	
 	if card.Name == 'The Gibbering Swarm':
 		locs = [c for c in table if c.Type == 'Location']
 		for loc in locs:
@@ -2383,6 +2511,22 @@ def scenarioSetup(card):
 							break
 						c.moveTo(loc.pile())
 	
+	if card.Name == 'The Pleasure Center': #In this scenario, any henchmen left in the box are added to the Yearning House
+		whisper("Moving the extra henchmen into the Yearning House deck.")
+		yearning = findCardByName(table,"Yearning House")
+		if yearning is not None:
+			hench = findCardByName(shared.piles['Henchman'],"Sister Perversion")
+			if hench is not None:
+				hench.moveTo(yearning.pile())
+			foundLast = 0
+			while foundLast == 0:
+				hench = findCardByName(shared.piles['Henchman'],"Pleaser")
+				if hench is not None:
+					hench.moveTo(yearning.pile())
+				else:
+					foundLast = 1
+			shuffle(yearning.pile())
+
 	# Perform scenario specific actions
 	fn = cardFunctionName(card)
 	if fn in globals():
@@ -2406,7 +2550,7 @@ def scenarioSetup(card):
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
 			
-		if card.Name in ['Inside Lucrehold', 'The Fall of Kenabres', 'The Land of the Blind','The Feast of Spoils']: #shuffle extra cards into the deck
+		if card.Name in ['Inside Lucrehold', 'The Fall of Kenabres', 'The Land of the Blind','The Feast of Spoils','Audience with the Inheritor']: #shuffle extra cards into the deck
 			shuffle(dst)
 
 	mythPaths = [ c for c in table if c.Subtype == 'Mythic Path']
@@ -2606,7 +2750,7 @@ def displayHand(who):
 		for c in pile:
 			if c.Type == 'Feat':
 				c.moveTo(me.Buried)
-			elif c.Subtype == 'Cohort':
+			elif c.Subtype == 'Cohort' and c.Name != getCohort():
 				returnToBox(c)
 				whisper("Returning cohort {} to the box.".format(c.Name))
 			else:

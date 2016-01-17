@@ -55,6 +55,13 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="4"/>
   </card>
+  <card id="a3b504f9-bb70-4325-ab81-f2c5208c3585" name="Athlete">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Hireling&#10;Basic"/>
+  </card>
   <card id="5461a9e1-c056-406b-9316-b625b714d8f9" name="Bear">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
@@ -84,6 +91,13 @@
     <property name="Attr5" value="6"/>
     <property name="Attr6" value="OR"/>
   </card>
+  <card id="15d2eb44-3eb8-4aac-8a5b-3263caf40dfd" name="Caravan Guard">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Hireling&#10;Elite"/>
+  </card>
   <card id="74873861-7ecc-469c-ba24-1113cc7bf150" name="Carver">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -111,6 +125,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Dragon"/>
   </card>
   <card id="e99a061f-cb13-4930-a62a-f6abd4704be9" name="Chevalier">
     <property name="Abr" value="5"/>
@@ -122,27 +137,26 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="9"/>
   </card>
-  <card id="f2daf067-61ca-4144-a923-7f2f99e7fe27" name="Chevalier">
-    <property name="Abr" value="5"/>
+  <card id="96b3e502-0f24-4d5c-9ec9-dc959041503f" name="Clockwork Dragonling">
+    <property name="Abr" value="6"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
-    <property name="Traits" value="Halfling&#10;Aristocrat"/>
-    <property name="Attr1" value="Recharge this card to add 2d4 to your Melee combat check.&#10;Bury this card to reduce damage dealt to you to 0."/>
-    <property name="Attr2" value="Charisma&#10;Diplomacy"/>
-    <property name="Attr3" value="9"/>
+    <property name="Traits" value="Automaton"/>
   </card>
   <card id="9c501b00-2d4a-43fc-90a3-8af4096af0fd" name="Clockwork Librarian">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Automaton"/>
   </card>
   <card id="9095c76c-f76f-4df2-8f6d-9227ffcdf2c8" name="Clockwork Librarian">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Automaton"/>
   </card>
   <card id="4eb461b4-8774-47c8-86d5-7bfc518b76ca" name="Clockwork Owl">
     <property name="Abr" value="6"/>
@@ -270,11 +284,19 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
   </card>
+  <card id="f4997f57-02fb-47ea-9bbf-620972a476c0" name="Griffon">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Mount"/>
+  </card>
   <card id="0bc91173-0c8d-4a57-8995-cae3ae0740cf" name="Grizzled Mercenary">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Hireling"/>
   </card>
   <card id="9a1dac18-2e75-423e-a6d7-f6e9a1f83cc4" name="Guard">
     <property name="Abr" value="B"/>
@@ -346,6 +368,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic"/>
   </card>
   <card id="4419a0a2-4b37-47f6-b433-379e1ffa4714" name="Menagerie Keeper">
     <property name="Abr" value="1"/>
@@ -382,12 +405,20 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Scout"/>
   </card>
   <card id="cf00d62b-9925-45cd-a31e-4ee2bac5a3ae" name="Monkey">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+  </card>
+  <card id="2d4f7445-a8e8-4bbb-aaae-a50d9c637abe" name="Mountain Dog">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Mount"/>
   </card>
   <card id="f2c383a6-ca84-4ae5-9f4e-7fcc6e3d369c" name="Mountaineer">
     <property name="Abr" value="5"/>
@@ -406,6 +437,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Basic"/>
   </card>
   <card id="00a976b0-6847-45c0-adab-fd9e1d0b9af5" name="Noble Brat">
     <property name="Abr" value="B"/>
@@ -426,6 +458,20 @@
     <property name="Attr1" value="Recharge this card to add the adventure deck number of the current scenario to your check (minimum 1). &#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="7"/>
+  </card>
+  <card id="4a71e5c7-0e1d-4d29-b8d0-ed32faf16df2" name="Pegasus">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Mount"/>
+  </card>
+  <card id="947dfb96-6e15-4d38-9647-6a7a9e31c494" name="Pit Gladiator">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Warrior"/>
   </card>
   <card id="316f8fe6-1895-4473-9070-d7fdbffbbb7d" name="Princeling">
     <property name="Abr" value="6"/>
@@ -452,6 +498,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Pirate&#10;Basic"/>
   </card>
   <card id="f9735f92-e3cf-4d53-bfce-28998bbab5a8" name="Raconteur">
     <property name="Abr" value="1"/>
@@ -463,6 +510,20 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="5"/>
   </card>
+  <card id="3a1cfbd2-1f9a-4188-8588-de4d90ebbe37" name="Recruit">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Soldier&#10;Basic"/>
+  </card>
+  <card id="f30bd31a-ec08-47bb-a611-a92f69bb4760" name="Researcher">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Hireling&#10;Basic"/>
+  </card>
   <card id="3daec663-58ae-4627-8a17-30bef5ccefd8" name="Retainer">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -472,6 +533,13 @@
     <property name="Attr1" value="Recharge this card to add 1d4 to your check to acquire a weapon, an armor, an item, or an ally.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="4"/>
+  </card>
+  <card id="4843931d-2352-4ccf-b4a0-0a43a6ae08b0" name="Retriever">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Mount"/>
   </card>
   <card id="d43e481e-bf4f-4011-bc94-2656910f6e82" name="Reveler">
     <property name="Abr" value="3"/>
@@ -483,11 +551,19 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="7"/>
   </card>
+  <card id="83bafc2b-9daf-4967-9f16-5dbb2dcb6e25" name="Riding Horse">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Mount&#10;Basic"/>
+  </card>
   <card id="52f9bc7b-7ef6-4c0d-a800-62b8bf91ccfc" name="Rogue Ape">
     <property name="Abr" value="2"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Ape&#10;Rogue"/>
   </card>
   <card id="5c07889b-c68e-4e40-80ce-80d64fa36a8b" name="Saber-Toothed Tiger">
     <property name="Abr" value="2"/>
@@ -521,11 +597,19 @@
     <property name="Attr5" value="6"/>
     <property name="Attr6" value="OR"/>
   </card>
+  <card id="afa9a985-ca33-47cc-a96c-a96c839a2c05" name="Scribe">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Hireling"/>
+  </card>
   <card id="f6ff3513-a840-4003-aa0c-046a5522454b" name="Scribe">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Hireling"/>
   </card>
   <card id="682e5633-a467-4e0e-9487-d319b6b96bba" name="Smith">
     <property name="Abr" value="B"/>
@@ -564,18 +648,21 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Elite"/>
   </card>
   <card id="e728a789-a459-4fe2-b854-67cf3256275d" name="Soldier">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Elite"/>
   </card>
   <card id="d1a4117b-83ae-4634-89d3-918d00c52291" name="Squire">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Aristocrat"/>
   </card>
   <card id="5702ee3f-3e22-40b8-9cc3-6de06d368289" name="Standard Bearer">
     <property name="Abr" value="B"/>
@@ -609,6 +696,13 @@
     <property name="Attr1" value="Reveal this card and choose a character at your location. Shuffle a random card from her discard pile into her deck. Then recharge this card.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="6"/>
+  </card>
+  <card id="1c0e4ffa-7c9a-40ab-9816-078cd57f32b2" name="Teamster">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Hire&#10;Basic"/>
   </card>
   <card id="c6935e0c-2e91-4bfb-8560-6a66ab5e89d9" name="Toad">
     <property name="Abr" value="1"/>
@@ -663,6 +757,13 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="7"/>
   </card>
+  <card id="d796406f-4795-4ce4-9c9d-ecd30b107da7" name="Varisian Illusionist">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Human&#10;Wizard"/>
+  </card>
   <card id="267f3d27-6222-4b26-b931-5e502f124275" name="Velociraptor">
     <property name="Abr" value="6"/>
     <property name="Copyright" value="Yes."/>
@@ -683,6 +784,13 @@
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="4"/>
   </card>
+  <card id="f414aaea-9863-44b0-bffe-360905ac777f" name="Warhorse">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Animal&#10;Mount&#10;Elite"/>
+  </card>
   <card id="26d05fe2-08f4-4619-92ad-e4e5fc372f54" name="Wayfarer">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
@@ -702,6 +810,16 @@
     <property name="Attr1" value="Discard this card to attempt a Charisma or Diplomacy 6 check; if you succeed, evade a monster whose highest difficulty to defeat is 18 or lower.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="2"/>
+  </card>
+  <card id="dfd3df9f-2a75-4013-909d-ca2beaad9464" name="Adamantine Plate Armor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
+    <property name="Attr1" value="Reveal this card to reduce damage dealt to you by 1, or recharge it to reduce damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if you are proficient with heavy armors, discard this card instead.&#10;If you are proficient with heavy armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="14"/>
   </card>
   <card id="9ddf7a5f-8248-46df-ad87-66d498f8b333" name="Adamantine Plate Armor">
     <property name="Abr" value="6"/>
@@ -728,6 +846,13 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+  </card>
+  <card id="1c82173f-3dcb-44d9-b13f-c7ea0d11946f" name="Black Dragonhide Breastplate">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
   </card>
   <card id="7bd1552b-2bba-4b43-bc97-3c0eb031756a" name="Blackcloth Armor">
     <property name="Abr" value="2"/>
@@ -764,6 +889,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Basic"/>
   </card>
   <card id="c88451df-089d-4c56-9314-64a7ede4ca46" name="Chain Mail">
     <property name="Abr" value="B"/>
@@ -808,12 +934,28 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
+  </card>
+  <card id="d96739da-da24-49a1-8bb1-fde4335d6a37" name="Eagle Knight Dress Uniform">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Veteran"/>
+  </card>
+  <card id="d69cde7a-aa0e-4b46-b8cd-e9a73efe609e" name="Ebon Thorn">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
   </card>
   <card id="cd623ff1-13c8-4450-af06-3f735e5a6262" name="Elven Breastplate">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic&#10;Elite"/>
   </card>
   <card id="aee175d1-bd19-4d85-b06e-41afb1f5c51b" name="Elven Chain Shirt">
     <property name="Abr" value="1"/>
@@ -836,6 +978,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
   </card>
   <card id="6d13718a-c42d-40e7-b609-a47e7e1ac608" name="Fortified Leather Armor">
     <property name="Abr" value="1"/>
@@ -843,11 +986,47 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
   </card>
+  <card id="56c626dd-831b-487d-a64d-9455e691fba9" name="Fortified Shell Armor">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic&#10;Aquatic&#10;Elite"/>
+  </card>
+  <card id="e8027dd2-aecc-4587-be6c-75a927f8fd20" name="Fortress Shield">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Offhand&#10;Magic"/>
+  </card>
+  <card id="8fe27524-3929-432e-84cc-77944e7f3685" name="Full Plate">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Elite"/>
+  </card>
+  <card id="85f84527-0570-4861-b451-6c529d5c11dc" name="Helm">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Basic"/>
+  </card>
+  <card id="07cf381e-50cf-4f0c-82da-0e7cd38695ee" name="Helm of the Valkyrie">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
+  </card>
   <card id="bdc556fe-e057-4494-914c-3b158b63184e" name="Hide Armor of Fire Resistance">
     <property name="Abr" value="2"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic"/>
   </card>
   <card id="f4094e54-5f91-4615-85f5-d12edc797794" name="Invincible Breastplate">
     <property name="Abr" value="5"/>
@@ -874,12 +1053,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic"/>
   </card>
   <card id="4bacf501-c957-4fd5-90e0-0a2e27e48f31" name="Magic Full Plate">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
   </card>
   <card id="c737a0cb-9289-4c43-802f-d8a765253645" name="Magic Half-Plate">
     <property name="Abr" value="B"/>
@@ -921,6 +1102,13 @@
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="2"/>
   </card>
+  <card id="0a65539e-cb91-4a97-8b76-ef0acac33f87" name="Magic Scale Mail">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic&#10;Elite"/>
+  </card>
   <card id="6f580a2e-f9e3-48ab-82c0-064ab02d2c2c" name="Magic Shield">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -942,6 +1130,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Swashbuckling&#10;Elite"/>
   </card>
   <card id="2d89fdc5-832f-4376-98ff-6c50ffbe900f" name="Ophidian Armor">
     <property name="Abr" value="4"/>
@@ -1003,6 +1192,13 @@
     <property name="Attr2" value="Intelligence&#10;Arcane"/>
     <property name="Attr3" value="12"/>
   </card>
+  <card id="a2ab02c9-2d54-45e0-b1ab-98bfde6dfc1d" name="Scale Mail">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Basic"/>
+  </card>
   <card id="6d4ea74e-96e5-4047-a726-31742c4203d9" name="Shield of Fire Resistance">
     <property name="Abr" value="2"/>
     <property name="Copyright" value="Yes."/>
@@ -1019,6 +1215,13 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
   </card>
+  <card id="b87fc00f-b3ca-4608-bf6d-933f789c7606" name="Spiked Plate">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
+  </card>
   <card id="484a6d03-ec78-4ec5-bff8-62f4ccf9e929" name="Spiny Shield">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
@@ -1034,18 +1237,21 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Magic&#10;Elite"/>
   </card>
   <card id="0b8bbdcd-b999-4ee4-86d6-371554c816ae" name="Stanching Buckler">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Magic&#10;Elite"/>
   </card>
   <card id="8f4603f8-06d9-4366-b994-fa13b592e3c8" name="Winged Shield">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Offhand&#10;Magic"/>
   </card>
   <card id="c0623b38-4b61-4825-a913-b9d979c8de93" name="Wooden Armor">
     <property name="Abr" value="B"/>
@@ -1363,6 +1569,32 @@
     <property name="Attr5" value="5"/>
     <property name="Attr6" value="OR"/>
   </card>
+  <card id="f3903593-dfc3-4ee6-b3d0-78428fa10df3" name="Blessing of Iomedae">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Iomedae"/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any non-combat Charisma check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Charisma"/>
+    <property name="Attr3" value="4"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="5"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="daf7de49-7724-4ba9-876d-767e059d64de" name="Blessing of Iomedae">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Iomedae"/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any non-combat Charisma check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Charisma"/>
+    <property name="Attr3" value="4"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="5"/>
+    <property name="Attr6" value="OR"/>
+  </card>
   <card id="978d028c-4aa6-4393-9be6-a6666fa9c3e3" name="Blessing of Iomedae">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -1580,6 +1812,39 @@
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Divine"/>
     <property name="Attr3" value="5"/>
   </card>
+  <card id="0affb5d3-af35-4942-8877-2595db72fd02" name="Blessing of Pulura">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Pulura"/>
+  </card>
+  <card id="dfba56e0-2bb3-454c-9354-7c1f75fbee86" name="Blessing of Sarenrae">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Sarenrae"/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any non-combat Constitution check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Constitution"/>
+    <property name="Attr3" value="4"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="5"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="3aa7a167-04b8-4b6e-8a22-017eed8ed7c0" name="Blessing of Sarenrae">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Sarenrae"/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any non-combat Constitution check.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Constitution"/>
+    <property name="Attr3" value="4"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="5"/>
+    <property name="Attr6" value="OR"/>
+  </card>
   <card id="06675c40-244c-47c4-ba70-0adf91de62fa" name="Blessing of Sarenrae">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -1598,12 +1863,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Shelyn"/>
   </card>
   <card id="be039b30-4e71-4574-91be-bc6125669c4f" name="Blessing of Shelyn">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Shelyn"/>
   </card>
   <card id="cced1dc0-014b-47d0-9c90-6241b7ebba68" name="Blessing of Sivanah">
     <property name="Abr" value="1"/>
@@ -1688,11 +1955,26 @@
     <property name="Attr1" value="When you encounter this card, you automatically acquire it.&#10;Discard this card to add 1 die to any check.&#10;Discard this card to explore your location.&#10;You may instead treat this card as if it had the same powers as the top card of the blessings discard pile."/>
     <property name="Attr2" value="None"/>
   </card>
+  <card id="6fc0094c-3640-40c1-843f-6e7a947c927d" name="Blessing of the Inheritor">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Iomedae"/>
+  </card>
   <card id="e1b6cd40-1df7-477b-8355-56e56b904f9d" name="Blessing of Torag">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Torag"/>
+  </card>
+  <card id="4e67fb57-ab5c-47f7-9ffd-c000f19fab9c" name="Almanac">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Book&#10;Elite"/>
   </card>
   <card id="4e27cbd7-8dd0-4ccd-bc10-dcd99a5c4b58" name="Amulet of Life">
     <property name="Abr" value="B"/>
@@ -1749,6 +2031,20 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+  </card>
+  <card id="f9d93874-7ad0-461d-9f9a-33c57364760a" name="Book of the Loremaster">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Book&#10;Basic"/>
+  </card>
+  <card id="a2f66c15-8b91-481c-86f4-fe5880043b6d" name="Boomcrown">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic&#10;Attack&#10;Veteran"/>
   </card>
   <card id="d8ee9659-3149-4473-8642-1bdfc768209e" name="Boots of Elvenkind">
     <property name="Abr" value="2"/>
@@ -1876,6 +2172,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Tool&#10;Basic"/>
   </card>
   <card id="8980cbd3-fcea-441a-ad44-ee1b9cb0aef6" name="Crown of Charisma">
     <property name="Abr" value="1"/>
@@ -1886,6 +2183,13 @@
     <property name="Attr1" value="Reveal this card to add 1 die to your Diplomacy check.&#10;Recharge this card to succeed at your Diplomacy check."/>
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="5"/>
+  </card>
+  <card id="f6b4e186-a807-4c6a-bb14-212f62d8f016" name="Demon Hunter's Handbook">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Book&#10;Veteran"/>
   </card>
   <card id="3822df74-08d5-45d2-9a07-9c9e4556bce6" name="Emerald of Dexterity">
     <property name="Abr" value="B"/>
@@ -1904,6 +2208,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
   </card>
   <card id="47864dae-333f-473e-a6e3-166230c0df3e" name="Headband of Alluring Charisma">
     <property name="Abr" value="3"/>
@@ -1946,6 +2251,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
   </card>
   <card id="99e990ba-1d28-4895-a363-1c45d5b0a1db" name="Holy Water">
     <property name="Abr" value="B"/>
@@ -1956,6 +2262,27 @@
     <property name="Attr1" value="Discard this card to evade a bane with the Undead trait.&#10;Banish this card to defeat a bane that has the Undead trait whose highest difficulty to defeat is 10 or lower.&#10;After playing this card, succeed at a Wisdom or Divine 12 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Wisdom&#10;Divine"/>
     <property name="Attr3" value="8"/>
+  </card>
+  <card id="4d6851d7-6caf-4859-b7c2-7bd0dfaba26b" name="Holy Water Grenade">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Liquid&#10;Magic&#10;Divine&#10;Basic"/>
+  </card>
+  <card id="8033e8f6-3406-4c72-8574-c258b6782050" name="Horn of Battle Clarity">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Instrument&#10;Magic&#10;Elite"/>
+  </card>
+  <card id="82218b5d-6479-4d55-88c8-bc205e7ba2c6" name="Iron Shackles">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic"/>
   </card>
   <card id="04feab2b-e32c-4e68-a8e1-134d5990701a" name="Ivory Dice">
     <property name="Abr" value="2"/>
@@ -1975,6 +2302,13 @@
     <property name="Attr1" value="When you encounter this card, roll 1d6. On 1-3, shuffle it into a random open location; on 4-6, acquire it.&#10;When you would fail a check, reveal this card and choose odd or even. Then roll 1d6. If the roll matches your choice, recharge this card to succeed at the check. If the roll does not match, bury 3 cards from your hand."/>
     <property name="Attr2" value="None"/>
   </card>
+  <card id="278266f9-e78e-452b-a374-6feae362d72a" name="Knight's Pennon">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object"/>
+  </card>
   <card id="dba39541-6c5c-4d8c-ad87-414bf2471503" name="Magic Spyglass">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
@@ -1986,6 +2320,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic"/>
   </card>
   <card id="f2f76016-070e-44d6-bf28-85c2118fb772" name="Marked Cards">
     <property name="Abr" value="5"/>
@@ -2024,6 +2359,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Attack&#10;Fire&#10;Magic"/>
   </card>
   <card id="8ca1ee4d-687e-4308-877e-cdd70aadf10b" name="Net of Snaring">
     <property name="Abr" value="4"/>
@@ -2057,6 +2393,13 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
   </card>
+  <card id="156c8943-91ae-483e-a761-623dd7fbdffc" name="Portable Altar">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Divine&#10;Elite"/>
+  </card>
   <card id="8ca17400-9d9f-481e-af0b-f8f43c60706f" name="Potion of Energy Resistance">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -2068,6 +2411,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Liquid&#10;Alchemical"/>
   </card>
   <card id="b3ca01cd-e092-4f48-bd56-db8905547ada" name="Potion of Glibness">
     <property name="Abr" value="B"/>
@@ -2118,6 +2462,13 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
   </card>
+  <card id="dfa65808-1dc2-455a-84ce-36d67077fc16" name="Ring of Reflection">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic"/>
+  </card>
   <card id="de70b01f-c72e-43b0-a46f-51a95af7ddd2" name="Ruby of Charisma">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
@@ -2149,6 +2500,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Basic"/>
   </card>
   <card id="238f452c-4680-4def-9647-ee23c82ded29" name="Sihedron Ring">
     <property name="Abr" value="6"/>
@@ -2204,12 +2556,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Staff&#10;Magic&#10;Divine&#10;Healing"/>
   </card>
   <card id="897e121a-ff2e-42b1-ac6f-8e48a9351a67" name="Staff of Minor Healing">
     <property name="Abr" value="2"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Staff&#10;Magic&#10;Divine&#10;Healing"/>
   </card>
   <card id="eac61d3c-71b9-4ba2-86fa-1118aa7e377a" name="Thieves' Tools">
     <property name="Abr" value="B"/>
@@ -2232,6 +2586,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic"/>
   </card>
   <card id="5d87fa6e-0903-48b5-a5c4-ebc5873a273f" name="Wand of Scorching Ray">
     <property name="Abr" value="3"/>
@@ -2274,12 +2629,20 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Tool"/>
   </card>
   <card id="35bcbb3e-133c-4064-8d24-b49fb5512794" name="Wyvern Poison">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
+  </card>
+  <card id="081f81e7-589a-48ea-a777-c93ca9fcb6d0" name="Abeyance">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
   </card>
   <card id="eda63ad2-83c4-4085-aeea-41aae51c8325" name="Acid Arrow">
     <property name="Abr" value="B"/>
@@ -2353,11 +2716,19 @@
     <property name="Attr2" value="Intelligence&#10;Arcane"/>
     <property name="Attr3" value="12"/>
   </card>
+  <card id="bbb27da7-f7a2-4863-8359-bbb36119e7ab" name="Burst of Glory">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
+  </card>
   <card id="846b443f-b69a-457d-8a51-6a10c8ba89b6" name="Call Weapon">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Elite"/>
   </card>
   <card id="bc01646a-afc5-4105-aa72-999073191b11" name="Charm Person">
     <property name="Abr" value="B"/>
@@ -2403,6 +2774,16 @@
     <property name="Attr2" value="Wisdom&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>
+  <card id="15e8263b-67ff-4965-a6c9-cc4476c1954f" name="Cure">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine&#10;Healing&#10;Basic"/>
+    <property name="Attr1" value="Reveal this card and choose a character at your location. Shuffle 1d4+1 random cards from his discard pile into his deck, then discard this card.&#10;After playing this card, if you do not have the Divine skill, banish it; otherwise, you may succeed at a Divine 8 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="6"/>
+  </card>
   <card id="3e479c7c-c8e6-4d84-9919-3835ff01c406" name="Cure">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="Yes."/>
@@ -2418,6 +2799,13 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+  </card>
+  <card id="6a70fbef-996d-4a5d-8477-479775802308" name="Detect Evil">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
   </card>
   <card id="d4461e83-deb0-4115-9eaa-c1585b1a21bb" name="Detect Magic">
     <property name="Abr" value="B"/>
@@ -2440,12 +2828,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack"/>
   </card>
   <card id="0d5e26bc-05f8-4384-a9a0-7e7ccb756e07" name="Disintegrate">
     <property name="Abr" value="6"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Attack"/>
   </card>
   <card id="025179af-0f6b-47f1-b9ef-55ada62c8d0a" name="Displacement">
     <property name="Abr" value="4"/>
@@ -2472,6 +2862,13 @@
     <property name="Attr1" value="For your combat check, discard this card to use your Divine skill + 3d8. Add another 1d8 if the bane has the Undead trait.&#10;After playing this card, if you do not have the Divine skill, banish it; otherwise, succeed at a Divine 14 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Wisdom&#10;Divine"/>
     <property name="Attr3" value="12"/>
+  </card>
+  <card id="bddc3bba-1e50-49c4-b840-0c17fca21cf0" name="Divine Fortune">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
   </card>
   <card id="4ab98b6f-73e0-4090-a0b9-48ad16eb95ff" name="Dominate">
     <property name="Abr" value="6"/>
@@ -2658,6 +3055,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
+  </card>
+  <card id="2f25fe2a-67c1-4cd0-88ad-184352ea4851" name="Invoke">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
   </card>
   <card id="b7776a0f-7460-4cdc-a123-6547dd137436" name="Life Leech">
     <property name="Abr" value="5"/>
@@ -2716,11 +3121,19 @@
     <property name="Attr2" value="Wisdom&#10;Divine"/>
     <property name="Attr3" value="8"/>
   </card>
+  <card id="0d85be2f-03b5-480d-894a-444b53211368" name="Mass Cure">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine&#10;Healing"/>
+  </card>
   <card id="6a959f68-fc01-4524-8d96-22ddda6e2d18" name="Masterwork">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
   </card>
   <card id="d3ac5899-0116-4852-81a2-1bd9987ce955" name="Mirror Image">
     <property name="Abr" value="B"/>
@@ -2737,6 +3150,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
   </card>
   <card id="ea2e5d26-9566-48c5-a1ea-cddc1fa97203" name="Paralyze">
     <property name="Abr" value="2"/>
@@ -2763,6 +3177,16 @@
     <property name="Attr1" value="For your combat check, discard this card to use your Arcane skill + 2d12.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, succeed at an Arcane 14 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane"/>
     <property name="Attr3" value="12"/>
+  </card>
+  <card id="fd47e569-ebde-4642-80dd-8d5c44ada3cd" name="Protect">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
+    <property name="Attr1" value="Discard this card to reduce damage dealt to another character at your location by any amount. You are dealt Combat damage equal to half the amount reduced (rounded up). &#10;After playing this card, if you do not have the Divine skill, banish it; otherwise, you may succeed at a Divine 8 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="6"/>
   </card>
   <card id="e762b821-dafa-4b46-a409-78674d56f226" name="Protect">
     <property name="Abr" value="2"/>
@@ -2794,14 +3218,46 @@
     <property name="Attr2" value="Wisdom&#10;Divine"/>
     <property name="Attr3" value="12"/>
   </card>
+  <card id="ffc3e8c1-447f-4cae-b214-4f949c88d617" name="Recast">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
+  </card>
+  <card id="8248e985-b7e4-4efd-8d35-07b263613f76" name="Refuge">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
+  </card>
+  <card id="deeeace7-0b46-4b40-84ff-8ce0f8bbbd23" name="Renewal">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
+  </card>
   <card id="e5f753ee-76ec-402a-9e71-b8d0212d5cb3" name="Resist Energy">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
   </card>
   <card id="2dbbe515-789e-469f-bb2d-c41551d4548b" name="Righteousness">
     <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine"/>
+    <property name="Attr1" value="Display this card to add 1d6 to your combat checks. When you are dealt damage, recharge any cards you would discard. At the end of your turn, if you do not have the Divine skill, banish this card; otherwise, attempt a Divine 13 check.  If you succeed, recharge this card; if you fail, discard it."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="5bf6f39c-309d-4544-a994-693bb4ae1ba1" name="Righteousness">
+    <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
@@ -2829,6 +3285,20 @@
     <property name="Attr1" value="Display this card next to a closed location. While a character is at that location, instead of the first exploration of his turn, he may recharge 1d4+1 random cards from his discard pile. At the start of your turn, if you do not have the Arcane skill, banish this card; otherwise, attempt an Arcane 10 check. If you succeed, recharge this card; if you fail, discard it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane"/>
     <property name="Attr3" value="8"/>
+  </card>
+  <card id="2ff6a86a-7ac7-4ac7-ab64-78ccc43dfc2e" name="Sagacity">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic"/>
+  </card>
+  <card id="5ca34661-a813-40e3-a869-0b38da3d42cf" name="Sanctuary">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine&#10;Mental&#10;Basic"/>
   </card>
   <card id="cf414847-51ee-4d7a-82e9-d5ca6591a453" name="Scrying">
     <property name="Abr" value="3"/>
@@ -2877,12 +3347,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
   </card>
   <card id="b59e9913-2ef9-47a5-aa9f-6d2a0017359c" name="Speed">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine"/>
   </card>
   <card id="f5f71394-f002-4fa1-9b9a-df9178a62f4f" name="Sphere of Fire">
     <property name="Abr" value="1"/>
@@ -2895,6 +3367,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic"/>
   </card>
   <card id="134d5616-e0a4-480d-875c-abf19ea1d09e" name="Swipe">
     <property name="Abr" value="3"/>
@@ -2954,6 +3427,13 @@
     <property name="Attr1" value="Display this card on your turn. While displayed, for your combat check, you may use your Arcane or Divine skill + 2d6, or 2d10 if the bane has the Undead trait. Any other character at this location who encounters a monster adds 2d4 and the Fire trait to her combat check. At the end of your turn, if you do not have either the Arcane or Divine skill, banish this card; otherwise, attempt an Arcane or Divine 13 check. If you succeed, recharge this card; if you fail, discard it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="11"/>
+  </card>
+  <card id="4230a79b-2c10-4c99-8429-6fe03e1ebf28" name="Weapon of Awe">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine&#10;Elite"/>
   </card>
   <card id="5ab07845-5c89-4c03-b162-ea18561647f0" name="Web">
     <property name="Abr" value="2"/>
@@ -3020,6 +3500,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;Magic"/>
   </card>
   <card id="9a406950-55af-4d9a-b132-d036dd76a359" name="Bastard Sword">
     <property name="Abr" value="B"/>
@@ -3027,11 +3508,33 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
   </card>
+  <card id="a03e7579-def4-46fb-b1d9-b984f9ff8808" name="Battle Aspergillum">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Mace&#10;Melee&#10;Bludgeoning&#10;Elite"/>
+  </card>
   <card id="2261f313-25db-4313-8638-4bc00bd25525" name="Cestus +1">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Accessory&#10;Melee&#10;Bludgeoning&#10;Magic"/>
+  </card>
+  <card id="dbda7eac-fd0e-4106-ac3e-ee930b098d70" name="Cold Iron Longsword">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Elite"/>
+  </card>
+  <card id="640f4b89-ada0-4111-9560-67eb0e8cd792" name="Cold Iron Mace +1">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Mace&#10;Melee&#10;Bludgeoning&#10;Magic&#10;Elite"/>
   </card>
   <card id="2cb9b57a-e457-4a73-bc1b-38948a8d5d22" name="Cutlass">
     <property name="Abr" value="B"/>
@@ -3070,6 +3573,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Mace&#10;Melee&#10;Bludgeoning&#10;Magic"/>
   </card>
   <card id="11b55dda-7d66-48bb-871d-ed0e55af1f21" name="Dancing Scimitar +2">
     <property name="Abr" value="6"/>
@@ -3107,6 +3611,13 @@
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="10"/>
   </card>
+  <card id="bda083bd-8585-4675-b2d9-b143cb1d7939" name="Demonbane Longsword +2">
+    <property name="Abr" value="4"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic"/>
+  </card>
   <card id="d6b1b27c-b6dc-4a7a-9a9f-079f3e14beb6" name="Disrupting Rapier +1">
     <property name="Abr" value="3"/>
     <property name="Copyright" value="Yes."/>
@@ -3130,6 +3641,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic"/>
   </card>
   <card id="213a1b04-5604-47d1-b86f-58af61599817" name="Flaming Scimitar +1">
     <property name="Abr" value="2"/>
@@ -3156,6 +3668,13 @@
     <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6+3; you may additionally discard this card to add another 4d4 and the Force trait."/>
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="10"/>
+  </card>
+  <card id="0f01527b-a16b-4648-a84f-f77f8ac56b72" name="Frost Lance +2">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;2-Handed&#10;Magic"/>
   </card>
   <card id="b4c6d943-19f6-4cd6-b67d-310961a62b10" name="Frost Longbow +1">
     <property name="Abr" value="3"/>
@@ -3188,6 +3707,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Elite"/>
   </card>
   <card id="8c604fe8-004a-4309-a271-c86b9ac3d4bb" name="Grayflame Mace +2">
     <property name="Abr" value="5"/>
@@ -3204,6 +3724,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;2-Handed"/>
   </card>
   <card id="de69c0d3-0411-4120-8223-350ee1966b16" name="Greatclub +1">
     <property name="Abr" value="2"/>
@@ -3230,18 +3751,28 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;2-Handed"/>
+  </card>
+  <card id="1f4a58e0-ce95-408e-88d4-ba7310fdda2c" name="Heavy Pick">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Pick&#10;Melee&#10;Piercing&#10;Basic"/>
   </card>
   <card id="f2e9ea94-e886-4667-b385-ffc40dbc9ec3" name="Heavy Pick +1">
     <property name="Abr" value="2"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Pick&#10;Melee&#10;Piercing&#10;Magic"/>
   </card>
   <card id="baf45eb9-dc64-433e-97f6-f688ae088701" name="Humanbane Gladius +2">
     <property name="Abr" value="5"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Finesse&#10;Swashbuckling&#10;Magic"/>
   </card>
   <card id="409cd8be-6f60-4aed-8dc0-a24dac4a6740" name="Icy Hooked Hammer +1">
     <property name="Abr" value="3"/>
@@ -3272,6 +3803,27 @@
     <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d4+3; you may additionally discard this card to add another 1d4. If any d4 rolled for this weapon is a 4, count it as 5."/>
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="13"/>
+  </card>
+  <card id="1f523381-19eb-435c-a4d5-a40ed087f4d3" name="Lance">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;2-Handed&#10;Elite"/>
+  </card>
+  <card id="2c56d726-893c-4cef-bff8-3d1a5d9d427e" name="Lance +1">
+    <property name="Abr" value="1"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;2-Handed&#10;Magic&#10;Elite"/>
+  </card>
+  <card id="e354b5d2-bf71-41ce-b73e-c4b695cb1d8b" name="Lance of Jousting">
+    <property name="Abr" value="2"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;2-Handed&#10;Magic"/>
   </card>
   <card id="e307fcb4-ebdb-4a85-8d68-520e0a855858" name="Light Crossbow">
     <property name="Abr" value="B"/>
@@ -3320,12 +3872,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic"/>
   </card>
   <card id="90f61428-4286-46a8-b41f-3a5c3ae36871" name="Lucerne Hammer">
     <property name="Abr" value="1"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Elite"/>
   </card>
   <card id="331a8b18-45b2-4d01-8e0e-2987531d9638" name="Mace">
     <property name="Abr" value="B"/>
@@ -3336,6 +3890,13 @@
     <property name="Attr1" value="For your combat chec, reveal this card to use your Strength or Melee skill + 1d8; you may additionally discard this card to add another 1d4."/>
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="4"/>
+  </card>
+  <card id="7256c0c7-2a30-4892-ade7-badfe2e8691f" name="Mace of Smiting">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Mace&#10;Melee&#10;Bludgeoning&#10;Magic"/>
   </card>
   <card id="c3058be2-0961-477f-9b0d-387f4b5d86ce" name="Main-Gauche">
     <property name="Abr" value="B"/>
@@ -3376,6 +3937,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Elite"/>
   </card>
   <card id="f4550b12-a7dd-44c9-9482-e3d5d0ebf101" name="Rapier">
     <property name="Abr" value="B"/>
@@ -3444,6 +4006,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Scythe&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic"/>
   </card>
   <card id="fbfff7cf-ade7-49ac-bca4-71660a2477ff" name="Seeking Harpoon +1">
     <property name="Abr" value="3"/>
@@ -3460,6 +4023,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic"/>
   </card>
   <card id="2b9d8dac-b440-4ece-991c-d6db8131c4d6" name="Shock Greatsword +2">
     <property name="Abr" value="6"/>
@@ -3472,6 +4036,13 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+  </card>
+  <card id="4fc1311b-3be1-42d7-a515-b7e6782dcc57" name="Shocking Lance +1">
+    <property name="Abr" value="3"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Piercing&#10;2-Handed&#10;Magic"/>
   </card>
   <card id="869240e0-db16-43bf-8e8a-198f016a7a38" name="Short Sword +1">
     <property name="Abr" value="1"/>
@@ -3499,6 +4070,13 @@
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="5"/>
   </card>
+  <card id="bc8e5019-1f07-46b1-86b6-9d9e693c3ce8" name="Spellbreaker">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Staff&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Magic&#10;Mythic"/>
+  </card>
   <card id="799f5c36-978d-48e9-ad78-7c3d366772af" name="Spellsword +2">
     <property name="Abr" value="4"/>
     <property name="Copyright" value="Yes."/>
@@ -3514,6 +4092,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Chain&#10;Melee&#10;Piercing&#10;Finesse&#10;Magic"/>
+  </card>
+  <card id="7806b0d0-916e-4adc-bbfd-009929cc75fd" name="Sunsword">
+    <property name="Abr" value="6"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Magic"/>
   </card>
   <card id="e2d25a6b-7c9c-47a0-970c-9b61ee323659" name="Trident +2">
     <property name="Abr" value="3"/>
@@ -3548,12 +4134,14 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Hammer&#10;Melee&#10;Bludgeoning&#10;Elite"/>
   </card>
   <card id="524a4e05-72d4-4812-834c-f87a8c59290d" name="Warhammer +2">
     <property name="Abr" value="2"/>
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Hammer&#10;Melee&#10;Bludgeoning&#10;Magic"/>
   </card>
   <card id="5e37910e-5b3f-485a-9a53-f029fecc328a" name="Whip">
     <property name="Abr" value="B"/>
@@ -3889,6 +4477,38 @@
       <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Melee: Strength +2&#10;Dexterity: d6  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2  [ ] +3&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d8  [ ] +1  [ ] +2  [ ] +3&#10;  Divine: Wisdom +2&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3&#10;  Diplomacy: Charisma +2"/>
       <property name="Attr3" value="5  [ ] 6  [ ] 7  [ ] 8"/>
       <property name="Attr4" value="Light Armors, Heavy Armors, [ ] Weapons"/>
+    </alternate>
+  </card>
+  <card id="3d38b019-c0e7-4d57-8ddf-6642ce33e6cb" name="Koren (Gilded Fist)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Half-Orc&#10;Paladin"/>
+    <alternate name="Koren (Gilded Fist)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Half-Orc&#10;Paladin"/>
+    </alternate>
+  </card>
+  <card id="6e99eefd-9229-4db2-84bd-eca5b5cb77f2" name="Koren (Unflagging Companion)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Half-Orc&#10;Paladin"/>
+    <alternate name="Koren (Unflagging Companion)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Half-Orc&#10;Paladin"/>
     </alternate>
   </card>
   <card id="285cff03-5696-4d3d-b04f-8b83ed10ea45" name="Kyra (Fireflower)" size="Role">
@@ -4235,6 +4855,78 @@
       <property name="Type" value="Character"/>
       <property name="Subtype" value="Role"/>
       <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="7ae6d2c9-9689-4e08-953c-9aa0e227f7c2" name="Raz (Dog Rider Knight)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Gnome&#10;Paladin"/>
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Divine: Wisdom +1&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2"/>
+    <property name="Attr3" value="Ally"/>
+    <alternate name="Raz (Dog Rider Knight)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Gnome&#10;Paladin"/>
+      <property name="Attr1" value="You may discard the top card of your deck to add 1d6 ([ ] +1) ([ ] +2) ([ ] +3) to your check. If that card has the Mount trait, you may recharge it instead.&#10;When you attempt a check to acquire a weapon or an armor ([ ] or an item or an ally), you may use your Diplomacy skill instead of any listed skill.&#10;When a character at another location encounters a monster, you may bury ([ ] or discard) a card that has the Mount trait to allow that character to evade the monster; you then move to that location and encounter it.&#10;[ ] At the start ([ ] or end) of your turn, you may discard a card from your hand to draw a card that has the Mount trait from your discard pile.&#10;[ ] Add 2 ([ ] 4) to your check that has or is against a card that has the Polearm trait.&#10;[ ] When you would bury an armor for its power, you may discard ([ ] or recharge) it instead."/>
+      <property name="Attr3" value="4  [ ] 5"/>
+    </alternate>
+  </card>
+  <card id="af7e5336-0da7-46e8-9c91-70d5d59961a6" name="Raz (Fair Trader)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Gnome&#10;Paladin"/>
+    <property name="Attr2" value="Strength: d8  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Melee: Strength +2&#10;Dexterity: d8  [ ] +1  [ ] +2&#10;Constitution: d6  [ ] +1  [ ] +2&#10;Intelligence: d4  [ ] +1&#10;Wisdom: d6  [ ] +1  [ ] +2&#10;  Divine: Wisdom +1&#10;Charisma: d10  [ ] +1  [ ] +2  [ ] +3  [ ] +4&#10;  Diplomacy: Charisma +2"/>
+    <property name="Attr3" value="Ally"/>
+    <alternate name="Raz (Fair Trader)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Gnome&#10;Paladin"/>
+      <property name="Attr1" value="You may discard the top card of your deck to add 1d6 ([ ] +1) ([ ] +2) to your check. If that card has the Mount trait, you may recharge it instead.&#10;When you attempt a check to acquire a weapon or an armor ([ ] or an item or an ally), you may use your Diplomacy skill instead of any listed skill.&#10;When a character at another location encounters a monster ([ ] or a weapon or an armor), you may bury ([ ] or discard) a card that has the Mount trait to allow that character to evade the monster; you then move to that location and encounter it.&#10;[ ] You may recharge a card that has the Mount trait to give a card to another character ([ ] and that character may give you a card). This power may not be used during an encounter.&#10;[ ] When you acquire ([ ] or a character at your location acquires) a weapon or an armor ([ ] or a spell or an item), you may exchange it for a random card of the same type from the box."/>
+      <property name="Attr3" value="4  [ ] 5  [ ] 6"/>
+    </alternate>
+  </card>
+  <card id="c01c04c4-4295-4d5c-9a56-a670ca8a8bfb" name="Seelah (Faith Healer)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+    <alternate name="Seelah (Faith Healer)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+    </alternate>
+  </card>
+  <card id="db5f3b20-7cfb-4a8b-a7f5-c03369916a8f" name="Seelah (Light of the Sword)" size="Role">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Role"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+    <alternate name="Seelah (Light of the Sword)" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype" value="Role"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
     </alternate>
   </card>
   <card id="2fabef58-6af8-41f7-976e-b6cb0c6b4603" name="Seoni (Dragon Initiate)" size="Role">
@@ -4809,6 +5501,20 @@
       <property name="Attr4" value="Light Armors, Heavy Armors, [ ] Weapons"/>
     </alternate>
   </card>
+  <card id="412b6a28-9f7f-4142-969b-a2037e00a5c0" name="Koren" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Male&#10;Half-Orc&#10;Paladin"/>
+    <alternate name="Koren" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Male&#10;Half-Orc&#10;Paladin"/>
+    </alternate>
+  </card>
   <card id="ea0042db-0d38-400b-8f00-f97eddc4918c" name="Kyra" size="Character">
     <property name="Abr" value="B"/>
     <property name="Copyright" value="No."/>
@@ -4972,6 +5678,34 @@
       <property name="Copyright" value="No."/>
       <property name="Type" value="Character"/>
       <property name="Subtype2" value="Back"/>
+    </alternate>
+  </card>
+  <card id="f245adaf-b809-44bb-9c81-c12ae11d60d5" name="Raz" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Gnome&#10;Paladin"/>
+    <alternate name="Raz" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Gnome&#10;Paladin"/>
+    </alternate>
+  </card>
+  <card id="3e7df80f-1654-4612-951e-c32fbf01059d" name="Seelah" size="Character">
+    <property name="Abr" value="B"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
+    <alternate name="Seelah" type="B">
+      <property name="Abr" value="B"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Character"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Female&#10;Human&#10;Paladin"/>
     </alternate>
   </card>
   <card id="e3afcf51-b55e-46a1-b245-26dfcaf23354" name="Seoni" size="Character">

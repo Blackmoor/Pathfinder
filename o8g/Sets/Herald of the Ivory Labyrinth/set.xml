@@ -1,5 +1,881 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Herald of the Ivory Labyrinth" id="80dc9d71-30bd-4613-8b18-f12f0de2f84f" gameId="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" gameVersion="2.0.0.0" version="3.0.0.0">
  <cards>
+  <card id="98465b21-cee2-4551-9540-b3379b0f2ca2" name="Deal with a Demon">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Temptation&#10;Demon"/>
+    <property name="Attr1" value="Display this barrier next to the scenario; it is defeated. If another barrier is next to the scenario, banish 1 of them.&#10;While displayed, each time a character encounters a henchman or villain, you may roll 1d12. On an odd result, the difficulty of checks to defeat the card is increased by that amount; on an even result, add that amount to your checks to defeat."/>
+    <property name="Attr2" value="None"/>
+  </card>
+  <card id="a22dc8dd-9afc-46a7-8fe7-6df373818721" name="Groaning Gate">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Obstacle&#10;Magic&#10;Mythic"/>
+    <property name="Attr1" value="If defeated, you may examine the top card of your location; if it is your turn, you may explore your location.&#10;If undefeated, each character at this and 1 other random occupied location is dealt 2d4+1 Mental damage which may not be reduced."/>
+    <property name="Attr2" value="Knowledge&#10;Arcane&#10;Divine"/>
+    <property name="Attr3" value="19"/>
+    <property name="Attr4" value="Disable"/>
+    <property name="Attr5" value="16"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="a2ecca40-4220-408e-a5cd-a80271bf1c43" name="Magic Ray Fusillade">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Trap&#10;Magic&#10;Arcane"/>
+    <property name="Attr1" value="If undefeated, a random character at your location is dealt 1d4-1 Fire damage, then 1d4-1 Cold damage, then 1d4-1 Fire damage, then 1d4-1 Force damage, then 1d4-1 Fire damage."/>
+    <property name="Attr2" value="Arcane&#10;Acrobatics&#10;Stealth"/>
+    <property name="Attr3" value="18"/>
+  </card>
+  <card id="b01ba650-8836-4e78-bb90-1a052d84ded3" name="Maze Tapestry">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Barrier"/>
+    <property name="Traits" value="Obstacle&#10;Magic"/>
+    <property name="Attr1" value="If undefeated, summon and build the location Maze and move to it. Then roll 1d20; if the result is greater than the scenario's adventure deck number plus the number of characters, this barrier is defeated; otherwise, it is undefeated."/>
+    <property name="Attr2" value="Wisdom&#10;Perception&#10;Survival"/>
+    <property name="Attr3" value="15"/>
+  </card>
+  <card id="450ed957-aa8c-44d1-96f4-146b7b9d1237" name="Herald's Heart">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Obstacle&#10;Object"/>
+    <property name="Attr1" value="Before you act, summon and defeat the henchman Inger-Maggor or the Herald's Heart is undefeated. If Inger-Maggor is defeated, any 1 character may attempt the check to defeat the Herald's Heart; if defeated, that character adds it to his hand, and you may immediately attempt to close the location this henchman came from.&#10;Display the Herald's Heart next to the scenario to succeed at your check to defeat the villain Corrupted Herald."/>
+    <property name="Attr2" value="Intelligence&#10;Knowledge"/>
+    <property name="Attr3" value="18"/>
+  </card>
+  <card id="0d6bcd2a-da71-4237-bb62-08519830461c" name="Inger-Maggor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Minotaur&#10;Paladin&#10;Mythic"/>
+    <property name="Attr1" value="Before you act, each other character at your location must succeed at a Stealth or Survival 12 check or expend 1d4-1 mythic charges and summon and build the location Maze and move to it.&#10;If this is the first exploration of your turn, the difficulty to defeat Inger-Maggor is increased by 1d20.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="30"/>
+  </card>
+  <card id="7fe595a8-e35f-4dd1-a778-e085e215ab31" name="Labyrinth Minotaur">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Minotaur"/>
+    <property name="Attr1" value="If this is the first exploration of your turn, before you act, each other character at your location attempts a Stealth or Survival 10 check. Characters that fail are dealt 1d4+1 Combat damage and move to a random location.&#10;If undefeated, recharge your hand, then summon and build the location Middle of Nowhere and move to it.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="28"/>
+  </card>
+  <card id="4683a73e-d203-4be6-bfc1-65d5eea965aa" name="Rite of Heraldry">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Divine&#10;Iomedae"/>
+    <property name="Attr1" value="The Rite of Heraldry may not be evaded; if you have a card in hand that has the Corrupted trait, this barrier is undefeated.&#10;You may recharge a card that has the Iomedae trait to add 1d20 to your check to defeat this barrier.&#10;If undefeated, each character at your location is dealt 1d10 Force damage that may not be reduced.&#10;If defeated, you may put a marker on the card Heaven."/>
+    <property name="Attr2" value="Melee&#10;Fortitude&#10;Divine&#10;Diplomacy"/>
+    <property name="Attr3" value="20"/>
+  </card>
+  <card id="eb646e1a-02b3-497c-bc3d-f5c664653b0d" name="Stringy Fiend">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Outsider&#10;Fiend"/>
+    <property name="Attr1" value="The Stringy Fiend may not be evaded and is immune to the Acid and Poison traits.&#10;Before you act, each character at a random other occupied location must succeed at a Dexterity or Acrobatics 10 check or move to this location and be unable to play weapons or spells during this encounter.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="33"/>
+  </card>
+  <card id="9012dfae-fef9-4032-80d0-e266702235b8" name="Svendack">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Elf&#10;Cleric&#10;Mythic"/>
+    <property name="Attr1" value="Before you act, each character at your location must succeed at a Dexterity or Acrobatics 12 check or be dealt 2d4 Fire damage.&#10;While you act, when you are dealt damage by Svendack, discard cards from the top of your deck instead of your hand.&#10;If defeated, you may shuffle Svendack into a random other open location to immediately attempt to close the location this henchman came from."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="28"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="32"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="2226a565-f098-4837-b6ae-c54b5a0fc270" name="Treachery Demon">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Henchman"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Servitor"/>
+    <property name="Attr1" value="The Treachery Demon may not be evaded and is immune to the Electricity and Poison traits.&#10;Before the encounter, succeed at a Wisdom 12 check or a random character at this location is dealt an amount of Combat damage equal to the number of spells that have the Attack trait and weapons in your hand.&#10;If undefeated, discard 2 cards from the top of your deck. If defeated, draw 2 cards."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="24"/>
+  </card>
+  <card id="bf8cf42c-0548-42be-a748-5a9a2ca3d1d1" name="Alderpash's Ghoul">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Undead&#10;Ghoul"/>
+    <property name="Attr1" value="Alderpash's Ghoul is immune to the Mental and Poison trait.&#10;Before you act, succeed at an Intelligence or Arcane 14 check or each character at your location is dealt 1d4+1 Combat damage.&#10;If undefeated, end your turn."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="23"/>
+  </card>
+  <card id="a20c9776-4e22-4f74-8e57-306f6136a846" name="Corruption Demon">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon"/>
+    <property name="Attr1" value="The Corruption Demon is immune to the Electricity, Mental, and Poison traits.&#10;Before you act, succeed at an Intelligence or Knowledge 14 check or summon and build the location Middle of Nowhere and move there.&#10;If undefeated, display this card next to your deck. While displayed, your Intelligence, Wisdom, and Charisma dice are each d4. At the start of your turn, you may bury 1d4 cards to banish this card."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="25"/>
+  </card>
+  <card id="232ec25c-7fcf-4925-8e4b-4c9c865c62fd" name="Demonic Cyclops">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Giant"/>
+    <property name="Flavour" value="They say a cyclops's eye can see the future. This one obviously didn't like what it saw."/>
+    <property name="Attr1" value="The Demonic Cyclops is immune to the Electricity and Poison traits. Damage dealt by the Demonic Cyclops is dealt to each character at your location.&#10;Before you act, examine the top 2 cards of your deck; recharge 1 and bury 1."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="28"/>
+  </card>
+  <card id="a9cb9da9-2815-4144-ae2c-abae609f3e37" name="Slimy Fiend">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Fiend"/>
+    <property name="Flavour" value="These froglike fiends are deployed as shock troops or tasked with guarding slaves."/>
+    <property name="Attr1" value="The Slimy Fiend is immune to the Acid and Poison traits. Before you act, succeed at an Arcane or Divine 17 check or you may not play spells that have the Attack trait.&#10;After you act, if the check to defeat did not have the Attack or Ranged trait, the Slimy Fiend deald 1d4+1 Acid damage to you."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="22"/>
+  </card>
+  <card id="adc59bb5-1737-46c7-b0ee-307c91dabc17" name="Tarry Fiend">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Fiend"/>
+    <property name="Flavour" value="Bred for battle, these swift, deadly fiends serve as grunts in demonic armies."/>
+    <property name="Attr1" value="The Tarry Fiend is immune to the Acid and Poison traits. Before you act, succeed at an Arcane or Divine 15 check or you may not play spells that have the Attack trait.&#10;If you play a weapon that has the Melee trait against the Tarry Fiend, bury that weapon."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="21"/>
+  </card>
+  <card id="0f1020c8-5f93-4f25-9025-1ae904d4a88b" name="Upasunda">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Fiend&#10;Monk"/>
+    <property name="Attr1" value="The Upasunda is immune to the Poison trait. Before you act, succeed at an Arcane or Divine 14 check or you may not play spells that have the Attack trait.&#10;The Upasanda's difficulty to defeat cannot be reduced. If the check to defeat has the Attack or Ranged trait, the difficulty is increased by 3.&#10;After you act, the Upasunda deals 1d6 Combat damage to you."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="24"/>
+  </card>
+  <card id="780705fe-09a2-4ad9-a537-45a1cf5b6957" name="Xenarth">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon"/>
+    <property name="Flavour" value="Deadlier than any shark, these rare mutations are infused with demon ichor."/>
+    <property name="Attr1" value="The Xenarth is immune to the Electricity and Poison traits.&#10;Before you act, the Xenarth deals 2 Acid damage to each character at your location.&#10;If undefeated, the Xenarth deals 2 Poison damage to you.&#10;If defeated, and there are 4 or more cards in its location deck, shuffle the Xenarth into its location deck."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="24"/>
+  </card>
+  <card id="90f81748-10ae-4d7d-b018-527711f00ead" name="Baphomet">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Deity&#10;Outsider&#10;Demon&#10;Minotaur&#10;Aristocrat&#10;Mythic"/>
+    <property name="Flavour" value="The Demon Lord of Beasts has commanded his host of Ivory Templars to desecrate the world."/>
+    <property name="Attr1" value="Baphomet cannot be evaded and is immune to the Electricity, Fire, Mental and Poison traits.&#10;If you fail a check to defeat Baphomet, draw a number of cards equal to your hand size."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="45"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="55"/>
+    <property name="Attr6" value="THEN"/>
+    <property name="Attr7" value="Combat"/>
+    <property name="Attr8" value="65"/>
+    <property name="Attr9" value="THEN"/>
+  </card>
+  <card id="f3dfd61d-5848-4292-99c2-93cf8796e7a4" name="Corrupted Herald">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Mythc"/>
+    <property name="Attr1" value="The Corrupted Herald cannot be evaded and is immune to the Electricity and Poison traits.&#10;When any charcter plays a boon that has the Attack or Ranged trait, she buries a card.&#10;Damage dealt by the Corrupted Herald is dealt to you as Combat damage then dealt to a random character at your location as Fire damage."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="45"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="50"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="c0cc5fe2-92e1-46a4-9084-06e5b9f0b7cc" name="Lady of Valor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Barrier"/>
+    <property name="Traits" value="Deity&#10;Outsider&#10;Paladin&#10;Mythic"/>
+    <property name="Attr1" value="Before you act, characters may recharge any number of boons that have the Iomedae trait. For each card discarded, add 1d20 to your check to defeat.&#10;The difficulty of the check to defeat is increased by 10 times the number of characters.&#10;If undefeated, each character is dealt 1d10 Force damage that may not be reduced.&#10;After the encounter, advance the blessings deck, then shuffle Lady of Valor into it."/>
+    <property name="Attr2" value="Melee&#10;Fortitude&#10;Divine&#10;Diplomacy"/>
+    <property name="Attr3" value="20"/>
+  </card>
+  <card id="4bec03f2-27a1-43e1-b2ea-2ac355085807" name="Odeenka">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Soldier"/>
+    <property name="Flavour" value="Six arms is better than two."/>
+    <property name="Attr1" value="Odeenka is immune to the Electricity and Poison traits. You may succeed at a Charisma or Diplomacy 14 check to evade Odeenka.&#10;Before you act, each character at your location is dealt 1d6 Combat damage; the difficulty of checks to defeat Odeenka is increased by your result."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="28"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="30"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="6aa346ce-a1bb-489b-af1a-9947e1f84e79" name="The Father of Worms">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Undead&#10;Mythic"/>
+    <property name="Attr1" value="The Father of Worms cannot be evaded and is immune to the Acid, Cold, Mental, and Poison traits. When you play a weapon that has the Melee trait against the Father of Worms, bury that weapon.&#10;Before you act, each character at your location attempts a Dexterity or Acrobatics 12 check. Characters who succeed are dealt 1 Cold damage; characters who fail are dealt 1d4 Cold damage and expend 1 mythic charge."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="40"/>
+  </card>
+  <card id="06b73fe2-9c26-4b1f-84da-b09998566b77" name="Ylleshka">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Bane"/>
+    <property name="Subtype" value="Villain"/>
+    <property name="Subtype2" value="Monster"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Mythic"/>
+    <property name="Attr1" value="Ylleshka is immune to the Electricity and Poison traits. If you succeed at an Intelligence or Knowledge 12 check, add 5 to your checks to defeat.&#10;Before you act, each character at your location is deald 1d12 Combat damage; the difficulty of a character's checks to defeat Ylleshka is increased by his result."/>
+    <property name="Attr2" value="Combat"/>
+    <property name="Attr3" value="30"/>
+    <property name="Attr4" value="Combat"/>
+    <property name="Attr5" value="33"/>
+    <property name="Attr6" value="THEN"/>
+  </card>
+  <card id="70e06699-6a73-4bc7-820a-da565c904f74" name="Orengofta">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Outsider&#10;Demon&#10;Mythic"/>
+    <property name="Attr1" value="To acquire this card, examine a number of cards from the blessings deck equal to the number of characters; discard all that do not have the Corrupted trait, then shuffle the blessings deck.&#10;Bury this card and expend a mythic charge to search your location deck for a villain and put it on top of that deck. If you do not find a villain, each character summons and encounters this adventure's servitor demon."/>
+    <property name="Attr2" value="None"/>
+  </card>
+  <card id="743ff6df-712f-4841-9856-eda2a61c81bd" name="Runelord Alderpash">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Undead&#10;Lich&#10;Evoker"/>
+    <property name="Attr1" value="Runelord Alderpash may not be evaded. To acquire this card, bury a spell that has an adventure deck number of 4 or higher; if you do not, each character is dealt 2d4+1 Fire damage.&#10;Discard this card to add 2d4+1 and the Acid, Cold, Electricity, Fire or Force trait to your combat check.&#10;Banish this card and discard your hand to permanently close your location, then end  your turn."/>
+    <property name="Attr2" value="None"/>
+  </card>
+  <card id="54b6e827-da87-4282-88d8-fcea8b586bb8" name="Suurlahetas">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Outsider&#10;Devil"/>
+    <property name="Attr1" value="To acquire this card, shuffle a random monster from the box into each open location deck without looking at them.&#10;Discard this card to add 2d6 and the Fire trait to your combat check.&#10;Banish this card to search a location deck for a boon and add it to your hand."/>
+    <property name="Attr2" value="None"/>
+  </card>
+  <card id="1adf8345-b2cd-4a3e-a98e-7d56544a0623" name="Verbovezzor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Vermin&#10;Swarm&#10;Mythic"/>
+    <property name="Attr1" value="To acquire this card, each character summons and encounters the henchman Vescavor Swarm. If all the henchmen are defeated by at least 10, you acquire this card.&#10;Display this card and take a number of mythic charges equal to your charges from the box and put them on this card. While displayed, each character may expend any number of these charges a if they were her own this turn. At the end of the turn, shuffle this card into a random open location deck."/>
+    <property name="Attr2" value="None"/>
+  </card>
+  <card id="5607fcb7-7e9a-4e27-941b-b5d809e29cea" name="Waxberry">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Ally"/>
+    <property name="Traits" value="Halfling&#10;Cleric"/>
+    <property name="Attr1" value="To acquire this card, summon and defeat the henchman Stringy Fiend.&#10;Bury this card and choose a character at your location to shuffle 1d4+2 random cards from his discard pile into his deck.&#10;Discard this card to explore your location. If the top card of the blessings discard pile has the Iomedae trait, you may recharge this card instead of discarding it."/>
+    <property name="Attr2" value="None"/>
+  </card>
+  <card id="ce81074c-c4ca-4057-a383-7440ab525cb1" name="Bastion of the Inheritor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Shield&#10;Offhand&#10;Magic&#10;Divine&#10;Iomedae&#10;Mythic"/>
+    <property name="Attr1" value="If you played a weapon that has the 2-Handed trait on this check, you may not play this card.&#10;Reveal this card to reduce Combat damage dealt to you by an amount equal to your number of mythic charges; you may also recharge a card that has the Iomedae trait to reduce all damage by that amount. If proficient with light armors, you may play another armor on this check.&#10;If proficient with light armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="5715fcfe-946b-4643-9888-25f92d6293fc" name="Demon Armor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic"/>
+    <property name="Attr1" value="Discard this card to add 1d4+1 and the Fire and Magic traits to your combat check.&#10;Recharge this card to reduce Combat or Fire damage dealt to you by 3.&#10;Banish this card to reduce all damage dealt to you to 0; if proficient with heavy armors, discard it instead.&#10;If proficient with heavy armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="71dd7444-4ddc-459f-9210-117e467d006c" name="Helm of the Serpent King">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic&#10;Corrupted&#10;Mythic"/>
+    <property name="Attr1" value="Recharge this card to add 1d8, or 1d12 and the Poison trait, to your Melee check; if this card has the Corrupted trait, expend a mythic charge.&#10;Recharge this card to reduce Combat damage dealt to you by 2; you may play another armor on this check. If proficient with heavy armors, you may reveal this card instead of recharging it.&#10;If proficient with heavy armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="707918d3-edfc-4d97-b157-55f07177029e" name="Pauldrons of Unflinching Fortitude">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Heavy Armor&#10;Magic&#10;Mythic"/>
+    <property name="Attr1" value="Recharge this card to add your number of mythic charges to your non-combat Dexterity, Wisdom, Constitution, or Fortitude check.&#10;Banish this card to reduce all damage dealt to you to 0; if proficient with heavy armors, bury it instead.&#10;If proficient with heavy armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="05b30b8d-5af5-4040-85c0-2d247940683d" name="Spiritwalk Armor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Mythic"/>
+    <property name="Attr1" value="Reveal this card and expend a mythic charge to evade a monster you encounter or to succeed at your Stealth check.&#10;Recharge this card to reduce Combat damage dealt to you by 2.&#10;Banish this card to reduce all damage dealt to you to 0; if proficient with light armors, bury it instead.&#10;If proficient with light armors, you may recharge this card when you reset your hand."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude&#10;Stealth"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="9368a966-343a-4485-90d4-f7194ffdc014" name="Blessing of Sifkesh">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Sifkesh&#10;Corrupted"/>
+    <property name="Attr1" value="If the top card of the blessings discard pile has the Corrupted trait, discard this card to add 1 die to any check.&#10;Discard this card to add 2 dice to any check that has the Corrupted trait.&#10;Discard this card to explore your location.&#10;After you play this card, if the top card of the blessings discard pile has the Corrupted trait, a random character buries the top card of his deck."/>
+    <property name="Attr2" value="Bury any card"/>
+    <property name="Attr4" value="Divine"/>
+    <property name="Attr5" value="5"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="0115e472-77d6-4150-9508-26eaee9da659" name="Blessing of Xoveron">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Blessing"/>
+    <property name="Traits" value="Divine&#10;Xoveron&#10;Corrupted"/>
+    <property name="Attr1" value="When you encounter this card, if you are at a location that has the Abyssal trait, you automatically acquire this card; otherwise, you may bury a card to acquire it.&#10;Discard this card to add 2 dice to a check by a character at a location that has the Abyssal trait.&#10;Discard this card to explore your location.&#10;After you play this card, if the top card of the blessings discard pile has the Corrupted trait, discard a card."/>
+    <property name="Attr2" value="None"/>
+  </card>
+  <card id="e95798a4-1eba-4fef-bc9f-627b220cdd4b" name="Book of the Damned">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Book&#10;Magic&#10;Divine&#10;Corrupted"/>
+    <property name="Attr1" value="Banish this card to allow each character to shuffle 1d4 random blessings from the box into the blessings deck. If this card has the Corrupted trait, discard any that do not have the Corrupted trait.&#10;After playing this card, you may banish a loot to discard this card instead of banishing it."/>
+    <property name="Attr2" value="Banish a blessing"/>
+  </card>
+  <card id="a1ab482d-d635-41f1-9437-5d15686a2f5f" name="Chaos Stone">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic"/>
+    <property name="Attr1" value="Discard this card to roll 1d4, 1d6, 1d8, and 1d10; choose 2 of the die values and add 1 of them to your combat check; you are dealt the other value you chose as an amount of Force damage that may not be reduced."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
+    <property name="Attr3" value="10"/>
+  </card>
+  <card id="e80f19f9-6150-4575-b66c-de437b105b81" name="Evocation Staff">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Staff&#10;Magic&#10;Arcane&#10;Attack"/>
+    <property name="Attr1" value="For your combat check, reveal this card and discard a spell to use your Arcane skill + 1d10; you may additionally add 2d10 and the Cold, Electricity, Fire, or Force trait.&#10;When a character at your location encounters a monster, reveal this card and discard a spell. The monster is evaded; put it on top of its location deck."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="77465ac6-c3c1-4dc4-9f1b-7f246da74ea4" name="Iron Shackles">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic"/>
+    <property name="Attr1" value="Recharge this card when an evaded or undefeated non-villain monster would be shuffled into your location deck; put it on top of that deck instead.&#10;Recharge this card when a character at your location would be moved; that character does not move."/>
+    <property name="Attr2" value="Dexterity&#10;Disable"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="20231a45-0a87-42e6-80da-b2450e2598d3" name="Torc of the Heavens">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic&#10;Divine"/>
+    <property name="Attr1" value="Put this card on top of your deck to add your number of mythic charges to your Charisma check.&#10;On your turn, put this card on top of your deck to examine the top card of your location; if it is a weapon, an item, or an armor, you may explore your location.&#10;Bury this card to draw 1 random non-Basic blessing from the box."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="46e7dc1b-984f-4bc2-9234-76d4840cdde0" name="Amulet of the Abyss">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Accessory&#10;Magic&#10;Divine&#10;Corrupted&#10;Mythic"/>
+    <property name="Attr1" value="If this card has the Corrupted trait, bury a blessing or you may not play this card.&#10;Reveal this card to reduce Electricity, Poison, Acid, Cold, or Fire damage dealt to you by 4.&#10;Recharge this card to add 1d20 to your check to defeat a monster that has the Minotaur or Mythic trait."/>
+  </card>
+  <card id="b3955042-a486-4619-b093-793d706898ff" name="Ball of Twine">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Tool"/>
+    <property name="Attr1" value="Recharge this card to summon and build the location Maze or the location Middle of Nowhere and move to it, or to move from one of these locations, ignoring movement restrictions.&#10;When you attempt a check to defeat a monster that has the Minotaur trait, reveal this card to get a mythic charge."/>
+  </card>
+  <card id="b8474533-9f65-4459-b39a-6b21ff5d89d5" name="Chalice of Ozem">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Object&#10;Magic&#10;Divine&#10;Iomedae"/>
+    <property name="Attr1" value="Display this card next to a character at your location. While displayed, that character may add 1d6 to her checks. At the end of the turn, recharge this card.&#10;Bury this card to get 2 mythic charges."/>
+  </card>
+  <card id="49b1f8ee-a033-4eac-8522-db187ae5a4e9" name="Dawnflower's Kiss">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Magic&#10;Divine&#10;Sarenrae"/>
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee die + 1d8+4; you may recharge a blessing to add 1d8 and the Fire trait, or 2d6 and the Fire trait if the blessing has the Sarenrae trait. If not proficient with weapons, the difficulty of this check is increased by 4.&#10;You may discard this card and expend a mythic charge to add 1d20 and the Fire trait to a combat check at another location."/>
+  </card>
+  <card id="66b6e5be-3dd1-4823-b8dc-ecf0fa4bd9ab" name="Stole of the Inheritor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Loot"/>
+    <property name="Subtype2" value="Item"/>
+    <property name="Traits" value="Light Armor&#10;Magic&#10;Divine&#10;Healing&#10;Iomedae"/>
+    <property name="Attr1" value="Reveal this card to reduce damage dealt to you by 2, or by 4 if dealt by a bane that has the Demon trait.&#10;Reveal this card and bury a blessing that has the Iomedae trait to allow a character at your location to shuffle 1d4+4 random cards from his discard pile into his deck.&#10;If proficient with light armors, you may recharge this card when you reset your hand."/>
+  </card>
+  <card id="1ec83ede-587f-48a9-8a79-b30ccfbbc112" name="Breath of Life">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Divine&#10;Healing"/>
+    <property name="Attr1" value="Reveal this card and choose a character. If that character is alive, shuffle 1d4+1 random cards from her discard pile into her deck. If that character is dead, shuffle 10 of his buried cards at random into his character deck; he draws a new hand and is no longer dead.&#10;After playing this card, discard it. If you do not have the Divine skill, banish it; otherwise, you may succeed at a Divine 15 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Wisdom&#10;Divine"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="513fe5c5-4075-400e-85ec-be175b418706" name="Death's Touch">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack"/>
+    <property name="Attr1" value="For your combat check against a monster, discard this card to use your Arcane or Divine skill + 3d6+3. If that monster is not a villain and has an adventure deck number of 4 or lower, the monster is defeated.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane 12 or Divine 14 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="10"/>
+    <property name="Attr4" value="Wisdom&#10;Divine"/>
+    <property name="Attr5" value="12"/>
+    <property name="Attr6" value="OR"/>
+  </card>
+  <card id="2e1c13d1-7604-44e5-8263-71602863df37" name="Elemental Bombardment">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Mythic"/>
+    <property name="Attr1" value="For your combat check, discard this card to use your Arcane or Divine skill and add 1d6+1 for each of your mythic charges and either the Bludgeoning, Cold, Electricity or Fire trait. If you fail that check against a monster, it is undefeated and deals 0 damage.&#10;At the end of your turn, if you do not have either the Arcane or Divine skill, banish this card; otherwise, you may succeed at an Arcane or Divine 16 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="b89d848e-46c5-46c7-be51-c57d159134d4" name="Icy Prison">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Cold"/>
+    <property name="Attr1" value="For your combat check against a monster, display this card to use your Arcane or Divine skill + 4d6. While displayed, reduce damage that monster deals to you by 2. At the end of the encounter, if you do not have either the Arcane or Divine skill, banish this card; otherwise, you may attempt an Arcane or Divine 14 check. If you succeed, recharge this card; if you fail, discard it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="3a1f1fed-5eb1-4c7a-9a6d-4093921b7320" name="Rune of Jandelay">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Veteran"/>
+    <property name="Attr1" value="Display this card next to a location; if you play this card during a check, you may play another spell on the check. While displayed, when any character at that location encounters a bane that has the Demon trait, add the scenario's adventure deck number to any check against that bane; characters at that location ignore the bane's immunities.&#10;At the end of your turn, if you do not have have Arcane skill, banish this card; otherwise, you may attempt an Arcane 16 check. If you succeed, recharge this card; if you fail, discard it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="7eb9a71f-e84f-4438-aeb9-dc544cbeb78b" name="Steal Mythic Power">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Spell"/>
+    <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Mythic"/>
+    <property name="Attr1" value="When a character encounters a bane that has the Mythic trait, discard this card; that character gets a mythic charge.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 16 check to recharge this card instead of discarding it."/>
+    <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
+    <property name="Attr3" value="14"/>
+  </card>
+  <card id="f6669512-226f-4d75-9d26-109dc6828a97" name="Disrupting Warhammer">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Hammer&#10;Melee&#10;Bludgeoning&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee skill + 1d8+3; you may additionally discard this card to add another 1d6. If the bane has the Undead trait, add another 1d8. If not proficient with weapons, the difficulty of this check is increased by 4."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="e66d05ea-37c1-4f2f-bdb8-697b1360bfbb" name="Holy Glaive of Speed">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Polearm&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d10+2. If the bane has the Demon, Devil, Fiend, or Undead trait, add another 2d6. If not proficient with weapons, the difficulty of this check is increased by 4. If you fail this check, you may put this card on top of your deck to reroll the dice; take the new result."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="91f98233-f8c1-41e4-9335-09a6597e1992" name="Keen Scythe +2">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Scythe&#10;Melee&#10;Slashing&#10;2-Handed&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee skill + 2d4+2; you may additionally discard this card to add another 2d4. If not proficient with weapons, the difficulty of this check is increased by 4. If any d4 rolled on this check is a 4, count it as 6."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="aa52f179-6dc1-45d5-9701-f6975ade3d86" name="Planar Crossbow +2">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Bow&#10;Ranged&#10;Piercing&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d10+2; you may additionally recharge this card to add another 1d8. If the bane has the Outsider trait, ignore the bane's immunities.&#10;If proficient with weapons, discard this card to add 1d4+1 to a combat check by a character another location. If the bane has the Outsider trait, ignore the bane's immunities."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="11"/>
+  </card>
+  <card id="b002285e-b88a-46b6-96b3-f29fd24cea73" name="Rapier of Puncturing">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Swashbuckling&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d4+2. If not proficient with weapons, the difficulty of this check is increased by 4. After you roll the dice, you may additionally discard this card to add 2d4 to your result. If any d4 rolled on this check is a 4, count it as 5."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="12411b31-fa50-415c-bbbd-ae63081eb48c" name="Spellbreaker">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Staff&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Magic&#10;Mythic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6+3; you may additionally discard this card to add another 1d6+3. If the bane has the Mythic trait, add another 1d10, or 1d20 If you also expend a mythic charge.&#10;Reveal this card when a bane deals Acid, Cold, Electricity, Fire, or Force damage to you before you act; reduce that damage to 0. This counts as playing a spell."/>
+    <property name="Attr2" value="Strength&#10;Melee&#10;Arcane&#10;Divine"/>
+    <property name="Attr3" value="16"/>
+  </card>
+  <card id="86742e7e-a544-4f53-b647-5a1a17b4419f" name="Sword of Subtlety">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Sword&#10;Melee&#10;Piercing&#10;Finesse&#10;Magic"/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6+2, or 3d6+3 if you have the Stealth skill. If not proficient with weapons, the difficulty of this check is increased by 4."/>
+    <property name="Attr2" value="Strength&#10;Melee"/>
+    <property name="Attr3" value="12"/>
+  </card>
+  <card id="9b560d52-da08-458a-8092-4be7a6fad132" name="Traitor's Blade">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Weapon"/>
+    <property name="Traits" value="Knife&#10;Ranged&#10;Piercing&#10;Magic&#10;Corrupted"/>
+    <property name="Attr1" value="If this card has the Corrupted trait, a random character at your location must discard a card or you may not play this card.&#10;For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d4+4; you may additionally recharge this card to add another 3d4+4 and the Force trait. If the bane has the Basic or Elite trait, add 1d4.&#10;When playing another weapon, you may discard this card to add 1d4+2 and the Force trait to your combat check."/>
+    <property name="Attr2" value="Dexterity&#10;Ranged"/>
+    <property name="Attr3" value="13"/>
+  </card>
+  <card id="a53bcbb0-2623-4b9b-9668-fa5905661874" name="Shield of Iomedae" size="Character">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Dexterity, Constitution, or Intelligence check. Then you may expend 1 or more charges. If you do, then you may draw a random card from your discard pile, and when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20.&#10;If you expend 5 or more charges on a single check, each character gets a charge."/>
+  </card>
+  <card id="8eccdcf3-b42f-4f8a-85ef-0f500dd2ce87" name="Sword of Iomedae" size="Character">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Character"/>
+    <property name="Subtype" value="Mythic Path"/>
+    <property name="Attr1" value="Add your number of mythic charges to your Strength, Wisdom, or Charisma check. Then you may expend 1 or more charges. If you do, ignore effects that increase the difficulty of the check, and when you assemble your dice, for each charge expended, replace 1 of your highest non-d20 dice with a d20.&#10;Expend 5 mythic charges to allow a character to shuffle his discard pile into his deck, then that character may reset his hand."/>
+  </card>
+  <card id="59af0c07-3f27-4968-af82-c807fce0c66b" name="Blackburgh">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Abyssal"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 0&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 2"/>
+    <property name="Attr2" value="When you encounter a monster that has the Cultist or Demon trait, before you act, each other character moves to a random location."/>
+    <property name="Attr3" value="Summon and build the location Maze and move to it."/>
+    <property name="Attr4" value="On closing, end your turn."/>
+    <alternate name="Blackburgh" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Abyssal"/>
+      <property name="Flavour" value="A vast population of demons inhabits this capital city of the Ivory Labyrinth. Blackburgh rests at its center: a maze within a maze. Caked in soot and grime, densely packed wooden and stone buildings are tangled in confusing configurations. Streets stained with blood and ichor follow no discernable pattern, leading visitors astray through twisting passages. Misled by blind alleyways, most wayward wanderers inevitably find an untimely demise."/>
+    </alternate>
+  </card>
+  <card id="c10c272f-ad77-4850-aaba-8efb2f5fa4b3" name="Heaven">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Attr1" value="Monster 0&#10;Barrier 0&#10;Weapon 1&#10;Spell 2&#10;Armor 1&#10;Item 1&#10;Ally 0&#10;Blessing 4"/>
+    <property name="Attr2" value="For each marker on this card, add 1 die to any check by a character at any location against a card that has the Deity trait."/>
+    <property name="Attr3" value="Expend 2 mythic charges."/>
+    <property name="Attr4" value="On closing, put 2 markers on this card."/>
+    <alternate name="Heaven" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="The celestial realms are the province of the divine. Their host continually crusades against dimensions that harbor corruption and evil. Iomedae defends a realm in Heaven, and those who serve her well may be rewarded with an audience with the Inheritor."/>
+      <property name="Attr4" value="For each marker on this card, add 1 die to any check by a character at any location against a card that has the Deity trait."/>
+    </alternate>
+  </card>
+  <card id="97897e8d-46e5-4c8a-b0a1-2865ecbc74e6" name="Ivory Labyrinth">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Abyssal"/>
+    <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 1&#10;Armor 1&#10;Item 0&#10;Ally 1&#10;Blessing 2"/>
+    <property name="Attr2" value="After you encounter a bane, move to Blackburgh."/>
+    <property name="Attr3" value="Discard 3 cards."/>
+    <property name="Attr4" value="On closing, move to a random location."/>
+    <alternate name="Ivory Labyrinth" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Abyssal"/>
+      <property name="Flavour" value="The Lord of Minotaurs dwells in his ivory labyrinth, surrounded by confusion and chaos. Only the most dedicated explorers dare approach Baphomet's sanctum. Those who lack devotion stray from the path, never to be seen again. Predators also roam the labyrinth. Abyssal horrors hunt the weak and weary. Many are relentless in their pursuit of prey, just as heroes are indefatigable in their crusades against evil. Hunters may chase their prey all the way to Blackburgh... or more terrifying realms."/>
+    </alternate>
+  </card>
+  <card id="71322016-b816-4295-82b3-7853646c821d" name="Lightless Maze">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Abyssal"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 0&#10;Item 1&#10;Ally 1&#10;Blessing 1"/>
+    <property name="Attr2" value="After you encounter a boon, move to Blackburgh."/>
+    <property name="Attr3" value="Bury 3 cards from your discard pile."/>
+    <property name="Attr4" value="On closing, each other character at this location moves to a random location."/>
+    <alternate name="Lightless Maze" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Abyssal"/>
+      <property name="Flavour" value="This lightless labyrinth serves as the hunting grounds for an enormous crawling monster known as the Father of Worms. Navigating the maze can take days or weeks, especially if an unfortunate explorer is deceived into taking the Spiral Path, a circuitous downward peregrination that leads to the heart of the Abyss. Soul-weary wanderers are eady prey for creatures that inhabit this byzantine dimension. Whether victims fight or flee, their confrontations often lead them astray within the lightless maze."/>
+    </alternate>
+  </card>
+  <card id="277ced0d-efec-4e10-b9a7-f57b009c1079" name="Prison Vault">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Abyssal"/>
+    <property name="Attr1" value="Monster 0&#10;Barrier 4&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 2&#10;Ally 0&#10;Blessing 0"/>
+    <property name="Attr2" value="If you move here, you cannot explore this location this turn."/>
+    <property name="Attr3" value="Succeed at a Dexterity or Disable 11 check or a Knowledge 16 check."/>
+    <property name="Attr4" value="Before closing, draw any boons left in this location."/>
+    <alternate name="Prison Vault" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Abyssal"/>
+      <property name="Flavour" value="Tapestries within the prison vault depict the goat-headed Baphomet manipulating heroes within a threaded maze. This iconography is both an illustration and a warning, for those who proceed further may be shunted into an alternate reality, tangles in a skein formed by the warp and weft of the magical tapestry's threads. Any who even glance at this confounding tapestry may find themselves unavoidably delayed, even though the diversion only really exists within the viewer's own mind."/>
+    </alternate>
+  </card>
+  <card id="a5692007-d13b-4e0d-b94b-1c0f02f19bf9" name="Shrine to Baphomet">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="Yes."/>
+    <property name="Type" value="Location"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Traits" value="Abyssal"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 0&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 0&#10;Ally 0&#10;Blessing 4"/>
+    <property name="Attr2" value="Ignore the Magic trait on all boons."/>
+    <property name="Attr3" value="Succeed at a Wisdom, Divine, or Survival 12 check."/>
+    <property name="Attr4" value="On closing, draw a random blessing that does not have the Corrupted trait from the box."/>
+    <alternate name="Shrine to Baphomet" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="Yes."/>
+      <property name="Type" value="Location"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Traits" value="Abyssal"/>
+      <property name="Flavour" value="A rich mosaic of crimson and yellow bones covers the floor of this subterranean shrine. Leering statues of goat-headed demons stand vigil on pedestals. If you listen closely in the darkness, you'll hear the turbulent churning of a chalice filled with blood. Intruders who set foot upon the unhallowed ground of this temple soon discover their magic has been weakened, dispelled by Baphomet's corruption. A fanatic dark elf priestess waits in the darkness to respond with her own malefic incantations."/>
+    </alternate>
+  </card>
+  <card id="00d6d69b-92e5-4d6b-8f74-f7ebe9c06432" name="Herald of the Ivory Labyrinth">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Adventure"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="You have breached the realm of Baphomet, the Horned Lord. Lesser mortals would cringe and wail at the prospect. You, on the other hand, are keen to find the lord himself. After you defeated his daughter's plans, he killed Hepzamirah rather than let her live with her failure. If that's how demons want to play this game, you're all for it. Play to their corruption, and you will prevail. Now you must free Iomedae's imprisoned herald, and that's no easy task. Corruption is so prevalent here that you're not certain even you can keep the faith."/>
+    <alternate name="Herald of the Ivory Labyrinth" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Adventure"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="Audience with the Inheritor&#10;Welcome to Blackburgh&#10;Twisty Passages&#10;The Ineluctable Prison&#10;Redeeming the Herald"/>
+      <property name="Attr2" value="Each character gains a card feat."/>
+      <property name="Attr3" value="The servitor demon is the henchman Treachery Demon. After completing Audience with the Inheritor, all locations have the Abyssal trait."/>
+    </alternate>
+  </card>
+  <card id="7249f4b3-02ac-4b58-b76f-e8524e548e21" name="Audience with the Inheritor">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="You have been granted an audience with the Lady of Valor, an avatar of Iomedae herself. The goddess has set an epic task before you: free her captured Herald of Iomedae from his imprisonment and pain. If you triumph, she will offer one of you the opportunity undreamt of: the chance to become her new Herald. But first, you must survive her sacred rites, proving you are worthy of the mythic trial that awaits you."/>
+    <property name="Attr1" value="Cathedral of St. Clydwell&#10;Citadel&#10;Great Hall&#10;Heaven&#10;Sacristy&#10;Temple of Iomedae"/>
+    <alternate name="Audience with the Inheritor" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="After you create the blessings deck, shuffle the villain Lady of Valor into it.&#10;When you discard Lady of Valor from the blessings deck, a random character summons and encounters her. When you defeat Lady of Valor, you may either win the scenario or end the encounter."/>
+      <property name="Attr2" value="None"/>
+      <property name="Attr3" value="Rite of Heraldrys"/>
+      <property name="Attr4" value="For each closed location, the party may redeem 1 card. &#10;Loot: Chalice of Ozem, Stole of the Inheritor"/>
+    </alternate>
+  </card>
+  <card id="0a3497da-42ee-4585-98de-f21072454ef0" name="Redeeming the Herald">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="At the labyrinth's heart--actually, it could be anywhere therein--is the cell of the Herald of Iomedae. The torture that Baphomet has inflicted on the Inheritor's champion must rank as Baphomet's sickest joke. He has torn out the Herald's heart and hidden it deep in the prison. Without his heart, the once beneficent Herald only wants blood and souls."/>
+    <property name="Attr1" value="Prison Vault&#10;Sanctum&#10;Shrine to Baphomet&#10;Torture Chamber&#10;Abattoir&#10;Great Hall&#10;Cell&#10;Befouled Altar"/>
+    <alternate name="Redeeming the Herald" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you would encounter the villain Corrupted Herald, any character that has the Herald's Heart in hand moves to your location and encounters the villain instead.&#10;When you win the scenario, each character may move. A character may then summon and encounter the villain Baphomet; if he is defeated, add the loot Amulet of the Abyss to the reward."/>
+      <property name="Attr2" value="Corrupted Herald"/>
+      <property name="Attr3" value="Herald's Heart&#10;Labyrinth Minotaurs"/>
+    </alternate>
+  </card>
+  <card id="c5efb4e7-2d8a-43a9-bb91-57e28c3a0a7c" name="The Ineluctable Prison">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="Deep in the Ivory Labyrinth is a hole no one has ever gotten out of. This prison is where Warden Ylleshka keeps Baphomet's most prized possessions: all the beings who foolishly had designs on his throne.&#10;Behind one cell door, you'll find a runelord; behind another, an ambassador from Hell. Take care you don't end up behind one of those doors."/>
+    <property name="Attr1" value="Cell&#10;Occult Library&#10;Prison Vault&#10;Laboratory&#10;Collapsing Bridge&#10;Torture Chamber&#10;Guardpost&#10;Shrine to Baphomet"/>
+    <alternate name="The Ineluctable Prison" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you close a location, a character at your location summons and encounters a random ally that has an adventure deck number of 4 or higher. If he acquires it, he adds it to his hand."/>
+      <property name="Attr2" value="Ylleshka"/>
+      <property name="Attr3" value="Svendack&#10;Stringy Fiends"/>
+      <property name="Attr4" value="Loot: Dawnflower's Kiss"/>
+    </alternate>
+  </card>
+  <card id="ca641ac4-1ba3-4c6b-8888-615e0fc84a02" name="Twisty Passages">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="The Ivory Labyrinth and the Lightless Maze do not sound inviting, and their reality is even less so. The minotaurs of this realm are vastly more powerful than any you've encountered to date, and they will chase you into dead end after dead end. Their goal, of course, is to thwart yours. Keep to the course, and you will find your way out."/>
+    <property name="Attr1" value="Blackburgh&#10;Ivory Labyrinth&#10;Lightless Maze&#10;Cavern&#10;Molten Pool&#10;Abyssal River&#10;Torture Chamber&#10;Abattoir"/>
+    <alternate name="Twisty Passages" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you close a location, shuffle together the location cards of all locations that are not permanently closed. Then randomly deal 1 to each location that does not have a location card.&#10;When you encounter a blessing, banish it, then summon and build the location Middle of Nowhere and move to it."/>
+      <property name="Attr2" value="The Father of Worms"/>
+      <property name="Attr3" value="Inger-Maggor&#10;Labyrinth Minotaurs"/>
+      <property name="Attr4" value="Each character gains a power feat."/>
+    </alternate>
+  </card>
+  <card id="4638a824-bdd9-4aa6-a5de-933d2a4604bb" name="Welcome to Blackburgh">
+    <property name="Abr" value="5"/>
+    <property name="Copyright" value="No."/>
+    <property name="Type" value="Story"/>
+    <property name="Subtype" value="Scenario"/>
+    <property name="Subtype2" value="Front"/>
+    <property name="Flavour" value="All roads lead to Blackburgh, the capital of Lord Baphomet's realm. Corruption is so rampant in this Labyrinthine city that even the residents can't find safety. As newcomers, you're even more vulnerable. The citizens are unlikely to help you find your way out. They'd like you to stay here for all eternity."/>
+    <property name="Attr1" value="Blackburgh&#10;Ivory Labyrinth&#10;Lightless Maze&#10;Middle of Nowhere&#10;Forsaken Cloister&#10;Great Hall&#10;Occult Library&#10;Citadel"/>
+    <alternate name="Welcome to Blackburgh" type="B">
+      <property name="Abr" value="5"/>
+      <property name="Copyright" value="No."/>
+      <property name="Type" value="Story"/>
+      <property name="Subtype" value="Scenario"/>
+      <property name="Subtype2" value="Back"/>
+      <property name="Attr1" value="When you move to a location, shuffle that location deck.&#10;On your turn, you may shuffle a card from your hand into your location deck to explore your location.&#10;The difficulty of checks against banes that have the Veteran trait is increased by 1d20."/>
+      <property name="Attr2" value="Odeenka"/>
+      <property name="Attr3" value="Cultists of Baphomet"/>
+      <property name="Attr4" value="Each character gains a power feat.&#10;Loot: Ball of Twine"/>
+    </alternate>
+  </card>
  </cards>
 </set>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Henchman" shared="True">
+    <card qty="1" id="cd13999c-16f0-48f4-b044-e705469c555a">Diurgez Broodlord</card>
+    <card qty="1" id="e6751493-f913-436f-9043-30794412a4db">Favored of Deskari</card>
+    <card qty="1" id="e03f337e-fc98-41ed-813d-c1532cd66a69">Ravener Terendelev</card>
+    <card qty="1" id="e87ca747-f196-4a74-ae57-0a4801984677">Sister Perversion</card>
+    <card qty="1" id="941641f8-6343-4c53-b2fd-5cfc36687b9f">Gimcrack</card>
+    <card qty="1" id="4b13b895-dcf9-4c5e-b5f4-663757f448ab">Lord Stillborn</card>
+    <card qty="4" id="f994e3c1-ed52-4596-b782-11db3d201758">Pleaser</card>
+    <card qty="6" id="305d08bc-25dd-4d33-9dc9-e268bbc6a5de">Rasper Dragon Riders</card>
+    <card qty="1" id="f78769d4-3f5c-4eb4-b8de-5a7314c9ba56">Ophidian Demon</card>
+    <card qty="1" id="5136e959-b431-424f-80bf-b29cb4036e0e">Flayed Man</card>
+    <card qty="1" id="5fb5014b-378b-4988-a896-901f6b38ba04">Devastator</card>
+    <card qty="7" id="06715aef-9978-41fa-9c8b-47a82895ded9">Abyssal Army</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="0e57fb2b-0f69-41b8-850d-0c4d286ef26f">Black Flame Vrolikai</card>
+    <card qty="1" id="41e85fb1-ae32-46e5-b924-cd3aff46698a">Insane Bythos</card>
+    <card qty="1" id="e5fb89ce-9928-4722-9026-14b8d0db4981">Worldwound Grub</card>
+    <card qty="1" id="a30f47d8-d4b7-47fe-82b6-a901aa626c09">Fiendish Black Dragon</card>
+    <card qty="1" id="fd69dbc2-1ebc-4443-942b-114643728be3">Fly Demon</card>
+    <card qty="2" id="3aee4db3-0663-4e2a-8e6f-0db70d85b2b8">Boar Demon</card>
+    <card qty="1" id="669e14bb-9f33-4fe0-b3e5-dd38130cb2cf">Immortal Ichor</card>
+    <card qty="1" id="ff49cf6d-ee2a-4094-9d64-b440541960fe">Elder Fire Demon</card>
+    <card qty="2" id="5a602644-decc-4b5a-a3bf-d3ce367b42c7">Apocalypse Locust</card>
+    <card qty="1" id="81257e80-b9f3-44e9-981a-8330c2b4cf1b">Apocalypse Demon</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="2" id="5c3225c1-2147-4021-a02b-42c4083625cd">Unstable Accelerant</card>
+    <card qty="1" id="1346ccde-6a9d-4e96-bccc-6f4741a8613a">Verminous Symbols</card>
+    <card qty="1" id="45dd7a92-479d-43fb-abbb-71e53ef9d4c6">Rasping Rift Portal</card>
+    <card qty="1" id="af03cbe9-050c-4d3d-9aad-bd6bd4bf2429">Death by Pleasure</card>
+    <card qty="2" id="e05570e4-93ce-4cda-8233-f4f8f99b9768">Flensing Walls</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="6bf56d4d-7854-45c1-ab6c-3ffc0dc23c61">Tarnhelm</card>
+    <card qty="2" id="d8f2e42d-fff3-4279-b4af-037c523bbb8a">Mantle of Faith</card>
+    <card qty="2" id="e9560879-6241-42fa-ae22-afb9f2a6de65">Immolation Cloak</card>
+    <card qty="1" id="acd66520-9e86-4972-8a37-d505f0b53f44">Horns of Naraga</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="5849ab39-4af9-4ad7-ab84-274ef2c2a261">Mace of Smiting</card>
+    <card qty="1" id="c3da80c9-0275-4ee0-8eaa-bd9b10a1ed4e">Infinite Rod</card>
+    <card qty="1" id="285cf030-9d9a-4f7c-ad54-c3b9119eb985">Sunsword</card>
+    <card qty="1" id="951e377f-b8a7-4897-a807-74d02a83405c">Vorpal Blade</card>
+    <card qty="1" id="7c640a0a-fba5-46a0-87f8-cee2827f9374">Master's Lash</card>
+    <card qty="1" id="e69ab31e-5cbc-4fb8-97c1-f2c11462f573">Force Sling +3</card>
+    <card qty="2" id="7f4ce43d-7797-406e-a5ea-498e3a4f3419">Dragonbreath Bow</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="c3b35eb3-2560-4872-8979-1987e39b7355">Form of the Dragon</card>
+    <card qty="1" id="a4e9c983-f58c-4b2c-9f34-27b332a3d461">Miracle</card>
+    <card qty="2" id="68fcaade-53b2-4a47-bc1c-da156af5e1e9">Winds of Vengeance</card>
+    <card qty="1" id="a86902f3-6f71-49c0-a862-e12e7b7c0f32">Meteor Swarm</card>
+    <card qty="1" id="d8635709-408c-4951-80b4-060c084e1afb">Sign of Wrath</card>
+    <card qty="1" id="fc8d6a56-22c3-45c6-9d83-900c9dc30501">Time Stop</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="28180ea4-6514-4cf8-9907-447f8f297d9c">Staff of the Heirophant</card>
+    <card qty="2" id="cbdedf1b-217a-4f64-85b1-b06beb962385">Iron Flask</card>
+    <card qty="1" id="9ce484f1-6ad6-409e-ba1d-93000635ca17">Thorncrown of Iomedae</card>
+    <card qty="1" id="53fb358e-beb9-4773-b0ff-25e09bdce196">Amulet of the Planes</card>
+    <card qty="1" id="e3871351-f4cc-4f8f-9cd3-d24f43790b8a">Bountiful Bottle</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="be133828-7dc1-4fe4-b88f-25c660a32846">Eliandra</card>
+    <card qty="1" id="91033581-831c-4bb9-b833-64f8eaaec177">Nocticula</card>
+    <card qty="2" id="f378ab18-171b-4ca4-b6a0-f7975bb7d6e2">Dire Griffon</card>
+    <card qty="2" id="352c0660-85fa-4582-9fd3-f3e5e36282f6">Chevalier</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="719d5737-d164-43b9-829a-ee819942bf09">Blessing of the Inheritor</card>
+  </section>
+  <section name="Cohort" shared="True">
+    <card qty="1" id="2bb0f2c0-1dee-4fa3-88ba-24137ff04c7c">The Suture</card>
+    <card qty="1" id="3f5035ec-6d71-432f-9203-ece6dc0fb50e">Nahyndrian Chisel</card>
+    <card qty="1" id="39067cff-5e86-45a3-a04f-7fd263ef44db">Lexicon of Paradox</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="0550e511-4d77-4274-bcfd-c27253a462e9">Noriznigath</card>
+    <card qty="1" id="6f2f3d74-d499-49d8-8303-bccb50eca913">Robe of the Rifts</card>
+    <card qty="1" id="e5eacae1-8d0e-4395-99eb-b2f99782319c">Deskari's Tooth</card>
+    <card qty="1" id="7dec53b2-88d2-43fc-ad64-db907daab54b">Mournful Razor</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="e44d38bb-21a0-467d-ada5-b041618d8718">Deskari</card>
+    <card qty="1" id="e709253f-34c2-4f33-a36f-6585e7915338">Heart of the Worldwound</card>
+    <card qty="1" id="fbcbb02a-c633-4add-8481-94a636eca686">Khorramzadeh Reborn</card>
+    <card qty="1" id="83ecfbde-02f2-4c38-8729-bdbff0638c94">Mistress Anemora</card>
+    <card qty="1" id="e90cb44f-22e7-4e4c-93f6-2adbcf661383">Areelu Vorlesh</card>
+    <card qty="1" id="2b371ee1-3406-4a8e-bc58-1612b7eae370">Aponavicius</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="3064e84a-9ce9-46e7-b336-664c6e83fe54">Death of the Storm King</card>
+    <card qty="1" id="9e15c4a7-a6eb-4919-9a13-5d7d912c4f75">Justifiable Deicide</card>
+    <card qty="1" id="e203918c-699c-4130-8feb-6962eca48902">Threshold of the End</card>
+    <card qty="1" id="0b96c420-0c0e-441f-8625-b78d5298fe9d">Onslaught on Drezen</card>
+    <card qty="1" id="fb4d4ce8-9ff2-4152-a50c-0c49532c0979">The Pleasure Center</card>
+    <card qty="1" id="2b46de29-413e-4f6b-b9c3-00c4a8d1e8de">Closing the Worldwound</card>
+    <card qty="1" id="59a9c063-ab6c-429f-a48b-832fb1bd63e9">City of Locusts</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True">
+    <card qty="1" id="601d6b55-3838-4fcb-8629-486373bd403c">Champions of Mendev</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="ccc989de-8da0-4876-92cd-344e8d7d6bb0">The Rasping Rifts</card>
+    <card qty="1" id="5c3f547e-ef09-4c4c-bf01-9d9cc44ca443">Threshold</card>
+    <card qty="1" id="ae90662d-ff10-4b1e-9540-09a2e8b5f00e">Yearning House</card>
+    <card qty="1" id="913665be-631b-42e1-9929-4ab43946612b">Gate of the Worldwound</card>
+    <card qty="1" id="2984b800-e828-41dc-915c-8df4184891af">Soul Foundry</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

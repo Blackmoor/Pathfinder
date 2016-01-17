@@ -885,7 +885,7 @@
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
-      <property name="Attr1" value="Build only the first location. When you close a location, summon and build the next listed location; shuffle any remaining cards from the previous location into the new one. When you close the final location listed for your number of players, summon but do not build the location Citadel; shuffle the villain Soltengrebbe and 1 henchman Brimorak pre character into it. You win the scenario only when you defeat Soltengrebbe."/>
+      <property name="Attr1" value="Build only the first location. When you close a location, before closing, summon and build the next listed location and shuffle the cards from the previous location into its deck. When you close the final location listed for your number of players, treat the Citadel as the next location; shuffle the villain Soltengrebbe and 1 henchman Brimorak per character into its deck. You win the scenario only when you defeat Soltengrebbe."/>
       <property name="Attr2" value="None"/>
       <property name="Attr3" value="Worldwound Cadres"/>
       <property name="Attr4" value="Gain a medal on the troop Knights of Kenabres. Each character gains a card feat."/>
