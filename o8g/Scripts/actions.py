@@ -1314,6 +1314,10 @@ def hasTrait(card, trait):
 		return False
 	if trait == "Any":
 		return True
+	if trait == "Non-Basic":
+		return "Basic" not in card.Traits.splitlines()
+	if trait == "Non-Basic, Non-Elite":
+		return "Basic" not in card.Traits.splitlines() and "Elite" not in card.Traits.splitlines()
 	if card.Traits is None or len(card.Traits) == 0:
 		return False
 	return trait in card.Traits.splitlines()
@@ -1347,9 +1351,18 @@ def cardTypePile():
 			if t != "and" and t not in traits:
 				traits.append(t)
 	traits.sort()
+
+	inserted=1
 	traits.insert(0, "Any")
+
+	if "Basic" in traits:
+		traits.insert(1, "Non-Basic")
+		inserted += 1
+		if "Elite" in traits:
+			traits.insert(2, "Non-Basic, Non-Elite")
+			inserted += 1
 	choice = 1
-	if len(traits) > 1:
+	if len(traits) > inserted:
 		choice = askChoice("Pick a trait", traits)
 		if choice <= 0:
 			choice = 1
