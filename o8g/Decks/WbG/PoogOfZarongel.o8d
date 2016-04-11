@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="4da6f034-d66e-4491-a7d1-f980c2969559">PoogOfZarongel</card>
+    <card qty="1" id="9f782479-a83b-4bc4-881b-74c2909824f1">Poog of Zarongel</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="6e6d558e-9cc5-4139-b5cc-7dae4332c61a">Mace</card>
+    <card qty="1" id="aca4db7b-04a9-42a4-b4da-436e681cb510">Dogslicer</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="7416392f-a4e2-4213-acbf-b5019d93514b">Sanctuary</card>
+    <card qty="1" id="75419742-cdbc-4e65-89a2-725a835201fc">Cure</card>
+    <card qty="1" id="ee9f6c04-a3cd-4f0f-bfa0-ebc7da1a52d7">Inflict</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="ab1d7d2a-4693-47ae-9baa-e2c7a97b5625">Wooden Shield</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="8f68c6bf-b2ff-4236-b219-74e2233dfaac">Potion of Fortitude</card>
+    <card qty="1" id="ba8d502f-dac4-4103-a481-2d84b96cf0c3">Holy Water</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="d710ec7f-aa64-4eb4-a0a5-6681fccb7be4">Toad</card>
+    <card qty="1" id="4d876bd6-1248-4be9-88d2-1764e689b97e">Wolf</card>
+    <card qty="1" id="56ab67ec-9188-4a38-b166-8542e9cb763d">Crow</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

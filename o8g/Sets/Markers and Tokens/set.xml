@@ -85,6 +85,12 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
+
+   <card id="8a49a846-f2b8-43a7-9d6a-f9f0bd0a1f80" name="ChuffyLickwound">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
    
    <card id="d43ed1bd-480a-4dd7-b48b-42bb019ba787" name="Crowe">
     <property name="Abr" value="C" />
@@ -229,7 +235,13 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
-  
+
+   <card id="7879f2ac-00fa-4272-af85-cc42d29e19c5" name="Mogmurch">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
    <card id="1d18c9d7-82d9-4a08-9d4a-14233195c516" name="Olenjack">
     <property name="Abr" value="CD" />
     <property name="Type" value="Character" />
@@ -238,6 +250,12 @@
   
    <card id="fb94e513-bf5c-439e-8b53-c8b2f2c26931" name="Oloch">
     <property name="Abr" value="C" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+   
+   <card id="4da6f034-d66e-4491-a7d1-f980c2969559" name="PoogOfZarongel">
+    <property name="Abr" value="B" />
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
@@ -277,7 +295,13 @@
     <property name="Type" value="Character" />
     <property name="Subtype" value="Token" />
    </card>
-   
+ 
+   <card id="bc7a9514-85fd-44fc-91a9-a3fc8cfecc9f" name="RetaBigbad">
+    <property name="Abr" value="B" />
+    <property name="Type" value="Character" />
+    <property name="Subtype" value="Token" />
+   </card>
+ 
    <card id="876aa1ca-ba20-4b25-82df-a7216069a3be" name="Sajan">
     <property name="Abr" value="C" />
     <property name="Type" value="Character" />

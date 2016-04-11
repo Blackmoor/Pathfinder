@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="7879f2ac-00fa-4272-af85-cc42d29e19c5">Mogmurch</card>
+    <card qty="1" id="ecb5fbc9-a377-44d5-bb7d-1c86cdaa5d95">Mogmurch</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="4d9f4189-bd50-4a6e-827d-58590f56e14e">Sling</card>
+    <card qty="1" id="565b9e2d-0d5c-4dc1-b0ac-7f6bf558a7c7">Shortbow</card>
+    <card qty="1" id="e9d4bfbe-8038-4a4d-9d74-324730b7b8b2">Dagger</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="75419742-cdbc-4e65-89a2-725a835201fc">Cure</card>
+    <card qty="1" id="cdd4bb92-ef6a-40a4-b539-3969d67a742b">Force Missile</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="312c869c-220f-4ad8-9036-4d74d8b20791">Leather Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="67006c3c-e958-4bb4-8073-e802b1a03628">Bracers of Protection</card>
+    <card qty="1" id="50883d35-8770-4004-8b21-3f41c32313d0">Blast Stone</card>
+    <card qty="1" id="25f325ff-310e-4fcf-8486-170cf87d676a">Potion of Hiding</card>
+    <card qty="1" id="c1b5c3cb-b91a-4fd5-8bae-591c0e07eb93">Potion of Glibness</card>
+    <card qty="1" id="ca12bf66-b163-4ab7-ad15-06c8d2c6d2ea">Potion of Vision</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="4d876bd6-1248-4be9-88d2-1764e689b97e">Wolf</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="3" id="efa381f0-5b3b-4834-b53a-15fcd7dc8a9a">Blessing of the Gods</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
