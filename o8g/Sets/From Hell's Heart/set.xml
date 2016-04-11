@@ -796,8 +796,8 @@
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="When you defeat a villain, it does not escape; instead, put it in a villain pile. Unless all other villains are in the villain pile, if you would encounter Kerdak Bonefist, summon and encounter the Filthy Lucre instead; Kerdak Bonefist is undefeated."/>
-      <property name="Attr2" value="Kerdak Bonefist&#10;Hyapatia&#10;Omara Culverin&#10;Powderpot&#10;Sweetlips and Scurvy&#10;Tsadok Goldtooth&#10;Captain Horrus Riptooth&#10;Brinebones"/>
-      <property name="Attr3" value="None"/>
+      <property name="Attr2" value="Kerdak Bonefist"/>
+      <property name="Attr3" value="Hyapatia&#10;Omara Culverin&#10;Powderpot&#10;Sweetlips and Scurvy&#10;Tsadok Goldtooth&#10;Captain Horrus Riptooth&#10;Brinebones"/>
       <property name="Attr4" value="Loot: The Hurricane Crown"/>
     </alternate>
   </card>
