@@ -486,7 +486,7 @@
     <property name="Copyright" value="Yes."/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Loot"/>
-    <property name="Subtype2" value="Item"/>
+    <property name="Subtype2" value="Armor"/>
     <property name="Traits" value="Light Armor&#10;Magic&#10;Divine&#10;Healing&#10;Iomedae"/>
     <property name="Attr1" value="Reveal this card to reduce damage dealt to you by 2, or by 4 if dealt by a bane that has the Demon trait.&#10;Reveal this card and bury a blessing that has the Iomedae trait to allow a character at your location to shuffle 1d4+4 random cards from his discard pile into his deck.&#10;If proficient with light armors, you may recharge this card when you reset your hand."/>
   </card>
@@ -873,7 +873,7 @@
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="When you move to a location, shuffle that location deck.&#10;On your turn, you may shuffle a card from your hand into your location deck to explore your location.&#10;The difficulty of checks against banes that have the Veteran trait is increased by 1d20."/>
       <property name="Attr2" value="Odeenka"/>
-      <property name="Attr3" value="Cultists of Baphomet"/>
+      <property name="Attr3" value="Cultist of Baphomets"/>
       <property name="Attr4" value="Each character gains a power feat.&#10;Loot: Ball of Twine"/>
     </alternate>
   </card>

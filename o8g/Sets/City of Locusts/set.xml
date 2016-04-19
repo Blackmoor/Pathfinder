@@ -922,7 +922,7 @@
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
     <property name="Flavour" value="Three things are needed to close the rift: the Lexicon of Paradox, the Nahyndrian chisel, and a sloth demon called The Suture. The Storm King Khorramzadeh will not let you complete the set. In a foundry of the foul material called soul lead, Khorramzadeh will send the ravaged corpse of the silver dragon Terendelev against her former allies."/>
-    <property name="Attr1" value="Abattoir&#10;Cell&#10;Soul Foundry&#10;Great Hall&#10;Moltel Pool&#10;Laboratory&#10;Sanctum&#10;Torture Chamber"/>
+    <property name="Attr1" value="Abattoir&#10;Cell&#10;Soul Foundry&#10;Great Hall&#10;Molten Pool&#10;Laboratory&#10;Sanctum&#10;Torture Chamber"/>
     <property name="Attr2" value="Cohorts: Lexicon of Paradox, Nahyndrian Chisel&#10;Display the troop Champions of Mendev"/>
     <alternate name="Death of the Storm King" type="B">
       <property name="Abr" value="6"/>
