@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="c2414567-7d8f-4657-8c49-ea63886561b6">Alahazra</card>
+    <card qty="1" id="6b73d714-a5f4-4182-b307-70122a11a890">Alahazra</card>
+  </section>
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False">
+    <card qty="1" id="7977cec3-933f-4f52-93c7-6401db8d0deb">Elemental Treaty</card>
+    <card qty="2" id="07c2e9ad-1b8f-4177-bc36-5f9380827baa">Fireblade</card>
+    <card qty="2" id="659528c1-597e-4a87-990d-cbd57979ef2c">Cure</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="fa87905b-67f5-4051-bb46-b9403a74600c">Crocodile Skin Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="961d2bdb-2e34-4280-924c-398c0ed7fd2a">Holy Water Grenade</card>
+    <card qty="1" id="d43b2e8b-c131-4b4c-add1-e57d9c029015">Flame Staff</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="ec9bf6f3-4b46-4156-9100-6a9036f03d9f">Pahmet Clansman</card>
+    <card qty="1" id="d049dbef-2bc1-4b4e-9ed1-dd7445ab4f2a">Camel</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="5" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

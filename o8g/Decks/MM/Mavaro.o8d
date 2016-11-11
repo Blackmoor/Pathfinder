@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="a7b18b8a-d40b-493d-85b4-497f7df14520">Mavaro</card>
+    <card qty="1" id="b270e2c6-880c-4491-a14d-224299db11b1">Mavaro</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="38c6d290-57d3-4b24-99d8-a3ba4ecdcf44">Whip</card>
+    <card qty="1" id="ad0def94-617f-492a-8e77-bbf4c8db127c">Explorer's Staff</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="4c546a20-59b3-4366-b670-900ee32ab297">Viper Strike</card>
+    <card qty="1" id="36c86d80-cff9-4581-9448-49677e3985e5">Unshakable Chill</card>
+    <card qty="1" id="2518dd4a-2d0d-4f9c-aa5f-24f34a4224b7">Cure</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="8471ffbb-d087-4a6d-bf74-afdf1ba5d4d2">Crocodile Skin Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="56a6070a-08f4-4c0b-a757-d706c6f1125d">Magnifying Glass</card>
+    <card qty="1" id="6c0276b5-8311-4f2f-be40-e95e448dec2c">Noxious Bomb</card>
+    <card qty="1" id="321537f1-db81-4125-ba2a-4688ad8e8a38">Compass</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="d20f94f3-ca78-4db7-b7cf-73caf7dbace0">Embalmer</card>
+    <card qty="1" id="beffddba-0441-48eb-9415-15aa115883f7">Tomb Raider</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="3" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+    <card qty="1" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

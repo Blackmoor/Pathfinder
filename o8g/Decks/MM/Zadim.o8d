@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="e20b5397-c633-48a3-97b2-75ccf08d0733">Zadim</card>
+    <card qty="1" id="31a3da2d-c36f-4a14-a2ba-f1417e980c68">Zadim</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="3" id="afcbec48-529e-4c80-b06c-66bfa4c28db4">Kukri</card>
+    <card qty="1" id="3fbc98c8-e2f5-4345-b347-cdcb1c9cbabc">Whip</card>
+    <card qty="1" id="ef160176-0ea8-4015-996a-466162d7105c">Khopesh</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False">
+    <card qty="1" id="d69f0800-0b17-40f9-bff3-fafe5b933c42">Crocodile Skin Shield</card>
+    <card qty="1" id="fa87905b-67f5-4051-bb46-b9403a74600c">Crocodile Skin Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="5b11b412-21c9-4fcd-a45e-291b0a332382">Noxious Bomb</card>
+    <card qty="1" id="b646e822-680f-4f27-b401-d4f02b236fec">Bladeguard</card>
+    <card qty="1" id="17814b69-1b87-445c-aa06-0a86ceb28600">Crowbar</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="ec9bf6f3-4b46-4156-9100-6a9036f03d9f">Pahmet Clansman</card>
+    <card qty="1" id="ee2836fe-dce3-47e8-b780-50d765196720">Dhabba</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="1" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+    <card qty="2" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

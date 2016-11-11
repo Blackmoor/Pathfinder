@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="bd2ef516-0e67-47bf-a76b-5c9a0474890c">The Half-Dead City</card>
+    <card qty="1" id="1fc0ec1c-7019-4212-aa14-0bd076889e02">Ahead of the Competition</card>
+    <card qty="1" id="716fd21c-1aa9-4a99-bb7e-fdbec4eb821e">Akhentepi's Legacy</card>
+    <card qty="1" id="f23101d9-ffb3-4a51-9884-7e8015f1a2ac">Sanctum of the Erudite Eye</card>
+    <card qty="1" id="ea0bfe27-ddee-4296-85e3-567e13530e77">The Pharasmin Lottery</card>
+    <card qty="1" id="f29aff47-6853-4002-9a48-8e6843afd006">Tomb Raiders Gone Rogue</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="1c5adce8-2a96-4e8f-b9b0-015eab7bed27">Beheaded</card>
+    <card qty="1" id="6c0c3fd0-c926-4ce3-b1b5-1b979e623d9a">Blightwing</card>
+    <card qty="1" id="0d00ecf9-b9a6-4584-aa29-09d9bc813a01">Cryptfinder</card>
+    <card qty="1" id="d2dce812-1a61-4f30-8029-ce619531b782">Daughter of the Desert</card>
+    <card qty="1" id="931259a4-8306-44f0-b6ac-daf49c48bf52">Dog Soldier</card>
+    <card qty="1" id="0db3d790-7460-450f-8e4e-e833a930107f">Graven Guardian of Nethys</card>
+    <card qty="1" id="43a18a72-f042-4120-a857-7d7a82e0409c">Sand Thief</card>
+    <card qty="1" id="2be686d8-1504-4585-91cb-98ad476cc586">Sand Scorpion</card>
+    <card qty="1" id="92c0655d-3bd7-43eb-b0f6-a8efa2d476a1">Scorched Hand</card>
+    <card qty="1" id="b5a685b9-c022-421e-8180-34f9119bcb7f">Senenmerek</card>
+    <card qty="6" id="248cdad8-2e02-4c5b-875c-ee3552cf0e23">Warrior Dolls</card>
+    <card qty="1" id="254aaecd-6aa6-4edc-b35c-a9388886d7ba">Lottery Urn</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="58c2087a-45db-42df-b828-4296b468c040">Acid Mantis</card>
+    <card qty="1" id="896630f8-c819-4c11-82d5-f8bfe37fca23">Caryatid Column</card>
+    <card qty="2" id="af6b794d-a33d-4fd6-9ffa-d71cbe51dbb0">Coffer Corpse</card>
+    <card qty="1" id="8598e453-c6d9-4bbe-ae9e-de7b2c8a3492">Crystal Stalker</card>
+    <card qty="1" id="4a8eee96-f747-4d77-9acc-4ae6fdd0ce5f">Ghoul</card>
+    <card qty="2" id="1d80bfa7-e061-46b4-916c-0dc254406271">Guardian Scroll</card>
+    <card qty="1" id="fac2832f-5941-4c12-8677-09dd0de52371">Plague Zombie</card>
+    <card qty="2" id="9f8fc2f0-57ce-454f-9664-8b5f5f7b4184">Shasalqu</card>
+    <card qty="1" id="2f6e8a73-3fd5-47e5-b475-8da379d6da33">Sun Falcon</card>
+    <card qty="2" id="fb4b487d-eb34-4767-976d-3124e2dd3db0">Ubashki Swarm</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="386468dd-41d9-4e57-bff1-f2b988998ba9">Echoes of Confusion</card>
+    <card qty="1" id="79b52b1c-c608-4568-8973-9d8823797ab0">Final Nights</card>
+    <card qty="1" id="e8ea7727-b5ed-47a0-b5fd-2ee1c4a83ea1">Hurtling Tiles Trap</card>
+    <card qty="1" id="8e34cd7c-b6ef-4e95-a211-f81f2c53d5f7">Memories of Violence</card>
+    <card qty="1" id="d266fa48-c078-4280-8549-64dea3b91a3a">Poison Spiked Pit Trap</card>
+    <card qty="1" id="56f02d8e-0b60-4f14-9071-beaeec7015bd">Shrieking Plant</card>
+    <card qty="1" id="7304b87d-ef1a-4fa1-9fdc-c17f200f2243">Stabbing Spear Staircase</card>
+    <card qty="1" id="16e23230-1065-4abf-ba91-d8ecdeed633d">The First Law</card>
+    <card qty="1" id="9aaf1f9d-2e18-40e7-91b2-673bd8452d0f">The Second Law</card>
+    <card qty="1" id="d5654197-5e31-4f20-8c94-dc5e24b8c2ef">The Third Law</card>
+    <card qty="1" id="132616c8-9146-45da-a17a-a985aa231cc2">Void Glyph</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="2" id="189f3df5-a93c-454c-b26f-da478af19e3b">Bone Lamellar</card>
+    <card qty="2" id="40ceb666-0a37-435f-932f-022a25f29f4f">Burglar's Buckler</card>
+    <card qty="2" id="58b9e395-0d8c-4c5a-8563-c4dfa5c97f82">Shield Cloak</card>
+    <card qty="1" id="84ab2262-89f2-4aa1-88dc-1d1eb7d9e7ba">Shield of Fire Resistance</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="9660f66a-8921-4335-84c4-57745b2a4d88">Fire Kukri +1</card>
+    <card qty="1" id="bb8982ed-d8c3-49a6-be68-1904fc1a55df">Frost Sling +1</card>
+    <card qty="2" id="dd995bf5-f748-4f59-b281-20475d8ec885">Galvanic Chakram +1</card>
+    <card qty="1" id="75d158ec-0582-4449-9fa8-9ab3ef4ea5ee">Glacial Khopesh +1</card>
+    <card qty="1" id="c92d19df-b529-4279-a63b-7b3d65fa5f83">Returning Throwing Axe +1</card>
+    <card qty="1" id="443e5785-82f8-4a55-bffb-c3679db2b4ea">Scorpion Whip</card>
+    <card qty="1" id="5ea2416c-fd80-4a93-80de-0e164c56ea4b">Shock Glaive +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="13d98ef9-40e9-4a15-bd49-f699d0122afa">Commune</card>
+    <card qty="1" id="8097a27c-fa53-4f90-a8bb-7abf78446abd">Detect Undead</card>
+    <card qty="1" id="e06da1ee-65ca-4f1b-83fe-c8d081da3504">Flames of the Faithful</card>
+    <card qty="1" id="97303005-13ec-4fe3-b44d-def02eba8d16">Knock</card>
+    <card qty="1" id="450e6e16-9e7e-455e-809a-20ac91c79f9e">Locate Object</card>
+    <card qty="1" id="470ee9cb-e2f2-4903-8022-36ba3483cf9d">Sands of Time</card>
+    <card qty="1" id="14792c50-1792-4572-9270-bf00ed42cfaa">Speak with Dead</card>
+    <card qty="1" id="4f07dd93-906c-4607-8f1d-d55aa2f51610">Stoneskin</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="e4a10bec-44ca-4785-ae9a-c806a2acb2b6">Anubis Staff</card>
+    <card qty="1" id="05018bc2-9cd1-44cc-89ce-11307e0dc534">Djinn Favor Amulet</card>
+    <card qty="1" id="860b762a-1ddf-4611-852d-e77cf877f7f2">Embalming Fluid</card>
+    <card qty="1" id="e3554012-8fb9-421c-999d-e080d64d4ddf">Helpful Haversack</card>
+    <card qty="1" id="254aaecd-6aa6-4edc-b35c-a9388886d7ba">Lottery Urn</card>
+    <card qty="1" id="a665ea94-83c9-4e91-9308-c88e73a5e65f">Mummified Cat</card>
+    <card qty="1" id="0e8ce4dd-c9b7-404a-b52d-fd399739e46e">Scroll of Thoth</card>
+    <card qty="1" id="5d37e581-0cbf-44a6-9815-93c5df0ff511">Smoke Stick</card>
+    <card qty="1" id="5e763ee5-6894-47f2-ba55-f68689243226">Staff of Minor Healing</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="8208cc63-d6bb-426d-8228-9ac760638f6e">Black Kiss</card>
+    <card qty="1" id="d6401214-6a38-4471-901f-42f118c054af">Idorii</card>
+    <card qty="1" id="f932a2bd-4401-44c4-845d-6aa642b7ac88">Azaz Arafe and Zazu</card>
+    <card qty="1" id="1a2b26f4-8ae4-4ca8-acd3-6639549cb05a">Khelru</card>
+    <card qty="1" id="e9c6e4d0-b017-4ac3-9051-a1b6db6c70e7">Mad Dog Marrn</card>
+    <card qty="1" id="dd3d23f4-43ce-4c29-8c81-40c373d03f7a">Neb-at</card>
+    <card qty="1" id="8f073938-7d58-4a10-adbd-778127b4c3d2">Sebti the Crocodile</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="b3daa508-0dc6-4dc8-8173-71604838f208">Blessing of Thoth</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True">
+    <card qty="1" id="63ec4207-acd5-4f91-93fc-e2c6d1de9bc1">Akhentepi's Armor</card>
+    <card qty="1" id="fa8abf34-ee66-4dc8-8156-dc651ebca8ca">Spear of the Watchful Guardian</card>
+    <card qty="1" id="571f6288-b5e8-44ea-b1e1-3d00a220d6bc">Tablet of Languages Lost</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True">
+    <card qty="1" id="18a21185-aecc-44c0-b635-a997dd851c91">Imanish</card>
+    <card qty="1" id="bb112751-d50a-460d-a417-c0289994186b">Trapped Sarcophagus</card>
+    <card qty="1" id="aa44a6f6-897b-4d25-a9fd-aa395d362012">Velriana Hypaxes</card>
+    <card qty="1" id="ac77da82-14f9-48a6-919f-c566d0243229">Velriana Unborn</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

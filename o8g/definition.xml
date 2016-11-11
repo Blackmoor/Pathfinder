@@ -4,7 +4,7 @@
 		name="Pathfinder - Adventure Card Game"
 		id="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" 
 		octgnVersion="3.1.112.250"
-		version="3.0.5.8"
+		version="4.0.0.17"
 		scriptVersion="3.1.0.1"
 		markersize="10"
 		tags="Pathfinder"
@@ -258,6 +258,7 @@
 	</group>
 	<group name="Loot" visibility="all" ordered="True" width="63" height="88" icon="Resources/loot.png" collapsed="True" />
 	<group name="Support" visibility="all" ordered="True" width="88" height="63" icon="Resources/dead.png" collapsed="True" />
+	<group name="Scourge" visibility="all" ordered="False" width="63" height="88" icon="Resources/dead.png" collapsed="True" />
 	<group name="Plunder" visibility="none" ordered="False" width="63" height="88" icon="Resources/skull.png" collapsed="False" />
 	<group name="Blessing" visibility="all" ordered="True" width="63" height="88" icon="Resources/blessing.png" collapsed="True" >
 	  <groupaction menu="Reveal Random" default="True" execute="revealRandom" />
@@ -294,8 +295,9 @@
 	<section name="Blessing" group="Blessing" />
 	<section name="Ship" group="Ship" />
 	<section name="Cohort" group="Cohort" />
+	<section name="Scourge" group="Scourge" />
 	<section name="Fleet" group="Internal" />
-	<section name="Support" group="Support" />
+	<section name="Support" group="Support" /> 
 	<section name="Loot" group="Loot" />
 	<section name="Location" group="Location" />
 	<section name="Villain" group="Villain" />

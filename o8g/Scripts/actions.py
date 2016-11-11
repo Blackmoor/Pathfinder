@@ -188,7 +188,7 @@ def isOpen(card):
 def isNotPermanentlyClosed(card):
 	if card is None or card.Type != 'Location':
 		return False
-	if card.Name in ('Abyssal Rift'): # This location can never be permanently closed
+	if card.Name in ('Abyssal Rift','Camel Race','Five-Pointed Sun'): # This location can never be permanently closed
 		return True
 	if card.Name in ('Middle of Nowhere'): #This location is always permanently closed
 		return False
@@ -336,7 +336,7 @@ def closeLocation(card, perm):
 		card.orientation = Rot90
 		notify("{} temporarily closes '{}'".format(me, card))
 		return True
-	elif card.Name in ('Abyssal Rift','Gate of the Worldwound'): # This location cannot be permanently closed
+	elif card.Name in ('Abyssal Rift','Gate of the Worldwound','Camel Race','Five-Pointed Sun'): # This location cannot be permanently closed
 		notify("This location cannot be permanently closed!")
 		return False
 		
@@ -799,7 +799,33 @@ def TheLandoftheBlind(mode): #In The Land of the Blind, there are 6 Gholdakos in
 				i = i + 1
 		if i > 5:
 			gameOver(True)
-		
+			
+def ASandstormofMalevolentWill(mode): #In A Sandstorm of Malevolent Will, four blessings are replaced with Sandstorm villains.
+	if mode == 'Setup':
+		mute()
+		i = 0
+		while i < 4:
+			sandstorm = findCardByName(shared.piles['Villain'],"Sandstorm")
+			if sandstorm == None:
+				whisper("Not enough Sandstorms!")
+				return
+			sandstorm.moveTo(shared.piles['Blessing Deck'])
+			i = i+1
+		shuffle(shared.piles['Blessing Deck'])
+
+def ForgedinFlames(mode): #Five blessings are replaced with Conflagration henchmen
+	if mode == 'Setup':
+		mute()
+		i = 0
+		while i < 5:
+			conflagration = findCardByName(shared.piles['Henchman'],"Conflagration")
+			if conflagration == None:
+				whisper("Not enough Conflagrations!")
+				return
+			conflagration.moveTo(shared.piles['Blessing Deck'])
+			i = i+1
+		shuffle(shared.piles['Blessing Deck'])
+			
 def NocticulasAttention(mode):
 	if mode == 'Setup':
 		mute()
@@ -951,21 +977,46 @@ def playerReady(card):
 		
 	#Prompt user to select favoured card type
 	choice = None
+	charName = None
 	if len(choices) > 1:
-		while choice == None or choice == 0:
-			choice = askChoice("Favoured Card Type", choices)
-		favoured = choices[choice-1]
+		if choice[0] == 'Special': #for handling strange favored cards
+			charName = choice[1]
+			favoured = None
+		else:	
+			while choice == None or choice == 0:
+				choice = askChoice("Favoured Card Type", choices)
+			favoured = choices[choice-1]
 	elif len(choices) == 1:
 		favoured = choices[0]
 	else:
 		favoured = None
 	handSize = getHandSize()
 	ci = 0
+	
 	if favoured is not None: # If a favoured card type is defined skip cards until we reach one
 		for card in me.Discarded:
 			if card.Subtype == favoured or (card.Subtype == 'Loot' and card.Subtype2 == favoured): break
 			ci += 1
-		
+	
+	#A few characters have strange favored card requirements. We handle those here.
+	if charName is not None:
+		if charName == 'Estra':
+			for card in me.Discarded:
+				if card.Subtype == 'Loot' and card.Name == 'Honaire': break
+				ci += 1
+		if charName == 'Ahmotep':
+			for card in me.Discarded:
+				traits = card.Traits.split()
+				if 'Staff' in traits: break
+				ci += 1
+		if charName == 'Ezren':
+			notify("In EZREN line 1013")
+			for card in me.Discarded:
+				traits = card.Traits.split()
+				notify("Traits are {}".format(traits[0]))
+				if 'Attack' in traits: break
+				ci += 1
+	
 	if ci >= size:
 		ci = 0
 		notify("{} has an invalid deck - no favoured cards ({})".format(me, favoured))
@@ -1711,11 +1762,17 @@ def findScenario(group):
 		return found[0]
 	return None
 	
+def findPath(group):
+	found = [p for p in group if p.Subtype == 'Adventure Path']
+	if len(found) == 1:
+		return found[0]
+	return None
+	
 # Returns a tuple closed, gameover	
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		scenario = findScenario(table)
-		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble','The Big Bonfire','The Old Shipwreck' ]: # These scenarios are only won when the last location is closed
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble','The Big Bonfire','The Old Shipwreck','The Pharasmin Lottery']: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				if scenario.Name in ['1-1D Crusaders Assemble']: #In Crusaders Assemble, after you close the last location, build Laboratory
@@ -1793,7 +1850,11 @@ def closePermanently(card, x=0, y=0):
 	return False, False
 
 def closeTemporarily(card, x=0, y=0):
-	if isOpen(card):
+	scenario = findScenario(table)
+	if scenario.Name in ('Desiccated Delirium'):
+		whisper("Cannot temporarily close locations in this scenario.")
+		return
+	elif isOpen(card):
 		closeLocation(card, False)
 	
 def hideVillain(villain, x=0, y=0, banish=False):
@@ -2201,10 +2262,12 @@ def playerSetup():
 	handSize = 4
 	favoured = []
 	cohort = None
+	charName = None
 	cardTypes = [ 'Weapon', 'Spell', 'Armor', 'Item', 'Ally', 'Blessing' ]
 	minC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
 	maxC = { 'Weapon':0, 'Spell':0, 'Armor':0, 'Item':0, 'Ally':0, 'Blessing':0 }
 	custom = False
+	
 	#Move Character Card to the table
 	for card in me.hand:
 		if card.Type == 'Character':
@@ -2213,10 +2276,17 @@ def playerSetup():
 			elif card.Subtype != 'Token': # Extract information about the hand size and favoured card type
 				custom = card.Name == 'Custom'
 				if len(card.Attr3) > 0 and card.Attr3 != 'None':
-					favoured = card.Attr3.split(' or ')
-					debug("Favoured = {}".format(favoured))
+					#some characters have strange favored cards, they will be dealt with elsewhere
+					if card.Attr3.startswith('Special'):
+						favoured = card.Attr3.split(':')
+						favoured[1] = card.Name
+					else:
+						favoured = card.Attr3.split(' or ')
+						debug("Favoured = {}".format(favoured))
 				if len(card.Attr4) > 0:
 					cohort = card.Attr4.replace('Cohort: ','')
+				#Store Card name because some characters are weird
+				charName = card.Name
 				#Store Card counts
 				for line in card.Attr2.splitlines():
 					type, rest = line.split(':',1)
@@ -2254,27 +2324,32 @@ def playerSetup():
 	for c in me.Discarded:
 		if c.Subtype == 'Loot':
 			type = c.Subtype2
+		elif c.Subtype in ('Weapon','Spell','Armor') and charName == 'Mavaro':
+			type = 'Item'
 		else:
 			type = c.Subtype
 		counts[type] += 1
 		
 	i = 0
 	dist=""
-	for type in cardTypes:
-		dist = dist + "{}:{} ".format(type, counts[type])
-		if counts[type] > maxC[type] and not custom:
-			notify("{} has more '{}' cards than allowed".format(me, type))
-		if counts[type] < minC[type]:
-			whisper("You don't have enough '{}' cards in your deck. Found {}, expected {}".format(type, counts[type], minC[type]))
-		elif counts[type] > minC[type]:
-			whisper("You have more '{}' cards than expected - updating your card feat to {}".format(type, counts[type]))
-			#Delete the current card feat (if any)
-			for c in me.Buried:
-				if c.Type == 'Feat' and c.Subtype == 'Card' and type in card.Name:
-					c.delete()
-			id = '7c5d69b1-b5ec-47f2-ba25-5a839291c3' + hexmap[i] + hexmap[counts[type]]
-			table.create(id, 0, 0, 1, True).moveTo(me.Buried)
-		i += 1	
+	if charName in ('Mavaro','Ezren'):
+		notify("You're using a character with a strange way of building his or her deck. Card counts will not be verified!")
+	else:
+		for type in cardTypes:
+			dist = dist + "{}:{} ".format(type, counts[type])
+			if counts[type] > maxC[type] and not custom:
+				notify("{} has more '{}' cards than allowed".format(me, type))
+			if counts[type] < minC[type]:
+				whisper("You don't have enough '{}' cards in your deck. Found {}, expected {}".format(type, counts[type], minC[type]))
+			elif counts[type] > minC[type]:
+				whisper("You have more '{}' cards than expected - updating your card feat to {}".format(type, counts[type]))
+				#Delete the current card feat (if any)
+				for c in me.Buried:
+					if c.Type == 'Feat' and c.Subtype == 'Card' and type in card.Name:
+						c.delete()
+				id = '7c5d69b1-b5ec-47f2-ba25-5a839291c3' + hexmap[i] + hexmap[counts[type]]
+				table.create(id, 0, 0, 1, True).moveTo(me.Buried)
+			i += 1	
 	
 	storeHandSize(handSize)
 	storeFavoured(favoured)
@@ -2328,7 +2403,7 @@ def scenarioSetup(card):
 		nl = 8
 	elif card.Name in ('Audience with the Inheritor'):
 		nl = 6
-	elif card.Name in ('Into the Runeforge','Isle of the Black Tower',"The Demon's Redoubt",'Onslaught on Drezen','0-6B The Battle of Abendego'):
+	elif card.Name in ('Into the Runeforge','Isle of the Black Tower',"The Demon's Redoubt",'Onslaught on Drezen','0-6B The Battle of Abendego','The Tainted Tower'):
 		nl -= 1
 	elif card.Name in ['Scaling Mhar Massif','The Pleasure Center','0-6E Into the Maelstrom']:
 		nl -= 2
@@ -2593,6 +2668,22 @@ def scenarioSetup(card):
 					foundLast = 1
 			shuffle(yearning.pile())
 
+	if card.Name in ("Akhentepi's Legacy"): #In this scenario, an extra barrier with the Trap trait is shuffled into each location
+		whisper("Adding extra barriers to locations.")
+		locs = [c for c in table if c.Type == 'Location']
+		for loc in locs:
+			cardFound = False
+			card = None
+			while cardFound == False:
+				card = localRandom(shared.piles['Barrier'])
+				if "Trap" in card.Traits:
+					cardFound = True
+			if card is not None:
+				card.moveTo(loc.pile())
+			else:
+				whisper("Failed to find barrer with the Trap trait!")
+				return
+			
 	# Perform scenario specific actions
 	fn = cardFunctionName(card)
 	if fn in globals():
@@ -2632,7 +2723,6 @@ def scenarioSetup(card):
 				while i < deckNum:
 					mythicChargeAdd(m)
 					i = i + 1
-	
 	
 	notify("{} starts '{}'".format(me, card))
 	return scenarioSpecific
@@ -2787,7 +2877,6 @@ def gameOver(won):
 				else:
 					lootCard.moveTo(shared.piles['Scenario'])
 					debug("Adding scenario loot {}".format(item))
-		
 		loot = [ c for c in shared.piles['Scenario'] ]
 		plunder = [ c for c in shared.piles['Plunder'] ]
 		loot.extend(plunder)
@@ -2804,6 +2893,25 @@ def gameOver(won):
 		for c in loot:
 			c.moveToTable(x, 0)
 			x += 32
+			
+		path = findPath(table)
+		if path is not None:
+			if path.Name == "Mummy's Mask":
+				choices = [t.Name for t in shared.piles['Support'] if t.Subtype == 'Trader']
+				choices.append("Already chosen")
+				if len(choices) > 0:
+					x = -300
+					y = 100
+					for player in getPlayers():
+						choice = askChoice("Please choose a trader for {}:".format(player.name),choices)
+						trader = findCardByName(shared.piles['Support'],choices[choice-1])
+						if trader is not None:
+							trader.moveToTable(x,y)
+							x = x + 50
+						else:
+							whisper("Did not find chosen trader.")
+					
+				
 		notify("You won the scenario")
 	else:
 		notify("You lost the scenario")
