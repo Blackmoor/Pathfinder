@@ -1,14 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
-  <section name="Character" shared="False" />
-  <section name="Weapon" shared="False" />
-  <section name="Spell" shared="False" />
-  <section name="Armor" shared="False" />
-  <section name="Item" shared="False" />
-  <section name="Ally" shared="False" />
-  <section name="Blessing" shared="False" />
-  <section name="Feat" shared="False" />
-  <section name="Cohort" shared="False" />
   <section name="Story" shared="True">
     <card qty="1" id="bd2ef516-0e67-47bf-a76b-5c9a0474890c">The Half-Dead City</card>
     <card qty="1" id="1fc0ec1c-7019-4212-aa14-0bd076889e02">Ahead of the Competition</card>
@@ -104,22 +95,43 @@
   <section name="Blessing" shared="True">
     <card qty="5" id="b3daa508-0dc6-4dc8-8173-71604838f208">Blessing of Thoth</card>
   </section>
-  <section name="Ship" shared="True" />
-  <section name="Cohort" shared="True" />
-  <section name="Scourge" shared="True" />
-  <section name="Fleet" shared="True" />
-  <section name="Support" shared="True" />
   <section name="Loot" shared="True">
     <card qty="1" id="63ec4207-acd5-4f91-93fc-e2c6d1de9bc1">Akhentepi's Armor</card>
     <card qty="1" id="fa8abf34-ee66-4dc8-8156-dc651ebca8ca">Spear of the Watchful Guardian</card>
     <card qty="1" id="571f6288-b5e8-44ea-b1e1-3d00a220d6bc">Tablet of Languages Lost</card>
   </section>
-  <section name="Location" shared="True" />
   <section name="Villain" shared="True">
     <card qty="1" id="18a21185-aecc-44c0-b635-a997dd851c91">Imanish</card>
     <card qty="1" id="bb112751-d50a-460d-a417-c0289994186b">Trapped Sarcophagus</card>
     <card qty="1" id="aa44a6f6-897b-4d25-a9fd-aa395d362012">Velriana Hypaxes</card>
     <card qty="1" id="ac77da82-14f9-48a6-919f-c566d0243229">Velriana Unborn</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True">
+    <card qty="3" id="a0a428bb-6762-43cb-9940-38afdc5880d6">Curse of the Ravenous</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True">
+    <card qty="1" id="4633c3ec-791f-49b5-a2d4-bcb2d1d2473f">Sunburst Market</card>
+    <card qty="1" id="f5c90381-bd0e-47f8-99df-117d2a8f4887">Ghoul Market</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="f1a23c3c-2baf-450d-8226-1f19f6fd47a6">Tooth and Hookah</card>
+    <card qty="1" id="3c78edbe-e2ab-4e82-a7de-63d42505970d">Hall of Blessed Rebirth</card>
+    <card qty="2" id="2a2f3b88-a1c0-42a8-b8e6-ad007966e02d">Tarworks</card>
+    <card qty="1" id="03ff8dc8-54a5-45ff-8579-3639bbaba887">Precinct of Left Eyes</card>
+    <card qty="1" id="1ffca675-f1cc-4768-abf2-f91c5fceee32">Golden Lake</card>
+    <card qty="1" id="9f607a9d-a1e2-4d39-9081-e59972e7c094">Dye Market</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

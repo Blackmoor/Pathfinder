@@ -979,8 +979,8 @@ def playerReady(card):
 	choice = None
 	charName = None
 	if len(choices) > 1:
-		if choice[0] == 'Special': #for handling strange favored cards
-			charName = choice[1]
+		if choices[0] == 'Special': #for handling strange favored cards
+			charName = choices[1]
 			favoured = None
 		else:	
 			while choice == None or choice == 0:
@@ -1341,6 +1341,22 @@ def randomCards(group=table, x=0, y=0):
 		else: 
 			randomCardN(me, pile, trait, x, y, choice)
 
+def summonScourge(group=table, x=0, y=0):
+	scourges = [c.name for c in shared.piles['Scourge'] if c.Type == "Scourge"]
+	scourgeList = list(set(scourges))
+	scourgeList.append("Random Scourge")
+	choice = askChoice("Which Scourge?", scourgeList)
+	if choice <= 0:
+		return
+	if scourgeList[choice-1] == "Random Scourge":
+		remoteCall(pile.controller, "randomCardN", [me, shared.piles['Scourge'], 0, x, y, 1])
+	else:
+		chosenScourge = findCardByName(shared.piles['Scourge'],scourgeList[choice-1])
+		if chosenScourge == None:
+			whisper("Could not find chosen scourge card {}. No scourge with that name.".format(scourgeList[choice]))
+			return
+		chosenScourge.moveToTable(x,y)
+			
 def buildNewLocation(group=table, x=0, y=0):
 	scenario = findScenario(table)
 	locName = askString("Please enter the location name.","Loc")
@@ -1385,7 +1401,7 @@ def randomCardN(who, pile, trait, x, y, n, hide=False):
 
 def cardTypePile():
 	mute()
-	types = ["Henchman", "Monster", "Barrier", "Armor", "Weapon", "Spell", "Item", "Ally", "Blessing", "Ship"]
+	types = ["Henchman", "Monster", "Barrier", "Armor", "Weapon", "Spell", "Item", "Ally", "Blessing", "Scourge", "Ship"]
 	choice = askChoice("Pick card type", types)
 	if choice <= 0:
 		return None, None	
@@ -1409,73 +1425,73 @@ def cardTypePile():
 #---------------------------------------------------------------------------
 # Menu items - called to see if a menu item should be shown
 #---------------------------------------------------------------------------
-def isPile(cards):
+def isPile(cards, x=0, y=0):
 	for c in cards:
 		if c.pile() is None:
 			return False
 	return True
 	
-def isMythPath(cards):
+def isMythPath(cards, x=0, y=0):
 	for c in cards:
 		if c.Subtype != 'Mythic Path':
 			return False
 	return True
 
-def isLocation(cards):
+def isLocation(cards, x=0, y=0):
 	for c in cards:
 		if c.Type != 'Location':
 			return False
 	return True
 
-def isVillain(cards):
+def isVillain(cards, x=0, y=0):
 	for c in cards:
 		if c.Subtype != 'Villain':
 			return False
 	return True
 
-def isShip(cards):
+def isShip(cards, x=0, y=0):
 	for c in cards:
 		if c.Type != 'Ship':
 			return False
 	return True
 
-def isEnemyShip(cards):
+def isEnemyShip(cards, x=0, y=0):
 	for c in cards:
 		if c.type != 'Ship' or c.pile() == shared.piles['Plunder']:
 			return False
 	return True
 
-def isWrecked(cards):
+def isWrecked(cards, x=0, y=0):
 	for c in cards:
 		if c.Type != 'Ship' or c.alternate != "B":
 			return False
 	return True
 	
-def isNotWrecked(cards):
+def isNotWrecked(cards, x=0, y=0):
 	for c in cards:
 		if c.Type != 'Ship' or c.alternate == "B":
 			return False
 	return True
 
-def hasPlunder(cards):
+def hasPlunder(cards,x=0, y=0):
 	for c in cards:
 		if c.Type != 'Ship' or c.pile() is None or len(c.pile()) == 0:
 			return False
 	return True
 
-def isBoon(cards):
+def isBoon(cards, x=0, y=0):
 	for c in cards:
 		if c.Type != 'Boon':
 			return False
 	return True
 	
-def isBoxed(cards):
+def isBoxed(cards, x=0, y=0):
 	for c in cards:
-		if c.Type not in ('Boon', 'Bane', 'Feat', 'Ship'):
+		if c.Type not in ('Boon', 'Bane', 'Feat', 'Ship', 'Scourge', 'Support'):
 			return False
 	return True
 	
-def hasDice(cards):
+def hasDice(cards, x=0, y=0):
 	for c in cards:
 		count = 0
 		for die in [ d20, d12, d10, d8, d6, d4 ]:
@@ -1484,12 +1500,12 @@ def hasDice(cards):
 			return False
 	return True
 	
-def hasMythCharges(card):
+def hasMythCharges(card, x=0, y=0):
 	if card.markers[mythicCharge] > 0:
 		return True
 	return False
 
-def usePlunder(groups):
+def usePlunder(groups, x=0, y=0):
 	#Check to see if the group contains a ship
 	for g in groups:
 		for c in g:

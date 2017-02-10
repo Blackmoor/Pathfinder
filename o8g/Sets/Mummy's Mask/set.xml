@@ -1875,7 +1875,7 @@
     <property name="Copyright" value="No."/>
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
-    <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 0&#10;Spell 1&#10;Item 1&#10;Ally 2&#10;Blessing 0"/>
+    <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 0&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 2&#10;Blessing 0"/>
     <property name="Attr2" value="At the start of your turn, recharge any cards in your hand that have the Cold trait."/>
     <property name="Attr3" value="Succeed at a Dexterity or Acrobatics check with a difficulty of 4 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="No effect."/>

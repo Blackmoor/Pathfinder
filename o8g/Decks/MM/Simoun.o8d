@@ -5,10 +5,8 @@
     <card qty="1" id="664e890e-5ad0-4bd4-92a8-3e06865d4584">Simoun</card>
   </section>
   <section name="Weapon" shared="False">
-    <card qty="1" id="a44d4837-415a-4352-a436-48ba7030f5ee">Blowgun</card>
-  </section>
-  <section name="Spell" shared="False">
     <card qty="4" id="df1df589-a1eb-4400-a62e-9c1dd68f8465">Kopis</card>
+    <card qty="1" id="a44d4837-415a-4352-a436-48ba7030f5ee">Blowgun</card>
   </section>
   <section name="Armor" shared="False">
     <card qty="1" id="2f560b03-aa7b-46b0-bc42-7c6b0ffc5c9f">Tussah Silk Coat</card>
@@ -27,6 +25,7 @@
     <card qty="1" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
     <card qty="2" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
   </section>
+  <section name="Spell" shared="False" />
   <section name="Feat" shared="False" />
   <section name="Cohort" shared="False" />
   <section name="Story" shared="True" />
