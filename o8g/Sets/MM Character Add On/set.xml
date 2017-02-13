@@ -99,7 +99,7 @@
     <property name="Subtype" value="Henchman"/>
     <property name="Subtype2" value="Barrier"/>
     <property name="Traits" value="Obstacle&#10;Weather&#10;Fire&#10;Veteran"/>
-    <property name="Attr1" value="When examined or encountered, display the Conflagration at a random open location that does not have a barrier displayed. That location may not be closed until this barrier is moved or banished.&#10;The difficulty to defeat is increased by the scenario’s adventure deck number.&#10;At the start of your turn at this location, you may attempt a check to defeat the Conflagration. If you succeed, banish this card.&#10;At the end of your turn, if you are at this location, you are dealt 1 Fire damage."/>
+    <property name="Attr1" value="When examined or encountered, display the Conflagration at a random open location that does not have a barrier displayed. That location may not be closed until this barrier is moved or banished.&#10;The difficulty to defeat is increased by the scenario's adventure deck number.&#10;At the start of your turn at this location, you may attempt a check to defeat the Conflagration. If you succeed, banish this card.&#10;At the end of your turn, if you are at this location, you are dealt 1 Fire damage."/>
     <property name="Attr2" value="Dexterity&#10;Disable&#10;Craft&#10;Constitution&#10;Survival"/>
     <property name="Attr3" value="9"/>
   </card>
@@ -706,7 +706,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Cold&#10;Basic"/>
-    <property name="Attr1" value="For your combat check, discard this card to use your Arcane or Divine skill + 1d6; after the check, ignore that non-villain monster’s power that happens after you act.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it."/>
+    <property name="Attr1" value="For your combat check, discard this card to use your Arcane or Divine skill + 1d6; after the check, ignore that non-villain monster's power that happens after you act.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>

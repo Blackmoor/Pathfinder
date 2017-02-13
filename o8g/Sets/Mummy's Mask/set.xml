@@ -192,7 +192,7 @@
     <property name="Subtype" value="Henchman"/>
     <property name="Subtype2" value="Barrier"/>
     <property name="Traits" value="Obstacle&#10;Weather&#10;Fire&#10;Veteran"/>
-    <property name="Attr1" value="When examined or encountered, display the Conflagration at a random open location that does not have a barrier displayed. That location may not be closed until this barrier is moved or banished.&#10;The difficulty to defeat is increased by the scenario’s adventure deck number.&#10;At the start of your turn at this location, you may attempt a check to defeat the Conflagration. If you succeed, banish this card.&#10;At the end of your turn, if you are at this location, you are dealt 1 Fire damage."/>
+    <property name="Attr1" value="When examined or encountered, display the Conflagration at a random open location that does not have a barrier displayed. That location may not be closed until this barrier is moved or banished.&#10;The difficulty to defeat is increased by the scenario's adventure deck number.&#10;At the start of your turn at this location, you may attempt a check to defeat the Conflagration. If you succeed, banish this card.&#10;At the end of your turn, if you are at this location, you are dealt 1 Fire damage."/>
     <property name="Attr2" value="Dexterity&#10;Disable&#10;Craft&#10;Constitution&#10;Survival"/>
     <property name="Attr3" value="9"/>
   </card>
@@ -373,7 +373,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Elemental&#10;Outsider&#10;Janni&#10;Veteran&#10;Trigger"/>
-    <property name="Attr1" value="When you examine this card, summon and encounter a random monster that has the Acid, Cold, Electricity, Fire, or Poison trait.&#10;The difficulty of checks against the Geniekin is increased by twice the scenario’s adventure deck number."/>
+    <property name="Attr1" value="When you examine this card, summon and encounter a random monster that has the Acid, Cold, Electricity, Fire, or Poison trait.&#10;The difficulty of checks against the Geniekin is increased by twice the scenario's adventure deck number."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="8"/>
   </card>
@@ -1172,7 +1172,7 @@
     <property name="Attr2" value="Wisdom"/>
     <property name="Attr3" value="5"/>
   </card>
-  <card id="ae1841d5-be92-4e48-87a0-5fbb7d4e01a7" name="Seer’s Tea">
+  <card id="ae1841d5-be92-4e48-87a0-5fbb7d4e01a7" name="Seer's Tea">
     <property name="Abr" value="B"/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
@@ -1378,7 +1378,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Attack&#10;Cold&#10;Basic"/>
-    <property name="Attr1" value="For your combat check, discard this card to use your Arcane or Divine skill + 1d6; after the check, ignore that non-villain monster’s power that happens after you act.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it."/>
+    <property name="Attr1" value="For your combat check, discard this card to use your Arcane or Divine skill + 1d6; after the check, ignore that non-villain monster's power that happens after you act.&#10;After playing this card, if you do not have either the Arcane or Divine skill, banish it; otherwise, you may succeed at an Arcane or Divine 8 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1405,7 +1405,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Knife&#10;Ranged&#10;Slashing&#10;Elite"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d8.&#10;If proficient with weapons, discard this card to ignore a non-villain monster’s power that occurs before you act.&#10;When playing another weapon, you may discard this card to add 1d4 to your combat check."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d8.&#10;If proficient with weapons, discard this card to ignore a non-villain monster's power that occurs before you act.&#10;When playing another weapon, you may discard this card to add 1d4 to your combat check."/>
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1843,7 +1843,7 @@
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 1&#10;Ally 0&#10;Blessing 2"/>
     <property name="Attr2" value="At the start of your turn, examine the top card of your location."/>
-    <property name="Attr3" value="Succeed at a Divine or Wisdom check with a difficulty of 5 plus the scenario’s adventure deck number."/>
+    <property name="Attr3" value="Succeed at a Divine or Wisdom check with a difficulty of 5 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="No effect."/>
     <alternate name="Glass Pavillion" type="B">
       <property name="Abr" value="B"/>

@@ -224,7 +224,7 @@
     <property name="Subtype" value="Henchman"/>
     <property name="Subtype2" value="Monster"/>
     <property name="Traits" value="Construct&#10;Veteran"/>
-    <property name="Attr1" value="The Warrior Doll is immune to the Mental and Poison traits. The difficulty to defeat is increased by twice the current scenario’s adventure deck number. If the check to defeat has the Fire trait, add 1 die to your check.&#10;If you do not defeat the Warrior Dolls by at least 2, shuffle a random barrier from the box into a random open location.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr1" value="The Warrior Doll is immune to the Mental and Poison traits. The difficulty to defeat is increased by twice the current scenario's adventure deck number. If the check to defeat has the Fire trait, add 1 die to your check.&#10;If you do not defeat the Warrior Dolls by at least 2, shuffle a random barrier from the box into a random open location.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="10"/>
   </card>
@@ -688,7 +688,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Knife&#10;Ranged&#10;Slashing&#10;Electricity&#10;Magic&#10;Elite"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged Skill + 1d8+1; you may additionally discard this card to add 1d6.&#10;If proficient with weapons, discard this card to ignore a non-villain monster’s power that occurs before you act.&#10;If proficient with weapons, you may discard this card to add 1d4+1 and the Electricity and Ranged trait to your combat check."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged Skill + 1d8+1; you may additionally discard this card to add 1d6.&#10;If proficient with weapons, discard this card to ignore a non-villain monster's power that occurs before you act.&#10;If proficient with weapons, you may discard this card to add 1d4+1 and the Electricity and Ranged trait to your combat check."/>
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="8"/>
   </card>
@@ -917,7 +917,7 @@
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
     <property name="Flavour" value="FLAVOR"/>
-    <property name="Attr1" value="Dye Market&#10;Golden Lake&#10;Tooth and Hookah&#10;Precinct of Left Eyes&#10;Grand Mausoleum&#10;Warehouse&#10;Quarry&#10;Dilapidated Plaza"/>
+    <property name="Attr1" value="Dye Market&#10;Golden Lake&#10;Tooth and Hookah&#10;Precinct of Left Eyes&#10;Warehouse&#10;Quarry&#10;Dilapidated Plaza"/>
     <alternate name="The Pharasmin Lottery" type="B">
       <property name="Abr" value="1"/>
       <property name="Copyright" value="No."/>
