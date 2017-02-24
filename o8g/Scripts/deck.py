@@ -173,6 +173,7 @@ def savePiles(name, sections, piles, getSection, isShared):
 				f.write(" <section name=\"{}\" shared=\"{}\">\n".format(s, isShared))
 				count = 0
 				for t in sorted(sections[s].keys()):
+					whisper("  <card qty=\"{}\" id=\"{}\">{}</card>\n".format(sections[s][t], t[1], t[0]))
 					f.write("  <card qty=\"{}\" id=\"{}\">{}</card>\n".format(sections[s][t], t[1], t[0]))
 					count += sections[s][t]
 				f.write(" </section>\n")

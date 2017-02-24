@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="3bcce288-1e91-4cd4-a87d-61120879e46a">Chains of Silver</card>
+    <card qty="1" id="c4ddcd94-7ce0-4d66-b808-82662176a50c">Evening at the Canny Jackal</card>
+    <card qty="1" id="26d2aafb-67e2-4095-bbac-f9464267041b">Panic in the Streets</card>
+    <card qty="1" id="46a17858-3e09-4b40-8197-b8d786fcb944">The Gilded Mask</card>
+    <card qty="1" id="6b721711-a29e-4a7c-b8bb-ff9e60f3ff9a">Those Who Dwell in Darkness</card>
+    <card qty="1" id="0a50b4e2-0514-417c-905e-bade79136b78">Empty Graves</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="7ff5782d-922d-45ec-b45b-368b38a172f4">Ekram Iffek</card>
+    <card qty="5" id="4e60b3ea-3737-451b-91b9-719271e5cf3f">Esobok</card>
+    <card qty="1" id="db82212d-2cfa-4649-a23b-b64d8fff81aa">Old Eye-Taker</card>
+    <card qty="1" id="abc999fc-3874-4841-ac10-37fbce585c33">Gaunt Cadaver</card>
+    <card qty="1" id="d3578f74-1f4f-492a-8509-724397c3d977">Widow and Dearly Departed</card>
+    <card qty="6" id="45fb5e7c-1bc5-4ab5-b941-2dbd48dbe1e2">Silver Chain Smuggler</card>
+    <card qty="3" id="69bce597-055a-4286-b306-8175e5d5e845">Elegiac Compass</card>
+    <card qty="1" id="639205ee-8356-41f4-9eb5-3be7cb5d498e">Bheg</card>
+    <card qty="6" id="3d4ff994-9ad9-4916-94eb-a50822f76469">Dark Slayer</card>
+    <card qty="7" id="cce4ce2b-fc6b-487b-a479-1ecac97475a4">Crawling Hands</card>
+    <card qty="1" id="59f2b206-e3b2-49ac-a7c4-e26554212a41">Ajin Ra Baqa</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="e518c968-e056-4013-b75b-ac8086ae6afa">Bonecrusher Chieftain</card>
+    <card qty="1" id="7f2c44c8-d30f-48cf-937d-2fb9fa18e9d3">Dark Stalker</card>
+    <card qty="2" id="24c225fe-31a8-4327-bab7-3bea9ca87785">Vanth</card>
+    <card qty="1" id="428ea4fd-4472-4bbf-98d8-5a88c4ea4ca7">Tekenu</card>
+    <card qty="1" id="838da61e-8c11-419a-b847-26e81b271480">Ice Elemental</card>
+    <card qty="1" id="e5a04bd6-16c2-493e-8063-dce8f4c96fc1">Carrion Golem</card>
+    <card qty="1" id="f5688596-d9a7-491b-8e34-6573b86e355a">Brain Ooze</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="d4cd78c4-d3ff-468b-be13-2cc59dd7d155">Hepsushep</card>
+    <card qty="1" id="e261dfe2-b31c-4fcd-b0b4-788e4af222ce">Curse of Teeth and Fleas</card>
+    <card qty="1" id="39a1e9a6-7784-4765-991a-678ac7e26a24">Telekinesis Trap</card>
+    <card qty="1" id="d3c554d1-91fb-457f-8271-ab303c21e407">Ambush</card>
+    <card qty="1" id="7d7aaae1-a510-48e8-b140-f94e7dbd4066">Fireball Trap</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="49a069a7-105b-4d65-aa3f-31e1c2cd13a7">Mistmail</card>
+    <card qty="1" id="7e1e0060-fc61-4b9f-a955-7388baae242e">Canopic Wrap</card>
+    <card qty="1" id="c5e90a84-32e4-46a2-971b-bb5d57929202">Mystic Silk Coat</card>
+    <card qty="1" id="9f1177e4-1d56-4b3b-9b52-4eca8fe29ec6">Hide Armor of Fire Resistance</card>
+    <card qty="1" id="33dbf771-929d-41df-a686-e49c8a968333">Tooled Crocodile Skin</card>
+    <card qty="1" id="eb9a0d23-af95-4e68-b268-9c1867d51305">Alchemist's Suit</card>
+    <card qty="1" id="9101878d-835e-42b4-ac86-eebb8df69296">Alchemist's Shield</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="011039f8-6689-4205-9a8c-86f87ae18a93">Ooze Falchion +1</card>
+    <card qty="1" id="536f8df1-c5bc-40c2-8882-e86a8706bcec">Greatclub +1</card>
+    <card qty="1" id="51bc8354-27c5-4ebd-8885-78015d070186">Javelin of Lightning</card>
+    <card qty="1" id="9ea85e8e-31f6-4f67-9fc0-96ace226279a">Flask Thrower</card>
+    <card qty="1" id="89e763a2-6d23-4297-8e02-e8855d95e7d8">Flaming Spear +1</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="7a246d4c-4fcf-4398-b7b8-7fe31a2cf53b">Disable Mechanism</card>
+    <card qty="1" id="82c0d39a-dacf-4bc3-afab-0e37096ef626">Heat Metal</card>
+    <card qty="1" id="cfcfe0a4-64d3-4702-a53c-ec3c3b929d43">Lightning Bolt</card>
+    <card qty="1" id="2dff88e0-e074-4115-8809-894647f5755d">Toxic Cloud</card>
+    <card qty="1" id="a11b7125-0cf2-4d23-be9d-c11481847822">Deathgrip</card>
+    <card qty="1" id="c5d63328-d47b-48ac-8e23-cbd3877c7bff">Corrosion</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="380cd25d-4b23-4c3f-98da-e024114f6902">Mumia</card>
+    <card qty="1" id="6f8fa766-a743-4805-83ad-055d308bec9d">Glyphbane Gloves</card>
+    <card qty="1" id="240f127e-5099-4961-be52-a74653744a82">Soul Stimulant</card>
+    <card qty="1" id="369580a0-9f7b-48dd-8558-a1f2d6a62104">Magic Carpet</card>
+    <card qty="1" id="515d2133-3571-4125-aa3b-026935a2b98e">Hand of the Guilty Man</card>
+    <card qty="1" id="55169052-a76d-428c-97c7-b608b012872a">Effigy of Maat</card>
+    <card qty="1" id="dc4c7e79-7b87-4bfa-8302-aacc7e32d44c">Black Marsh Spider Venom</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="74465beb-f768-42ad-9874-4c6596705533">Cleric of Nethys</card>
+    <card qty="1" id="c4fcb87e-550e-453a-8831-81819363f96a">Druid of the Storm</card>
+    <card qty="1" id="4d7b9c0c-d948-40ab-b876-8743efdf155a">Unwrapped Harmony</card>
+    <card qty="1" id="2381d3f6-041c-4f9d-a8a9-adef4f2f47e9">Ptemenib</card>
+    <card qty="1" id="6143c309-00aa-48de-a136-8b6ccb3a1f0c">Apprentice</card>
+    <card qty="1" id="a4f34bf7-3f37-4203-8b5c-a22aad8de5ee">Qasin</card>
+    <card qty="1" id="ae33ab31-2fe5-4c6d-a501-370f306c2616">Minnothet</card>
+    <card qty="1" id="0def8020-b059-4ec3-b8e0-233dcafca2b1">Bal Themm</card>
+    <card qty="1" id="a23227e5-24bd-443c-bad8-53e6ab7c4825">Basif Iosep</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="f5ae4e8b-3411-4664-a884-7fa73edbf5e3">Blessing of Maat</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True">
+    <card qty="3" id="1885581a-e133-406d-bc88-bc252f0b9f1e">Curse of Withering</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True">
+    <card qty="1" id="92081bb3-45c9-4674-8862-289fb0579d08">Shardizhad</card>
+    <card qty="1" id="3bdcb4c1-c08f-4a5d-9f77-1e571ee49655">Auction House</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="a30b7e7b-f7ce-4d60-9868-bbb3e9077272">Neferekhu</card>
+    <card qty="1" id="8276d321-f3fe-4e50-8c1b-077082c473b5">Ushabti of the Willing Servant</card>
+    <card qty="1" id="c9e4caec-5607-43a2-9801-ff6c8ba5f4d5">Natron Fang</card>
+    <card qty="1" id="e3b958c1-dfa0-4c77-b95c-9c1f2a5c4a37">Hand of the Honest Man</card>
+    <card qty="1" id="be739050-46ea-466d-8b2e-904d68b6d0fa">Mask of the Forgotten Pharaoh</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="4b31d8a7-1099-4286-a784-6c8f8d36c554">Vizier's Hall</card>
+    <card qty="1" id="8c6d52c8-2252-46a9-ab7e-703df4acddc7">The Shiny Bauble</card>
+    <card qty="1" id="58c89fd6-65eb-4cbc-a731-a09b6a96d1ca">Sepulcher of the Servant</card>
+    <card qty="1" id="ae05563e-d460-4477-8235-a2ee2bff4dfe">Mumia Lab</card>
+    <card qty="1" id="3a02f948-3974-439f-94f9-ce48a884719c">Ghoul Square</card>
+    <card qty="1" id="9e872091-a1c8-4fa6-a00c-7350942a75e2">Canny Jackal</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="e75e43bd-3a55-4515-9653-f216de9dda53">Amadjawet</card>
+    <card qty="1" id="a378d14a-4f96-4acb-861b-758ac4cca458">Meret Hetef</card>
+    <card qty="1" id="d5f0775b-912b-4951-af60-56fdf35086e8">Nebta-Khufre</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

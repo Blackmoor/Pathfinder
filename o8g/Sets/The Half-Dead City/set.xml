@@ -896,14 +896,14 @@
     <property name="Type" value="Story"/>
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="FLAVOR"/>
-    <property name="Attr1" value="Crypt&#10;Golden Lake&#10;Hall of Blessed Rebirth&#10;Catacombs&#10;Ruined Temple&#10;Stonework Passages&#10;Embalming Parlor&#10;Volcanic Vents"/>
+    <property name="Attr1" value="Crypt&#10;Hall of Blessed Rebirth&#10;Oasis&#10;Catacombs&#10;Ruined Temple&#10;Stonework Passages&#10;Embalming Parlor&#10;Volcanic Vents"/>
     <alternate name="Sanctum of the Erudite Eye" type="B">
       <property name="Abr" value="1"/>
       <property name="Copyright" value="No."/>
       <property name="Type" value="Story"/>
       <property name="Subtype" value="Scenario"/>
       <property name="Subtype2" value="Back"/>
+      <property name="Flavour" value="FLAVOR"/>
       <property name="Attr1" value="When you would encounter a boon, roll 1d6. If you roll a 1, banish it instead. If you roll a 2 or 3, display it next to this card instead, and if you win the scenario, acquire it. If you roll a 4, 5, or 6, encounter the boon."/>
       <property name="Attr2" value="Velriana Unborn"/>
       <property name="Attr3" value="Graven Guardian of Nethys&#10;Senenmerek&#10;Forgotten Pharaoh Cultists"/>
@@ -937,7 +937,7 @@
     <property name="Subtype" value="Scenario"/>
     <property name="Subtype2" value="Front"/>
     <property name="Flavour" value="FLAVOR"/>
-    <property name="Attr1" value="Grand Mausoleum&#10;Precinct of Left Eyes&#10;Tooth and Hookah&#10;Smoking Den&#10;Caravanserai&#10;Surgery&#10;Oasis&#10;Glass Pavillion"/>
+    <property name="Attr1" value="Mausoleum&#10;Precinct of Left Eyes&#10;Tooth and Hookah&#10;Smoking Den&#10;Caravanserai&#10;Surgery&#10;Oasis&#10;Glass Pavillion"/>
     <alternate name="Tomb Raiders Gone Rogue" type="B">
       <property name="Abr" value="1"/>
       <property name="Copyright" value="No."/>

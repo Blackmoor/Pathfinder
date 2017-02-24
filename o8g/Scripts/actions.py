@@ -868,7 +868,6 @@ def IslandsoftheDamned(mode):
 		
 def TheDemonsRedoubt(mode):
 	if mode == 'Setup':
-		notify("In Demon's Redoubt Function!")
 		locs = [card for card in table if card.Type == "Location"]
 		for card in locs:
 			grimslake = findCardByName(shared.piles['Henchman'],"Grimslake")
@@ -884,7 +883,44 @@ def S02ALovesLaboursLost(mode):	#In Love's Labours Lost, display Heartbreak Hins
 	if mode == 'Setup':
 		hinsin = findCardByName(shared.piles['Ally'],'Heartbreak Hinsin')
 		hinsin.moveToTable(PlayerX(-1)+15,StoryY)
+		
+def ChainsofSilver(mode): #In Chains of Silver, an extra henchman is shuffled into the first location.
+	if mode == 'Setup':
+		ekram = findCardByName(shared.piles['Henchman'],'Ekram Iffek')
+		whisper("searched for Ekram")
+		if ekram is not None:
+			whisper("Ekram found")
+			ekram.moveTo(shared.piles['Location1'])
+			shuffle(shared.piles['Location1'])
+		else:
+			whisper("Could not find henchman Ekram!")
+			return
 
+def ThoseWhoDwellinDarkness(mode): #In this scenario, a second set of henchmen is added to the decks.
+	if mode == 'Setup':
+		numLocs = numLocations()
+		err = 0
+		randBless = 0
+		i = 0
+		while i < 3:
+			elgiac = findCardByName(shared.piles['Henchman'],'Elgiac Compass')
+			if elgiac is not None:
+				elgiac.moveTo(shared.piles['Special'])
+			else: 
+				whisper("Could not find enough Elgiac Compasses!")
+				err = i
+				break
+			i=i+1
+		if err == 0:
+			randBless = numLocs - 3
+		else:
+			randBless = numLocs - err
+		i = 0
+		while i < randBless:
+			blessing = shared.piles['Blessing'].random()
+			blessing.moveTo(shared.piles['Special'])
+			i = i - 1
+			
 #Pick a random ally from the player piles, move it to the table and pass control to the supplied player
 def donateAlly(who):
 	mute()
@@ -1351,6 +1387,8 @@ def summonScourge(group=table, x=0, y=0):
 	if scourgeList[choice-1] == "Random Scourge":
 		remoteCall(pile.controller, "randomCardN", [me, shared.piles['Scourge'], 0, x, y, 1])
 	else:
+		if shared.piles['Scourge'].controller != me:
+			shared.piles['Scourge'].controller = me
 		chosenScourge = findCardByName(shared.piles['Scourge'],scourgeList[choice-1])
 		if chosenScourge == None:
 			whisper("Could not find chosen scourge card {}. No scourge with that name.".format(scourgeList[choice]))
@@ -1801,7 +1839,7 @@ def findPath(group):
 def closePermanently(card, x=0, y=0):
 	if closeLocation(card, True):
 		scenario = findScenario(table)
-		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble','The Big Bonfire','The Old Shipwreck','The Pharasmin Lottery']: # These scenarios are only won when the last location is closed
+		if scenario.Name in [ 'Scaling Mhar Massif' ,'Local Heroes', 'Sunken Treasure', 'Home Sweet Home', 'The Fall of Kenabres','1-1D Crusaders Assemble','The Big Bonfire','The Old Shipwreck','The Pharasmin Lottery','Panic in the Streets','Evening at the Canny Jackal']: # These scenarios are only won when the last location is closed
 			open = [ c for c in table if isNotPermanentlyClosed(c) ]
 			if len(open) == 0:
 				if scenario.Name in ['1-1D Crusaders Assemble']: #In Crusaders Assemble, after you close the last location, build Laboratory
@@ -2432,7 +2470,7 @@ def scenarioSetup(card):
 		nl = 8
 	elif card.Name in ('Audience with the Inheritor'):
 		nl = 6
-	elif card.Name in ('Into the Runeforge','Isle of the Black Tower',"The Demon's Redoubt",'Onslaught on Drezen','0-6B The Battle of Abendego','The Tainted Tower'):
+	elif card.Name in ('Into the Runeforge','Isle of the Black Tower',"The Demon's Redoubt",'Onslaught on Drezen','0-6B The Battle of Abendego','The Tainted Tower', 'Chains of Silver'):
 		nl -= 1
 	elif card.Name in ['Scaling Mhar Massif','The Pleasure Center','0-6E Into the Maelstrom']:
 		nl -= 2
@@ -2594,6 +2632,12 @@ def scenarioSetup(card):
 		suture.moveTo(hidden)
 		repeat = 1
 		nl = nl - 1
+	elif card.Name == 'Ahead of the Competition': #This scenario uses random allies as henchmen, so those are added to the hidden pile
+		cardsPerLocation = 1
+		repeat = 1
+		numAllies = nl - 1
+		for i in range(nl):
+			shared.piles['Ally'].random().moveTo(hidden)
 	else:
 		henchmen = card.Attr3.splitlines()
 		cardsPerLocation = 1
