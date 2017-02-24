@@ -899,8 +899,6 @@ def ChainsofSilver(mode): #In Chains of Silver, an extra henchman is shuffled in
 def ThoseWhoDwellinDarkness(mode): #In this scenario, a second set of henchmen is added to the decks.
 	if mode == 'Setup':
 		numLocs = numLocations()
-		err = 0
-		randBless = 0
 		i = 0
 		while i < 3:
 			elgiac = findCardByName(shared.piles['Henchman'],'Elgiac Compass')
@@ -908,18 +906,20 @@ def ThoseWhoDwellinDarkness(mode): #In this scenario, a second set of henchmen i
 				elgiac.moveTo(shared.piles['Special'])
 			else: 
 				whisper("Could not find enough Elgiac Compasses!")
-				err = i
 				break
 			i=i+1
-		if err == 0:
-			randBless = numLocs - 3
-		else:
-			randBless = numLocs - err
+		randBless = numLocs - i
 		i = 0
 		while i < randBless:
 			blessing = shared.piles['Blessing'].random()
 			blessing.moveTo(shared.piles['Special'])
-			i = i - 1
+			i += 1
+
+		i = 1
+		while i <= numLocs:
+			random = shared.piles['Special'].random()
+			random.moveTo(shared.piles['Location{}'.format(locNum)])
+			i += 1
 			
 #Pick a random ally from the player piles, move it to the table and pass control to the supplied player
 def donateAlly(who):
