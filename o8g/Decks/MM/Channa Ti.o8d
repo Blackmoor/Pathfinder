@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="22ceb1aa-4c9d-42c1-8f7b-2ae01f205d27">Channa Ti</card>
+    <card qty="1" id="0f8e255e-e086-453e-ba67-ca6c452361d7">Channa Ti</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="d7ae16c6-2436-467c-9e99-b86e106f14cc">Bolas</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="2518dd4a-2d0d-4f9c-aa5f-24f34a4224b7">Cure</card>
+    <card qty="2" id="36c86d80-cff9-4581-9448-49677e3985e5">Unshakable Chill</card>
+    <card qty="2" id="7236bb6f-b58c-4cfa-82a2-580861f19f4d">Acid Jet</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="30626fbe-1040-4bd5-9d5a-08b6a1339a80">Tussah Silk Coat</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="dc594621-358e-4900-8b10-085dd272acef">Holy Water Grenade</card>
+    <card qty="1" id="00a33245-f564-458d-a3f6-5875bd40eb6d">Acid Flask</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="5315acb3-4e9c-4c30-a248-68a08db99b4e">Camel</card>
+    <card qty="1" id="49d09c4b-b00c-4c74-b284-ed3d369e8335">Porcupine</card>
+    <card qty="1" id="a1a554f8-9b3b-49d0-bdf6-2bb6930040b4">Shock Lizard</card>
+    <card qty="1" id="ac62844e-850d-44a1-97db-ffa365f78407">Dhabba</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="2" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

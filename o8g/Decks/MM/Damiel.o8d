@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="58b0cad4-cab3-40ca-8ab1-53718f6398f9">Damiel</card>
+    <card qty="1" id="fb812675-d929-4dac-9fdb-03148c328d77">Damiel</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="276f8989-6c4c-42fc-93ed-f6d7b2b3eff8">Torch</card>
+    <card qty="1" id="a44d4837-415a-4352-a436-48ba7030f5ee">Blowgun</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False">
+    <card qty="1" id="5b11b412-21c9-4fcd-a45e-291b0a332382">Noxious Bomb</card>
+    <card qty="1" id="b646e822-680f-4f27-b401-d4f02b236fec">Bladeguard</card>
+    <card qty="1" id="7e65fe4e-de6a-45b8-af99-7efd50097be0">Flash Freeze</card>
+    <card qty="2" id="16241df0-d120-410c-9267-d73a2bf62ff8">Acid Flask</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="f7ec7969-126b-4f66-b86a-13b995f668ae">Tomb Raider</card>
+    <card qty="1" id="ee2836fe-dce3-47e8-b780-50d765196720">Dhabba</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

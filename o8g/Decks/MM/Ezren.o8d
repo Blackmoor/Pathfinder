@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="ef589ee9-f97e-411f-92f5-e43b96adb256">Ezren</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="276f8989-6c4c-42fc-93ed-f6d7b2b3eff8">Torch</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="7977cec3-933f-4f52-93c7-6401db8d0deb">Elemental Treaty</card>
+    <card qty="1" id="7694f2a8-4cd3-4e49-8d6a-0864f40a54ab">Unshakable Chill</card>
+    <card qty="1" id="1a7b9036-d1e0-4f1c-8d45-b41e7410549c">Remove Curse</card>
+    <card qty="1" id="da07a49d-df31-41fb-bea2-1a6b3e54cb3f">Lightning Touch</card>
+    <card qty="1" id="5a406fc1-ebf0-495e-8827-e65147b4a40c">Immolate</card>
+    <card qty="1" id="833231ee-1fa2-4a2c-91d1-c39f95e29741">Acid Jet</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="2f560b03-aa7b-46b0-bc42-7c6b0ffc5c9f">Tussah Silk Coat</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="14faf7d9-57e2-4976-b391-84d8d742540b">Osirion History Guide</card>
+    <card qty="2" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+    <card qty="1" id="1a5299ff-ee0a-4f63-9a95-c326e478b85d">Fire Ward Gel</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="ec9bf6f3-4b46-4156-9100-6a9036f03d9f">Pahmet Clansman</card>
+    <card qty="1" id="f35eae93-7e48-4e7d-b400-0e140272ace5">Porcupine</card>
+    <card qty="1" id="6f66326e-51be-48ba-a51c-c0fa7faccb4d">Embalmer</card>
+  </section>
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

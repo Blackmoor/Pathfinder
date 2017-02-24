@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="f6bd5017-4ed8-4d27-9b22-f579211aa951">Mummy's Mask</card>
+    <card qty="1" id="631fd022-1451-4187-a1b5-129cb1a2eab1">Cross the Pharaoh's Land</card>
+    <card qty="1" id="2e58d412-b8e4-41a4-ad1a-6cec8f6a714e">All That Glitters Begets Gold</card>
+    <card qty="1" id="13c28606-7d6a-427e-9e8f-6a374c9e27da">A Sandstorm of Malevolent Will</card>
+    <card qty="1" id="22146b68-b209-4808-b8ad-7c1a9fbccc0f">Desiccated Delirium</card>
+    <card qty="1" id="02ea1c26-cadb-4777-9aa4-90a2ab0a1e54">The Tainted Tower</card>
+    <card qty="1" id="2067bcbc-62bd-4505-a10f-d5c726f7d890">Forged in Flames</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="5" id="5b3169ae-32cf-4326-9346-1a9bbfdb4a3e">Acid Pool</card>
+    <card qty="5" id="7238a8d0-6844-4f1a-bedd-08da7cf966ec">Aghash</card>
+    <card qty="3" id="b8f16589-5cac-4efb-84e8-4a47e3622365">Alchemical Golem</card>
+    <card qty="6" id="d6dfd894-9766-4a5c-b286-a1e65cbc554d">Conflagration</card>
+    <card qty="5" id="48a200a2-4350-4372-adf6-1717056f3775">Fire Spirits</card>
+    <card qty="5" id="a7f74da3-7ac7-4da9-b68c-ac4f96fb1ab3">Forgotten Pharaoh Cultists</card>
+    <card qty="1" id="c641583f-f9dd-434c-a0d8-ec5d95d3c03a">Giant Sand Eel</card>
+    <card qty="4" id="dd55bb32-0e99-4dee-b183-95ef6de9a4de">Mining Construct</card>
+    <card qty="1" id="200242d3-c7a1-4703-adfe-7ef7c0b118d5">Natron Zombie</card>
+    <card qty="1" id="8875c652-3282-49d9-a1d7-14613ebd744e">Paracletus</card>
+    <card qty="5" id="18365b2e-63d0-4201-9879-ffd0162cee9e">Voices of the Spire</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="91ff8939-e2a0-4fea-ac9c-bdfeb4f76524">Blasphemous Priest</card>
+    <card qty="2" id="96569a86-5cbd-46b4-b21e-39270e282dea">Bonecrusher Hunter</card>
+    <card qty="2" id="a767e5d5-6804-4300-872c-0e7a41615cc6">Bonecrusher Hyenamaster</card>
+    <card qty="2" id="121785d2-56f0-430b-9171-3faa14c15b6b">Bonecrusher Wizard</card>
+    <card qty="2" id="c12a78c4-4470-465e-b847-acda0b6e76a4">Caravan Raider</card>
+    <card qty="1" id="f60200bc-2f62-4035-96ef-8ba3f6ebbdb8">Death Hound</card>
+    <card qty="2" id="599574b3-e551-4081-adf9-883bf9454201">Desert Trapper</card>
+    <card qty="2" id="3a8508a1-5849-4e47-aedf-e071e92ab456">Emperor Cobra</card>
+    <card qty="2" id="ec633309-34c0-4260-870a-6b236c3d6de2">Fire Hydra</card>
+    <card qty="2" id="75bee981-1371-4ff9-87cd-39e229029df3">Geniekin</card>
+    <card qty="2" id="7de6c1ff-ff6f-4afa-9e11-95dee34248c6">Ghost Scorpion</card>
+    <card qty="2" id="c9ca0e82-fcb0-4225-9d79-c38750c50737">Hyena</card>
+    <card qty="2" id="a4ff43ba-2d22-407e-a351-103def60875d">Magma Spirit</card>
+    <card qty="2" id="56031dd1-f9ab-4f94-9727-cbced0351a89">Sand Creeper</card>
+    <card qty="2" id="59d7268f-9ff2-4f07-a691-98eff2212a22">Scarab Swarm</card>
+    <card qty="2" id="40a84691-fd7c-4e2a-ba3a-93a58987024d">Shock Elemental</card>
+    <card qty="2" id="edc46b3b-81d1-4f58-a11a-39126d43d16d">Shock Toad</card>
+    <card qty="2" id="96103007-c7dd-4737-a1ae-b7457264aba8">Skeletal Jackal</card>
+    <card qty="1" id="08c0cecf-4910-4b77-99ef-636408814a29">Yellow Jelly</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="59b6fd9c-1550-435a-9b57-1a69ded25e35">Alchemical Gas</card>
+    <card qty="2" id="b9898bb0-d05a-4079-8fd1-44e24f71db10">Baited Jewel Box</card>
+    <card qty="1" id="dee5ac2b-5217-4682-bf54-02c6a7958178">Burning Tar</card>
+    <card qty="2" id="c8c1c529-d03f-41cc-a025-a069945abe86">Camouflaged Pit Trap</card>
+    <card qty="1" id="3dcfc1e0-fd07-4648-af33-61973519f614">Collapsing Scaffolding</card>
+    <card qty="2" id="a67ad0aa-9619-41b5-92d7-3146c49b7b09">Corridor Dart Trap</card>
+    <card qty="1" id="f122da59-3ac6-4d48-a3e0-222fe5c64eb7">Dry Quicksand</card>
+    <card qty="1" id="ee64850b-6ec0-432a-9b44-ebbfdfd92694">Falling Rubble</card>
+    <card qty="1" id="5a3036f8-3e11-47b7-aaff-4369a6a16b00">Lightning Storm</card>
+    <card qty="2" id="799a1fcd-9018-48ba-b22b-b73100c421fa">Malfunctioning Deathtrap</card>
+    <card qty="2" id="f6e0d445-bde7-459b-8721-6be631b7c6f7">Poison Blade Trap</card>
+    <card qty="2" id="e5842dd0-77f1-46e5-af0e-9d26b32f6351">The Evil Eye</card>
+    <card qty="2" id="b77d6068-1f44-4fb1-9bca-70efdee83e10">Toxic Geyser</card>
+    <card qty="1" id="1564c787-5e7e-4680-8372-2a4c822eeb83">Trapped Locker</card>
+    <card qty="1" id="dc8cbdfa-ae70-4221-a6a8-a0306f3ef605">Wall Scythes</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="57a21710-bd8d-4dcf-80d0-dd298486b740">Armor of the Sands</card>
+    <card qty="3" id="92264c70-f7da-408c-aa89-09cae43abfa7">Armored Kilt</card>
+    <card qty="1" id="4d9add79-3bf1-4fd1-a592-607ab66aa511">Catching Cape</card>
+    <card qty="2" id="fa87905b-67f5-4051-bb46-b9403a74600c">Crocodile Skin Armor</card>
+    <card qty="1" id="98e39eaa-8848-4da2-8576-a6db535cce13">Crocodile Skin Helmet</card>
+    <card qty="1" id="583c0c4a-8d28-44ad-bfe6-7abb636e4f6e">Crocodile Skin Madu</card>
+    <card qty="1" id="d69f0800-0b17-40f9-bff3-fafe5b933c42">Crocodile Skin Shield</card>
+    <card qty="2" id="65b1b8e6-7f64-4da6-b3c8-7c7db264dc9e">Crocodile Skin Lamellar</card>
+    <card qty="2" id="9985a6d9-4e59-4c3c-9d81-d50d17817177">Filter Hood</card>
+    <card qty="4" id="2f560b03-aa7b-46b0-bc42-7c6b0ffc5c9f">Tussah Silk Coat</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="3" id="a44d4837-415a-4352-a436-48ba7030f5ee">Blowgun</card>
+    <card qty="2" id="32587d2d-695e-4107-87bf-b2f903a1bc9e">Chakram</card>
+    <card qty="2" id="d3ea411a-facb-4881-91ab-b439978244ad">Corrosive Dagger +1</card>
+    <card qty="1" id="0ecb1dba-cca5-4d6a-aa8b-3c33cf806587">Djinni Quarterstaff</card>
+    <card qty="1" id="b8a062f0-7b29-41cc-aeab-e43661fad354">Falcata</card>
+    <card qty="1" id="f263fa10-2567-4a90-afbb-6ee9c89d50bc">Fire Lance</card>
+    <card qty="1" id="be58cc89-d892-4657-aa01-65373e3eacad">Flaming Heavy Pick +1</card>
+    <card qty="1" id="e01d4779-8719-4ebc-b1ba-42cfce9703a6">Garrotte</card>
+    <card qty="1" id="17e9138a-f539-46a6-b5ee-9ac68b493b56">Hunga Munga</card>
+    <card qty="3" id="afcbec48-529e-4c80-b06c-66bfa4c28db4">Kukri</card>
+    <card qty="1" id="665c2811-ce21-4833-8bac-38f8fa1e84b4">Scimitar</card>
+    <card qty="1" id="f5c359e8-7b1d-4f8b-8c09-6c4ec504b489">Shotel</card>
+    <card qty="1" id="fb3c495a-dd92-4310-9d56-5fd7860e4c53">Sling Staff</card>
+    <card qty="1" id="7be317a4-38e5-485c-a81a-58fec8bb7703">Staff of Focus</card>
+    <card qty="3" id="276f8989-6c4c-42fc-93ed-f6d7b2b3eff8">Torch</card>
+    <card qty="1" id="3fbc98c8-e2f5-4345-b347-cdcb1c9cbabc">Whip</card>
+    <card qty="1" id="6d856205-02a6-4ca8-9386-19268d1e183e">Poisoned Sand Tube</card>
+    <card qty="4" id="df1df589-a1eb-4400-a62e-9c1dd68f8465">Kopis</card>
+    <card qty="1" id="ef160176-0ea8-4015-996a-466162d7105c">Khopesh</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="833231ee-1fa2-4a2c-91d1-c39f95e29741">Acid Jet</card>
+    <card qty="1" id="56b43ad4-f659-4257-af02-1857cdaf82f9">Acid Splash</card>
+    <card qty="2" id="0719e9c7-a8f2-4374-ac35-05157257077f">Acute Senses</card>
+    <card qty="2" id="10728eb1-b6d4-4c06-97b0-d61748c2e2aa">Augury</card>
+    <card qty="2" id="6c672ac3-c786-43bc-b957-161726d18436">Clinging Venom</card>
+    <card qty="4" id="659528c1-597e-4a87-990d-cbd57979ef2c">Cure</card>
+    <card qty="2" id="7977cec3-933f-4f52-93c7-6401db8d0deb">Elemental Treaty</card>
+    <card qty="1" id="774d847c-ebda-4439-b394-6e5b73b54f5a">Fiery Glare</card>
+    <card qty="2" id="9690f425-902e-4fe1-9964-de93293a1981">Find Traps</card>
+    <card qty="2" id="07c2e9ad-1b8f-4177-bc36-5f9380827baa">Fireblade</card>
+    <card qty="2" id="ee605283-da7b-4e0a-8c89-ddf1c5183acd">Holy Light</card>
+    <card qty="2" id="5a406fc1-ebf0-495e-8827-e65147b4a40c">Immolate</card>
+    <card qty="1" id="da07a49d-df31-41fb-bea2-1a6b3e54cb3f">Lightning Touch</card>
+    <card qty="2" id="1a7b9036-d1e0-4f1c-8d45-b41e7410549c">Remove Curse</card>
+    <card qty="3" id="7694f2a8-4cd3-4e49-8d6a-0864f40a54ab">Unshakable Chill</card>
+    <card qty="1" id="98276ab9-0e83-451f-a576-0d2ba29e10d5">Viper Strike</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="3" id="16241df0-d120-410c-9267-d73a2bf62ff8">Acid Flask</card>
+    <card qty="1" id="18e0effa-96cf-40c6-8524-5f8431e26b0e">Alchemist's Kit</card>
+    <card qty="1" id="5bfc4050-183d-431a-8184-da6c3c9afe8a">Antitoxin</card>
+    <card qty="2" id="b646e822-680f-4f27-b401-d4f02b236fec">Bladeguard</card>
+    <card qty="1" id="42051af9-af9d-4f46-8547-c9aaa7029463">Brilliance of Ra</card>
+    <card qty="1" id="db17874c-1ada-4c45-b15f-e627e735f27b">Canteen</card>
+    <card qty="1" id="17814b69-1b87-445c-aa06-0a86ceb28600">Crowbar</card>
+    <card qty="1" id="1a5299ff-ee0a-4f63-9a95-c326e478b85d">Fire Ward Gel</card>
+    <card qty="3" id="7e65fe4e-de6a-45b8-af99-7efd50097be0">Flash Freeze</card>
+    <card qty="1" id="e15e6521-c503-4a42-b195-c110506f1451">Ghost Battling Ring</card>
+    <card qty="1" id="269fe3a9-4cd6-4e6a-a1ae-3fd3e195bf26">Healer's Kit</card>
+    <card qty="1" id="961d2bdb-2e34-4280-924c-398c0ed7fd2a">Holy Water Grenade</card>
+    <card qty="2" id="3df798b7-c29d-48fe-acf7-e1199487afa3">Kohl of Uncanny Discernment</card>
+    <card qty="2" id="5b11b412-21c9-4fcd-a45e-291b0a332382">Noxious Bomb</card>
+    <card qty="2" id="14faf7d9-57e2-4976-b391-84d8d742540b">Osirion History Guide</card>
+    <card qty="1" id="5769c9fd-8849-4371-907c-eb199fb2d6ed">Potion of Energy Resistance</card>
+    <card qty="2" id="ade40d05-9003-4bf5-9ac2-585dba0f3cd8">Potion of Healing</card>
+    <card qty="1" id="4f47da3f-2d1f-41eb-acac-b50af0af629f">Ring of the Godless</card>
+    <card qty="1" id="ae1841d5-be92-4e48-87a0-5fbb7d4e01a7">Seer’s Tea</card>
+    <card qty="1" id="3f59bf30-56d7-4f7d-afe6-5c4804f43dfa">Smoked Glass Goggles</card>
+    <card qty="1" id="f4ea6166-0ab9-44af-95c4-37a269d191d5">Twitch Tonic</card>
+    <card qty="1" id="d43b2e8b-c131-4b4c-add1-e57d9c029015">Flame Staff</card>
+    <card qty="1" id="79822ce5-e0e4-4b7c-891e-8d21f594604b">Wing of Horus</card>
+    <card qty="1" id="c89950ed-9afd-45b1-8f3b-f95356be6c3b">Magnifying Glass</card>
+    <card qty="2" id="badbcdc3-2317-4023-b33c-05c64dd8d740">Compass</card>
+    <card qty="1" id="5ccd1c2f-9a87-418c-b6bb-206b3637a885">Frost Staff</card>
+    <card qty="1" id="cc8a58eb-8879-47d8-9cf6-68651afec75d">Feather of Maat</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="2" id="d049dbef-2bc1-4b4e-9ed1-dd7445ab4f2a">Camel</card>
+    <card qty="1" id="bb634c68-619c-4361-8da5-90582ea024fe">Caravan Guard</card>
+    <card qty="3" id="ee2836fe-dce3-47e8-b780-50d765196720">Dhabba</card>
+    <card qty="1" id="f3738f45-61d0-4e5f-9b42-b1041587b0c4">Dredge</card>
+    <card qty="2" id="6f66326e-51be-48ba-a51c-c0fa7faccb4d">Embalmer</card>
+    <card qty="1" id="42648949-b7f0-4790-b7b8-8b9b1e365197">Fire Gecko</card>
+    <card qty="1" id="4c4228a9-bf48-4314-82de-1ef67c8f7f89">Giant Slug</card>
+    <card qty="1" id="f89eb4b0-8344-4e4d-9a33-2326d4d02805">Hyaenodon</card>
+    <card qty="1" id="89b9b9f5-5d57-4ab4-a929-6cf7cbc3850d">Kafar</card>
+    <card qty="1" id="f2ca1a41-a7e1-455a-b03e-12c3d8754bad">Mahga Threefingers</card>
+    <card qty="1" id="c00a3692-0405-4dff-a5be-0492971c2b5b">Marianix Karn</card>
+    <card qty="1" id="d093811c-5d9f-4620-9615-d4f1c37dbaca">Meehr Zet</card>
+    <card qty="1" id="78400a5e-89b3-470e-884d-655a67a8559c">Nefti the Bard</card>
+    <card qty="2" id="5a4dee53-f019-4cbc-b4aa-da52ace6882f">Osirion Ancestor</card>
+    <card qty="3" id="ec9bf6f3-4b46-4156-9100-6a9036f03d9f">Pahmet Clansman</card>
+    <card qty="3" id="f35eae93-7e48-4e7d-b400-0e140272ace5">Porcupine</card>
+    <card qty="2" id="1fec4454-184a-44e5-bbbe-77794bcb6ccb">Shock Lizard</card>
+    <card qty="1" id="119a6848-5bf2-4493-80a8-3f78405837b2">Stained Glass Elemental</card>
+    <card qty="1" id="61d86dea-47ce-42bf-ae75-cdb6b8a2e057">Stone Weasel</card>
+    <card qty="1" id="730f9d3a-838b-4f28-87a2-5e014c547094">Tarworks Master</card>
+    <card qty="3" id="f7ec7969-126b-4f66-b86a-13b995f668ae">Tomb Raider</card>
+    <card qty="2" id="e5f65c43-6394-4b54-b788-a656964b992a">Ubashki</card>
+    <card qty="1" id="9858d11e-4805-4ee8-958f-24aaa8446f76">Druid of the Hive</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="4" id="d14191a8-4fde-4746-8d49-8eebc25f0cad">Blessing of Wadjet</card>
+    <card qty="4" id="a0ba1ad6-57bb-4db3-bd30-10108a072019">Blessing of Ra</card>
+    <card qty="4" id="e0a603e0-6f97-415b-a0f1-0a8b445682b5">Blessing of Pharasma</card>
+    <card qty="4" id="ccb4d3ef-51b6-4817-a158-dcc439218853">Blessing of Abadar</card>
+    <card qty="4" id="9ae80982-3ad9-4c6c-b79b-59884f1de44d">Blessing of Bastet</card>
+    <card qty="4" id="8d7a5a22-af05-44e5-a4be-4aaf3292feef">Blessing of Horus</card>
+    <card qty="4" id="8e37d0fc-c5b5-4d9c-b42a-badc3b6d92d0">Blessing of Nethys</card>
+    <card qty="16" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
+    <card qty="16" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True">
+    <card qty="8" id="9d9513d1-990f-42a0-a572-9b1fc8534ae4">Curse of Poisoning</card>
+    <card qty="3" id="e637ea5c-1dfd-4a9d-af30-1db271cf0a40">Curse of Vulnerability</card>
+    <card qty="3" id="8a6726db-8a9d-4bf2-9906-08dd4ab2040a">Curse of Daybane</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True">
+    <card qty="1" id="e4cb62b1-c389-4a57-b977-5ef79bc2a809">Defensive Stance</card>
+    <card qty="1" id="e7c2892b-337f-40e4-9f6b-9e2e113c871f">Bazaar</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="9063d95d-bb64-4ad5-b245-81a934b97f76">Scarab Buckler</card>
+    <card qty="1" id="bbc3d075-6ac8-4c93-8edf-5820a24b0790">Game of Afterlife</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="cdb4073d-59c2-4e2a-a23a-f8a8a82a8abd">Alchemical Laboratory</card>
+    <card qty="1" id="e9f14b89-1a04-438c-b459-b1c0f6313473">Brickworks</card>
+    <card qty="1" id="9a015b80-16aa-45ac-9d0e-9394d43e4830">Caravanserai</card>
+    <card qty="1" id="961833d0-5f91-4aa8-a513-b517c136275e">Catacombs</card>
+    <card qty="1" id="182eff2f-7715-4cca-ab9f-f92bff9171a0">Crypt</card>
+    <card qty="1" id="8017c1a1-2907-44a0-89cd-72403dd84aca">Dilapidated Plaza</card>
+    <card qty="1" id="a95e8907-77fd-4c83-b65f-a1e69f89adf1">Earthworks</card>
+    <card qty="1" id="06f9972b-c7df-470f-9ebe-7fbce8a16d6c">Embalming Parlor</card>
+    <card qty="1" id="4c2c9cc2-044c-4d3b-9d81-d2ea8213c682">Glass Pavillion</card>
+    <card qty="1" id="874e4e94-d0b4-450f-87e7-44cea4dfb4df">Grand Mausoleum</card>
+    <card qty="1" id="75d2e3f6-d418-45c7-9c74-b87b2bc62c7c">Hot Springs</card>
+    <card qty="1" id="1e8b7bfc-11be-405b-8af8-7c48c7139d51">Howling Sands</card>
+    <card qty="1" id="8a87f987-b7fd-46b5-8f09-da247dc63209">Oasis</card>
+    <card qty="1" id="6bff8f89-0cea-4a46-ab1f-8bd9dab4de30">Peasant Tombs</card>
+    <card qty="1" id="702a2b00-5466-4b35-b877-8c20a7f77922">Precious Mine</card>
+    <card qty="1" id="53c9475f-02a9-4cdf-b0a1-633162357d75">Quarry</card>
+    <card qty="1" id="2998a7b3-dde8-4c58-abf1-14876834ebd7">Ruined Temple</card>
+    <card qty="1" id="57f54e21-f23f-49b9-ba3b-4fe00a8a9c18">Scorched Ruins</card>
+    <card qty="1" id="0c2e0ce6-2436-4b6f-9e21-d635868913c0">Shifting Dunes</card>
+    <card qty="1" id="93841a3b-1379-40b7-8536-6b845a2318f7">Smoking Den</card>
+    <card qty="1" id="0b5d620c-2b2c-40c8-9866-5fa9b004590a">Stonework Passages</card>
+    <card qty="1" id="a9dd5f23-31ab-456c-93fd-7292e0fbbe52">Sulfur Pits</card>
+    <card qty="1" id="95a6170c-78c3-446c-935a-dfd72b33ab89">Surgery</card>
+    <card qty="1" id="d32a89c7-492d-485f-892b-31292b8d5ff2">Thornscrub</card>
+    <card qty="1" id="b7e0c074-2b3c-4878-900c-396296c7195e">Towering Obelisk</card>
+    <card qty="1" id="3a0ded53-600d-431e-ad6c-a9bbeb8e43af">Volcanic Vents</card>
+    <card qty="1" id="0d940b87-6e0b-40f8-b7ba-4896ea6da35d">Warehouse</card>
+    <card qty="1" id="5511a2fd-083e-4ee7-a8a1-81333eb8e87d">Windswept Chasm</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="526a12ec-d3ef-4965-93e5-d67662326ca2">Bonecrusher Master</card>
+    <card qty="1" id="393331a9-3b22-42d2-8296-1c9dc1faaa73">Ifreeti</card>
+    <card qty="1" id="48211a2d-2622-46f7-9e1b-22658b2074af">Mirage</card>
+    <card qty="6" id="08d51372-6a4e-45ed-9770-7f338c7baaf5">Sandstorm</card>
+    <card qty="1" id="faf0fb2d-cc77-447e-8ef1-5cedc3817400">Thuvian Alchemist</card>
+    <card qty="1" id="480b1d05-489f-4699-bc52-cb62954910ac">Tukanem-Hanam</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

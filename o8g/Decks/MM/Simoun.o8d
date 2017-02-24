@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="9a31edf2-aa7c-4b20-8b33-9e8fe383f743">Simoun</card>
+    <card qty="1" id="664e890e-5ad0-4bd4-92a8-3e06865d4584">Simoun</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="4" id="df1df589-a1eb-4400-a62e-9c1dd68f8465">Kopis</card>
+    <card qty="1" id="a44d4837-415a-4352-a436-48ba7030f5ee">Blowgun</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="2f560b03-aa7b-46b0-bc42-7c6b0ffc5c9f">Tussah Silk Coat</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="c89950ed-9afd-45b1-8f3b-f95356be6c3b">Magnifying Glass</card>
+    <card qty="1" id="badbcdc3-2317-4023-b33c-05c64dd8d740">Compass</card>
+    <card qty="1" id="5bfc4050-183d-431a-8184-da6c3c9afe8a">Antitoxin</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="1fec4454-184a-44e5-bbbe-77794bcb6ccb">Shock Lizard</card>
+    <card qty="1" id="f7ec7969-126b-4f66-b86a-13b995f668ae">Tomb Raider</card>
+    <card qty="1" id="6f66326e-51be-48ba-a51c-c0fa7faccb4d">Embalmer</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="1" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+    <card qty="2" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

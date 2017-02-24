@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="f305f26e-6916-4d90-a2d4-d2cd23a78956">Drelm</card>
+    <card qty="1" id="a235f21b-f5ff-46f6-86b3-20a35e9ff535">Drelm</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="38c6d290-57d3-4b24-99d8-a3ba4ecdcf44">Whip</card>
+    <card qty="1" id="004189cf-f4db-410f-816a-29ac370f2fdc">Khopesh</card>
+    <card qty="1" id="ad0def94-617f-492a-8e77-bbf4c8db127c">Explorer's Staff</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="e8667b9d-1781-433d-8e82-461b4092aa37">Remove Curse</card>
+    <card qty="1" id="d33f4af3-a7e7-43c3-b384-f1c466f0ab14">Elemental Treaty</card>
+    <card qty="1" id="2518dd4a-2d0d-4f9c-aa5f-24f34a4224b7">Cure</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="222dced6-838b-4579-ac5f-028fa0158037">Crocodile Skin Shield</card>
+    <card qty="1" id="8471ffbb-d087-4a6d-bf74-afdf1ba5d4d2">Crocodile Skin Armor</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="1f1704e9-2144-41af-bba7-6a918523d098">Flash Freeze</card>
+    <card qty="1" id="4cff6474-7abd-43eb-a3fe-f96292f59ae8">Crowbar</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="5315acb3-4e9c-4c30-a248-68a08db99b4e">Camel</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="4" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

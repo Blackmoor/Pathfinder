@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Henchman" shared="True">
+    <card qty="2" id="3498a077-07e9-473b-a981-960c6ac33ff0">Acid Pool</card>
+    <card qty="2" id="ccf7b8ee-5a48-493e-a51c-b3699a98fcc0">Aghash</card>
+    <card qty="2" id="7da24b7e-7695-4a3b-b0bc-651bf45bf08e">Alchemical Golem</card>
+    <card qty="2" id="e6fb08f0-a09e-4b28-8763-1fa6fd655700">Conflagration</card>
+    <card qty="2" id="09ff7918-0b57-4b8d-a579-ddf9567c6ad1">Fire Spirit</card>
+    <card qty="2" id="b1d1b799-ac83-4034-b8a3-942791e6473b">Forgotten Pharaoh Cultist</card>
+    <card qty="2" id="6d7c3f47-dbaa-4c5d-9b4b-868b4e66e442">Mining Construct</card>
+    <card qty="2" id="196cdd2b-5876-4c13-9abc-ebf94a9d6b38">Voices of the Spire</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="0977f831-f2a4-4ce7-885e-5b319a4375f3">Blasphemous Priest</card>
+    <card qty="1" id="d4936792-25b1-418f-a3d0-22b030ae6721">Death Hound</card>
+    <card qty="1" id="4d0ab8c8-bff8-425e-a1f9-e0387c43bbae">Enchanter</card>
+    <card qty="1" id="c2bd7296-d792-483d-b2ea-23934a00548b">Quicksand Bunyip</card>
+    <card qty="1" id="71052849-a885-4547-bb4d-d8c1a62fe16a">Yellow Jelly</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="02f261ee-805c-49f1-be08-6d2beb6f0f8b">Alchemical Gas</card>
+    <card qty="1" id="ccb03f69-9336-49f0-8957-0f5fedfbb133">Collapsing Scaffolding</card>
+    <card qty="1" id="788f0ba3-9ebf-4096-ad02-02a7a7431821">Dry Quicksand</card>
+    <card qty="1" id="6f974806-632e-49d6-9cc1-a44ed4dbb53b">Lightning Storm</card>
+    <card qty="1" id="0b044b33-41dc-4aa6-87af-433e90caa777">The Evil Eye</card>
+    <card qty="1" id="99cd9dbd-209a-46bb-a2e9-021ae5873f35">Trapped Locker</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="1ad139c1-10a0-44c0-9844-a25517c7350f">Armored Coat</card>
+    <card qty="1" id="a23d131c-6844-4876-ad29-582b777b37f9">Armored Kilt</card>
+    <card qty="2" id="8471ffbb-d087-4a6d-bf74-afdf1ba5d4d2">Crocodile Skin Armor</card>
+    <card qty="1" id="222dced6-838b-4579-ac5f-028fa0158037">Crocodile Skin Shield</card>
+    <card qty="1" id="70017278-7378-435f-9557-122da37a4b2b">Vented Plate Mail</card>
+    <card qty="1" id="30626fbe-1040-4bd5-9d5a-08b6a1339a80">Tussah Silk Coat</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="d7ae16c6-2436-467c-9e99-b86e106f14cc">Bolas</card>
+    <card qty="1" id="1ee695bf-381e-4ecb-8026-9122c655064f">Djinni Quarterstaff</card>
+    <card qty="1" id="859a19e0-673c-4875-aae5-db8113805c64">Fighting Crook</card>
+    <card qty="1" id="3abe93f1-550b-4f08-a989-06691199e670">Icy Longspear +1</card>
+    <card qty="2" id="004189cf-f4db-410f-816a-29ac370f2fdc">Khopesh</card>
+    <card qty="1" id="a426985d-afd7-4334-85b4-b4c89385e3f5">Spelldagger</card>
+    <card qty="1" id="24a37e09-3498-4f17-98d2-c7732239bcc4">Twin Serpent Quarterstaff</card>
+    <card qty="2" id="38c6d290-57d3-4b24-99d8-a3ba4ecdcf44">Whip</card>
+    <card qty="3" id="ad0def94-617f-492a-8e77-bbf4c8db127c">Explorer's Staff</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="2" id="7236bb6f-b58c-4cfa-82a2-580861f19f4d">Acid Jet</card>
+    <card qty="2" id="d33f4af3-a7e7-43c3-b384-f1c466f0ab14">Elemental Treaty</card>
+    <card qty="1" id="bc1109c6-98b6-4488-bb60-9e22080d03d2">Lightning Touch</card>
+    <card qty="2" id="e8667b9d-1781-433d-8e82-461b4092aa37">Remove Curse</card>
+    <card qty="2" id="36c86d80-cff9-4581-9448-49677e3985e5">Unshakable Chill</card>
+    <card qty="1" id="4c546a20-59b3-4366-b670-900ee32ab297">Viper Strike</card>
+    <card qty="2" id="2518dd4a-2d0d-4f9c-aa5f-24f34a4224b7">Cure</card>
+    <card qty="1" id="516424bc-eb46-42f9-ab90-9b99d29444d6">Acid Splash</card>
+    <card qty="1" id="e43274a1-8e0b-4342-8708-e85258047d3a">Good Omen</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="00a33245-f564-458d-a3f6-5875bd40eb6d">Acid Flask</card>
+    <card qty="1" id="6db767d0-3448-4148-a892-31218fda90eb">Bladeguard</card>
+    <card qty="1" id="6d74db54-1aaf-4ff9-bd98-d7ccfc70306d">Burglar's Bracers</card>
+    <card qty="2" id="4cff6474-7abd-43eb-a3fe-f96292f59ae8">Crowbar</card>
+    <card qty="1" id="85606837-d84d-439f-9707-0cfea4d37a77">Ghost Battling Ring</card>
+    <card qty="1" id="dc594621-358e-4900-8b10-085dd272acef">Holy Water Grenade</card>
+    <card qty="1" id="6c0276b5-8311-4f2f-be40-e95e448dec2c">Noxious Bomb</card>
+    <card qty="1" id="169b0c0e-9a5b-4d96-8f3e-ab419486685f">Flame Staff</card>
+    <card qty="1" id="321537f1-db81-4125-ba2a-4688ad8e8a38">Compass</card>
+    <card qty="1" id="56a6070a-08f4-4c0b-a757-d706c6f1125d">Magnifying Glass</card>
+    <card qty="1" id="e7ceadeb-aeeb-4d13-9bf3-67c839722079">Key of the Second Vault</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="d9e4f3b4-ab66-4d12-82fd-14c25f16d3a9">Aunty</card>
+    <card qty="2" id="5315acb3-4e9c-4c30-a248-68a08db99b4e">Camel</card>
+    <card qty="1" id="ac62844e-850d-44a1-97db-ffa365f78407">Dhabba</card>
+    <card qty="1" id="8f4ebb55-bd04-47b9-b05a-94f2cd7b542e">Falto</card>
+    <card qty="1" id="c1acd9e0-a5ef-48fd-96be-be731fdb570d">Pahmet Clansman</card>
+    <card qty="1" id="9e233a94-1ada-43d4-b094-d874a9e62daf">Pard</card>
+    <card qty="1" id="49d09c4b-b00c-4c74-b284-ed3d369e8335">Porcupine</card>
+    <card qty="1" id="98f8fb22-b2e6-42c8-bfdd-c77d1c015497">Stone Weasel</card>
+    <card qty="1" id="68c73f52-0c4a-4c70-bcb0-7c35f98651a2">Terhk Fourwinds</card>
+    <card qty="1" id="beffddba-0441-48eb-9415-15aa115883f7">Tomb Raider</card>
+    <card qty="1" id="a1a554f8-9b3b-49d0-bdf6-2bb6930040b4">Shock Lizard</card>
+    <card qty="2" id="d20f94f3-ca78-4db7-b7cf-73caf7dbace0">Embalmer</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="1" id="ee6b6bb5-bad0-41d6-a250-d0760132b82d">Blessing of Abadar</card>
+    <card qty="1" id="23f28f44-1ac5-481a-8b28-a65effae4792">Blessing of Bastet</card>
+    <card qty="1" id="1aa35ac1-ac41-417a-ad17-f49f7ba9468e">Blessing of Horus</card>
+    <card qty="1" id="605a1b73-f99f-4c80-a1af-abb79238248d">Blessing of Nethys</card>
+    <card qty="1" id="b5c0bc5c-49bb-47e2-a7ca-c793f5e18f10">Blessing of Pharasma</card>
+    <card qty="1" id="dec1764c-abfd-4344-9611-f181cb0f26f7">Blessing of Ra</card>
+    <card qty="1" id="4cf5fd6d-5fac-48ac-82cf-7c417a3bd02c">Blessing of Wadjet</card>
+    <card qty="1" id="27409e08-e01f-4777-8d2d-cb6db9a84dc8">Blessing of the Ancients</card>
+    <card qty="1" id="d78f66bc-83d3-4f17-9dd5-3ca1fe6e9fd4">Blessing of the Elements</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

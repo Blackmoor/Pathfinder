@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="018f7809-f55f-4e5f-9a51-8c899fc166b8">Ahmotep</card>
+    <card qty="1" id="9eac2d67-5812-4e9e-a3a8-1908a74ecf14">Ahmotep</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="004189cf-f4db-410f-816a-29ac370f2fdc">Khopesh</card>
+    <card qty="1" id="ad0def94-617f-492a-8e77-bbf4c8db127c">Explorer's Staff</card>
+  </section>
+  <section name="Spell" shared="False">
+    <card qty="1" id="4b0ed943-325a-4481-8104-69043946ff12">Immolate</card>
+    <card qty="1" id="bc1109c6-98b6-4488-bb60-9e22080d03d2">Lightning Touch</card>
+    <card qty="1" id="e8667b9d-1781-433d-8e82-461b4092aa37">Remove Curse</card>
+    <card qty="1" id="d33f4af3-a7e7-43c3-b384-f1c466f0ab14">Elemental Treaty</card>
+  </section>
+  <section name="Armor" shared="False">
+    <card qty="1" id="a23d131c-6844-4876-ad29-582b777b37f9">Armored Kilt</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="6db767d0-3448-4148-a892-31218fda90eb">Bladeguard</card>
+    <card qty="1" id="169b0c0e-9a5b-4d96-8f3e-ab419486685f">Flame Staff</card>
+    <card qty="1" id="4cff6474-7abd-43eb-a3fe-f96292f59ae8">Crowbar</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="c1acd9e0-a5ef-48fd-96be-be731fdb570d">Pahmet Clansman</card>
+    <card qty="1" id="d20f94f3-ca78-4db7-b7cf-73caf7dbace0">Embalmer</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="1" id="d78f66bc-83d3-4f17-9dd5-3ca1fe6e9fd4">Blessing of the Elements</card>
+    <card qty="1" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+    <card qty="1" id="27409e08-e01f-4777-8d2d-cb6db9a84dc8">Blessing of the Ancients</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

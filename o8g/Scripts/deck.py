@@ -15,6 +15,24 @@ def getSection(sections, card):
 			return card.Subtype2
 	return None
 
+#Mavaro is strange and wonderful. He treats some card types as others. It's kinda annoying.
+def getMMMavaroSection(sections, card):
+	cardType = getSection(sections,card)
+	if cardType in ['Weapon','Spell','Armor']:
+		return 'Item'
+	else:
+		return cardType
+		
+#Ezren from MM is also pretty weird. He treats non-Divine blessings as items.
+def getMMEzrenSection(section, card):
+	cardType = getSection(sections, card)
+	traits = card.Traits.split()
+	if cardType == 'Blessing':
+		if 'Divine' in traits:
+			return cardType
+		else:
+			return 'Item'
+
 #Save the player deck - it is named after the character 	
 def saveDeck(group, x=0, y=0): #me.hand or table
 	sections = { "Character":{},
@@ -48,8 +66,12 @@ def saveDeck(group, x=0, y=0): #me.hand or table
 
 	piles = [ me.piles[p] for p in me.piles ]
 	piles.append(me.hand)
-	
-	filename = savePiles(character.name+'-saved.o8d', sections, piles, getSection, False)
+	if character.name == 'Mavaro' and character.Path == 'MM':
+		filename = savePiles(character.name+'-saved.o8d',sections, piles, getMMMavaroSection, False)
+	elif character.name == 'Ezren' and character.Path == 'MM':
+		filename = savePiles(character.name+'-saved.o8d',sections, piles, getMMEzrenSection, False)
+	else:
+		filename = savePiles(character.name+'-saved.o8d', sections, piles, getSection, False)
 	if filename is None:
 		whisper("Failed to save deck")
 	else:
@@ -69,6 +91,7 @@ def saveBox(group, x=0, y=0): #table
 				"Blessing":{},
 				"Loot":{},
 				"Cohort":{},
+				"Scourge":{},
 				"Location":{},
 				"Villain":{} }
 	piles = [ shared.piles[p] for p in shared.piles if p != 'Internal' ]
@@ -150,6 +173,7 @@ def savePiles(name, sections, piles, getSection, isShared):
 				f.write(" <section name=\"{}\" shared=\"{}\">\n".format(s, isShared))
 				count = 0
 				for t in sorted(sections[s].keys()):
+					whisper("  <card qty=\"{}\" id=\"{}\">{}</card>\n".format(sections[s][t], t[1], t[0]))
 					f.write("  <card qty=\"{}\" id=\"{}\">{}</card>\n".format(sections[s][t], t[1], t[0]))
 					count += sections[s][t]
 				f.write(" </section>\n")

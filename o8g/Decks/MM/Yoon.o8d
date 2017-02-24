@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False">
+    <card qty="1" id="d0eeedf5-2c88-470e-b338-7ed5aaa4cc68">Yoon</card>
+    <card qty="1" id="da01ce77-f4cf-4fc6-8e01-c5639632d27b">Yoon</card>
+  </section>
+  <section name="Weapon" shared="False">
+    <card qty="1" id="276f8989-6c4c-42fc-93ed-f6d7b2b3eff8">Torch</card>
+    <card qty="1" id="a44d4837-415a-4352-a436-48ba7030f5ee">Blowgun</card>
+  </section>
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False">
+    <card qty="1" id="92264c70-f7da-408c-aa89-09cae43abfa7">Armored Kilt</card>
+  </section>
+  <section name="Item" shared="False">
+    <card qty="1" id="7e65fe4e-de6a-45b8-af99-7efd50097be0">Flash Freeze</card>
+    <card qty="1" id="16241df0-d120-410c-9267-d73a2bf62ff8">Acid Flask</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="1" id="ee2836fe-dce3-47e8-b780-50d765196720">Dhabba</card>
+    <card qty="1" id="1fec4454-184a-44e5-bbbe-77794bcb6ccb">Shock Lizard</card>
+    <card qty="1" id="f35eae93-7e48-4e7d-b400-0e140272ace5">Porcupine</card>
+    <card qty="1" id="d049dbef-2bc1-4b4e-9ed1-dd7445ab4f2a">Camel</card>
+  </section>
+  <section name="Blessing" shared="False">
+    <card qty="2" id="b3a33a1b-df73-4970-9562-cab292a8dc8b">Blessing of the Ancients</card>
+    <card qty="4" id="348bbff0-aaa6-4bf7-9fb3-c38bbca8c1e8">Blessing of the Elements</card>
+  </section>
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True" />
+  <section name="Henchman" shared="True" />
+  <section name="Monster" shared="True" />
+  <section name="Barrier" shared="True" />
+  <section name="Armor" shared="True" />
+  <section name="Weapon" shared="True" />
+  <section name="Spell" shared="True" />
+  <section name="Item" shared="True" />
+  <section name="Ally" shared="True" />
+  <section name="Blessing" shared="True" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True" />
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True" />
+  <section name="Loot" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Villain" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

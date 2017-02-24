@@ -305,7 +305,7 @@
     <property name="Subtype2" value="Item"/>
     <property name="Traits" value="Object&#10;Vermin&#10;Veteran"/>
     <property name="Flavour" value="&quot;Longshanks really hate these slugs. Me no know why!&quot; -- Reta"/>
-    <property name="Attr1" value="Bury this card to defeat a monster which does not have the Animal, Goblin, or Aberration trait whose highest difficulty to defeat is 16 or lower. &#10;Discard this card to add 1d6 plus the scenario’s adventure deck number and the Poison trait to a check to defeat a monster which does not have the Animal, Goblin, or Aberration trait."/>
+    <property name="Attr1" value="Bury this card to defeat a monster which does not have the Animal, Goblin, or Aberration trait whose highest difficulty to defeat is 16 or lower. &#10;Discard this card to add 1d6 plus the scenario's adventure deck number and the Poison trait to a check to defeat a monster which does not have the Animal, Goblin, or Aberration trait."/>
   </card>
   <card id="32388f33-3aef-4f08-bdb0-4b270e2260f2" name="Chief's Robe That is Useful">
     <property name="Abr" value="1"/>
@@ -532,7 +532,7 @@
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Male&#10;Goblin&#10;Rogue"/>
-    <property name="Flavour" value="Sadistic Chuffy is horrible indeed. He loves to sneak up on his enemies and stab them. If he gets the chance, he also likes to light fires—lighting fires is Chuffy’s idea of great fun, almost as enjoyable as causing big explosions."/>
+    <property name="Flavour" value="Sadistic Chuffy is horrible indeed. He loves to sneak up on his enemies and stab them. If he gets the chance, he also likes to light fires—lighting fires is Chuffy's idea of great fun, almost as enjoyable as causing big explosions."/>
     <property name="Attr2" value="Weapon: 4  [ ] 5  [ ] 6&#10;Spell: -  [ ] 1&#10;Armor: 2  [ ] 3&#10;Item: 4  [ ] 5  [ ] 6  [ ] 7&#10;Ally: 3  [ ] 4&#10;Blessing: 2  [ ] 3  [ ] 4"/>
     <property name="Attr3" value="Item"/>
     <alternate name="Chuffy Lickwound" type="B">
@@ -553,7 +553,7 @@
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Male&#10;Goblin&#10;Alchemist"/>
-    <property name="Flavour" value="Ten-year-old Mogmurch is deranged. Mogmurch lives with his mate Rempty, who has an irritating habit of licking his face clean in public (especially when he leaves the village). She thinks his use of alchemy is very clever, and while she loves the flavor Mogmurch’s experiments leave on his face, she worries that he’ll some day blow himself up when she’s not around to watch. "/>
+    <property name="Flavour" value="Ten-year-old Mogmurch is deranged. Mogmurch lives with his mate Rempty, who has an irritating habit of licking his face clean in public (especially when he leaves the village). She thinks his use of alchemy is very clever, and while she loves the flavor Mogmurch's experiments leave on his face, she worries that he'll some day blow himself up when she's not around to watch. "/>
     <property name="Attr2" value="Weapon: 3  [ ] 4&#10;Spell: 2  [ ] 3  [ ] 4&#10;Armor: 1  [ ] 2&#10;Item: 5  [ ] 6  [ ] 7  [ ] 8&#10;Ally: 1  [ ] 2&#10;Blessing: 3  [ ] 4  [ ] 5"/>
     <property name="Attr3" value="Item"/>
     <alternate name="Mogmurch" type="B">
@@ -574,7 +574,7 @@
     <property name="Type" value="Character"/>
     <property name="Subtype2" value="Front"/>
     <property name="Traits" value="Male&#10;Goblin&#10;Cleric"/>
-    <property name="Flavour" value="Poog is a frightening little cleric of the goblin deity Zarongel, the sacred god of dog-killing, fire, and most holy mounted combat. That Poog isn’t very good at mounted combat is his not-so-secret shame, so he funnels most of his energy into attempts to overachieve at his god’s other sacred teachings— killing dogs (although he hasn’t yet killed one, he hopes to do so some day) and lighting fires (something that Poog is already pretty good at). "/>
+    <property name="Flavour" value="Poog is a frightening little cleric of the goblin deity Zarongel, the sacred god of dog-killing, fire, and most holy mounted combat. That Poog isn't very good at mounted combat is his not-so-secret shame, so he funnels most of his energy into attempts to overachieve at his god's other sacred teachings— killing dogs (although he hasn't yet killed one, he hopes to do so some day) and lighting fires (something that Poog is already pretty good at). "/>
     <property name="Attr2" value="Weapon: 2  [ ] 3  [ ] 4&#10;Spell: 3  [ ] 4  [ ] 5&#10;Armor: 1  [ ] 2&#10;Item: 2  [ ] 3&#10;Ally: 3  [ ] 4  [ ] 5&#10;Blessing: 4  [ ] 5  [ ] 6"/>
     <property name="Attr3" value="Blessing"/>
     <alternate name="Poog of Zarongel" type="B">
@@ -682,7 +682,7 @@
     <property name="Type" value="Story"/>
     <property name="Subtype" value="Adventure"/>
     <property name="Subtype2" value="Front"/>
-    <property name="Flavour" value="When the goblins of the Licktoad tribe in Brinestump Marsh discovered that one of their own could write, they had no choice—they ran him out of town, tore down his hut, and burned all of his stuff. Writing, after all, is bad mojo, since it can steal words out of your head and thus snatch away your soul. Yet while even the exiled goblin’s name is now taboo (he’s known today only as “Scribbleface,” after the Licktoads branded some of his precious words onto his forehead and cheeks as punishment), the wonders the goblins found in his house were significant. For Scribbleface had kept more secrets than his writing.&#10;Before Scribbleface’s home was burned, the other goblins found a large trunk containing several items. To most, it was the cache of exotic fireworks in the trunk that was the most impressive, but to the leaders of the tribe, it was the intriguing map (one that contained no writing—only nice, safe drawings and dotted lines). This map showed the extent of Brinestump Marsh, including the route from the Licktoad village to an old shipwreck near the coastline that—according to the drawings on the map—contained many more crates of fireworks. How Scribbleface had come into possession the map and this knowledge was irrelevant to the goblins, for if the spot marked on the map were to indeed lead to more fireworks, the Licktoads would be unstoppable! &#10;Or, if not unstoppable, at least they’d be more firework-rich! Think of all the longshank houses they could burn down with a big supply of fireworks! "/>
+    <property name="Flavour" value="When the goblins of the Licktoad tribe in Brinestump Marsh discovered that one of their own could write, they had no choice—they ran him out of town, tore down his hut, and burned all of his stuff. Writing, after all, is bad mojo, since it can steal words out of your head and thus snatch away your soul. Yet while even the exiled goblin's name is now taboo (he's known today only as “Scribbleface,” after the Licktoads branded some of his precious words onto his forehead and cheeks as punishment), the wonders the goblins found in his house were significant. For Scribbleface had kept more secrets than his writing.&#10;Before Scribbleface's home was burned, the other goblins found a large trunk containing several items. To most, it was the cache of exotic fireworks in the trunk that was the most impressive, but to the leaders of the tribe, it was the intriguing map (one that contained no writing—only nice, safe drawings and dotted lines). This map showed the extent of Brinestump Marsh, including the route from the Licktoad village to an old shipwreck near the coastline that—according to the drawings on the map—contained many more crates of fireworks. How Scribbleface had come into possession the map and this knowledge was irrelevant to the goblins, for if the spot marked on the map were to indeed lead to more fireworks, the Licktoads would be unstoppable! &#10;Or, if not unstoppable, at least they'd be more firework-rich! Think of all the longshank houses they could burn down with a big supply of fireworks! "/>
     <alternate name="We Be Goblins" type="B">
       <property name="Abr" value="1"/>
       <property name="Copyright" value="No."/>
@@ -691,7 +691,7 @@
       <property name="Subtype2" value="Back"/>
       <property name="Attr1" value="The Big Bonfire&#10;Into Brinestump&#10;The Old Shipwreck"/>
       <property name="Attr2" value="Gain a special goblin-themed boon!"/>
-      <property name="Attr3" value="During this adventure, you may discard a blessing to increase the difficulty of another character’s check to defeat a barrier by 4. This counts as playing a blessing."/>
+      <property name="Attr3" value="During this adventure, you may discard a blessing to increase the difficulty of another character's check to defeat a barrier by 4. This counts as playing a blessing."/>
     </alternate>
   </card>
   <card id="7c33b102-65b2-4ff4-839f-c2b8d22c8eaa" name="Into Brinestump">
