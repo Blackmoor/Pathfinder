@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Story" shared="True">
+    <card qty="1" id="27dda2c9-dda6-4d30-bb3e-e0c8e3e1cea1">Shifting Sands</card>
+    <card qty="1" id="582a31da-83af-40b5-bc12-f747d241ee73">Devouring Dunes</card>
+    <card qty="1" id="a8e36006-9d71-4ec6-a6bf-f7c3a1e8d93a">In Search of Chisisek</card>
+    <card qty="1" id="2bd1f1eb-e431-4e6f-973b-4e9f263937a9">Muminofrah's Amusement</card>
+    <card qty="1" id="7c9dccec-9be6-46d3-b2d1-65f56c5e9c6b">Quiet, Please</card>
+    <card qty="1" id="e0610514-5208-49e3-9137-16a41b26a1ee">Sting Operation</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="1" id="cddeb467-627a-4dbc-b456-624ac06b2b14">Akitar</card>
+    <card qty="1" id="dc1f275f-3968-4341-a743-9d0f576ff23e">Lamia Sisters</card>
+    <card qty="8" id="54d34b0d-6522-42da-a681-e858efa412a5">Stolen Larvae</card>
+    <card qty="6" id="2a61a62f-1ff9-4f51-8442-dbc50d8729f3">Tephu Librarian</card>
+    <card qty="1" id="09c9dcc4-1126-47be-9ec1-b1a5021a1355">Theletos</card>
+    <card qty="1" id="7ab12f0e-a8ba-41f0-8c87-7923072a69fe">Thriae Dancer</card>
+    <card qty="1" id="4dcdc0b2-902e-4fef-b58c-f3b2649c4245">Thriae Soldier</card>
+    <card qty="1" id="4b3d1188-6fe3-4a12-ac24-135bc871264f">Xerippe</card>
+    <card qty="1" id="72a2c03a-3dca-4294-bd38-028e5ea2bd1e">Sand Kraken</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="1" id="5854fd07-dd79-456e-81f3-35d45c5614fd">Burning Child</card>
+    <card qty="1" id="162812ff-69fa-4be4-a681-0c4a468ea168">Giant Crocodile</card>
+    <card qty="2" id="f41b7a20-8d04-4951-a17b-cb0e36f0247a">Guecubu</card>
+    <card qty="1" id="837ceccb-7509-4dab-98e1-ffde326d8f62">Mummified Sphinx</card>
+    <card qty="2" id="c4aec3d6-699c-4b3d-9f9f-d8fbfbea4aa9">Rukh</card>
+    <card qty="1" id="0932ef71-6d1d-43b7-83a0-7081973ff844">Skull Ripper</card>
+    <card qty="1" id="d4fcfb98-090e-4388-a291-db5dcef44849">Thunder Lizard</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="18cb3aae-717f-46dc-b38e-d19dfeb1f5c1">Blast Glyph</card>
+    <card qty="1" id="6e6061e5-8503-42e5-be1e-248dc3dcd155">Grave Goods</card>
+    <card qty="1" id="9bfe2461-b212-4c0e-ad0b-8d49ce771d30">Hungry Fog</card>
+    <card qty="1" id="d2c760d7-829d-414d-842b-52d51e751582">Inevitable Trap</card>
+    <card qty="1" id="048dd7d4-9f9e-4513-9378-6e31411aee32">Insanity Mist</card>
+    <card qty="1" id="8e4f8844-0bf8-45be-8f4b-84bbd1764956">Rolling Sphere</card>
+    <card qty="1" id="35c2d7e2-a0ac-4236-a986-aa46b68979cf">Symbol of Fear</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="86645470-23f1-4923-8a3f-a4c20c0d4807">Advocate's Armor</card>
+    <card qty="1" id="cec88588-34aa-4112-876a-b847bed51a5a">Clawhand Shield</card>
+    <card qty="1" id="74c76680-1ad6-417b-b789-54adbbcab4eb">Day Star Half-Plate</card>
+    <card qty="1" id="ebd2fe8d-2a00-4759-b92b-085317f29b30">Khamsin Coat</card>
+    <card qty="1" id="88f1a343-060e-483d-bda7-ffd9052b04d7">Reed Snake Armor</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="2" id="08e90206-f0db-4e4d-be02-79483114cb13">Dagger of Doubling</card>
+    <card qty="1" id="1491298c-09ee-44a8-8d9b-918e7619b477">Disrupting Rapier +1</card>
+    <card qty="1" id="1605070f-3b8e-4785-b2c7-5aa22bb7f36d">Shocking Scimitar +2</card>
+    <card qty="1" id="bab382c6-bc79-4dd9-b586-595120c2cb8b">Staff of Dark Flame</card>
+    <card qty="1" id="1f6d2467-9957-43a9-9d96-bec8a4675a6a">Staff of the Uraeus</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="17d77bf1-bf98-4980-8002-7772fad54b8c">Caustic Fog</card>
+    <card qty="2" id="b14c273f-c1b4-4772-9eb8-44f1404b9fab">Chain Lightning</card>
+    <card qty="1" id="e28aceba-9b32-4b0e-b0c7-662c93c6b96a">Detonate</card>
+    <card qty="2" id="82adaf34-df11-437d-a740-7cbb053f66c5">Elemental Mastery</card>
+    <card qty="2" id="e7839edf-679c-437c-a264-5aba23650b4d">Mistform</card>
+    <card qty="1" id="70de050e-6aa0-434e-9718-0a196ee9a903">Symbol of Pain</card>
+    <card qty="1" id="2b8ae1c8-1023-4d17-9fa2-3731d3256f23">Volcanic Storm</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="3d51d433-c1a0-4a82-899a-69815a363d67">Bird Feather Tokens</card>
+    <card qty="1" id="fca30942-acd1-4d7a-861e-0ac39fb4f167">Bloodroot Poison</card>
+    <card qty="1" id="ccc6c6f3-6909-419a-87eb-f362295fc812">Deliquescent Gloves</card>
+    <card qty="1" id="8c54908d-9180-4a62-a6da-8d8480974e9c">Effigy of Anubis</card>
+    <card qty="1" id="e709f446-dc32-463f-83b0-d50901564467">Knot of Isis</card>
+    <card qty="1" id="858b0dea-3012-472d-961e-7e07bdb10102">Ring of the Grasping Grave</card>
+    <card qty="1" id="c0713d45-5572-40bb-8642-44ebbce56c53">Scarab Sand</card>
+    <card qty="1" id="b7a84d82-3152-4dc1-a433-53c8d91f8732">Spellbottle</card>
+    <card qty="1" id="c74efd77-afc4-4bf5-ba02-f65cdebd0d1b">Staff of Revelations</card>
+    <card qty="1" id="79617811-867e-4732-ab2b-74f33fd92fa0">Wand of Scorching Ray</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="f7978d68-337f-42e1-9456-84799818ba88">Clockwork Menial</card>
+    <card qty="1" id="b43489da-9ddb-46a0-9942-b03582363a52">Commander Abdallah</card>
+    <card qty="1" id="30f10f85-fbf7-4682-b40b-e6ddc5294630">Library Curator</card>
+    <card qty="1" id="ab62c99e-85d9-4793-8e3f-c7aa1d891b71">Reed Moccasin</card>
+    <card qty="1" id="e26461a4-99f6-4c9a-9fe7-91cf3313f45c">Sedja</card>
+    <card qty="1" id="2a274b04-176f-4eea-8c3c-d3b26b3501e6">The Viper</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="5" id="b8137c10-dd44-41ee-a6f6-154ebabbfc47">Blessing of Isis</card>
+  </section>
+  <section name="Scourge" shared="True">
+    <card qty="3" id="3893f6dd-bf47-4063-ab23-612c1eab4f08">Curse of Fevered Dreams</card>
+  </section>
+  <section name="Support" shared="True">
+    <card qty="1" id="dd59c8b4-5225-4d66-b7dc-293670238a49">Agymah</card>
+    <card qty="1" id="ec72d8b3-67c9-41c8-af1b-d9948210d54a">Udjebet</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="acf09b3d-09d5-4361-8dbb-dc5d6718109d">Muminofrah's Favor</card>
+    <card qty="1" id="dbd46f8d-93ea-46a4-9a3d-299fe3dbd83a">Scarab Brooch</card>
+    <card qty="1" id="297f36eb-d145-435a-82db-f0cc719f836f">Scarab of Mummy Defense</card>
+    <card qty="1" id="5f4aecef-e356-4dae-b398-cce32f36ad33">Sun Falcon Pectoral</card>
+    <card qty="1" id="6bd52e8a-b628-475d-a9ff-4d5a299cded3">Tetisurah</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="e9f14b89-1a04-438c-b459-b1c0f6313473">Brickworks</card>
+    <card qty="1" id="3ba8a922-f4ff-4c79-8d43-62690386dbb6">Chisisek's Tomb</card>
+    <card qty="1" id="c2c5f7b5-32de-4650-801b-882129c15b24">Great Library of Tephu</card>
+    <card qty="1" id="3654ca78-0610-45fa-bbb5-e13d8d2bda67">Pleasure Barge</card>
+    <card qty="1" id="b7785f8f-116f-4ea4-92c0-e0b0c60c4fda">Thriae Hive</card>
+    <card qty="1" id="b3211787-5bab-47da-9a02-feec83fc2bb9">Vault of Hidden Wisdom</card>
+    <card qty="1" id="da29c411-c9b5-458e-85ef-021b55fd7bf7">Camel Race</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="0df09398-b756-4d6f-b064-a3107b3c0c8b">Camel Race Finish Line</card>
+    <card qty="3" id="874f8f51-de5d-4a50-8964-69963a1b2a63">Cameltrops</card>
+    <card qty="1" id="a3f5c7dd-ab53-40cd-8d7e-cf1dcb1d8f0c">Cultist Charioteers</card>
+    <card qty="1" id="e6b4a1d1-12d9-4b40-a1a2-dd3e08b2398a">Deka An-Keret</card>
+    <card qty="1" id="0ac6fdde-51fe-4b25-9dfa-ba4145723055">Jamirah</card>
+    <card qty="1" id="a36009a9-b764-4354-92c1-83461222d90b">Khabekh-Shu</card>
+    <card qty="1" id="45825302-a862-4f4b-82b5-4ed9a8dedc04">Zizzira</card>
+  </section>
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Fleet" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

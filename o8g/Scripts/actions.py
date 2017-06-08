@@ -839,7 +839,84 @@ def TheFallofKenabres(mode): #In The Fall of Kenabres, add Khorramzadeh to the b
 			whisper("Could not find Khorramzadeh to add him to the Blessings Deck!")
 			return
 		khorramzadeh.moveTo(shared.piles['Blessing Deck'])
-			
+
+def MuminofrahsAmusement(mode):
+	if mode == 'Setup':
+		mute()
+		cameltrops1 = findCardByName(shared.piles['Villain'],"Cameltrops")
+		if cameltrops1 == None:
+			whisper("Could not find sufficient Cameltrops to add to the Blessings Deck!")
+			return		
+		cameltrops1.moveTo(shared.piles['Blessing Deck'])	
+		
+		cameltrops2 = findCardByName(shared.piles['Villain'],"Cameltrops")
+		if cameltrops2 == None:
+			whisper("Could not find sufficient Cameltrops to add to the Blessings Deck!")
+			return		
+		cameltrops2.moveTo(shared.piles['Blessing Deck'])
+		
+		cameltrops3 = findCardByName(shared.piles['Villain'],"Cameltrops")
+		if cameltrops3 == None:
+			whisper("Could not find sufficient Cameltrops to add to the Blessings Deck!")
+			return
+		cameltrops3.moveTo(shared.piles['Blessing Deck'])
+		
+		charioteers = findCardByName(shared.piles['Villain'],'Cultist Charioteers')
+		if charioteers == None:
+			whisper ("Could not find villain Cultist Charioteers!")
+			return
+		charioteers.moveToTable(PlayerX(-1)+15,StoryY)
+		
+def InSearchofChisisek(mode):
+	if mode == 'Setup':
+		mute()
+		cultist1 = findCardByName(shared.piles['Henchman'],"Forgotten Pharaoh Cultist")
+		if cultist1 == None:
+			whisper("Could not find enough Forgotten Pharaoh Cultists!")
+			return
+		cultist1.moveTo(shared.piles['Blessing Deck'])
+		
+		cultist2 = findCardByName(shared.piles['Henchman'],"Forgotten Pharaoh Cultist")
+		if cultist2 == None:
+			whisper("Could not find enough Forgotten Pharaoh Cultists!")
+			return
+		cultist2.moveTo(shared.piles['Blessing Deck'])
+		
+		cultist3 = findCardByName(shared.piles['Henchman'],"Forgotten Pharaoh Cultist")
+		if cultist3 == None:
+			whisper("Could not find enough Forgotten Pharaoh Cultists!")
+			return
+		cultist3.moveTo(shared.piles['Blessing Deck'])
+		
+		cultist4 = findCardByName(shared.piles['Henchman'],"Forgotten Pharaoh Cultist")
+		if cultist4 == None:
+			whisper("Could not find enough Forgotten Pharaoh Cultists!")
+			return
+		cultist4.moveTo(shared.piles['Blessing Deck'])
+		
+		cultist5 = findCardByName(shared.piles['Henchman'],"Forgotten Pharaoh Cultist")
+		if cultist5 == None:
+			whisper("Could not find enough Forgotten Pharaoh Cultists!")
+			return
+		cultist5.moveTo(shared.piles['Blessing Deck'])
+		
+		cultist6 = findCardByName(shared.piles['Henchman'],"Forgotten Pharaoh Cultist")		
+		if cultist6 == None:
+			whisper("Could not find enough Forgotten Pharaoh Cultists!")
+			return
+		cultist6.moveTo(shared.piles['Blessing Deck'])
+
+
+def StingOperation(mode):
+	if mode == 'Setup':
+		mute()
+		locs = [card for card in table if card.Type == "Location"]
+		for card in locs:
+			larvae = findCardByName(shared.piles['Henchman'],"Stolen Larvae")
+			larvae.moveTo(card.pile())
+			shuffle(card.pile())
+		
+		
 def InsideLucrehold(mode): #In Inside Lucrehold, Brinebones is shuffled into the blessings deck
 	if mode == 'Setup':
 		mute()
@@ -901,16 +978,19 @@ def ThoseWhoDwellinDarkness(mode): #In this scenario, a second set of henchmen i
 		numLocs = numLocations()
 		i = 0
 		while i < 3:
-			elgiac = findCardByName(shared.piles['Henchman'],'Elgiac Compass')
-			if elgiac is not None:
+			elegiac = findCardByName(shared.piles['Henchman'],'Elegiac Compass')
+			if elegiac is not None:
 				elgiac.moveTo(shared.piles['Special'])
 			else: 
-				whisper("Could not find enough Elgiac Compasses!")
+
+				whisper("Could not find enough Elegiac Compasses!")
+				err = i
 				break
 			i=i+1
 		randBless = numLocs - i
 		i = 0
 		while i < randBless:
+
 			blessing = shared.piles['Blessing'].random()
 			blessing.moveTo(shared.piles['Special'])
 			i += 1
@@ -920,6 +1000,7 @@ def ThoseWhoDwellinDarkness(mode): #In this scenario, a second set of henchmen i
 			random = shared.piles['Special'].random()
 			random.moveTo(shared.piles['Location{}'.format(locNum)])
 			i += 1
+
 			
 #Pick a random ally from the player piles, move it to the table and pass control to the supplied player
 def donateAlly(who):
@@ -2486,7 +2567,7 @@ def scenarioSetup(card):
 	elif card.Name in ('Demondome','1-1D Crusaders Assemble'):
 		nl -= 2
 		leaveSpace = 1
-	elif card.Name in ('The Siege of Drezen'):
+	elif card.Name in ('The Siege of Drezen', "Muminofrah's Amusement"):
 		nl = 1
 		leaveSpace = 1
 		
@@ -2772,6 +2853,8 @@ def scenarioSetup(card):
 			blessings = 31
 		elif card.Name == 'The Land of the Blind': #6 gholdakos are added to the deck
 			blessings = 36
+		elif card.Name == "Muminofrah's Amusement": #3 Cameltrops are added to the deck
+			blessings = 33
 		else:
 			blessings = 30
 		blessings += shared.ExtraBlessings
@@ -2780,7 +2863,7 @@ def scenarioSetup(card):
 		while len(src) > 0 and len(dst) < blessings:
 			src.random().moveTo(dst)
 			
-		if card.Name in ['Inside Lucrehold', 'The Fall of Kenabres', 'The Land of the Blind','The Feast of Spoils','Audience with the Inheritor']: #shuffle extra cards into the deck
+		if card.Name in ['Inside Lucrehold', 'The Fall of Kenabres', 'The Land of the Blind','The Feast of Spoils','Audience with the Inheritor',"Muminofrah's Amusement",'In Search of Chisisek']: #shuffle extra cards into the deck
 			shuffle(dst)
 
 	mythPaths = [ c for c in table if c.Subtype == 'Mythic Path']

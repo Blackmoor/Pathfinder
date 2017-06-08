@@ -27,7 +27,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Barrier"/>
     <property name="Traits" value="Obstacle&#10;Fire&#10;Basic"/>
-    <property name="Attr1" value="If undefeated, you are dealt 1d4 Fire damage. If you would discard any cards as damage, bury them instead."/>
+    <property name="Attr1" value="If undefeated, you are dealt 1d4 Fire damage. If you would discard any cards as damage, bury them instead."/>
     <property name="Attr2" value="Dexterity&#10;Acrobatics&#10;Perception&#10;Craft"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -48,7 +48,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Barrier"/>
     <property name="Traits" value="Obstacle&#10;Bludgeoning&#10;Basic"/>
-    <property name="Attr1" value="If the result of the first check to defeat exceeds the result of the second check to defeat, you are dealt 1d4 Combat damage. Then recharge your hand and end your turn."/>
+    <property name="Attr1" value="If the result of the first check to defeat exceeds the result of the second check to defeat, you are dealt 1d4 Combat damage. Then recharge your hand and end your turn."/>
     <property name="Attr2" value="Dexterity&#10;Acrobatics&#10;Perception"/>
     <property name="Attr3" value="4"/>
     <property name="Attr4" value="Dexterity&#10;Acrobatics&#10;Perception"/>
@@ -60,7 +60,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Barrier"/>
     <property name="Traits" value="Trap&#10;Construct&#10;Veteran"/>
-    <property name="Attr1" value="The difficulty to defeat is increased by twice the scenario's adventure deck number.&#10;If undefeated, each character at your location is dealt 1d4 Ranged combat damage. First choose allies to discard as your damage, if you have any."/>
+    <property name="Attr1" value="The difficulty to defeat is increased by twice the scenario's adventure deck number.&#10;If undefeated, each character at your location is dealt 1d4 Ranged combat damage. First choose allies to discard as your damage, if you have any."/>
     <property name="Attr2" value="Dexterity&#10;Disable&#10;Stealth&#10;Perception"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -69,7 +69,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Barrier"/>
     <property name="Traits" value="Trap&#10;Elite"/>
-    <property name="Attr1" value="If undefeated, display this barrier next to your location, then shuffle your character token into your location. While your character token is in this location, evade any bane you would encounter and you may not move. If a character reveals your character token, place it at your location and banish this card."/>
+    <property name="Attr1" value="If undefeated, display this barrier next to your location, then shuffle your character token into your location. While your character token is in this location, evade any bane you would encounter and you may not move. If a character reveals your character token, place it at your location and banish this card."/>
     <property name="Attr2" value="Dexterity&#10;Acrobatics&#10;Wisdom&#10;Survival"/>
     <property name="Attr3" value="9"/>
   </card>
@@ -95,7 +95,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Barrier"/>
     <property name="Traits" value="Trap&#10;Magic&#10;Electricity&#10;Trigger&#10;Basic"/>
-    <property name="Attr1" value="When you examine this card, succeed at a Perception 4 check; otherwise, you are dealt 1 Electricity damage and encounter this card.&#10;If undefeated, each character at this location is dealt 1d4 Electricity damage and must recharge 1 card in his hand."/>
+    <property name="Attr1" value="When you examine this card, succeed at a Perception 4 check; otherwise, you are dealt 1 Electricity damage and encounter this card.&#10;If undefeated, each character at this location is dealt 1d4 Electricity damage and must recharge 1 card in his hand."/>
     <property name="Attr2" value="Dexterity&#10;Stealth&#10;Disable&#10;Intelligence"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -125,7 +125,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Barrier"/>
     <property name="Traits" value="Trap&#10;Acid&#10;Fire&#10;Poison&#10;Veteran"/>
-    <property name="Attr1" value="The difficulty to defeat is increased by twice the scenario's adventure deck number.&#10;If undefeated, roll a number of d6s equal to the scenario's adventure deck plus 1. For each die: &#10;1-2. You are dealt 2 Fire damage.&#10;3-4. You are dealt 2 Acid damage; discard a weapon or armor.&#10;5-6. You are dealt 2 Poison damage."/>
+    <property name="Attr1" value="The difficulty to defeat is increased by twice the scenario's adventure deck number.&#10;If undefeated, roll a number of d6s equal to the scenario's adventure deck plus 1. For each die: &#10;1-2. You are dealt 2 Fire damage.&#10;3-4. You are dealt 2 Acid damage; discard a weapon or armor.&#10;5-6. You are dealt 2 Poison damage."/>
     <property name="Attr2" value="Dexterity&#10;Acrobatics&#10;Wisdom&#10;Survival"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -146,7 +146,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Barrier"/>
     <property name="Traits" value="Obstacle&#10;Trap&#10;Slashing&#10;Basic"/>
-    <property name="Attr1" value="If undefeated, you are dealt 1d4 Combat damage; then recharge your hand. Put this card on top of its location deck."/>
+    <property name="Attr1" value="If undefeated, you are dealt 1d4 Combat damage; then recharge your hand. Put this card on top of its location deck."/>
     <property name="Attr2" value="Dexterity&#10;Acrobatics"/>
     <property name="Attr3" value="4"/>
     <property name="Attr4" value="Disable"/>
@@ -202,7 +202,7 @@
     <property name="Subtype" value="Henchman"/>
     <property name="Subtype2" value="Monster"/>
     <property name="Traits" value="Outsider&#10;Fire&#10;Elemental"/>
-    <property name="Attr1" value="The Fire Spirits are immune to the Fire trait. Damage dealt by the Fire Spirits is Fire damage. If your check to defeat has the Cold trait, add a die.&#10;If undefeated, draw the henchman Conflagration from the box and display it net to this location.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr1" value="The Fire Spirits are immune to the Fire trait. Damage dealt by the Fire Spirits is Fire damage. If your check to defeat has the Cold trait, add a die.&#10;If undefeated, draw the henchman Conflagration from the box and display it net to this location.&#10;If defeated, you may immediately attempt to close the location this henchman came from."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="10"/>
   </card>
@@ -225,7 +225,7 @@
     <property name="Subtype" value="Henchman"/>
     <property name="Subtype2" value="Monster"/>
     <property name="Traits" value="Animal&#10;Vermin&#10;Veteran"/>
-    <property name="Attr1" value="The difficulty to defeat is increased by twice the scenario's adventure deck number.&#10;If undefeated, shuffle this card into a random open location and discard a card.&#10;If defeated, shuffle this card into a random other open location, and you may immediately attempt to close the location this henchman came from."/>
+    <property name="Attr1" value="The difficulty to defeat is increased by twice the scenario's adventure deck number.&#10;If undefeated, shuffle this card into a random open location and discard a card.&#10;If defeated, shuffle this card into a random other open location, and you may immediately attempt to close the location this henchman came from."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="11"/>
   </card>
@@ -310,7 +310,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Bonecrusher&#10;Wizard&#10;Trigger&#10;Elite"/>
-    <property name="Attr1" value="When you examine this card, encounter it; its difficulty to defeat is increased by 3.&#10;Before you act, the Bonecrusher Wizard deals 1 Cold damage to you. &#10;After you act, the Bonecrusher Wizard deals 1 Poison damage to you."/>
+    <property name="Attr1" value="When you examine this card, encounter it; its difficulty to defeat is increased by 3.&#10;Before you act, the Bonecrusher Wizard deals 1 Cold damage to you. &#10;After you act, the Bonecrusher Wizard deals 1 Poison damage to you."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="9"/>
   </card>
@@ -319,26 +319,26 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Human&#10;Veteran"/>
-    <property name="Attr1" value="The difficulty to defeat is increased by the scenario's adventure deck number.&#10;If undefeated, the Caravan Raider deals no damage; instead, banish a boon."/>
+    <property name="Attr1" value="The difficulty to defeat is increased by the scenario's adventure deck number.&#10;If undefeated, the Caravan Raider deals no damage; instead, banish a boon."/>
     <property name="Attr2" value="Stealth"/>
     <property name="Attr3" value="7"/>
     <property name="Attr4" value="Combat"/>
     <property name="Attr5" value="9"/>
     <property name="Attr6" value="OR"/>
   </card>
-  <card id="f60200bc-2f62-4035-96ef-8ba3f6ebbdb8" name="Death Hound">
+  <card id="f60200bc-2f62-4035-96ef-8ba3f6ebbdb8" name="Death Hound">
     <property name="Abr" value="B"/>
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Animal&#10;Curse&#10;Basic"/>
-    <property name="Attr1" value="After you act, succeed at a Constitution or Fortitude 8 check or discard 1 card.&#10;If both checks to defeat exceed 10, you may banish a scourge card displayed next to your character; otherwise, draw the scourge card Curse of Vulnerability."/>
+    <property name="Attr1" value="After you act, succeed at a Constitution or Fortitude 8 check or discard 1 card.&#10;If both checks to defeat exceed 10, you may banish a scourge card displayed next to your character; otherwise, draw the scourge card Curse of Vulnerability."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="7"/>
     <property name="Attr4" value="Combat"/>
     <property name="Attr5" value="7"/>
     <property name="Attr6" value="THEN"/>
   </card>
-  <card id="599574b3-e551-4081-adf9-883bf9454201" name="Desert Trapper">
+  <card id="599574b3-e551-4081-adf9-883bf9454201" name="Desert Trapper">
     <property name="Abr" value="B"/>
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
@@ -352,7 +352,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Animal&#10;Poison&#10;Basic"/>
-    <property name="Attr1" value="When the Emperor Cobra would deal damage to you, it deals 1 Poison damage to you instead.&#10;If the check to defeat has the Cold or Fire trait, add 1d8."/>
+    <property name="Attr1" value="When the Emperor Cobra would deal damage to you, it deals 1 Poison damage to you instead.&#10;If the check to defeat has the Cold or Fire trait, add 1d8."/>
     <property name="Attr2" value="Stealth"/>
     <property name="Attr3" value="6"/>
     <property name="Attr4" value="Combat"/>
@@ -364,7 +364,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Aberration&#10;Fire&#10;Basic"/>
-    <property name="Attr1" value="Before you act, each character at your location must succeed at a Dexterity or Acrobatics 8 check or be dealt 1d4-1 Fire damage.&#10;If the check to defeat does not have the Acid, Cold, Electricity, Fire or Poison trait, it is undefeated."/>
+    <property name="Attr1" value="Before you act, each character at your location must succeed at a Dexterity or Acrobatics 8 check or be dealt 1d4-1 Fire damage.&#10;If the check to defeat does not have the Acid, Cold, Electricity, Fire or Poison trait, it is undefeated."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="7"/>
   </card>
@@ -382,7 +382,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Animal&#10;Poison&#10;Basic&#10;Trigger"/>
-    <property name="Attr1" value="When you examine this card, you are dealt 1 Poison damage. Then encounter this card.&#10;If the check to defeat has the Fire trait, add 1 die."/>
+    <property name="Attr1" value="When you examine this card, you are dealt 1 Poison damage. Then encounter this card.&#10;If the check to defeat has the Fire trait, add 1 die."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="9"/>
   </card>
@@ -400,7 +400,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Elemental&#10;Outsider&#10;Fire&#10;Basic"/>
-    <property name="Attr1" value="The Magma Neblin is immune to the Fire trait.&#10;If the check to defeat has the Cold trait, add 1 die.&#10;Before you act, each charcter at your location is dealt 1 Fire Damage."/>
+    <property name="Attr1" value="The Magma Neblin is immune to the Fire trait.&#10;If the check to defeat has the Cold trait, add 1 die.&#10;Before you act, each charcter at your location is dealt 1 Fire Damage."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="9"/>
   </card>
@@ -418,7 +418,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Vermin&#10;Swarm&#10;Poison&#10;Trigger&#10;Veteran"/>
-    <property name="Attr1" value="When you examine this card, you are dealt 1 Poison damage. Then encounter this card.&#10;All checks against the Scarab Swarm are increased by twice the scenario's adventure deck number.&#10;If you do not defeat the Scarab Swarm by at least 4 and your check to defeat did not have the Fire trait, shuffle it into the deck it came from; the Scarab Swarm still counts as defeated."/>
+    <property name="Attr1" value="When you examine this card, you are dealt 1 Poison damage. Then encounter this card.&#10;All checks against the Scarab Swarm are increased by twice the scenario's adventure deck number.&#10;If you do not defeat the Scarab Swarm by at least 4 and your check to defeat did not have the Fire trait, shuffle it into the deck it came from; the Scarab Swarm still counts as defeated."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -427,7 +427,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Elemental&#10;Outsider&#10;Electricity&#10;Basic"/>
-    <property name="Attr1" value="The Shock Elemental is immune to the Mental, Poison and Electricity traits. All damage dealt by the Shock Elemental is Electricity damage.&#10;If you play a weapon that does not have the Bludgeoning trait against the Shock Elemental, increase its difficulty by 2."/>
+    <property name="Attr1" value="The Shock Elemental is immune to the Mental, Poison and Electricity traits. All damage dealt by the Shock Elemental is Electricity damage.&#10;If you play a weapon that does not have the Bludgeoning trait against the Shock Elemental, increase its difficulty by 2."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="9"/>
   </card>
@@ -445,7 +445,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Undead&#10;Skeleton&#10;Basic"/>
-    <property name="Attr1" value="The Skeletal Jackal is immune to the Cold, Mental, and Poison traits.&#10;If the check to defeat the Skeletal Jackal has the Piercing or Slashing trait, the difficulty is increased by 3."/>
+    <property name="Attr1" value="The Skeletal Jackal is immune to the Cold, Mental, and Poison traits.&#10;If the check to defeat the Skeletal Jackal has the Piercing or Slashing trait, the difficulty is increased by 3."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="8"/>
   </card>
@@ -454,7 +454,7 @@
     <property name="Type" value="Bane"/>
     <property name="Subtype" value="Monster"/>
     <property name="Traits" value="Ooze&#10;Acid&#10;Basic"/>
-    <property name="Attr1" value="The Yellow Jelly is immune to the Electricity, Mental, Poison, Slashing and Piercing traits.&#10;If your check to defeat has the Acid or Cold trait, add 3.&#10;After you act, if the roll exceeds 12, you are dealt 1d4 Acid damage."/>
+    <property name="Attr1" value="The Yellow Jelly is immune to the Electricity, Mental, Poison, Slashing and Piercing traits.&#10;If your check to defeat has the Acid or Cold trait, add 3.&#10;After you act, if the roll exceeds 12, you are dealt 1d4 Acid damage."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="8"/>
   </card>
@@ -503,7 +503,7 @@
     <property name="Subtype" value="Villain"/>
     <property name="Subtype2" value="Monster"/>
     <property name="Traits" value="Human&#10;Alchemist&#10;Poison"/>
-    <property name="Attr1" value="All damage dealt by the Thuvian Alchemist is Poison damage. If this damage is not reduced to 0, draw the scourge Curse of Poisoning from the box.&#10;Before you act, a random character at your location is dealt 1 damage.&#10;For each card that has the Poison trait you have in hand or displayed, add 1d4 to your checks against the Thuvian Alchemist."/>
+    <property name="Attr1" value="All damage dealt by the Thuvian Alchemist is Poison damage. If this damage is not reduced to 0, draw the scourge Curse of Poisoning from the box.&#10;Before you act, a random character at your location is dealt 1 damage.&#10;For each card that has the Poison trait you have in hand or displayed, add 1d4 to your checks against the Thuvian Alchemist."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="12"/>
     <property name="Attr4" value="Intelligence&#10;Craft"/>
@@ -516,7 +516,7 @@
     <property name="Subtype" value="Villain"/>
     <property name="Subtype2" value="Monster"/>
     <property name="Traits" value="Dragon&#10;Undead&#10;Mummy&#10;Electricity"/>
-    <property name="Attr1" value="Tukanem-Hanam is immune to the Electricity, Mental, and Poison traits.&#10;Before you act, succeed at a Wisdom or Perception 7 check or be dealt 1 Electricity damage.&#10;If your check to defeat has the Fire trait, add 1d6.&#10;If undefeated, each character at this location is dealt 1d4 Electricity damage."/>
+    <property name="Attr1" value="Tukanem-Hanam is immune to the Electricity, Mental, and Poison traits.&#10;Before you act, succeed at a Wisdom or Perception 7 check or be dealt 1 Electricity damage.&#10;If your check to defeat has the Fire trait, add 1d6.&#10;If undefeated, each character at this location is dealt 1d4 Electricity damage."/>
     <property name="Attr2" value="Combat"/>
     <property name="Attr3" value="10"/>
     <property name="Attr4" value="Combat"/>
@@ -548,7 +548,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Animal&#10;Poison&#10;Basic"/>
-    <property name="Attr1" value="Recharge this card to add 1d4 and the Poison trait to your combat check.&#10;Discard this card to explore your location."/>
+    <property name="Attr1" value="Recharge this card to add 1d4 and the Poison trait to your combat check.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Wisdom&#10;Survival"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -566,7 +566,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Thriae&#10;Druid&#10;Veteran&#10;Poison"/>
-    <property name="Attr1" value="Discard this card to ignore a bane's immunities to the Acid and Poison traits.&#10;Discard this card to explore your location. Add 2 plus the scenario's adventure deck number to your combat checks during this exploration; add another 1d4 if your encounter invokes the Poison or Swarm trait."/>
+    <property name="Attr1" value="Discard this card to ignore a bane's immunities to the Acid and Poison traits.&#10;Discard this card to explore your location. Add 2 plus the scenario's adventure deck number to your combat checks during this exploration; add another 1d4 if your encounter invokes the Poison or Swarm trait."/>
     <property name="Attr2" value="Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="7"/>
   </card>
@@ -593,7 +593,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Animal&#10;Acid"/>
-    <property name="Attr1" value="Recharge this card and discard 1 card from the blessings deck and explore your location. You may add 1d4 and the Acid trait to your combat checks during this exploration.&#10;Recharge this card to add 1d4 and the Acid trait to your combat check."/>
+    <property name="Attr1" value="Recharge this card and discard 1 card from the blessings deck and explore your location. You may add 1d4 and the Acid trait to your combat checks during this exploration.&#10;Recharge this card to add 1d4 and the Acid trait to your combat check."/>
     <property name="Attr2" value="Wisdom&#10;Survival"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -665,7 +665,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Undead&#10;Ghost&#10;Incorporeal"/>
-    <property name="Attr1" value="Display this card. While displayed, you may recharge this card to examine the top card of your location deck, then put it on the top or bottom of its deck or add 1d6 and the Cold, Magic, and Undead traits to your check against a card that has the Outsider or Undead trait."/>
+    <property name="Attr1" value="Display this card. While displayed, you may recharge this card to examine the top card of your location deck, then put it on the top or bottom of its deck or add 1d6 and the Cold, Magic, and Undead traits to your check against a card that has the Outsider or Undead trait."/>
     <property name="Attr2" value="Divine&#10;Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="8"/>
   </card>
@@ -674,7 +674,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Dwarf&#10;Cleric&#10;Basic"/>
-    <property name="Attr1" value="Recharge this card to add 1d6 to your check against a card that has the Trigger trait.&#10;Discard this card to explore your location. If the top card of the blessings discard pile is Blessing of the Ancients, you may recharge it instead."/>
+    <property name="Attr1" value="Recharge this card to add 1d6 to your check against a card that has the Trigger trait.&#10;Discard this card to explore your location. If the top card of the blessings discard pile is Blessing of the Ancients, you may recharge it instead."/>
     <property name="Attr2" value="Charisma&#10;Diplomacy&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -695,7 +695,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Animal&#10;Basic"/>
-    <property name="Attr1" value="Recharge this card to add 1d8 to your checks against a bane that has the Animal trait.&#10;Discard this card to explore your location."/>
+    <property name="Attr1" value="Recharge this card to add 1d8 to your checks against a bane that has the Animal trait.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Wisdom&#10;Survival"/>
     <property name="Attr3" value="7"/>
   </card>
@@ -731,7 +731,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Dwarf"/>
-    <property name="Attr1" value="Discard this card to add a die to your Craft check or check to acquire a boon. If your check invokes the Fire trait, recharge this card instead of discarding it.&#10;Discard this card to explore your location."/>
+    <property name="Attr1" value="Discard this card to add a die to your Craft check or check to acquire a boon. If your check invokes the Fire trait, recharge this card instead of discarding it.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Craft&#10;Charisma&#10;Diplomacy"/>
     <property name="Attr3" value="10"/>
   </card>
@@ -749,7 +749,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Ally"/>
     <property name="Traits" value="Undead&#10;Mummy"/>
-    <property name="Attr1" value="Recharge this card to reduce damage dealt to you by 2.&#10;Bury this card to shuffle a card that has the Trigger trait into its deck and ignore its &quot;When you examine this card&quot; power.&#10;Discard this card to explore your location."/>
+    <property name="Attr1" value="Recharge this card to reduce damage dealt to you by 2.&#10;Bury this card to shuffle a card that has the Trigger trait into its deck and ignore its &quot;When you examine this card&quot; power.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Bury a card"/>
   </card>
   <card id="57a21710-bd8d-4dcf-80d0-dd298486b740" name="Armor of the Sands">
@@ -757,7 +757,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
     <property name="Traits" value="Clothing&#10;Magic&#10;Arcane&#10;Divine&#10;Elite"/>
-    <property name="Attr1" value="Recharge this card to reduce Acid, Cold, Combat, Electricity, or Fire damage dealt to you by 2 or add 1d4 to your Arcane or Divine check.&#10;Banish this card to reduce Acid, Cold, Combat, or Electricity damage dealt to you to 0. If proficient with light armors, bury it instead; you may succeed at an Arcane or Divine 12 check to recharge it instead."/>
+    <property name="Attr1" value="Recharge this card to reduce Acid, Cold, Combat, Electricity, or Fire damage dealt to you by 2 or add 1d4 to your Arcane or Divine check.&#10;Banish this card to reduce Acid, Cold, Combat, or Electricity damage dealt to you to 0. If proficient with light armors, bury it instead; you may succeed at an Arcane or Divine 12 check to recharge it instead."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="6"/>
     <property name="Attr4" value="Arcane&#10;Divine"/>
@@ -790,7 +790,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
     <property name="Traits" value="Light Armor&#10;Basic"/>
-    <property name="Attr1" value="Recharge this card to reduce Acid, Combat, or Electricity damage dealt to you by 2.&#10;Banish this card to reduce Acid, Combat, or Electricity damage dealt to you to 0. If proficient with light armors, bury it instead."/>
+    <property name="Attr1" value="Recharge this card to reduce Acid, Combat, or Electricity damage dealt to you by 2.&#10;Banish this card to reduce Acid, Combat, or Electricity damage dealt to you to 0. If proficient with light armors, bury it instead."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="4"/>
   </card>
@@ -799,16 +799,28 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
     <property name="Traits" value="Light Armor&#10;Elite"/>
-    <property name="Attr1" value="Recharge this card to reduce Acid, Combat, or Electricity damage dealt to you by 1; you may play another armor on this check.  If proficient with heavy armors, you may reveal this card instead of recharging it.&#10;If proficient with light armors, you may recharge this card to examine the top card of your location."/>
+    <property name="Attr1" value="Recharge this card to reduce Acid, Combat, or Electricity damage dealt to you by 1; you may play another armor on this check.  If proficient with heavy armors, you may reveal this card instead of recharging it.&#10;If proficient with light armors, you may recharge this card to examine the top card of your location."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="6"/>
+  </card>
+  <card id="65b1b8e6-7f64-4da6-b3c8-7c7db264dc9e" name="Crocodile Skin Lamellar">
+    <property name="Abr" value="B"/>
+    <property name="Type" value="Boon"/>
+    <property name="Subtype" value="Armor"/>
+    <property name="Traits" value="Light Armor&#10;Elite"/>
+    <property name="Attr1" value="Recharge this card to reduce Acid, Combat, or Electricity damage dealt to you by 2, or 3 if the damage is dealt to you before or after you act.&#10;If proficient with light armors, bury this card to reduce all damage dealt to you to 0. You may succeed at a Craft 8 check to recharge this armor instead."/>
+    <property name="Attr2" value="Constitution&#10;Fortitude"/>
+    <property name="Attr3" value="5"/>
+    <property name="Attr4" value="Intelligence&#10;Craft"/>
+    <property name="Attr5" value="7"/>
+    <property name="Attr6" value="OR"/>
   </card>
   <card id="583c0c4a-8d28-44ad-bfe6-7abb636e4f6e" name="Crocodile Skin Madu">
     <property name="Abr" value="B"/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
     <property name="Traits" value="Shield&#10;Offhand&#10;Elite"/>
-    <property name="Attr1" value="If you played a weapon that has the 2-Handed trait on this check, you may not play this card.&#10;Recharge this card to reduce Acid, Combat, or Fire damage dealt to you by 2, or to add 1d4 and the Piercing trait to your Melee combat check. If proficient with light armor, you may play another armor on this check."/>
+    <property name="Attr1" value="If you played a weapon that has the 2-Handed trait on this check, you may not play this card.&#10;Recharge this card to reduce Acid, Combat, or Fire damage dealt to you by 2, or to add 1d4 and the Piercing trait to your Melee combat check. If proficient with light armor, you may play another armor on this check."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="3"/>
     <property name="Attr4" value="Melee"/>
@@ -820,28 +832,16 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
     <property name="Traits" value="Shield&#10;Offhand&#10;Basic"/>
-    <property name="Attr1" value="If you played a weapon that has the 2-Handed trait on this check, you may not play this card.&#10;Recharge this card to reduce Acid, Combat or Fire damage dealt to you by 2. If proficient with light armors, you may play another armor on this check."/>
+    <property name="Attr1" value="If you played a weapon that has the 2-Handed trait on this check, you may not play this card.&#10;Recharge this card to reduce Acid, Combat or Fire damage dealt to you by 2. If proficient with light armors, you may play another armor on this check."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="4"/>
-  </card>
-  <card id="65b1b8e6-7f64-4da6-b3c8-7c7db264dc9e" name="Crocodile Skin Lamellar">
-    <property name="Abr" value="B"/>
-    <property name="Type" value="Boon"/>
-    <property name="Subtype" value="Armor"/>
-    <property name="Traits" value="Light Armor&#10;Elite"/>
-    <property name="Attr1" value="Recharge this card to reduce Acid, Combat, or Electricity damage dealt to you by 2, or 3 if the damage is dealt to you before or after you act.&#10;If proficient with light armors, bury this card to reduce all damage dealt to you to 0. You may succeed at a Craft 8 check to recharge this armor instead."/>
-    <property name="Attr2" value="Constitution&#10;Fortitude"/>
-    <property name="Attr3" value="5"/>
-    <property name="Attr4" value="Intelligence&#10;Craft"/>
-    <property name="Attr5" value="7"/>
-    <property name="Attr6" value="OR"/>
   </card>
   <card id="9985a6d9-4e59-4c3c-9d81-d50d17817177" name="Filter Hood">
     <property name="Abr" value="B"/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
     <property name="Traits" value="Accessory&#10;Light Armor&#10;Elite"/>
-    <property name="Attr1" value="Reveal this card to reduce Acid, Electricity, or Poison damage dealt to you by 1.&#10;If proficient with light armors, bury this card to reduce Acid, Electricity, or Poison damage dealt to you to 0. You may succeed at an Intelligence or Craft 8 check to recharge this armor instead."/>
+    <property name="Attr1" value="Reveal this card to reduce Acid, Electricity, or Poison damage dealt to you by 1.&#10;If proficient with light armors, bury this card to reduce Acid, Electricity, or Poison damage dealt to you to 0. You may succeed at an Intelligence or Craft 8 check to recharge this armor instead."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="4"/>
     <property name="Attr4" value="Intelligence&#10;Craft&#10;Survival"/>
@@ -853,7 +853,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Armor"/>
     <property name="Traits" value="Clothing&#10;Light Armor&#10;Basic"/>
-    <property name="Attr1" value="Recharge to reduce Cold, Combat, Electricity, or Poison damage dealt to you by 2.&#10;Banish this card to reduce Cold, Combat, Electricity, or Poison damage dealt to you to 0. If proficient with light armors, bury it instead."/>
+    <property name="Attr1" value="Recharge to reduce Cold, Combat, Electricity, or Poison damage dealt to you by 2.&#10;Banish this card to reduce Cold, Combat, Electricity, or Poison damage dealt to you to 0. If proficient with light armors, bury it instead."/>
     <property name="Attr2" value="Constitution&#10;Fortitude"/>
     <property name="Attr3" value="4"/>
   </card>
@@ -886,7 +886,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Blessing"/>
     <property name="Traits" value="Divine&#10;Horus&#10;Electricity"/>
-    <property name="Attr1" value="Discard this card to add 1 die and the Electricity trait to any check.&#10;Discard this card to add 2 dice to any Dexterity non-combat check or check that invokes the Electricity trait.&#10;Discard this card to move, then you may explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, you may move."/>
+    <property name="Attr1" value="Discard this card to add 1 die and the Electricity trait to any check.&#10;Discard this card to add 2 dice to any Dexterity non-combat check or check that invokes the Electricity trait.&#10;Discard this card to move, then you may explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, you may move."/>
     <property name="Attr2" value="Divine"/>
     <property name="Attr3" value="6"/>
     <property name="Attr4" value="Dexterity&#10;Ranged"/>
@@ -919,7 +919,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Blessing"/>
     <property name="Traits" value="Divine&#10;Ra&#10;Fire"/>
-    <property name="Attr1" value="Discard this card to add 1 die and the Fire trait to any check.&#10;Discard this card to add 2 dice to any Strength non-combat check or check that invokes the Fire trait.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it."/>
+    <property name="Attr1" value="Discard this card to add 1 die and the Fire trait to any check.&#10;Discard this card to add 2 dice to any Strength non-combat check or check that invokes the Fire trait.&#10;Discard this card to explore your location.&#10;After you play this card, if it matches the top card of the blessings discard pile, recharge this card instead of discarding it."/>
     <property name="Attr2" value="Divine"/>
     <property name="Attr3" value="6"/>
     <property name="Attr4" value="Strength&#10;Melee"/>
@@ -940,7 +940,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Blessing"/>
     <property name="Traits" value="Basic"/>
-    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Recharge this card to add 1 die to any check that invokes the Acid, Cold, Electricity, Fire, or Poison trait.&#10;Discard this card to explore your location."/>
+    <property name="Attr1" value="Discard this card to add 1 die to any check.&#10;Recharge this card to add 1 die to any check that invokes the Acid, Cold, Electricity, Fire, or Poison trait.&#10;Discard this card to explore your location."/>
     <property name="Attr2" value="Strength&#10;Dexterity&#10;Constitution&#10;Intelligence&#10;Wisdom&#10;Charisma"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -949,7 +949,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Blessing"/>
     <property name="Traits" value="Divine&#10;Wadjet"/>
-    <property name="Attr1" value="Reveal this card to add 1d4 to your check to acquire a boon.&#10;Discard this card to add 2d8 to any check to acquire a boon.&#10;Discard this card to examine the top card of your location; then you may explore your location, adding 1 die to your checks to acquire a boon during that exploration.&#10;After you play this card, if it matches the top card of the blessings discard pile, draw a card."/>
+    <property name="Attr1" value="Reveal this card to add 1d4 to your check to acquire a boon.&#10;Discard this card to add 2d8 to any check to acquire a boon.&#10;Discard this card to examine the top card of your location; then you may explore your location, adding 1 die to your checks to acquire a boon during that exploration.&#10;After you play this card, if it matches the top card of the blessings discard pile, draw a card."/>
     <property name="Attr2" value="Divine"/>
     <property name="Attr3" value="5"/>
     <property name="Attr4" value="Intelligence&#10;Knowledge"/>
@@ -961,7 +961,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Liquid&#10;Attack&#10;Acid&#10;Alchemical&#10;Basic"/>
-    <property name="Attr1" value="For your combat check or check against a barrier, banish this card to use your Disable or Ranged skill + 2d6. If the bane has the Acid trait, add another 1d12."/>
+    <property name="Attr1" value="For your combat check or check against a barrier, banish this card to use your Disable or Ranged skill + 2d6. If the bane has the Acid trait, add another 1d12."/>
     <property name="Attr2" value="Intelligence&#10;Craft"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -970,7 +970,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Tool&#10;Alchemical"/>
-    <property name="Attr1" value="Display this card. While displayed, when you would banish a card that has the Alchemical trait for its power, discard it instead.&#10;While displayed, bury this card to draw all cards in your discard pile that have the Alchemical trait. Then you may shuffle any number of cards that have the Alchemical trait into your deck."/>
+    <property name="Attr1" value="Display this card. While displayed, when you would banish a card that has the Alchemical trait for its power, discard it instead.&#10;While displayed, bury this card to draw all cards in your discard pile that have the Alchemical trait. Then you may shuffle any number of cards that have the Alchemical trait into your deck."/>
     <property name="Attr2" value="Intelligence&#10;Craft"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -979,7 +979,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Liquid&#10;Poison&#10;Alchemical&#10;Basic"/>
-    <property name="Attr1" value="Banish this card to reduce Poison damage dealt to a character at your location to 0.&#10;Banish this card to add 1d8 to a check by a character at your location against a card that has the Poison trait."/>
+    <property name="Attr1" value="Banish this card to reduce Poison damage dealt to a character at your location to 0.&#10;Banish this card to add 1d8 to a check by a character at your location against a card that has the Poison trait."/>
     <property name="Attr2" value="Intelligence&#10;Knowledge&#10;Craft"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -988,7 +988,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Liquid&#10;Acid&#10;Alchemical&#10;Basic"/>
-    <property name="Attr1" value="Banish this card to allow a character at your location to draw a weapon or an armor from her discard pile.&#10;Banish this card to reduce Acid damage dealt to a character at your location to 0.&#10;Banish this card to add 1d12 to a check by a character at your location against a bane that has the Acid trait."/>
+    <property name="Attr1" value="Banish this card to allow a character at your location to draw a weapon or an armor from her discard pile.&#10;Banish this card to reduce Acid damage dealt to a character at your location to 0.&#10;Banish this card to add 1d12 to a check by a character at your location against a bane that has the Acid trait."/>
     <property name="Attr2" value="Intelligence&#10;Craft"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -997,7 +997,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Object&#10;Magic&#10;Ra&#10;Trigger"/>
-    <property name="Attr1" value="When you examine this card, you may reveal a blessing that has the Ra trait to acquire this card.&#10;Recharge this card to add 1 die to your non-combat Strength check or check against a bane that invokes the Fire trait.&#10;Recharge this card to add the Fire trait to your check."/>
+    <property name="Attr1" value="When you examine this card, you may reveal a blessing that has the Ra trait to acquire this card.&#10;Recharge this card to add 1 die to your non-combat Strength check or check against a bane that invokes the Fire trait.&#10;Recharge this card to add the Fire trait to your check."/>
     <property name="Attr2" value="Strength&#10;Knowledge&#10;Divine"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -1015,7 +1015,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Object&#10;Alchemical"/>
-    <property name="Attr1" value="Display this card. While displayed, when you would banish an item that has the Liquid trait for its power, you may put it faceup on this card instead. You may bury this card to add all the items on this card to your hand."/>
+    <property name="Attr1" value="Display this card. While displayed, when you would banish an item that has the Liquid trait for its power, you may put it faceup on this card instead. You may bury this card to add all the items on this card to your hand."/>
     <property name="Attr2" value="Intelligence&#10;Craft"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1033,7 +1033,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Tool&#10;Basic"/>
-    <property name="Attr1" value="Reveal this card to add 1 die to your Strength non-combat check or your check to defeat a barrier that has the Lock or Obstacle trait; you may additionally discard this card to add another die. &#10;After playing this card, you may succeed at a Strength 3 check to recharge this card instead of discarding it."/>
+    <property name="Attr1" value="Reveal this card to add 1 die to your Strength non-combat check or your check to defeat a barrier that has the Lock or Obstacle trait; you may additionally discard this card to add another die. &#10;After playing this card, you may succeed at a Strength 3 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Strength"/>
     <property name="Attr3" value="3"/>
   </card>
@@ -1051,7 +1051,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Liquid&#10;Fire&#10;Alchemical&#10;Basic"/>
-    <property name="Attr1" value="Banish this card to reduce Fire damage dealt to a character at your location to 0.&#10;Banish this card to add 1d8 to a check by a character at your location against a bane that has the Fire trait."/>
+    <property name="Attr1" value="Banish this card to reduce Fire damage dealt to a character at your location to 0.&#10;Banish this card to add 1d8 to a check by a character at your location against a bane that has the Fire trait."/>
     <property name="Attr2" value="Intelligence&#10;Craft"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -1060,7 +1060,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Staff&#10;Attack&#10;Fire&#10;Magic&#10;Basic"/>
-    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to use your Arcane or Divine skill + 1d8; this counts as playing a spell."/>
+    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to use your Arcane or Divine skill + 1d8; this counts as playing a spell."/>
     <property name="Attr2" value="Arcane&#10;Divine"/>
     <property name="Attr3" value="4"/>
   </card>
@@ -1069,16 +1069,16 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Liquid&#10;Cold&#10;Alchemical&#10;Basic"/>
-    <property name="Attr1" value="Banish this card to add 1d12 and the Cold trait to a check by a character at your location that invokes the Construct or Fire traits.&#10;Discard this card to allow a character at your location to add his Strength or Melee skill to his Disable check."/>
+    <property name="Attr1" value="Banish this card to add 1d12 and the Cold trait to a check by a character at your location that invokes the Construct or Fire traits.&#10;Discard this card to allow a character at your location to add his Strength or Melee skill to his Disable check."/>
     <property name="Attr2" value="Intelligence&#10;Craft"/>
     <property name="Attr3" value="5"/>
   </card>
-  <card id="5ccd1c2f-9a87-418c-b6bb-206b3637a885" name="Frost Staff">
+  <card id="5ccd1c2f-9a87-418c-b6bb-206b3637a885" name="Frost Staff">
     <property name="Abr" value="B"/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Staff&#10;Attack&#10;Magic&#10;Cold"/>
-    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to use your Arcane or Divine skill + 2d4; this counts as playing a spell.&#10;Bury this card to evade a non-villain, non-henchman monster you encounter."/>
+    <property name="Attr1" value="For your combat check, recharge this card and discard a spell to use your Arcane or Divine skill + 2d4; this counts as playing a spell.&#10;Bury this card to evade a non-villain, non-henchman monster you encounter."/>
     <property name="Attr2" value="Arcane&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1141,7 +1141,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Book&#10;Basic"/>
-    <property name="Attr1" value="Recharge this card to add 1 die to a non-combat Wisdom, Knowledge or Survival check by a character at your location."/>
+    <property name="Attr1" value="Recharge this card to add 1 die to a non-combat Wisdom, Knowledge or Survival check by a character at your location."/>
     <property name="Attr2" value="Intelligence&#10;Wisdom&#10;Knowledge"/>
     <property name="Attr3" value="3"/>
   </card>
@@ -1186,7 +1186,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Accessory"/>
-    <property name="Attr1" value="Recharge this card to add 1 die to your check that invokes the Electricity or Fire trait."/>
+    <property name="Attr1" value="Recharge this card to add 1 die to your check that invokes the Electricity or Fire trait."/>
     <property name="Attr2" value="Intelligence&#10;Craft&#10;Wisdom&#10;Survival"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1195,7 +1195,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Liquid&#10;Alchemical"/>
-    <property name="Attr1" value="Discard this card to examine the top card of your location, then explore your location.&#10;Banish this card to draw all the allies in your discard pile. Then you may shuffle any number of ally cards into your deck."/>
+    <property name="Attr1" value="Discard this card to examine the top card of your location, then explore your location.&#10;Banish this card to draw all the allies in your discard pile. Then you may shuffle any number of ally cards into your deck."/>
     <property name="Attr2" value="Intelligence&#10;Craft"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1204,7 +1204,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Item"/>
     <property name="Traits" value="Object&#10;Magic&#10;Horus&#10;Trigger"/>
-    <property name="Attr1" value="When you examine this card, you may reveal a blessing that has the Horus trait to acquire this card.&#10;Recharge this card to add 1 die to your Dexterity non-combat check or your check against a bane that invokes the Electricity trait.&#10;Recharge this card to add the Electricity trait to your check."/>
+    <property name="Attr1" value="When you examine this card, you may reveal a blessing that has the Horus trait to acquire this card.&#10;Recharge this card to add 1 die to your Dexterity non-combat check or your check against a bane that invokes the Electricity trait.&#10;Recharge this card to add the Electricity trait to your check."/>
     <property name="Attr2" value="Dexterity&#10;Knowledge&#10;Divine"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1214,7 +1214,7 @@
     <property name="Subtype" value="Loot"/>
     <property name="Subtype2" value="Item"/>
     <property name="Traits" value="Object&#10;Gambling"/>
-    <property name="Attr1" value="Bury this card to banish a displayed card that has the Curse trait.&#10;When you would fail a check, bury this card to reroll 1 die; take the new result.&#10;After playing this card, you may succeed at an Intelligence 8 check to recharge it instead of burying it."/>
+    <property name="Attr1" value="Bury this card to banish a displayed card that has the Curse trait.&#10;When you would fail a check, bury this card to reroll 1 die; take the new result.&#10;After playing this card, you may succeed at an Intelligence 8 check to recharge it instead of burying it."/>
     <property name="Attr2" value="None"/>
   </card>
   <card id="ebd377c8-7cb1-43d0-85e7-de48735263c2" name="Honaire">
@@ -1223,7 +1223,7 @@
     <property name="Subtype" value="Loot"/>
     <property name="Subtype2" value="Ally"/>
     <property name="Traits" value="Undead&#10;Phantom&#10;Owner:&#10;Estra"/>
-    <property name="Attr1" value="Put this card on top of your deck to draw a spell from your discard pile or add 1d10 and the Undead trait to your Strength, Constitution, or Perception check.&#10;When you would discard this card as damage, recharge it instead."/>
+    <property name="Attr1" value="Put this card on top of your deck to draw a spell from your discard pile or add 1d10 and the Undead trait to your Strength, Constitution, or Perception check.&#10;When you would discard this card as damage, recharge it instead."/>
     <property name="Attr2" value="None"/>
   </card>
   <card id="9063d95d-bb64-4ad5-b245-81a934b97f76" name="Scarab Buckler">
@@ -1232,7 +1232,7 @@
     <property name="Subtype" value="Loot"/>
     <property name="Subtype2" value="Armor"/>
     <property name="Traits" value="Shield&#10;Alchemical&#10;Healing"/>
-    <property name="Attr1" value="Recharge this card to reduce Acid, Cold, Combat, Electricity, or Fire damage dealt to you by 3. If proficient with light armor, you may play another armor on this check.&#10;Bury this card to shuffle 1d4+1 random cards from your discard pile into your deck or to add 2d8 to your check that invokes the Swarm or Poison trait."/>
+    <property name="Attr1" value="Recharge this card to reduce Acid, Cold, Combat, Electricity, or Fire damage dealt to you by 3. If proficient with light armor, you may play another armor on this check.&#10;Bury this card to shuffle 1d4+1 random cards from your discard pile into your deck or to add 2d8 to your check that invokes the Swarm or Poison trait."/>
     <property name="Attr2" value="None"/>
   </card>
   <card id="833231ee-1fa2-4a2c-91d1-c39f95e29741" name="Acid Jet">
@@ -1294,7 +1294,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Basic"/>
-    <property name="Attr1" value="Display this card next to your location. While displayed, reduce Acid, Cold, Electricity, Fire, and Poison damage dealt to characters at this location by 1. &#10;When this location is closed, if you do not have either the Arcane or Divine skill, banish this card; otherwise, you may attempt an Arcane or Divine 6 check. If you succeed, recharge this card; if you fail, discard it."/>
+    <property name="Attr1" value="Display this card next to your location. While displayed, reduce Acid, Cold, Electricity, Fire, and Poison damage dealt to characters at this location by 1. &#10;When this location is closed, if you do not have either the Arcane or Divine skill, banish this card; otherwise, you may attempt an Arcane or Divine 6 check. If you succeed, recharge this card; if you fail, discard it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane&#10;Wisdom&#10;Divine"/>
     <property name="Attr3" value="4"/>
   </card>
@@ -1357,7 +1357,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
     <property name="Traits" value="Magic&#10;Arcane&#10;Attack&#10;Electricity&#10;Basic"/>
-    <property name="Attr1" value="For your combat check, discard this card to use your Arcane skill + 2d4.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, succeed at an Arcane 6 check to recharge this card instead of discarding it."/>
+    <property name="Attr1" value="For your combat check, discard this card to use your Arcane skill + 2d4.&#10;After playing this card, if you do not have the Arcane skill, banish it; otherwise, succeed at an Arcane 6 check to recharge this card instead of discarding it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane"/>
     <property name="Attr3" value="4"/>
   </card>
@@ -1366,7 +1366,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Spell"/>
     <property name="Traits" value="Magic&#10;Arcane&#10;Divine&#10;Healing&#10;Basic"/>
-    <property name="Attr1" value="Discard this card to banish a displayed card that has the Curse trait.&#10;After playing this card, if you do not have either the Arcane or Divine trait, banish it. If you have either the Arcane or Divine skill, you may recharge this card instead of discarding it."/>
+    <property name="Attr1" value="Discard this card to banish a displayed card that has the Curse trait.&#10;After playing this card, if you do not have either the Arcane or Divine trait, banish it. If you have either the Arcane or Divine skill, you may recharge this card instead of discarding it."/>
     <property name="Attr2" value="Intelligence&#10;Arcane"/>
     <property name="Attr3" value="10"/>
     <property name="Attr4" value="Wisdom&#10;Divine"/>
@@ -1396,7 +1396,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Blowgun &#10;Dart &#10;Ranged &#10;Piercing &#10;Poison &#10;Basic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity, Ranged, or Stealth skill + 1d4; you may additionally recharge this card to add another 1d6.&#10;When playing another weapon that has the Ranged trait, you may discard this card to add 1d4 and the Poison trait to your combat check."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity, Ranged, or Stealth skill + 1d4; you may additionally recharge this card to add another 1d6.&#10;When playing another weapon that has the Ranged trait, you may discard this card to add 1d4 and the Poison trait to your combat check."/>
     <property name="Attr2" value="Dexterity&#10;Ranged&#10;Knowledge"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -1405,7 +1405,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Knife&#10;Ranged&#10;Slashing&#10;Elite"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d8.&#10;If proficient with weapons, discard this card to ignore a non-villain monster's power that occurs before you act.&#10;When playing another weapon, you may discard this card to add 1d4 to your combat check."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d8.&#10;If proficient with weapons, discard this card to ignore a non-villain monster's power that occurs before you act.&#10;When playing another weapon, you may discard this card to add 1d4 to your combat check."/>
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1418,12 +1418,12 @@
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="7"/>
   </card>
-  <card id="0ecb1dba-cca5-4d6a-aa8b-3c33cf806587" name="Djinni Quarterstaff">
+  <card id="0ecb1dba-cca5-4d6a-aa8b-3c33cf806587" name="Djinni Quarterstaff">
     <property name="Abr" value="B"/>
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Staff&#10;Melee&#10;Bludgeoning&#10;2-Handed&#10;Magic&#10;Elite"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6+1; you may additionally discard this card to add another 1d6.&#10;You may discard this card to shuffle your location deck; if you succeed at an Arcane or Divine 10 check, you may recharge this card instead."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d6+1; you may additionally discard this card to add another 1d6.&#10;You may discard this card to shuffle your location deck; if you succeed at an Arcane or Divine 10 check, you may recharge this card instead."/>
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="6"/>
     <property name="Attr4" value="Arcane&#10;Divine"/>
@@ -1435,7 +1435,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Elite"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d4; you may additionally discard this card to add another 2d4. If not proficient with weapons, the difficulty of this check is increased by 4.&#10;If any d4 rolled on this check is a 4, count it as a 5."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 2d4; you may additionally discard this card to add another 2d4. If not proficient with weapons, the difficulty of this check is increased by 4.&#10;If any d4 rolled on this check is a 4, count it as a 5."/>
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="7"/>
   </card>
@@ -1480,7 +1480,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Sword&#10;Melee&#10;Slashing&#10;Basic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8. If proficient with weapons, you may additionally discard this card to add 1 for each die rolled for your check and the Bludgeoning trait."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Strength or Melee skill + 1d8. If proficient with weapons, you may additionally discard this card to add 1 for each die rolled for your check and the Bludgeoning trait."/>
     <property name="Attr2" value="Strength&#10;Melee"/>
     <property name="Attr3" value="7"/>
   </card>
@@ -1489,7 +1489,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Knife&#10;Ranged&#10;Slashing&#10;Basic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d4; you may additionally recharge this card to add 1 to your check for each die rolled.&#10;When playing another weapon, you may discard this card to add 1d4 to your combat check."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d4; you may additionally recharge this card to add 1 to your check for each die rolled.&#10;When playing another weapon, you may discard this card to add 1d4 to your combat check."/>
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="5"/>
   </card>
@@ -1507,7 +1507,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Blowgun&#10;Ranged&#10;Poison&#10;Alchemical&#10;Elite"/>
-    <property name="Attr1" value="For your combat check, banish this card to use your Intelligence skill + 2d8; If you succeed at a Craft 8 check, bury it instead. After you act, each character at this location is dealt 1 Poison damage."/>
+    <property name="Attr1" value="For your combat check, banish this card to use your Intelligence skill + 2d8; If you succeed at a Craft 8 check, bury it instead. After you act, each character at this location is dealt 1 Poison damage."/>
     <property name="Attr2" value="Intelligence&#10;Craft&#10;Knowledge&#10;Ranged"/>
     <property name="Attr3" value="6"/>
   </card>
@@ -1534,7 +1534,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Sling&#10;Staff&#10;Ranged&#10;Bludgeoning&#10;2-Handed&#10;Elite"/>
-    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally discard this card to add your Strength die.&#10;If proficient with weapons, you may discard this card and banish an item that has the Alchemical trait to add 1d6 and that item's traits to a combat check by a character at another location."/>
+    <property name="Attr1" value="For your combat check, reveal this card to use your Dexterity or Ranged skill + 1d6; you may additionally discard this card to add your Strength die.&#10;If proficient with weapons, you may discard this card and banish an item that has the Alchemical trait to add 1d6 and that item's traits to a combat check by a character at another location."/>
     <property name="Attr2" value="Dexterity&#10;Ranged"/>
     <property name="Attr3" value="8"/>
   </card>
@@ -1552,7 +1552,7 @@
     <property name="Type" value="Boon"/>
     <property name="Subtype" value="Weapon"/>
     <property name="Traits" value="Club&#10;Melee&#10;Bludgeoning&#10;Fire&#10;Basic"/>
-    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee skill +1; you may additionally discard this card to add another 2d4.&#10;Bury this card to explore your location."/>
+    <property name="Attr1" value="For your combat check, reveal this card to roll your Strength or Melee skill +1; you may additionally discard this card to add another 2d4.&#10;Bury this card to explore your location."/>
     <property name="Attr2" value="Strength&#10;Intelligence&#10;Wisdom"/>
     <property name="Attr3" value="4"/>
   </card>
@@ -1713,8 +1713,8 @@
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 1&#10;Barrier 2&#10;Weapon 0&#10;Spell 2&#10;Armor 0&#10;Item 3&#10;Ally 1&#10;Blessing 0"/>
-    <property name="Attr2" value="If your roll exceeds the difficulty of a combat check to defeat by 4 or more, each character at this location is dealt 1d4 Acid damage."/>
-    <property name="Attr3" value="Succeed at an Intelligence or Craft check with a difficulty of 5 plus the scenario's adventure deck number."/>
+    <property name="Attr2" value="If your roll exceeds the difficulty of a combat check to defeat by 4 or more, each character at this location is dealt 1d4 Acid damage."/>
+    <property name="Attr3" value="Succeed at an Intelligence or Craft check with a difficulty of 5 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="On closing, draw 3 random items that have the Alchemical trait from the box and shuffle them into this location."/>
     <alternate name="Alchemical Laboratory" type="B">
       <property name="Abr" value="B"/>
@@ -1730,7 +1730,7 @@
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 3&#10;Spell 0&#10;Armor 0&#10;Item 0&#10;Ally 2&#10;Blessing 0"/>
     <property name="Attr2" value="Add a die to checks that have the Fire trait."/>
-    <property name="Attr3" value="Succeed at a Strength check with a difficulty of 4 plus the scenario's adventure deck number."/>
+    <property name="Attr3" value="Succeed at a Strength check with a difficulty of 4 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="No effect."/>
     <alternate name="Brickworks" type="B">
       <property name="Abr" value="B"/>
@@ -1747,7 +1747,7 @@
     <property name="Attr1" value="Monster 0&#10;Barrier 2&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 3&#10;Ally 1&#10;Blessing 0"/>
     <property name="Attr2" value="When you encounter an item here, draw a random item from the box; encounter 1 and banish the other."/>
     <property name="Attr3" value="Banish an item."/>
-    <property name="Attr4" value="On closing, draw 2 random items from the box; keep 1 and banish the other."/>
+    <property name="Attr4" value="On closing, draw 2 random items from the box; keep 1 and banish the other."/>
     <alternate name="Caravanserai" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
@@ -1761,8 +1761,8 @@
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 3&#10;Barrier 2&#10;Weapon 2&#10;Spell 1&#10;Armor 1&#10;Item 0&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="For your checks that have the Cold trait, add a die."/>
-    <property name="Attr3" value="Succeed at a Wisdom or Survival check with a difficulty of 4 plus the scenario's adventure deck number."/>
+    <property name="Attr2" value="For your checks that have the Cold trait, add a die."/>
+    <property name="Attr3" value="Succeed at a Wisdom or Survival check with a difficulty of 4 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="On closing, draw a random ally that has the Animal trait from the box."/>
     <alternate name="Catacombs" type="B">
       <property name="Abr" value="B"/>
@@ -1777,7 +1777,7 @@
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 1&#10;Spell 0&#10;Armor 2&#10;Item 1&#10;Ally 0&#10;Blessing 1"/>
-    <property name="Attr2" value="Add 3 plus the scenario's adventure deck number to the difficulty of checks against banes that have the Cold or Undead trait."/>
+    <property name="Attr2" value="Add 3 plus the scenario's adventure deck number to the difficulty of checks against banes that have the Cold or Undead trait."/>
     <property name="Attr3" value="Succeed at a Wisdom or Divine check with a difficulty of 4 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="On closing, draw a random blessing from the box."/>
     <alternate name="Crypt" type="B">
@@ -1826,7 +1826,7 @@
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 1&#10;Armor 0&#10;Item 2&#10;Ally 0&#10;Blessing 2"/>
-    <property name="Attr2" value="Recharge an item to add the Acid, Cold or Poison trait to any check."/>
+    <property name="Attr2" value="Recharge an item to add the Acid, Cold or Poison trait to any check."/>
     <property name="Attr3" value="Summon and defeat the henchman Natron Zombie."/>
     <property name="Attr4" value="No effect."/>
     <alternate name="Embalming Parlor" type="B">
@@ -1877,7 +1877,7 @@
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 0&#10;Spell 1&#10;Armor 1&#10;Item 1&#10;Ally 2&#10;Blessing 0"/>
     <property name="Attr2" value="At the start of your turn, recharge any cards in your hand that have the Cold trait."/>
-    <property name="Attr3" value="Succeed at a Dexterity or Acrobatics check with a difficulty of 4 plus the scenario's adventure deck number."/>
+    <property name="Attr3" value="Succeed at a Dexterity or Acrobatics check with a difficulty of 4 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="No effect."/>
     <alternate name="Howling Sands" type="B">
       <property name="Abr" value="B"/>
@@ -1910,7 +1910,7 @@
     <property name="Attr1" value="Monster 2&#10;Barrier 2&#10;Weapon 0&#10;Spell 1&#10;Armor 0&#10;Item 1&#10;Ally 1&#10;Blessing 2"/>
     <property name="Attr2" value="When you would defeat a bane that has the Acid trait, reroll the dice; take the new result."/>
     <property name="Attr3" value="Recharge a card that has the Liquid or Divine trait."/>
-    <property name="Attr4" value="On closing, each character at this location may recharge any number of cards that have the Liquid trait from their discard pile."/>
+    <property name="Attr4" value="On closing, each character at this location may recharge any number of cards that have the Liquid trait from their discard pile."/>
     <alternate name="Oasis" type="B">
       <property name="Abr" value="B"/>
       <property name="Copyright" value="No."/>
@@ -1956,8 +1956,8 @@
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 2&#10;Spell 0&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 0"/>
-    <property name="Attr2" value="Add 3 to your checks that have the Bludgeoning trait."/>
-    <property name="Attr3" value="Succeed at a Constitution or Fortitude check with a difficulty of 6 plus the scenario's adventure deck number."/>
+    <property name="Attr2" value="Add 3 to your checks that have the Bludgeoning trait."/>
+    <property name="Attr3" value="Succeed at a Constitution or Fortitude check with a difficulty of 6 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="On closing, discard a weapon."/>
     <alternate name="Quarry" type="B">
       <property name="Abr" value="B"/>
@@ -1973,7 +1973,7 @@
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 1&#10;Barrier 1&#10;Weapon 0&#10;Spell 2&#10;Armor 1&#10;Item 1&#10;Ally 1&#10;Blessing 2"/>
     <property name="Attr2" value="When you play a card that has the Divine trait, bury it."/>
-    <property name="Attr3" value="Bury a blessing."/>
+    <property name="Attr3" value="Bury a blessing."/>
     <property name="Attr4" value="On closing, banish a card that has the Curse trait next to the deck of a character at this location or draw a random blessing from the box."/>
     <alternate name="Ruined Temple" type="B">
       <property name="Abr" value="B"/>
@@ -1988,7 +1988,7 @@
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 2&#10;Barrier 3&#10;Weapon 1&#10;Spell 1&#10;Armor 2&#10;Item 0&#10;Ally 0&#10;Blessing 0"/>
-    <property name="Attr2" value="After defeating a non-villain, non-henchman monster that has the Fire trait, shuffle it into a random other open location."/>
+    <property name="Attr2" value="After defeating a non-villain, non-henchman monster that has the Fire trait, shuffle it into a random other open location."/>
     <property name="Attr3" value="Summon and acquire a random weapon from the box."/>
     <property name="Attr4" value="For the rest of the scenario, a character at any location may bury a card to add 1 die to her check to acquire a weapon."/>
     <alternate name="Scorched Ruins" type="B">
@@ -2039,7 +2039,7 @@
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 2&#10;Barrier 3&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 0&#10;Ally 0&#10;Blessing 1"/>
     <property name="Attr2" value="When a character is dealt damage, subtract 1 from the amount of damage dealt."/>
-    <property name="Attr3" value="Succeed at a Wisdom or Survival check with a difficulty of 6 plus the scenario's adventure deck number."/>
+    <property name="Attr3" value="Succeed at a Wisdom or Survival check with a difficulty of 6 plus the scenario's adventure deck number."/>
     <property name="Attr4" value="On closing, you may examine the top card of any location."/>
     <alternate name="Stonework Passages" type="B">
       <property name="Abr" value="B"/>
@@ -2054,8 +2054,8 @@
     <property name="Type" value="Location"/>
     <property name="Subtype2" value="Front"/>
     <property name="Attr1" value="Monster 3&#10;Barrier 1&#10;Weapon 1&#10;Spell 1&#10;Armor 1&#10;Item 0&#10;Ally 1&#10;Blessing 1"/>
-    <property name="Attr2" value="For your checks that have the Acid trait, add a die."/>
-    <property name="Attr3" value="You are dealt 1 Acid damage."/>
+    <property name="Attr2" value="For your checks that have the Acid trait, add a die."/>
+    <property name="Attr3" value="You are dealt 1 Acid damage."/>
     <property name="Attr4" value="No effect."/>
     <alternate name="Sulfur Pits" type="B">
       <property name="Abr" value="B"/>
@@ -2164,7 +2164,7 @@
     <property name="Abr" value="B"/>
     <property name="Type" value="Scourge"/>
     <property name="Traits" value="Curse&#10;Undead"/>
-    <property name="Attr1" value="At the start of your turn, if the top card of the blessings discard pile has the Basic trait, you do not get a free exploration this turn. &#10;&#10;You may only have 1 copy of this card displayed."/>
+    <property name="Attr1" value="At the start of your turn, if the top card of the blessings discard pile has the Basic trait, you do not get a free exploration this turn. &#10;&#10;You may only have 1 copy of this card displayed."/>
     <property name="Attr2" value="None"/>
   </card>
   <card id="9d9513d1-990f-42a0-a572-9b1fc8534ae4" name="Curse of Poisoning">
