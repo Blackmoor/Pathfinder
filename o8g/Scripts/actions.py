@@ -547,6 +547,12 @@ def getFavoured():
 def getCohort():
 	return me.getGlobalVariable('Cohort')
 	
+def storeSiege(m):
+	me.setGlobalVariable('Siege',m)
+	
+def getSiege():
+	return eval(me.getGlobalVariable('Siege'))
+	
 def storeCards(s):
 	me.setGlobalVariable('Cards', s)
 	
@@ -980,9 +986,8 @@ def ThoseWhoDwellinDarkness(mode): #In this scenario, a second set of henchmen i
 		while i < 3:
 			elegiac = findCardByName(shared.piles['Henchman'],'Elegiac Compass')
 			if elegiac is not None:
-				elgiac.moveTo(shared.piles['Special'])
+				elegiac.moveTo(shared.piles['Special'])
 			else: 
-
 				whisper("Could not find enough Elegiac Compasses!")
 				err = i
 				break
@@ -1276,6 +1281,7 @@ def pickScenario(group=table, x=0, y=0):
 	setGlobalVariable('Current Turn', '')
 	setGlobalVariable('Remove Basic', '')
 	setGlobalVariable('Remove Elite', '')
+	storeSiege(False)
 	
 	#Pick the new Scenario
 	paths = [ card.Name for card in shared.piles['Story'] if card.Subtype == 'Adventure Path' ]
@@ -1289,7 +1295,7 @@ def pickScenario(group=table, x=0, y=0):
 		adventures.append("None")
 	else:
 		path = findCardByName(shared.piles['Story'], paths[choice-1])
-		autobanish = path.Name in ['Rise of the Runelords', 'Skull and Shackles','Wrath of the Righteous']
+		autobanish = path.Name in ['Rise of the Runelords', 'Skull and Shackles','Wrath of the Righteous','Mummy\'s Mask']
 		path.moveToTable(PlayerX(-4),StoryY)
 		flipCard(path)
 		loaded = [ card.Name for card in shared.piles['Story'] if card.Subtype == 'Adventure' ]
@@ -1337,6 +1343,7 @@ def pickScenario(group=table, x=0, y=0):
 		scenario = findCardByName(shared.piles['Story'], scenarios[choice-1])
 		scenario.moveToTable(PlayerX(-2),StoryY)
 		scenarioSpecific = scenarioSetup(scenario)	
+		
 		#If we loaded a fleet then pick a ship		
 		fleet = eval(getGlobalVariable('Fleet'))
 		if len(fleet) > 0 and scenario.Name not in ['0-6B The Battle of Abendego','0-6F Lost in the Storm']:
@@ -2543,6 +2550,17 @@ def scenarioSetup(card):
 			if 'Display the troop' in l:
 				troopName = l.replace('Display the troop ','').replace('.','')
 				scenarioSpecific['troopName'] = troopName
+				
+	scenarioSpecific['siegeDeck'] = False #This is to set the Siege Deck mechanic for certain scenarios in Mummy's Mask.
+	if card.Name in ('Pride of the Dispossessed'):
+		scenarioSpecific['siegeDeck'] = True
+		storeSiege(True)
+		defensiveStance = findCardByName(shared.piles['Support'], "Defensive Stance")
+		if defensiveStance is None:
+			whisper("Failed to find Defensive Stance in Support deck.")
+		else:
+			defensiveStance.moveToTable(PlayerX(-1)+30,StoryY)
+			defensiveStance.link(shared.piles['Special'])
 		
 	locations = card.Attr1.splitlines()
 	nl = numLocations()
@@ -2598,8 +2616,13 @@ def scenarioSetup(card):
 			if villain is None:
 				whisper("Setup error: failed to find '{}'".format(v))
 			else:
-				debug("Moving '{}' to hidden pile".format(villain))
-				villain.moveTo(hidden)
+				if scenarioSpecific['siegeDeck'] == True:
+					debug("Moving '{}' to siege deck".format(villain))
+					villain.moveTo(shared.piles['Scenario'])
+				else:
+					debug("Moving '{}' to hidden pile".format(villain))
+					villain.moveTo(hidden)
+					
 	# Some adventures set the villain aside
 	if villain is not None and card.Name in ('Here Comes the Flood', 'The Road through Xin-Shalast','The Lady\'s Favor'):
 		villain.moveToTable(PlayerX(-4),StoryY)
@@ -2752,7 +2775,10 @@ def scenarioSetup(card):
 	#Now deal them to each location pile
 	index = 0
 	while len(hidden) > 0:
-		pile = shared.piles["Location{}".format(index+1)]
+		if scenarioSpecific['siegeDeck'] == True:
+			pile = shared.piles['Special']
+		else:
+			pile = shared.piles["Location{}".format(index+1)]
 		for i in range(cardsPerLocation):
 			if index == 0 and card.Name in ('Rimeskull', 'Into the Runeforge'):
 				hidden.bottom().moveTo(pile) # Ensure Villain is in first location
@@ -2837,7 +2863,11 @@ def scenarioSetup(card):
 			else:
 				whisper("Failed to find barrer with the Trap trait!")
 				return
-			
+	
+	#If there is a siege deck, shuffle it
+	if getSiege() == True:
+		shuffle(shared.deck['Special'])
+	
 	# Perform scenario specific actions
 	fn = cardFunctionName(card)
 	if fn in globals():
@@ -2887,6 +2917,7 @@ def scenarioSetup(card):
 #Create deck based on location distribution by moving random cards from the box to the location's pile
 def buildLocation(scenario, location, locPile):
 	debug("Processing Location '{}'".format(location))
+	whisper("In buildLocation, getSiege is {}".format(getSiege())) #debugging
 	cardTypes = location.Attr1.splitlines()
 	if scenario.Name == 'Best Served Cold': #Best Served Cold replaces Allies with more Monsters at all locations
 		entry = cardTypes[6]
@@ -2927,7 +2958,11 @@ def buildLocation(scenario, location, locPile):
 				if c is None:
 					whisper("No more {} cards to deal to location {}".format(details[0], location))
 					break
-				c.moveTo(locPile)
+				if getSiege() == True and c.Subtype in ('Monster','Barrier'): #This grabs monsters and barriers during siege scenarios and shunts them to the Scenario pile.
+					whisper("In buildLocation, c.Type is {}, name is {}".format(c.Subtype,c.Name))
+					c.moveTo(shared.piles['Special'])
+				else:
+					c.moveTo(locPile)
 		else:
 			whisper("Location error: Failed to parse [{}]".format(details[0]))
 		location.link(locPile) # We do this at the end because doing it earlier causes major performance issues
