@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="d2e34ee4-b26b-4bcd-9709-1c45feb12d40" sleeveid="0">
+  <section name="Character" shared="False" />
+  <section name="Weapon" shared="False" />
+  <section name="Spell" shared="False" />
+  <section name="Armor" shared="False" />
+  <section name="Item" shared="False" />
+  <section name="Ally" shared="False" />
+  <section name="Blessing" shared="False" />
+  <section name="Feat" shared="False" />
+  <section name="Cohort" shared="False" />
+  <section name="Story" shared="True">
+    <card qty="1" id="53d628ee-d027-49e1-975c-5e0f1df15a96">Secrets of the Sphinx</card>
+    <card qty="1" id="0b0d2f2b-aec1-4c9f-b8cb-a6f90d7fb64d">The Dragon's Garden</card>
+    <card qty="1" id="250aa819-e4a1-4535-831f-148d70a31681">Pride of the Dispossessed</card>
+    <card qty="1" id="e48c2822-d9b4-4352-a045-7ac88f220fa3">Shadow of the Sphinx</card>
+    <card qty="1" id="72c3a0d8-f405-48f4-aec0-dbf084c64dd8">Cult of the Sightless Sphinx</card>
+    <card qty="1" id="8a5fde5b-4710-49c0-a97a-6c7b85c15f0f">A Woman of Entwined Souls</card>
+  </section>
+  <section name="Henchman" shared="True">
+    <card qty="8" id="50d04057-9f72-4955-8421-3376671e7d8f">Girtablilu</card>
+    <card qty="1" id="1183d046-45dc-4587-a40a-909fad9ed31e">Userib</card>
+    <card qty="1" id="af6fb0e9-f132-474d-b765-9a0b24edc53a">Kixexa</card>
+    <card qty="8" id="27ba62a2-ef03-4d1f-80c6-cc71cd23359c">Sentinel Part</card>
+    <card qty="1" id="bed4006c-2673-471b-b93f-d323d37f28ac">Thmei</card>
+    <card qty="1" id="215bf204-c7bf-4ae8-9377-c8ce04842c9d">Rathos</card>
+    <card qty="1" id="e0818b7b-1598-4649-888d-59ebe4766f00">Picasi</card>
+    <card qty="1" id="987a86a9-5c76-415e-afab-c09b2423cf9a">Orchamus</card>
+    <card qty="1" id="fbac65fd-a8e2-4472-9af5-a072f6a17f34">Heqet</card>
+    <card qty="1" id="7bb82dd0-4497-436f-8f4f-020ed093809d">Keferuzagra</card>
+    <card qty="8" id="d2c48467-2f2a-4895-ba26-f54879e40634">Disciple of the Forgotten Pharaoh</card>
+    <card qty="8" id="17fd820b-662f-4442-ba7b-3d24e854cdb0">Cultist of Areshkagal</card>
+  </section>
+  <section name="Monster" shared="True">
+    <card qty="2" id="c448721e-ff66-4870-97b0-89ae2911bfc8">Girtablilu Ranger</card>
+    <card qty="1" id="9da1cd7f-07f9-45bb-84de-efbd59f22bca">Mummy</card>
+    <card qty="2" id="ee5f3e83-f556-48da-8849-86b3e18f4888">Royal Naga</card>
+    <card qty="1" id="3c011a56-2b6b-46aa-9820-8019a1c12af1">Mummy Golem</card>
+    <card qty="2" id="04e48d80-8fe7-4974-bbf9-01509064189d">Elder Ifreeti</card>
+    <card qty="2" id="67210819-d061-41e9-943e-34918b8d61ad">Elemental Arachnid</card>
+    <card qty="2" id="37bbb1d8-727c-4389-b9b7-03b91460d65f">Bonestorm</card>
+    <card qty="1" id="6fc36541-1e2c-4a3c-88f8-7a8cb5d7e431">Elder Ice Elemental</card>
+  </section>
+  <section name="Barrier" shared="True">
+    <card qty="1" id="4e18717a-38bb-49f9-a325-05f886787de6">Steel Scorpion</card>
+    <card qty="1" id="c85c5a7b-9ec5-4710-ac54-7c0683c15874">Shocking Chest</card>
+    <card qty="1" id="946a17ad-a6ea-44d3-946a-46f10c5bdbc9">Collapsing Sphinx</card>
+    <card qty="1" id="311cb1c1-7c41-43a6-af48-9202a27580fd">Eternal Captives</card>
+    <card qty="1" id="45cc8512-27a9-4d23-83b0-20f9b40d29ac">Fiendish Sphinx</card>
+  </section>
+  <section name="Armor" shared="True">
+    <card qty="1" id="2f6021f1-0848-4857-aad0-1acc6cb1da8d">Falcon Crown</card>
+    <card qty="1" id="03a246b2-9ff7-4ce8-9476-c580a725b6e9">Silken Ceremonial Armor</card>
+    <card qty="2" id="cdc00b75-57ef-43b6-b541-c523e798530b">Steel Ibis Lamellar</card>
+  </section>
+  <section name="Weapon" shared="True">
+    <card qty="1" id="f89e522a-083a-4d50-a415-d656ad704603">Spellsword +2</card>
+    <card qty="1" id="d9d9fb67-deb0-45a2-ad83-0378a8ac2c7b">Thousand Stings Whip</card>
+    <card qty="1" id="1e8c9974-6b3f-4e82-946d-e16abc2f85da">Striking Wing Scimitar</card>
+    <card qty="1" id="1a4bebc1-7c6e-4c6e-b08e-07ec36c75201">Mace of Ruin</card>
+    <card qty="1" id="cbae9cea-9afa-406d-b5b0-d5c9487064ca">Shattertouch Shotel +2</card>
+    <card qty="2" id="386e8df0-3b6f-4558-8d76-b4db17bbab2f">Fate Blade</card>
+  </section>
+  <section name="Spell" shared="True">
+    <card qty="1" id="f6ddedf8-4743-42f4-b0c9-529206c98220">Pillar of Life</card>
+    <card qty="1" id="ec092434-3711-4914-bdaa-8ee81659c42f">Smite Abomination</card>
+    <card qty="1" id="1174bf55-d9d5-470c-ada0-08cf7970a529">Whip of Centipedes</card>
+    <card qty="2" id="0f353099-f63f-4ee0-b261-bb1537870428">Ice Storm</card>
+    <card qty="1" id="e71361ec-260a-4d62-80f4-004c9606f014">Safety Bubble</card>
+    <card qty="1" id="6176d439-2dea-44a6-b620-0549bf673c7d">Eruption</card>
+    <card qty="1" id="a2e3d83d-b7ed-4c99-804b-3efa6c94a568">Elemental Skin</card>
+    <card qty="1" id="20605c37-34c3-4f00-b541-a7f3f513bdb4">Channel the Gift</card>
+  </section>
+  <section name="Item" shared="True">
+    <card qty="1" id="06a964f8-ee3e-499a-b3c9-91ea10f1fada">Rabbit's Foot</card>
+    <card qty="1" id="b9adf3e8-2b75-480f-b491-00633829fdef">Sunrod</card>
+    <card qty="1" id="9dc071d1-fe53-4226-89a0-49e382c8f33e">Jet of Anubis</card>
+    <card qty="1" id="cdd17fd2-2fe5-4ca6-b2d5-e83d0dd6f876">Necklace of Fireballs</card>
+  </section>
+  <section name="Ally" shared="True">
+    <card qty="1" id="77a7fd48-4415-41e2-ae04-88a4af12fe7f">Zereletan</card>
+    <card qty="1" id="76a7dd7b-3b91-4c5a-b306-87aad1cc0809">Sophronia</card>
+    <card qty="1" id="7f03d079-2f25-40ca-b2b1-6744981fcdee">Scribe</card>
+    <card qty="1" id="f7c435a1-23ca-48a5-98e3-5152700396c8">Ausetitha</card>
+    <card qty="1" id="b9f61f89-0ea0-4c2a-9737-fb6aac938c6f">Hearth Elemental</card>
+    <card qty="1" id="e4a663f1-381e-4956-bb70-8bdecbeaeb1a">Maftet Hunter</card>
+  </section>
+  <section name="Blessing" shared="True">
+    <card qty="3" id="3c87273d-5858-42e1-8d09-fe4bb4e1c017">Blessing of Osiris</card>
+    <card qty="3" id="e7a8570b-e738-4f62-bea9-52c19556c637">Blessing of Anubis</card>
+  </section>
+  <section name="Ship" shared="True" />
+  <section name="Cohort" shared="True" />
+  <section name="Scourge" shared="True">
+    <card qty="3" id="1805a651-a623-4cc9-93d5-2c7a58470c7d">Curse of the Sphinx</card>
+  </section>
+  <section name="Fleet" shared="True" />
+  <section name="Support" shared="True">
+    <card qty="1" id="40cfc3df-03d3-41c4-b780-cfe3e8abbe6b">Efni Raan</card>
+  </section>
+  <section name="Loot" shared="True">
+    <card qty="1" id="e699cb89-da1d-45c8-a741-3a187f084832">Bronze Sentinel</card>
+    <card qty="1" id="b87f97af-b375-40aa-8efa-563bd31fbfd8">Erayu</card>
+    <card qty="1" id="4b8103d7-d995-4a7c-981e-d34175816925">Golden Serpent Armband</card>
+    <card qty="1" id="498a6dc1-e042-47fb-bdee-12220786def2">Mythopoeic Sphinx</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="cd61df8a-60a9-4293-a7bd-8815d44c5d96">Garden of Symmetry</card>
+    <card qty="1" id="da4eb724-de23-4f76-bb4e-20ddf114f283">Scorched Obelisk</card>
+    <card qty="1" id="062ca21d-ba80-4b70-b22c-efafd7fbfb5d">Silver Forge</card>
+    <card qty="1" id="2c728039-6cc6-4a3c-8950-56926f9dbdbe">Walled Oasis</card>
+    <card qty="1" id="dcd7e053-0dc1-4d58-aefd-ec5ef77d78b9">Altar of Riddles</card>
+  </section>
+  <section name="Villain" shared="True">
+    <card qty="1" id="a9c6993c-446f-413b-89fc-22a22a406556">Forgotten Pharaoh</card>
+    <card qty="1" id="d04442fe-9663-4316-b59e-20f880dfb5b8">Half-Fiend Sphinx</card>
+    <card qty="1" id="a76d9716-7719-4840-ae16-06cf5d2bed4c">Rubila</card>
+    <card qty="1" id="af590dfd-c80f-4a5f-aaac-47e13ce37108">Volatile Sentinel</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
